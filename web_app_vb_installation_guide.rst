@@ -123,3 +123,8 @@ Open the application
 
 Open your Internet browser and type the following URL in the browser
 address bar \ http://localhost/
+
+You can connect with the admin default credentials:
+
+* Login name: Admin
+* Password: Admin
