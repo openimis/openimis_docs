@@ -1,8 +1,6 @@
-.. sectnum::
-  :start: 3
 
-User Manual
-===========
+Web Application User Manual
+===========================
 
 The Insurance Management Information System (IMIS) is a web based software to manage health insurance schemes. It includes functionality for setup of the software to requirements of health insurance schemes, administration of policies and policy holders and for claim processing. This manual is a guide on the use and functionality of the software rather than in-depth technical reference. The Contents section, provide a reference to the page of each major chapter and the sub chapters within. By clicking on the content title (online version), the reader is re-directed to the position of the content title.
 

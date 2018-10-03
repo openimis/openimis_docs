@@ -14,7 +14,7 @@ Welcome to the openIMIS technical documentation repository.
 
    minimum_requirements
    database_sql_server_installation_guide
-   web_application_installation_guide
+   web_app_vb_installation_guide
    web_service_vb_installation_guide
    windows_services_installation_guide
    mobile_applications_configuration
@@ -23,7 +23,7 @@ Welcome to the openIMIS technical documentation repository.
    :maxdepth: 3
    :caption: User documentation
 
-   web_app_vb_user_manual 
+   web_app_vb_user_manual
 
 
 .. Contents

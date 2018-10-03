@@ -1,7 +1,5 @@
-.. sectnum::
-  :start: 1
 
-Minimum requirements 
+Minimum requirements
 ==================================
 
 - Windows Server 2012 R2
@@ -12,5 +10,4 @@ Minimum requirements
 
 - 300GB Hard drive
 
-- Administrator privileges 
-
+- Administrator privileges

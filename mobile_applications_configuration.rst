@@ -1,5 +1,3 @@
-.. sectnum::
-  :start: 2
 
 Mobile application configuration guide
 ======================================
@@ -11,15 +9,16 @@ To do so:
 
 -  Open Android Studio
 
--  Open the mobile app project you want to configure (available on 
+-  Open the mobile app project you want to configure (available on
    `openIMIS github <https://github.com/openimis>`__)
 
--  Locate the file called General.java in the project explorer.
+-  For the Claim and Enquiry apps, locate the file called General.java in the project explorer.
 
--  Edit the file by replacing the server's IP address or server name,
+-  For the IMIS app, locate the class AppInformation in the project explorer: .\\imis_android_app_java\\app\\src\\main\\java\\tz\\co\\exact\\imis\\AppInformation.java
+
+-  Edit the class by replacing the server's IP address or server name,
    and save.
 
 -  Build the app via the tools menu
 
--  The new .apk file is now available in the release folder indication
-   by Android Studio.
+-  The new .apk file is now available in the release folder indicated by Android Studio.
