@@ -1,6 +1,6 @@
 
-Database installation guide (SQL Server)
-========================================
+Database installation guide
+===========================
 
 Install SQL Server
 ------------------
@@ -27,18 +27,14 @@ Configure SQL Server
 
 Open the SQL Server Configuration Manager
 
-- On the left panel, select SQL Server Network Configuration → Protocols for SQLEXPRESS (or the name of your SQL Server instance)
+- On the left panel, select SQL Server Network Configuration → Protocols for SQLEXPRESS (or the name of your SQL Server instance) → Enable Named Pipes and TCP/IP
 
-  - Enable Named Pipes and TCP/IP
+- Select SQL Server Services → right click on SQL server (instance name) and select Restart
 
-- Select SQL Server Services
+Initialise openIMIS database
+----------------------------
 
-	- Right click on SQL server (instance name) and select Restart
-
-Initialise SQL Server database
-------------------------------
-
-To facilitate the setting up of the openIMIS database, it is suggested to install `SQL Server Management Studio<https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms>` (SSMS). The following procedure is based on SSMS, but you can use the standard SQL Server prompt to proceed with the setup.
+To facilitate the setting up of the openIMIS database, it is suggested to install `SQL Server Management Studio <https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms>`_ (SSMS). The following procedure is based on SSMS, but you can use the standard SQL Server prompt to proceed with the setup.
 
 First, download the openIMIS database backup files and migration scripts from Github repository (the source code ZIP file).
 
@@ -73,5 +69,5 @@ Upgrade the openIMIS database
 
 If an existing openIMIS database exists already, follow the next steps to upgrade it to the desired version:
 
-- Download the openIMIS database backup files and migration scripts from `Github repository <https://github.com/openimis/database_ms_sqlserver/releases/latest>` (the source code ZIP file).
+- Download the openIMIS database backup files and migration scripts from `Github repository <https://github.com/openimis/database_ms_sqlserver/releases/latest>`_ (the source code ZIP file).
 - In SQL Server Management Studio, run the migration script on the openIMIS database.
