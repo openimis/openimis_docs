@@ -2,6 +2,8 @@
 Web application installation guide
 ==================================
 
+**v1.2.0 and later**
+
 Install IIS
 -----------
 
@@ -14,7 +16,7 @@ Follow these steps to install IIS:
 - In Features
 
     - Select .NET Framework 3.5
-    
+
     - Select .NET Framework 4.6 and ASP.NET 4.6
 
 - In Web Server Role (IIS) → Role Services
