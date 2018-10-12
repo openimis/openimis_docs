@@ -2,6 +2,8 @@
 Mobile application configuration guide
 ======================================
 
+**v1.2.0 and later**
+
 Mobile apps need to be re-compiled with the correct server's IP address
 for it to be functional.
 

@@ -2,6 +2,8 @@
 Minimum requirements
 ==================================
 
+**v1.2.0 and later**
+
 - Windows Server 2012 R2
 
 - 4 CPUs

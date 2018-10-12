@@ -2,6 +2,8 @@
 Web service installation guide
 ==================================
 
+**v1.2.0 and later**
+
 Prerequisites
 -------------
 

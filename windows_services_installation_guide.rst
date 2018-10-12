@@ -3,6 +3,8 @@
 Windows services installation guide
 ==================================
 
+**v1.2.0 and later**
+
 Install and configure openIMIS Policy Renewal service
 -----------------------------------------------------
 
@@ -18,7 +20,7 @@ To configure the Policy Renewal service, right click on the service controller
  application in the system tray, select Settings, and fill in the settings as
  follows for example:
 
-  - Server: TPH-L14005\SQLEXPRESS (server instance name)
+  - Server: TPH-L14005\\SQLEXPRESS (server instance name)
   - Database: IMIS (IMIS database name)
   - User Name: ImisUser
   - Password: ●●●●●●●●●●●●●●●●●●●●

@@ -2,7 +2,9 @@
 Web application user manual
 ===========================
 
-The open Insurance Management Information System (openIMIS) is a web based software to manage health insurance schemes. It includes functionality for setup of the software to requirements of health insurance schemes, administration of policies and policy holders and for claim processing. This manual is a guide on the use and functionality of the software rather than in-depth technical reference. The Contents section, provide a reference to the page of each major chapter and the sub chapters within. By clicking on the content title (online version), the reader is re-directed to the position of the content title.
+**v1.2.0**
+
+The open Insurance Management Information System ( openIMIS ) is a web based software to manage health insurance schemes. It includes functionality for setup of the software to requirements of health insurance schemes, administration of policies and policy holders and for claim processing. This manual is a guide on the use and functionality of the software rather than in-depth technical reference. The Contents section, provide a reference to the page of each major chapter and the sub chapters within. By clicking on the content title (online version), the reader is re-directed to the position of the content title.
 
 .. The following conventions are used:
   - `<Hyperlink>`_  enable a quick link (using the online version) to the subject relating to the functionality,
@@ -46,7 +48,7 @@ Users’ roles and rights
 |     Manager           |     Over-sees         |     Create managerial |
 |                       |     operations of the |     statistics        |
 |                       |     health insurance  |                       |
-|                       |     scheme; runs IMIS |     Authorize         |
+|                       |     scheme; runs openIMIS |     Authorize         |
 |                       |     operational       |     issuance of a     |
 |                       |     reports analyses  |     substitution      |
 |                       |     data generated    |     membership card   |
@@ -61,7 +63,7 @@ Users’ roles and rights
 |                       |     Calculates claim  |     claim             |
 |                       |     amounts per       |                       |
 |                       |     health facility,  |     Transfer of a     |
-|                       |     runs IMIS         |     batch of claims   |
+|                       |     runs openIMIS         |     batch of claims   |
 |                       |     operational       |     for payment       |
 |                       |     reports and       |                       |
 |                       |     presents claims   |                       |
@@ -152,7 +154,7 @@ Users’ roles and rights
 |                       |                       | Facilities <#imis-ext |
 |                       |                       | racts-online-mode>`__ |
 +-----------------------+-----------------------+-----------------------+
-|     IMIS              |     Administers       | Administer the        |
+|     openIMIS              |     Administers       | Administer the        |
 |     Administrator     |     operations of the | register of           |
 |                       |     IMIS. Is          | `users <#_User_Ad     |
 |                       |     responsible for   | ministration>`__      |
@@ -203,7 +205,7 @@ Users’ roles and rights
 Login Access
 ------------
 
-To access the software, Users, must have a valid User Name and Password, provided by the “IMIS Administrator”. In the browser address bar type URL of the IMIS and request the start page. Login page will appear (:ref:`image1`).
+To access the software, Users, must have a valid User Name and Password, provided by the “IMIS Administrator”. In the browser address bar type URL of the openIMIS and request the start page. Login page will appear (:ref:`image1`).
 
 .. _image1:
 .. figure:: /img/user_manual/image1.png
@@ -234,9 +236,9 @@ Enter the ``Email`` linked to the account and click on the ``Submit`` button. In
 Administration of registers
 ---------------------------
 
-Registers of IMIS serve as a principal tool by which IMIS is adjusted to needs of health insurance schemes. With exception of the register of Users that can be managed only by users with the role IMIS Administrator, all other registers can be managed by users with the role Scheme Administrator.
+Registers of openIMIS serve as a principal tool by which openIMIS is adjusted to needs of health insurance schemes. With exception of the register of Users that can be managed only by users with the role openIMIS Administrator, all other registers can be managed by users with the role Scheme Administrator.
 
-The register of Users defines who can login to IMIS and under what constraints. The register of Locations defines administrative division of the territory, on which a health insurance scheme is operated. The register of Payers allows specification of institutional payers that can pay contributions on behalf of policy holders (households, groups of persons). The register of Enrolment Agents specifies all persons (either employed or contracted) by the scheme administration that are entitled to distribute/sell policies to population. The register of Claim Administrators specifies all employees of health facilities that are entitled to submit claims to the scheme administration. The register of Health Facilities contains all contractual health facilities that can submit claims to the scheme administration. The register of Medical Items specifies all possible medical items (drugs, prostheses, medical devices etc.) that can be used in definitions of packages of insurance products and in pricelists associated with contractual health facilities. The register of Pricelists that splits into two divisions for Medical Services and for Medical Items contains pricelists valid for individual health facilities or their groups reflecting results of price negotiations between contractual health facilities and the scheme administration. Finally, the register of Products includes definitions of all insurance products that can be distributed/ sold within the health insurance scheme.
+The register of Users defines who can login to openIMIS and under what constraints. The register of Locations defines administrative division of the territory, on which a health insurance scheme is operated. The register of Payers allows specification of institutional payers that can pay contributions on behalf of policy holders (households, groups of persons). The register of Enrolment Agents specifies all persons (either employed or contracted) by the scheme administration that are entitled to distribute/sell policies to population. The register of Claim Administrators specifies all employees of health facilities that are entitled to submit claims to the scheme administration. The register of Health Facilities contains all contractual health facilities that can submit claims to the scheme administration. The register of Medical Items specifies all possible medical items (drugs, prostheses, medical devices etc.) that can be used in definitions of packages of insurance products and in pricelists associated with contractual health facilities. The register of Pricelists that splits into two divisions for Medical Services and for Medical Items contains pricelists valid for individual health facilities or their groups reflecting results of price negotiations between contractual health facilities and the scheme administration. Finally, the register of Products includes definitions of all insurance products that can be distributed/ sold within the health insurance scheme.
 
 Insurance Products Administration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1906,7 +1908,7 @@ When a price list of medical items is deleted, all records retaining to the dele
 Users administration
 ^^^^^^^^^^^^^^^^^^^^^
 
-User administration is restricted to users with the role of IMIS Administrator.
+User administration is restricted to users with the role of openIMIS Administrator.
 
 Pre-conditions
 """"""""""""""
@@ -4058,7 +4060,7 @@ Insuree Page
 
       Browse to get the photo for the insuree related to his/her insurance number.
 
-  *Note: There is an automated service in the IMIS Server which will run on configured time basis repeatedly and assign related photos to insurees without photos if any exist in the IMIS database. So after a user has input insuree's insurance number and no photo is displayed, there is no need to browse for the photo as that process will be done automatically by the service if the service is configured.*
+  *Note: There is an automated service in the openIMIS Server which will run on configured time basis repeatedly and assign related photos to insurees without photos if any exist in the openIMIS database. So after a user has input insuree's insurance number and no photo is displayed, there is no need to browse for the photo as that process will be done automatically by the service if the service is configured.*
 
   **2. Saving**
 
@@ -4304,7 +4306,7 @@ When a contribution is deleted, all records retaining to the deleted contributio
 Claims
 ------
 
-The functionality under the menu ``Claims`` allows complete processing of claims from their entering into IMIS, modification, submission to processing, automatic checking of their correctness, reviewing of them by medical officers, their evaluating and preparation of report to an accounting system for their remuneration to contractual health facilities. Each claim can be consequently in several states. Once it is entered to IMIS (either by the mobile phone application **Claim Management** or typed in and saved in IMIS) it goes to the status **Entered**. When it is submitted and it successfully passes at least some automatic checks, the claim goes to the status **Checked**. If the claim doesn’t pass automatic checking it goes to the status **Rejected** and its processing ends. The claim in the status **Checked** may be reviewed from medical point of view and/or a feedback on it can be collected from the patient. Medical reviewing and feedback acquiring can be by-passed. Ones such (manual) scrutiny of the claim is at the end, the claim may be pushed to the status **Processed**. In this status the claim is evaluated in nominal prices, taking into account all ceilings, deductibles and other cost sharing rules associated with insurance product or products covering claimed health care. If there is no medical service or medical item price of which a relative one according to the corresponding insurance product, the claim goes automatically to the status **Valuated**. If there is at least one medical service or medical item with relative pricing, the claim goes to the status **Valuated** only after a batch for corresponding period is run. The batch for a period (month, quarter, year) finishes evaluation of relative prices on claims on one hand and summarizes all claims in the period for accounting system that is external to IMIS (it is not a part of it). Different values (prices) of a claim are associated with each stage of processing of claims. When a claim is entered the value of the claim based on nominal prices of claimed medical services/items is designated as **Claimed Value**. **Claimed Value** is associated with the state **Entered**. The value of the claim after automatic checking of claims during submission of the claim and after manual interventions of medical officers is designated as **Approved Value**. **Approved Value** is associated with the state **Checked**. The value of the claim after corrections based on all cost sharing rules of covering insurance products is designated as **Adjusted Value**. **Adjusted Value** is associated with the state **Processed**. The final value of the claim taking into account actual value of relative prices is designated as **Paid Value**. **Paid Value** is associated with the state **Valuated**.
+The functionality under the menu ``Claims`` allows complete processing of claims from their entering into IMIS, modification, submission to processing, automatic checking of their correctness, reviewing of them by medical officers, their evaluating and preparation of report to an accounting system for their remuneration to contractual health facilities. Each claim can be consequently in several states. Once it is entered to openIMIS (either by the mobile phone application **Claim Management** or typed in and saved in IMIS) it goes to the status **Entered**. When it is submitted and it successfully passes at least some automatic checks, the claim goes to the status **Checked**. If the claim doesn’t pass automatic checking it goes to the status **Rejected** and its processing ends. The claim in the status **Checked** may be reviewed from medical point of view and/or a feedback on it can be collected from the patient. Medical reviewing and feedback acquiring can be by-passed. Ones such (manual) scrutiny of the claim is at the end, the claim may be pushed to the status **Processed**. In this status the claim is evaluated in nominal prices, taking into account all ceilings, deductibles and other cost sharing rules associated with insurance product or products covering claimed health care. If there is no medical service or medical item price of which a relative one according to the corresponding insurance product, the claim goes automatically to the status **Valuated**. If there is at least one medical service or medical item with relative pricing, the claim goes to the status **Valuated** only after a batch for corresponding period is run. The batch for a period (month, quarter, year) finishes evaluation of relative prices on claims on one hand and summarizes all claims in the period for accounting system that is external to openIMIS (it is not a part of it). Different values (prices) of a claim are associated with each stage of processing of claims. When a claim is entered the value of the claim based on nominal prices of claimed medical services/items is designated as **Claimed Value**. **Claimed Value** is associated with the state **Entered**. The value of the claim after automatic checking of claims during submission of the claim and after manual interventions of medical officers is designated as **Approved Value**. **Approved Value** is associated with the state **Checked**. The value of the claim after corrections based on all cost sharing rules of covering insurance products is designated as **Adjusted Value**. **Adjusted Value** is associated with the state **Processed**. The final value of the claim taking into account actual value of relative prices is designated as **Paid Value**. **Paid Value** is associated with the state **Valuated**.
 
 Heath Facility Claims
 ^^^^^^^^^^^^^^^^^^^^^
@@ -5502,63 +5504,413 @@ The Batch Run Control Page is the central point for batch processing administrat
 Tools
 -----
 
-Upload List of Diagnoses
-^^^^^^^^^^^^^^^^^^^^^^^^
+Upload / Download selected registers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Access to uploading of diagnoses is restricted to the users with the role of IMIS Administrator.
+Access to uploading/downloading of selected registers is restricted to the users with the role of openIMIS Administrator.
 
 Navigation
 """"""""""
 
-All functionality for use with the administration of uploading of the list of diagnoses can be found under the main menu ``Tools``, sub menu ``Upload Diagnoses``.
+All functionality for use with the administration of uploading/downloading of selected registers can be found under the main menu ``Tools``, sub menu ``Registers``.
 
 .. _image166:
-.. figure:: /img/user_manual/image136.png
+.. figure:: /img/user_manual/image136.jpeg
   :align: center
 
-  `Image 166 - Navigation Upload Diagnoses`
+  `Image 166 - Navigation to Registers`
 
-Clicking on the sub menu ``Upload Diagnoses`` re-directs the current user to the `Upload Diagnoses Page <#image-6.2-upload-diagnoses-page>`__\.
+Clicking on the sub menu ``Registers`` re-directs the current user to the `Registers Page`: (:ref:`image166`)
+
+Registers page
+""""""""""""""
 
 .. _image167:
-.. figure:: /img/user_manual/image137.png
+.. figure:: /img/user_manual/image137.jpeg
   :align: center
 
-  `Image 167 - Upload Diagnoses Page`
+  `Image 167 - Upload Registers`
 
-The Upload Diagnoses Page is divided into three sections (:ref:`image167`).
+The Registers Page is divided into eight sections: (:ref:`image167`)
 
-  A. Select Criteria
+A. Upload of the list of diagnoses
 
-  The Select Criteria allows the user to choose file containing diagnoses codes; that should be uploaded. Also a user can select the option whether or not to delete existing codes, if the code is not in the source file. The source file containing the uploaded list of diagnoses is a **txt** file having in the title (first) row (items separated by a **Tab** character):
+  -  ``Browse``
 
-  ..
+  Select from a file in the XML format serving as a source for
+  uploading of the list of diagnoses. Mandatory.
 
-  CDCode  ICDName
+  -  ``Strategy``
 
-  ..
+  Select a desired strategy for uploading of the list of diagnoses. The
+  following options are available:
 
-  And on each subsequent row is the code of one diagnosis and its name separated by a **Tab** character
+    -  ``Insert Only``
 
-  B. Buttons
+    Uploads only diagnoses that are not yet included in the list of
+    diagnoses
 
-    -  ``Upload``
+    -  ``Update Only``
 
-      By clicking on the Upload button, a prompt popup message will appear, require a user to agree or disagree (:ref:`image168`). If user agrees the selected file containing list of diagnoses will be uploaded.
+    Updates only diagnoses that are already included in the list of
+    diagnoses
 
-      .. _image168:
-      .. figure:: /img/user_manual/image138.png
-        :align: center
+    -  ``Insert and Update``
 
-        `Image 168 - Upload Diagnoses`
+    Uploads diagnoses that are not yet included in the list of diagnoses
+    and updates diagnoses that are already included in the list of
+    diagnoses
 
-    -  ``Cancel``
+    -  ``Insert, Update and Delete``
 
-      By clicking on ``Cancel`` button, user will be re-directed to `Home page <#image-2.2-home-page>`__.
+    Uploads diagnoses that are not yet included in the list of
+    diagnoses, updates diagnoses that are already included in the list of
+    diagnoses and deletes diagnose that are not included in the source
+    file
 
-  C. Information Panel
+  Mandatory.
+
+  -  ``Dry Run``
+
+  If checked, only diagnostics is provided without real uploading.
+
+  -  ``Upload``
+
+  By clicking on the ``Upload`` button, a prompt popup message
+  will appear, require a user to agree or disagree: (:ref:`image_upload_diagnoses`).
+  If user agrees the selected file containing diagnoses will be uploaded.
+
+  .. _image_upload_diagnoses:
+  .. figure:: /img/user_manual/image138.png
+    :align: center
+
+    `Upload Diagnoses`
+
+  A statistics on the number of inserted/updated diagnoses appears:
+  (:ref:`image_upload_diagnoses_statistics`).
+
+  .. _image_upload_diagnoses_statistics:
+  .. figure:: /img/user_manual/image139.png
+    :align: center
+
+    `Statistics on uploaded diagnoses`
+
+  If there are errors an error protocol appears: (:ref:`image_upload_diagnoses_error`)
+
+  .. _image_upload_diagnoses_error:
+  .. figure:: /img/user_manual/image_upload_diagnoses_error.png
+    :align: center
+
+    `Error protocol on uploaded diagnoses`
+
+  +--------------------------------------------------------------------------+
+  | *DTD definition of the XML file for uploading/downloading of diagnoses:* |
+  |                                                                          |
+  |    <!DOCTYPE Diagnoses> [                                                |
+  |                                                                          |
+  |    <!ELEMENT Diagnoses (Diagnosis)*>                                     |
+  |                                                                          |
+  |    <!ELEMENT Diagnosis (DiagnosisCode, DiagnosisName)>                   |
+  |                                                                          |
+  |    < !ELEMENT DiagnosisCode (#CDATA)>                                    |
+  |                                                                          |
+  |    < !ELEMENT DiagnosisName (#CDATA)>                                    |
+  |                                                                          |
+  |    ]>                                                                    |
+  +--------------------------------------------------------------------------+
+
+B. Upload of the register of locations
+
+  -  ``Browse``
+
+  Select from a file in the XML format serving as a source for
+  uploading of the register of locations. Mandatory.
+
+  - ``Strategy``
+
+  Select a desired strategy for uploading of the register of locations.
+  The following options are available:
+
+    -  ``Insert Only``
+
+    Uploads only locations that are not yet included in the register of
+    locations
+
+    -  ``Update Only``
+
+    Updates only locations that are already included in the register of
+    locations
+
+    -  ``Insert and Update``
+
+    Uploads locations that are not yet included in the register of
+    locations and updates locations that are already included in the
+    register of locations
+
+  Mandatory.
+
+  -  ``Dry Run``
+
+  If checked only diagnostics is provided without real uploading.
+
+  -  ``Upload``
+
+  By clicking on the Upload button, a prompt popup message will appear,
+  require a user to agree or disagree (:ref:`image_upload_locations`). If user agrees the
+  selected file containing locations will be uploaded.
+
+  .. _image_upload_locations:
+  .. figure:: /img/user_manual/image_upload_locations.png
+    :align: center
+
+    `Upload Locations`
+
+  A statistics on the number of inserted/updated locations appears
+  (:ref:`image_upload_locations_statistics`)
+
+  .. _image_upload_locations_statistics:
+  .. figure:: /img/user_manual/image_upload_locations_statistics.png
+    :align: center
+
+    `Upload Locations statistics`
+
+  If there are errors an error protocol appears
+  (:ref:`image_upload_locations_error`)
+
+  .. _image_upload_locations_error:
+  .. figure:: /img/user_manual/image_upload_locations_error.png
+    :align: center
+
+    `Upload Locations error`
+
+  +-----------------------------------------------------------------------+
+  | *DTD definition of the XML file for uploading/downloading of          |
+  | locations:*                                                           |
+  |                                                                       |
+  |    <!DOCTYPE Locations> [                                             |
+  |                                                                       |
+  |    <!ELEMENT Locations (Regions, Districts, Municipalities,           |
+  |    Villages)>                                                         |
+  |                                                                       |
+  |    <!ELEMENT Regions (Region*)>                                       |
+  |                                                                       |
+  |    <!ELEMENT Region (RegionCode, RegionName)>                         |
+  |                                                                       |
+  |    < !ELEMENT RegionCode (#CDATA)>                                    |
+  |                                                                       |
+  |    < !ELEMENT RegionName (#CDATA)>                                    |
+  |                                                                       |
+  |    <!ELEMENT Districts (District*)>                                   |
+  |                                                                       |
+  |    <!ELEMENT District (RegionCode,DistrictCode, DistrictName)>        |
+  |                                                                       |
+  |    < !ELEMENT RegionCode (#CDATA)>                                    |
+  |                                                                       |
+  |    < !ELEMENT DistrictCode (#CDATA)>                                  |
+  |                                                                       |
+  |    < !ELEMENT DistrictName (#CDATA)>                                  |
+  |                                                                       |
+  |    <!ELEMENT Municipalities (Municipality*)>                          |
+  |                                                                       |
+  |    <!ELEMENT Municipality (DistrictCode,MunicipalityCode,             |
+  |    MunicipalityName)>                                                 |
+  |                                                                       |
+  |    < !ELEMENT DistrictCode (#CDATA)>                                  |
+  |                                                                       |
+  |    < !ELEMENT MunicipalityCode (#CDATA)>                              |
+  |                                                                       |
+  |    < !ELEMENT MunicipalityName (#CDATA)>                              |
+  |                                                                       |
+  |    <!ELEMENT Villages (Village*)>                                     |
+  |                                                                       |
+  |    <!ELEMENT Village (MunicipalityCode,VillageCode,                   |
+  |    VillageName,MalePopulation ?, FemalePopulation ?,                  |
+  |    OtherPopulation,Families ?)>                                       |
+  |                                                                       |
+  |    < !ELEMENT MunicipalityCode (#CDATA)>                              |
+  |                                                                       |
+  |    < !ELEMENT VillageCode (#CDATA)>                                   |
+  |                                                                       |
+  |    < !ELEMENT VillageName (#CDATA)>                                   |
+  |                                                                       |
+  |    < !ELEMENT MalePopulation (#CDATA)>                                |
+  |                                                                       |
+  |    < !ELEMENT FemalePopulation (#CDATA)>                              |
+  |                                                                       |
+  |    < !ELEMENT OtherPopulation (#CDATA)>                               |
+  |                                                                       |
+  |    < !ELEMENT Families (#CDATA)>                                      |
+  |                                                                       |
+  |    ]>                                                                 |
+  +-----------------------------------------------------------------------+
+
+C. Upload of the register of health facilities
+
+  -  ``Browse``
+
+  Select from a file in the XML format serving as a source for
+  uploading of the register of health facilities. Mandatory.
+
+  -  ``Strategy``
+
+  Select a desired strategy for uploading of the register of health
+  facilities. The following options are available:
+
+    -  ``Insert Only``
+
+    Uploads only health facilities that are not yet included in the
+    register of health facilities
+
+    -  ``Update Only``
+
+    Updates only health facilities that are already included in the
+    register of health facilities
+
+    -  ``Insert and Update``
+
+    Uploads health facilities that are not yet included in the register
+    of health facilities and updates health facilities that are already
+    included in the register of health facilities
+
+  Mandatory.
+
+  -  ``Dry Run``
+
+  If checked only diagnostics is provided without real uploading.
+
+  -  ``Upload``
+
+  By clicking on the Upload button, a prompt popup message will appear,
+  require a user to agree or disagree: (:ref:`image_upload_facilities`)
+  If user agrees the selected file containing locations will be uploaded.
+
+  .. _image_upload_facilities:
+  .. figure:: /img/user_manual/image_upload_facilities.png
+    :align: center
+
+    `Upload Health Facilities`
+
+  A statistics on the number of inserted/updated health facilities
+  appears.
+
+  If there are errors an error protocol appears.
+
+  +-----------------------------------------------------------------------+
+  | *DTD definition of the XML file for uploading/downloading of health   |
+  | facilities:*                                                          |
+  |                                                                       |
+  |    <!DOCTYPE HealthFacilities> [                                      |
+  |                                                                       |
+  |    <!ELEMENT HealthFacilities                                         |
+  |    (HealthFacilityDetails,CatchmentsDetails)>                         |
+  |                                                                       |
+  |    <!ELEMENT HealthFacilityDetails (HealthFacility)*>                 |
+  |                                                                       |
+  |    <!ELEMENT HealthFacility (LegalForm, Level, Sublevel, Code, Name,  |
+  |    Address, DistrictCode, DistrictName, Phone, Fax, Email, CareType,  |
+  |    AccountCode, ItemPriceListName. ServicePricelistName)>             |
+  |                                                                       |
+  |    <!ELEMENT LegalForm (D\| C|G|P)>                                   |
+  |                                                                       |
+  |    <!ELEMENT Level (D|C|H)>                                           |
+  |                                                                       |
+  |    <!ELEMENT SubLevel (I|N|R)>                                        |
+  |                                                                       |
+  |    <!ELEMENT Code (#CDATA)>                                           |
+  |                                                                       |
+  |    <!ELEMENT Name (#CDATA)>                                           |
+  |                                                                       |
+  |    <!ELEMENT Address (#CDATA)>                                        |
+  |                                                                       |
+  |    <!ELEMENT DistrictCode (#CDATA)>                                   |
+  |                                                                       |
+  |    <!ELEMENT DistrictName (#CDATA)>                                   |
+  |                                                                       |
+  |    <!ELEMENT Phone (#CDATA)>                                          |
+  |                                                                       |
+  |    <!ELEMENT Fax (#CDATA)>                                            |
+  |                                                                       |
+  |    <!ELEMENT Email (#CDATA)>                                          |
+  |                                                                       |
+  |    <!ELEMENT CareType (I|N|B)>                                        |
+  |                                                                       |
+  |    <!ELEMENT AccountCode (#CDATA)>                                    |
+  |                                                                       |
+  |    <!ELEMENT ItemPriceListName (#CDATA)>                              |
+  |                                                                       |
+  |    <!ELEMENT ServicePriceListName (#CDATA)>                           |
+  |                                                                       |
+  |    <!ELEMENT CatchmentsDetails(Catchment*)>                           |
+  |                                                                       |
+  |    <!ELEMENT Catchment (HFCode,VillageCode, VillageName, Percentage)> |
+  |                                                                       |
+  |    <!ELEMENT HFCode (#CDATA)>                                         |
+  |                                                                       |
+  |    <!ELEMENT VillageCode (#CDATA)>                                    |
+  |                                                                       |
+  |    <!ELEMENT VillageName (#CDATA)>                                    |
+  |                                                                       |
+  |    <!ELEMENT Percentage (#CDATA)>                                     |
+  |                                                                       |
+  |    ]>                                                                 |
+  +-----------------------------------------------------------------------+
+
+D. Download of the list diagnoses
+
+  -  ``Download``
+
+  By clicking on the Download button, a prompt popup message will
+  appear, require a user to specify whether the XML file with
+  downloaded list of diagnoses should be opened or saved or canceled:
+  (:ref:`image_download_diagnoses`)
+
+  .. _image_download_diagnoses:
+  .. figure:: /img/user_manual/image_download_diagnoses.png
+    :align: center
+
+    `Download Diagnoses`
+
+E. Download of the register of locations
+
+  -  ``Download``
+
+  By clicking on the Download button, a prompt popup message will
+  appear, require a user to specify whether the XML file with
+  downloaded register of locations should be opened or saved or
+  canceled (:ref:`image_download_locations`)
+
+  .. _image_download_locations:
+  .. figure:: /img/user_manual/image_download_locations.png
+    :align: center
+
+    `Download locations`
+
+F. Download of the register of health facilities
+
+  -  ``Download``
+
+  By clicking on the Download button, a prompt popup message will
+  appear, require a user to specify whether the XML file with
+  downloaded register of health facilities should be opened or saved or
+  canceled (:ref:`image_download_facilities`)
+
+  .. _image_download_facilities:
+  .. figure:: /img/user_manual/image_download_facilities.png
+    :align: center
+
+    `Download facilities`
+
+G. Buttons
+
+-  ``Cancel``
+
+  By clicking on ``Cancel`` button, user will be re-directed to the Home
+  page.
+
+H. Information Panel
 
   The Information Panel is used to display messages back to the user.
+
 
 Policy Renewals
 ^^^^^^^^^^^^^^^
@@ -5655,11 +6007,6 @@ By having access to this page, it is possible preview the report on policy renew
 
   The Information Panel is used to display messages back to the user. Messages will occur once a user has updated the policy status or if there was an error at any time during the process of these actions.
 
-  .. _image171:
-  .. figure:: /img/user_manual/image141.png
-    :align: center
-
-    `Image171 - Policy Renewal updated successfully message`
 
 Preview Report on Renewals
 """"""""""""""""""""""""""
@@ -5772,12 +6119,12 @@ The Feedback Prompt Page is divided into three panels (:ref:`image175`).
 IMIS Extracts
 ^^^^^^^^^^^^^
 
-Access to the IMIS Extracts page is restricted to users with the role of Scheme Administrator (IMIS Central online) or HF Administrator (offline installations). This page will contain all functionality for data synchronization between IMIS Central and IMIS offline installations as well as the generation of extract files for the mobile phones (Android). Depending on the type of installation, the interface will enable and disable certain functions.
+Access to the openIMIS Extracts page is restricted to users with the role of Scheme Administrator (IMIS Central online) or HF Administrator (offline installations). This page will contain all functionality for data synchronization between openIMIS Central and openIMIS offline installations as well as the generation of extract files for the mobile phones (Android). Depending on the type of installation, the interface will enable and disable certain functions.
 
 Pre-conditions
 """"""""""""""
 
-The extract functionality is covering extracts for the mobile phone applications and the IMIS ‘offline’ installations. Offline extracts are only to be generated in case a district has so called ‘off-line’ installations in areas where no Internet connectivity is available.
+The extract functionality is covering extracts for the mobile phone applications and the openIMIS ‘offline’ installations. Offline extracts are only to be generated in case a district has so called ‘off-line’ installations in areas where no Internet connectivity is available.
 
 ..
 
@@ -5785,41 +6132,60 @@ Extracts are to be downloaded to the local PC that is initiating the creation of
 
 ..
 
-Standard procedures should be formulated to stipulate the time interval between Extract creations and the management of transporting and installing/transferring these extracts into the target environment: mobile phones or offline IMIS clients.
+Standard procedures should be formulated to stipulate the time interval between Extract creations and the management of transporting and installing/transferring these extracts into the target environment: mobile phones or offline openIMIS clients.
 
 Navigation
 """"""""""
 
-All functionality related to IMIS extracts can be found under the main menu ``Tools``, sub menu ``IMIS Extracts``
+All functionality related to openIMIS extracts can be found under the main menu ``Tools``, sub menu ``IMIS Extracts``
 
 .. _image177:
 .. figure:: /img/user_manual/image147.png
   :align: center
 
-  `Image 177 - Navigation IMIS Extracts`
+  `Image 177 - Navigation openIMIS Extracts`
 
 Clicking on the sub menu ``IMIS Extracts`` re-directs the current user to the ``IMIS Extracts Page.``
 
 ..
 
-This page opens in two different modes depending on the type of IMIS installation: IMIS Central (live server) or IMIS offline (installed on local network in a health facility or an office of the scheme administration).
+This page opens in two different modes depending on the type of openIMIS installation: openIMIS Central (live server) or openIMIS offline (installed on local network in a health facility or an office of the scheme administration).
 
 IMIS Extracts (online mode)
 """""""""""""""""""""""""""
 
 .. _image178:
-.. figure:: /img/user_manual/image148.png
+.. figure:: /img/user_manual/image148.jpeg
   :align: center
 
-  `Image 178 - IMIS Extracts`
+  `Image 178 - openIMIS Extracts`
 
-**A - Phone Extract panel**
+The Extracts Page is divided into eight sections `(Image
+6.23) <#image-6.2-registers-page>`__\ \ .
+
+**A - Download Master Data section**
+
+The Master Data section is used for generation of the data needed for
+off-line operation of IMIS (Policies) application run on Android
+platforms. The following data files can be downloaded:
+
+  -  Master data for running IMIS (Policies) application **(Download
+     Master Data)**
+
+  -  Prompts for renewal of policies **(Download Renewals)**
+
+  -  Prompts for acquiring of feedbacks **(Download Feedbacks)**
+
+  -  **Enrolment Officers Code**: Enter the code of an enrolment officer for
+     whom the master data and prompts should be generated.
+
+**B - Create Phone Extract section**
 
 The Phone extract panel is used for the generation of so called SQLite database files for the mobile phone applications. Each district will have its own phone extract file that needs to be distributed to the mobile phones within the district. To generate a phone extract file, the operator has to select a region and a district from the list of available districts. In case the user is having access to its own district only, the district will be automatically selected and shown on the display.
 
 ..
 
-By clicking the ``Create`` button in panel A, a phone extract will be created. This process might take a while. As long as the hour glass (as a cursor) is shown, IMIS is still processing the file. The file size depends on the amount of photographs included in the extract. The file size could range into hundreds of MBs. To alleviate this problem two options are available:
+By clicking the ``Create`` button in panel the section, a phone extract will be created. This process might take a while. As long as the hour glass (as a cursor) is shown, openIMIS is still processing the file. The file size depends on the amount of photographs included in the extract. The file size could range into hundreds of MBs. To alleviate this problem two options are available:
 
     -  ``With Insurees``
 
@@ -5863,9 +6229,9 @@ The extract file is called **IMISDATA.DB3** and needs first to be copied (downlo
 
 The extract is now ready to be transferred/copied to the mobile phones. This process is performed manually by connecting the mobile phone to the computer with the provided USB cable. The user needs to copy, manually, the file from the local machine into the ‘IMIS’ Folder on the mobile phone.
 
-**B - Offline Extract panel**
+**C - Offline Extract section**
 
-The offline extract panel is used to generate the IMIS ‘offline’ extract files for the health facilities or offices of the scheme administration that run IMIS offline. To generate an offline extract file, the operator has to select a region and a district from the list of available districts. In case the user is having access to its own district only, the district will be automatically selected and shown on the display. When an operator belongs to one specific district, the district box is already selected with the district of the user. To create a new extract, the operator needs to click the ``Create`` button (in panel B).
+The offline extract section is used to generate the openIMIS ‘offline’ extract files for the health facilities or offices of the scheme administration that run openIMIS offline. To generate an offline extract file, the operator has to select a region and a district from the list of available districts. In case the user is having access to its own district only, the district will be automatically selected and shown on the display. When an operator belongs to one specific district, the district box is already selected with the district of the user. To create a new extract, the operator needs to click the ``Create`` button.
 
 ..
 
@@ -5935,7 +6301,7 @@ We are now ready to download the extract to our computer.
 
 ..
 
-The combo box next to the district selector contains information on all generated extracts with the sequence number and date. (e.g. Sequence 000007 – Date 06-09-2012). If the extract selector does not show any entries (blank) it means that no previous extracts were created. At least one full extract needs to be generated. This is needed to initialise a new offline IMIS installation.
+The combo box next to the district selector contains information on all generated extracts with the sequence number and date. (e.g. Sequence 000007 – Date 06-09-2012). If the extract selector does not show any entries (blank) it means that no previous extracts were created. At least one full extract needs to be generated. This is needed to initialise a new offline openIMIS installation.
 
 ..
 
@@ -6011,19 +6377,58 @@ In case the extract is created in the background, the following dialog box appea
 
   `Image 192`
 
-**C - Import Extract panel**
+**D - Upload Claims section**
 
-This panel will be disabled in the IMIS online mode. (Only available for IMIS offline)
+  -  **Browse**
 
-**D - Import Photos panel**
+  ..
 
-This panel will be disabled in the IMIS online mode. (Only available for IMIS offline)
+     Browse for the file from the IMIS-Offline or IMIS (Claims )
+     application containing claims to be uploaded.
 
-**E - Button panel**
+  -  Upload
+
+  ..
+
+     Upload claims contained in the selected file.
+
+**E - Upload Enrolment section**
+
+  -  **Browse**
+
+  ..
+
+     Browse for the file from the IMIS-Offline or IMIS (Policies
+     )application containing newly enrolled or renewed policies to be
+     uploaded.
+
+  -  Upload
+
+  ..
+
+     Upload policies contained in the selected file.
+
+**F - Upload Feedback section**
+
+  -  **Browse**
+
+  ..
+
+     Browse for the file from the IMIS-Offline or IMIS (Policies
+     )application containing feedbacks to be uploaded.
+
+  -  Upload
+
+  ..
+
+     Upload feedbacks contained in the selected file.
+
+
+**G - Button section**
 
 The ``Cancel`` button brings the operator back to the `Home Page <#image-2.2-home-page>`__.
 
-**F - Information panel**
+**H - Information panel**
 
 The Information Panel is used to display messages back to the user. Messages will occur once an action has completed or if there was an error at any time during the process of these actions.
 
@@ -6158,12 +6563,12 @@ The ‘Cancel’ button brings the operator back to the main page of IMIS.
 
 **F - Information panel**
 
-The Information Panel is used to display messages back to the user. Messages will occur once an action has completed or if there was an error at any time during the process of these actions. If the user opens the IMIS extracts page (in offline mode only), the status bar will show the last sequence number uploaded.
+The Information Panel is used to display messages back to the user. Messages will occur once an action has completed or if there was an error at any time during the process of these actions. If the user opens the openIMIS extracts page (in offline mode only), the status bar will show the last sequence number uploaded.
 
 Reports
 ^^^^^^^
 
-Access to the reports is generally restricted to the users with the role of Manager, Accountant, Scheme Administrator and IMIS Administrator. By having access to the ``Reports Page``, it is possible to generate several operational reports. Each report can be generated by users with a specific role (Manager, Accountant, Scheme Administrator and IMIS Administrator) only.
+Access to the reports is generally restricted to the users with the role of Manager, Accountant, Scheme Administrator and openIMIS Administrator. By having access to the ``Reports Page``, it is possible to generate several operational reports. Each report can be generated by users with a specific role (Manager, Accountant, Scheme Administrator and openIMIS Administrator) only.
 
 Pre-Conditions
 """"""""""""""
@@ -6951,7 +7356,7 @@ Below are the types of reports as they can be seen in the report page.
 
   **6. Contribution distribution report**
 
-  The report provides proportional amount of actually paid contributions allocated by IMIS to specific months according to insurance products. The report can be run by users with the role Accountant. This report shows the information about the **Total collection**, **Allocated amount** and **Not allocated** amount for contributions in the specified period.
+  The report provides proportional amount of actually paid contributions allocated by openIMIS to specific months according to insurance products. The report can be run by users with the role Accountant. This report shows the information about the **Total collection**, **Allocated amount** and **Not allocated** amount for contributions in the specified period.
 
   ..
 
@@ -6969,7 +7374,7 @@ Below are the types of reports as they can be seen in the report page.
 
   **7. user activity report**
 
-  The report shows activities of users according to types of activities and types of entities to which the activities relate. The report can be run by users with the role IMIS Administrator. Below is an example of the report:
+  The report shows activities of users according to types of activities and types of entities to which the activities relate. The report can be run by users with the role openIMIS Administrator. Below is an example of the report:
 
   .. _image231:
   .. figure:: /img/user_manual/image199.png
@@ -7019,7 +7424,7 @@ Below are the types of reports as they can be seen in the report page.
 
   **12. claim overview**
 
-  The report provides detailed data about results of processing of claims in IMIS according to insurance products and health facilities. The report can be used as a tool for communication between a health insurance scheme and its contractual health facilities. The report can be run by users with the role Accountant. Claims are assigned to the specified period according to date of provision of health care (in case of in-patient care according to the date of discharge). Below is an example of the report:
+  The report provides detailed data about results of processing of claims in openIMIS according to insurance products and health facilities. The report can be used as a tool for communication between a health insurance scheme and its contractual health facilities. The report can be run by users with the role Accountant. Claims are assigned to the specified period according to date of provision of health care (in case of in-patient care according to the date of discharge). Below is an example of the report:
 
   .. _image236:
   .. figure:: /img/user_manual/image204.png
@@ -7065,7 +7470,7 @@ Below are the types of reports as they can be seen in the report page.
 
   **16. Pending Insurees report**
 
-  The report lists all insurees whose photos have been sent to IMIS but who has no record in IMIS yet. The report can be run by users with the role Accountant.  Below is an example of the report:
+  The report lists all insurees whose photos have been sent to openIMIS but who has no record in openIMIS yet. The report can be run by users with the role Accountant.  Below is an example of the report:
 
   .. _image240:
   .. figure:: /img/user_manual/image208.png
@@ -7096,11 +7501,11 @@ Below are the types of reports as they can be seen in the report page.
 Utilities
 ^^^^^^^^^
 
-Access to the ``Utilities`` is restricted to the users with the role of IMIS Administrator.
+Access to the ``Utilities`` is restricted to the users with the role of openIMIS Administrator.
 
 ..
 
-The ``Utilities`` is the place for database administration. By having access to this page, it is possible to backup and restore the IMIS operational database and also to execute SQL Scripts (patches provided for maintenance or update of the database). At the top of the page, the current “Backend” version is displayed for reference.
+The ``Utilities`` is the place for database administration. By having access to this page, it is possible to backup and restore the openIMIS operational database and also to execute SQL Scripts (patches provided for maintenance or update of the database). At the top of the page, the current “Backend” version is displayed for reference.
 
 Navigation
 """"""""""
@@ -7155,7 +7560,7 @@ Access to the ``Funding`` is restricted to the users with the role of Accountant
 
 ..
 
-The ``Funding`` is the place where funding from external authorities (payers) can be for entered. IMIS creates internally one fictive family/group (the insurance number of the head of the fictive family/group is 999999999, the name is *Funding* and the other name is *Funding* as well) for the district for which a funding is done. Each entering of a fund results in creation of a fictive policy for the corresponding fictive family/group with paid contribution in the amount of the funding. The fictive policy is active since the date of payment of the corresponding fund. These fictive policies are overpaid as these funds are usually much higher than the contribution rate for a single family/member of the group but it doesn’t matter. External funding corresponds to payment of contributions for many families/members of the group in some period. IMIS can regard funds as standard contributions and its standard functionality can be used for handling of funds. One distinctive feature of payment of funds by means of the fictive policies is that the payments of funds don’t appear in the reports on matching funds generated for funding authorities. So, there is no danger that offices of the scheme administration would acquire new funds based on funding already acquired.
+The ``Funding`` is the place where funding from external authorities (payers) can be for entered. openIMIS creates internally one fictive family/group (the insurance number of the head of the fictive family/group is 999999999, the name is *Funding* and the other name is *Funding* as well) for the district for which a funding is done. Each entering of a fund results in creation of a fictive policy for the corresponding fictive family/group with paid contribution in the amount of the funding. The fictive policy is active since the date of payment of the corresponding fund. These fictive policies are overpaid as these funds are usually much higher than the contribution rate for a single family/member of the group but it doesn’t matter. External funding corresponds to payment of contributions for many families/members of the group in some period. openIMIS can regard funds as standard contributions and its standard functionality can be used for handling of funds. One distinctive feature of payment of funds by means of the fictive policies is that the payments of funds don’t appear in the reports on matching funds generated for funding authorities. So, there is no danger that offices of the scheme administration would acquire new funds based on funding already acquired.
 
 Navigation
 """"""""""
@@ -7289,7 +7694,7 @@ IMIS system can be used in offline mode, which makes it possible for usage by he
 OFFLINE FACILITIES
 ^^^^^^^^^^^^^^^^^^
 
-Facilities available while offline and online in IMIS, are similar with some few differences. The following are the feature wise differences found while using IMIS in offline mode.
+Facilities available while offline and online in IMIS, are similar with some few differences. The following are the feature wise differences found while using openIMIS in offline mode.
 
   A. ``LOGIN``
 
@@ -7299,55 +7704,55 @@ Facilities available while offline and online in IMIS, are similar with some few
   .. figure:: /img/user_manual/image218.png
     :align: center
 
-    `Image 251 - Enter HF ID - HF Administrator Login, IMIS offline`
+    `Image 251 - Enter HF ID - HF Administrator Login, openIMIS offline`
 
   .. _image252:
   .. figure:: /img/user_manual/image219.png
     :align: center
 
-    `Image 252 - Enter Scheme Office ID - offline Scheme Administrator Login, IMIS offline`
+    `Image 252 - Enter Scheme Office ID - offline Scheme Administrator Login, openIMIS offline`
 
   B. ``INFORMATION BAR``
 
-  Throughout the application, an information bar at the bottom of each page will have a different background colour to that of online IMIS and on the its right end, there will be shown heath facility code and health facility name / Scheme Office ID submitted (:ref:`image253`), (:ref:`image254`).
+  Throughout the application, an information bar at the bottom of each page will have a different background colour to that of online openIMIS and on the its right end, there will be shown heath facility code and health facility name / Scheme Office ID submitted (:ref:`image253`), (:ref:`image254`).
 
   .. _image253:
   .. figure:: /img/user_manual/image220.png
     :align: center
 
-    `Image 253 - Information Bar – Scheme Office, IMIS offline`
+    `Image 253 - Information Bar – Scheme Office, openIMIS offline`
 
   .. _image254:
   .. figure:: /img/user_manual/image221.png
     :align: center
 
-    `Image 254 - Information Bar - Health Facility, IMIS offline`
+    `Image 254 - Information Bar - Health Facility, openIMIS offline`
 
   C. ``MENUS ACCESS``
 
-  For all users with roles other than HF Administrator and Offline Scheme Administrator , will have the menus available to them as per normal roles' rights in online IMIS version. Menu access in the offline version is different in following scenarios:
+  For all users with roles other than HF Administrator and Offline Scheme Administrator , will have the menus available to them as per normal roles' rights in online openIMIS version. Menu access in the offline version is different in following scenarios:
 
-    -  User with roles HF Administrator and Offline Scheme Administrator can access only ``Users``, ``IMIS Extracts`` and ``Utilities`` menus, while all other users with different roles can access menus just as they would do in the online IMIS version.
+    -  User with roles HF Administrator and Offline Scheme Administrator can access only ``Users``, ``IMIS Extracts`` and ``Utilities`` menus, while all other users with different roles can access menus just as they would do in the online openIMIS version.
 
       -  ``Extracts``
 
-        Extracts Menu leads an offline user to Extracts control panel. Using this panel, an offline user with rights to this panel can import data from online IMIS to the local offline IMIS, and can also download claims and enrolments prior to upload them to the online IMIS. This panel is divided into five sections (:ref:`image255`), (:ref:`image256`) If an offline user is HF Administrator, section C will contain facility to ``Download Claims``. If an offline user is Offline Scheme Administrator, section C will contain facility to ``Download Enrolments``
+        Extracts Menu leads an offline user to Extracts control panel. Using this panel, an offline user with rights to this panel can import data from online openIMIS to the local offline IMIS, and can also download claims and enrolments prior to upload them to the online IMIS. This panel is divided into five sections (:ref:`image255`), (:ref:`image256`) If an offline user is HF Administrator, section C will contain facility to ``Download Claims``. If an offline user is Offline Scheme Administrator, section C will contain facility to ``Download Enrolments``
 
         .. _image255:
         .. figure:: /img/user_manual/image222.png
           :align: center
 
-          `Image 255 - Extracts Control Page, HF Administrator, IMIS offline`
+          `Image 255 - Extracts Control Page, HF Administrator, openIMIS offline`
 
         .. _image256:
         .. figure:: /img/user_manual/image223.png
           :align: center
 
-          `Image 256 - Extracts Control Page, Offline Scheme Administrator, IMIS offline`
+          `Image 256 - Extracts Control Page, Offline Scheme Administrator, openIMIS offline`
 
       -  ``section a - import extract``
 
-        This section has a facility to enable synchronization of online IMIS data with that offline IMIS data. When online data in a zipped file is obtained (downloaded extraction) from online IMIS to user local computer, user will use this section to put that data into offline IMIS.
+        This section has a facility to enable synchronization of online openIMIS data with that offline openIMIS data. When online data in a zipped file is obtained (downloaded extraction) from online openIMIS to user local computer, user will use this section to put that data into offline IMIS.
 
         ..
 
@@ -7357,21 +7762,21 @@ Facilities available while offline and online in IMIS, are similar with some few
         .. figure:: /img/user_manual/image224.png
           :align: center
 
-          `Image 257 - Select File Popup Window, Import Extracts, IMIS offline`
+          `Image 257 - Select File Popup Window, Import Extracts, openIMIS offline`
 
-        After clicking the upload button on the very end of right hand side in this section, data in the file will be imported to the offline IMIS and confirmation will be given as popup messages (:ref:`image257`), (:ref:`image258`).
+        After clicking the upload button on the very end of right hand side in this section, data in the file will be imported to the offline openIMIS and confirmation will be given as popup messages (:ref:`image257`), (:ref:`image258`).
 
         .. _image258:
         .. figure:: /img/user_manual/image225.png
           :align: center
 
-          `Image 258 - Popup Window, Import Extracts, HF Administrator, IMIS offline`
+          `Image 258 - Popup Window, Import Extracts, HF Administrator, openIMIS offline`
 
         .. _image259:
         .. figure:: /img/user_manual/image226.png
           :align: center
 
-          `Image 259 - Popup Window, Import Extracts, Offline Scheme Administrator, IMIS offline`
+          `Image 259 - Popup Window, Import Extracts, Offline Scheme Administrator, openIMIS offline`
 
         User cannot import an extract whose sequence number is same as last one imported; if done so, a popup message (:ref:`image260`) will be shown.
 
@@ -7379,11 +7784,11 @@ Facilities available while offline and online in IMIS, are similar with some few
         .. figure:: /img/user_manual/image227.png
           :align: center
 
-          `Image 260 - Popup Window, Wrong sequence of an extract file, IMIS offline`
+          `Image 260 - Popup Window, Wrong sequence of an extract file, openIMIS offline`
 
       -  ``section b - import photos``
 
-        Just as the section name implies, this is a section with facility to enable a user synchronize insurees’ photos in online IMIS, with insurees’ photos in offline IMIS. When online insurees’ photos in a zipped file is obtained from online IMIS to user local computer, user will use this section to put those photos into offline IMIS.
+        Just as the section name implies, this is a section with facility to enable a user synchronize insurees’ photos in online IMIS, with insurees’ photos in offline IMIS. When online insurees’ photos in a zipped file is obtained from online openIMIS to user local computer, user will use this section to put those photos into offline IMIS.
 
         ..
 
@@ -7393,15 +7798,15 @@ Facilities available while offline and online in IMIS, are similar with some few
         .. figure:: /img/user_manual/image228.png
           :align: center
 
-          `Image 261 - Select File Popup Window, Import Photos, IMIS offline`
+          `Image 261 - Select File Popup Window, Import Photos, openIMIS offline`
 
-        After clicking the upload button on the very end of right hand side in this section, data in the file will be imported to the offline IMIS and confirmation will be given as popup messages (:ref:`image261`).
+        After clicking the upload button on the very end of right hand side in this section, data in the file will be imported to the offline openIMIS and confirmation will be given as popup messages (:ref:`image261`).
 
         .. _image262:
         .. figure:: /img/user_manual/image229.png
           :align: center
 
-          `Image 262 - Popup Window, Import Photos, IMIS offline`
+          `Image 262 - Popup Window, Import Photos, openIMIS offline`
 
         If importation of photo is not done due to some reason, the above popup message will not be shown, instead system will issue proper popup message to notify a user what went wrong and what is to be done.
 
@@ -7417,13 +7822,13 @@ Facilities available while offline and online in IMIS, are similar with some few
         .. figure:: /img/user_manual/image230.png
           :align: center
 
-          `Image 263 - Popup Window, Download Enrolments, IMIS offline`
+          `Image 263 - Popup Window, Download Enrolments, openIMIS offline`
 
           .. _image264:
           .. figure:: /img/user_manual/image231.png
             :align: center
 
-            `Image 264 - Popup Window, Download Enrolments, IMIS offline`
+            `Image 264 - Popup Window, Download Enrolments, openIMIS offline`
 
       -  ``section d - buttons``
 
@@ -7441,27 +7846,27 @@ Facilities available while offline and online in IMIS, are similar with some few
           .. figure:: /img/user_manual/image232.png
             :align: center
 
-            `Image 265 - IMIS Extracts, Information Bar, IMIS offline`
+            `Image 265 - openIMIS Extracts, Information Bar, openIMIS offline`
 
         b) Last Extract Sequence: <Sequence Number>
 
-          This message is seen, after a single / series of extract importation have been made to the offline IMIS and that much times will be shown as a sequence number at the end of the message. This enables proper tracking of right extracts to import and use.
+          This message is seen, after a single / series of extract importation have been made to the offline openIMIS and that much times will be shown as a sequence number at the end of the message. This enables proper tracking of right extracts to import and use.
 
           .. _image266:
           .. figure:: /img/user_manual/image233.png
             :align: center
 
-            `Image 266 - IMIS Extracts, Information Bar, IMIS offline`
+            `Image 266 - openIMIS Extracts, Information Bar, openIMIS offline`
 
         c) No claims Found
 
-          When HF offline IMIS user is downloading offline claims and no new offline claims is found, this message is displayed.
+          When HF offline openIMIS user is downloading offline claims and no new offline claims is found, this message is displayed.
 
           .. _image267:
           .. figure:: /img/user_manual/image234.png
             :align: center
 
-            `Image 267 - IMIS Extracts, Information Bar, IMIS offline`
+            `Image 267 - openIMIS Extracts, Information Bar, openIMIS offline`
 
     -  USERS
 
@@ -7471,13 +7876,13 @@ Facilities available while offline and online in IMIS, are similar with some few
       .. figure:: /img/user_manual/image235.png
         :align: center
 
-        `Image 268 - Users Page - HF Administrator, IMIS offline`
+        `Image 268 - Users Page - HF Administrator, openIMIS offline`
 
       .. _image269:
       .. figure:: /img/user_manual/image236.png
         :align: center
 
-        `Image 269 - Users Page - Offline Scheme Administrator, IMIS offline`
+        `Image 269 - Users Page - Offline Scheme Administrator, openIMIS offline`
 
   D. data access
 
@@ -7489,7 +7894,7 @@ Facilities available while offline and online in IMIS, are similar with some few
       .. figure:: /img/user_manual/image237.png
         :align: center
 
-        `Image 270 - Search Criteria - offline only data, IMIS offline`
+        `Image 270 - Search Criteria - offline only data, openIMIS offline`
 
   -  Create / Edit
 
@@ -7552,7 +7957,7 @@ The following table shows dimensions used across AR-IMIS. For each dimension its
 |                 | attributes      |                 |                 |
 +=================+=================+=================+=================+
 | **Time**        | Time Hierarchy  | generated by    | Hierarchy:      |
-|                 |                 | IMIS            |                 |
+|                 |                 | openIMIS            |                 |
 |                 | **Other         |                 | Years->Quarters |
 |                 | fields**:       |                 | ->Months        |
 |                 |                 |                 |                 |
@@ -7563,11 +7968,11 @@ The following table shows dimensions used across AR-IMIS. For each dimension its
 |                 | Year Time       |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
 | **Age**         | Age Range       | generated by    | below1,1-4,5-9… |
-|                 |                 | IMIS            | ,               |
+|                 |                 | openIMIS            | ,               |
 |                 |                 |                 | 80+,Unkown      |
 +-----------------+-----------------+-----------------+-----------------+
 | **Gender**      | Gender Name     | generated by    | Male, Female,   |
-|                 |                 | IMIS            | Unknown         |
+|                 |                 | openIMIS            | Unknown         |
 +-----------------+-----------------+-----------------+-----------------+
 | **Regions**     | Region          | `register of    | Hierarchy:      |
 |                 | Hierarchy       | locations <#loc |                 |
@@ -7669,16 +8074,16 @@ The following table shows dimensions used across AR-IMIS. For each dimension its
 |                 | Category        |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
 | **Care          | Category Care   | generated by    | Emergency,      |
-| Category**      |                 | IMIS            | Other,          |
+| Category**      |                 | openIMIS            | Other,          |
 |                 |                 |                 | Referral,       |
 |                 |                 |                 | Unknown         |
 +-----------------+-----------------+-----------------+-----------------+
 | **Care Type**   | Care Type       | generated by    | In-patient,     |
-|                 |                 | IMIS            | Out-patient,    |
+|                 |                 | openIMIS            | Out-patient,    |
 |                 |                 |                 | Unknown         |
 +-----------------+-----------------+-----------------+-----------------+
 | **Questions**   | Question        | generated by    | Care Rendered,  |
-|                 |                 | IMIS            | Drug            |
+|                 |                 | openIMIS            | Drug            |
 |                 |                 |                 | Prescribed,     |
 |                 |                 |                 | Drug Received,  |
 |                 |                 |                 | Payment Aske,   |

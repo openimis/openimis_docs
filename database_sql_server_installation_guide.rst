@@ -2,6 +2,8 @@
 Database installation guide
 ===========================
 
+**v1.2.0 and later**
+
 Install SQL Server
 ------------------
 
