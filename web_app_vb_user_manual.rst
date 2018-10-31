@@ -5508,7 +5508,7 @@ Tools
 Upload / Download selected registers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Access to uploading/downloading of selected registers is restricted to the users with the role of  openIMIS  Administrator.
+Access to uploading/downloading of selected registers is restricted to the users with the role of openIMIS Administrator.
 
 Navigation
 """"""""""
@@ -5521,7 +5521,7 @@ All functionality for use with the administration of uploading/downloading of se
 
   `Image 166 - Navigation to Registers`
 
-Clicking on the sub menu ``Registers`` re-directs the current user to the `Registers Page <#image-6.2-upload-diagnoses-page>`__\.
+Clicking on the sub menu ``Registers`` re-directs the current user to the `Registers Page`: (:ref:`image166`)
 
 Registers page
 """"""""""""""
@@ -5532,87 +5532,77 @@ Registers page
 
   `Image 167 - Upload Registers`
 
-  The Registers Page is divided into eight sections `(Image
-  6.2) <#image-6.2-registers-page>`__\ \ .
+The Registers Page is divided into eight sections: (:ref:`image167`)
 
-  A. Upload of the list of diagnoses
+A. Upload of the list of diagnoses
 
-  ..
+  -  ``Browse``
 
-     **Browse**
+  Select from a file in the XML format serving as a source for
+  uploading of the list of diagnoses. Mandatory.
 
-     Select from a file in the XML format serving as a source for
-     uploading of the list of diagnoses. Mandatory.
+  -  ``Strategy``
 
-     **Strategy**
+  Select a desired strategy for uploading of the list of diagnoses. The
+  following options are available:
 
-     Select a desired strategy for uploading of the list of diagnoses. The
-     following options are available:
+    -  ``Insert Only``
 
-  -  Insert Only
+    Uploads only diagnoses that are not yet included in the list of
+    diagnoses
 
-  ..
+    -  ``Update Only``
 
-     Uploads only diagnoses that are not yet included in the list of
-     diagnoses
+    Updates only diagnoses that are already included in the list of
+    diagnoses
 
-  -  Update Only
+    -  ``Insert and Update``
 
-  ..
+    Uploads diagnoses that are not yet included in the list of diagnoses
+    and updates diagnoses that are already included in the list of
+    diagnoses
 
-     Updates only diagnoses that are already included in the list of
-     diagnoses
+    -  ``Insert, Update and Delete``
 
-  -  Insert and Update
+    Uploads diagnoses that are not yet included in the list of
+    diagnoses, updates diagnoses that are already included in the list of
+    diagnoses and deletes diagnose that are not included in the source
+    file
 
-  ..
+  Mandatory.
 
-     Uploads diagnoses that are not yet included in the list of diagnoses
-     and updates diagnoses that are already included in the list of
-     diagnoses
+  -  ``Dry Run``
 
-  -  Insert, Update and Delete
+  If checked, only diagnostics is provided without real uploading.
 
-  ..
+  -  ``Upload``
 
-     Uploads diagnoses that are not yet included in the list of
-     diagnoses, updates diagnoses that are already included in the list of
-     diagnoses and deletes diagnose that are not included in the source
-     file
+  By clicking on the ``Upload`` button, a prompt popup message
+  will appear, require a user to agree or disagree: (:ref:`image_upload_diagnoses`).
+  If user agrees the selected file containing diagnoses will be uploaded.
 
-     Mandatory.
+  .. _image_upload_diagnoses:
+  .. figure:: /img/user_manual/image138.png
+    :align: center
 
-     **Dry Run**
+    `Upload Diagnoses`
 
-     If checked only diagnostics is provided without real uploading.
+  A statistics on the number of inserted/updated diagnoses appears:
+  (:ref:`image_upload_diagnoses_statistics`).
 
-  -  **Upload**
+  .. _image_upload_diagnoses_statistics:
+  .. figure:: /img/user_manual/image139.png
+    :align: center
 
-  ..
+    `Statistics on uploaded diagnoses`
 
-     |image179|\ By clicking on the Upload button, a prompt popup message
-     will appear, require a user to agree or disagree `(Image
-     6.3) <#_Image_6.3__1>`__\ \ . If user agrees the selected file
-     containing diagnoses will be uploaded.
+  If there are errors an error protocol appears: (:ref:`image_upload_diagnoses_error`)
 
-   Image 6.3 (Upload Diagnoses)
-  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  .. _image_upload_diagnoses_error:
+  .. figure:: /img/user_manual/image_upload_diagnoses_error.png
+    :align: center
 
-     A statistics on the number of inserted/updated diagnoses appears
-     `(Image 6.4) <#image-6.4-statistics-on-uploaded-diagnoses>`__
-
-  |image180|
-
-   Image 6.4 (Statistics on uploaded diagnoses)
-  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-     If there are errors an error protocol appears `(Image
-     6.5) <#image-6.5-error-protocol-on-uploaded-diagnoses>`__
-
-  |image181|
-
-   Image 6.5 (Error protocol on uploaded diagnoses)
-  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    `Error protocol on uploaded diagnoses`
 
   +--------------------------------------------------------------------------+
   | *DTD definition of the XML file for uploading/downloading of diagnoses:* |
@@ -5630,77 +5620,69 @@ Registers page
   |    ]>                                                                    |
   +--------------------------------------------------------------------------+
 
-  B. Upload of the register of locations
+B. Upload of the register of locations
 
-  ..
+  -  ``Browse``
 
-     **Browse**
+  Select from a file in the XML format serving as a source for
+  uploading of the register of locations. Mandatory.
 
-     Select from a file in the XML format serving as a source for
-     uploading of the register of locations. Mandatory.
+  - ``Strategy``
 
-     **Strategy**
+  Select a desired strategy for uploading of the register of locations.
+  The following options are available:
 
-     Select a desired strategy for uploading of the register of locations.
-     The following options are available:
+    -  ``Insert Only``
 
-  -  Insert Only
+    Uploads only locations that are not yet included in the register of
+    locations
 
-  ..
+    -  ``Update Only``
 
-     Uploads only locations that are not yet included in the register of
-     locations
+    Updates only locations that are already included in the register of
+    locations
 
-  -  Update Only
+    -  ``Insert and Update``
 
-  ..
+    Uploads locations that are not yet included in the register of
+    locations and updates locations that are already included in the
+    register of locations
 
-     Updates only locations that are already included in the register of
-     locations
+  Mandatory.
 
-  -  Insert and Update
+  -  ``Dry Run``
 
-  ..
+  If checked only diagnostics is provided without real uploading.
 
-     Uploads locations that are not yet included in the register of
-     locations and updates locations that are already included in the
-     register of locations
+  -  ``Upload``
 
-     Mandatory.
+  By clicking on the Upload button, a prompt popup message will appear,
+  require a user to agree or disagree (:ref:`image_upload_locations`). If user agrees the
+  selected file containing locations will be uploaded.
 
-     **Dry Run**
+  .. _image_upload_locations:
+  .. figure:: /img/user_manual/image_upload_locations.png
+    :align: center
 
-     If checked only diagnostics is provided without real uploading.
+    `Upload Locations`
 
-  -  **Upload**
+  A statistics on the number of inserted/updated locations appears
+  (:ref:`image_upload_locations_statistics`)
 
-  ..
+  .. _image_upload_locations_statistics:
+  .. figure:: /img/user_manual/image_upload_locations_statistics.png
+    :align: center
 
-     By clicking on the Upload button, a prompt popup message will appear,
-     require a user to agree or disagree `(Image
-     6.6) <#image-6.6-upload-locations>`__\ \ . If user agrees the
-     selected file containing locations will be uploaded.
+    `Upload Locations statistics`
 
-     |image182|
+  If there are errors an error protocol appears
+  (:ref:`image_upload_locations_error`)
 
-  Image 6.6 (Upload Locations)
-  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  .. _image_upload_locations_error:
+  .. figure:: /img/user_manual/image_upload_locations_error.png
+    :align: center
 
-     A statistics on the number of inserted/updated locations appears
-     `(Image 6.7) <#image-6.7-statistics-on-uploaded-locations>`__
-
-     |image183|
-
-  Image 6.7 (Statistics on uploaded locations)
-  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-     If there are errors an error protocol appears `(Image
-     6.8) <#section-12>`__
-
-  |image184|
-
-  Image 6.8 (Error protocol on uploaded locations)
-  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    `Upload Locations error`
 
   +-----------------------------------------------------------------------+
   | *DTD definition of the XML file for uploading/downloading of          |
@@ -5763,80 +5745,56 @@ Registers page
   |    ]>                                                                 |
   +-----------------------------------------------------------------------+
 
-  .. _section-12:
+C. Upload of the register of health facilities
 
-  C. Upload of the register of health facilities
+  -  ``Browse``
 
-  ..
+  Select from a file in the XML format serving as a source for
+  uploading of the register of health facilities. Mandatory.
 
-     **Browse**
+  -  ``Strategy``
 
-     Select from a file in the XML format serving as a source for
-     uploading of the register of health facilities. Mandatory.
+  Select a desired strategy for uploading of the register of health
+  facilities. The following options are available:
 
-     **Strategy**
+    -  ``Insert Only``
 
-     Select a desired strategy for uploading of the register of health
-     facilities. The following options are available:
+    Uploads only health facilities that are not yet included in the
+    register of health facilities
 
-  -  Insert Only
+    -  ``Update Only``
 
-  ..
+    Updates only health facilities that are already included in the
+    register of health facilities
 
-     Uploads only health facilities that are not yet included in the
-     register of health facilities
+    -  ``Insert and Update``
 
-  -  Update Only
+    Uploads health facilities that are not yet included in the register
+    of health facilities and updates health facilities that are already
+    included in the register of health facilities
 
-  ..
+  Mandatory.
 
-     Updates only health facilities that are already included in the
-     register of health facilities
+  -  ``Dry Run``
 
-  -  Insert and Update
+  If checked only diagnostics is provided without real uploading.
 
-  ..
+  -  ``Upload``
 
-     Uploads health facilities that are not yet included in the register
-     of health facilities and updates health facilities that are already
-     included in the register of health facilities
+  By clicking on the Upload button, a prompt popup message will appear,
+  require a user to agree or disagree: (:ref:`image_upload_facilities`)
+  If user agrees the selected file containing locations will be uploaded.
 
-     Mandatory.
+  .. _image_upload_facilities:
+  .. figure:: /img/user_manual/image_upload_facilities.png
+    :align: center
 
-     **Dry Run**
+    `Upload Health Facilities`
 
-     If checked only diagnostics is provided without real uploading.
+  A statistics on the number of inserted/updated health facilities
+  appears.
 
-  -  **Upload**
-
-  ..
-
-     By clicking on the Upload button, a prompt popup message will appear,
-     require a user to agree or disagree `(Image
-     6.9) <#image-6.9-upload-health-facilities>`__\ \ . If user agrees the
-     selected file containing locations will be uploaded.
-
-     |image185|
-
-   Image 6.9 (Upload Health Facilities)
-  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-     A statistics on the number of inserted/updated health facilities
-     appears `(Image
-     6.10) <#image-6.10-statistics-on-uploaded-health-facilities>`__
-
-     *(to be inserted)*
-
-   Image 6.10 (Statistics on uploaded health facilities)
-  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-     If there are errors an error protocol appears `(Image
-     6.11) <#image-6.11-error-protocol-on-uploaded-health-facilities>`__
-
-     *(to be inserted)*
-
-   Image 6.11 (Error protocol on uploaded health facilities)
-  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  If there are errors an error protocol appears.
 
   +-----------------------------------------------------------------------+
   | *DTD definition of the XML file for uploading/downloading of health   |
@@ -5898,68 +5856,61 @@ Registers page
   |    ]>                                                                 |
   +-----------------------------------------------------------------------+
 
-  D. Download of the list diagnoses
+D. Download of the list diagnoses
 
-  -  **Download**
+  -  ``Download``
 
-  ..
+  By clicking on the Download button, a prompt popup message will
+  appear, require a user to specify whether the XML file with
+  downloaded list of diagnoses should be opened or saved or canceled:
+  (:ref:`image_download_diagnoses`)
 
-     By clicking on the Download button, a prompt popup message will
-     appear, require a user to specify whether the XML file with
-     downloaded list of diagnoses should be opened or saved or canceled
-     `(Image 6.12 <#image-6.12-download-diagnoses>`__\ )
+  .. _image_download_diagnoses:
+  .. figure:: /img/user_manual/image_download_diagnoses.png
+    :align: center
 
-     |image186|
+    `Download Diagnoses`
 
-   Image 6.12 (Download Diagnoses)
-  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E. Download of the register of locations
 
-  E. Download of the register of locations
+  -  ``Download``
 
-  -  **Download**
+  By clicking on the Download button, a prompt popup message will
+  appear, require a user to specify whether the XML file with
+  downloaded register of locations should be opened or saved or
+  canceled (:ref:`image_download_locations`)
 
-  ..
+  .. _image_download_locations:
+  .. figure:: /img/user_manual/image_download_locations.png
+    :align: center
 
-     By clicking on the Download button, a prompt popup message will
-     appear, require a user to specify whether the XML file with
-     downloaded register of locations should be opened or saved or
-     canceled `(Image 6.13 <#image-6.13-download-locations>`__\ )
+    `Download locations`
 
-     |image187|
+F. Download of the register of health facilities
 
-   Image 6.13 (Download Locations)
-  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  -  ``Download``
 
-  F. Download of the register of health facilities
+  By clicking on the Download button, a prompt popup message will
+  appear, require a user to specify whether the XML file with
+  downloaded register of health facilities should be opened or saved or
+  canceled (:ref:`image_download_facilities`)
 
-  -  **Download**
+  .. _image_download_facilities:
+  .. figure:: /img/user_manual/image_download_facilities.png
+    :align: center
 
-  ..
+    `Download facilities`
 
-     By clicking on the Download button, a prompt popup message will
-     appear, require a user to specify whether the XML file with
-     downloaded register of health facilities should be opened or saved or
-     canceled `(Image 6.14 <#image-6.14-download-health-facilities>`__\ )
+G. Buttons
 
-     |image188|
+-  ``Cancel``
 
-   Image 6.14 (Download Health Facilities)
-  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  By clicking on ``Cancel`` button, user will be re-directed to the Home
+  page.
 
-  G. Buttons
+H. Information Panel
 
-  -  **Cancel**
-
-  ..
-
-     By clicking on **Cancel** button, user will be re-directed to `Home
-     page <#image-2.2-home-page>`__.
-
-  H. Information Panel
-
-  ..
-
-     The Information Panel is used to display messages back to the user.
+  The Information Panel is used to display messages back to the user.
 
 
 Policy Renewals
@@ -6215,9 +6166,9 @@ The Extracts Page is divided into eight sections `(Image
 
 **A - Download Master Data section**
 
-  The Master Data section is used for generation of the data needed for
-  off-line operation of IMIS (Policies) application run on Android
-  platforms. The following data files can be downloaded:
+The Master Data section is used for generation of the data needed for
+off-line operation of IMIS (Policies) application run on Android
+platforms. The following data files can be downloaded:
 
   -  Master data for running IMIS (Policies) application **(Download
      Master Data)**
@@ -6226,12 +6177,8 @@ The Extracts Page is divided into eight sections `(Image
 
   -  Prompts for acquiring of feedbacks **(Download Feedbacks)**
 
-  -  **Enrolment Officers Code**
-
-  ..
-
-     Enter the code of an enrolment officer for whom the master data and
-     prompts should be generated.
+  -  **Enrolment Officers Code**: Enter the code of an enrolment officer for
+     whom the master data and prompts should be generated.
 
 **B - Create Phone Extract section**
 
@@ -6283,7 +6230,7 @@ The extract file is called **IMISDATA.DB3** and needs first to be copied (downlo
 
 The extract is now ready to be transferred/copied to the mobile phones. This process is performed manually by connecting the mobile phone to the computer with the provided USB cable. The user needs to copy, manually, the file from the local machine into the ‘IMIS’ Folder on the mobile phone.
 
-**C - Offline Extract panel**
+**C - Offline Extract section**
 
 The offline extract section is used to generate the openIMIS ‘offline’ extract files for the health facilities or offices of the scheme administration that run openIMIS offline. To generate an offline extract file, the operator has to select a region and a district from the list of available districts. In case the user is having access to its own district only, the district will be automatically selected and shown on the display. When an operator belongs to one specific district, the district box is already selected with the district of the user. To create a new extract, the operator needs to click the ``Create`` button.
 
