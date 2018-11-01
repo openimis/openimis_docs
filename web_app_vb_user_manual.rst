@@ -2,7 +2,7 @@
 Web application user manual
 ===========================
 
-**v1.2.0**
+**v1.2.1**
 
 The open Insurance Management Information System ( openIMIS ) is a web based software to manage health insurance schemes. It includes functionality for setup of the software to requirements of health insurance schemes, administration of policies and policy holders and for claim processing. This manual is a guide on the use and functionality of the software rather than in-depth technical reference. The Contents section, provide a reference to the page of each major chapter and the sub chapters within. By clicking on the content title (online version), the reader is re-directed to the position of the content title.
 
@@ -48,10 +48,11 @@ Users’ roles and rights
 |     Manager           |     Over-sees         |     Create managerial |
 |                       |     operations of the |     statistics        |
 |                       |     health insurance  |                       |
-|                       |     scheme; runs openIMIS |     Authorize         |
-|                       |     operational       |     issuance of a     |
-|                       |     reports analyses  |     substitution      |
-|                       |     data generated    |     membership card   |
+|                       |     scheme; runs      |     Authorize         |
+|                       |     openIMIS          |     issuance of a     |
+|                       |     operational       |     substitution      |
+|                       |     reports analyses  |     membership card   |
+|                       |     data generated    |                       |
 |                       |     from the IMIS.    |                       |
 +-----------------------+-----------------------+-----------------------+
 |     Accountant        |     Transfers data on |     Transfer of data  |
@@ -63,7 +64,7 @@ Users’ roles and rights
 |                       |     Calculates claim  |     claim             |
 |                       |     amounts per       |                       |
 |                       |     health facility,  |     Transfer of a     |
-|                       |     runs openIMIS         |     batch of claims   |
+|                       |     runs openIMIS     |     batch of claims   |
 |                       |     operational       |     for payment       |
 |                       |     reports and       |                       |
 |                       |     presents claims   |                       |
@@ -154,7 +155,7 @@ Users’ roles and rights
 |                       |                       | Facilities <#imis-ext |
 |                       |                       | racts-online-mode>`__ |
 +-----------------------+-----------------------+-----------------------+
-|     openIMIS              |     Administers       | Administer the        |
+|     openIMIS          |     Administers       | Administer the        |
 |     Administrator     |     operations of the | register of           |
 |                       |     IMIS. Is          | `users <#_User_Ad     |
 |                       |     responsible for   | ministration>`__      |
