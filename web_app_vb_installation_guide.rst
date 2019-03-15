@@ -25,7 +25,7 @@ Follow these steps to install IIS:
 
     - In Application Development, select .NET Extensibility, ASP, ASP.NET, ISAPI Extensions, ISAPI Filters and Websocket Protocol
 
-    - Management tools -> Tick all boxes
+    - Management tools → Tick all boxes
 
 - Click on Install and wait for the features to be installed.
 - Restart the server if required

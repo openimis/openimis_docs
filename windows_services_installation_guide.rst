@@ -1,7 +1,7 @@
 
 
 Windows services installation guide
-==================================
+===================================
 
 **v1.2.0 and later**
 
@@ -33,16 +33,14 @@ Install and configure openIMIS Backup service
 ---------------------------------------------
 
 - Download and unzip the installation setup from https://github.com/openimis/imis_backup_service_vb/releases/latest
-- Follow the same steps as for the Policy Renewal service to configure the
-service.
+- Follow the same steps as for the Policy Renewal service to configure the service.
 
 
 Install and configure openIMIS Feedback Prompt service
 ------------------------------------------------------
 
 - Download and unzip the installation setup from https://github.com/openimis/imis_feedback_prompt_service_vb/releases/latest
-- Follow the same steps as for the Policy Renewal service to configure the
-service.
+- Follow the same steps as for the Policy Renewal service to configure the service.
 
 
 Troubleshooting Windows Services

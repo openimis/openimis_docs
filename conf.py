@@ -22,7 +22,8 @@ import sys
 project = u'openIMIS'
 copyright = u'2018, openIMIS team'
 author = u'openIMIS team'
-
+html_logo = 'img/logo.png'
+html_favicon = 'img/favicon.ico'
 # The short X.Y version
 version = u''
 # The full version, including alpha/beta/rc tags
@@ -113,6 +114,8 @@ htmlhelp_basename = 'openIMISdoc'
 # -- Options for LaTeX output ------------------------------------------------
 
 latex_elements = {
+    'inputenc':'',
+    
     # The paper size ('letterpaper' or 'a4paper').
     #
     # 'papersize': 'letterpaper',
@@ -127,16 +130,30 @@ latex_elements = {
 
     # Latex figure (float) alignment
     #
-    # 'figure_align': 'htbp',
+    'figure_align': 'htbp',
+    'utf8extra': '',
+    'preamble': '''
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\DeclareUnicodeCharacter{2122}{ }
+\DeclareUnicodeCharacter{21DB}{ }
+\DeclareUnicodeCharacter{25CF}{ }
+''',
 }
-
+latex_engine = 'pdflatex'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'openIMIS.tex', u'openIMIS Documentation',
-     u'openIMIS team', 'manual'),
+    ('index_usermanual', 'user_manual.tex', u'openIMIS user manual',
+     author, 'manual'),
+	 ('index_install', 'install_manual.tex', u'openIMIS installation documentation',
+     author, 'manual'),
 ]
+#latex_documents = [
+#    (master_doc, 'openIMIS.tex', u'openIMIS Documentation',
+#     u'openIMIS team', 'manual'),
+#]
 
 
 # -- Options for manual page output ------------------------------------------

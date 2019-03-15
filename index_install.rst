@@ -3,10 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-openIMIS documentation
+openIMIS installation documentation
 ======================
 
-Welcome to the openIMIS technical documentation repository.
+Welcome to the openIMIS technical documentation.
 
 .. toctree::
    :maxdepth: 2
@@ -20,12 +20,6 @@ Welcome to the openIMIS technical documentation repository.
    mobile_applications_configuration
    ar_installation_guide
 
-.. toctree::
-   :maxdepth: 3
-   :caption: User documentation
-
-   web_app_vb_user_manual
-   ar_user_manual
 
 .. Contents
    ==================

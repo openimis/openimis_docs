@@ -16,12 +16,10 @@ Users’ roles and rights
 -----------------------
 
 +-----------------------+-----------------------+-----------------------+
-| Role                  | Responsibilities      | Available             |
+| Role      \           | Responsibilities      | Available             |
 |                       |                       | functionality         |
 +=======================+=======================+=======================+
-|     **Scheme          |                       |                       |
-|     administrator &   |                       |                       |
-|     district Staff**  |                       |                       |
+|     **Scheme administrator & district Staff**                         |
 +-----------------------+-----------------------+-----------------------+
 |     Enrolment Officer |     He/she enrols     |     Capture a photo   |
 |                       |     insurees and      |     of an Insuree     |
@@ -170,9 +168,8 @@ Users’ roles and rights
 |                       |                       | `Extract Creation     |
 |                       |                       | for Off-line          |
 |                       |                       | Health                |
-|                       |                       | Facilities <#imis     |
-|                       |                       | <#imis-extracts-onlin |
-|                       |                       | e-mode>`__            |
+|                       |                       | Facilities <#imis-ext |
+|                       |                       | racts-online-mode>`__ |
 +-----------------------+-----------------------+-----------------------+
 |     **Health Facilities staff**                                       |
 +-----------------------+-----------------------+-----------------------+
@@ -190,9 +187,9 @@ Users’ roles and rights
 |                       |     and submits       |     Entry of a claim  |
 |                       |     claims.           |                       |
 +-----------------------+-----------------------+-----------------------+
-|     HF                |     Off-line Health   | `Off-line extract     |
-|     Administrator     |     Facility          | upload <#imis-ext     |
-|                       |     administration,   | racts-offline-mode>`__|
+|     HF Administrator  |     Off-line Health   | `Off-line extract upl |
+|                       |     Facility          | oad <#imis-extracts-o |
+|                       |     administration,   | ffline-mode>`__       |
 |                       |     Off-line extract  |                       |
 |                       |     upload            |                       |
 +-----------------------+-----------------------+-----------------------+
@@ -206,7 +203,7 @@ Users’ roles and rights
 Login Access
 ------------
 
-To access the software, Users, must have a valid User Name and Password, provided by the “IMIS Administrator”. In the browser address bar type URL of the openIMIS and request the start page. Login page will appear (:ref:`image1`).
+To access the software, Users, must have a valid User Name and Password, provided by the “IMIS Administrator”. In the browser address bar type URL of the openIMIS and request the start page. Login page will appear (:ref:`Image 1<image1>`).
 
 .. _image1:
 .. figure:: /img/user_manual/image1.png
@@ -214,7 +211,7 @@ To access the software, Users, must have a valid User Name and Password, provide
 
   `Image 1 - User Login`
 
-Use the provided Login Name and Password, and click on the button Login. If successful, the system will re-direct to the Home Page (:ref:`image2`).
+Use the provided Login Name and Password, and click on the button Login. If successful, the system will re-direct to the Home Page (:ref:`Image 2<image2>`).
 
 .. _image2:
 .. figure:: /img/user_manual/image2.png
@@ -224,7 +221,7 @@ Use the provided Login Name and Password, and click on the button Login. If succ
 
 The full menu is displayed; Clicking on the menu headers will display a sub-menu providing further navigation options. Menus with a blue fore-colour are accessible, while menus with a grey fore-colour are disabled; either due to access rights of a user or unavailable functionality. Below the main menu at the top left-hand corner there is information about the current login user: Login Name, a list of roles acquired by the user and the districts to which the user has access.
 
-When a password is forgotten, clicking ``Forgot Password?`` results in the Forgot ``Password Page`` (:ref:`image3`).
+When a password is forgotten, clicking ``Forgot Password?`` results in the Forgot ``Password Page`` (:ref:`Image 3<image3>`).
 
 .. _image3:
 .. figure:: /img/user_manual/image3.png
@@ -273,7 +270,7 @@ Clicking on the sub menu ``Products`` re-directs the current user to the ``Produ
 
   `Image 5 - Product Control Page`
 
-The ``Product Control Page`` is the central point for administration of insurance products. By having access to this page, it is possible to add, edit, duplicate and search. The panel is divided into four panels. (:ref:`image5`)
+The ``Product Control Page`` is the central point for administration of insurance products. By having access to this page, it is possible to add, edit, duplicate and search. The panel is divided into four panels. (:ref:`Image 5<image5>`)
 
   A. Search Panel
 
@@ -297,7 +294,7 @@ The ``Product Control Page`` is the central point for administration of insuranc
 
   -  ``Date Selector Button``
 
-    Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image6`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+    Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 6<image6>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
     -  Anytime during the use of the pop-up, the user can see the date of today.
 
@@ -340,7 +337,7 @@ The ``Product Control Page`` is the central point for administration of insuranc
 
   -  ``Historical``
 
-    Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image7`).
+    Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 7<image7>`).
 
   .. _image7:
   .. figure:: /img/user_manual/image9.png
@@ -354,7 +351,7 @@ The ``Product Control Page`` is the central point for administration of insuranc
 
   B. Result Panel
 
-  The result panel displays a list of all products found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image8`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+  The result panel displays a list of all products found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 8<image8>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
   .. _image8:
   .. figure:: /img/user_manual/image10.png
@@ -362,7 +359,7 @@ The ``Product Control Page`` is the central point for administration of insuranc
 
    `Image 8 - Selected record (blue), hovered records (yellow) - Result Panel`
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image9`).
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 9<image9>`).
 
   .. _image9:
   .. figure:: /img/user_manual/image11.png
@@ -372,7 +369,7 @@ The ``Product Control Page`` is the central point for administration of insuranc
 
   C. Button Panel
 
-  With exception of the ``Cancel`` button, which re-directs to the Home Page (:ref:`image2`), and the Add button which re-directs to the product page, the button panel (the buttons ``Edit`` and ``Duplicate`` ) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
+  With exception of the ``Cancel`` button, which re-directs to the Home Page (:ref:`Image 2<image2>`), and the Add button which re-directs to the product page, the button panel (the buttons ``Edit`` and ``Duplicate`` ) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
 
   D. Information Panel
 
@@ -425,7 +422,7 @@ Product Page
 
     -  ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image11`). By default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted. At anytime during the use of the pop-up, the user can see the date of ``today``.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 11<image11>`). By default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted. At anytime during the use of the pop-up, the user can see the date of ``today``.
 
       -  Clicking on ``today`` will close the pop-up and display the today’s date in the corresponding date entry box.
       -  Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box.
@@ -752,7 +749,7 @@ Product Page
 
     -  ``distribution Period``
 
-      Distribution periods may be entered for general care (``Hospitals`` and ``Non-hospitals``), or for hospital care (``Hospitals``) only and/or for non-hospital care (``Non-Hospitals``) only. Select from the list (**NONE, Monthly, Quarterly, Yearly**), the period that is to be used for calculation of the actual value of relative prices for the insurance product; by clicking on the arrow on the right. The default value is ‘\ **NONE**\ ’ which means that relative prices are not calculated for general health care or for hospital care or non-hospital care within the insurance product. By selecting **Monthly, Quarterly** or **Yearly** will cause a pop-up (:ref:`image14`) with the relative periods (1 period for yearly, 4 for quarterly, 12 for monthly). Percentages should be entered to indicate the distribution over the periods as per the product description. Enter to each field an appropriate percentage of paid contributions for policies of the insurance product allocated proportionally to corresponding calendar period. It means, for example, that in case of the distribution **Monthly** we put in each slot percentage of paid contributions of the insurance product that are allocated to the corresponding month and that is to be used for calculation of relative prices.
+      Distribution periods may be entered for general care (``Hospitals`` and ``Non-hospitals``), or for hospital care (``Hospitals``) only and/or for non-hospital care (``Non-Hospitals``) only. Select from the list (**NONE, Monthly, Quarterly, Yearly**), the period that is to be used for calculation of the actual value of relative prices for the insurance product; by clicking on the arrow on the right. The default value is ‘\ **NONE**\ ’ which means that relative prices are not calculated for general health care or for hospital care or non-hospital care within the insurance product. By selecting **Monthly, Quarterly** or **Yearly** will cause a pop-up (:ref:`Image 14<image14>`) with the relative periods (1 period for yearly, 4 for quarterly, 12 for monthly). Percentages should be entered to indicate the distribution over the periods as per the product description. Enter to each field an appropriate percentage of paid contributions for policies of the insurance product allocated proportionally to corresponding calendar period. It means, for example, that in case of the distribution **Monthly** we put in each slot percentage of paid contributions of the insurance product that are allocated to the corresponding month and that is to be used for calculation of relative prices.
 
       It is not required to enter a value in each period, zero values are accepted. Once all the percentage values have been entered, click on the button OK to submit the values to the respective grid. Clicking on the button ``Cancel`` will cancel the action closing the popup and cancelling the change in the distribution.
 
@@ -853,7 +850,7 @@ Product Page
     -  *Number of claims (contacts) with the health facility by insured in the catchment area*
     -  *Adjusted amount*\
 
-  :math:`\text{AllocatedContribution}` *is the amount of contributions for given insurance product for given period *
+  :math:`\text{AllocatedContribution}` *is the amount of contributions for given insurance product for given period*
 
   :math:`\text{ShareContribution}` *is the formula parameter Share of contribution*
 
@@ -938,7 +935,7 @@ Clicking on the sub menu ``Health Facilities`` re-directs the current user to th
 Health Facilities Control PAGE
 """"""""""""""""""""""""""""""
 
-The ``Health Facilities Control Page`` is the central point for all health facilities administration. By having access to this page, it is possible to add, edit, delete and search. The page is divided into four panels (:ref:`image16`)
+The ``Health Facilities Control Page`` is the central point for all health facilities administration. By having access to this page, it is possible to add, edit, delete and search. The page is divided into four panels (:ref:`Image 16<image16>`)
 
   A. Search Panel
 
@@ -986,7 +983,7 @@ The ``Health Facilities Control Page`` is the central point for all health facil
 
     -  ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image17`)
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 17<image17>`)
 
     .. _image17:
     .. figure:: /img/user_manual/image21.png
@@ -1000,7 +997,7 @@ The ``Health Facilities Control Page`` is the central point for all health facil
 
   B. Result Panel
 
-  The result panel displays a list of all health facilities found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image18`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+  The result panel displays a list of all health facilities found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 18<image18>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
   .. _image18:
   .. figure:: /img/user_manual/image22.png
@@ -1008,7 +1005,7 @@ The ``Health Facilities Control Page`` is the central point for all health facil
 
     `Image 18 - Selected record (blue), hovered records (yellow) - Result Panel`
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image19`)
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 19<image19>`)
 
   .. _image19:
   .. figure:: /img/user_manual/image11.png
@@ -1132,7 +1129,7 @@ Deleting a Health Facility
 
 Click on the ``Delete`` button to delete the currently selected record.
 
-Before deleting a confirmation popup (:ref:`image21`) is displayed, which requires the user to confirm if the action should really be carried out?
+Before deleting a confirmation popup (:ref:`Image 21<image21>`) is displayed, which requires the user to confirm if the action should really be carried out?
 
 .. _image21:
 .. figure:: /img/user_manual/image24.png
@@ -1174,7 +1171,7 @@ Clicking on the sub menu ``Medical Services`` re-directs the current user to the
 Medical Services Control Page
 """""""""""""""""""""""""""""
 
-The ``Medical Services Control Page`` is the central point for all medical service administration. By having Access to this panel, it is possible to add, edit, delete and search. The panel is divided into four panels (:ref:`image23`)
+The ``Medical Services Control Page`` is the central point for all medical service administration. By having Access to this panel, it is possible to add, edit, delete and search. The panel is divided into four panels (:ref:`Image 23<image23>`)
 
   A. Search Panel
 
@@ -1194,7 +1191,7 @@ The ``Medical Services Control Page`` is the central point for all medical servi
 
     -  ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image24`)
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 24<image24>`)
 
     .. _image24:
     .. figure:: /img/user_manual/image27.png
@@ -1208,7 +1205,7 @@ The ``Medical Services Control Page`` is the central point for all medical servi
 
   B. Result Panel
 
-  The Result Panel displays a list of all medical services found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image25`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+  The Result Panel displays a list of all medical services found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 25<image25>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
   .. _image25:
   .. figure:: /img/user_manual/image28.png
@@ -1216,7 +1213,7 @@ The ``Medical Services Control Page`` is the central point for all medical servi
 
     `Image 25 - Selected record (blue), hovered records (yellow) - Result Panel`
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image26`).
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 26<image26>`).
 
   .. _image26:
   .. figure:: /img/user_manual/image11.png
@@ -1312,7 +1309,7 @@ Deleting a Medical Service
 
 Click on the ``Cancel`` button to delete the currently selected record; the user is re-directed the `Medical Services Control Page <#medical-services-control-page>`__\.
 
-Before deleting a confirmation popup (:ref:`image28`) is displayed, which requires the user to confirm if the action should really be carried out?
+Before deleting a confirmation popup (:ref:`Image 28<image28>`) is displayed, which requires the user to confirm if the action should really be carried out?
 
 .. _image28:
 .. figure:: /img/user_manual/image24.png
@@ -1354,7 +1351,7 @@ Clicking on the sub menu ``Medical Items`` re-directs the current user to the `M
 Medical Items Control Page
 """"""""""""""""""""""""""
 
-The ``Medical Items Control Page`` is the central point for all medical item administration. By having access to this page, it is possible to add, edit, delete and search. The panel is divided into four panels (:ref:`image30`)
+The ``Medical Items Control Page`` is the central point for all medical item administration. By having access to this page, it is possible to add, edit, delete and search. The panel is divided into four panels (:ref:`Image 30<image30>`)
 
   A. Search Panel
 
@@ -1378,7 +1375,7 @@ The ``Medical Items Control Page`` is the central point for all medical item adm
 
     -  ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image31`).
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 31<image31>`).
 
     .. _image31:
     .. figure:: /img/user_manual/image32.png
@@ -1392,7 +1389,7 @@ The ``Medical Items Control Page`` is the central point for all medical item adm
 
   B. Result Panel
 
-  The result panel displays a list of all medical items found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image32`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+  The result panel displays a list of all medical items found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 32<image32>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
   .. _image32:
   .. figure:: /img/user_manual/image33.png
@@ -1400,7 +1397,7 @@ The ``Medical Items Control Page`` is the central point for all medical item adm
 
     `Image 32 - Selected record (blue), hovered records (yellow) - Result Panel`
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image33`)
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 33<image33>`)
 
   .. _image33:
   .. figure:: /img/user_manual/image11.png
@@ -1492,7 +1489,7 @@ Deleting a Medical Item
 
 Click on the ``Delete`` button to delete the currently selected record
 
-Before deleting a confirmation popup (:ref:`image35`) is displayed, which requires the user to confirm if the action should really be carried out?
+Before deleting a confirmation popup (:ref:`Image 35<image35>`) is displayed, which requires the user to confirm if the action should really be carried out?
 
 .. _image35:
 .. figure:: /img/user_manual/image24.png
@@ -1534,7 +1531,7 @@ Clicking on the sub menu ``Medical Services`` re-directs the current user to the
 Price List Medical Services Control Page
 """"""""""""""""""""""""""""""""""""""""
 
-The ``Price List Medical Services Control Page`` is the central point for administration of all price lists of medical service. By having access to this panel, it is possible to add, edit, delete and search. The panel is divided into four panels (:ref:`image36`)
+The ``Price List Medical Services Control Page`` is the central point for administration of all price lists of medical service. By having access to this panel, it is possible to add, edit, delete and search. The panel is divided into four panels (:ref:`Image 36<image36>`)
 
   A. Search Panel
 
@@ -1550,7 +1547,7 @@ The ``Price List Medical Services Control Page`` is the central point for admini
 
     -  ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image38`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 38<image38>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
       -  Anytime during the use of the pop-up, the user can see the date of today.
       -  Clicking on today will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -1587,7 +1584,7 @@ The ``Price List Medical Services Control Page`` is the central point for admini
 
     -  ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image39`)
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 39<image39>`)
 
     .. _image39:
     .. figure:: /img/user_manual/image37.png
@@ -1601,7 +1598,7 @@ The ``Price List Medical Services Control Page`` is the central point for admini
 
   B. Result Panel
 
-  The Result Panel displays a list of all price lists of medical services found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image40`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+  The Result Panel displays a list of all price lists of medical services found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 40<image40>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
   .. _image40:
   .. figure:: /img/user_manual/image38.png
@@ -1609,7 +1606,7 @@ The ``Price List Medical Services Control Page`` is the central point for admini
 
     `Image 40 - Selected record (blue), hovered records (yellow) - Result Panel`
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image41`)
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 41<image41>`)
 
   .. _image41:
   .. figure:: /img/user_manual/image11.png
@@ -1696,7 +1693,7 @@ Deleting a Price List of Medical Services
 
 Click on the ``Delete`` button to delete the currently selected record.
 
-Before deleting a confirmation popup (:ref:`image43`) is displayed, which requires the user to confirm if the action should really be carried out?
+Before deleting a confirmation popup (:ref:`Image 43<image43>`) is displayed, which requires the user to confirm if the action should really be carried out?
 
 .. _image43:
 .. figure:: /img/user_manual/image24.png
@@ -1738,7 +1735,7 @@ Clicking on the sub menu ``Medical Items`` re-directs the current user to the `P
 Price List Medical Items Control Page
 """""""""""""""""""""""""""""""""""""
 
-The ``Price List Medical Items Control Page`` is the central point for all medical item price list administration. By having access to this panel, it is possible to add, edit, delete and search. The panel is divided into four panels (:ref:`image48`).
+The ``Price List Medical Items Control Page`` is the central point for all medical item price list administration. By having access to this panel, it is possible to add, edit, delete and search. The panel is divided into four panels (:ref:`Image 48<image48>`).
 
   A. Search Panel
 
@@ -1754,7 +1751,7 @@ The ``Price List Medical Items Control Page`` is the central point for all medic
 
   -  ``Date Selector Button``
 
-    Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image45`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+    Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 45<image45>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
     -  At anytime during the use of the pop-up, the user can see the date of today.
     -  Clicking on today will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -1787,7 +1784,7 @@ The ``Price List Medical Items Control Page`` is the central point for all medic
 
   -  ``Historical``
 
-    Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image47`).
+    Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 47<image47>`).
 
   .. _image47:
   .. figure:: /img/user_manual/image42.png
@@ -1801,7 +1798,7 @@ The ``Price List Medical Items Control Page`` is the central point for all medic
 
   B. Result Panel
 
-  The Result Panel displays a list of all price lists of medical items found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image48`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+  The Result Panel displays a list of all price lists of medical items found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 48<image48>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
   .. _image48:
   .. figure:: /img/user_manual/image43.png
@@ -1809,7 +1806,7 @@ The ``Price List Medical Items Control Page`` is the central point for all medic
 
    `Image 48 - Selected record (blue), hovered records (yellow) - Result Panel`
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image49`)
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 49<image49>`)
 
   .. _image49:
   .. figure:: /img/user_manual/image11.png
@@ -1896,7 +1893,7 @@ Deleting a Price List of Medical Items
 
 Click on the ``Delete`` button to delete the currently selected record\; the user is re-directed to the `Price List Medical Items Control Page <#medical-items-control-page>`__\.
 
-Before deleting a confirmation popup (:ref:`image51`) is displayed, which requires the user to confirm if the action should really be carried out?
+Before deleting a confirmation popup (:ref:`Image 51<image51>`) is displayed, which requires the user to confirm if the action should really be carried out?
 
 .. _image51:
 .. figure:: /img/user_manual/image24.png
@@ -1938,7 +1935,7 @@ Clicking on the sub menu ``Users`` re-directs the current user to the `User Cont
 User Control Page
 """""""""""""""""
 
-The ``User Control Page`` is the central point for all user administration. By having access to this page, it is possible to add, edit, delete and search users. The page is divided into four panels (:ref:`image52`).
+The ``User Control Page`` is the central point for all user administration. By having access to this page, it is possible to add, edit, delete and search users. The page is divided into four panels (:ref:`Image 52<image52>`).
 
   A. Search Panel
 
@@ -1986,7 +1983,7 @@ The ``User Control Page`` is the central point for all user administration. By h
 
     -  ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image54`).
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 54<image54>`).
 
     .. _image54:
     .. figure:: /img/user_manual/image47.png
@@ -2006,9 +2003,9 @@ The ``User Control Page`` is the central point for all user administration. By h
 
     `Image 55 - Selected record (blue), hovered records (yellow) - Result Panel`
 
-  The result panel displays a list of all users found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image55`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+  The result panel displays a list of all users found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 55<image55>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image56`)
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 56<image56>`)
 
   .. _image56:
   .. figure:: /img/user_manual/image11.png
@@ -2118,7 +2115,7 @@ Deleting a User
 
 Click on the Delete button to delete the currently selected record
 
-Before deleting a confirmation popup (:ref:`image58`) is displayed, this requires the user to confirm if the action should really be carried out.
+Before deleting a confirmation popup (:ref:`Image 58<image58>`) is displayed, this requires the user to confirm if the action should really be carried out.
 
 .. _image58:
 .. figure:: /img/user_manual/image24.png
@@ -2160,7 +2157,7 @@ Clicking on the sub menu ``Enrolment Officers`` re-directs the current user to t
 Enrolment Officers Control Page
 """""""""""""""""""""""""""""""
 
-The Enrolment Officers Control Page is the central point for all enrolment officer administration. By having access to this page, it is possible to add, edit, delete and search. The page is divided into four panels (:ref:`image60`).
+The Enrolment Officers Control Page is the central point for all enrolment officer administration. By having access to this page, it is possible to add, edit, delete and search. The page is divided into four panels (:ref:`Image 60<image60>`).
 
   A. Search Panel
 
@@ -2188,7 +2185,7 @@ The Enrolment Officers Control Page is the central point for all enrolment offic
 
     -  ``Date Selector button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image61`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 61<image61>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
       -  At anytime during the use of the pop-up, the user can see the date of *today*.
       -  Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -2233,7 +2230,7 @@ The Enrolment Officers Control Page is the central point for all enrolment offic
 
     -  ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image62`).
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 62<image62>`).
 
     .. _image62:
     .. figure:: /img/user_manual/image52.png
@@ -2253,9 +2250,9 @@ The Enrolment Officers Control Page is the central point for all enrolment offic
 
     `Image 63  - Selected record (blue), hovered records (yellow) - Result Panel`
 
-  The result panel displays a list of all officers found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image63`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+  The result panel displays a list of all officers found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 63<image63>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image64`)
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 64<image64>`)
 
   .. _image64:
   .. figure:: /img/user_manual/image11.png
@@ -2397,7 +2394,7 @@ Deleting an Enrolment Officer
 
 Click on the ``Delete`` button to delete the currently selected record.
 
-Before deleting a confirmation popup (:ref:`image66`) is displayed, which requires the user to confirm if the action should really be carried out?
+Before deleting a confirmation popup (:ref:`Image 66<image66>`) is displayed, which requires the user to confirm if the action should really be carried out?
 
 .. _image66:
 .. figure:: /img/user_manual/image24.png
@@ -2439,7 +2436,7 @@ Clicking on the sub menu ``Claim Administrators`` re-directs the current user to
 Claim Administrators Control Page
 """""""""""""""""""""""""""""""""
 
-The ``Claim Administrators Control Page`` is the central point for all claim administrators administration. By having access to this panel, it is possible to add, edit, delete and search claim administrators. The panel is divided into four panels (:ref:`image68`).
+The ``Claim Administrators Control Page`` is the central point for all claim administrators administration. By having access to this panel, it is possible to add, edit, delete and search claim administrators. The panel is divided into four panels (:ref:`Image 68<image68>`).
 
   A. Search Panel
 
@@ -2467,7 +2464,7 @@ The ``Claim Administrators Control Page`` is the central point for all claim adm
 
     -  ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image69`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 69<image69>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
       -  At any time during the use of the pop-up, the user can see the date of *today*.
       -  Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -2508,7 +2505,7 @@ The ``Claim Administrators Control Page`` is the central point for all claim adm
 
     -  ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image70`).
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 70<image70>`).
 
     .. _image70:
     .. figure:: /img/user_manual/image57.png
@@ -2522,7 +2519,7 @@ The ``Claim Administrators Control Page`` is the central point for all claim adm
 
   B. Result Panel
 
-  The Result Panel displays a list of all claim administrators found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image71`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+  The Result Panel displays a list of all claim administrators found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 71<image71>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
   .. _image71:
   .. figure:: /img/user_manual/image58.png
@@ -2530,7 +2527,7 @@ The ``Claim Administrators Control Page`` is the central point for all claim adm
 
     `Image 71 - Selected record (blue), hovered records (yellow) - Result Panel`
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image72`)
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 72<image72>`)
 
   .. _image72:
   .. figure:: /img/user_manual/image11.png
@@ -2618,7 +2615,7 @@ Deleting a Claim Administrator
 
 Click on the ``Delete`` button to delete the currently selected record
 
-Before deleting a confirmation popup (:ref:`image74`) is displayed, which requires the user to confirm if the action should really be carried out.
+Before deleting a confirmation popup (:ref:`Image 74<image74>`) is displayed, which requires the user to confirm if the action should really be carried out.
 
 .. _image74:
 .. figure:: /img/user_manual/image24.png
@@ -2660,7 +2657,7 @@ Clicking on the sub menu ``Payers`` re-directs the current user to the `Payer Co
 Payer Control Page
 ~~~~~~~~~~~~~~~~~~
 
-The Payer control Page is the central point for all payer administration. By having access to this page, it is possible to add, edit, delete and search (institutional) payers. The page is divided into four panels (:ref:`image76`).
+The Payer control Page is the central point for all payer administration. By having access to this page, it is possible to add, edit, delete and search (institutional) payers. The page is divided into four panels (:ref:`Image 76<image76>`).
 
   A. Search Panel
 
@@ -2692,7 +2689,7 @@ The Payer control Page is the central point for all payer administration. By hav
 
     -  ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image77`).
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 77<image77>`).
 
     .. _image77:
     .. figure:: /img/user_manual/image62.png
@@ -2712,9 +2709,9 @@ The Payer control Page is the central point for all payer administration. By hav
 
     `Image 78 - Selected record (blue), hovered records (yellow) - Result Panel`
 
-  The result panel displays a list of all payers found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image78`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+  The result panel displays a list of all payers found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 78<image78>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image79`).
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 79<image79>`).
 
   .. _image79:
   .. figure:: /img/user_manual/image11.png
@@ -2806,7 +2803,7 @@ Deleting a Payer
 
 Click on the Delete button to delete the currently selected record.
 
-Before deleting a confirmation popup (:ref:`image81`) is displayed, which requires the user to confirm if the action should really be carried out?
+Before deleting a confirmation popup (:ref:`Image 81<image81>`) is displayed, which requires the user to confirm if the action should really be carried out?
 
 .. _image81:
 .. figure:: /img/user_manual/image24.png
@@ -2848,7 +2845,7 @@ Clicking on the sub menu ``Locations`` re-directs the current user to the `Locat
 Locations Page
 """"""""""""""
 
-The Locations page is the central point for all locations administration. By having access to this page, it is possible to add, edit, delete and move regions, districts, municipalities and villages. The page is divided into three panels (:ref:`image83`). *Note. Only regions and districts with associated municipalities and villages, belonging to the logged in user will be available to edit or delete. On adding a new region or district, the user will automatically become associated with this region or district.*
+The Locations page is the central point for all locations administration. By having access to this page, it is possible to add, edit, delete and move regions, districts, municipalities and villages. The page is divided into three panels (:ref:`Image 83<image83>`). *Note. Only regions and districts with associated municipalities and villages, belonging to the logged in user will be available to edit or delete. On adding a new region or district, the user will automatically become associated with this region or district.*
 
   A. Locations Panel
 
@@ -2887,7 +2884,7 @@ Deleting a Region, District, Municipality, Village
 
 Select first the location to delete and click the ``Delete`` button. *Note. It is not possible to delete a region, district or municipality with associated districts, municipalities or villages respectively.*
 
-Before deleting a confirmation popup (:ref:`image85`) is displayed, which requires the user to confirm if the action should really be carried out?
+Before deleting a confirmation popup (:ref:`Image 85<image85>`) is displayed, which requires the user to confirm if the action should really be carried out?
 
 .. _image85:
 .. figure:: /img/user_manual/image24.png
@@ -2900,7 +2897,7 @@ When a region, district, municipality or village is deleted, all records retaini
 Moving a District, Municipality, Village
 """"""""""""""""""""""""""""""""""""""""
 
-Moving of a location is needed when the administrative division of the territory, on which a health insurance scheme is active, changes. Clicking on the ``Move`` button will re-direct to the Move Location Page (:ref:`image86`).
+Moving of a location is needed when the administrative division of the territory, on which a health insurance scheme is active, changes. Clicking on the ``Move`` button will re-direct to the Move Location Page (:ref:`Image 86<image86>`).
 
 .. _image86:
 .. figure:: /img/user_manual/image68.png
@@ -2940,7 +2937,7 @@ This functionality is available to users will all roles. The function Insuree En
 
   `Image 87 - Insuree Enquiry Field`
 
-By typing in a valid insurance­­­­­­­ number and pressing the enter key or clicking on the green search button, a pop-up will appear (:ref:`image87`), providing a photo of the insuree and information about the current policy or policies covering of the insuree.
+By typing in a valid insurance­­­­­­­ number and pressing the enter key or clicking on the green search button, a pop-up will appear (:ref:`Image 87<image87>`), providing a photo of the insuree and information about the current policy or policies covering of the insuree.
 
 The Information includes the following:
 
@@ -2986,7 +2983,7 @@ Clicking on the sub menu ``Families/Groups`` re-directs the current user to the 
 
   `Image 90 - Find Families`
 
-The Find Family Page is the first step in the process of finding of a family and thereafter accessing the `Family Overview Page <#family-overview>`__ of insurees, policies and contributions. This initial page can be used to search for specific families or groups based on specific criteria. The page is divided into four panels (:ref:`image90`):
+The Find Family Page is the first step in the process of finding of a family and thereafter accessing the `Family Overview Page <#family-overview>`__ of insurees, policies and contributions. This initial page can be used to search for specific families or groups based on specific criteria. The page is divided into four panels (:ref:`Image 90<image90>`):
 
   A. Search Panel
 
@@ -3018,7 +3015,7 @@ The Find Family Page is the first step in the process of finding of a family and
 
     -  ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image91`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 91<image91>`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
         -  At anytime during the use of the pop-up, the user can see the date of **today**.
         -  Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -3082,7 +3079,7 @@ The Find Family Page is the first step in the process of finding of a family and
 
     -  ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image92`).
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 92<image92>`).
 
     .. _image92:
     .. figure:: /img/user_manual/image73.png
@@ -3102,9 +3099,9 @@ The Find Family Page is the first step in the process of finding of a family and
 
     `Image 93 - Selected record (blue), hovered records (yellow) - Result Panel`
 
-  The Result Panel displays a list of all families/groups found, matching the selected criteria in the Search Panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image93`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Family Overview Page <#family-overview>`__ for the Family selected or if it is an historical record then the `Change Family Page <#family-group-page>`__, for detailed viewing.
+  The Result Panel displays a list of all families/groups found, matching the selected criteria in the Search Panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 93<image93>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Family Overview Page <#family-overview>`__ for the Family selected or if it is an historical record then the `Change Family Page <#family-group-page>`__, for detailed viewing.
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image94`)
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 94<image94>`)
 
   .. _image94:
   .. figure:: /img/user_manual/image11.png
@@ -3152,7 +3149,7 @@ Find Insuree Page
 
   `Image 96 - Find Insuree Page`
 
-The ``Find Insuree Page`` is the first step in the process of finding an insuree and thereafter accessing the family/group overview of insurees, policies and contributions. This initial page can be used to search for specific Insurees or groups of insurees based on specific criteria. The panel is divided into four panels (:ref:`image96`)
+The ``Find Insuree Page`` is the first step in the process of finding an insuree and thereafter accessing the family/group overview of insurees, policies and contributions. This initial page can be used to search for specific Insurees or groups of insurees based on specific criteria. The panel is divided into four panels (:ref:`Image 96<image96>`)
 
   A. Search Panel
 
@@ -3188,7 +3185,7 @@ The ``Find Insuree Page`` is the first step in the process of finding an insuree
 
     -  ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image97`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 97<image97>`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
         -  At anytime during the use of the pop-up, the user can see the date of **today**.
         -  Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -3241,7 +3238,7 @@ The ``Find Insuree Page`` is the first step in the process of finding an insuree
 
     -  ``Historical``
 
-      Click on Historical to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image98`)
+      Click on Historical to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 98<image98>`)
 
     .. _image98:
     .. figure:: /img/user_manual/image77.png
@@ -3255,7 +3252,7 @@ The ``Find Insuree Page`` is the first step in the process of finding an insuree
 
   B. Result Panel
 
-  The result panel displays a list of all Insurees found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image99`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Family Overview Page <#family-overview-page.>`__ of the insuree’s family, or the `Insuree Page <#insuree-page>`__ if it is a historical record for viewing purposes.
+  The result panel displays a list of all Insurees found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 99<image99>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Family Overview Page <#family-overview-page.>`__ of the insuree’s family, or the `Insuree Page <#insuree-page>`__ if it is a historical record for viewing purposes.
 
   .. _image99:
   .. figure:: /img/user_manual/image78.png
@@ -3263,7 +3260,7 @@ The ``Find Insuree Page`` is the first step in the process of finding an insuree
 
     `Image 99 - Selected record (blue), hovered records (yellow) - Result Panel`
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image100`)
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 100<image100>`)
 
   .. _image100:
   .. figure:: /img/user_manual/image11.png
@@ -3311,7 +3308,7 @@ Find Policy Page
 
   `Image 102 - Find Policy Page`
 
-The ``Find Policy Page`` is the first step in the process of finding a policy and thereafter accessing the `Family Overview Page <#family-overview-page.>`__ of insurees, policies and contributions. This initial page can be used to search for specific policies or groups of policies based on specific criteria. The panel is divided into four panels (:ref:`image102`)
+The ``Find Policy Page`` is the first step in the process of finding a policy and thereafter accessing the `Family Overview Page <#family-overview-page.>`__ of insurees, policies and contributions. This initial page can be used to search for specific policies or groups of policies based on specific criteria. The panel is divided into four panels (:ref:`Image 102<image102>`)
 
   A. Search Panel
 
@@ -3347,7 +3344,7 @@ The ``Find Policy Page`` is the first step in the process of finding a policy an
 
     -  ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image103`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 103<image103>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
         -  At anytime during the use of the pop-up, the user can see the date of **today**.
         -  Clicking on **today** will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -3417,7 +3414,7 @@ The ``Find Policy Page`` is the first step in the process of finding a policy an
 
     -  ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image104`)
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 104<image104>`)
 
     .. _image104:
     .. figure:: /img/user_manual/image81.png
@@ -3431,7 +3428,7 @@ The ``Find Policy Page`` is the first step in the process of finding a policy an
 
   B. Result Panel
 
-  The Result Panel displays a list of all policies found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image105`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+  The Result Panel displays a list of all policies found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 105<image105>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
   .. _image105:
   .. figure:: /img/user_manual/image82.png
@@ -3439,7 +3436,7 @@ The ``Find Policy Page`` is the first step in the process of finding a policy an
 
     `Image 105 - Selected record (blue), hovered records (yellow) - Result Panel`
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image106`)
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 106<image106>`)
 
   .. _image106:
   .. figure:: /img/user_manual/image11.png
@@ -3487,7 +3484,7 @@ Find Contribution Page
 
   `Image - 108 Find Contribution Page`
 
-The ``Find Contribution Page`` is the first step in the process of finding a contribution and thereafter accessing the `Family Overview Page <#family-overview>`__ of insures, policies and contributions. This initial page can be used to search for specific contributions or groups of contributions based on specific criteria. The page is divided into four panels (:ref:`image108`).
+The ``Find Contribution Page`` is the first step in the process of finding a contribution and thereafter accessing the `Family Overview Page <#family-overview>`__ of insures, policies and contributions. This initial page can be used to search for specific contributions or groups of contributions based on specific criteria. The page is divided into four panels (:ref:`Image 108<image108>`).
 
     A. Search Panel
 
@@ -3511,7 +3508,7 @@ The ``Find Contribution Page`` is the first step in the process of finding a con
 
       -  ``Date Selector Button``
 
-        Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image109`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+        Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 109<image109>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
           -  At anytime during the use of the pop-up, the user can see the date of **today**.
           -  Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -3552,7 +3549,7 @@ The ``Find Contribution Page`` is the first step in the process of finding a con
 
       -  ``Historical``
 
-        Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`image110`).
+        Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 110<image110>`).
 
       .. _image110:
       .. figure:: /img/user_manual/image85.png
@@ -3566,7 +3563,7 @@ The ``Find Contribution Page`` is the first step in the process of finding a con
 
   B. Result Panel
 
-  The result panel displays a list of all contributions found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image111`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+  The result panel displays a list of all contributions found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 111<image111>`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
   .. _image111:
   .. figure:: /img/user_manual/image86.png
@@ -3574,7 +3571,7 @@ The ``Find Contribution Page`` is the first step in the process of finding a con
 
     `Image 111 Selected record (blue), hovered records (yellow) - Result Pane`
 
-  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`image112`).
+  A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 112<image112>`).
 
   .. _image112:
   .. figure:: /img/user_manual/image11.png
@@ -3614,7 +3611,7 @@ Family Overview Page
 
   `Image 113 - Family Overview Page`
 
-The ``Family Overview Page`` is the central point for all operations with regards to the families/groups, Insurees, policies and contributions associated with it. The page is divided into 6 panels (:ref:`image113`)
+The ``Family Overview Page`` is the central point for all operations with regards to the families/groups, Insurees, policies and contributions associated with it. The page is divided into 6 panels (:ref:`Image 113<image113>`)
 
   A. Family/Group Panel
 
@@ -3638,7 +3635,7 @@ The ``Family Overview Page`` is the central point for all operations with regard
 
   The Insurees Panel displays a list of the insurees within the family/group.
   The currently selected record is highlighted with light blue, while hovering
-  over records changes the highlight to yellow (:ref:`image115`). The leftmost
+  over records changes the highlight to yellow (:ref:`Image 115<image115>`). The leftmost
   record contains a hyperlink which if clicked, re-directs the user to the
   insuree record for editing or detailed viewing.
 
@@ -3666,7 +3663,7 @@ The ``Family Overview Page`` is the central point for all operations with regard
 
   C. Policies Panel
 
-  The Policies Panel displays a list of the policies held by the family/group. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image117`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the policy for editing or detailed viewing. By default the first policy is selected and therefore in the Contribution Panel, only the contributions paid on that policy will be displayed in the Contribution Panel By selecting another policy in the list, the Contribution Panel, will refresh with the contributions paid on the newly selected policy.
+  The Policies Panel displays a list of the policies held by the family/group. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 117<image117>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the policy for editing or detailed viewing. By default the first policy is selected and therefore in the Contribution Panel, only the contributions paid on that policy will be displayed in the Contribution Panel By selecting another policy in the list, the Contribution Panel, will refresh with the contributions paid on the newly selected policy.
 
   .. _image117:
   .. figure:: /img/user_manual/image91.png
@@ -3702,7 +3699,7 @@ The ``Family Overview Page`` is the central point for all operations with regard
 
   D. Contributions Panel
 
-  The ``Contribution Panel`` displays a list of contributions paid on the policy currently selected in the ``Policies Panel``. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image120`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the contribution for editing or detailed viewing.
+  The ``Contribution Panel`` displays a list of contributions paid on the policy currently selected in the ``Policies Panel``. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 120<image120>`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the contribution for editing or detailed viewing.
 
   .. _image120:
   .. figure:: /img/user_manual/image94.png
@@ -3710,7 +3707,7 @@ The ``Family Overview Page`` is the central point for all operations with regard
 
     `Image 120 - Selected record (blue), hovered records (yellow) - Contributions Panel`
 
-  In the second **Payer** column of Contributions data grid, there is a link showing (institutional) payer of the contribution on the corresponding row. When the link is clicked; a popup browser window (:ref:`image121`) will open up showing the details of the payer in read-only mode.
+  In the second **Payer** column of Contributions data grid, there is a link showing (institutional) payer of the contribution on the corresponding row. When the link is clicked; a popup browser window (:ref:`Image 121<image121>`) will open up showing the details of the payer in read-only mode.
 
   .. _image121:
   .. figure:: /img/user_manual/image95.png
@@ -3942,7 +3939,7 @@ Click on the Red Cross Sign button to delete the currently selected record\ .
 
 ..
 
-Before deleting a confirmation popup (:ref:`image125`) is displayed, which requires the user to confirm if the action should really be carried out? Deleting of a family requires deleting of all its dependants first.
+Before deleting a confirmation popup (:ref:`Image 125<image125>`) is displayed, which requires the user to confirm if the action should really be carried out? Deleting of a family requires deleting of all its dependants first.
 
 .. _image125:
 .. figure:: /img/user_manual/image24.png
@@ -4098,7 +4095,7 @@ Click on the Red Cross Sign to delete the currently selected record.
 
 ..
 
-Before deleting a confirmation popup (:ref:`image127`) is displayed, which requires the user to confirm if the action should really becarried out?
+Before deleting a confirmation popup (:ref:`Image 127<image127>`) is displayed, which requires the user to confirm if the action should really becarried out?
 
 .. _image127:
 .. figure:: /img/user_manual/image24.png
@@ -4182,7 +4179,7 @@ Click on the ``Red Cross Sign`` to delete the currently selected policy.
 
 ..
 
-Before deleting of a policy, all contributions of the policy should be deleted. Before deleting a confirmation popup (:ref:`image129`) is displayed, which requires the user to confirm if the action should really be carried out?
+Before deleting of a policy, all contributions of the policy should be deleted. Before deleting a confirmation popup (:ref:`Image 129<image129>`) is displayed, which requires the user to confirm if the action should really be carried out?
 
 .. _image129:
 .. figure:: /img/user_manual/image24.png
@@ -4294,7 +4291,7 @@ Click on the Red Cross Sign button to delete the currently selected record.
 
 ..
 
-Before deleting a confirmation popup (:ref:`image135`) is displayed, which requires the user to confirm if the action should really be carried out?
+Before deleting a confirmation popup (:ref:`Image 135<image135>`) is displayed, which requires the user to confirm if the action should really be carried out?
 
 .. _image135:
 .. figure:: /img/user_manual/image24.png
@@ -4339,7 +4336,7 @@ Claims Control Page
 
   `Image 137 - Claims Control Page`
 
-The Claims Control Page is the central point for all health facility claim administration. By having access to this panel, it is possible to add, edit and search claims. Claims can be edited only in the state **Entered**. The panel is divided into four panels (:ref:`image136`).
+The Claims Control Page is the central point for all health facility claim administration. By having access to this panel, it is possible to add, edit and search claims. Claims can be edited only in the state **Entered**. The panel is divided into four panels (:ref:`Image 136<image136>`).
 
   A. Search Panel
 
@@ -4415,7 +4412,7 @@ The Claims Control Page is the central point for all health facility claim admin
 
     -  ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image138`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 138<image138>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
         -  At anytime during the use of the pop-up, the user can see the date of **today**.
         -  Clicking on today will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -4448,7 +4445,7 @@ The Claims Control Page is the central point for all health facility claim admin
 
   B. Result Panel
 
-  The Result Panel displays a list of all claims found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image139`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+  The Result Panel displays a list of all claims found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 139<image139>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
   .. _image139:
   .. figure:: /img/user_manual/image112.png
@@ -4484,7 +4481,7 @@ The Claims Control Page is the central point for all health facility claim admin
 
       ..
 
-      Once the process is done, a popup window (:ref:`image140`) with the result of the process will be shown.
+      Once the process is done, a popup window (:ref:`Image 140<image140>`) with the result of the process will be shown.
 
       .. _image140:
       .. figure:: /img/user_manual/image113.png
@@ -4505,7 +4502,7 @@ The Claims Control Page is the central point for all health facility claim admin
 
       ..
 
-      Before deleting a confirmation popup (:ref:`image142`) is displayed, which requires the user to confirm if the action should really be carried out?
+      Before deleting a confirmation popup (:ref:`Image 142<image142>`) is displayed, which requires the user to confirm if the action should really be carried out?
 
       .. _image142:
       .. figure:: /img/user_manual/image24.png
@@ -4660,7 +4657,7 @@ Claim Page
 
   **#  User Controls**
 
-  On top of services input grid panel and items input grid panel, there is a textbox field (:ref:`image146`) and (:ref:`image147`) which is filled with a constant representing the current number of rows in the input grid a user is working with. A user can change the current number of rows in the corresponding data input grid by entered a number of rows greater than existing one. This change is only allowed before a user has made changes to the corresponding data input grid.
+  On top of services input grid panel and items input grid panel, there is a textbox field (:ref:`Image 146<image146>`) and (:ref:`Image 147<image147>`) which is filled with a constant representing the current number of rows in the input grid a user is working with. A user can change the current number of rows in the corresponding data input grid by entered a number of rows greater than existing one. This change is only allowed before a user has made changes to the corresponding data input grid.
 
   .. _image146:
   .. figure:: /img/user_manual/image119.png
@@ -4674,7 +4671,7 @@ Claim Page
 
     `Image 147 - Items input grid row number change, input field – Claim Page`
 
-  A user can manually clear the inputs in the row by clicking the ``Red Cross`` button on the end right of a desired row (:ref:`image148`). This action will require a user to confirm for the clearing process to proceed by choosing either yes / no from the popup window (:ref:`image149`) asking for user confirmation.
+  A user can manually clear the inputs in the row by clicking the ``Red Cross`` button on the end right of a desired row (:ref:`Image 148<image148>`). This action will require a user to confirm for the clearing process to proceed by choosing either yes / no from the popup window (:ref:`Image 149<image149>`) asking for user confirmation.
 
   .. _image148:
   .. figure:: /img/user_manual/image121.png
@@ -4741,7 +4738,7 @@ Clicking on the sub menu ``Review`` re-directs the current user to the `Claims O
 Claims Overview Page
 """"""""""""""""""""
 
-The Claims Overview Page is the central point for all claim review administration. By having access to this panel, it is possible to review, feedback, amend and process claims. The panel is divided into five sections (:ref:`image150`).
+The Claims Overview Page is the central point for all claim review administration. By having access to this panel, it is possible to review, feedback, amend and process claims. The panel is divided into five sections (:ref:`Image 150<image150>`).
 
   A. Search Panel
 
@@ -4817,7 +4814,7 @@ The Claims Overview Page is the central point for all claim review administratio
 
     -  ``Date Selector Button``
 
-      Clicking on the Date Selector Button will pop-up an easy to use, calendar selector (:ref:`iamge152`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the Date Selector Button will pop-up an easy to use, calendar selector (:ref:`Image 152<image152>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
         -  At anytime during the use of the pop-up, the user can see the date of **today**.
         -  Clicking on today will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -4874,13 +4871,13 @@ The Claims Overview Page is the central point for all claim review administratio
 
       ..
 
-      A popup prompt window will be displayed to confirm the process, as shown on (:ref:`image153`) and (:ref:`image154`).
+      A popup prompt window will be displayed to confirm the process, as shown on (:ref:`Image 153<image153>`) and (:ref:`Image 154<image154>`).
 
       ..
 
-      Once the update process is over, a popup window (:ref:`image155`). Showing the result of the process will be displayed.
+      Once the update process is over, a popup window (:ref:`Image 155<image155>`). Showing the result of the process will be displayed.
 
-      .. _image1523:
+      .. _image153:
       .. figure:: /img/user_manual/image125.png
         :align: center
 
@@ -4900,7 +4897,7 @@ The Claims Overview Page is the central point for all claim review administratio
 
   C. Result Panel
 
-  The Result Panel displays a list of all claims found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`image156`).
+  The Result Panel displays a list of all claims found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 156<image156>`).
 
   .. _image156:
   .. figure:: /img/user_manual/image128.png
@@ -4944,7 +4941,7 @@ The Claims Overview Page is the central point for all claim review administratio
 
       ..
 
-      Claims which can be selected for being processed are ones whose claim status is **Checked** and **Feedback Status** and **Review Status** are not **Idle**. The checkbox on the top of the Result Panel can be used to select multiple claims. The process happens while a user stays on the same page. Once the process is done, a popup window (:ref:`image157`) showing results of the process will be shown.
+      Claims which can be selected for being processed are ones whose claim status is **Checked** and **Feedback Status** and **Review Status** are not **Idle**. The checkbox on the top of the Result Panel can be used to select multiple claims. The process happens while a user stays on the same page. Once the process is done, a popup window (:ref:`Image 157<image157>`) showing results of the process will be shown.
 
       .. _image157:
       .. figure:: /img/user_manual/image129.png
@@ -5274,7 +5271,7 @@ Claim Feedback Page
 
     -  ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image161`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 161<image161>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
         -  At anytime during the use of the pop-up, the user can see the date of **today**.
         -  Clicking on today will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -5339,7 +5336,7 @@ Batch Run Control Page
 
 `Image163 (Batch Run Control Page)`
 
-The Batch Run Control Page is the central point for batch processing administration. Access to the page is restricted to users with the role of Accountant. By having access to this page, it is possible to process batches, filter, and filter for accounts. The panel is divided into six sections (:ref:`image163`)
+The Batch Run Control Page is the central point for batch processing administration. Access to the page is restricted to users with the role of Accountant. By having access to this page, it is possible to process batches, filter, and filter for accounts. The panel is divided into six sections (:ref:`Image 163<image163>`)
 
   A. Batch Processing Panel.
 
@@ -5403,7 +5400,7 @@ The Batch Run Control Page is the central point for batch processing administrat
 
   C. Display Panel.
 
-  The Display Panel is used to display results of running of batches after the filter or processing. While hovering over records, records get highlighted with a yellow colour (:ref:`image164`).
+  The Display Panel is used to display results of running of batches after the filter or processing. While hovering over records, records get highlighted with a yellow colour (:ref:`Image 164<image164>`).
 
   .. _image164:
   .. figure:: /img/user_manual/image135.png
@@ -5427,7 +5424,7 @@ The Batch Run Control Page is the central point for batch processing administrat
 
     -  ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image16`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 16<image16>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
         - At anytime during the use of the pop-up, the user can see the date of **today**.
         - Clicking on today will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -5521,7 +5518,7 @@ All functionality for use with the administration of uploading/downloading of se
 
   `Image 166 - Navigation to Registers`
 
-Clicking on the sub menu ``Registers`` re-directs the current user to the `Registers Page`: (:ref:`image166`)
+Clicking on the sub menu ``Registers`` re-directs the current user to the `Registers Page`: (:ref:`Image 166<image166>`)
 
 Registers page
 """"""""""""""
@@ -5532,7 +5529,7 @@ Registers page
 
   `Image 167 - Upload Registers`
 
-The Registers Page is divided into eight sections: (:ref:`image167`)
+The Registers Page is divided into eight sections: (:ref:`Image 167<image167>`)
 
 A. Upload of the list of diagnoses
 
@@ -5940,7 +5937,7 @@ Clicking on the sub menu ``Policy Renewals`` re=directs the current user to the 
 Policy Renewal Page
 """""""""""""""""""
 
-By having access to this page, it is possible preview the report on policy renewals, preview the journal on policy renewals and update the status of a policy. The journal will contain information on actual prompts being generated by the system. These prompt could already have been sent to the mobile phones of enrolment officers. The report on policy renewals will contain information on the expiration of policies for any given period. The page is divided into two panels (:ref:`image170`).
+By having access to this page, it is possible preview the report on policy renewals, preview the journal on policy renewals and update the status of a policy. The journal will contain information on actual prompts being generated by the system. These prompt could already have been sent to the mobile phones of enrolment officers. The report on policy renewals will contain information on the expiration of policies for any given period. The page is divided into two panels (:ref:`Image 170<image170>`).
 
   A. Select Criteria Panel
 
@@ -6018,7 +6015,7 @@ Preview Report on Renewals
 
   `Image 172 - Preview Report on Renewals`
 
-After selecting specific criteria; preview the report (:ref:`image172`) by clicking on the preview button.
+After selecting specific criteria; preview the report (:ref:`Image 172<image172>`) by clicking on the preview button.
 
 Preview Journal on Renewals
 """""""""""""""""""""""""""
@@ -6047,7 +6044,7 @@ All functionality for use with the administration of feedback prompt can be foun
 
   `Image 174 - Navigation Feedback Prompts`
 
-Clicking on the sub menu ``Feedback Prompts`` re-directs the current user to the `Feedback Prompt Page (:ref:`image174`).
+Clicking on the sub menu ``Feedback Prompts`` re-directs the current user to the `Feedback Prompt Page (:ref:`Image 174<image174>`).
 
 .. _image175:
 .. figure:: /img/user_manual/image145.png
@@ -6055,7 +6052,7 @@ Clicking on the sub menu ``Feedback Prompts`` re-directs the current user to the
 
   `Image 175 - Feedback Prompts Page`
 
-The Feedback Prompt Page is divided into three panels (:ref:`image175`).
+The Feedback Prompt Page is divided into three panels (:ref:`Image 175<image175>`).
 
   A. Select Criteria Panel
 
@@ -6101,7 +6098,7 @@ The Feedback Prompt Page is divided into three panels (:ref:`image175`).
 
     -  ``Preview``
 
-      By clicking on the ``Preview`` button, a report (journal) of feedbacks prompted will get generated and displayed (:ref:`image176`).
+      By clicking on the ``Preview`` button, a report (journal) of feedbacks prompted will get generated and displayed (:ref:`Image 176<image176>`).
 
     -  ``Cancel``
 
@@ -6585,7 +6582,7 @@ All functionality for use with the administration of Reports can be found under 
 
   `Image 203 - Navigation Reports`
 
-Clicking on the sub menu ``Reports`` re-directs the current user to the Reports Page (:ref:`image204`).
+Clicking on the sub menu ``Reports`` re-directs the current user to the Reports Page (:ref:`Image 204<image204>`).
 
 .. _image204:
 .. figure:: /img/user_manual/image173.png
@@ -6594,11 +6591,11 @@ Clicking on the sub menu ``Reports`` re-directs the current user to the Reports 
   `Image 204 - Reports Page`
 
 
-The Reports Page is divided into four panels (:ref:`image204`).
+The Reports Page is divided into four panels (:ref:`Image 204<image204>`).
 
   A. Select Criteria
 
-  The Select Criteria panel or the filter panel allows a user to select specific criteria determining the scope of data included in the report. The criteria (:ref:`image205` – :ref:`image222`) will change depending on the selected type of the report.
+  The Select Criteria panel or the filter panel allows a user to select specific criteria determining the scope of data included in the report. The criteria (:ref:`Image 205<image205>` – :ref:`Image 222<image222>`) will change depending on the selected type of the report.
 
     -  Primary Operational Indicators - Policies Report.
 
@@ -6808,7 +6805,7 @@ The general meaning of selection criteria for creating of a report is as follows
 
     -  ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`image223`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 223<image223>`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
         -  At anytime during the use of the pop-up, the user can see the date of **today**.
         -  Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -6837,7 +6834,7 @@ The general meaning of selection criteria for creating of a report is as follows
 
   B. Report Type Selector
 
-  This panel contains a list of available report types. A user can select to create a desired report by clicking on the report type list item (:ref:`image224`) and narrow the report using the criteria being shown on the panel above, and then click the preview button to create the report. Available report types are:
+  This panel contains a list of available report types. A user can select to create a desired report by clicking on the report type list item (:ref:`Image 224<image224>`) and narrow the report using the criteria being shown on the panel above, and then click the preview button to create the report. Available report types are:
 
     -  Primary Operational Indicators Report.
     -  Derived Operational Indicators Report.
@@ -6892,7 +6889,6 @@ Below are the types of reports as they can be seen in the report page.
   +-----------------+-----------------+-----------------+-----------------+
   |     Code        |     Primary     |      Dimension  |     Description |
   |                 |  indicators     |                 |                 |
-  |                 |                 |                 |                 |
   +=================+=================+=================+=================+
   |     P1          |     Number of   |     Time,       |     The number  |
   |                 |     policies    |     Insurance   |     of policies |
@@ -7699,7 +7695,7 @@ Facilities available while offline and online in IMIS, are similar with some few
 
   A. ``LOGIN``
 
-  If a user who is logging in is having user role HF Administrator or offline Scheme Administrator and if Heath Facility ID/Scheme Office ID is not set yet, just after clicking login button on the login screen/page, the user will be prompted to enter Health Facility/Scheme Office ID (:ref:`image251`), (:ref:`image252`), only once for that very first time of logging in.
+  If a user who is logging in is having user role HF Administrator or offline Scheme Administrator and if Heath Facility ID/Scheme Office ID is not set yet, just after clicking login button on the login screen/page, the user will be prompted to enter Health Facility/Scheme Office ID (:ref:`Image 251<image251>`), (:ref:`Image 252<image252>`), only once for that very first time of logging in.
 
   .. _image251:
   .. figure:: /img/user_manual/image218.png
@@ -7715,7 +7711,7 @@ Facilities available while offline and online in IMIS, are similar with some few
 
   B. ``INFORMATION BAR``
 
-  Throughout the application, an information bar at the bottom of each page will have a different background colour to that of online openIMIS and on the its right end, there will be shown heath facility code and health facility name / Scheme Office ID submitted (:ref:`image253`), (:ref:`image254`).
+  Throughout the application, an information bar at the bottom of each page will have a different background colour to that of online openIMIS and on the its right end, there will be shown heath facility code and health facility name / Scheme Office ID submitted (:ref:`Image 253<image253>`), (:ref:`Image 254<image254>`).
 
   .. _image253:
   .. figure:: /img/user_manual/image220.png
@@ -7737,7 +7733,7 @@ Facilities available while offline and online in IMIS, are similar with some few
 
       -  ``Extracts``
 
-        Extracts Menu leads an offline user to Extracts control panel. Using this panel, an offline user with rights to this panel can import data from online openIMIS to the local offline IMIS, and can also download claims and enrolments prior to upload them to the online IMIS. This panel is divided into five sections (:ref:`image255`), (:ref:`image256`) If an offline user is HF Administrator, section C will contain facility to ``Download Claims``. If an offline user is Offline Scheme Administrator, section C will contain facility to ``Download Enrolments``
+        Extracts Menu leads an offline user to Extracts control panel. Using this panel, an offline user with rights to this panel can import data from online openIMIS to the local offline IMIS, and can also download claims and enrolments prior to upload them to the online IMIS. This panel is divided into five sections (:ref:`Image 255<image255>`), (:ref:`Image 256<image256>`) If an offline user is HF Administrator, section C will contain facility to ``Download Claims``. If an offline user is Offline Scheme Administrator, section C will contain facility to ``Download Enrolments``
 
         .. _image255:
         .. figure:: /img/user_manual/image222.png
@@ -7757,7 +7753,7 @@ Facilities available while offline and online in IMIS, are similar with some few
 
         ..
 
-        User has to select a file from a local computer by clicking the 'select file' button on the left side of the section, and in the popup window which appears (:ref:`image256`) user can navigate to the required file and select the file.
+        User has to select a file from a local computer by clicking the 'select file' button on the left side of the section, and in the popup window which appears (:ref:`Image 256<image256>`) user can navigate to the required file and select the file.
 
         .. _image257:
         .. figure:: /img/user_manual/image224.png
@@ -7765,7 +7761,7 @@ Facilities available while offline and online in IMIS, are similar with some few
 
           `Image 257 - Select File Popup Window, Import Extracts, openIMIS offline`
 
-        After clicking the upload button on the very end of right hand side in this section, data in the file will be imported to the offline openIMIS and confirmation will be given as popup messages (:ref:`image257`), (:ref:`image258`).
+        After clicking the upload button on the very end of right hand side in this section, data in the file will be imported to the offline openIMIS and confirmation will be given as popup messages (:ref:`Image 257<image257>`), (:ref:`Image 258<image258>`).
 
         .. _image258:
         .. figure:: /img/user_manual/image225.png
@@ -7779,7 +7775,7 @@ Facilities available while offline and online in IMIS, are similar with some few
 
           `Image 259 - Popup Window, Import Extracts, Offline Scheme Administrator, openIMIS offline`
 
-        User cannot import an extract whose sequence number is same as last one imported; if done so, a popup message (:ref:`image260`) will be shown.
+        User cannot import an extract whose sequence number is same as last one imported; if done so, a popup message (:ref:`Image 260<image260>`) will be shown.
 
         .. _image260:
         .. figure:: /img/user_manual/image227.png
@@ -7793,7 +7789,7 @@ Facilities available while offline and online in IMIS, are similar with some few
 
         ..
 
-        User has to select a file from a local computer by clicking the 'select file' button on the left side of the section, and in the popup window which appears (:ref:`image261`), user can navigate to the required file and select the file.
+        User has to select a file from a local computer by clicking the 'select file' button on the left side of the section, and in the popup window which appears (:ref:`Image 261<image261>`), user can navigate to the required file and select the file.
 
         .. _image261:
         .. figure:: /img/user_manual/image228.png
@@ -7801,7 +7797,7 @@ Facilities available while offline and online in IMIS, are similar with some few
 
           `Image 261 - Select File Popup Window, Import Photos, openIMIS offline`
 
-        After clicking the upload button on the very end of right hand side in this section, data in the file will be imported to the offline openIMIS and confirmation will be given as popup messages (:ref:`image261`).
+        After clicking the upload button on the very end of right hand side in this section, data in the file will be imported to the offline openIMIS and confirmation will be given as popup messages (:ref:`Image 261<image261>`).
 
         .. _image262:
         .. figure:: /img/user_manual/image229.png
@@ -7817,7 +7813,7 @@ Facilities available while offline and online in IMIS, are similar with some few
 
       -  ``download enrolment xmls``
 
-        This section has facility to enable Offline Scheme Administrator download to a zipped file all offline enrollments of families, insurees, policies and contributions. By clicking the download button on the right hand side, the user initiate download process. If no enrolment found, a popup message box (:ref:`image262`) will appear, notifying the user. Otherwise enrollments will be downloaded in a zipped file and a confirmation popup message (:ref:`image264`) will appear
+        This section has facility to enable Offline Scheme Administrator download to a zipped file all offline enrollments of families, insurees, policies and contributions. By clicking the download button on the right hand side, the user initiate download process. If no enrolment found, a popup message box (:ref:`Image 262<image262>`) will appear, notifying the user. Otherwise enrollments will be downloaded in a zipped file and a confirmation popup message (:ref:`Image 264<image264>`) will appear
 
         .. _image263:
         .. figure:: /img/user_manual/image230.png
@@ -7871,7 +7867,7 @@ Facilities available while offline and online in IMIS, are similar with some few
 
     -  USERS
 
-      Users with role HF Administrator, can create only users with roles: **Receptionist, Claim Administrator** and **HF Administrator** (:ref:`image268`). User with role 'offline NSHIP Administrator', can create only user with role: **Clerk** (:ref:`image269`).
+      Users with role HF Administrator, can create only users with roles: **Receptionist, Claim Administrator** and **HF Administrator** (:ref:`Image 268<image268>`). User with role 'offline NSHIP Administrator', can create only user with role: **Clerk** (:ref:`Image 269<image269>`).
 
       .. _image268:
       .. figure:: /img/user_manual/image235.png
@@ -7889,7 +7885,7 @@ Facilities available while offline and online in IMIS, are similar with some few
 
     -  Search / Find
 
-      In all pages in ``Insurees`` and ``Policies`` menus with search / find acility, there will be an extra search criteria (:ref:`image 270`) to enable search for offline data only. This feature is available if a user is in Offline IMIS.
+      In all pages in ``Insurees`` and ``Policies`` menus with search / find acility, there will be an extra search criteria (:ref:`image 270<image270>`) to enable search for offline data only. This feature is available if a user is in Offline IMIS.
 
       .. _image270:
       .. figure:: /img/user_manual/image237.png
@@ -7904,1077 +7900,4 @@ Facilities available while offline and online in IMIS, are similar with some few
     ..
 
     For an offline user with a right to open ``Insurees`` and ``Policies`` menus, he/she can access all data but can manipulate only that data which was created offline. The rest of the data will be available in read-only mode
-
-Analytic and reporting component
---------------------------------
-
-The Analytic and Reporting component of the Insurance Management Information System (AR-IMIS) provides managerial data for management of health insurance schemes supported by IMIS, allows easy and speedy analysis of these data with the objective to reveal causes of different phenomena encountered in supported health insurance schemes. Provided data allow also monitoring of developments within supported health insurance schemes and identification of potential errors in operational data.
-
-Concept of AR-IMIS
-^^^^^^^^^^^^^^^^^^
-
-The concept of AR-IMIS is based on populating of the Data Warehouse with aggregate data from the operational database of IMIS. This populating is done automatically and regularly (usually once a week) from the operational database by Extract, Transformation and Loading process (ETL). Within this process data from the operational database are aggregated and stored in the Data Warehouse in conformance with multidimensional data model (:ref:`image271`).
-
-.. _image271:
-.. figure:: /img/user_manual/image238.png
-  :align: center
-
-  `Image 271 - Concept of AR-IMIS`
-
-This model is suitable for analysis of data. Questions like “What is the number of newly covered insurees by an insurance product at during a calendar period and who were of an age, a gender, lived in a location and were cared for by a enrolment officer? Data in the multidimensional Data Warehouse are presented by a suitable front-end tool. Currently AR-IMIS uses MS Excel as the front-end presentation tool. An Excel file is remotely connected to the Data Warehouse and data are stored in the Excel file in the form of so called pivot tables. The multidimensional model is based on the notion of facts and dimensions. The facts (indicators) are what we are interested in. For example, a fact may number of insured persons, number of active policies, number of submitted claims etc. Facts can be looked at from different angles-for example from the point of view of age and gender of insured persons, from the point of view of time period etc. These angles (points of view) are captured by the notion of dimensions that are used for qualification of facts (:ref:`image272`).
-
-.. _image272:
-.. figure:: /img/user_manual/image239.png
-  :align: center
-
-  `Image 272 - Facts and dimensions`
-
-A dimension is composed from points that represent specific values in the dimension for which we want to look at facts-for example *November* 2015 may be one point in the Time dimension. Points of a dimension may be organized in hierarchies. Higher levels of hierarchies represent more aggregate views. Going to the lower levels by so called *drill down* operation we can analyze facts in more detail-for example we may drill down from calendar years to quarters of corresponding calendar years and further to months. We can go in an opposite direction and look at facts from more aggregate points of view (*drill up*).For example from looking at the amount of collected contributions in calendar months we can look at the same indicator according to quarters of a year or according to calendar years.
-
-..
-
-Facts with related meaning and the identical set of qualifying dimension are represented in the multidimensional model of the Data Warehouse as so called cubes. We can do other operations on cubes as for example *slicing* when we select one or several points in one dimension and look at the rest of cube or dicing when we select on or several points in two or more dimensions. All such operations allow analysis of data in the Data Warehouse in an easy and comprehensive way.
-
-Dimensions
-^^^^^^^^^^
-
-Dimensions represent our point of view on facts. Each dimension has several values (points). The points are used for qualification of our view on the facts. AR-IMIS provides values of facts corresponding to specified points across one or more dimensions. The points may be organized in hierarchies. Lower levels of a hierarchy allow looking at a fact according to more specific points. For example, the most important *Time* dimension has at the lowest level calendar months. The calendar months are grouped into quarters and quarters into calendar years. So, we can get a value of a fact corresponding to a specific month. Going one level up in the dimension *Time*, we can get can get a value of the fact corresponding to a specific quarter and going even up we can get a value of the fact corresponding to a specific calendar year. If we don’t specify any point in a dimension, it means we are interested in a value of a fact for all points together in the given dimension.
-
-..
-
-AR-IMIS defines several dimensions. Their meaning is dependent on the context of a fact for which they are used. For example, for the fact *Number of submitted claims* the *Time* dimension means in AR-IMIS a period in which claimed health care was provided. It could have also other interpretations, for example, it may be a period in which claims were submitted. Exact interpretation of each dimension is indicated with description of each fact provided below.
-
-..
-
-The points of a dimension are either fixed, e.g. the points *Sex* are *Male/Female/Undefined* for the dimension, or are obtained from registers in the operational part of IMIS. For example, the points for the dimension *Services* are obtained from the current status of the register of services in IMIS.
-
-..
-
-The following table shows dimensions used across AR-IMIS. For each dimension its name, names of attributes used for referencing of their points, source for their points, and their meaning.
-
-+-----------------+-----------------+-----------------+-----------------+
-|         Name    | Names of        | Source of data  | Points          |
-|                 | hierarchy /     |                 |                 |
-|                 | attributes      |                 |                 |
-+=================+=================+=================+=================+
-| **Time**        | Time Hierarchy  | generated by    | Hierarchy:      |
-|                 |                 | openIMIS            |                 |
-|                 | **Other         |                 | Years->Quarters |
-|                 | fields**:       |                 | ->Months        |
-|                 |                 |                 |                 |
-|                 | Month Name      |                 |                 |
-|                 |                 |                 |                 |
-|                 | Quarter Name    |                 |                 |
-|                 |                 |                 |                 |
-|                 | Year Time       |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| **Age**         | Age Range       | generated by    | below1,1-4,5-9… |
-|                 |                 | openIMIS            | ,               |
-|                 |                 |                 | 80+,Unkown      |
-+-----------------+-----------------+-----------------+-----------------+
-| **Gender**      | Gender Name     | generated by    | Male, Female,   |
-|                 |                 | openIMIS            | Unknown         |
-+-----------------+-----------------+-----------------+-----------------+
-| **Regions**     | Region          | `register of    | Hierarchy:      |
-|                 | Hierarchy       | locations <#loc |                 |
-|                 |                 | ations-administ | Regions->Distri |
-|                 | **Other         | ration>`__      | cts->Wards->Vil |
-|                 | fields**:       |                 | lages           |
-|                 |                 |                 |                 |
-|                 | Region          |                 |                 |
-|                 |                 |                 |                 |
-|                 | District        |                 |                 |
-|                 |                 |                 |                 |
-|                 | Ward            |                 |                 |
-|                 |                 |                 |                 |
-|                 | Village         |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| **Products**    | Product         | `register of    | Hierarchy:      |
-|                 | Hierarchy       | insurance       |                 |
-|                 |                 | products <#insu | Regions->Distri |
-|                 | **Other         | rance-products- | cts->Products   |
-|                 | fields**:       | administration> |                 |
-|                 |                 | `__             |                 |
-|                 | Region          |                 |                 |
-|                 |                 |                 |                 |
-|                 | District        |                 |                 |
-|                 |                 |                 |                 |
-|                 | Product Name    |                 |                 |
-|                 |                 |                 |                 |
-|                 | Product Code    |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| **Payers**      | Payer Name      | `register of    | Families,       |
-|                 |                 | payers <#payers | Payers (the     |
-|                 |                 | -administration | list of)        |
-|                 |                 | >`__            |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| **Officers**    | Officer         | `register of    | Hierarchy:      |
-|                 | Hierarchy       | enrolment       |                 |
-|                 |                 | officers <#enro | Regions->Distri |
-|                 | **Other         | lment-officers- | cts->Enrolment  |
-|                 | fields**:       | administration> | Officers        |
-|                 |                 | `__             |                 |
-|                 | Region          |                 |                 |
-|                 |                 |                 |                 |
-|                 | District        |                 |                 |
-|                 |                 |                 |                 |
-|                 | Last Name       |                 |                 |
-|                 |                 |                 |                 |
-|                 | Other Names     |                 |                 |
-|                 |                 |                 |                 |
-|                 | Assistant Code  |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| **Services**    | Service         | `register of    | Hierarchy:      |
-|                 | Hierarchy       | medical         |                 |
-|                 |                 | services <#medi | (Curative,      |
-|                 | **Other         | cal-services-ad | Preventive)->Se |
-|                 | fields**:       | ministration>`_ | rvices          |
-|                 |                 | _               |                 |
-|                 | Service Code    |                 |                 |
-|                 |                 |                 |                 |
-|                 | Service Name    |                 |                 |
-|                 |                 |                 |                 |
-|                 | Service         |                 |                 |
-|                 | Category        |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| **Items**       | Item Hierarchy  | `register of    | Hierarchy:      |
-|                 |                 | medical         |                 |
-|                 | **Other         | items <#medical | (Drugs,         |
-|                 | fields**:       | -items-administ | Prostheses)->It |
-|                 |                 | ration>`__      | ems             |
-|                 | Item Code       |                 |                 |
-|                 |                 |                 |                 |
-|                 | Item Name       |                 |                 |
-|                 |                 |                 |                 |
-|                 | Item Category   |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| **Diseases**    | Disease         | `list of        |                 |
-|                 | Hierarchy       | diagnoses <#upl |                 |
-|                 |                 | oad-list-of-dia |                 |
-|                 | **Other         | gnoses>`__      |                 |
-|                 | fields**:       |                 |                 |
-|                 |                 |                 |                 |
-|                 | Disease Name    |                 |                 |
-|                 |                 |                 |                 |
-|                 | Disease Code    |                 |                 |
-|                 |                 |                 |                 |
-|                 | Disease         |                 |                 |
-|                 | Category        |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| **Providers**   | Provider        | `register of    | Hierarchy:      |
-|                 | Hierarchy       | health          |                 |
-|                 |                 | facilities <#he | Regions->Distri |
-|                 | **Other         | alth-facilities | cts->           |
-|                 | fields**:       | -administration | (Dispensary,    |
-|                 |                 | >`__            | Health Centre,  |
-|                 | Provider Name   |                 | Hospital)       |
-|                 |                 |                 | ->Health        |
-|                 | Disease Code    |                 | facility        |
-|                 |                 |                 |                 |
-|                 | Provider        |                 |                 |
-|                 | Category        |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| **Care          | Category Care   | generated by    | Emergency,      |
-| Category**      |                 | openIMIS            | Other,          |
-|                 |                 |                 | Referral,       |
-|                 |                 |                 | Unknown         |
-+-----------------+-----------------+-----------------+-----------------+
-| **Care Type**   | Care Type       | generated by    | In-patient,     |
-|                 |                 | openIMIS            | Out-patient,    |
-|                 |                 |                 | Unknown         |
-+-----------------+-----------------+-----------------+-----------------+
-| **Questions**   | Question        | generated by    | Care Rendered,  |
-|                 |                 | openIMIS            | Drug            |
-|                 |                 |                 | Prescribed,     |
-|                 |                 |                 | Drug Received,  |
-|                 |                 |                 | Payment Aske,   |
-|                 |                 |                 | Unknown         |
-+-----------------+-----------------+-----------------+-----------------+
-
-`Table 9.1 Overview of dimensions`
-
-
-Facts
-^^^^^
-
-Facts provided by AR-IMIS can be structured into the areas according to (:ref:`image273`). Within each area several facts packed into one or several cubes are provided. Facts are packed into the same cube if they have an associated meaning and are provided with the same set of dimension. The following articles lists available cubes according to the areas, for each cube indicates available facts with description of their meaning and
-
-.. _image273:
-.. figure:: /img/user_manual/image239.png
-  :align: center
-
-  `Image 273 - Areas of facts`
-
-underlying set of qualifying dimensions. If meaning of a dimension is not straightforward, its description is provided. It relates especially to the *Time* dimension where it is important which datum related with a fact is taken as the governing date for association with given point (period) in the *Time* dimension.
-
-Facts on enrolment and policies
-"""""""""""""""""""""""""""""""
-
-This group of facts relates to acquisition of insures and development of coverage by health insurance schemes. Facts available are listed in `Table 9.2 <#table-9.2-facts-on-enrolment-and-policies>`__
-
-+-------------+-------------+-------------+-------------+-------------+
-| Cube        | Fact        | Meaning     | Dimension   | Comment     |
-+=============+=============+=============+=============+=============+
-| Population  | Population  | Number of   | Gender      |             |
-|             |             | inhabitants |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Region      |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Time        |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Number of   | Number of   | Number of   | Region      |             |
-| families/gr | families/gr | households  |             |             |
-| oups        | oups        | according   |             |             |
-|             |             | to a census |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Time        |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Current and | Current     | Insurees    | Age         | Age at the  |
-| new         | insurees    | covered by  |             | end of a    |
-| insurees    |             | at least    |             | time period |
-|             |             | one policy  |             |             |
-|             |             | active at   |             |             |
-|             |             | the end of  |             |             |
-|             |             | a time      |             |             |
-|             |             | period      |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Gender      |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Enrolment   | An          |
-|             |             |             | Officers    | enrolment   |
-|             |             |             |             | officer     |
-|             |             |             |             | responsible |
-|             |             |             |             | for         |
-|             |             |             |             | correspondi |
-|             |             |             |             | ng          |
-|             |             |             |             | policy      |
-+-------------+-------------+-------------+-------------+-------------+
-|             | New         | Insurees    | Region      | Place of    |
-|             | acquired    | newly       |             | living of a |
-|             | insurees    | insured     |             | household   |
-|             |             | during a    |             |             |
-|             |             | time period |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Products    | An          |
-|             |             |             |             | insurance   |
-|             |             |             |             | product     |
-|             |             |             |             | covering an |
-|             |             |             |             | insuree     |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Time        | Period of   |
-|             |             |             |             | enrolment   |
-|             |             |             |             | of insurees |
-|             |             |             |             | for new     |
-|             |             |             |             | insurees    |
-|             |             |             |             |             |
-|             |             |             |             | Period of   |
-|             |             |             |             | effective   |
-|             |             |             |             | day and     |
-|             |             |             |             | later of    |
-|             |             |             |             | their       |
-|             |             |             |             | policies    |
-|             |             |             |             | for current |
-|             |             |             |             | insurees    |
-+-------------+-------------+-------------+-------------+-------------+
-| All types   | Current     | Number of   | Age         | Age of the  |
-| of policies | policies    | active      |             | head of a   |
-|             |             | policies at |             | household   |
-|             |             | the end of  |             | at the end  |
-|             |             | a time      |             | of a time   |
-|             |             | period      |             | period      |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Expired     | Number of   | Gender      | Gender of   |
-|             | policies    | policies    |             | the head of |
-|             |             | that        |             | a household |
-|             |             | expired     |             |             |
-|             |             | during a    |             |             |
-|             |             | time period |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Renewed     | Number of   | Enrolment   | An          |
-|             | policies    | policies    | Officers    | enrolment   |
-|             |             | that were   |             | officer     |
-|             |             | renewed     |             | responsible |
-|             |             | during a    |             | for         |
-|             |             | time period |             | correspondi |
-|             |             |             |             | ng          |
-|             |             |             |             | policy      |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Sold        | Number of   | Region      | Place of    |
-|             | policies    | policies    |             | living of a |
-|             |             | that were   |             | household   |
-|             |             | sold during |             |             |
-|             |             | a time      |             |             |
-|             |             | period      |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Products    | An          |
-|             |             |             |             | insurance   |
-|             |             |             |             | product of  |
-|             |             |             |             | a policy    |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Time        | Period of   |
-|             |             |             |             | enrolment   |
-|             |             |             |             | date for    |
-|             |             |             |             | sold        |
-|             |             |             |             | policies    |
-|             |             |             |             |             |
-|             |             |             |             | Period of   |
-|             |             |             |             | expiry date |
-|             |             |             |             | for expired |
-|             |             |             |             | policies    |
-|             |             |             |             |             |
-|             |             |             |             | Period of   |
-|             |             |             |             | renewal     |
-|             |             |             |             | date(when   |
-|             |             |             |             | renewing    |
-|             |             |             |             | was done)   |
-|             |             |             |             | for renewed |
-|             |             |             |             | policies    |
-|             |             |             |             |             |
-|             |             |             |             | Period of   |
-|             |             |             |             | effective   |
-|             |             |             |             | day and     |
-|             |             |             |             | later for   |
-|             |             |             |             | current     |
-|             |             |             |             | policies    |
-+-------------+-------------+-------------+-------------+-------------+
-| Share of    | Share of    | =Current    | Gender      |             |
-| insured     | insured     | insures /   |             |             |
-| population  | population  | Population  |             |             |
-|             |             |             |             |             |
-|             |             | at the end  |             |             |
-|             |             | of a time   |             |             |
-|             |             | period      |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Region      | Place of    |
-|             |             |             |             | living of a |
-|             |             |             |             | household   |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Products    | An          |
-|             |             |             |             | insurance   |
-|             |             |             |             | product     |
-|             |             |             |             | covering an |
-|             |             |             |             | insuree     |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Time        |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Share of    | Number of   | Number of   | Region      | Place of    |
-| insured     | insured     | households  |             | living of a |
-| families/gr | families/gr | that are    |             | household   |
-| oups        | oups        | covered by  |             |             |
-|             |             | at least    |             |             |
-|             |             | one active  |             |             |
-|             |             | policy at   |             |             |
-|             |             | the end of  |             |             |
-|             |             | a time      |             |             |
-|             |             | period      |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Time        |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Share of    | =Number of  | Region      | Place of    |
-|             | insured     | insured     |             | living of a |
-|             | families/gr | households  |             | household   |
-|             | oups        | /Number of  |             |             |
-|             |             | households  |             |             |
-|             |             |             |             |             |
-|             |             | at the end  |             |             |
-|             |             | of a time   |             |             |
-|             |             | period      |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Time        |             |
-+-------------+-------------+-------------+-------------+-------------+
-
-`Table 9.2 Facts on enrolment and policies`
-
-Facts on collected revenue
-""""""""""""""""""""""""""
-
-This group of facts relates to revenue of health insurance schemes. Facts available are listed in `Table 9.3 <\l>`__.
-
-+-------------+-------------+-------------+-------------+-------------+
-| Cube        | Fact        | Meaning     | Dimension   | Comment     |
-+=============+=============+=============+=============+=============+
-| Contributio | Contributio | Contributio | Enrolment   | Collection  |
-| n           | n           | ns          | Officers    | of          |
-| collection  | collected   | collected   |             | contributio |
-|             |             | in given    |             | ns          |
-|             |             | time period |             | from        |
-|             |             |             |             | policies of |
-|             |             |             |             | an          |
-|             |             |             |             | enrolment   |
-|             |             |             |             | officer     |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Payers      | Collection  |
-|             |             |             |             | of          |
-|             |             |             |             | contributio |
-|             |             |             |             | ns          |
-|             |             |             |             | from an     |
-|             |             |             |             | institution |
-|             |             |             |             | al          |
-|             |             |             |             | payer or    |
-|             |             |             |             | from        |
-|             |             |             |             | families    |
-|             |             |             |             | itself      |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Products    | Collection  |
-|             |             |             |             | of          |
-|             |             |             |             | contributio |
-|             |             |             |             | ns          |
-|             |             |             |             | within an   |
-|             |             |             |             | insurance   |
-|             |             |             |             | product     |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Time        | Period of   |
-|             |             |             |             | payment     |
-|             |             |             |             | date of     |
-|             |             |             |             | contributio |
-|             |             |             |             | ns          |
-+-------------+-------------+-------------+-------------+-------------+
-| Contributio | Contributio | Amount of   | Products    | Allocation  |
-| n           | n           | collected   |             | of          |
-| allocation  | allocated   | contributio |             | contributio |
-|             |             | ns          |             | ns          |
-|             |             | allocated   |             | within an   |
-|             |             | proportiona |             | insurance   |
-|             |             | lly         |             | product     |
-|             |             | for using   |             |             |
-|             |             | in a time   |             |             |
-|             |             | period      |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Time        | Period of   |
-|             |             |             |             | allocation  |
-|             |             |             |             | of          |
-|             |             |             |             | contributio |
-|             |             |             |             | ns          |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-
-`Table 9.3 Facts on contributions`
-
-Facts on claims
-"""""""""""""""
-
-This group of facts relates to claims forwarded by health care providers to administrators of health insurance schemes. Facts available are listed in `Table 9.4 <#table-9.4-facts-on-claims>`__.
-
-+-------------+-------------+-------------+-------------+-------------+
-| Cube        | Fact        | Meaning     | Dimension   | Comment     |
-+=============+=============+=============+=============+=============+
-| Claim       | Amount      | Total       | Providers   | Providers   |
-| details     | claimed     | amount in   |             | that        |
-|             |             | nominal     |             | entered and |
-|             |             | prices that |             | or          |
-|             |             | was         |             | submitted   |
-|             |             | submitted   |             | claims      |
-|             |             | by health   |             |             |
-|             |             | care        |             |             |
-|             |             | providers   |             |             |
-|             |             | for health  |             |             |
-|             |             | care        |             |             |
-|             |             | provided in |             |             |
-|             |             | given       |             |             |
-|             |             | period      |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Amount      | Total       | Time        | Time period |
-|             | rejected    | amount that |             | of          |
-|             |             | was on      |             | provision   |
-|             |             | totally     |             | of health   |
-|             |             | rejected    |             | care that   |
-|             |             | claims      |             | was         |
-|             |             |             |             | invoiced in |
-|             |             |             |             | claims      |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Entered     | Number of   |             |             |
-|             | claims      | claims      |             |             |
-|             |             | entered     |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Submitted   | Number of   |             |             |
-|             | claims      | claims      |             |             |
-|             |             | submitted   |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Rejected    | Number of   |             |             |
-|             | claims      | claims      |             |             |
-|             |             | totally     |             |             |
-|             |             | rejected    |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Average     | =Amount     |             |             |
-|             | amount      | claimed/    |             |             |
-|             | claimed     | Submitted   |             |             |
-|             |             | claims      |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Average     | =Amount     |             |             |
-|             | amount      | rejected/   |             |             |
-|             | rejected    | Rejected    |             |             |
-|             |             | claims      |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Claim       | Amount      | Amount      | Providers   | Providers   |
-| details     | adjusted    | adjusted    |             | that        |
-| products    |             | after       |             | submitted   |
-|             |             | processing  |             | claims      |
-|             |             | in nominal  |             |             |
-|             |             | prices      |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Amount paid | Amount      | Products    | Products by |
-|             |             | actually to |             | which       |
-|             |             | be paid to  |             | health care |
-|             |             | health      |             | claimed was |
-|             |             | facilities  |             | covered     |
-|             |             | taking into |             |             |
-|             |             | account     |             |             |
-|             |             | indexes of  |             |             |
-|             |             | relative    |             |             |
-|             |             | pricing     |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Processed   | Number of   | Time        | Time period |
-|             | claims      | claims sent |             | of          |
-|             |             | for         |             | provision   |
-|             |             | valuation   |             | of health   |
-|             |             |             |             | care that   |
-|             |             |             |             | was         |
-|             |             |             |             | invoiced in |
-|             |             |             |             | claims      |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Paid claims | Number of   |             |             |
-|             |             | claims      |             |             |
-|             |             | actually    |             |             |
-|             |             | valuated    |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Average     | =Amount     |             |             |
-|             | amount      | adjusted/Pr |             |             |
-|             | adjusted    | ocessed     |             |             |
-|             |             | claims      |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Average     | =Amount     |             |             |
-|             | amount paid | paid/       |             |             |
-|             |             | Valuated    |             |             |
-|             |             | claims      |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-
-`Table 9.4 Facts on claims`
-
-Facts on utilization of health care
-"""""""""""""""""""""""""""""""""""
-
-This group of facts relates to utilization of health care by insures according to submitted and not rejected claims. Facts available are listed in `Table 9.5 <#table-9.5-facts-on-of-utilization-health-care>`__
-
-+-------------+-------------+-------------+-------------+-------------+
-| Cube        | Fact        | Meaning     | Dimension   | Comment     |
-+=============+=============+=============+=============+=============+
-| Admissions  | Number of   | Number of   | Age         | Age at the  |
-| and visits  | hospital    | hospital    |             | time of     |
-| and         | admissions  | admissions  |             | provision   |
-| hospital    |             |             |             | health care |
-| days        |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Gender      |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Disease     | .           |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Number of   |             | Care        |             |
-|             | hospital    |             | category    |             |
-|             | days        |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Average     | = Number of | Products    | In case two |
-|             | length of   | hospital    |             | or more     |
-|             | stay        | days/       |             | insurance   |
-|             |             | Number of   |             | products    |
-|             |             | hospital    |             | covered a   |
-|             |             | admissions  |             | hospital    |
-|             |             |             |             | admission/v |
-|             |             |             |             | isit,       |
-|             |             |             |             | it is       |
-|             |             |             |             | accounted   |
-|             |             |             |             | to each of  |
-|             |             |             |             | them        |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Number of   |             | Providers   | Providers   |
-|             | out-patient |             |             | which       |
-|             | visits      |             |             | claimed     |
-|             |             |             |             | health care |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Time        | Hospital    |
-|             |             |             |             | admissions  |
-|             |             |             |             | are         |
-|             |             |             |             | associated  |
-|             |             |             |             | with time   |
-|             |             |             |             | periods     |
-|             |             |             |             | according   |
-|             |             |             |             | to dates of |
-|             |             |             |             | discharge.  |
-|             |             |             |             | Time period |
-|             |             |             |             | of          |
-|             |             |             |             | provision   |
-|             |             |             |             | of health   |
-|             |             |             |             | care        |
-+-------------+-------------+-------------+-------------+-------------+
-| Utilization | Services    | Number of   | Age         | Age at the  |
-| of services | utilized    | utilized    |             | time of     |
-|             |             | services    |             | provision   |
-|             |             | according   |             | health care |
-|             |             | to          |             |             |
-|             |             | submitted   |             |             |
-|             |             | claims.     |             |             |
-|             |             |             |             |             |
-|             |             | If a        |             |             |
-|             |             | service was |             |             |
-|             |             | provided    |             |             |
-|             |             | during one  |             |             |
-|             |             | visit/hospi |             |             |
-|             |             | tal         |             |             |
-|             |             | stay, the   |             |             |
-|             |             | service is  |             |             |
-|             |             | counted     |             |             |
-|             |             | according   |             |             |
-|             |             | to the      |             |             |
-|             |             | number of   |             |             |
-|             |             | its         |             |             |
-|             |             | provision   |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Gender      |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Disease     | .           |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Care        |             |
-|             |             |             | category    |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Care type   |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Products    |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Providers   | Providers   |
-|             |             |             |             | which       |
-|             |             |             |             | claimed     |
-|             |             |             |             | health care |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Services    |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Time        | Hospital    |
-|             |             |             |             | admissions  |
-|             |             |             |             | are         |
-|             |             |             |             | associated  |
-|             |             |             |             | with time   |
-|             |             |             |             | periods     |
-|             |             |             |             | according   |
-|             |             |             |             | to dates of |
-|             |             |             |             | discharge.  |
-|             |             |             |             | Time period |
-|             |             |             |             | of          |
-|             |             |             |             | provision   |
-|             |             |             |             | of health   |
-|             |             |             |             | care        |
-+-------------+-------------+-------------+-------------+-------------+
-| Utilization | Items       | Number of   | Age         | Age at the  |
-| of medical  | utilized    | utilized    |             | time of     |
-| items       |             | medical     |             | provision   |
-|             |             | items       |             | health care |
-|             |             | according   |             |             |
-|             |             | to          |             |             |
-|             |             | submitted   |             |             |
-|             |             | claims      |             |             |
-|             |             |             |             |             |
-|             |             | If a        |             |             |
-|             |             | medical     |             |             |
-|             |             | item was    |             |             |
-|             |             | provided    |             |             |
-|             |             | during one  |             |             |
-|             |             | visit/hospi |             |             |
-|             |             | tal         |             |             |
-|             |             | stay, the   |             |             |
-|             |             | medical     |             |             |
-|             |             | item is     |             |             |
-|             |             | counted     |             |             |
-|             |             | according   |             |             |
-|             |             | to the      |             |             |
-|             |             | number of   |             |             |
-|             |             | its         |             |             |
-|             |             | provision   |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Gender      |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Disease     | .           |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Care        |             |
-|             |             |             | category    |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Care type   |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Products    |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Providers   | Providers   |
-|             |             |             |             | which       |
-|             |             |             |             | claimed     |
-|             |             |             |             | health care |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Items       |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Time        | Hospital    |
-|             |             |             |             | admissions  |
-|             |             |             |             | are         |
-|             |             |             |             | associated  |
-|             |             |             |             | with time   |
-|             |             |             |             | periods     |
-|             |             |             |             | according   |
-|             |             |             |             | to dates of |
-|             |             |             |             | discharge.  |
-|             |             |             |             | Time period |
-|             |             |             |             | of          |
-|             |             |             |             | provision   |
-|             |             |             |             | of health   |
-|             |             |             |             | care        |
-+-------------+-------------+-------------+-------------+-------------+
-| Average     | Average     | = Services  | Age         | Age at the  |
-| utilization | utilization | utilized /  |             | time of     |
-| of services | of services | Current     |             | provision   |
-| per insuree | per insuree | insurees    |             | health care |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Gender      |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Disease     |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Products    |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Services    |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Time        | Hospital    |
-|             |             |             |             | admissions  |
-|             |             |             |             | are         |
-|             |             |             |             | associated  |
-|             |             |             |             | with time   |
-|             |             |             |             | periods     |
-|             |             |             |             | according   |
-|             |             |             |             | to dates of |
-|             |             |             |             | discharge.  |
-|             |             |             |             | Time period |
-|             |             |             |             | of          |
-|             |             |             |             | provision   |
-|             |             |             |             | of health   |
-|             |             |             |             | care        |
-+-------------+-------------+-------------+-------------+-------------+
-| Average     | Average     | = Items     | Age         |             |
-| utilization | utilization | utilized /  |             |             |
-| of medical  | of medical  | Current     |             |             |
-| items per   | items per   | insurees    |             |             |
-| insuree     | insuree     |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Gender      |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Disease     |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Products    |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Items       |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Time        |             |
-+-------------+-------------+-------------+-------------+-------------+
-
-`Table 9.5 Facts on of utilization health care`
-
-Facts on expenditures for health care
-"""""""""""""""""""""""""""""""""""""
-
-This group of facts relates to expenditures for health care actually paid to health care providers. Facts available are listed in `Table 9.6 <#table-9.6-facts-on-expenditures-for-health-care>`__
-
-+-------------+-------------+-------------+-------------+-------------+
-| Cube        | Fact        | Meaning     | Dimension   | Comment     |
-+=============+=============+=============+=============+=============+
-| Expenditure | Service     | Expenditure | Age         | Age at the  |
-| s           | expenditure | s           |             | time of     |
-| for         | s           | for         |             | provision   |
-| services    |             | services    |             | health care |
-|             |             | actually    |             |             |
-|             |             | remunerated |             |             |
-|             |             | to health   |             |             |
-|             |             | facilities  |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Gender      |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Disease     | .           |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Care        |             |
-|             |             |             | category    |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Care type   |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Products    |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Providers   | Providers   |
-|             |             |             |             | which       |
-|             |             |             |             | claimed     |
-|             |             |             |             | health care |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Services    |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Time        | Hospital    |
-|             |             |             |             | admissions  |
-|             |             |             |             | are         |
-|             |             |             |             | associated  |
-|             |             |             |             | with time   |
-|             |             |             |             | periods     |
-|             |             |             |             | according   |
-|             |             |             |             | to dates of |
-|             |             |             |             | discharge.  |
-|             |             |             |             | Time period |
-|             |             |             |             | of          |
-|             |             |             |             | provision   |
-|             |             |             |             | of health   |
-|             |             |             |             | care        |
-+-------------+-------------+-------------+-------------+-------------+
-| Expenditure | Item        | Expenditure | Age         | Age at the  |
-| s           | expenditure | s           |             | time of     |
-| for medical | s           | for medical |             | provision   |
-| items       |             | items       |             | health care |
-|             |             | actually    |             |             |
-|             |             | remunerated |             |             |
-|             |             | to health   |             |             |
-|             |             | facilities  |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Gender      |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Disease     | .           |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Care        |             |
-|             |             |             | category    |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Care type   |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Products    |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Providers   | Providers   |
-|             |             |             |             | which       |
-|             |             |             |             | claimed     |
-|             |             |             |             | health care |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Items       |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Time        | Hospital    |
-|             |             |             |             | admissions  |
-|             |             |             |             | are         |
-|             |             |             |             | associated  |
-|             |             |             |             | with time   |
-|             |             |             |             | periods     |
-|             |             |             |             | according   |
-|             |             |             |             | to dates of |
-|             |             |             |             | discharge.  |
-|             |             |             |             | Time period |
-|             |             |             |             | of          |
-|             |             |             |             | provision   |
-|             |             |             |             | of health   |
-|             |             |             |             | care        |
-+-------------+-------------+-------------+-------------+-------------+
-| Average     | Average     | = Service   | Age         | Age at the  |
-| expenditure | expenditure | expenditure |             | time of     |
-| s           | s           | s/          |             | provision   |
-| for         | for         | Current     |             | health care |
-| services    | services    | insurees    |             |             |
-| per insuree | per insuree |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Gender      |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Disease     | .           |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Products    |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Services    |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Time        | Hospital    |
-|             |             |             |             | admissions  |
-|             |             |             |             | are         |
-|             |             |             |             | associated  |
-|             |             |             |             | with time   |
-|             |             |             |             | periods     |
-|             |             |             |             | according   |
-|             |             |             |             | to dates of |
-|             |             |             |             | discharge.  |
-|             |             |             |             | Time period |
-|             |             |             |             | of          |
-|             |             |             |             | provision   |
-|             |             |             |             | of health   |
-|             |             |             |             | care        |
-+-------------+-------------+-------------+-------------+-------------+
-| Average     | Average     | = Item      | Age         | Age at the  |
-| expenditure | expenditure | expenditure |             | time of     |
-| s           | s           | s/          |             | provision   |
-| for medical | for medical | Number of   |             | health care |
-| items per   | items per   | inhabitants |             |             |
-| insuree     | insuree     |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Gender      |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Disease     | .           |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Products    |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Items       |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Time        | Hospital    |
-|             |             |             |             | admissions  |
-|             |             |             |             | are         |
-|             |             |             |             | associated  |
-|             |             |             |             | with time   |
-|             |             |             |             | periods     |
-|             |             |             |             | according   |
-|             |             |             |             | to dates of |
-|             |             |             |             | discharge.  |
-|             |             |             |             | Time period |
-|             |             |             |             | of          |
-|             |             |             |             | provision   |
-|             |             |             |             | of health   |
-|             |             |             |             | care        |
-+-------------+-------------+-------------+-------------+-------------+
-| Average     | Average     | = Average   | Age         | Age at the  |
-| expenditure | expenditure | expenditure |             | time of     |
-| s           | s           | s           |             | provision   |
-| for health  | per insuree | of services |             | health care |
-| care per    |             | per insuree |             |             |
-| insuree     |             | + Average   |             |             |
-|             |             | expenditure |             |             |
-|             |             | s           |             |             |
-|             |             | for medical |             |             |
-|             |             | items per   |             |             |
-|             |             | insuree     |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Gender      |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Disease     |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Products    |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Time        | Hospital    |
-|             |             |             |             | admissions  |
-|             |             |             |             | are         |
-|             |             |             |             | associated  |
-|             |             |             |             | with time   |
-|             |             |             |             | periods     |
-|             |             |             |             | according   |
-|             |             |             |             | to dates of |
-|             |             |             |             | discharge.  |
-|             |             |             |             | Time period |
-|             |             |             |             | of          |
-|             |             |             |             | provision   |
-|             |             |             |             | of health   |
-|             |             |             |             | care        |
-+-------------+-------------+-------------+-------------+-------------+
-
-`Table 9.6 Facts on expenditures for health care`
-
-Facts on feedbacks
-""""""""""""""""""
-
-This group of facts relates to evaluation of request for feedbacks on provided health care that are issued by medical officers during processing of claims. Facts available are listed in `Table 9.7 <\l>`__
-
-+-------------+-------------+-------------+-------------+-------------+
-| Cube        | Fact        | Meaning     | Dimension   | Comment     |
-+=============+=============+=============+=============+=============+
-| Feedback    | Feedbacks   | Number of   | Products    | Insurance   |
-| details     | sent        | requests    |             | products    |
-|             |             | for         |             | that        |
-|             |             | feedbacks   |             | covered     |
-|             |             | sent in a   |             | claims      |
-|             |             | time period |             | initiating  |
-|             |             |             |             | requests    |
-|             |             |             |             | for         |
-|             |             |             |             | feedbacks   |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Feedbacks   | Number of   | Providers   | Providers   |
-|             | responded   | feedbacks   |             | that        |
-|             |             | received in |             | submitted   |
-|             |             | a time      |             | claims      |
-|             |             | period      |             | initiating  |
-|             |             |             |             | requests    |
-|             |             |             |             | for         |
-|             |             |             |             | feedbacks   |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Overall     | Sum of all  | Time        | Period of   |
-|             | assessment  | assessment  |             | sending/rec |
-|             |             | overall     |             | eiving      |
-|             |             | assessment  |             | feedbacks   |
-|             |             | marks in    |             |             |
-|             |             | responded   |             |             |
-|             |             | feedbacks   |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Feedback    | = Feedbacks |             |             |
-|             | return      | responded/  |             |             |
-|             | share       | Feedbacks   |             |             |
-|             |             | sent        |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Average     | = Overall   |             |             |
-|             | overall     | assessment/ |             |             |
-|             | assessment  | Feedbacks   |             |             |
-|             |             | responded   |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Feedback    | Answers Yes | Count of    | Products    | Insurance   |
-| answers     |             | all Yes     |             | products    |
-|             |             | answers     |             | that        |
-|             |             |             |             | covered     |
-|             |             |             |             | claims      |
-|             |             |             |             | initiating  |
-|             |             |             |             | requests    |
-|             |             |             |             | for         |
-|             |             |             |             | feedbacks   |
-+-------------+-------------+-------------+-------------+-------------+
-|             | Share of    | = Answers   | Providers   | Providers   |
-|             | Answers Yes | Yes/        |             | that        |
-|             |             | Feedbacks   |             | submitted   |
-|             |             | responded   |             | claims      |
-|             |             |             |             | initiating  |
-|             |             |             |             | requests    |
-|             |             |             |             | for         |
-|             |             |             |             | feedbacks   |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Questions   |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             | Time        | Period of   |
-|             |             |             |             | sending/rec |
-|             |             |             |             | eiving      |
-|             |             |             |             | feedbacks   |
-+-------------+-------------+-------------+-------------+-------------+
-
-`Table 9.7 Facts on feedbacks`
-
-How access data from the Data Warehouse
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Data from the Data Warehouse can be accessed by means of an Excel file. As access to the Data Warehouse is protected, a user has to get from an administrator of AR-MIS URL of the Data Warehouse for remote access, a userid and a password. A userid may allow access to all data in the Data Warehouse or only to a subset of data corresponding to a specific region, to selected regions, to a specific district or to selected districts.
-
-..
-
-The procedure of accessing of data is as follows (:ref:`image274`)
-
-.. _image274:
-.. figure:: /img/user_manual/image239.png
-  :align: center
-
-  `Image 274 - Accessing the Data Warehouse`
-
-1. Open an Excel file
-
-2. Click on the menu item **Data**
-
-3. Click on the sub-menu **From Other Sources**
-
-4. Click on the sub-menu **From Analysis Services**
-
-5. A dialog box appears for specification of logon data:
-
-   a. Enter URL of the Data Warehouse into the field **Server Name**
-
-   b. Select the option **Use the following user name and password**
-
-   c. Enter your userid into the field **User Name**
-
-   d. Enter your password into the field **Password**
-
-   e. Click on **Finish**
-
-6. A box appears (**Select Database and Tables**) with the list of available cubes. Select one and click on **Finish**
-
-7. A box appears (**Save Data Connection File and Finish**).Check the box **Save passport in file** and click on **Finish**.
-
-8. A box appears (**Import Data**). Select whether cube should be accessed by a pivot table and/or chart and specify a placement of the pivot table. Click on **OK**.
-
-9. An area for the pivot table appears in the sheet with the **Pivot Table Field** area on the right (:ref:`image274`). Click on facts to be displayed and click or drag dimensions to appropriate sectors of the pivot table in the **Pivot Table Field** area.
-
-.. _image275:
-.. figure:: /img/user_manual/image240.png
-  :align: center
-
-  `Image 275 - Pivot Table in Excel`
+    
