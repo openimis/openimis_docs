@@ -10,7 +10,7 @@ Concept of AR-IMIS
 The concept of AR-IMIS is based on populating of the Data Warehouse with aggregate data from the operational database of IMIS. This populating is done automatically and regularly (usually once a week) from the operational database by Extract, Transformation and Loading process (ETL). Within this process data from the operational database are aggregated and stored in the Data Warehouse in conformance with multidimensional data model (:ref:`image271`).
 
 .. _image271:
-.. figure:: /img/user_manual/image238.png
+.. figure:: /img/user_manual/image236.png
   :align: center
 
   `Image 271 - Concept of AR-IMIS`
@@ -18,7 +18,7 @@ The concept of AR-IMIS is based on populating of the Data Warehouse with aggrega
 This model is suitable for analysis of data. Questions like “What is the number of newly covered insurees by an insurance product at during a calendar period and who were of an age, a gender, lived in a location and were cared for by a Enrolment officer? Data in the multidimensional Data Warehouse are presented by a suitable front-end tool. Currently AR-IMIS uses MS Excel as the front-end presentation tool. An Excel file is remotely connected to the Data Warehouse and data are stored in the Excel file in the form of so called pivot tables. The multidimensional model is based on the notion of facts and dimensions. The facts (indicators) are what we are interested in. For example, a fact may number of insured persons, number of active policies, number of submitted claims etc. Facts can be looked at from different angles-for example from the point of view of age and gender of insured persons, from the point of view of time period etc. These angles (points of view) are captured by the notion of dimensions that are used for qualification of facts (:ref:`image272`).
 
 .. _image272:
-.. figure:: /img/user_manual/image239.png
+.. figure:: /img/user_manual/image237.png
   :align: center
 
   `Image 272 - Facts and dimensions`
@@ -218,7 +218,7 @@ Facts
 Facts provided by AR-IMIS can be structured into the areas according to (:ref:`image273`). Within each area several facts packed into one or several cubes are provided. Facts are packed into the same cube if they have an associated meaning and are provided with the same set of dimension. The following articles lists available cubes according to the areas, for each cube indicates available facts with description of their meaning and
 
 .. _image273:
-.. figure:: /img/user_manual/image239.png
+.. figure:: /img/user_manual/image238.png
   :align: center
 
   `Image 273 - Areas of facts`
@@ -586,7 +586,7 @@ This group of facts relates to utilization of health care by insures according t
 |             |             |             | Gender      |             |
 |             |             |             +-------------+-------------+
 |             |             |             | Disease     | .           |
-|             |-------------+-------------+-------------+-------------+
+|             +-------------+-------------+-------------+-------------+
 |             | Number of   |             | Care        |             |
 |             | hospital    |             | category    |             |
 |             | days        |             |             |             |

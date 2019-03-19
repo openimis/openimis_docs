@@ -1998,7 +1998,7 @@ The ``User Control Page`` is the central point for all user administration. By h
   B. Result Panel
 
   .. _image55:
-  .. figure:: /img/user_manual/image47.png
+  .. figure:: /img/user_manual/image48.png
     :align: center
 
     `Image 55 - Selected record (blue), hovered records (yellow) - Result Panel`
@@ -4294,7 +4294,7 @@ Click on the Red Cross Sign button to delete the currently selected record.
 Before deleting a confirmation popup (:ref:`Image 135<image135>`) is displayed, which requires the user to confirm if the action should really be carried out?
 
 .. _image135:
-.. figure:: /img/user_manual/image24.png
+.. figure:: /img/user_manual/image109.png
   :align: center
 
   `Image 135 - Delete confirmation- Button Panel`
@@ -4505,7 +4505,7 @@ The Claims Control Page is the central point for all health facility claim admin
       Before deleting a confirmation popup (:ref:`Image 142<image142>`) is displayed, which requires the user to confirm if the action should really be carried out?
 
       .. _image142:
-      .. figure:: /img/user_manual/image24.png
+      .. figure:: /img/user_manual/image115.png
         :align: center
 
         `Image 142 - Delete confirmation – Claims Control Page`
@@ -6878,8 +6878,6 @@ Report Preview
 
 The report viewer offers the facility to navigate through the report either by using the arrows or by typing in a page number at the top of the report. Another feature of the report viewer is to export the report in different formats. Currently system supports three formats; Word, Excel and PDF. Select the desired format from the list by clicking on the Export link. Use the ``Go Back to Selector`` link to go back to the previous selection page.
 
-..
-
 Below are the types of reports as they can be seen in the report page.
 
   **1. primary operational indicators - policies report**
@@ -7625,6 +7623,64 @@ Funding Page
 
   By clicking on the Cancel button, the user will be re-directed to the `Home Page <#image-2.2-home-page>`__.
 
+Email Settings
+^^^^^^^^^^^^^^
+
+Access to the ``Email Settigns`` is restricted to the users with the role of Accountant.
+
+
+The ``Email Settigns`` is the page where the setting of the outbound email server are entered.
+
+Navigation
+""""""""""
+
+The functionality for entering of funds can be found under the main menu ``Tools``, sub menu ``Email Settigns``
+
+  .. _image276:
+  .. figure:: /img/user_manual/topmenu_tool_email.png
+    :align: center
+
+    `Image 276 - Navigation Email Settings`
+
+Clicking on the sub menu ``Email Settigns`` re-directs the current user to the `Email settings Page. <#image-277-email-settings-page>`__
+
+Email settings page
+"""""""""""""""""""
+
+  **1. Data Entry**
+
+  .. _image277:
+  .. figure:: /img/user_manual/email_settings.png
+    :align: center
+
+    `Image 277 - Email settings Page`
+
+    -  ``Email``
+
+      SMTP Login to be used on the email server in order to send email
+
+    -  ``Password``
+
+      SMTP password to be used on the email server in order to send email.
+
+    -  ``SMTP Host``
+
+      SMTP email server address or IP
+
+    -  ``Port``
+
+      SMTP email server IP port, standard port are
+
+        * 25 when no encryption is used
+
+        * 465 when implicit encryption is used(depreciated)
+
+        * 587 when explicit encryption is used, see ``Enable SSL``
+
+    -  ``Enable SSL``
+
+      Check to box if the SMTP mail server require encryption
+
 Password change
 ---------------
 
@@ -7792,7 +7848,7 @@ Facilities available while offline and online in IMIS, are similar with some few
         User has to select a file from a local computer by clicking the 'select file' button on the left side of the section, and in the popup window which appears (:ref:`Image 261<image261>`), user can navigate to the required file and select the file.
 
         .. _image261:
-        .. figure:: /img/user_manual/image228.png
+        .. figure:: /img/user_manual/image224.png
           :align: center
 
           `Image 261 - Select File Popup Window, Import Photos, openIMIS offline`
@@ -7800,7 +7856,7 @@ Facilities available while offline and online in IMIS, are similar with some few
         After clicking the upload button on the very end of right hand side in this section, data in the file will be imported to the offline openIMIS and confirmation will be given as popup messages (:ref:`Image 261<image261>`).
 
         .. _image262:
-        .. figure:: /img/user_manual/image229.png
+        .. figure:: /img/user_manual/offline_extract_photo_conf.png
           :align: center
 
           `Image 262 - Popup Window, Import Photos, openIMIS offline`
@@ -7816,13 +7872,13 @@ Facilities available while offline and online in IMIS, are similar with some few
         This section has facility to enable Offline Scheme Administrator download to a zipped file all offline enrollments of families, insurees, policies and contributions. By clicking the download button on the right hand side, the user initiate download process. If no enrolment found, a popup message box (:ref:`Image 262<image262>`) will appear, notifying the user. Otherwise enrollments will be downloaded in a zipped file and a confirmation popup message (:ref:`Image 264<image264>`) will appear
 
         .. _image263:
-        .. figure:: /img/user_manual/image230.png
+        .. figure:: /img/user_manual/image228.png
           :align: center
 
           `Image 263 - Popup Window, Download Enrolments, openIMIS offline`
 
           .. _image264:
-          .. figure:: /img/user_manual/image231.png
+          .. figure:: /img/user_manual/image229.png
             :align: center
 
             `Image 264 - Popup Window, Download Enrolments, openIMIS offline`
@@ -7840,7 +7896,7 @@ Facilities available while offline and online in IMIS, are similar with some few
           This message is seen at the first time when using the system and no any extract has been imported into the offline IMIS
 
           .. _image265:
-          .. figure:: /img/user_manual/image232.png
+          .. figure:: /img/user_manual/image230.png
             :align: center
 
             `Image 265 - openIMIS Extracts, Information Bar, openIMIS offline`
@@ -7850,7 +7906,7 @@ Facilities available while offline and online in IMIS, are similar with some few
           This message is seen, after a single / series of extract importation have been made to the offline openIMIS and that much times will be shown as a sequence number at the end of the message. This enables proper tracking of right extracts to import and use.
 
           .. _image266:
-          .. figure:: /img/user_manual/image233.png
+          .. figure:: /img/user_manual/image231.png
             :align: center
 
             `Image 266 - openIMIS Extracts, Information Bar, openIMIS offline`
@@ -7860,7 +7916,7 @@ Facilities available while offline and online in IMIS, are similar with some few
           When HF offline openIMIS user is downloading offline claims and no new offline claims is found, this message is displayed.
 
           .. _image267:
-          .. figure:: /img/user_manual/image234.png
+          .. figure:: /img/user_manual/image232.png
             :align: center
 
             `Image 267 - openIMIS Extracts, Information Bar, openIMIS offline`
@@ -7870,13 +7926,13 @@ Facilities available while offline and online in IMIS, are similar with some few
       Users with role HF Administrator, can create only users with roles: **Receptionist, Claim Administrator** and **HF Administrator** (:ref:`Image 268<image268>`). User with role 'offline NSHIP Administrator', can create only user with role: **Clerk** (:ref:`Image 269<image269>`).
 
       .. _image268:
-      .. figure:: /img/user_manual/image235.png
+      .. figure:: /img/user_manual/image233.png
         :align: center
 
         `Image 268 - Users Page - HF Administrator, openIMIS offline`
 
       .. _image269:
-      .. figure:: /img/user_manual/image236.png
+      .. figure:: /img/user_manual/image234.png
         :align: center
 
         `Image 269 - Users Page - Offline Scheme Administrator, openIMIS offline`
@@ -7888,7 +7944,7 @@ Facilities available while offline and online in IMIS, are similar with some few
       In all pages in ``Insurees`` and ``Policies`` menus with search / find acility, there will be an extra search criteria (:ref:`image 270<image270>`) to enable search for offline data only. This feature is available if a user is in Offline IMIS.
 
       .. _image270:
-      .. figure:: /img/user_manual/image237.png
+      .. figure:: /img/user_manual/image235.png
         :align: center
 
         `Image 270 - Search Criteria - offline only data, openIMIS offline`
@@ -7900,4 +7956,3 @@ Facilities available while offline and online in IMIS, are similar with some few
     ..
 
     For an offline user with a right to open ``Insurees`` and ``Policies`` menus, he/she can access all data but can manipulate only that data which was created offline. The rest of the data will be available in read-only mode
-    
