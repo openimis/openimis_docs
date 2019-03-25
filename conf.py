@@ -113,34 +113,35 @@ htmlhelp_basename = 'openIMISdoc'
 
 # -- Options for LaTeX output ------------------------------------------------
 
+
+latex_logo = 'img/logo.png'
+
+latex_engine = 'pdflatex'
+
 latex_elements = {
-    'inputenc':'',
-    
     # The paper size ('letterpaper' or 'a4paper').
     #
-    # 'papersize': 'letterpaper',
+    'papersize': 'a4paper',
+    'release':"1.3",
+    # Sonny, Lenny, Glenn, Conny, Rejne, Bjarne and Bjornstrup
+    # 'fncychap': '\\usepackage[Lenny]{fncychap}',
+    'fontpkg': '\\usepackage{amsmath,amsfonts,amssymb,amsthm}',
 
+    'figure_align':'htbp',
     # The font size ('10pt', '11pt' or '12pt').
     #
-    # 'pointsize': '10pt',
+    'pointsize': '10pt',
 
     # Additional stuff for the LaTeX preamble.
     #
-    # 'preamble': '',
+    'preamble': r'''
+    ''',
 
     # Latex figure (float) alignment
     #
-    'figure_align': 'htbp',
-    'utf8extra': '',
-    'preamble': '''
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\DeclareUnicodeCharacter{2122}{ }
-\DeclareUnicodeCharacter{21DB}{ }
-\DeclareUnicodeCharacter{25CF}{ }
-''',
+    # 'figure_align': 'htbp',
+    'extraclassoptions': 'openany'
 }
-latex_engine = 'pdflatex'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
