@@ -9,7 +9,7 @@ Web application user manual
   .. The following conventions are used:
     - `<Hyperlink>`_  enable a quick link (using the online version) to the subject relating to the functionality,
     - **Item** means an item in a drop down list,
-    - ``LABEL`` means a data field or a button,
+    * ``LABEL`` means a data field or a button,
     - _NAME_OF_PAGE_ means a name of page or a data field in a text without hyperlink.
 
 Users’ roles and rights
@@ -41,7 +41,7 @@ Users’ roles and rights
           | * Inquiry on an Insuree
 
       * - Manager
-        - Over-sees operations of the health insurance scheme;runs openIMIS operational reports analyses data generated from the IMIS.
+        - Oversees operations of the health insurance scheme;runs openIMIS operational reports analyses data generated from the IMIS.
         - | * Create managerial statistics
           | * Authorize issuance of a substitution
           | * membership card
@@ -54,28 +54,28 @@ Users’ roles and rights
 
       * - Clerk
         - Enters and modifies data on families, insurees, policies and contributions. Enters data on claims if the claims are submitted in a paper form.
-        - | * `Creation/ Search/ Modification/ Deletion/ Modification <#family-group-page>`_ of a `household/group <#family-overview-page>`_, an `Insuree <#insuree-page>`_, a `Policy <#policy-page>`_ or a `Contribution <#contribution-page>`_.
-          | * `Renewal of a policy <#policy-renewals>`_
-          | * `Entry of a claim <#claim-page>`_
+        - | * `Creation/ Search/ Modification/ Deletion/ Modification <#family-group-page>`__ of a `household/group <#family-overview-page>`__, an `Insuree <#insuree-page>`_, a `Policy <#policy-page>`__ or a `Contribution <#contribution-page>`__.
+          | * `Renewal of a policy <#policy-renewals>`__
+          | * `Entry of a claim <#claim-page>`__
 
       * - Medical Officer
         - Provides technical advice on claims verification from a medical standpoint.
         - | * Checking of a claim for plausibility
-          | * `Review of a claim <#policy-renewals>`_
-          | * `Authorize a claim for payment <#claim-page>`_
+          | * `Review of a claim <#policy-renewals>`__
+          | * `Authorize a claim for payment <#claim-page>`__
 
       * - | Scheme
           | Administrator
         - Administers registers (all except the register of users)
-        - | * `Administer registers <#administration-of-registers>`_ ( `Officers, Payers, Health Facilities <#health-facilities-administration>`_, , `Medical Services, Medical Items, Medical Item Price Lists, Medical Services Price List <#medical-service-price-lists-administration>`_, `Products <#claim-administrators-administration>`_)
-          | * `Extract Creation for Off-line Health Facilities <#imis-extracts-online-mode>`_
+        - | * `Administer registers <#administration-of-registers>`__ ( `Officers, Payers, Health Facilities <#health-facilities-administration>`__, , `Medical Services, Medical Items, Medical Item Price Lists, Medical Services Price List <#medical-service-price-lists-administration>`__, `Products <#claim-administrators-administration>`__)
+          | * `Extract Creation for Off-line Health Facilities <#imis-extracts-online-mode>`__
 
       * - | openIMIS
           | Administrator
         - Administers operations of the IMIS. Is responsible for backups of data.
-        - | * Administer the register of `users <#user_administration>`_, `Utilities <#utilities>`_
-          | * Manage `Backup <#backup>`_, `Restore <#restore>`_ and `Updates <#execute-script>`_
-          | * `Extract Creation for Off-line Health Facilities <#imis-extracts-online-mode>`_
+        - | * Administer the register of `users <#user_administration>`__, `Utilities <#utilities>`__
+          | * Manage `Backup <#backup>`__, `Restore <#restore>`__ and `Updates <#execute-script>`__
+          | * `Extract Creation for Off-line Health Facilities <#imis-extracts-online-mode>`__
 
   .. list-table:: Table 9.1 Overview of Health Facilities staff roles
       :widths: 2 6 4
@@ -87,7 +87,7 @@ Users’ roles and rights
         - **Available functionality**
       * - Receptionist
         - Verifies membership and issues to a patient a claim form.
-        - | * Inquiring on a Household/group, `Insuree <#find-insuree>`_ and `Policy <#find-policy>`_
+        - | * Inquiring on a Household/group, `Insuree <#find-insuree>`__ and `Policy <#find-policy>`__
 
       * - | Claim
           | Administrator
@@ -98,7 +98,7 @@ Users’ roles and rights
       * - | HF
           | Administrator
         - Off-line HealthFacility administration
-        - | * `Off-line extract upload <#imis-extracts-offline-mode>`_
+        - | * `Off-line extract upload <#imis-extracts-offline-mode>`__
 
       * - | Offline HF
           | Administrator
@@ -183,23 +183,23 @@ Product Control Page
 
     The search panel allows a user to select specific criteria to minimise the search results. In the case of Products the following search options are available, which can be used alone, or in combination with each other.
 
-    - ``Product Code``
+    * ``Product Code``
 
       Type in the beginning of; or the full ``Product Code``; to search for products with a ``Product Code``, which starts with or matches completely, the typed text.
 
-    - ``Product Name``
+    * ``Product Name``
 
       Type in the beginning of; or the full ``Product Name`` to search for products with a ``Product Name``, which starts with or matches completely, the typed text.
 
-    - ``Date From``
+    * ``Date From``
 
       Type in a date; or use the Date Selector Button, to search for products with a ``Date From``, which is on or is greater than the date typed/selected. *Note: To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Date To``
+    * ``Date To``
 
       Type in a date; or use the Date Selector Button, to search for products with a ``Date To``, which is on or is greater than the date typed/selected. *Note: To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Date Selector Button``
+    * ``Date Selector Button``
 
       Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 6<image6>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
@@ -234,15 +234,15 @@ Product Control Page
 
         `Image 6 - Calendar Selector - Search Panel`
 
-    - ``Region``
+    * ``Region``
 
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select products from a specific region. The option **National** means that the found insurance products should be common for all regions. `Note: The list will only be filled with the regions assigned to the current logged in user and with the option National. All nationwide products and all regional products relating to the selected region will be found. If no district is selected then also all district products for districts belonging to the selected region will be found.`
 
-    - ``District``
+    * ``District``
 
       Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select products from a specific district. `Note: The list will be only filled with the districts belonging to the selected region. All nationwide products, all regional products relating to the selected region and all district products for the selected district will be found.`
 
-    - ``Historical``
+    * ``Historical``
 
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 7<image7>`).
 
@@ -252,7 +252,7 @@ Product Control Page
 
         `Image 7 - Historical records - Result Panel`
 
-    - ``Search Button``
+    * ``Search Button``
 
       Once the criteria have been entered, use the search button to filter the records, the results will appear in the result panel.
 
@@ -264,7 +264,7 @@ Product Control Page
     .. figure:: /img/user_manual/image10.png
       :align: center
 
-    `Image 8 - Selected record (blue), hovered records (yellow) - Result Panel`
+      `Image 8 - Selected record (blue), hovered records (yellow) - Result Panel`
 
     A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 9<image9>`).
 
@@ -303,31 +303,31 @@ Product Page
 
       `Image 10 - Product Page`
 
-    - ``Product Code``
+    * ``Product Code``
 
       Enter the product code for the product. Mandatory, 8 characters.
 
-    - ``Product Name``
+    * ``Product Name``
 
       Enter product name for the product. Mandatory, 100 characters maximum.
 
-    - ``Region``
+    * ``Region``
 
       Select the region in which the product will be used, from the list by clicking on the arrow on the right hand side of the lookup. The option National means that the insurance product is nationwide and it is not constraint to a specific region. `Note: The list will only be filled with the regions assigned to the current logged in user and with the option National.` Mandatory.
 
-    - ``District``
+    * ``District``
 
       Select the district in which the product will be used, from the list by clicking on the arrow on the right hand side of the lookup. `Note: The list will only be filled with the districts assigned to the selected region and assigned to the current logged in user. If no district is selected then the product is considered to be either nationwide (the option National is selected in the field Region) or regional associated with the selected region.`
 
-    - ``Date From``
+    * ``Date From``
 
       Type in the date or use the ``Date Selector Button`` to provide the date for which underwriting for the insurance product can be done from. ``Date From`` determines the earliest date from which underwriting can be done. `Note: To clear the date entry box; use the mouse to highlight the full date and then press the space key.` Mandatory.
 
-    - ``Date To``
+    * ``Date To``
 
       Type in the date or use the Date Selector Button to provide the date until which underwriting can be done to.`Note: To clear the date entry box; use the mouse to highlight the full date and then press the space key.` Mandatory.
 
-    - ``Date Selector Button``
+    * ``Date Selector Button``
 
       Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 11<image11>`). By default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted. At anytime during the use of the pop-up, the user can see the date of ``today``.
 
@@ -356,75 +356,75 @@ Product Page
         `Image 11 - Calendar Selector - Search Panel`
 
 
-    - ``Conversion``
+    * ``Conversion``
 
       Select from the list of products, a reference to the product which replaces the current product in case of renewal after the ``Date to``. `Note: Selecting the current product will prevent the record from saving, and cause a message to be displayed in the Information Panel.`
 
-    - ``Lump Sum``
+    * ``Lump Sum``
 
       Enter the lump sum contribution (an amount paid irrespective of the number of members up to a threshold) to be paid by a household/group for the product. If the lump sum is zero no lump sum is applied irrespective of the threshold members. Decimal up to two digits.
 
-    - ``Threshold Members``
+    * ``Threshold Members``
 
       Enter the threshold number of members in product for which the lump sum is valid.
 
-    - ``Number of Members``
+    * ``Number of Members``
 
       Enter the maximal number of members of a household/group for the product.
 
-    - ``Contribution Adult``
+    * ``Contribution Adult``
 
       Enter the contribution to be paid for each adult (on top of the threshold number of members). Decimal up to two digits.
 
-    - ``Contribution Child``
+    * ``Contribution Child``
 
       Enter the contribution to be paid for each child (on top of the threshold number of members). Decimal up to two digits.
 
-    - ``Insurance Period``
+    * ``Insurance Period``
 
       Enter duration of the period in months, in which a policy with the product will be valid. Mandatory.
 
-    - ``Administration Period``
+    * ``Administration Period``
 
       Enter duration of the administration period in months. The administration period is added to the enrolment date/renewal date for determination of the policy start date.
 
-    - ``Max Instalments``
+    * ``Max Instalments``
 
       Enter maximal number of instalments in which contributions for a policy may be paid. Mandatory.
 
-    - ``Grace Period Payment``
+    * ``Grace Period Payment``
 
       Enter duration of the period in months, in which a policy has a grace period (not fully paid up) before it is suspended. Mandatory, although it is by default and can be left at zero.
 
-    - ``Grace Period Enrolment``
+    * ``Grace Period Enrolment``
 
       Enter duration of the period in months after the starting date of a cycle (including this starting date), in which underwriting of a policy will still be associated with this cycle.
 
-    - ``Grace Period Renewal``
+    * ``Grace Period Renewal``
 
       Enter duration of the period in months after the starting date of a cycle (including this starting date), in which renewing of a policy will still be associated with this cycle.
 
-    - ``Enrolment Discount percentage``
+    * ``Enrolment Discount percentage``
 
       Enter the enrolment discount percentage for the insurance product. The discount percentage is applied on the total contributions calculated for a policy underwritten earlier than ``Enrolment disc. period`` months before the start date of the corresponding cycle.
 
-    - ``Enrolment Discount Period``
+    * ``Enrolment Discount Period``
 
       Enter the enrolment discount period of the insurance product in months.
 
-    - ``Renewal Discount Percentage``
+    * ``Renewal Discount Percentage``
 
       Enter the renewal discount percentage for the insurance product. The discount percentage is applied on the total contributions calculated for a policy renewed earlier than ``renewal disc. period`` months before the start date of the corresponding cycle.
 
-    - ``Renewal Discount Period``
+    * ``Renewal Discount Period``
 
       Enter the renewal discount period of the insurance product in months.
 
-    - ``Medical Services``
+    * ``Medical Services``
 
       Select from the list of available medical services (from the register of Medical Services) the medical services covered within the insurance product, by either clicking on the ``Check All`` box at the top of the list of medical services, or by selectively clicking on the check box to the left of the medical service.
 
-    - ``Medical Services Grid``
+    * ``Medical Services Grid``
 
       .. _image 12:
       .. figure:: /img/user_manual/image14.png
@@ -433,217 +433,217 @@ Product Page
         `Image 12 - Medical Services - Product`
 
 
-    - ``Code``
+    * ``Code``
 
       Displays the code for the medical service
 
 
-    - ``Name``
+    * ``Name``
 
       Displays the name of the medical service
 
 
-    - ``Type``
+    * ``Type``
 
       Displays the type of the medical service\
 
 
-    - ``Level``
+    * ``Level``
 
       Displays the level of the medical service
 
 
-    - ``Limit``
+    * ``Limit``
 
       Indicates the type of limitation of coverage for the medical service. This may be adjusted per medical service, select between Co-Insurance [C] and Fixed amount [F]. Co-insurance means coverage of a specific percentage of the price of the medical service by policies of the insurance product. Fixed amount means coverage up the specified limit. C is the default value. Limit O is used for claims having the type of visit Other, Limit R is used for claims having the type of visit Referral and Limit E is used for claims having the type of visit Emergency.
 
 
-    - ``Origin``
+    * ``Origin``
 
       Indicates where the price for remuneration of the service comes from. This may be adjusted per service, the options are: [P] Price taken from the price list of a claiming health facility, [O] Price taken from a claim and [R] Relative price, the nominal value of which is taken from the price list and the actual value of which is determined backwards according to available funds and volume of claimed services and medical items in a period. [R] is the default value.
 
 
-    - ``Adult``
+    * ``Adult``
 
       Indicates the limitation for adults. If the type of limitation is a co-insurance then the value is the percentage of the price covered by policies of the insurance product for adults. If the type of limitation is a fixed limit the value is an amount up to which price of the service is covered for adults by policies of the insurance product. Default is 100%. Adult O is for Other, Adult R is for Referral and Adult E is for Emergency claims according to the type of visit (Visit Type).
 
 
-    - ``Child``
+    * ``Child``
 
       Indicates the limitation for children. If the type of limitation is a co-insurance then the value is the percentage of the price covered for children by policies of the insurance product. If the type of limitation is a fixed limit the value is an amount up to which price of the service is covered for children by policies of the insurance product. Default is 100%. Child O is for Other, Child R is for Referral and Child E is for Emergency claims according to the type of visit (Visit Type).
 
 
-    - ``No Adult``
+    * ``No Adult``
 
       It indicates the maximal number of provisions of the medical service during the insurance period for an adult.
 
 
-    - ``No Child``
+    * ``No Child``
 
       It indicates the maximal number of provisions of the medical service during the insurance period for an child.
 
 
-    - ``Waiting Period Adult``
+    * ``Waiting Period Adult``
 
       Indicates waiting period in months (after the effective date of a policy) for an adult.
 
 
-    - ``Waiting Period Child``
+    * ``Waiting Period Child``
 
       Indicates waiting period in months (after the effective date of a policy) for a child.
 
 
-    - ``Ceiling Adult``
+    * ``Ceiling Adult``
 
       It indicates whether the medical service is excluded from comparison against ceilings defined in the insurance product for adults. Default is that the medical service is not excluded from comparisons with ceilings. [H] means exclusion only for provision of in-patient care, [N] means exclusion only for out-patient care and [B] means exclusion both for in-patient and out-patient care.
 
 
-    - ``Ceiling Child``
+    * ``Ceiling Child``
 
       It indicates whether the medical service is excluded from comparison against ceilings defined in the insurance product for children. Default is that the medical service is not excluded from comparisons with ceilings. [H] means exclusion only for provision of in-patient care, [N] means exclusion only for out-patient care and [B] means exclusion both for in-patient and out-patient care.
 
-    - ``medical items``
+    * ``medical items``
 
       Select from the list of available medical items (from the register of Medical Items) the medical items covered within the product; by either clicking on the Check All box at the top of the list of medical items, or by selectively clicking on the check box to the left of the medical item.
 
-    - ``medical items grid``
+    * ``medical items grid``
 
       .. _image 13:
       .. figure:: /img/user_manual/image15.png
         :align: center
 
-      `Image 13 - Medical Items - Product`
+        `Image 13 - Medical Items - Product`
 
 
-    - ``Code``
+    * ``Code``
 
       Displays the code for the medical item
 
 
-    - ``Name``
+    * ``Name``
 
       Displays the name of the medical item
 
 
-    - ``Type``
+    * ``Type``
 
       Displays the type of the medical item
 
 
-    - ``Package``
+    * ``Package``
 
       Displays the packaging of the medical Item
 
 
-    - ``Limit``
+    * ``Limit``
 
       Indicates the type of limitation of coverage for the medical item. This may be adjusted per medical item, select between Co-Insurance [C] and Fixed amount [F]. Co-insurance means coverage of a specific percentage of the price of the medical item by policies of the insurance product. Fixed amount means coverage up the specified limit. C is the default value. Limit O is used for claims having the type of visit Other, Limit R is used for claims having the type of visit Referral and Limit E is used for claims having the type of visit Emergency.
 
 
-    - ``Origin``
+    * ``Origin``
 
       It indicates where the price for remuneration of the item, comes from: This may be adjusted per medical item, the options are: [P] Price taken from the price list of a claiming health facility, [O] Price taken from a claim and [R] Relative price, the nominal value of which is taken from the price list and the actual value of which is determined backwards according to available funds and the volume of claimed services and medical items in a period. [R] is the default value.
 
 
-    - ``Adult``
+    * ``Adult``
 
       It indicates the limitation for adults. If the type of limitation is a co-insurance then the value is the percentage of the price covered for adults by policies of the insurance product. If the type of limitation is a fixed limit the value is an amount up to which price of the item is covered for adults by policies of the insurance product. Default is 100%. Adult O is for Other, Adult R is for Referral and Adult E is for Emergency claims according to the type of visit (Visit Type).
 
 
-    - ``Child``
+    * ``Child``
 
       It indicates the limitation for children. If the type of limitation is a co-insurance then the value is the percentage of the price covered for children by policies of the insurance product. If the type of limitation is a fixed limit the value is an amount up to which price of the service is covered for children by policies of the insurance product. Default is 100%. Child O is for Other, Child R is for Referral and Child E is for Emergency claims according to the type of visit (Visit Type).
 
 
-    - ``No Adult``
+    * ``No Adult``
 
       It indicates the maximal number of provisions of the medical item during the insurance period for an adult.
 
 
-    - ``No Child``
+    * ``No Child``
 
       It indicates the maximal number of provisions of the medical item during the insurance period for a child.
 
 
-    - ``Waiting Period Adult``
+    * ``Waiting Period Adult``
 
       It indicates waiting period in months (after the effective date of a policy) for an adult.
 
 
-    - ``Waiting Period Child``
+    * ``Waiting Period Child``
 
       It indicates waiting period in months (after effective date of a policy) for a child.
 
 
-    - ``Ceiling Adult``
+    * ``Ceiling Adult``
 
       It indicates whether the medical item is excluded from comparison against ceilings defined for adults in the insurance product. The default is that the medical item is not excluded from comparisons with ceilings. [H] means exclusion only for provision of in-patient care, [N] means exclusion only for out-patient care and [B] means exclusion both for in-patient and out-patient care.
 
 
-    - ``Ceiling Child``
+    * ``Ceiling Child``
 
       It indicates whether the medical item is excluded from comparison against ceilings defined for children in the insurance product. The default is that the medical item is not excluded from comparisons with ceilings. [H] means exclusion only for provision of in-patient care, [N] means exclusion only for out-patient care and [B] means exclusion both for in-patient and out-patient care.
 
 
-    - ``Account Code Remuneration``
+    * ``Account Code Remuneration``
 
       Enter the account code of the insurance product used in the accounting software for remuneration of the product. 25 characters maximum.
 
-    - ``Account Code Contribution``
+    * ``Account Code Contribution``
 
       Enter the account code of the insurance product used in the accounting software for paid contributions. 25 characters maximum.
 
-    - ``Registration Lump Sum``
+    * ``Registration Lump Sum``
 
       Enter the lump sum (for a household/group) for registration fee to be paid at the first enrolment of the household/group. Registration fee is not paid for renewals of policies.
 
-    - ``Assembly Lump Sum``
+    * ``Assembly Lump Sum``
 
       Enter the lump sum (for a household/group) for additional assembly fee to be paid both at the first enrolment and renewals of policies.
 
-    - ``Registration Fee``
+    * ``Registration Fee``
 
       Enter the registration fee per member of a household/group. If registration lump sum is non zero, registration fee is not considered. Registration fee is not paid for renewals of policies.
 
-    - ``Assembly Fee``
+    * ``Assembly Fee``
 
       Enter the assembly fee per member of a household/group. If assembly lump sum is non zero, assembly fee is not considered. Assembly fee is paid both at the first enrolment and renewals of policies.
 
-    - ``Start Cycle 1``
+    * ``Start Cycle 1``
 
-    - ``Start Cycle 2``
+    * ``Start Cycle 2``
 
-    - ``Start Cycle 3``
+    * ``Start Cycle 3``
 
-    - ``Start Cycle 4``
+    * ``Start Cycle 4``
 
       If one or more starting dates (a day and a month) of a cycle are specified then the insurance product is considered as the insurance product with fixed enrolment dates. In this case, activation of underwritten and renewed policies is accomplished always on fixed dates during a year. Maximum four cycle dates can be specified.
 
-    - ``Ceiling Interpretation``
+    * ``Ceiling Interpretation``
 
       Specify whether Hospital and Non-Hospital care should be determined according to the type of health facility (select [Hospital]) that provided health care or according to the type of health care (select [In-patient]) acquired from a claim. In the first case all health care provided in hospitals (defined in the field ``HF Level`` in the register of Health Facilities) is accounted for ``Hospital Ceilings/Deductibles`` and for calculation of relative prices for the ``Hospital`` part. It means that if clamed health care was provided out-patient in a hospital, it is considered for calculation of ceilings/deductibles and for calculation of relative prices as hospital care. In the second case only in-patient care (determined from a claim when a patient spent at least one night in a health facility) is accounted for ``Hospital Ceilings/Deductibles`` and for calculation of relative prices for hospital part. Other health care including out-patient care provided in hospitals is accounted for ``Non hospital Ceilings/Deductibles`` and also such health care is used for calculation of relative prices for non-hospital part. Mandatory.
 
-    - ``Treatment``
+    * ``Treatment``
 
       Deductibles and Ceilings for treatments may be entered for general care (``Hospitals and Non-hospitals``) or for hospital care (``Hospitals``) only and/or for non-hospital care (``Non-Hospitals``) only. An amount may be set, indicating the value that a patient should cover within his/her own means, before a policy of the insurance product comes into effect (``Deductibles``) or the ceiling (maximum amount covered) within a policy of the insurance product (``Ceilings``) for a treatment (the treatment is identified health care claimed in one claim)
 
-    - ``Insuree``
+    * ``Insuree``
 
       Deductibles and Ceilings for an insuree may be entered for general care (``Hospitals and Non-hospitals``) or for hospital care (Hospitals) only and/or for non-hospital care (``Non-Hospitals``) only. An amount may be set, indicating the value that an insuree should cover within his/her own means, before a policy of the insurance product comes into effect (``Deductibles``) or the ceiling (maximum amount covered) within a policy of the insurance product (``Ceilings``) for an insuree for the whole insurance period.
 
-    - ``Policy``
+    * ``Policy``
 
       Deductibles and Ceilings for a policy may be entered for general care (``Hospitals and Non-hospitals``) or for hospital care (``Hospitals``) only and/or for non-hospital care (Non-Hospitals) only. An amount may be set, indicating the value that policy holders should cover within their own means, before a policy of the insurance product comes into effect (``Deductibles``) or the ceiling (maximum amount covered) for the policy (all members of a family/group) of the insurance product (``Ceilings``) for the whole insurance period.
 
-    - ``Extra Member Ceiling``
+    * ``Extra Member Ceiling``
 
       Additional (extra) ceiling for a policy may be entered for general care (``Hospitals`` and ``Non-hospitals``) or for hospital care (``Hospitals``) only and/or for non-hospital care (``Non-Hospital`` s ) only per a member of a family/group above ``Threshold Members``.
 
-    - ``Maximum Ceiling``
+    * ``Maximum Ceiling``
 
       Maximal ceiling for a policy may be entered for general care (``Hospitals`` and ``Non-hospitals``) or for hospital care (``Hospitals``) only and/or for non-hospital care (``Non-Hospitals``) only if extra ceilings are applied for members of a family/group above ``Threshold Members``.
 
-    - ``Number``
+    * ``Number``
 
       Maximal number of covered claims per an insuree during the whole insurance period according to the category of a claim. The options are claims of the category ``Consultations``, ``Surgery``, ``Delivery`` and ``Antenatal care``. Maximal numbers may be also specified for Hospitalizations (in-patient stays) and (out-patient visits) ``Visits``. The claim category is determined as follows:
 
@@ -676,13 +676,13 @@ Product Page
     | the claim is of the category *Visit*                                  |
     +-----------------------------------------------------------------------+
 
-    - ``Ceiling``
+    * ``Ceiling``
 
       Maximal amount of coverage can be specified for claims according to the category of a claim. The options are claims of the category ``Consultations``, ``Surgery``, ``Delivery``, ``Antenatal care``, Hospitalizations, and ``Visits``. The category of claim is determined according to the procedure described with ``Number``.
 
       `Note. It is possible to specify only one of the following ceilings –per Treatment, per Insuree or per Policy. If ceilings per category of claims are specified together with ceilings per Treatment, per Insuree or per Policy than evaluation of claims may be dependent under special circumstances on the order of claimed medical services/items in a claim.`
 
-    - ``distribution Period``
+    * ``distribution Period``
 
       Distribution periods may be entered for general care (``Hospitals`` and ``Non-hospitals``), or for hospital care (``Hospitals``) only and/or for non-hospital care (``Non-Hospitals``) only. Select from the list (**NONE, Monthly, Quarterly, Yearly**), the period that is to be used for calculation of the actual value of relative prices for the insurance product; by clicking on the arrow on the right. The default value is ‘\ **NONE**\ ’ which means that relative prices are not calculated for general health care or for hospital care or non-hospital care within the insurance product. By selecting **Monthly, Quarterly** or **Yearly** will cause a pop-up (:ref:`Image 14<image14>`) with the relative periods (1 period for yearly, 4 for quarterly, 12 for monthly). Percentages should be entered to indicate the distribution over the periods as per the product description. Enter to each field an appropriate percentage of paid contributions for policies of the insurance product allocated proportionally to corresponding calendar period. It means, for example, that in case of the distribution **Monthly** we put in each slot percentage of paid contributions of the insurance product that are allocated to the corresponding month and that is to be used for calculation of relative prices.
 
@@ -702,67 +702,67 @@ Product Page
 
           `Image 14 - Distribution Periods (Monthly – Quarterly – Yearly) - Product)`
 
-    - ``Capitation Payment``
+    * ``Capitation Payment``
 
       The section allows definition of parameters of a capitation formula used for remuneration of selected levels of health facilities within the insurance product. The report `Capitation Payment` is used for calculation of the amount of capitation payment for individual health facilities. The parameters of the capitation formula are the following:
 
-    - ``Level 1``
+    * ``Level 1``
 
       The first level of health facilities can be selected that should be included in the calculation of capitation payments. The options are the following levels of a health facility: Dispensary, Health Centre, and Hospital.
 
-    - ``Sub Level 1``
+    * ``Sub Level 1``
 
       The sub-level of the first level of health facilities can be selected that should be included in calculation of capitation payments. If the sub level is not selected, all health facilities of the specified level are included irrespective of their sub-level.
 
-    - ``Level 2``
+    * ``Level 2``
 
       The second level of health facilities can be selected that should be included in the calculation of capitation payments. The options are the following levels of a health facility: ``Dispensary``, ``Health Centre``, and ``Hospital``.
 
-    - ``Sub Level 2``
+    * ``Sub Level 2``
 
       The sub-level of the second level of health facilities can be selected that should be included in calculation of capitation payments. If the sub level is not selected, all health facilities of the specified level are included irrespective of their sub-level.
 
-    - ``Level 3``
+    * ``Level 3``
 
       The third level of health facilities can be selected that should be included in the calculation of capitation payments. The options are the following levels of a health facility: ``Dispensary``, ``Health Centre``, and ``Hospital``.
 
-    - ``Sub Level 3``
+    * ``Sub Level 3``
 
       The sub-level of the third level of health facilities can be selected that should be included in calculation of capitation payments. If the sub level is not selected, all health facilities of the specified level are included irrespective of their sub-level.
 
-    - ``Level 4``
+    * ``Level 4``
 
       The fourth level of health facilities can be selected that should be included in the calculation of capitation payments. The options are the following levels of a health facility: ``Dispensary``, ``Health Centre``, and ``Hospital``.
 
-    - ``Sub Level 4``
+    * ``Sub Level 4``
 
       The sub-level of the fourth level of health facilities can be selected that should be included in calculation of capitation payments. If the sub level is not selected, all health facilities of the specified level are included irrespective of their sub-level.
 
-    - ``Share of Contribution``
+    * ``Share of Contribution``
 
       The share of allocated contributions for given insurance product and the period specified for the report Capitation Payment that should be used for calculation of capitation payments for individual health facilities. The amount specified is interpreted as a percentage.
 
-    - ``Weight of Population``
+    * ``Weight of Population``
 
       The weight can be entered that is used for the number of population living in catchments areas of individual health facilities. The amount specified is interpreted as a percentage.
 
-    - ``Weight of Number of Families``
+    * ``Weight of Number of Families``
 
       The weight can be entered that is used for the number of families living in catchments areas of individual health facilities. The amount specified is interpreted as a percentage.
 
-    - ``Weight of Insured Population``
+    * ``Weight of Insured Population``
 
       The weight can be entered that is used for the number of insured population by given insurance product and living in catchments areas of individual health facilities. The amount specified is interpreted as a percentage.
 
-    - ``Weight of Number of Insured Families``
+    * ``Weight of Number of Insured Families``
 
       The weight can be entered that is used for the number of insured families by given insurance product and living in catchments areas of individual health facilities. The amount specified is interpreted as a percentage.
 
-    - ``Weight of Number of Visits``
+    * ``Weight of Number of Visits``
 
       The weight can be entered that is used for the number of contacts of insured by given insurance product and living in catchments areas of individual health facilities. The amount specified is interpreted as a percentage.
 
-    - ``Weight of Adjusted Amount``
+    * ``Weight of Adjusted Amount``
 
       The weight can be entered that is used for the adjusted amount on claims for insured by given insurance product and living in catchments areas of individual health facilities. The amount specified is interpreted as a percentage.
 
@@ -876,47 +876,47 @@ Health Facilities Control PAGE
 
     The Search Panel allows a user to select specific criteria to minimise the search results. In the case of health facilities the following search options are available which can be used alone or in combination with each other.
 
-    - ``Code``
+    * ``Code``
 
       Type in the beginning of; or the full ``Code``; to search for health facilities with a ``Code``, which starts with or matches completely, the typed text.
 
-    - ``Name``
+    * ``Name``
 
       Type in the beginning of; or the full ``Name``; to search for health facilities with a ``Name``, which starts with or matches completely, the typed text.
 
-    - ``Fax``
+    * ``Fax``
 
       Type in the beginning of; or the full ``Fax`` to search for health facilities with a ``Fax``, which starts with or matches completely, the typed number.
 
-    - ``Level``
+    * ``Level``
 
       Select the ``Level``; from the list of levels of health facilities (Dispensary, Health Centre, Hospital) by clicking on the arrow on the right of the selector, to select health facilities of a specific level of service.
 
-    - ``Phone Number``
+    * ``Phone Number``
 
       Type in the beginning of; or the full ``Phone Number`` to search for health facilities with a ``Phone Number``, which starts with or matches completely, the typed number.
 
-    - ``Email``
+    * ``Email``
 
       Type in the beginning of; or the full ``Email`` to search for health facilities with an ``Email`` which starts with or matches completely, the typed text.
 
-    - ``Legal Form``
+    * ``Legal Form``
 
       Select the ``Legal Form``; from the list of legal forms (Government, District organization, Private Organisation, Charity) by clicking on the arrow on the right of the selector, to select health facilities of a specific legal form.
 
-    - ``Region``
+    * ``Region``
 
       Select the ``Region``; from the list of districts by clicking on the arrow on the right of the selector to select health facilities from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then this region will be automatically selected.*
 
-    - ``District``
+    * ``District``
 
       Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select health facilities from a specific district. *Note: The list will only be filled with the districts that belong to the selected region and that are assigned to the current logged in user. If this is only one then the district will be automatically selected.*
 
-    - ``Care Type``
+    * ``Care Type``
 
       Select the ``Care Type`` from the list of types (In-patient, Out-patient, Both) of provided health care by clicking on the arrow on the right of the selector, to select health facilities with a specific type.
 
-    - ``Historical``
+    * ``Historical``
 
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 17<image17>`)
 
@@ -926,7 +926,7 @@ Health Facilities Control PAGE
 
         `Image 17 - Historical Records - Result Panel`
 
-    - ``Search button``
+    * ``Search button``
 
       Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel.
 
@@ -946,7 +946,7 @@ Health Facilities Control PAGE
       .. figure:: /img/user_manual/image11.png
         :align: center
 
-      `Image 19 - Page selector- Result Panel`
+        `Image 19 - Page selector- Result Panel`
 
  #. **Button Panel**
 
@@ -968,67 +968,67 @@ Health Facility Page
       `Image 20 - Health Facility Page`
 
 
-    - ``Code``
+    * ``Code``
 
       Enter the code for the health facility. Mandatory, 8 characters.
 
-    - ``name``
+    * ``name``
 
       Enter the name for the health facility. Mandatory, 100 characters maximum.
 
-    - ``Legal Form``
+    * ``Legal Form``
 
       Select the legal form of the health facility from the list (Government, District organization, Private Organisation, Charity), by clicking on the arrow on the right hand side of the lookup.  Mandatory.
 
-    - ``Level``
+    * ``Level``
 
       Select a level from the list levels (Dispensary, Health Centre, Hospital), by clicking on the arrow on the right hand side of the lookup. Mandatory.
 
-    - ``Sub Level``
+    * ``Sub Level``
 
       Select a sub-level from the list sub-levels (No Sublevel, Integrated, Reference), by clicking on the arrow on the right hand side of the lookup. Mandatory.
 
-    - ``Address``
+    * ``Address``
 
       Enter the address of the health facility. Mandatory, 100 characters maximum.
 
-    - ``Region``
+    * ``Region``
 
       Select the ``Region``; from the list of regions by clicking on the arrow  on the right of the selector to enter the region in which the health facility is located. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then this region will be automatically selected.* Mandatory.
 
-    - ``District``
+    * ``District``
 
       Select the ``district``; from the list of districts by clicking on the arrow on the right of the selector to enter the district in which the health facility is located. *Note: The list will only be filled with the districts assigned to the selected region and to districts assigned to the currently logged in user. If this is only one then the district will be automatically selected.* Mandatory.
 
-    - ``Phone Number``
+    * ``Phone Number``
 
       Enter the phone number for the health facility. 50 characters maximum.
 
-    - ``Fax``
+    * ``Fax``
 
       Enter the fax number for the health facility. 50 characters maximum.
 
-    - ``Email``
+    * ``Email``
 
       Enter the email for the health facility. 50 characters maximum.
 
-    - ``Care Type``
+    * ``Care Type``
 
       Select the type of health care provided by the health facility from the list (In-patient, Out-patient, Both), by clicking on the arrow on the right hand side of the lookup. Mandatory.
 
-    - ``Price Lists (Medical Services)``
+    * ``Price Lists (Medical Services)``
 
       Select the health facilities price lists (for medical services) from the list by clicking on the arrow on the right hand side of the lookup. The pricelist contains the list of medical services and their prices agreed between the health facility (or corresponding group of health facilities) and the scheme administration which can be invoiced by the health facility and remunerated by the scheme administration. *Note: The list will only be filled with the pricelists associated with the previously selected district, regional and nationwide pricelists assigned to the current logged in user.*
 
-    - ``Price Lists (Medical Items)``
+    * ``Price Lists (Medical Items)``
 
       Select the health facilities price lists (medical items) from the list by clicking on the arrow on the right hand side of the lookup. The pricelist contains the list of medical items and their prices agreed between the health facility (or corresponding group of health facilities) and the scheme administration which can be invoiced by the health facility and remunerated by the scheme administration. *Note: The list will only be filled with the pricelists associated with the previously selected district, regional and nationwide pricelists assigned to the current logged in user.*
 
-    - ``Account Code``
+    * ``Account Code``
 
       Enter the account code (Identification for the accounting software), which will be used in reports on remuneration to be received by the health facility. 25 characters maximum.
 
-    - ``Region, District, Municipality, Village, Catchment grid``
+    * ``Region, District, Municipality, Village, Catchment grid``
 
       Check the locations that define the catchment area of the health facility. Specify the percentage of the population of a village that belong to the catchment area in the catchment column. Default is 100%.
 
@@ -1111,19 +1111,19 @@ Medical Services Control Page
 
     The Search Panel allows a user to select specific criteria to minimise the search results. In the case of medical services the following search options are available which can be used alone or in combination with each other.
 
-    - ``Code``
+    * ``Code``
 
       Type in the beginning of; or the full ``Code``; to search for medical services with a ``Code``, which starts with or matches completely, the typed text.
 
-    - ``Name``
+    * ``Name``
 
       Type in the beginning of; or the full ``Name`` to search for medical services with a ``Name``, which starts with or matches completely, the typed text.
 
-    - ``Type``
+    * ``Type``
 
       Select the ``Type``; from the list of types (Preventive, Curative) by clicking on the arrow on the right of the selector, to select medical services of a specific type.
 
-    - ``Historical``
+    * ``Historical``
 
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 24<image24>`)
 
@@ -1133,7 +1133,7 @@ Medical Services Control Page
 
         `Image 24 - Historical records - Result Panel`
 
-    - ``Search Button``
+    * ``Search Button``
 
       Once the criteria have been entered, use the search button to filter the records, the results will appear in the result panel.
 
@@ -1145,7 +1145,7 @@ Medical Services Control Page
       .. figure:: /img/user_manual/image28.png
         :align: center
 
-      `Image 25 - Selected record (blue), hovered records (yellow) - Result Panel`
+        `Image 25 - Selected record (blue), hovered records (yellow) - Result Panel`
 
     A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 26<image26>`).
 
@@ -1153,7 +1153,7 @@ Medical Services Control Page
       .. figure:: /img/user_manual/image11.png
         :align: center
 
-      `Image 26 - Page Selector - Result Panel`
+        `Image 26 - Page Selector - Result Panel`
 
  #. **Button Panel**
 
@@ -1174,39 +1174,39 @@ Medical Service Page
 
       `Image 27 - Medical Service Page`
 
-    - ``Code``
+    * ``Code``
 
       Enter the code for the medical service. Mandatory, 6 characters.
 
-    - ``Name``
+    * ``Name``
 
       Enter the name of the medical service. Mandatory, 100 characters maximum.
 
-    - ``Category``
+    * ``Category``
 
       Choose the category (Surgery, Consultation, Delivery, Antenatal, Other) which the medical service belongs to.
 
-    - ``Type``
+    * ``Type``
 
       Choose one from the options available (Preventive, Curative), the type of the medical service. Mandatory.
 
-    - ``Level``
+    * ``Level``
 
       Select from the list )Simple Service, Visit, Daz of Staz, Hospital Case), the level for the medical service. Mandatory.
 
-    - ``Price``
+    * ``Price``
 
       Enter the price a general price that can be overloaded in pricelists. Full general price (including potential cost sharing of an insuree) for the medical service. Mandatory.
 
-    - ``Care Type``
+    * ``Care Type``
 
       Choose one from the options available (Out-patient, In-patient, Both), the limitation of provision of the medical service to the specific type of health care. Mandatory.
 
-    - ``Frequency``
+    * ``Frequency``
 
       Enter the limitation of frequency of provision in a number of days within which a medical service can be provided to a patient not more than once. If the frequency is zero, there is no limitation. *Note: By default the frequency is 0.*
 
-    - ``Patient``
+    * ``Patient``
 
       Choose one or a combination of the options available, to specify which patient type the medical service is applicable to. *Note: By default all patient options are checked (selected).*
 
@@ -1289,23 +1289,23 @@ Medical Items Control Page
 
     The search panel allows a user to select specific criteria to minimise the search results. In the case of medical items the following search options are available which can be used alone or in combination with each other.
 
-    - ``Code``
+    * ``Code``
 
       Type in the beginning of; or the full ``Code``; to search for medical items with a ``Code``, which starts with or matches completely, the typed text.
 
-    - ``Name``
+    * ``Name``
 
       Type in the beginning of; or the full ``Name`` to search for medical items with a ``Name``, which starts with or matches completely, the typed text.
 
-    - ``Type``
+    * ``Type``
 
       Select the ``Type``; from the list of types (Drugs, Medical Prostheses) by clicking on the arrow on the right of the selector, to select medical items of a specific type.
 
-    - ``Package``
+    * ``Package``
 
       Type in the beginning of; or the full ``Package``; to search for medical items with a ``Package``, which starts with or matches completely, the typed text.
 
-    - ``Historical``
+    * ``Historical``
 
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 31<image31>`).
 
@@ -1315,7 +1315,7 @@ Medical Items Control Page
 
         `Image 31 - Historical records - Result Panel`
 
-    - ``Search button``
+    * ``Search button``
 
       Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel.
 
@@ -1357,35 +1357,35 @@ Medical Item Page
       `Image 34 - Medical Item Page`
 
 
-    - ``Code``
+    * ``Code``
 
       Enter the code for the medical item. Mandatory, 6 characters.
 
-    - ``Name``
+    * ``Name``
 
       Enter the name of the medical item. Mandatory, 100 characters maximum.
 
-    - ``Type``
+    * ``Type``
 
       Choose one from the options available, the type of the medical item. Mandatory.
 
-    - ``Package``
+    * ``Package``
 
       Enter the package (Indication of type and volume of package in a suitable coding system) for the medical item. Mandatory, 255 characters maximum.
 
-    - ``Price``
+    * ``Price``
 
       Enter the price (a general price that can be overloaded in pricelists). Full general price including potential cost sharing of an insuree) for the medical item. Mandatory.
 
-    - ``Care Type``
+    * ``Care Type``
 
       Choose one from the options available, the limitation of provision of the medical item within the specific type of health care (In-patient, Out-patient or Both). Mandatory.
 
-    - ``Frequency``
+    * ``Frequency``
 
       Enter the limitation of frequency of provision in a number of days within which a medical item cannot be provided to a patient not more than once. If the frequency is zero, there is no limitation. *Note: By default the frequency is 0.*
 
-    - ``Patient``
+    * ``Patient``
 
         Choose one or a combination of the options available, to specify which patient type the medical item may be provided to. *Note: By default all patients’ options are checked (selected).*
 
@@ -1468,15 +1468,15 @@ Price List Medical Services Control Page
 
     The search panel allows a user to select specific criteria to minimise the search results. In the case of price lists for medical services the following search options are available which can be used alone or in combination with each other.
 
-    - ``Name``
+    * ``Name``
 
       Type in the beginning of; or the full ``Name``; to search for price lists medical services with a ``Name``, which starts with or matches completely, the typed text.
 
-    - ``Date``
+    * ``Date``
 
       Type in the full ``Date`` to search for price lists of medical services with a creation ``Date`` which matches completely, the typed date. *Note: You can also use the button next to the date field to select a date.*
 
-    - ``Date Selector Button``
+    * ``Date Selector Button``
 
       Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 38<image38>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
@@ -1505,15 +1505,15 @@ Price List Medical Services Control Page
 
         `Image 38 - Calendar Selector - Search Panel`
 
-    - ``Region``
+    * ``Region``
 
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select price lists of medical services from a specific region. The option **National** means that the price list is common for all regions. *Note: The list will only be filled with the regions assigned to the current logged in user and with the option National. All nationwide pricelists and all regional pricelists relating to the selected region will be found. If no district is selected then also all district pricelists for districts belonging to the selected region and assigned to the currently logged in user will be found.*
 
-    - ``District``
+    * ``District``
 
       Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select price lists of medical services from a specific district. *Note: The list will be only filled with the districts belonging to the selected region. All nationwide pricelists, all regional pricelists relating to the selected region and all district pricelists for the selected district will be found.*
 
-    - ``Historical``
+    * ``Historical``
 
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 39<image39>`)
 
@@ -1523,7 +1523,7 @@ Price List Medical Services Control Page
 
         `Image 39 - Historical records - Result Panel`
 
-    - ``Search button``
+    * ``Search button``
 
       Once the criteria have been entered, use the search button to filter  the records, the results will appear in the Result Panel.
 
@@ -1565,23 +1565,23 @@ Price List Medical Services Page
         `Image 42 - Price List Medical Service Page`
 
 
-    - ``Name``
+    * ``Name``
 
       Enter the name for the price list of medical services. Mandatory, 100 characters maximum.
 
-    - ``Date``
+    * ``Date``
 
       Enter the creation date for the price list of medical services. *Note: You can also use the button next to the date field to select a date to be entered.*
 
-    - ``Region``
+    * ``Region``
 
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to enter the region in which the price list of medical services is to be used. The region **National** means that the price list is common for all regions. *The list will only be filled with the regions assigned to the current logged in user and with the option National.* Mandatory.
 
-    - ``District``
+    * ``District``
 
       Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to enter the district in which the price list of medical services is to be used. *Note: The list will be only filled with the districts belonging to the selected region and currently logged in user.* It is not mandatory to enter a district, not selecting a district will mean the price list of medical services is used in all districts of the region or nationwide if the region National is selected.
 
-    - ``Medical Services``
+    * ``Medical Services``
 
         Select from the list of available medical services the medical services which the price list of medical service should contain, by either clicking on the ``check all`` box at the top of the list of medical services, or by selectively clicking on the ``check box`` to the left of a medical service. The list shows the medical services displaying the code, name, type and price for reference. There is also an extra column, Overrule, which can be used to overrule the pre-set price. By clicking once on the row desired item in the overrule column, a new price can be entered for the individual service. This occurs when price agreed between a health facility or group of health facilities and the health insurance administration differs from the common price in the register of medical services.
 
@@ -1671,15 +1671,15 @@ Price List Medical Items Control Page
 
     The search panel allows a user to select specific criteria to minimise the search results. In the case of price lists for medical items the following search options are available which can be used alone or in combination with each other.
 
-    - ``Name``
+    * ``Name``
 
       Type in the beginning of; or the full ``Name``; to search for price lists medical items with a Name, which starts with or matches completely, the typed text.
 
-    - ``Date``
+    * ``Date``
 
       Type in the full ``Date`` to search for price lists of medical items with a creation Date which matches completely, the typed date. *Note: You can also use the button next to the date field to select a date.*
 
-    - ``Date Selector Button``
+    * ``Date Selector Button``
 
       Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 45<image45>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
@@ -1704,15 +1704,15 @@ Price List Medical Items Control Page
 
         `Image 46 - Calendar Selector - Search Panel`
 
-    - ``Region``
+    * ``Region``
 
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select price lists of medical items from a specific region. The option **National** means that the price list is common for all regions. *Note: The list will only be filled with the regions assigned to the current logged in user and with the option National. All nationwide pricelists and all regional pricelists relating to the selected region will be found. If no district is selected the also all district pricelists for districts belonging to the selected region will be found.*
 
-    - ``District``
+    * ``District``
 
       Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select price lists medical items from a specific district. *Note: The list will be only filled with the districts belonging to the selected region and assigned to the currently logged in user. All nationwide pricelists, all regional pricelists relating to the selected region and all district pricelists for the selected district will be found.*
 
-    - ``Historical``
+    * ``Historical``
 
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 47<image47>`).
 
@@ -1720,9 +1720,9 @@ Price List Medical Items Control Page
       .. figure:: /img/user_manual/image42.png
         :align: center
 
-      `Image 47 - Historical records - Result Panel`
+        `Image 47 - Historical records - Result Panel`
 
-    - ``Search button``
+    * ``Search button``
 
       Once the criteria have been entered, use the search button to filter the records, the results will appear in the result panel.
 
@@ -1734,7 +1734,7 @@ Price List Medical Items Control Page
     .. figure:: /img/user_manual/image43.png
       :align: center
 
-    `Image 48 - Selected record (blue), hovered records (yellow) - Result Panel`
+      `Image 48 - Selected record (blue), hovered records (yellow) - Result Panel`
 
     A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 49<image49>`)
 
@@ -1742,7 +1742,7 @@ Price List Medical Items Control Page
     .. figure:: /img/user_manual/image11.png
       :align: center
 
-    `Image 49 - Page selector- Result Panel`
+      `Image 49 - Page selector- Result Panel`
 
  #. **Button Panel**
 
@@ -1764,23 +1764,23 @@ Price List Medical Item Page
       `Image 50 - Price List Medical Item Page`
 
 
-    - ``Name``
+    * ``Name``
 
       Enter the name for the price list of medical items. Mandatory, 100 characters maximum.
 
-    - ``Date``
+    * ``Date``
 
       Enter the creation date for the price list of medical items. *Note: You can also use the button next to the date field to select a date to be entered.*
 
-    - ``Region``
+    * ``Region``
 
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to enter the region in which the price list of medical items is to be used. The district **National** means that the price list is common for all regions. *Note: The list will only be filled with the regions assigned to the current logged in user and with the option National.* Mandatory.
 
-    - ``District``
+    * ``District``
 
       Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to enter the district in which the price list of medical items is to be used. *Note: The list will be only filled with the districts belonging to the selected region and currently logged in user.* It is not mandatory to enter a district, not selecting a district will mean the price list of medical items is used in all districts of the region or nationwide if the region National is selected .
 
-    - ``Medical Items``
+    * ``Medical Items``
 
         Select from the list of available medical items the medical items which the price list medical item contains, by either clicking on the ``check all box`` at the top of the list of medical items, or by selectively clicking on the ``check box`` to the left of the medical item. The list shows the medical items displaying the code, name, type and price for reference. There is also an extra column, Overrule, which can be used to overrule the pre-set price. By clicking once on the row desired item in the overrule column, a new price can be entered for the individual item. This occurs when price agreed between a health facility or group of health facilities and the health insurance administration differs from the common price in the register of medical items.
 
@@ -1870,47 +1870,47 @@ User Control Page
 
     The search panel allows a user to select specific criteria to minimise the search results. In the case of users the following search options are available which can be used alone or in combination with each other.
 
-    - ``Last Name``
+    * ``Last Name``
 
       Type in the beginning of; or the full Last name; to search for users with a Last name, which starts with or matches completely, the typed text.
 
-    - ``Login Name``
+    * ``Login Name``
 
       Type in the beginning of; or the full Login name, to search for users with a Login name, which starts with or matches completely, the typed text.
 
-    - ``Phone Number``
+    * ``Phone Number``
 
       Type in the beginning of; or the full Phone Number, to search for users, with a Phone Number which starts with or matches completely, the typed text.
 
-    - ``Email``
+    * ``Email``
 
       Type in the beginning of; or the full Email, to search for users, with an Email which starts with or matches completely, the typed text.
 
-    - ``Other Names``
+    * ``Other Names``
 
       Type in the beginning of; or the full Other Names, to search for users, with Other names which start with or match completely the typed text.
 
-    - ``Role``
+    * ``Role``
 
       Select the Role; from the list of roles by clicking on the arrow on the right of the selector, to select users of a specific role.
 
-    - ``Health Facilities``
+    * ``Health Facilities``
 
       Select the Health Facility; from the list of health facilities by clicking on the arrow on the right of the selector, to select users from a specific health facility. *Note: The list will only be filled with the health facilities belonging to the districts assigned to the currently logged in user.*
 
-    - ``Region``
+    * ``Region``
 
       Select the Region; from the list of regions by clicking on the arrow on the right of the selector to find users with access to a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user.*
 
-    - ``District``
+    * ``District``
 
       Select the District; from the list of districts by clicking on the arrow on the right of the selector to find users with access to a specific district. *The list will be only filled with the districts belonging to the selected region.*
 
-    - ``Language``
+    * ``Language``
 
       Select the Language; from the list of languages by clicking on the arrow on the right of the selector, to select users with a specific language.
 
-    - ``Historical``
+    * ``Historical``
 
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 54<image54>`).
 
@@ -1920,7 +1920,7 @@ User Control Page
 
       `Image 54 - Historical records - Result Panel`
 
-    - ``Search Button``
+    * ``Search Button``
 
       Once the criteria have been entered, use the search button to filter the records, the results will appear in the result panel.
 
@@ -1962,51 +1962,51 @@ User Control Page
       `Image 57 - User Page`
 
 
-    - ``Language``
+    * ``Language``
 
       Select the user’s preferred language from the list by clicking on the arrow on the right hand side of the lookup. Mandatory.
 
-    - ``Last name``
+    * ``Last name``
 
       Enter the last name (surname) for the user. Mandatory, 100 characters maximum.
 
-    - ``Other Names``
+    * ``Other Names``
 
       Enter other names of the user. Mandatory, 100 characters maximum.
 
-    - ``Phone Number``
+    * ``Phone Number``
 
       Enter the phone number for the user. 50 characters maximum.
 
-    - ``Email``
+    * ``Email``
 
       Enter the e-mail address for the user. 50 characters maximum.
 
-    - ``Login Name``
+    * ``Login Name``
 
       Enter the Login name for the user. This is an alias used for logging into the application; a minimum of 6 and a maximum of 25 characters should be used for the login. Each Login Name should be unique. Mandatory.
 
-    - ``Password``
+    * ``Password``
 
       Enter the password for the user. This is used at login to grant access to the application; a minimum of 8 and a maximum of 25 characters should be used for the password. The password should have at least one digit. Mandatory.
 
-    - ``Confirm Password``
+    * ``Confirm Password``
 
       Re-enter the password. The password must be entered twice, to ensure that there was no mistyping in the first entry. Mandatory.
 
-    - ``Health Facility``
+    * ``Health Facility``
 
       Select the health facility that the user belongs to, if applicable, from the list of health Facilities from the list by clicking on the arrow on the right hand side of the lookup. *Note: The list will only be filled with the Health Facilities belonging to the districts assigned to the currently logged in user.*
 
-    - ``Roles``
+    * ``Roles``
 
       Select from the list of available roles the Roles which the user carries out, by either clicking on the ``Check All`` box at the top of the list of Roles, or by selectively clicking on the ``Check box`` to the left of the role. Mandatory (at least one role must be selected)
 
-    - ``Regions``
+    * ``Regions``
 
       Select from the list of available regions the region(s) which the user will have access to, by either clicking on the ``Check All`` box at the top of the list of regions, or by selectively clicking on the ``Check box`` to the left of a region. Mandatory (at least one region must be selected). The selection can be done indirectly by selecting a district or some districts.
 
-    - ``Districts``
+    * ``Districts``
 
       Select from the list of available districts the district(s) which the user will have access to, by either clicking on the ``Check All`` box at the top of the list of districts, or by selectively clicking on the ``Check box`` to the left of the district. Districts are pre-selected based on the selected region(s). The pre-selection can be modified. Mandatory (at least one district must be selected). The selection can be done indirectly by just selecting a region or some regions.
 
@@ -2089,27 +2089,27 @@ Enrolment Officers Control Page
 
     The search panel allows a user to select specific criteria to minimise the search results. In the case of officers the following search options are available which can be used alone or in combination with each other.
 
-    - ``Last Name``
+    * ``Last Name``
 
       Type in the beginning of; or the full ``Last name``; to search for officers with a ``Last name``, that starts with or matches completely, the typed text.
 
-    - ``Code``
+    * ``Code``
 
       Type in the beginning of; or the full ``Code`` to search for officers with a ``Code``, that starts with or matches completely, the typed text.
 
-    - ``Other Names``
+    * ``Other Names``
 
       Type in the beginning of; or the full ``Other Names`` to search for officers with ``other names``, that starts with or matches completely, the typed text.
 
-    - ``Birth Date From``
+    * ``Birth Date From``
 
       Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for officers having the same or later birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Birth Date To``
+    * ``Birth Date To``
 
       Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for officers having the same or earlier birth date. *Note: To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Date Selector button``
+    * ``Date Selector button``
 
       Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 61<image61>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
@@ -2138,23 +2138,23 @@ Enrolment Officers Control Page
 
         `Image 61 - Calendar Selector - Search Panel`
 
-    - ``Region``
+    * ``Region``
 
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select enrolment officers acting in a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user.*
 
-    - ``District``
+    * ``District``
 
       Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select enrolment officers acting in a specific district. *Note: The list will be only filled with the districts belonging to the selected region and assigned to the current logged in user.*
 
-    - ``Phone Number``
+    * ``Phone Number``
 
       Type in the beginning of; or the full ``Phone Number`` to search for enrolment officers with a Phone Number, that starts with or matches completely, the typed number.
 
-    - ``Email``
+    * ``Email``
 
       Type in the beginning of; or the full ``Email`` to search for enrolment officers with the ``Email``, which starts with or matches completely, the typed text.
 
-    - ``Historical``
+    * ``Historical``
 
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 62<image62>`).
 
@@ -2164,7 +2164,7 @@ Enrolment Officers Control Page
 
       `Image 62 - Historical records - Result Panel`
 
-    - ``Search Button``
+    * ``Search Button``
 
       Once the criteria have been entered, use the ``search button`` to filter the records, the results will appear in the result panel.
 
@@ -2207,85 +2207,85 @@ Enrolment Officer Page
 
     ``Enrolment Officers Details``
 
-    - ``Code``
+    * ``Code``
 
       Enter the code for the enrolment officer. Mandatory, 8 characters maximum.
 
-    - ``Last Name``
+    * ``Last Name``
 
       Enter the last name (surname) for the enrolment officer. Mandatory, 100 characters maximum.
 
-    - ``Other Names``
+    * ``Other Names``
 
       Enter other names of the enrolment officer. Mandatory, 100 characters maximum.
 
-    - ``Date of Birth``
+    * ``Date of Birth``
 
       Enter the date of birth for the enrolment officer. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Phone Number``
+    * ``Phone Number``
 
       Enter the phone number for the enrolment officer. 50 characters maximum.
 
-    - ``Email``
+    * ``Email``
 
       Enter the e-mail address for the enrolment officer. 50 characters maximum.
 
-    - ``Permanent Address Details``
+    * ``Permanent Address Details``
 
       Enter details of the place of living of the enrolment officer.
 
-    - ``Region``
+    * ``Region``
 
       Select from the list of available regions the region to a district in which the enrolment officer will act. Mandatory
 
-    - ``District``
+    * ``District``
 
       Select from the list of available districts the district in which the enrolment officer will act. *Note: The list will be only filled with the districts belonging to the selected region.* Mandatory .
 
-    - ``Substitution``
+    * ``Substitution``
 
       Select from the list of available enrolment officers the enrolment officer which will substitute the current enrolment officer Substitution means that all prompts to renewals/feedback will be directed to the substituting enrolment officer. *Note: The list contains enrolment officers who already exist in the system and who have at least on location common with the enrolment officer to be substituted.*
 
-    - ``Works To``
+    * ``Works To``
 
       Enter the date which the substituted enrolment officer will work up to. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Communicate``
+    * ``Communicate``
 
       Check the box ``Communicate`` if the enrolment officer should receive SMS messages alerting him/her about a need of renewing policies of families/groups he/she is assigned to.
 
-    - ``Municipalities``
+    * ``Municipalities``
 
       Select from the list of available municipalities the municipality(s) which the enrolment officer is acting in, by either clicking on the ``Check All`` box at the top of the list of municipalities, or by selectively clicking on the ``Check box`` to the left of the municipality. Mandatory (at least one municipality must be selected.
 
-    - ``Villages``
+    * ``Villages``
 
       Select from the list of available villages the village(s) which the enrolment officer is acting in, by either clicking on the ``Check All`` box at the top of the list of villages, or by selectively clicking on the ``Check box`` to the left of the village. Villages are pre-selected based on the selected municipality. The pre-selection can be modified. Mandatory (at least one village must be selected.
 
-    - ``village Officer Details``
+    * ``village Officer Details``
 
-    - ``Code``
+    * ``Code``
 
       Enter the code for the Village Executive officer. 25 characters maximum.
 
-    - ``Last name``
+    * ``Last name``
 
       Enter the last name (surname) for the Village Executive officer. 100 characters maximum.
 
-    - ``Other Names``
+    * ``Other Names``
 
       Enter other names of the Village Executive officer. 100 characters maximum.
 
-    - ``Phone Number``
+    * ``Phone Number``
 
       Enter the phone number for the Village Executive officer. 25 characters maximum.
 
-    - ``Email``
+    * ``Email``
 
       Enter the e-mail address for the Village Executive officer. 50 characters maximum.
 
-    - ``Date of Birth``
+    * ``Date of Birth``
 
       Enter the date of birth for the Village Executive officer. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
@@ -2368,27 +2368,27 @@ Claim Administrators Control Page
 
     The search panel allows a user to select specific criteria to minimise the search results. In the case of claim administrators the following search options are available which can be used alone or in combination with each other.
 
-    - ``Last Name``
+    * ``Last Name``
 
       Type in the beginning of; or the full ``Last name``; to search for claim administrator with a ``Last name``, which starts with or matches completely, the typed text.
 
-    - ``Code``
+    * ``Code``
 
       Type in the beginning of; or the full ``Code`` to search for claim administrator with a ``Code``, which starts with or matches completely, the typed text.
 
-    - ``Other Names``
+    * ``Other Names``
 
       Type in the beginning of; or the full ``Other Names`` to search for claim administrator with ``Other Names`` which starts with or matches completely, the typed text.
 
-    - ``Birth Date From``
+    * ``Birth Date From``
 
       Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for claim administrators having the same or later birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Birth Date To``
+    * ``Birth Date To``
 
       Type in a date; or use the Date Selector Button, to enter the Birth Date To to search for claim administrators having the same or earlier birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Date Selector Button``
+    * ``Date Selector Button``
 
       Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 69<image69>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
@@ -2417,19 +2417,19 @@ Claim Administrators Control Page
 
         `Image 69 - Calendar Selector - Search Panel`
 
-    - ``HF Code``
+    * ``HF Code``
 
       Select ``HF Code`` (a health facility code); from the list of health facility codes by clicking on the arrow on the right of the selector to select claim administrators from a specific health facility. *Note: The list will only be filled with the health facilities from districts which are assigned to the current logged in user.*
 
-    - ``Phone Number``
+    * ``Phone Number``
 
       Type in the beginning of; or the full ``Phone Number`` to search for claim administrators with a ``Phone Number``, which starts with or matches completely, the typed number.
 
-    - ``Email``
+    * ``Email``
 
       Type in the beginning of; or the full ``email`` to search for claim administrators with an e-mail\ , which starts with or matches completely, the typed text.
 
-    - ``Historical``
+    * ``Historical``
 
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 70<image70>`).
 
@@ -2439,7 +2439,7 @@ Claim Administrators Control Page
 
       `Image 70 - Historical records - Result Panel`
 
-    - ``Search Button``
+    * ``Search Button``
 
       Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel.
 
@@ -2482,31 +2482,31 @@ Claim Administrator Page
 
     ``claim administrator details``
 
-    - ``Code``
+    * ``Code``
 
       Enter the code for the claim administrator. Mandatory, 8 characters maximum.
 
-    - ``Last name``
+    * ``Last name``
 
       Enter the last name (surname) for the claim administrator. Mandatory, 100 characters maximum.
 
-    - ``Other Names``
+    * ``Other Names``
 
       Enter other names of the claim administrator. Mandatory, 100 characters maximum.
 
-    - ``Date of Birth``
+    * ``Date of Birth``
 
       Enter the date of birth for the claim administrator. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Phone Number``
+    * ``Phone Number``
 
       Enter the phone number for the claim administrator. 50 characters maximum.
 
-    - ``Email``
+    * ``Email``
 
       Enter the e-mail for the claim administrator. 50 characters maximum.
 
-    - ``HF Code``
+    * ``HF Code``
 
       Select from the list of available health facilities the health facility which the claim administrator will have access to and will act for. Mandatory.
 
@@ -2589,31 +2589,31 @@ Payer Control Page
 
     The search panel allows a user to select specific criteria to minimise the search results. In the case of payers the following search options are available which can be used alone or in combination with each other.
 
-    - ``Name``
+    * ``Name``
 
       Type in the beginning of; or the full ``name``; to search for payers with a ``name``, that starts with or matches completely, the typed text.
 
-    - ``Email``
+    * ``Email``
 
       Type in the beginning of; or the full ``Email`` to search for payers with an ``Email``, that starts with or matches completely, the typed text.
 
-    - ``Region``
+    * ``Region``
 
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select payers from a specific region. The option **National** means that the payer is common for all regions. *Note: The list will only be filled with the regions assigned to the current logged in user and with the option National. All nationwide payers and all regional payers relating to the selected region will be found. If no district is selected then also all district payers for districts belonging to the selected region will be found.*
 
-    - ``District``
+    * ``District``
 
       Select the ``district``; from the list of districts by clicking on the arrow on the right of the selector to select payers from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the currently logged in user. If this is only one then the district will be automatically selected*
 
-    - ``Phone Number``
+    * ``Phone Number``
 
       Type in the beginning of; or the full ``Phone Number`` to search for payers with a ``Phone Number``, that starts with or matches completely, the typed number.
 
-    - ``Type``
+    * ``Type``
 
       Select the ``Type``; from the list of types of payers by clicking on the arrow on the right of the selector to select payers of specific type.
 
-    - ``Historical``
+    * ``Historical``
 
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 77<image77>`).
 
@@ -2623,7 +2623,7 @@ Payer Control Page
 
       `Image 77 - Historical records - Result Panel`
 
-    - ``Search Button``
+    * ``Search Button``
 
       Once the criteria have been entered, use the search button to filter the records, the results will appear in the result panel.
 
@@ -2665,35 +2665,35 @@ Payer Page
       `Image 80 - Payer Page`
 
 
-    - ``Type``
+    * ``Type``
 
       Select the type of the payer from the list by clicking on the arrow on the right hand side of the lookup. Mandatory.
 
-    - ``Name``
+    * ``Name``
 
       Enter the name for the payer. Mandatory, 100 characters maximum.
 
-    - ``Address``
+    * ``Address``
 
       Enter address of the payer. Mandatory, 100 characters maximum.
 
-    - ``Phone Number``
+    * ``Phone Number``
 
       Enter the phone number for the payer. 50 characters maximum.
 
-    - ``Fax``
+    * ``Fax``
 
       Enter the fax number for the payer. 50 characters maximum.
 
-    - ``Email``
+    * ``Email``
 
       Enter the email for the payer. 50 characters maximum.
 
-    - ``Region``
+    * ``Region``
 
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to enter the region to which the payer belongs. The region **National** means that the payer is common for all regions. *Note: The list will only be filled with the regions assigned to the current logged in user and with the option National.* Mandatory.
 
-    - ``District``
+    * ``District``
 
       Select the ``district`` to which the payer belongs, from the list by clicking on the arrow on the right hand side of the lookup. *Note: The list will only be filled with the districts assigned to the selected region and currently logged in user. If this is only one then the district will be automatically selected.* It is not mandatory to enter a district. Not selecting a district will mean the payer operates in all districts of the region or nationwide if the region National is selected.
 
@@ -2914,31 +2914,31 @@ Navigation
 
     The search panel allows a user to select specific criteria to minimise the search results. The following search options are available which can be used alone or in combination with each other.
 
-    - ``Last Name``
+    * ``Last Name``
 
       Type in the beginning of; or the full ``Last name``; to search for families/groups, who’s family head/group head ``Last name``, starts with or matches completely, the typed text.
 
-    - ``Other Names``
+    * ``Other Names``
 
       Type in the beginning of; or the full ``Other Names`` to search for families/groups, who’s family head/group head ``Other Names`` starts with or matches completely, the typed text.
 
-    - ``Insurance Number``
+    * ``Insurance Number``
 
       Type in the beginning of; or the full ``Insurance Number`` to search for families/groups, who’s family head/group head ``Insurance Number``, starts with or matches completely, the typed text.
 
-    - ``Phone Number``
+    * ``Phone Number``
 
       Type in the beginning of; or the full ``Phone Number`` to search for families/groups, who’s family head/group head ``Phone Number``, starts with or matches completely, the typed number.
 
-    - ``Birth Date From``
+    * ``Birth Date From``
 
       Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for families/groups, who’s family head/group head, has the same or later birth date than ``Birth Date From``. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Birth Date To``
+    * ``Birth Date To``
 
       Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for families/groups, who’s family head/group head, has the same or earlier birth date than ``Birth Date To``. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Date Selector Button``
+    * ``Date Selector Button``
 
       Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 91<image91>`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
@@ -2967,42 +2967,42 @@ Navigation
 
         `Image 91 - Calendar Selector - Search Panel`
 
-    - ``Gender``
+    * ``Gender``
 
       Select the ``Gender``; from the list of gender by clicking on the arrow on the right of the selector, to select families/groups, who’s family head/group head is of the specific gender.
 
-    - ``Poverty Status``
+    * ``Poverty Status``
 
       Select the ``Poverty Status``; from the list of has poverty status by clicking on the arrow on the right of the selector, to select families/groups that have a specific poverty status.
 
-    - ``Email``
+    * ``Email``
 
       Type in the beginning of; or the full ``Email`` to search for families/groups, who’s family head/group head ``Email`` starts with or matches completely the typed text.
 
-    - ``Confirmation Type``
+    * ``Confirmation Type``
 
       Type in the beginning of; or the full ``Confirmation Type`` to search for families/groups, who’s ``Confirmation Type``. starts with or matches completely the typed text.
 
-    - ``Confirmation No.``
+    * ``Confirmation No.``
 
       Type in the beginning of; or the full ``Confirmation No.`` to search for families/groups, who’s ``Confirmation No.`` starts with or matches completely the typed text.
 
-    - ``Region``
+    * ``Region``
 
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select families/groups from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*
 
-    - ``District``
+    * ``District``
 
       Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select families/groups from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*
 
-    - ``Municipality``
+    * ``Municipality``
 
       Select the ``Municipality``; from the list of municipalities by clicking on the arrow on the right of the selector to select families/groups from a specific municipality. *Note: The list will only be filled with the municipalities in the selected district above.*
 
 
       Select the ``Village``; from the list of villages by clicking on the arrow on the right of the selector to select families/groups from a specific village. *Note: The list will only be filled with the villages in the selected municipality above.*
 
-    - ``Historical``
+    * ``Historical``
 
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 92<image92>`).
 
@@ -3012,7 +3012,7 @@ Navigation
 
         `Image 92 - Historical records - Result Panel`
 
-    - ``Search Button``
+    * ``Search Button``
 
       Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel.
 
@@ -3080,35 +3080,35 @@ Find Insuree Page
 
     The Search Panel allows a user to select specific criteria to minimise the search results. In the case of insurees the following search options are available, which can be used alone or in combination with each other.
 
-    - ``Last Name``
+    * ``Last Name``
 
       Type in the beginning of; or the full ``Last name``; to search for insurees with a ``Last name``, which starts with or matches completely, the typed text.
 
-    - ``Other Names``
+    * ``Other Names``
 
       Type in the beginning of; or the full ``Other Names`` to search for insurees with ``Other Names`` which starts with or matches completely, the typed text.
 
-    - ``Insurance Number``
+    * ``Insurance Number``
 
       Type in the beginning of; or the full ``Insurance Number`` to search for insurees with the ``Insurance Number``, which starts with or matches completely, the typed text.
 
-    - ``Marital Status``
+    * ``Marital Status``
 
       Select the ``Marital Status``; from the list of marital status by clicking on the arrow on the right of the selector, to select insurees of a specific marital status.
 
-    - ``Phone Number``
+    * ``Phone Number``
 
       Type in the beginning of; or the full ``Phone Number`` to search for insurees with a ``Phone Number``, which starts with or matches completely, the typed number.
 
-    - ``Birth Date From``
+    * ``Birth Date From``
 
       Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for insurees who have the same or later birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Birth Date To``
+    * ``Birth Date To``
 
       Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for insurees who have the same or earlier birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Date Selector Button``
+    * ``Date Selector Button``
 
       Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 97<image97>`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
@@ -3137,31 +3137,31 @@ Find Insuree Page
 
         `Image 97 - Calendar Selector - Search Panel`
 
-    - ``Gender``
+    * ``Gender``
 
       Select the ``Gender``; from the list of genders by clicking on the arrow on the right of the selector, to select insurees of a specific gender.
 
-    - ``Region``
+    * ``Region``
 
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select insurees from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*
 
-    - ``District``
+    * ``District``
 
       Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select insurees from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*
 
-    - ``Municipality``
+    * ``Municipality``
 
       Select the ``Municipality``; from the list of wards by clicking on the arrow on the right of the selector to select insurees from a specific municipality. *Note: The list will only be filled with the wards in the selected district above.*
 
-    - ``Village``
+    * ``Village``
 
       Select the ``Village``; from the list of villages by clicking on the arrow on the right of the selector to select insurees from a specific village. *Note: The list will only be filled with the villages in the selected municipality above.*
 
-    - ``Photo Assigned``
+    * ``Photo Assigned``
 
       Select whether all insurees are searched [**All**] or only insurees with a photo assigned [**Yes**] or only insurees with no photo assigned [**No**].
 
-    - ``Historical``
+    * ``Historical``
 
       Click on Historical to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 98<image98>`)
 
@@ -3171,7 +3171,7 @@ Find Insuree Page
 
         `Image 98 - Historical records - Result Panel`
 
-    - ``Search Button``
+    * ``Search Button``
 
       Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel.
 
@@ -3239,35 +3239,35 @@ Find Policy Page
 
     The Search Panel allows a user to select specific criteria to minimise the search results. In the case of policies the following search options are available which can be used alone or in combination with each other.
 
-    - ``Enrolment Date From``
+    * ``Enrolment Date From``
 
       Type in a date; or use the Date Selector Button, to enter the ``Enrolment Date From`` to search for policies with an ``Enrolment Date`` equal or later than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Enrolment Date To``
+    * ``Enrolment Date To``
 
       Type in a date; or use the Date Selector Button, to enter the ``Enrolment Date to`` to search for policies with an ``Enrolment Date`` equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Effective Date From``
+    * ``Effective Date From``
 
       Type in a date; or use the Date Selector Button, to enter the ``Effective Date From`` to search for policies with an ``Effective Date`` equal or later than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Effective Date To``
+    * ``Effective Date To``
 
       Type in a date; or use the Date Selector Button, to enter the ^^Effective Date To'' to search for policies with an ^^Effective Date^^ equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Start Date From``
+    * ``Start Date From``
 
       Type in a date; or use the Date Selector Button, to enter the ``Start Date From`` to search for policies with a ``Start Date`` equal or later than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Start Date To``
+    * ``Start Date To``
 
       Type in a date; or use the Date Selector Button, to enter the ``Start Date to`` to search for policies with a ``Start Date`` equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Expiry Date From``
+    * ``Expiry Date From``
 
       Type in a date; or use the Date Selector Button, to enter the ``Expiry Date From`` to search for policies with an ``Expiry Date`` equal or later then the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Date Selector Button``
+    * ``Date Selector Button``
 
       Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 103<image103>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
@@ -3296,15 +3296,15 @@ Find Policy Page
 
         `Image 103 - Calendar Selector - Search Panel`
 
-    - ``Enrolment Officer``
+    * ``Enrolment Officer``
 
       Select the ``Enrolment Officer``; from the list of enrolment officers by clicking on the arrow on the right of the selector, to select policies related to a specific enrolment officer.
 
-    - ``Product``
+    * ``Product``
 
       Select the ``Product``; from the list of products by clicking on the arrow on the right of the selector, to select policies for a specific product.
 
-    - ``Policy Status``
+    * ``Policy Status``
 
       Select the ``Policy Status``; from the list of policy statuses by clicking on the arrow on the right of the selector, to select policies for a specific policy status.
 
@@ -3315,29 +3315,29 @@ Find Policy Page
         - **Suspended** (Policy was not fully paid for within the grace period)
         - **Expired** (Policy is not active anymore as the insurance period elapsed)
 
-    - ``Balance``
+    * ``Balance``
 
       Types in a positive ``Balance`` to search for policies with a balance equal or greater than the typed amount. For example if 0 (zero) is entered, all policies with a balance, will be displayed. If 1,000 is entered, then only policies with a balance equal to or greater than 1,000 will be displayed.
 
       The balance is the difference between the policy value and total of contributions paid. For the policy
 
-    - ``Region``
+    * ``Region``
 
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select policies from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*
 
-    - ``District``
+    * ``District``
 
       Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select policies for families/groups residing in a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*
 
-    - ``Policy Type``
+    * ``Policy Type``
 
       Select whether new policies [New Policy] or renewed policies [Renewal] should be searched for.
 
-    - ``Inactive Insurees``
+    * ``Inactive Insurees``
 
       Check the box to select only policies for families/groups with insurees which are non-active (not covered) despite the policy of their family/group is active. The reason may be addition of a new insuree (member) to the family/group with an active policy without adequate payment of additional contributions or because the maximum number of members in the family/group exceeds the maximum number determined by the insurance product of the policy.
 
-    - ``Historical``
+    * ``Historical``
 
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 104<image104>`)
 
@@ -3347,7 +3347,7 @@ Find Policy Page
 
         `Image 104 - Historical records - Result Panel`
 
-    - ``Search button``
+    * ``Search button``
 
       Once the criteria have been entered, use the ``Search`` button to filter the records, the results will appear in the Result Panel.
 
@@ -3415,23 +3415,23 @@ Find Contribution Page
 
     The Search Panel allows a user to select specific criteria to minimise the search results. In the case of contributions the following search options are available which can be used alone or in combination with each other.
 
-    - ``Payer``
+    * ``Payer``
 
       Select the ``Payer``; from the list of payers by clicking on the arrow on the right of the selector, to select contributions related to a specific payer.
 
-    - ``Payment Type``
+    * ``Payment Type``
 
       Select the ``Payment Type``; from the list of types by clicking on the arrow on the right of the selector, to select contributions related to a specific payment type.
 
-    - ``Payment Date From``
+    * ``Payment Date From``
 
       Type in a date; or use the Date Selector Button, to enter the ``Payment Date From`` to search for contributions with a ``Payment Date`` equal or later than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Payment Date To``
+    * ``Payment Date To``
 
       Type in a date; or use the Date Selector Button, to enter the ``Payment Date To`` to search for contributions with a ``Payment Date`` equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Date Selector Button``
+    * ``Date Selector Button``
 
       Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 109<image109>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
@@ -3460,19 +3460,19 @@ Find Contribution Page
 
         `Image 109 - Calendar Selector - Search Panel`
 
-    - ``Contribution Paid``
+    * ``Contribution Paid``
 
       Type in the ``Contribution Paid`` to search for contributions with the paid amount, greater or equal to the typed amount.
 
-    - ``Region``
+    * ``Region``
 
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select contributions for policies from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*
 
-    - ``District``
+    * ``District``
 
       Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select contributions paid for policies from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*
 
-    - ``Historical``
+    * ``Historical``
 
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 110<image110>`).
 
@@ -3482,7 +3482,7 @@ Find Contribution Page
 
         `Image 110 - Historical records - Result Panel`
 
-    - ``Search Button``
+    * ``Search Button``
 
       Once the criteria have been entered, use the ``Search`` button to filter the records, the results will appear in the Result Panel.
 
@@ -3525,7 +3525,7 @@ Pre-conditions
 Navigation
 """"""""""
 
-  `Family Overview Page <#family-overview-page.>`__ cannot be navigated directly to; the first step is to find the family/group by means of using `Find Family Page <#find-family-page>`__, `Find Insuree Page <#_Image_4.10_(Find>`__, `Find Policy Page <#_Image_4.16_(Find>`__ or `Find Contribution Page <#_Image_4.22_(Find>`__. Once a specific family, insuree, policy or contribution is selected by means of selecting the hyperlink in the Result Panel of the respective Find Page, the user is re-directed to the `Family Overview Page <#family-overview-page.>`__.
+  `Family Overview Page <#family-overview-page.>`__ cannot be navigated directly to; the first step is to find the family/group by means of using `Find Family Page <#find-family-page>`__, `Find Insuree Page <#Find_Insuree_Page>`__, `Find Policy Page <Find_Policy_Page>`__ or `Find Contribution Page <#Find_contribution_Page>`__. Once a specific family, insuree, policy or contribution is selected by means of selecting the hyperlink in the Result Panel of the respective Find Page, the user is re-directed to the `Family Overview Page <#family-overview-page.>`__.
 
 Family Overview Page
 """"""""""""""""""""
@@ -3663,137 +3663,140 @@ Family Overview Page
 Family/Group Page
 """""""""""""""""
 
-  .. _image123:
-  .. figure:: /img/user_manual/image97.png
-    :align: center
+    .. _image123:
+    .. figure:: /img/user_manual/image97.png
+      :align: center
 
-    `Image 123 - Family/Group Page`
+      `Image 123 - Family/Group Page`
 
-    - ``Region``
+
+    * ``Region``
 
       Select from the list of available regions the region, in which the head of family/group permanently stays. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.* Mandatory.
 
-    - ``District``
+    * ``District``
 
       Select from the list of available districts the district, in which the head of family/group permanently stays. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected*. Mandatory.
 
-    - ``Municipality``
+    * ``Municipality``
 
       Select from the list of available municipalities the municipality, in which the head of family/group permanently stays. *Note: The list will only be filled with the municipalities belonging to the selected district.* Mandatory.
 
-    - ``Village``
+    * ``Village``
 
       Select from the list of available villages the village, in which the head of family/group permanently stays. *Note: The list will only be filled with the villages belonging to the selected municipality.* Mandatory.
 
-    - ``Poverty Status``
+    * ``Poverty Status``
 
       Select whether the family/group has the poverty status. Mandatory.
 
-    - ``Confirmation Type``
+    * ``Confirmation Type``
 
       Select the type of a confirmation of the social status of the family/group.
 
-    - ``Confirmation No.``
+    * ``Confirmation No.``
 
       Enter alphanumeric identification of the confirmation of the social status of the family/group.
 
-    - ``Group Type``
+    * ``Group Type``
 
       Select the type of the group/family.
 
-    - ``Address Details.``
+
+
+    * ``Address Details.``
 
       Enter details of the permanent address of the family/group.
 
-    - ``Insurance Number``
+    * ``Insurance Number``
 
       Enter the insurance number for the head of family/group. Mandatory.
 
-    - ``Last name``
+    * ``Last name``
 
       Enter the last name (surname) for the head of family/group. Mandatory.
 
-    - ``Other Names``
+    * ``Other Names``
 
       Enter other names of the head of family/group. Mandatory.
 
-    - ``Birth Date``
+    * ``Birth Date``
 
         Enter the date of birth for the head of family/group. *Note: You can also use the button next to the birth date field to select a date to be entered.*
 
-    - ``Gender``
+    * ``Gender``
 
       Select from the list of available genders the gender of the head of family/group. Mandatory.
 
-    - ``Marital Status``
+    * ``Marital Status``
 
       Select from the list of available marital statuses the marital status of the head of family/group. Mandatory.
 
-    - ``Beneficiary Card``
+    * ``Beneficiary Card``
 
       Select from the list of card whether or not an insurance identification card was issued to the head of family/group. Mandatory.
 
-    - ``Current Region``
+    * ``Current Region``
 
       Select from the list of available regions the region, in which the head of family/group temporarily stays.
 
-    - ``Current District``
+    * ``Current District``
 
       Select from the list of available districts the district, in which the head of family/group temporarily stays. *Note: The list will only be filled with the districts belonging to the selected region*
 
-    - ``Current Municipality``
+    * ``Current Municipality``
 
       Select from the list of available municipalities the municipality, in which the head of family/group temporarily stays. *Note: The list will only be filled with the municipalities belonging to the selected district.*
 
-    - ``Current Village``
+    * ``Current Village``
 
       Select from the list of available villages the village, in which the head of family/group temporarily stays. *Note: The list will only be filled with the villages belonging to the selected municipality.*
 
-    - ``Current Address Details``
+    * ``Current Address Details``
 
       Enter details of the temporal address of the head of family/group.
 
-    - ``Profession``
+    * ``Profession``
 
       Select the profession of the head of family/group.
 
-    - ``Education``
+    * ``Education``
 
       Select the education of the head of family/group.
 
-    - ``Phone Number``
+    * ``Phone Number``
 
       Enter the phone number for the head of family/group.
 
-    - ``Email``
+    * ``Email``
 
       Enter the e-mail address of the head of family/group.
 
-    - ``Identification Type``
+    * ``Identification Type``
 
       Select the type of the identification document of the head of family/group.
 
-    - ``Identification No.``
+    * ``Identification No.``
 
       Enter alphanumeric identification of the document of head of family/group.
 
-    - ``Region of FSP``
+    * ``Region of FSP``
 
       Select from the list of available regions the region, in which the chosen primary health facility (First Service Point) of the head of family/group is located.
 
-    - ``District of FSP``
+    * ``District of FSP``
 
       Select from the list of available districts the district, in which the chosen primary health facility (First Service Point) of the head of family/group is located. *Note: The list will only be filled with the districts belonging to the selected region.*
 
-    - ``Level of FSP``
+    * ``Level of FSP``
 
       Select the level of the chosen primary health facility (First Service Point) of the head of family/group.
 
-    - ``First Service Point``
+    * ``First Service Point``
 
       Select from the list of available health facilities the chosen primary health facility (First Service Point) of the head of family/group. *Note: The list will only be filled with the health facilities belonging to the selected district which are of the selected level.*
 
-    - ``Browse``
+    * ``Browse``
 
       Browse to get the photo for the head of family/group related to his/her insurance number.
 
@@ -3875,99 +3878,99 @@ Insuree Page
       `Image 126 - Insuree Page`
 
 
-    - ``Relationship``
+    * ``Relationship``
 
       Select from the list of available relationships of the insuree to the head of family/group.
 
-    - ``Insurance Number``
+    * ``Insurance Number``
 
       Enter the insurance number for the insuree. Mandatory.
 
-    - ``Last name``
+    * ``Last name``
 
       Enter the last name (surname) for the insuree. Mandatory, 100 characters maximum.
 
-    - ``Other Names``
+    * ``Other Names``
 
       Enter other names of the insuree. Mandatory, 100 characters maximum.
 
-    - ``Birth Date``
+    * ``Birth Date``
 
       Enter the date of birth for the insuree. *Note: You can also use the button next to the birth date field to select a date to be entered.*
 
-    - ``Gender``
+    * ``Gender``
 
       Select from the list of available genders the gender of the insuree. Mandatory.
 
-    - ``Marital Status``
+    * ``Marital Status``
 
       Select from the list of available options for the marital status of the insuree. Mandatory.
 
-    - ``Beneficiary Card``
+    * ``Beneficiary Card``
 
       Select from the list of options whether or not the card was issued to the insure. Mandatory.
 
-    - ``Current Region``
+    * ``Current Region``
 
       Select from the list of available regions the region, in which the insuree temporarily stays.
 
-    - ``Current District``
+    * ``Current District``
 
       Select from the list of available districts the district, in which the insuree temporarily stays. *Note: The list will only be filled with the districts belonging to the selected region*
 
-    - ``Current Municipality``
+    * ``Current Municipality``
 
       Select from the list of available municipalities the municipality, in which the insuree temporarily stays. *Note: The list will only be filled with the municipalities belonging to the selected district.*
 
-    - ``Current Village``
+    * ``Current Village``
 
       Select from the list of available villages the village, in which the insuree temporarily stays. *Note: The list will only be filled with the villages belonging to the selected municipality.*
 
-    - ``Current Address Details.``
+    * ``Current Address Details.``
 
       Enter details of the temporal address of the insuree.
 
-    - ``Profession``
+    * ``Profession``
 
       Select from the list of available professions the profession of the insuree.
 
-    - ``Education``
+    * ``Education``
 
       Select from the list of available educations the education of the insuree.
 
-    - ``Phone Number``
+    * ``Phone Number``
 
       Enter the phone number for the insuree.
 
-    - ``Email``
+    * ``Email``
 
       Enter the e-mail address of the insuree.
 
-    - ``Identification Type``
+    * ``Identification Type``
 
       Select the type of the identification document of the insuree.
 
-    - ``Identification No.``
+    * ``Identification No.``
 
       Enter alphanumeric identification of the document of the insuree.
 
-    - ``Region of FSP``
+    * ``Region of FSP``
 
       Select from the list of available regions the region, in which the chosen primary health facility (First Service Point) of the insuree is located.
 
-    - ``District of FSP``
+    * ``District of FSP``
 
       Select from the list of available districts the district, in which the chosen primary health facility (First Service Point) of the insuree is located. *Note: The list will only be filled with the districts belonging to the selected region.*
 
-    - ``Level of FSP``
+    * ``Level of FSP``
 
       Select the level of the chosen primary health facility (First Service Point) of the insuree.
 
-    - ``First Service Point``
+    * ``First Service Point``
 
       Select from the list of available health facilities the chosen primary health facility (First Service Point) of the insuree. *Note: The list will only be filled with the health facilities belonging to the selected district which are of the selected level.*
 
-    - ``Browse``
+    * ``Browse``
 
       Browse to get the photo for the insuree related to his/her insurance number.
 
@@ -4028,27 +4031,27 @@ Policy Page
       `Image 128 - Policy Page`
 
 
-    - ``Enrolment Date``
+    * ``Enrolment Date``
 
       Enter the enrolment date for the policy. Mandatory. *Note: You can also use the button next to the enrolment date field to select a date to be entered.*
 
-    - ``Product``
+    * ``Product``
 
       Select from the list of available products the product of the policy. Mandatory.
 
-    - ``Effective Date``
+    * ``Effective Date``
 
       The effective date for the policy is calculated automatically later on. The effective date is the maximum of the start date and the date when the last contribution was paid or when the user enforced activation of the policy.
 
-    - ``Start Date``
+    * ``Start Date``
 
       The start date for the policy is calculated automatically. Either it is the enrolment date plus the administration period of the insurance product associated with the policy for free enrolment (without cycles) or it is a cycle start date determined according to enrolment date and the administration period for enrolment in fixed cycles. The start date may be modified by the user.
 
-    - ``Expiry Date``
+    * ``Expiry Date``
 
       The expiry date for the policy is calculated automatically. When entering a new policy, the expiry date is the start date plus the insurance period of the insurance product associated with the policy for free enrolment or the cycle start date plus the insurance period for enrolment in fixed cycles.
 
-    - ``Enrolment Officer``
+    * ``Enrolment Officer``
 
       Select from the list of available enrolment officers the enrolment officer related to the policy. Mandatory
 
@@ -4108,23 +4111,23 @@ Contribution Page
       `Image 130 - Contribution Page`
 
 
-    - ``Payer``
+    * ``Payer``
 
       Select from the list of available (institutional) payers the payer of the contribution (if the contribution is not paid by the family/group itself).
 
-    - ``Contribution Paid``
+    * ``Contribution Paid``
 
       Enter the paid amount for the contribution. Mandatory.
 
-    - ``Receipt No.``
+    * ``Receipt No.``
 
       Enter the receipt identification for the contribution. Receipt identification has to be unique within all policies of the insurance product. Mandatory.
 
-    - ``Payment Date``
+    * ``Payment Date``
 
       Enter the date of payment for the contribution. Mandatory. *Note: You can also use the button next to the date of payment field to select a date to be entered.*
 
-    - ``Payment Type``
+    * ``Payment Type``
 
       Select from the list of available types of payment the payment type of the contribution. Mandatory.
 
@@ -4246,75 +4249,75 @@ Claims Control Page
 
     The search panel allows a user to select specific criteria to minimise the search results. In the case of claims the following search options are available which can be used alone or in combination with each other.
 
-    - ``Region``
+    * ``Region``
 
       Select the ``Region``; where claiming or searched for health facility is located from the list of regions by clicking on the arrow on the right of the selector to select claims from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected*
 
-    - ``District``
+    * ``District``
 
       Select the ``district``; where claiming or searched for health facility is located from the list of districts by clicking on the arrow on the right of the selector to select claims from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*
 
-    - ``HF Code``
+    * ``HF Code``
 
       Select the ``HF Code`` (Health Facility Code) from the list of codes of health facilities by clicking on the arrow on the right of the selector, to select claims from a specific health facility. *Note: The list will only be filled with the health facilities belonging to the selected district and assigned to the current logged in user.*
 
-    - ``HF Name``
+    * ``HF Name``
 
       Type in the beginning of; or the full ``HF Name`` (Health Facility Name) to search for claims belonging to the health facility whose name start with or match completely the typed text.
 
-    - ``Claim Administrator``
+    * ``Claim Administrator``
 
       Select the ``Claim Administrator`` from the list of claim administrators by clicking on the arrow on the right of the selector, to select claims submitted by a specific claim administrator. *Note: The list will only be filled with the claim administrators belonging to the health facility selected.*
 
-    - ``Visit Type``
+    * ``Visit Type``
 
       Select the ``Visit Type`` from the list of visit types (or hospital stays) by clicking on the arrow on the right of the selector, to select claims with specified visit type.
 
-    - ``Insurance Number``
+    * ``Insurance Number``
 
       Type in the beginning of; or the full ``Insurance Number``, to search for claims, on behalf of insurees with the insurance number which starts with or match completely the typed text.
 
-    - ``Claim No.``
+    * ``Claim No.``
 
       Type in the beginning of; or the full ``Claim No.``, to search for claims with the specific claim identification which starts with or match completely the typed text.
 
-    - ``Review Status``
+    * ``Review Status``
 
       Select the ``Review Status`` from the list of options for review status by clicking on the arrow on the right of the selector, to select claims with specific review status.
 
-    - ``Feedback Status``
+    * ``Feedback Status``
 
       Select the ``Feedback Status`` from the list of options for feedback status by clicking on the arrow on the right of the selector, to select claims with specific feedback status.
 
-    - ``Claim Status``
+    * ``Claim Status``
 
       Select the ``Claim Status`` from the list of options for claim status by clicking on the arrow on the right of the selector, to select claims with specific claim status.
 
-    - ``Main Dg.``
+    * ``Main Dg.``
 
       Select the ``Main Dg.`` from the list of diagnoses status by clicking on the arrow on the right of the selector, to select claims with main diagnosis.
 
-    - ``Batch Run``
+    * ``Batch Run``
 
       Select the ``batch run`` from the list of batch runs by clicking on the arrow on the right of the selector, to select claims from specific batch run
 
-    - ``Visit Date From``
+    * ``Visit Date From``
 
       Type in a date; or use the Date Selector Button, to search for claims with a ``Visit Date From`` date which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.* ``Visit Date From`` should be the day of admission for in-patient care or the visit date in case of out-patient care.
 
-    - ``Visit Date To``
+    * ``Visit Date To``
 
       Type in a date; or use the Date Selector Button, to search for claims with a ``Visit Date From`` date which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.* ``Visit Date To`` should be the day of discharge for in-patient care or the visit date in case of out-patient care.
 
-    - ``Claim Date From``
+    * ``Claim Date From``
 
       Type in a date; or use the Date Selector Button, to search for claims with a ``Claim Date`` date which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Claim Date To``
+    * ``Claim Date To``
 
       Type in a date; or use the Date Selector Button, to search for claims with a ``Claim Date`` date which is on or is less than the date typed/selected. Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Date Selector Button``
+    * ``Date Selector Button``
 
       Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 138<image138>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
@@ -4343,7 +4346,7 @@ Claims Control Page
 
         `Image 138 - Calendar Selector - Search Panel`
 
-    - ``Search Button``
+    * ``Search Button``
 
       Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel.
 
@@ -4363,18 +4366,18 @@ Claims Control Page
 
     With exception of the ``Cancel`` button, which re-directs to the `Home Page <#image-2.2-home-page>`__, and the ``Add`` button which re-directs to the `Claim Page, <#claim-page>`__ the button panel (the buttons Load and Submit) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
 
-    - ``add``
+    * ``add``
 
       By clicking on the add button, the user is directed to the `Claim Page, <#claim-page>`__ where new entries for new claim can be added. When the page opens all entry fields are empty. See the `Claim Page <#claim-page>`__ for information on the data entry and mandatory fields.
 
-    - ``load``
+    * ``load``
 
       By clicking on the load button, the user is directed to the `Claim Page <#claim-page>`__, where the current selected claim can be edited (provided it in the state **Entered**).
 
 
       The page will open with the current information loaded into the data entry fields. See the `Claim Page <#claim-page>`__ for information on the data entry and mandatory fields.
 
-    - ``submit``
+    * ``submit``
 
       By clicking on the submit button, claim status of all claims with claim status **Entered** and which have been selected to be submitted by checking the check box on right end of each record, will be submitted.
 
@@ -4396,7 +4399,7 @@ Claims Control Page
 
         `Image 141 - Submitted Claims details – Claims Control Page`
 
-    - ``delete``
+    * ``delete``
 
       By clicking on the delete button, the current selected claim will be deleted.
 
@@ -4409,7 +4412,7 @@ Claims Control Page
 
         `Image 142 - Delete confirmation – Claims Control Page`
 
-    - ``cancel``
+    * ``cancel``
 
       By clicking on the ``Cancel`` button, the user will be re-directed to the `Home Page <#image-2.2-home-page>`__.
 
@@ -4429,67 +4432,67 @@ Claim Page
       `Image 143 - Claim Page`
 
 
-    - ``HF Code``
+    * ``HF Code``
 
       Displays the code of the health facility. The field is read only (taken over from the `Claims Control Page) <#_Health_Facility_Claims>`__ and cannot be edited.
 
-    - ``HF Name``
+    * ``HF Name``
 
       Displays the name of the health facility. The field is read only (taken over from the `Claims Control Page <#_Health_Facility_Claims>`__) and cannot be edited.
 
-    - ``Insurance Number``
+    * ``Insurance Number``
 
       Enter the insurance number of the patient. When done entering this field, the corresponding name of the patient will be filled on the name of the patient (the text box which is read only field and is on the right side of the Insurance Number text field). Mandatory.
 
-    - ``Claim No.``
+    * ``Claim No.``
 
       Enter the identification of the claim. Mandatory, up to 8 characters. It should be unique within the claiming health facility.
 
-    - ``Main Dg.``
+    * ``Main Dg.``
 
       Select the code of the main diagnosis from the drop down list of diagnosis codes. Mandatory.
 
-    - ``Sec Dg 1``
+    * ``Sec Dg 1``
 
       Select the code of the first secondary diagnosis from the drop down list of diagnosis codes.
 
-    - ``Sec Dg 2``
+    * ``Sec Dg 2``
 
       Select the code of the second secondary diagnosis from the drop down  list of diagnosis codes.
 
-    - ``Sec Dg 3``
+    * ``Sec Dg 3``
 
       Select the code of the third secondary diagnosis from the drop down list of diagnosis codes.
 
-    - ``Sec Dg 4``
+    * ``Sec Dg 4``
 
       Select the code of the fourth secondary diagnosis from the drop down list of diagnosis codes.
 
-    - ``Claim Administrator``
+    * ``Claim Administrator``
 
       Displays code of the claim administrator. The field is read only (taken over from `the Claim Control Page <#_Health_Facility_Claims>`__) and cannot be edited.
 
-    - ``Visit Date From``
+    * ``Visit Date From``
 
       Enter the visit date for out-patient care or the admission date for in-patient care. Mandatory.
 
-    - ``Visit Date To``
+    * ``Visit Date To``
 
       Enter the discharge date for in-patient care.
 
-    - ``Date Claimed``
+    * ``Date Claimed``
 
       Enter the date when the claim was prepared by the health facility.
 
-    - ``Guarantee No.``
+    * ``Guarantee No.``
 
       Enter identification of a guarantee letter for prior approval of provision of claimed health care.
 
-    - ``Visit Type``
+    * ``Visit Type``
 
       Select the type of visit/hospital admission from the drop down list (**Emergency, Referral, Other**)
 
-    - ``Services``
+    * ``Services``
 
       1. ``service code``
 
@@ -4516,7 +4519,7 @@ Claim Page
 
         Enter extra information about the service for the scheme administration (a medical officer of the scheme administrator).
 
-    - ``Items``
+    * ``Items``
 
       1. ``item code``
 
@@ -4543,11 +4546,11 @@ Claim Page
 
         Enter extra information about the medical item for the scheme administration (a medical officer of the scheme administrator).
 
-    - ``claimed``
+    * ``claimed``
 
       This field is filled automatically with a new total of quantities multiplied to their corresponding values in both data input grids at any time when there is a change in values in the either quantity fields or value fields anywhere in both data input grids.
 
-    - ``explanation``
+    * ``explanation``
 
       Enter extra information about the whole claim for the scheme administration (medical officer).
 
@@ -4639,75 +4642,75 @@ Claims Overview Page
 
     The search panel allows a user to select specific criteria to minimise the search results. In the case of claims the following search options are available, which can be used alone, or in combination with each other.
 
-    - ``Region``
+    * ``Region``
 
       Select the ``Region``; where searched for health facility is located or where patients are permanently living from the list of regions by clicking on the arrow on the right of the selector to select claims from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected*
 
-    - ``District``
+    * ``District``
 
       Select the ``District``; where searched for health facility is located or where patients are permanently living from the list of districts by clicking on the arrow on the right of the selector to select claims from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*
 
-    - ``HF Code``
+    * ``HF Code``
 
       Select the ``HF Code``; from the list of health facilities codes by clicking on the arrow on the right of the selector to select claims from a specific health facility. *Note: The list will only be filled with the health facilities belonging to the selected district and assigned to the current logged in user.*
 
-    - ``HF Name``
+    * ``HF Name``
 
       Type in the beginning of; or the full ``HF Name``, to search for claims belonging to the health facility whose name start with or match completely the typed text.
 
-    - ``Claim Administrator``
+    * ``Claim Administrator``
 
       Select the ``claim administrator`` from the list of claim administrator codes by clicking on the arrow on the right of the selector, to select claims submitted by a specific claim administrator. *Note: The list will only be filled with the claim administrators belonging to the health facility selected.*
 
-    - ``Insurence Number``
+    * ``Insurence Number``
 
       Type in the beginning of; or the full ``Insurence Number``, to search for claims for patients with the insurance number which start with or match completely the typed text.
 
-    - ``Claim No.``
+    * ``Claim No.``
 
       Type in the beginning of; or the full ``Claim No.``, to search for claims with claim identification which start with or match completely the typed text.
 
-    - ``Review Status``
+    * ``Review Status``
 
       Select the ``Review Status`` from the list of the options for review status by clicking on the arrow on the right of the selector, to select claims with a specific review status.
 
-    - ``Feedback Status``
+    * ``Feedback Status``
 
       Select the ``Feedback Status`` from the list of the options for feedback status by clicking on the arrow on the right of the selector, to select claims with a specific feedback status.
 
-    - ``Claim Status``
+    * ``Claim Status``
 
       Select the ``Claim Status`` from the list of options for claim status by clicking on the arrow on the right of the selector, to select claims with a specific claim status.
 
-    - ``Main Dg``
+    * ``Main Dg``
 
       Select the ``Main Dg.`` from the list of diagnoses status by clicking on the arrow on the right of the selector, to select claims with main diagnosis.
 
-    - ``Batch Run``
+    * ``Batch Run``
 
       Select the ``Batch Run`` from the list of batch runs by clicking on the arrow on the right of the selector, to select claims included in a specific batch run.
 
-    - ``Visit Date From``
+    * ``Visit Date From``
 
       Type in a date; or use the Date Selector Button, to search for claims with a ``Visit Date From`` which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Visit Date To``
+    * ``Visit Date To``
 
       Type in a date; or use the Date Selector Button, to search for claims with a ``Visit Date To`` which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Claim Date From``
+    * ``Claim Date From``
 
       Type in a date; or use the Date Selector Button, to search for claims with a ``Claim Date From`` which is on or is greater than the  date typed/selected. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Claim Date To``
+    * ``Claim Date To``
 
       Type in a date; or use the Date Selector Button, to search for claims with a ``Claim Date To`` which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Visit Type``
+    * ``Visit Type``
 
       Select type of out-patient visit or in-patient admission from the list of types of visit to search for claims made on specific visit/admission type.
 
-    - ``Date Selector Button``
+    * ``Date Selector Button``
 
       Clicking on the Date Selector Button will pop-up an easy to use, calendar selector (:ref:`Image 152<image152>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
@@ -4736,7 +4739,7 @@ Claims Overview Page
 
         `Image 152 - Calendar Selector - Search Panel`
 
-    - ``Search Button``
+    * ``Search Button``
 
       Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel.
 
@@ -4744,23 +4747,23 @@ Claims Overview Page
 
     This panel is basically for functionality of updating multiple claims which are currently loaded in the Result Panel at once basing on the claim filter criteria available on this panel. The update on the claims is basically changing **Feedback Status** and **Review Status** of a claim from **Idle** to (**Not**) **Selected for Feedback** or (**Not**) **Selected for Review** respectively. The filters in this panel work on the claims which are currently loaded on the result panel. The combination of filters is either ``Select`` alone or ``Select`` and either ``Random`` or ``Value`` or ``Variance`` or combination of ``Value`` and ``Variance``.
 
-    - ``select``
+    * ``select``
 
       Is a selection dropdown box to select between **Review Select** and **Feedback Select** to filter only claims whose review status is **Idle** or feedback status is **Idle** respectively from among claims currently in the Result Panel.
 
-    - ``Random``
+    * ``Random``
 
       Accept a number which is considered to be a percentage of the claims in the Result Panel. Check the random checkbox and enter a number on the text field next to checkbox. The default is 5%.
 
-    - ``Value``
+    * ``Value``
 
       Accept a number which is considered to be claimed value. This will filter claims from the Result Panel by taking claims whose claimed value is equal or greater than the entered number in the Value text field. Check the value checkbox and enter a number on the text field next to checkbox. The default is 40000.
 
-    - ``variance``
+    * ``variance``
 
       Accept a number which is considered to be a percentage of the current claim value variance. Calculated by dividing the current claim value **(value)** and the average sum **(Average)** of the all claims in the previous year from the current claim date and with the same main diagnosis as that of the current claim, minus one **(1)** and finally multiply by hundred **(100)** to get the percentage variance. I.e **Percentage Variance = [(Value / Average) – 1] \* 100** Enter a number by checking the variance checkbox and enter a number on the text field next to checkbox. The default is 50%.
 
-    - ``Update button``
+    * ``Update button``
 
       Once desired criteria have been set and after clicking this button, then the claims currently displayed in the result panel which satisfy the criteria, will be updated of their **Idle** Review Status or Feedback Status to either (**Not**) **Selected for Review** or (**Not**) **Selected for Feedback** respectively.
 
@@ -4807,25 +4810,25 @@ Claims Overview Page
 
     With exception of the Cancel button, which re-directs to the `Claims Overview Page <#claims-overview-page>`__, the button panel is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record.
 
-    - ``review``
+    * ``review``
 
       Clicking on this button re-directs a user to the `Claim Review Page <#claim-review-page>`__, where a claim with review status **Selected for Review** can be reviewed and its current review status changed to **Reviewed.** If the claim is not in the status **Selected for Review** then the claim can be only loaded and shown to the user without any subsequent action.
 
 
       The page will open with the current information loaded into the data entry fields. See the `Claim Review Page <#claim-review-page>`__, for information on the data entry and mandatory fields.
 
-    - ``feedback``
+    * ``feedback``
 
       Clicking on this button re-directs a user to the `Claim Feedback Page <#claim-feedback-page>`__, where a claim with feedback status **Selected for Feedback** can be feed backed and its current feedback status changed to **Delivered**.
 
 
       The page will open with the current information loaded into the data entry fields. See the `Claim Feedback Page <\l>`__ for information on the data entry and mandatory fields.
 
-    - ``update``
+    * ``update``
 
       Clicking on this button, update the feedback status and review status of claims in the result panel from either **Idle** to **Not Selected** or **Selected for Feedback** or **Selected for Review** respectively or from **Not Selected** to **Selected for Feedback** or **Selected for Review** respectively.
 
-    - ``process``
+    * ``process``
 
       Clicking on this button changes the claim status **Checked** of all current selected claims in the Result Panel, selected by checking the checkbox on the right end of each record, to claim status **Processed**.
 
@@ -4844,7 +4847,7 @@ Claims Overview Page
 
         `Image 158 - Processed Claims details – Claims Overview Page`
 
-    - ``Cancel``
+    * ``Cancel``
 
       By clicking on the cancel button, the user will be re-directed to the `Claims Overview Page <#claims-overview-page>`__.
 
@@ -4869,91 +4872,91 @@ Claim Review Page
 
       Read-only information of the current claim includes the following:
 
-    - ``HF``
+    * ``HF``
 
       The health facility code and name which the claim belongs to.
 
-    - ``Main Dg.``
+    * ``Main Dg.``
 
       The code of the main diagnosis.
 
-    - ``Sec Dg1``
+    * ``Sec Dg1``
 
       The code of the first secondary diagnosis.
 
-    - ``Sec Dg2``
+    * ``Sec Dg2``
 
       The code of the second secondary diagnosis.
 
-    - ``Sec Dg3``
+    * ``Sec Dg3``
 
       The code of the third secondary diagnosis.
 
-    - ``Sec Dg4``
+    * ``Sec Dg4``
 
       The code of the fourth secondary diagnosis.
 
-    - ``Visit type``
+    * ``Visit type``
 
       The type of the visit or of the hospital stay (**Emergency, Referral, Other**)
 
-    - ``Date Processed``
+    * ``Date Processed``
 
       The date on which the claim was processed (sent to the state **Processed**).
 
-    - ``Claim Administrator``
+    * ``Claim Administrator``
 
       The administrator's code, who was responsible for submission of the current claim.
 
-    - ``Insurance Number``
+    * ``Insurance Number``
 
       The insurance number of the patient.
 
-    - ``Claim No.``
+    * ``Claim No.``
 
       The unique identification of the claim within the claiming health facility.
 
-    - ``Patient Name``
+    * ``Patient Name``
 
       The full name of the patient on whom the claim is made.
 
-    - ``Date Claimed``
+    * ``Date Claimed``
 
       The date on which the claim was prepared by the claiming health facility.
 
-    - ``Visits Date From``
+    * ``Visits Date From``
 
       The date on which the patient visited (or was admitted by) the health facility for treatment on which the claim is basing on.
 
-    - ``Visit Date To``
+    * ``Visit Date To``
 
       The date on which the patient was discharged from the health facility for treatment on which the claim is basing on.
 
-    - ``Guarantee No.``
+    * ``Guarantee No.``
 
       Identification of a guarantee letter.
 
-    - ``Claimed``
+    * ``Claimed``
 
       The sum of prices of all claimed services and items at the moment of submission of the claim.
 
-    - ``approved``
+    * ``approved``
 
       The value of the claim after automatic checking during its submission and after the corrections of the claim done by a medical officer.
 
-    - ``Adjusted``
+    * ``Adjusted``
 
       The value of the claim after automatic adjustments done according to the conditions of coverage by the patient’s policy.
 
-    - ``Explanation``
+    * ``Explanation``
 
       Explanation to the claim provided by the claiming health facility.
 
-    - ``claim status``
+    * ``claim status``
 
       Claim status is shown on the very bottom right end side after the two grids. This is status which claim gets after submission.
 
-    - ``rejection reason``
+    * ``rejection reason``
 
       The last column of each of the two grids, headed with character  '**R**', gives rejection reason number for each of the claimed services or claimed items in the claim services grid or the claim items grid respectively. Rejection reasons are as follows:
 
@@ -5021,7 +5024,7 @@ Claim Review Page
     |                                   | contacts exceeded                 |
     +-----------------------------------+-----------------------------------+
 
-    - ``Services and Items data entry grids.``
+    * ``Services and Items data entry grids.``
 
       1. ``Approved Quantity (app.qty)``
 
@@ -5039,7 +5042,7 @@ Claim Review Page
 
         Select either the status in the claim **Passed** or **Rejected** for the corresponding medical service or item respectively.
 
-    - ``Adjustment``
+    * ``Adjustment``
 
       Enter a text summarizing adjustments in claim done by a medical officer.
 
@@ -5073,85 +5076,85 @@ Claim Feedback Page
 
    Read-only data of the feedback includes in the section **Claim** the following:
 
-    - ``HF Code``
+    * ``HF Code``
 
       The health facility code which the claim belongs to.
 
-    - ``HF Name``
+    * ``HF Name``
 
       The health facility name which the claim belongs to
 
-    - ``Claim Administrator``
+    * ``Claim Administrator``
 
       The administrator's code, who was responsible for submission of the current claim.
 
-    - ``Insurance Number``
+    * ``Insurance Number``
 
       The insurance number of the patient.
 
-    - ``Claim No.``
+    * ``Claim No.``
 
       The unique identification of the claim within the claiming health facility.
 
-    - ``Last Name``
+    * ``Last Name``
 
       The last name of the patient on whom the claim is made.
 
-    - ``Other Names``
+    * ``Other Names``
 
       The other names of the patient on whom the claim is made.
 
-    - ``Date Claimed``
+    * ``Date Claimed``
 
       The date on which the claim was prepared by the claiming health facility.
 
-    - ``Visits Date From``
+    * ``Visits Date From``
 
       The date on which the patient visited (or was admitted by) the health facility for treatment on which the claim is basing on.
 
-    - ``Visit Date To``
+    * ``Visit Date To``
 
       The date on which the patient was discharged from the health facility for treatment on which the claim is basing on.
 
-    - ``Review Status``
+    * ``Review Status``
 
       The status of the claim with respect to reviewing.
 
-    - ``Feedback Status``
+    * ``Feedback Status``
 
       The status of the claim with respect to feed backing.
 
    Modifiable data of the feedback included in the section **Feedback** the following
 
-    - ``Enrolment Officer``
+    * ``Enrolment Officer``
 
       Select an enrolment officer from the list of enrolment officers, by clicking the arrow on the right side of selection field. The enrolment officer collects feedback from the patient.
 
-    - ``Care Rendered``
+    * ``Care Rendered``
 
       Select ‘Yes’ or ‘No’ from the list, by clicking the arrow on the right side of selection field.
 
-    - ``Payment Asked``
+    * ``Payment Asked``
 
       Select ‘Yes’ or ‘No’ from the list, by clicking the arrow on the right side of selection field.
 
-    - ``Drugs Prescribed``
+    * ``Drugs Prescribed``
 
       Select ‘Yes’ or ‘No’ from the list, by clicking the arrow on the right side of selection field.
 
-    - ``Drugs Received``
+    * ``Drugs Received``
 
       Select ‘Yes’ or ‘No’ from the list, by clicking the arrow on the right side of selection field
 
-    - ``Overall Assessment``
+    * ``Overall Assessment``
 
       Choose one level among the six levels available by checking/clicking on the desired checkbox.
 
-    - ``Feedback Date``
+    * ``Feedback Date``
 
       Type in a date of collection of the feedback; or use the date selector button, to enter date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the back space key.*
 
-    - ``Date Selector Button``
+    * ``Date Selector Button``
 
       Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 161<image161>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
@@ -5216,7 +5219,7 @@ Batch Run Control Page
   .. figure:: /img/user_manual/image134.png
     :align: center
 
-  `Image163 (Batch Run Control Page)`
+    `Image163 (Batch Run Control Page)`
 
   The Batch Run Control Page is the central point for batch processing administration. Access to the page is restricted to users with the role of Accountant. By having access to this page, it is possible to process batches, filter, and filter for accounts. The panel is divided into six sections (:ref:`Image 163<image163>`)
 
@@ -5224,23 +5227,23 @@ Batch Run Control Page
 
     The batch processing panel allows a user to process batches based on the following criteria:
 
-    - ``Region``
+    * ``Region``
 
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select a region. *Note: The list will only be filled with the regions assigned to the current logged in user and the option National.*
 
-    - ``District``
+    * ``District``
 
       Select the ``district``; from the list of districts by clicking on the arrow on the right of the selector to select a district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected. If no district is selected then the processing is done only for insurance product defined for the selected region.*
 
-    - ``Month``
+    * ``Month``
 
       Select the ``month``; from the list of months by clicking on the arrow on the right of the selector.
 
-    - ``Year``
+    * ``Year``
 
       Select the ``Year``; from the list of available years by clicking on the arrow on the right of the selector. Only periods for which a batch hasn’t been run yet are offered in both lists.
 
-    - ``process``
+    * ``process``
 
       Once criteria are chosen, clicking on this process button, will process based on the selected criteria. If the option **National** was used in the field ``Region`` the batch is run only for nationwide insurance products. If a region is selected in the field ``Region`` and no district is selected the batch is run only for regional insurance products for the selected region. If a district is selected in the field district the batch is run only for district insurance products for the selected district.
 
@@ -5248,35 +5251,35 @@ Batch Run Control Page
 
     The filter panel allows a user to filter results of running of batches (calculation of indexes for relative pricing) based on the following criteria:
 
-    - ``Type``
+    * ``Type``
 
       Select the ``Type``; from the list of time group types (**Monthly, Quarterly, Yearly**) by clicking on the arrow on the right of the selector.
 
-    - ``Year``
+    * ``Year``
 
       Select the ``Year``; from the list of available years by clicking on the arrow on the right of the selector.
 
-    - ``Period``
+    * ``Period``
 
       Select the ``Period``; from the list of months/quarters by clicking on the arrow on the right of the selector.
 
-    - ``Region``
+    * ``Region``
 
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select a region. *Note: The list will only be filled with the regions assigned to the current logged in user and the option National.*
 
-    - ``District``
+    * ``District``
 
       Select the District; from the list of districts by clicking on the arrow on the right of the selector to select a district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected*
 
-    - ``Product``
+    * ``Product``
 
       Select Product from the list of products by clicking on the arrow on the right of the selector.
 
-    - ``Category``
+    * ``Category``
 
       Select category of health care (**Hospital, Non-hospital, General**) from the list of categories of health care by clicking on the arrow on the right of the selector.
 
-    - ``Filter``
+    * ``Filter``
 
       Once criteria are chosen, clicking on this filter button will filter based on the selection criteria.
 
@@ -5295,15 +5298,15 @@ Batch Run Control Page
 
     The Filter for Accounts Panel is used in filtering of batch protocols for an accounting system based on the following criteria:
 
-    - ``Start Date``
+    * ``Start Date``
 
       Type in a date; or use the Date Selector Button to enter date which is equal or less than claim date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``End Date``
+    * ``End Date``
 
       Type in a date; or use the Date Selector Button to enter date which is equal or greater than claim date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Date Selector Button``
+    * ``Date Selector Button``
 
       Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 16<image16>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
@@ -5332,39 +5335,39 @@ Batch Run Control Page
 
           `Image 165 - Calendar Selector - Search Panel`
 
-    - ``Region``
+    * ``Region``
 
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select a region. *Note: The list will only be filled with the regions assigned to the current logged in user and the option National.*
 
-    - ``District``
+    * ``District``
 
       Select the ``district``; from the list of districts by clicking on the arrow on the right of the selector to select a district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the District will be automatically selected*
 
-    - ``HF``
+    * ``HF``
 
       Select a health facility from the list of health facilities codes and names clicking on the arrow on the right of the selector. *Note: The list will only be filled with the Health Facilities belonging to the Districts assigned to the current logged in user.*
 
-    - ``Product``
+    * ``Product``
 
       Select a product from the list of products by clicking on the arrow on the right of the selector. The list of products contains only nationwide insurance products if the option **National** is used in the field Region. It contains only regional insurance products for the selected region if no district is selected. It contains only district insurance products for the selected district.
 
-    - ``Level``
+    * ``Level``
 
       Select a level from the list of levels of health facilities by clicking on the arrow on the right of the selector.
 
-    - ``Group By``
+    * ``Group By``
 
       Select either grouping of the report by health facility (``HF``) or by product (``Product``) by checking either the health facility checkbox or product checkbox respectively.
 
-    - ``Show All``
+    * ``Show All``
 
       Check this checkbox, if you need to show all health facilities in the report although they have no claim included.
 
-    - ``Show Claims``
+    * ``Show Claims``
 
       Check this checkbox, if you need to show all claims in detailed way in the protocol.
 
-    - ``Preview``
+    * ``Preview``
 
       Once criteria are chosen, clicking on this preview button will create a protocol of the selected batch.
 
@@ -5372,7 +5375,7 @@ Batch Run Control Page
 
     This panel contains control button.
 
-    - ``Cancel``
+    * ``Cancel``
 
       By clicking on the cancel button, the user will be re-directed to the `Home Page <#image-2.2-home-page>`__.
 
@@ -5414,35 +5417,35 @@ Registers page
 
   A. Upload of the list of diagnoses
 
-    - ``Browse``
+    * ``Browse``
 
       Select from a file in the XML format serving as a source for uploading of the list of diagnoses. Mandatory.
 
-    - ``Strategy``
+    * ``Strategy``
 
       Select a desired strategy for uploading of the list of diagnoses. The following options are available:
 
-    - ``Insert Only``
+    * ``Insert Only``
 
       Uploads only diagnoses that are not yet included in the list of diagnoses
 
-    - ``Update Only``
+    * ``Update Only``
 
      Updates only diagnoses that are already included in the list of diagnoses
 
-    - ``Insert and Update``
+    * ``Insert and Update``
 
      Uploads diagnoses that are not yet included in the list of diagnoses and updates diagnoses that are already included in the list of diagnoses
 
-    - ``Insert, Update and Delete``
+    * ``Insert, Update and Delete``
 
      Uploads diagnoses that are not yet included in the list of diagnoses, updates diagnoses that are already included in the list of diagnoses and deletes diagnose that are not included in the source file
 
-    - ``Dry Run``
+    * ``Dry Run``
 
       If checked, only diagnostics is provided without real uploading.
 
-    - ``Upload``
+    * ``Upload``
 
       By clicking on the ``Upload`` button, a prompt popup message will appear, require a user to agree or disagree:(:ref:`image_upload_diagnoses`
        If user agrees the selected file containing diagnoses will be uploaded.
@@ -5488,31 +5491,31 @@ Registers page
 
   B. Upload of the register of locations
 
-    - ``Browse``
+    * ``Browse``
 
       Select from a file in the XML format serving as a source for uploading of the register of locations. Mandatory.
 
-    - ``Strategy``
+    * ``Strategy``
 
       Select a desired strategy for uploading of the register of locations. The following options are available:
 
-    - ``Insert Only``
+    * ``Insert Only``
 
       Uploads only locations that are not yet included in the register of locations
 
-    - ``Update Only``
+    * ``Update Only``
 
       Updates only locations that are already included in the register of locations
 
-    - ``Insert and Update``
+    * ``Insert and Update``
 
       Uploads locations that are not yet included in the register of locations and updates locations that are already included in the register of locations
 
-    - ``Dry Run``
+    * ``Dry Run``
 
       If checked only diagnostics is provided without real uploading.
 
-    - ``Upload``
+    * ``Upload``
 
       By clicking on the Upload button, a prompt popup message will appear, require a user to agree or disagree (:ref:`image_upload_locations`). If user agrees the selected file containing locations will be uploaded.
 
@@ -5602,31 +5605,31 @@ Registers page
 
   C. Upload of the register of health facilities
 
-    - ``Browse``
+    * ``Browse``
 
       Select from a file in the XML format serving as a source for uploading of the register of health facilities. Mandatory.
 
-    - ``Strategy``
+    * ``Strategy``
 
       Select a desired strategy for uploading of the register of health facilities. The following options are available:
 
-    - ``Insert Only``
+    * ``Insert Only``
 
       Uploads only health facilities that are not yet included in the register of health facilities
 
-    - ``Update Only``
+    * ``Update Only``
 
       Updates only health facilities that are already included in the register of health facilities
 
-    - ``Insert and Update``
+    * ``Insert and Update``
 
       Uploads health facilities that are not yet included in the register of health facilities and updates health facilities that are already included in the register of health facilities
 
-    - ``Dry Run``
+    * ``Dry Run``
 
       If checked only diagnostics is provided without real uploading.
 
-    - ``Upload``
+    * ``Upload``
 
       By clicking on the Upload button, a prompt popup message will appear, require a user to agree or disagree: (:ref:`image_upload_facilities`) If user agrees the selected file containing locations will be uploaded.
 
@@ -5703,7 +5706,7 @@ Registers page
 
   D. Download of the list diagnoses
 
-    - ``Download``
+    * ``Download``
 
       By clicking on the Download button, a prompt popup message will appear, require a user to specify whether the XML file with downloaded list of diagnoses should be opened or saved or canceled: (:ref:`image_download_diagnoses`)
 
@@ -5715,7 +5718,7 @@ Registers page
 
   E. Download of the register of locations
 
-    - ``Download``
+    * ``Download``
 
       By clicking on the Download button, a prompt popup message will appear, require a user to specify whether the XML file with downloaded register of locations should be opened or saved or canceled (:ref:`image_download_locations`)
 
@@ -5727,7 +5730,7 @@ Registers page
 
   F. Download of the register of health facilities
 
-    - ``Download``
+    * ``Download``
 
       By clicking on the Download button, a prompt popup message will appear, require a user to specify whether the XML file with downloaded  canceled (:ref:`image_download_facilities`)
 
@@ -5739,7 +5742,7 @@ Registers page
 
   G. Buttons
 
-  - ``Cancel``
+  * ``Cancel``
 
     By clicking on ``Cancel`` button, user will be re-directed to the Home
     page.
@@ -5788,45 +5791,45 @@ Policy Renewal Page
 
     If Preview option is selected then a user has the following filters.
 
-    - ``Policy Status``
+    * ``Policy Status``
 
       Select the policy status from the drop down list by clicking on the right arrow. By selecting any of the options a user can filter the report on particular status of the policy. This filter is not mandatory. User can leave it blank to preview the report on any status.
 
-    - ``Region``
+    * ``Region``
 
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select policies from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*
 
-    - ``District``
+    * ``District``
 
       Select the ``district``; from the list of districts by clicking on the arrow on the right of the selector to select policies from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*
 
-    - ``Municipality``
+    * ``Municipality``
 
       Select the ``Municipality``; from the list of municipalities by clicking on the arrow on the right of the selector to preview report from a specific district. *Note: The list will only be filled with the municipalities that belong to the selected district. If this is only one then the municipality will be automatically selected.*
 
-    - ``Village``
+    * ``Village``
 
       Select the ``village``; from the list of villages by clicking on the arrow on the right of the selector to preview report from a specific village. *Note: The list will only be filled with the villages that belong to the selected municipality.*
 
-    - ``Enrolment Officer``
+    * ``Enrolment Officer``
 
       Select the ``Enrolment Officer``; from the list of enrolment officers by clicking on the arrow on the right of the selector to preview the report for the specific officer. *Note: The list will only be filled with the enrolment officers belonging to the districts assigned to the current logged in user. If this is only one then the enrolment officer will be automatically selected.*
 
-    - ``Date From``
+    * ``Date From``
 
       By clicking on the button next to the ``Date From`` data field a calendar will pop up. Click on his desired date and the textbox will be filled with the selected date. This is a mandatory field. Only the policies for renewal date greater than or equal to the ``Date From`` will be previewed.
 
-    - ``Date To``
+    * ``Date To``
 
       By clicking on the button next to the ``Date To`` data field a calendar will pop up. Click on his desired date and the textbox will be filled with the selected date. This is a mandatory field. Only the policies for renewal date less than or equal to the ``Date To`` will be previewed.
 
       When previewing the journal; the ``Policy Status`` filter will be replaced with ``SMS Status`` and there will be one more additional filter, ``Journal On``.
 
-    - ``SMS Status``
+    * ``SMS Status``
 
       Select the ``SMS status`` from the drop down list by clicking on the right arrow. By selecting any of the options the user can filter the journal on a particular ``SMS status``. This filter is not mandatory. By leaving it blank all journals will be displayed.
 
-    - ``Journal On``
+    * ``Journal On``
 
       Select the ``journal On`` from the drop down *list* by clicking on the right arrow, to filter the journal either on prompt or on expiry of the prompt.
 
@@ -5895,49 +5898,49 @@ Navigation
 
     The Select Criteria Panel or the filter panel allows a user to select specific criteria for feedback.
 
-    - ``SMS Status``
+    * ``SMS Status``
 
       Select ``SMS Status`` from the list
 
-    - ``Region``
+    * ``Region``
 
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select a specific region for feedbacks. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*
 
-    - ``District``
+    * ``District``
 
       Select the ``district`` from the list of districts by clicking on the arrow on the right of the selector to select district for feedbacks. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the District will be automatically selected.*
 
-    - ``Municipality``
+    * ``Municipality``
 
       Select the ``Municipality`` from the list of municipalities you wish to prompt for feedbacks. *Note: The list will only be filled with the municipalities that belong to the selected district. If this is only one then the municipality will be automatically selected.*
 
-    - ``Village``
+    * ``Village``
 
       Select the ``village``; from the list of villages you wish to prompt for feedbacks. *Note: The list will only be filled with the villages that belong to the selected municipality.*
 
-    - ``Enrolment Officer``
+    * ``Enrolment Officer``
 
       Select the ``Enrolment Officer``; from the list of enrolment officers by clicking on the arrow on the right of the selector to preview the report for the specific officer. *Note: The list will only be filled with the enrolment officers belonging to the districts assigned to the current logged in user. If this is only one then the enrolment officer will be automatically selected.*
 
-    - ``Start Date``
+    * ``Start Date``
 
       Type in a date; or use the Date Selector Button, to enter the ``Start Date`` for feedbacks. *Mandatory. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``End Date``
+    * ``End Date``
 
       Type in a date; or use the Date Selector Button, to enter the ``End Date`` for feedbacks. *Mandatory*. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Send SMS``
+    * ``Send SMS``
 
       By Clicking ``Send SMS`` button, user actually sends an SMS. When an SMS is sent successfully as message will be given. If failed to be sent, a failure message will appear.
 
  #. **Buttons Panel**
 
-    - ``Preview``
+    * ``Preview``
 
       By clicking on the ``Preview`` button, a report (journal) of feedbacks prompted will get generated and displayed (:ref:`Image 176<image176>`).
 
-    - ``Cancel``
+    * ``Cancel``
 
       By clicking on ``Cancel`` button, user will be re-directed to `Home Page <#image-2.2-home-page>`__.
 
@@ -6014,11 +6017,11 @@ The Master Data section is used for generation of the data needed for off-line o
 
   By clicking the ``Create`` button in panel the section, a phone extract will be created. This process might take a while. As long as the hour glass (as a cursor) is shown, openIMIS is still processing the file. The file size depends on the amount of photographs included in the extract. The file size could range into hundreds of MBs. To alleviate this problem two options are available:
 
-    - ``With Insurees``
+    * ``With Insurees``
 
       Checking this box means that a complete phone extract (including photos) will be generated. Leaving it unchecked a shortened phone extract without photos will be generated.
 
-    - ``In background``
+    * ``In background``
 
       Checking this box means that the phone extract will be created in background and the user will be notified by e-mail (provided his/her e-mail is entered in the register of users).
 
@@ -6133,31 +6136,31 @@ The Master Data section is used for generation of the data needed for off-line o
 
   Four different types of extracts could be downloaded by clicking one of the following buttons:
 
-    - ``Download D`` (Differential extract)
+    * ``Download D`` (Differential extract)
 
       - Will download the selected differential extract with the following filename
 
         *Filename: OE_D_<DistrictID>_<Sequence>.RAR (e.g. OE_D_1_8.RAR)*
 
-    - ``Download F`` (Full extract)
+    * ``Download F`` (Full extract)
 
       - Will download the latest full extract with the following filename
 
         *Filename: OE_F_<DistrictID>_<Sequence>.RAR (e.g. OE_F_1_8.RAR)*
 
-    - ``Download E`` (Empty extract)
+    * ``Download E`` (Empty extract)
 
       - Will download the latest full extract with the following filename
 
         *Filename: OE_E_<DistrictID>_<Sequence>.RAR (e.g. OE_F_1_8.RAR)*
 
-    - ``Download Photos D`` (Differential Photo extract)
+    * ``Download Photos D`` (Differential Photo extract)
 
       - Will download the selected differential photo extract with filename:
 
         *Filename: OE_D_<DistrictID>_<Sequence>.RAR (e.g. OE_D_1_8_Photos.RAR)*
 
-    - ``Download Photos F`` (Full Photo extract)
+    * ``Download Photos F`` (Full Photo extract)
 
       - Will download the latest FULL photo extract with the following filename
 
@@ -6555,67 +6558,67 @@ Navigation
 
   The general meaning of selection criteria for creating of a report is as follows:
 
-    - ``Date From``
+    * ``Date From``
 
       Type in a date; or use the Date Selector Button, to enter the beginning of a period, in which policies have their enrolment, effective, expire or renewal days, contributions were paid or in claimed health care was provided. If used with a report, it is mandatory. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Date To``
+    * ``Date To``
 
       Type in a date; or use the Date Selector Button, to enter the end of a period, in which policies have their enrolment, effective, expire or renewal days or in which claimed health care was provided. If used with a report, it is mandatory. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    - ``Payment Type``
+    * ``Payment Type``
 
       Select the ``Payment Type`` from the drop down list by clicking on the right arrow. By selecting any of the options a user can filter the report on a particular type of the payment. This filter is not mandatory, leave it blank to preview the report on all the payment modes.
 
-    - ``Region``
+    * ``Region``
 
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select a region, data of which should be included for the report. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*
 
-    - ``District``
+    * ``District``
 
       Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select a district, data of which should be included for the report. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*
 
-    - ``Product``
+    * ``Product``
 
       Select the ``Product``; from the list of products by clicking on the arrow on the right of the selector to include in the report data for the specific product. *Note: The list will only be filled with the products belong to the districts assigned to the current logged in user. If this is only one then the product will be automatically selected.*
 
-    - ``Month``
+    * ``Month``
 
       Select the ``Month`` from the list of months by clicking on the arrow on the right of the selector to include in the report data relating to that month selected.
 
-    - ``Year``
+    * ``Year``
 
       Select the ``year`` from the list of years by clicking on the arrow on the right of the selector to include in the report data relating to that year selected.
 
-    - ``Quarter``
+    * ``Quarter``
 
       Select the ``quarter`` from the list of quarters by clicking on the arrow on the right of the selector to include in the report data relating to that quarter selected.
 
-    - ``HF Code``
+    * ``HF Code``
 
       Select the ``HF Code``; from the list of heath facility codes by clicking on the arrow on the right of the selector to create the report for the specific health facility. *Note: The list will only be filled with health facility codes of health facilities belonging to the districts assigned to the current logged in user. If this is only one then the health facility code will be automatically selected.*
 
-    - ``Enrolment Officer``
+    * ``Enrolment Officer``
 
       Select the enrolment officer; from the list of enrolment officers by clicking on the arrow on the right of the selector to select enrolment officer data of whom should be included in the report. *Note: The list will only be filled with the enrolment officers assigned to the current selected district. If this is no district selected the enrolment officers list will be filled by all districts' enrolment officers*
 
-    - ``Payer``
+    * ``Payer``
 
       Select the payer from the drop down list by clicking on the right arrow. By selecting any of the options a user can filter the report on a particular payer. This filter is not mandatory; leave it blank to preview the report on all the payers.
 
-    - ``Claim Status``
+    * ``Claim Status``
 
       Select the claim status from the drop down list by clicking on the right arrow. By selecting any of the options a user can filter the report on a particular claim status. This filter is not mandatory, leave it blank to preview the report on all the claim statuses.
 
-    - ``Sorting``
+    * ``Sorting``
 
       Select the way of sorting of records in the report from the list of available ways of sorting **(Renewal Date, Receipt Number, Enrolment Officer)**.
 
-    - ``Previous``
+    * ``Previous``
 
       Select the previous reports from the drop down list by clicking on the right arrow. By selecting any of the options a user can fetch a report which was produced before. *Note: This filter is available only for Matching Funds Report.*
 
-    - ``Date Selector Button``
+    * ``Date Selector Button``
 
       Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 223<image223>`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
@@ -6673,13 +6676,13 @@ Navigation
 
  #. **Button Panel**
 
-    - ``Preview button``
+    * ``Preview button``
 
       By clicking on this button, the system will process the selected report type basic on the corresponding criteria submitted and re-direct current user to `Report Page <#reports>`__, for previewing the processed report. At any time the user clicks on the preview button, the current criteria will be saved in the session and can be reused later in the same session and for other report types where the same criteria are found.
 
-    - ``Cancel button``
+    * ``Cancel button``
 
-        By clicking on this button, the current user will be re-directed to the `Home Page <#image-2.2-home-page>`__.
+      By clicking on this button, the current user will be re-directed to the `Home Page <#image-2.2-home-page>`__.
 
  #. **Information Panel**
 
@@ -6688,256 +6691,72 @@ Navigation
 Report Preview
 """"""""""""""
 
-  The report viewer offers the facility to navigate through the report either by using the arrows or by typing in a page number at the top of the report. Another feature of the report viewer is to export the report in different formats. Currently system supports three formats; Word, Excel and PDF. Select the desired format from the list by clicking on the Export link. Use the ``Go Back to Selector`` link to go back to the previous selection page.
+ The report viewer offers the facility to navigate through the report either by using the arrows or by typing in a page number at the top of the report. Another feature of the report viewer is to export the report in different formats. Currently system supports three formats; Word, Excel and PDF. Select the desired format from the list by clicking on the Export link. Use the ``Go Back to Selector`` link to go back to the previous selection page.
 
-  Below are the types of reports as they can be seen in the report page.
+ Below are the types of reports as they can be seen in the report page.
 
  #. **primary operational indicators  - policies report**
 
     The report provides aggregate data relating to policies and insurees according to insurance products. The report can be run by users with the role Manager. The table below will provide an overview on primary indicators of the report.
 
-    +-----------------+-----------------+-----------------+-----------------+
-    |     Code        |     Primary     |      Dimension  |     Description |
-    |                 |  indicators     |                 |                 |
-    +=================+=================+=================+=================+
-    |     P1          |     Number of   |     Time,       |     The number  |
-    |                 |     policies    |     Insurance   |     of policies |
-    |                 |                 |     product     |     of given    |
-    |                 |                 |                 |     insurance   |
-    |                 |                 |                 |     product on  |
-    |                 |                 |                 |     the last    |
-    |                 |                 |                 |     day of a    |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period      |
-    |                 |                 |                 |                 |
-    |                 |                 |                 |     (Status of  |
-    |                 |                 |                 |     the policy  |
-    |                 |                 |                 |     is Active,  |
-    |                 |                 |                 |     the last    |
-    |                 |                 |                 |     day of      |
-    |                 |                 |                 |     period is   |
-    |                 |                 |                 |     within      |
-    |                 |                 |                 |     <Effective  |
-    |                 |                 |                 |     date,       |
-    |                 |                 |                 |     Expiry day> |
-    |                 |                 |                 |     )           |
-    +-----------------+-----------------+-----------------+-----------------+
-    | P2              |     Number of   |     Time,       |     The number  |
-    |                 |     new         |     Insurance   |     of new      |
-    |                 |     policies    |     product     |     policies of |
-    |                 |                 |                 |     given       |
-    |                 |                 |                 |     insurance   |
-    |                 |                 |                 |     product     |
-    |                 |                 |                 |     during a    |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period      |
-    |                 |                 |                 |                 |
-    |                 |                 |                 |     (Enrolment  |
-    |                 |                 |                 |     date is     |
-    |                 |                 |                 |     within the  |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period,     |
-    |                 |                 |                 |     there is    |
-    |                 |                 |                 |     ``no``      |
-    |                 |                 |                 |     preceding   |
-    |                 |                 |                 |     policy with |
-    |                 |                 |                 |     the same    |
-    |                 |                 |                 |     (or before  |
-    |                 |                 |                 |     converted)  |
-    |                 |                 |                 |     insurance   |
-    |                 |                 |                 |     product for |
-    |                 |                 |                 |     given       |
-    |                 |                 |                 |     policy)     |
-    +-----------------+-----------------+-----------------+-----------------+
-    | P3              |     Number of   |     Time,       |     The number  |
-    |                 |     suspended   |     Insurance   |     of policies |
-    |                 |     policies    |     product     |     for given   |
-    |                 |                 |                 |     insurance   |
-    |                 |                 |                 |     product     |
-    |                 |                 |                 |     that were   |
-    |                 |                 |                 |     suspended   |
-    |                 |                 |                 |     during a    |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period      |
-    |                 |                 |                 |                 |
-    |                 |                 |                 |     (Status of  |
-    |                 |                 |                 |     the policy  |
-    |                 |                 |                 |     is          |
-    |                 |                 |                 |     Suspended,  |
-    |                 |                 |                 |     suspension  |
-    |                 |                 |                 |     took place  |
-    |                 |                 |                 |     within the  |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period)     |
-    +-----------------+-----------------+-----------------+-----------------+
-    | P4              |     Number of   |     Time,       |     The number  |
-    |                 |     expired     |     Insurance   |     of policies |
-    |                 |     policies    |     product     |     for given   |
-    |                 |                 |                 |     insurance   |
-    |                 |                 |                 |     product     |
-    |                 |                 |                 |     that        |
-    |                 |                 |                 |     expired     |
-    |                 |                 |                 |     during a    |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period      |
-    |                 |                 |                 |                 |
-    |                 |                 |                 |     (Status of  |
-    |                 |                 |                 |     the policy  |
-    |                 |                 |                 |     is Expired, |
-    |                 |                 |                 |     expiration  |
-    |                 |                 |                 |     took place  |
-    |                 |                 |                 |     within the  |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period)     |
-    +-----------------+-----------------+-----------------+-----------------+
-    | P5              |     Number of   |     Time,       |     The number  |
-    |                 |     renewals    |     Insurance   |     of policies |
-    |                 |                 |     product     |     that were   |
-    |                 |                 |                 |     renewed for |
-    |                 |                 |                 |     given       |
-    |                 |                 |                 |     insurance   |
-    |                 |                 |                 |     product (or |
-    |                 |                 |                 |     a converted |
-    |                 |                 |                 |     one) during |
-    |                 |                 |                 |     a           |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period      |
-    |                 |                 |                 |                 |
-    |                 |                 |                 |     ( Enrolment |
-    |                 |                 |                 |     date is     |
-    |                 |                 |                 |     within the  |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period,     |
-    |                 |                 |                 |     there is a  |
-    |                 |                 |                 |     preceding   |
-    |                 |                 |                 |     policy with |
-    |                 |                 |                 |     the same    |
-    |                 |                 |                 |     (or before  |
-    |                 |                 |                 |     converted)  |
-    |                 |                 |                 |     product for |
-    |                 |                 |                 |     given       |
-    |                 |                 |                 |     family) )   |
-    +-----------------+-----------------+-----------------+-----------------+
-    | P6              |     Number of   |     Time,       |     The number  |
-    |                 |     insurees    |     Insurance   |     of insurees |
-    |                 |                 |     product     |     covered by  |
-    |                 |                 |                 |     policies of |
-    |                 |                 |                 |     given       |
-    |                 |                 |                 |     insurance   |
-    |                 |                 |                 |     product on  |
-    |                 |                 |                 |     the last    |
-    |                 |                 |                 |     day of a    |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period      |
-    |                 |                 |                 |                 |
-    |                 |                 |                 |     (An insuree |
-    |                 |                 |                 |     belongs to  |
-    |                 |                 |                 |     a family    |
-    |                 |                 |                 |     with an     |
-    |                 |                 |                 |     active      |
-    |                 |                 |                 |     coverage on |
-    |                 |                 |                 |     the last    |
-    |                 |                 |                 |     day of the  |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period-see  |
-    |                 |                 |                 |     P1 )        |
-    +-----------------+-----------------+-----------------+-----------------+
-    | P7              |     Number of   |     Time,       |     The number  |
-    |                 |     newly       |     Insurance   |     of insurees |
-    |                 |     insured     |     product     |     covered by  |
-    |                 |     insurees    |                 |     new         |
-    |                 |                 |                 |     policies of |
-    |                 |                 |                 |     given       |
-    |                 |                 |                 |     insurance   |
-    |                 |                 |                 |     product     |
-    |                 |                 |                 |     during a    |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period      |
-    |                 |                 |                 |                 |
-    |                 |                 |                 |     (An insuree |
-    |                 |                 |                 |     belongs to  |
-    |                 |                 |                 |     a family    |
-    |                 |                 |                 |     with newly  |
-    |                 |                 |                 |     acquired    |
-    |                 |                 |                 |     policy      |
-    |                 |                 |                 |     during the  |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period-see  |
-    |                 |                 |                 |     P2 )        |
-    +-----------------+-----------------+-----------------+-----------------+
-    | P8              |     Newly       |     Time,       |     Amount of   |
-    |                 |     collected   |     Insurance   |     acquired    |
-    |                 |     Contributio |     product     |     Contributio |
-    |                 | ns              |                 | ns              |
-    |                 |                 |                 |     (for        |
-    |                 |                 |                 |     policies of |
-    |                 |                 |                 |     given       |
-    |                 |                 |                 |     insurance   |
-    |                 |                 |                 |     product)    |
-    |                 |                 |                 |     during a    |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period (    |
-    |                 |                 |                 |     Date of     |
-    |                 |                 |                 |     payment of  |
-    |                 |                 |                 |     a           |
-    |                 |                 |                 |     Contributio |
-    |                 |                 |                 | n               |
-    |                 |                 |                 |     is within   |
-    |                 |                 |                 |     the         |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period)     |
-    +-----------------+-----------------+-----------------+-----------------+
-    | P9              |     Available   |     Time,       |     Amount of   |
-    |                 |     Contributio |     Insurance   |     Contributio |
-    |                 | ns              |     product     | ns              |
-    |                 |                 |                 |     that should |
-    |                 |                 |                 |     be          |
-    |                 |                 |                 |     allocated   |
-    |                 |                 |                 |     for         |
-    |                 |                 |                 |     policies of |
-    |                 |                 |                 |     given       |
-    |                 |                 |                 |     insurance   |
-    |                 |                 |                 |     product for |
-    |                 |                 |                 |     a           |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period      |
-    |                 |                 |                 |     provided a  |
-    |                 |                 |                 |     uniform     |
-    |                 |                 |                 |     distributio |
-    |                 |                 |                 | n               |
-    |                 |                 |                 |     throughout  |
-    |                 |                 |                 |     the         |
-    |                 |                 |                 |     insurance   |
-    |                 |                 |                 |     period      |
-    |                 |                 |                 |     takes       |
-    |                 |                 |                 |     place.      |
-    |                 |                 |                 |                 |
-    |                 |                 |                 |     (If the     |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period      |
-    |                 |                 |                 |     overlaps    |
-    |                 |                 |                 |     with        |
-    |                 |                 |                 |     <Effective  |
-    |                 |                 |                 |     date,       |
-    |                 |                 |                 |     Expiry day> |
-    |                 |                 |                 |     of a policy |
-    |                 |                 |                 |     then a      |
-    |                 |                 |                 |     proportiona |
-    |                 |                 |                 | l               |
-    |                 |                 |                 |     part of     |
-    |                 |                 |                 |     correspondi |
-    |                 |                 |                 | ng              |
-    |                 |                 |                 |     Contributio |
-    |                 |                 |                 | ns              |
-    |                 |                 |                 |     relating to |
-    |                 |                 |                 |     the         |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period is   |
-    |                 |                 |                 |     included in |
-    |                 |                 |                 |     available   |
-    |                 |                 |                 |     Contributio |
-    |                 |                 |                 | ns)             |
-    +-----------------+-----------------+-----------------+-----------------+
+    .. list-table:: Table  Overview of Policies indicators
+        :widths: 1 2 3 7
+        :header-rows: 1
+        :stub-columns: 1
+        :class: longtable
+
+        * - **Code**
+          - **Primary indicators**
+          - **Dimension**
+          - **Description**
+
+        * - P1
+          - Number of policies
+          - Time, Insurance product
+          - The number of policies of given insurance product on the last day of a respective period (Status of the policy is Active, the last day of period is within <Effective date, Expiry day>)
+
+        * - P2
+          - Number of new policies
+          - Time, Insurance product
+          - The number of new policies of given insurance product during a respective period (Enrolment date is within the respective period, there is ``no`` preceding policy with the same (or before converted) insurance product forgiven policy)
+
+        * - P3
+          - Number of suspended policies
+          - Time, Insurance product
+          - The number of policies for given insurance product that were suspended during a respective period (Status of the policy is Suspended, suspension took place within the respective period)
+
+        * - P4
+          - Number of expired policies
+          - Time, Insurance product
+          - The number of policies for given insurance product that expired during a respective period (Status of the policy is Expired,expiration took place within the respective period)
+
+        * - P5
+          - Number of renewals
+          - Time, Insurance product
+          - The number of policies that were renewed forgiven insurance product (or a converte done) during a respective period ( Enrolment date is within the respective period, there is a preceding policy with the same (or before converted) product forgiven
+
+        * - P6
+          - Number of insurees
+          - Time, Insurance product
+          - The number of insurees covered by policies of given insurance product on the last day of a respective period (An insuree belongs to a family with an active coverage on the last day of the respective period-see P1 )
+
+        * - P7
+          - Number of newly insured insurees
+          - Time, Insurance product
+          - The number of insurees covered by new policies of given insurance product during a respective period (An insuree belongs to a family with newly acquired policy during the respective period-see P2 )
+
+        * - P8
+          - Newly collected Contributions
+          - Time, Insurance product
+          - Amount of acquired Contributions (for policies of given insurance product) during a respective period ( Date of payment of a Contribution is within the respective period)
+
+        * - P9
+          - Available Contributions
+          - Time, Insurance product
+          - Amount of Contributions that should be allocated for policies of given insurance product for a respective period provided a uniform distribution throughout the insurance period takes place. (If the respective period overlaps with <Effective date, Expiry day> of a policy then a proportional part of corresponding Contributions relating to the respective period is included in available Contributions)
+
+
+
 
     Below is an example of the report:
 
@@ -6951,73 +6770,32 @@ Report Preview
 
     The report provides aggregate data relating to policies and insurees according to insurance products. The report can be run by users with the role Manager. The table below will provide an overview on primary indicators of the report.
 
-    +-----------------+-----------------+-----------------+-----------------+
-    |       Code      |       Primary   |     Dimension   |     Description |
-    |                 |     indicators  |                 |                 |
-    |                 |                 |                 |                 |
-    +=================+=================+=================+=================+
-    | P10             |     Number of   |     Time,       |     The number  |
-    |                 |     claims      |     Health      |     of claims   |
-    |                 |                 |     facility,   |     for given   |
-    |                 |                 |     Insurance   |     insurance   |
-    |                 |                 |     product     |     product     |
-    |                 |                 |                 |     that        |
-    |                 |                 |                 |     emerged     |
-    |                 |                 |                 |     during a    |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period      |
-    |                 |                 |                 |                 |
-    |                 |                 |                 |     (Start date |
-    |                 |                 |                 |     of a claim  |
-    |                 |                 |                 |     is within   |
-    |                 |                 |                 |     the         |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period)     |
-    +-----------------+-----------------+-----------------+-----------------+
-    | P11             |     Amount      |     Time,       |     Amount      |
-    |                 |     remunerated |     Health      |     remunerated |
-    |                 |                 |     facility,   |     for claims  |
-    |                 |                 |     Insurance   |     for given   |
-    |                 |                 |     product     |     insurance   |
-    |                 |                 |                 |     product     |
-    |                 |                 |                 |     that        |
-    |                 |                 |                 |     emerged     |
-    |                 |                 |                 |     during a    |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period      |
-    |                 |                 |                 |                 |
-    |                 |                 |                 |     (Start date |
-    |                 |                 |                 |     of a claim  |
-    |                 |                 |                 |     is within   |
-    |                 |                 |                 |     the         |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period)     |
-    +-----------------+-----------------+-----------------+-----------------+
-    | P12             |     Number of   |     Time,       |     The number  |
-    |                 |     rejected    |     Health      |     of claims   |
-    |                 |     claims      |     facility,   |     for given   |
-    |                 |                 |     Insurance   |     insurance   |
-    |                 |                 |     product     |     product     |
-    |                 |                 |                 |     that        |
-    |                 |                 |                 |     emerged     |
-    |                 |                 |                 |     during a    |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period and  |
-    |                 |                 |                 |     were        |
-    |                 |                 |                 |     rejected    |
-    |                 |                 |                 |                 |
-    |                 |                 |                 |     (Start date |
-    |                 |                 |                 |     of a claim  |
-    |                 |                 |                 |     is within   |
-    |                 |                 |                 |     the         |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period and  |
-    |                 |                 |                 |     the Status  |
-    |                 |                 |                 |     approval of |
-    |                 |                 |                 |     the claim   |
-    |                 |                 |                 |     is Rejected |
-    |                 |                 |                 |     )           |
-    +-----------------+-----------------+-----------------+-----------------+
+    .. list-table:: Table Overview of operational indicators
+        :widths: 1 2 3 7
+        :header-rows: 1
+        :stub-columns: 1
+        :class: longtable
+  
+        * - **Code** 
+          - **Primary indicators** 
+          - **Dimension** 
+          - **Description**
+
+        * - P10 
+          - Number of claims 
+          - Time, Health facility, Insurance product 
+          - The number of claims for given insurance product that emerged during a respective period (Start dateof a claim is within the respective period) 
+
+        * - P11 
+          - Amount remunerated
+          - Time, Health facility, Insurance product 
+          - Amount remuneratedfor claims for given insurance product that emerged during a respective period (Start dateof a claim is within the respective period) 
+
+        * - P12 
+          - Number of rejected claims 
+          - Time, Health facility, Insurance product 
+          - The number of claims for given insurance product that emerged during a respective period and were rejected (Start dateof a claim is within the respective period and the Status approval ofthe claim is Rejected) 
+
 
     Below is an example of the report:
 
@@ -7031,99 +6809,61 @@ Report Preview
 
     The report provides operational indicators derived from primary operational indicators. The report can be run by users with the role Manager. The table below will provide an overview on the actual derived indicators provided by the report.
 
+    .. list-table:: Table Overview of derived operational indicators
+        :widths: 1 2 3 7
+        :header-rows: 1
+        :stub-columns: 1
+        :class: longtable
 
-    +-----------------+-----------------+-----------------+-----------------+
-    |     Code        |     Derived     |     Dimension   |     Description |
-    |                 |     indicators  |                 |                 |
-    +=================+=================+=================+=================+
-    | D1              | Incurred claims |     Time,       |     It is the   |
-    |                 | ratio           |     Insurance   |     ratio       |
-    |                 |                 |     product     |     P11/P9      |
-    +-----------------+-----------------+-----------------+-----------------+
-    | D2              |     Renewal     |     Time,       |     It is the   |
-    |                 |     ratio       |     Insurance   |     ratio P5/P4 |
-    |                 |                 |     product     |                 |
-    +-----------------+-----------------+-----------------+-----------------+
-    | D3              |     Growth      |     Time,       |     It is the   |
-    |                 |     ratio       |     Insurance   |     ratio       |
-    |                 |                 |     product     |     P2/P1-for   |
-    |                 |                 |                 |     immediately |
-    |                 |                 |                 |     preceding   |
-    |                 |                 |                 |     period      |
-    +-----------------+-----------------+-----------------+-----------------+
-    | D4              |     Promptness  |     Time,       |     It is the   |
-    |                 |     of claims   |     Insurance   |     average     |
-    |                 |     settlement  |     product     |     (date of    |
-    |                 |                 |                 |     sending to  |
-    |                 |                 |                 |     payment-    |
-    |                 |                 |                 |     Date        |
-    |                 |                 |                 |     of          |
-    |                 |                 |                 |     submission  |
-    |                 |                 |                 |     of the      |
-    |                 |                 |                 |     claim) for  |
-    |                 |                 |                 |     all claims  |
-    |                 |                 |                 |     relating to |
-    |                 |                 |                 |     given       |
-    |                 |                 |                 |     insurance   |
-    |                 |                 |                 |     product and |
-    |                 |                 |                 |     emerging in |
-    |                 |                 |                 |     a           |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period      |
-    |                 |                 |                 |                 |
-    |                 |                 |                 |     Date of     |
-    |                 |                 |                 |     sending of  |
-    |                 |                 |                 |     payment is  |
-    |                 |                 |                 |     not in the  |
-    |                 |                 |                 |     structure   |
-    |                 |                 |                 |     of Claim,   |
-    |                 |                 |                 |     it has to   |
-    |                 |                 |                 |     be          |
-    |                 |                 |                 |     retrieved   |
-    |                 |                 |                 |     from a      |
-    |                 |                 |                 |     journal-can |
-    |                 |                 |                 |     be?)        |
-    +-----------------+-----------------+-----------------+-----------------+
-    | D5              |     Claims      |     Time,       |     It is the   |
-    |                 |     settlement  |     Health      |     ratio (P10- |
-    |                 |     ratio       |     facility,   |     P12)/P10    |
-    |                 |                 |     Insurance   |                 |
-    |                 |                 |     product     |                 |
-    +-----------------+-----------------+-----------------+-----------------+
-    | D6              |     Number of   |     Time,       |     It is the   |
-    |                 |     claims per  |     Insurance   |     ratio       |
-    |                 |     insuree     |     product     |     P10/P6      |
-    +-----------------+-----------------+-----------------+-----------------+
-    | D7              |     Average     |     Time,       |     It is the   |
-    |                 |     cost per    |     Health      |     ratio       |
-    |                 |     claim       |     facility,   |     P11/P10     |
-    |                 |                 |     Insurance   |                 |
-    |                 |                 |     product     |                 |
-    +-----------------+-----------------+-----------------+-----------------+
-    | D8              |     Satisfaction|     Time,       |     The average |
-    |                 |     level       |     District,   |     mark from   |
-    |                 |                 |     Health      |     feedbacks   |
-    |                 |                 |     facility    |     received in |
-    |                 |                 |                 |     a           |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period      |
-    +-----------------+-----------------+-----------------+-----------------+
-    | D9              |     Feedback    |     Time,       |     The ratio   |
-    |                 |     response    |     District,   |     of number   |
-    |                 |     ratio       |     Health      |     of          |
-    |                 |                 |     facility    |     feedbacks   |
-    |                 |                 |                 |     received    |
-    |                 |                 |                 |     (up to time |
-    |                 |                 |                 |     of creation |
-    |                 |                 |                 |     of the      |
-    |                 |                 |                 |     report) and |
-    |                 |                 |                 |     number of   |
-    |                 |                 |                 |     feedbacks   |
-    |                 |                 |                 |     asked for   |
-    |                 |                 |                 |     in a        |
-    |                 |                 |                 |     respective  |
-    |                 |                 |                 |     period      |
-    +-----------------+-----------------+-----------------+-----------------+
+        * - **Code**
+          - **Derived**
+          - **Dimension**
+          - **Description**
+
+        * - D1
+          - Incurred claims ratio
+          - Time, Insurance product
+          - It is the ratio P11/P9
+
+        * - D2
+          - Renewal ratio
+          - Time, Insurance product
+          - It is the ratio P5/P4
+
+        * - D3
+          - Growth ratio
+          - Time, Insurance product
+          - It is the ratio P2/P1-for immediately preceding period
+
+        * - D4
+          - Promptness of claims settlement
+          - Time, Insurance product
+          - It is the average (date of sending to payment- Date of submission of the claim) for all claims relating to given insurance product and emerging in a respective period Date of sending of payment is not in the structure of Claim, it has to be retrieved from a journal-can be?)
+
+        * - D5
+          - Claims settlement ratio
+          - Time, Health facility, Insurance product
+          - It is the ratio (P10-P12)/P10
+
+        * - D6
+          - Number of claims per insuree
+          - Time, Insurance product
+          - It is the ratio P10/P6
+
+        * - D7
+          - Average cost per claim
+          - Time, Health facility, Insurance product
+          - It is the ratio P11/P10
+
+        * - D8
+          - Satisfaction level
+          - TimeDistrict, Health facility
+          - The average mark from feedbacks received in a respective period
+
+        * - D9
+          - Feedback response ratio
+          - Time, District, Health facility
+          - The ratio of number of feedbacks received (up to time of creation of the report) and number of feedbacks asked for in a respective period
 
     Below is an example of the report:
 
@@ -7388,31 +7128,31 @@ Funding Page
       `Image 248 - Funding Page`
 
 
-    - ``Region``
+    * ``Region``
 
       Select the region from the list of regions for which the funding is designated by clicking on the arrow on the right of the selector. *Note: The list will only be filled with the regions assigned to the current logged in user.*
 
-    - ``District``
+    * ``District``
 
       Select the district from the list of districts for which the funding is designated. by clicking on the arrow on the right of the selector. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user.*
 
-    - ``Product``
+    * ``Product``
 
       Select an insurance product from the list of insurance products purchased in the selected district (including national insurance products) for which the funding is designated.
 
-    - ``Payer``
+    * ``Payer``
 
       Select from the list of institutional payers the funding authority/agency.
 
-    - ``Payment Date``
+    * ``Payment Date``
 
       Enter the date of receiving of the funding.
 
-    - ``Contribution Paid``
+    * ``Contribution Paid``
 
       Enter the amount of the funding.
 
-    - ``Receipt Number``
+    * ``Receipt Number``
 
         Enter an identification of the document accompanying the funding.
 
@@ -7461,19 +7201,19 @@ Email settings page
       `Image 277 - Email settings Page`
 
 
-    - ``Email``
+    * ``Email``
 
       SMTP Login to be used on the email server in order to send email
 
-    - ``Password``
+    * ``Password``
 
       SMTP password to be used on the email server in order to send email.
 
-    - ``SMTP Host``
+    * ``SMTP Host``
 
       SMTP email server address or IP
 
-    - ``Port``
+    * ``Port``
 
       SMTP email server IP port, standard port are
 
@@ -7483,7 +7223,7 @@ Email settings page
 
         * 587 when explicit encryption is used, see ``Enable SSL``
 
-    - ``Enable SSL``
+    * ``Enable SSL``
 
         Check to box if the SMTP mail server require encryption
 
@@ -7516,15 +7256,15 @@ Change Password Page
 
       `Image 250 - Change Password Page`
 
-    - ``Current Password``
+    * ``Current Password``
 
       Enter the password of the current user.
 
-    - ``New Password``
+    * ``New Password``
 
       Enter a new password of the current user. The password should have at least 8 alphanumeric characters with at least one digit.
 
-    - ``Confirm Password``
+    * ``Confirm Password``
 
       Repeat the new password of the current user.
 
@@ -7583,7 +7323,7 @@ OFFLINE FACILITIES
       .. figure:: /img/user_manual/image221.png
         :align: center
 
-      `Image 254 - Information Bar - Health Facility, openIMIS offline`
+        `Image 254 - Information Bar - Health Facility, openIMIS offline`
 
  #. **Menu Access**
 
@@ -7591,7 +7331,7 @@ OFFLINE FACILITIES
 
     User with roles HF Administrator and Offline Scheme Administrator can access only ``Users``, ``IMIS Extracts`` and ``Utilities`` menus, while all other users with different roles can access menus just as they would do in the online openIMIS version.
 
-    - ``Extracts``
+    * ``Extracts``
 
       Extracts Menu leads an offline user to Extracts control panel. Using this panel, an offline user with rights to this panel can import data from online openIMIS to the local offline IMIS, and can also download claims and enrolments prior to upload them to the online IMIS. This panel is divided into five sections (:ref:`Image 255<image255>`), (:ref:`Image 256<image256>`) If an offline user is HF Administrator, section C will contain facility to ``Download Claims``. If an offline user is Offline Scheme Administrator, section C will contain facility to ``Download Enrolments``
 
@@ -7607,7 +7347,7 @@ OFFLINE FACILITIES
 
         `Image 256 - Extracts Control Page, Offline Scheme Administrator, openIMIS offline`
 
-    - ``section a - import extract``
+    * ``section a - import extract``
 
       This section has a facility to enable synchronization of online openIMIS data with that offline openIMIS data. When online data in a zipped file is obtained (downloaded extraction) from online openIMIS to user local computer, user will use this section to put that data into offline IMIS.
 
@@ -7642,7 +7382,7 @@ OFFLINE FACILITIES
 
         `Image 260 - Popup Window, Wrong sequence of an extract file, openIMIS offline`
 
-    - ``section b - import photos``
+    * ``section b - import photos``
 
       Just as the section name implies, this is a section with facility to enable a user synchronize insurees’ photos in online IMIS, with insurees’ photos in offline IMIS. When online insurees’ photos in a zipped file is obtained from online openIMIS to user local computer, user will use this section to put those photos into offline IMIS.
 
@@ -7665,11 +7405,11 @@ OFFLINE FACILITIES
 
       If importation of photo is not done due to some reason, the above popup message will not be shown, instead system will issue proper popup message to notify a user what went wrong and what is to be done.
 
-    - ``section c - download claim xmls``
+    * ``section c - download claim xmls``
 
       This section has facility to enable offline HF Administrator download to a zipped file all offline claims. By clicking the download button on the right hand side, the user initiate download process and all offline claims will be downloaded to a default downloads folder in user's local computer or a prompt of 'where to save file' will be displayed by browser'. User can navigate through folder in his/her local computer to find the file downloaded. If no new claims found, a message will be displayed.
 
-    - ``download enrolment xmls``
+    * ``download enrolment xmls``
 
       This section has facility to enable Offline Scheme Administrator download to a zipped file all offline enrollments of families, insurees, policies and contributions. By clicking the download button on the right hand side, the user initiate download process. If no enrolment found, a popup message box (:ref:`Image 262<image262>`) will appear, notifying the user. Otherwise enrollments will be downloaded in a zipped file and a confirmation popup message (:ref:`Image 264<image264>`) will appear
 
@@ -7685,11 +7425,11 @@ OFFLINE FACILITIES
 
         `Image 264 - Popup Window, Download Enrolments, openIMIS offline`
 
-    - ``section d - buttons``
+    * ``section d - buttons``
 
       This section has a cancel button, which when clicked will take the current user to the Home page.
 
-    - ``section e - information bar``
+    * ``section e - information bar``
 
       Information bar at the bottom will show different notification messages in blue color depending on the actions of the user. Such actions and messages may be:
 
