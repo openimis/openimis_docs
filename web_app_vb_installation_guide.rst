@@ -102,6 +102,7 @@ be given full control of the following folders:
 Repeat the following steps for each folder listed above:
 
 - Right click on the folder and select properties
+- Ensure that the folder is not read only
 - Select the Security tab
 - Click on Edit
 - Select IIS_IUSRS and allow full control (in the below section).
