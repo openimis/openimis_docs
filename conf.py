@@ -127,7 +127,6 @@ latex_elements = {
     # 'fncychap': '\\usepackage[Lenny]{fncychap}',
     'fontpkg': '\\usepackage{amsmath,amsfonts,amssymb,amsthm}',
 
-    'figure_align':'htbp',
     # The font size ('10pt', '11pt' or '12pt').
     #
     'pointsize': '10pt',
