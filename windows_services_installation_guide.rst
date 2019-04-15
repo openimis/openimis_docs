@@ -23,7 +23,7 @@ To configure the Policy Renewal service, right click on the service controller
   - Server: TPH-L14005\\SQLEXPRESS (server instance name)
   - Database: IMIS (IMIS database name)
   - User Name: ImisUser
-  - Password: ●●●●●●●●●●●●●●●●●●●●
+  - Password: **************
   - Time : 00:00
   - Interval: 24
   - Click on Apply. This will run a backup daily at midnight.
