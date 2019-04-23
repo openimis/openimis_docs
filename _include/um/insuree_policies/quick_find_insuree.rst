@@ -14,14 +14,31 @@ This functionality is available to users will all roles. The function Insuree En
   The Information includes the following:
 
     - The photo of the insuree
+
     - The name, date of birth and gender of the insuree
+
     - The (insurance) product code, product name and expiry date of a policy
+
     - The status (I for Idle, A for Active, S for Suspended and E for Expired) of the policy at the time of inquiring
+
     - The deductible amount remaining for the insuree to pay before the policy is claimable, for hospitals and non-hospitals
+
     - The ceiling amount claimable by a health facility on behalf of the insuree for both hospitals and non-hospitals.
 
-  .. _image88:
-  .. figure:: /img/user_manual/image70.png
+    - Age of the insuree
+
+    - First Service Point (FSP) of the insuree
+
+      - Region of FSP
+
+      - District of FSP
+
+      - Level of FSP
+
+
+
+  .. _insuree_card_img:
+  .. figure:: /img/user_manual/insuree_enquiry.png
     :align: center
 
-    `Image 88 - Insuree Enquiry Results`
+    `Image - Insuree Enquiry Results`

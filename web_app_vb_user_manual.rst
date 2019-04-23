@@ -2393,7 +2393,7 @@ Claim Administrators Control Page
 
     * ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 70<image70>`).
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image Insuree Enquiry Results <insuree_card_img>`).
 
     .. _image70:
     .. figure:: /img/user_manual/image57.png
