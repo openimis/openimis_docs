@@ -18,6 +18,7 @@ Users and logins
 
 .. include:: /_include/um/user_login/user_role.rst
 .. include:: /_include/um/user_login/login.rst
+.. include:: /_include/um/user_login/forgotten_password.rst
 .. include:: /_include/um/user_login/password_change.rst
 
 Administration of registers
