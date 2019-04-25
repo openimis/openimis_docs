@@ -15,7 +15,6 @@ Web application user manual
 Users’ roles and rights
 -----------------------
 
-
   .. list-table:: Table 9.1 Overview of Scheme administrator & district Staff roles
       :widths: 2 6 4
       :header-rows: 1
@@ -25,7 +24,6 @@ Users’ roles and rights
       * - **Role**
         - **Responsibilities**
         - **Available functionality**
-
 
       * - Enrolment Officer
         - He/she enrols insurees and submits enrolment forms to a health insurance administration; handles policy modifications; collects feedback from scheme patients and submits to the health insurance administration.
@@ -105,7 +103,6 @@ Users’ roles and rights
         - Off-line HealthFacility administration
         - | * Creation of clerk
           | * Creation of offline Extract
-
 
 Login Access
 ------------
@@ -355,7 +352,6 @@ Product Page
 
         `Image 11 - Calendar Selector - Search Panel`
 
-
     * ``Conversion``
 
       Select from the list of products, a reference to the product which replaces the current product in case of renewal after the ``Date to``. `Note: Selecting the current product will prevent the record from saving, and cause a message to be displayed in the Information Panel.`
@@ -432,71 +428,57 @@ Product Page
 
         `Image 12 - Medical Services - Product`
 
-
     * ``Code``
 
       Displays the code for the medical service
-
 
     * ``Name``
 
       Displays the name of the medical service
 
-
     * ``Type``
 
       Displays the type of the medical service\
-
 
     * ``Level``
 
       Displays the level of the medical service
 
-
     * ``Limit``
 
       Indicates the type of limitation of coverage for the medical service. This may be adjusted per medical service, select between Co-Insurance [C] and Fixed amount [F]. Co-insurance means coverage of a specific percentage of the price of the medical service by policies of the insurance product. Fixed amount means coverage up the specified limit. C is the default value. Limit O is used for claims having the type of visit Other, Limit R is used for claims having the type of visit Referral and Limit E is used for claims having the type of visit Emergency.
-
 
     * ``Origin``
 
       Indicates where the price for remuneration of the service comes from. This may be adjusted per service, the options are: [P] Price taken from the price list of a claiming health facility, [O] Price taken from a claim and [R] Relative price, the nominal value of which is taken from the price list and the actual value of which is determined backwards according to available funds and volume of claimed services and medical items in a period. [R] is the default value.
 
-
     * ``Adult``
 
       Indicates the limitation for adults. If the type of limitation is a co-insurance then the value is the percentage of the price covered by policies of the insurance product for adults. If the type of limitation is a fixed limit the value is an amount up to which price of the service is covered for adults by policies of the insurance product. Default is 100%. Adult O is for Other, Adult R is for Referral and Adult E is for Emergency claims according to the type of visit (Visit Type).
-
 
     * ``Child``
 
       Indicates the limitation for children. If the type of limitation is a co-insurance then the value is the percentage of the price covered for children by policies of the insurance product. If the type of limitation is a fixed limit the value is an amount up to which price of the service is covered for children by policies of the insurance product. Default is 100%. Child O is for Other, Child R is for Referral and Child E is for Emergency claims according to the type of visit (Visit Type).
 
-
     * ``No Adult``
 
       It indicates the maximal number of provisions of the medical service during the insurance period for an adult.
-
 
     * ``No Child``
 
       It indicates the maximal number of provisions of the medical service during the insurance period for an child.
 
-
     * ``Waiting Period Adult``
 
       Indicates waiting period in months (after the effective date of a policy) for an adult.
-
 
     * ``Waiting Period Child``
 
       Indicates waiting period in months (after the effective date of a policy) for a child.
 
-
     * ``Ceiling Adult``
 
       It indicates whether the medical service is excluded from comparison against ceilings defined in the insurance product for adults. Default is that the medical service is not excluded from comparisons with ceilings. [H] means exclusion only for provision of in-patient care, [N] means exclusion only for out-patient care and [B] means exclusion both for in-patient and out-patient care.
-
 
     * ``Ceiling Child``
 
@@ -514,76 +496,61 @@ Product Page
 
         `Image 13 - Medical Items - Product`
 
-
     * ``Code``
 
       Displays the code for the medical item
-
 
     * ``Name``
 
       Displays the name of the medical item
 
-
     * ``Type``
 
       Displays the type of the medical item
-
 
     * ``Package``
 
       Displays the packaging of the medical Item
 
-
     * ``Limit``
 
       Indicates the type of limitation of coverage for the medical item. This may be adjusted per medical item, select between Co-Insurance [C] and Fixed amount [F]. Co-insurance means coverage of a specific percentage of the price of the medical item by policies of the insurance product. Fixed amount means coverage up the specified limit. C is the default value. Limit O is used for claims having the type of visit Other, Limit R is used for claims having the type of visit Referral and Limit E is used for claims having the type of visit Emergency.
-
 
     * ``Origin``
 
       It indicates where the price for remuneration of the item, comes from: This may be adjusted per medical item, the options are: [P] Price taken from the price list of a claiming health facility, [O] Price taken from a claim and [R] Relative price, the nominal value of which is taken from the price list and the actual value of which is determined backwards according to available funds and the volume of claimed services and medical items in a period. [R] is the default value.
 
-
     * ``Adult``
 
       It indicates the limitation for adults. If the type of limitation is a co-insurance then the value is the percentage of the price covered for adults by policies of the insurance product. If the type of limitation is a fixed limit the value is an amount up to which price of the item is covered for adults by policies of the insurance product. Default is 100%. Adult O is for Other, Adult R is for Referral and Adult E is for Emergency claims according to the type of visit (Visit Type).
-
 
     * ``Child``
 
       It indicates the limitation for children. If the type of limitation is a co-insurance then the value is the percentage of the price covered for children by policies of the insurance product. If the type of limitation is a fixed limit the value is an amount up to which price of the service is covered for children by policies of the insurance product. Default is 100%. Child O is for Other, Child R is for Referral and Child E is for Emergency claims according to the type of visit (Visit Type).
 
-
     * ``No Adult``
 
       It indicates the maximal number of provisions of the medical item during the insurance period for an adult.
-
 
     * ``No Child``
 
       It indicates the maximal number of provisions of the medical item during the insurance period for a child.
 
-
     * ``Waiting Period Adult``
 
       It indicates waiting period in months (after the effective date of a policy) for an adult.
-
 
     * ``Waiting Period Child``
 
       It indicates waiting period in months (after effective date of a policy) for a child.
 
-
     * ``Ceiling Adult``
 
       It indicates whether the medical item is excluded from comparison against ceilings defined for adults in the insurance product. The default is that the medical item is not excluded from comparisons with ceilings. [H] means exclusion only for provision of in-patient care, [N] means exclusion only for out-patient care and [B] means exclusion both for in-patient and out-patient care.
 
-
     * ``Ceiling Child``
 
       It indicates whether the medical item is excluded from comparison against ceilings defined for children in the insurance product. The default is that the medical item is not excluded from comparisons with ceilings. [H] means exclusion only for provision of in-patient care, [N] means exclusion only for out-patient care and [B] means exclusion both for in-patient and out-patient care.
-
 
     * ``Account Code Remuneration``
 
@@ -966,7 +933,6 @@ Health Facility Page
       :align: center
 
       `Image 20 - Health Facility Page`
-
 
     * ``Code``
 
@@ -1356,7 +1322,6 @@ Medical Item Page
 
       `Image 34 - Medical Item Page`
 
-
     * ``Code``
 
       Enter the code for the medical item. Mandatory, 6 characters.
@@ -1564,7 +1529,6 @@ Price List Medical Services Page
 
         `Image 42 - Price List Medical Service Page`
 
-
     * ``Name``
 
       Enter the name for the price list of medical services. Mandatory, 100 characters maximum.
@@ -1763,7 +1727,6 @@ Price List Medical Item Page
 
       `Image 50 - Price List Medical Item Page`
 
-
     * ``Name``
 
       Enter the name for the price list of medical items. Mandatory, 100 characters maximum.
@@ -1960,7 +1923,6 @@ User Control Page
       :align: center
 
       `Image 57 - User Page`
-
 
     * ``Language``
 
@@ -2431,7 +2393,7 @@ Claim Administrators Control Page
 
     * ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 70<image70>`).
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image Insuree Enquiry Results <insuree_card_img>`).
 
     .. _image70:
     .. figure:: /img/user_manual/image57.png
@@ -2664,7 +2626,6 @@ Payer Page
 
       `Image 80 - Payer Page`
 
-
     * ``Type``
 
       Select the type of the payer from the list by clicking on the arrow on the right hand side of the lookup. Mandatory.
@@ -2851,1362 +2812,12 @@ Moving a District, Municipality, Village
 Insurees and Policies
 ---------------------
 
-Insuree Enquiry
-^^^^^^^^^^^^^^^^
-
-  This functionality is available to users will all roles. The function Insuree Enquiry can be accessed at any time, after login. On the top right hand of the main menu, there is a search feature, allowing the user to enter an Insurance Number for a “quick enquiry”.
-
-  .. _image87:
-  .. figure:: /img/user_manual/image69.png
-    :align: center
-
-    `Image 87 - Insuree Enquiry Field`
-
-  By typing in a valid insurance­­­­­­­ number and pressing the enter key or clicking on the green search button, a pop-up will appear (:ref:`Image 87<image87>`), providing a photo of the insuree and information about the current policy or policies covering of the insuree.
-
-  The Information includes the following:
-
-    - The photo of the insuree
-    - The name, date of birth and gender of the insuree
-    - The (insurance) product code, product name and expiry date of a policy
-    - The status (I for Idle, A for Active, S for Suspended and E for Expired) of the policy at the time of inquiring
-    - The deductible amount remaining for the insuree to pay before the policy is claimable, for hospitals and non-hospitals
-    - The ceiling amount claimable by a health facility on behalf of the insuree for both hospitals and non-hospitals.
-
-  .. _image88:
-  .. figure:: /img/user_manual/image70.png
-    :align: center
-
-    `Image 88 - Insuree Enquiry Results`
-
-Find Family
-^^^^^^^^^^^
-
-  Access to the ``Find Family Page`` is restricted to users with the role of Accountant, Clerk and Health Facility Receptionist.
-
-Pre-conditions
-""""""""""""""
-
-  Need to enquire on, or edit a family and/or insurees, policies and contributions associated.
-
-Navigation
-""""""""""
-
-  Find Family can be found under the main menu ``Insurees and Policies`` sub menu ``Families/Groups``
-
-  .. _image89:
-  .. figure:: /img/user_manual/image71.png
-    :align: center
-
-    `Image 89 - Navigation – Families - Find Family`
-
-  Clicking on the sub menu ``Families/Groups`` re-directs the current user to the `Find Family Page <#find-family-page>`__\.
-
-  .. _image90:
-  .. figure:: /img/user_manual/image72.png
-    :align: center
-
-    `Image 90 - Find Families`
-
-  The Find Family Page is the first step in the process of finding of a family and thereafter accessing the `Family Overview Page <#family-overview>`__ of insurees, policies and contributions. This initial page can be used to search for specific families or groups based on specific criteria. The page is divided into four panels (:ref:`Image 90<image90>`):
-
- #. **Search Panel**
-
-    The search panel allows a user to select specific criteria to minimise the search results. The following search options are available which can be used alone or in combination with each other.
-
-    * ``Last Name``
-
-      Type in the beginning of; or the full ``Last name``; to search for families/groups, who’s family head/group head ``Last name``, starts with or matches completely, the typed text.
-
-    * ``Other Names``
-
-      Type in the beginning of; or the full ``Other Names`` to search for families/groups, who’s family head/group head ``Other Names`` starts with or matches completely, the typed text.
-
-    * ``Insurance Number``
-
-      Type in the beginning of; or the full ``Insurance Number`` to search for families/groups, who’s family head/group head ``Insurance Number``, starts with or matches completely, the typed text.
-
-    * ``Phone Number``
-
-      Type in the beginning of; or the full ``Phone Number`` to search for families/groups, who’s family head/group head ``Phone Number``, starts with or matches completely, the typed number.
-
-    * ``Birth Date From``
-
-      Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for families/groups, who’s family head/group head, has the same or later birth date than ``Birth Date From``. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
-
-    * ``Birth Date To``
-
-      Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for families/groups, who’s family head/group head, has the same or earlier birth date than ``Birth Date To``. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
-
-    * ``Date Selector Button``
-
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 91<image91>`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
-
-        - At anytime during the use of the pop-up, the user can see the date of **today**.
-        - Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
-        - Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box.
-        - Clicking on the arrow to the left displays the previous month.
-        - Clicking on the arrow on the right will displays the following month.
-        - Clicking on the month will display all the months for the year.
-        - Clicking on the year will display a year selector.
-
-      .. _image91:
-      .. |logo24| image:: /img/user_manual/image6.png
-        :scale: 100%
-        :align: middle
-      .. |logo25| image:: /img/user_manual/image7.png
-        :scale: 100%
-        :align: middle
-      .. |logo26| image:: /img/user_manual/image8.png
-        :scale: 100%
-        :align: middle
-
-      +----------++----------++----------+
-      | |logo24| || |logo25| || |logo26| |
-      +----------++----------++----------+
-
-        `Image 91 - Calendar Selector - Search Panel`
-
-    * ``Gender``
-
-      Select the ``Gender``; from the list of gender by clicking on the arrow on the right of the selector, to select families/groups, who’s family head/group head is of the specific gender.
-
-    * ``Poverty Status``
-
-      Select the ``Poverty Status``; from the list of has poverty status by clicking on the arrow on the right of the selector, to select families/groups that have a specific poverty status.
-
-    * ``Email``
-
-      Type in the beginning of; or the full ``Email`` to search for families/groups, who’s family head/group head ``Email`` starts with or matches completely the typed text.
-
-    * ``Confirmation Type``
-
-      Type in the beginning of; or the full ``Confirmation Type`` to search for families/groups, who’s ``Confirmation Type``. starts with or matches completely the typed text.
-
-    * ``Confirmation No.``
-
-      Type in the beginning of; or the full ``Confirmation No.`` to search for families/groups, who’s ``Confirmation No.`` starts with or matches completely the typed text.
-
-    * ``Region``
-
-      Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select families/groups from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*
-
-    * ``District``
-
-      Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select families/groups from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*
-
-    * ``Municipality``
-
-      Select the ``Municipality``; from the list of municipalities by clicking on the arrow on the right of the selector to select families/groups from a specific municipality. *Note: The list will only be filled with the municipalities in the selected district above.*
-
-
-      Select the ``Village``; from the list of villages by clicking on the arrow on the right of the selector to select families/groups from a specific village. *Note: The list will only be filled with the villages in the selected municipality above.*
-
-    * ``Historical``
-
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 92<image92>`).
-
-      .. _image92:
-      .. figure:: /img/user_manual/image73.png
-        :align: center
-
-        `Image 92 - Historical records - Result Panel`
-
-    * ``Search Button``
-
-      Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel.
-
- #. **Result Panel**
-
-    .. _image93:
-    .. figure:: /img/user_manual/image74.png
-      :align: center
-
-      `Image 93 - Selected record (blue), hovered records (yellow) - Result Panel`
-
-    The Result Panel displays a list of all families/groups found, matching the selected criteria in the Search Panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 93<image93>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Family Overview Page <#family-overview>`__ for the Family selected or if it is an historical record then the `Change Family Page <#family-group-page>`__, for detailed viewing.
-
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 94<image94>`)
-
-    .. _image94:
-    .. figure:: /img/user_manual/image11.png
-      :align: center
-
-      `Image 94 - Page selector- Result Panel`
-
- #. **Button Panel**
-
-    The ``Cancel`` button re-directs to the `Home Page <#image-2.2-home-page>`__.
-
- #. **Information Panel**
-
-    The Information Panel is used to display messages back to the user. Messages will occur once a family/group has been added, updated or deleted or if there was an error at any time during the process of these actions.
-
-Find Insuree
-^^^^^^^^^^^^
-
-  Access to the Find Insuree Page is restricted to users with the role of Accountant, Clerk and Health Facility Receptionist.
-
-Pre-conditions
-""""""""""""""
-
-  Need to enquire on, or edit an insuree, and the family/group, policies and contributions associated.
-
-Navigation
-""""""""""
-
-  All functionality for use with the administration of insurees can be found under the main menu ``Insurees and Policies``, sub menu ``Insurees``.
-
-  .. _image95:
-  .. figure:: /img/user_manual/image75.png
-    :align: center
-
-    `Image 95 - Navigation Insurees`
-
-  Clicking on the sub menu ``Insurees`` re-directs the current user to the Find Insuree Page.
-
-Find Insuree Page
-"""""""""""""""""
-
-  .. _image96:
-  .. figure:: /img/user_manual/image76.png
-    :align: center
-
-    `Image 96 - Find Insuree Page`
-
-  The ``Find Insuree Page`` is the first step in the process of finding an insuree and thereafter accessing the family/group overview of insurees, policies and contributions. This initial page can be used to search for specific Insurees or groups of insurees based on specific criteria. The panel is divided into four panels (:ref:`Image 96<image96>`)
-
- #. **Search Panel**
-
-    The Search Panel allows a user to select specific criteria to minimise the search results. In the case of insurees the following search options are available, which can be used alone or in combination with each other.
-
-    * ``Last Name``
-
-      Type in the beginning of; or the full ``Last name``; to search for insurees with a ``Last name``, which starts with or matches completely, the typed text.
-
-    * ``Other Names``
-
-      Type in the beginning of; or the full ``Other Names`` to search for insurees with ``Other Names`` which starts with or matches completely, the typed text.
-
-    * ``Insurance Number``
-
-      Type in the beginning of; or the full ``Insurance Number`` to search for insurees with the ``Insurance Number``, which starts with or matches completely, the typed text.
-
-    * ``Marital Status``
-
-      Select the ``Marital Status``; from the list of marital status by clicking on the arrow on the right of the selector, to select insurees of a specific marital status.
-
-    * ``Phone Number``
-
-      Type in the beginning of; or the full ``Phone Number`` to search for insurees with a ``Phone Number``, which starts with or matches completely, the typed number.
-
-    * ``Birth Date From``
-
-      Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for insurees who have the same or later birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
-
-    * ``Birth Date To``
-
-      Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for insurees who have the same or earlier birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
-
-    * ``Date Selector Button``
-
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 97<image97>`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
-
-        - At anytime during the use of the pop-up, the user can see the date of **today**.
-        - Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
-        - Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box.
-        - Clicking on the arrow to the left displays the previous month.
-        - Clicking on the arrow on the right will displays the following month.
-        - Clicking on the month will display all the months for the year.
-        - Clicking on the year will display a year selector.
-
-      .. _image97:
-      .. |logo27| image:: /img/user_manual/image6.png
-        :scale: 100%
-        :align: middle
-      .. |logo28| image:: /img/user_manual/image7.png
-        :scale: 100%
-        :align: middle
-      .. |logo29| image:: /img/user_manual/image8.png
-        :scale: 100%
-        :align: middle
-
-      +----------++----------++----------+
-      | |logo27| || |logo28| || |logo29| |
-      +----------++----------++----------+
-
-        `Image 97 - Calendar Selector - Search Panel`
-
-    * ``Gender``
-
-      Select the ``Gender``; from the list of genders by clicking on the arrow on the right of the selector, to select insurees of a specific gender.
-
-    * ``Region``
-
-      Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select insurees from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*
-
-    * ``District``
-
-      Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select insurees from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*
-
-    * ``Municipality``
-
-      Select the ``Municipality``; from the list of wards by clicking on the arrow on the right of the selector to select insurees from a specific municipality. *Note: The list will only be filled with the wards in the selected district above.*
-
-    * ``Village``
-
-      Select the ``Village``; from the list of villages by clicking on the arrow on the right of the selector to select insurees from a specific village. *Note: The list will only be filled with the villages in the selected municipality above.*
-
-    * ``Photo Assigned``
-
-      Select whether all insurees are searched [**All**] or only insurees with a photo assigned [**Yes**] or only insurees with no photo assigned [**No**].
-
-    * ``Historical``
-
-      Click on Historical to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 98<image98>`)
-
-      .. _image98:
-      .. figure:: /img/user_manual/image77.png
-        :align: center
-
-        `Image 98 - Historical records - Result Panel`
-
-    * ``Search Button``
-
-      Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel.
-
- #. **Result Panel**
-
-    The result panel displays a list of all Insurees found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 99<image99>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Family Overview Page <#family-overview-page.>`__ of the insuree’s family, or the `Insuree Page <#insuree-page>`__ if it is a historical record for viewing purposes.
-
-    .. _image99:
-    .. figure:: /img/user_manual/image78.png
-      :align: center
-
-      `Image 99 - Selected record (blue), hovered records (yellow) - Result Panel`
-
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 100<image100>`)
-
-    .. _image100:
-    .. figure:: /img/user_manual/image11.png
-      :align: center
-
-      `Image 100 - Page selector- Result Panel`
-
- #. **Button Panel**
-
-    The ``Cancel`` button re-directs to the ``Home Page``.
-
- #. **Information Panel**
-
-    The Information Panel is used to display messages back to the user. Messages will occur once a insuree has been added, updated or deleted or if there was an error at any time during the process of these actions.
-
-Find Policy
-^^^^^^^^^^^^
-
-  Access to the ``Find Policy Page`` is restricted to users with the role of Accountant, Clerk or Health Facility Receptionist.
-
-Pre-conditions
-""""""""""""""
-
-  Need to enquire on, or edit a policy, and the family/group, insurees and contributions associated.
-
-Navigation
-""""""""""
-
-  Find Policy Page can be found under the main menu ``Insurees and Policies``, sub menu ``Policies``.
-
-  .. _image101:
-  .. figure:: /img/user_manual/image79.png
-    :align: center
-
-    `Image 101 - Navigation Policies`
-
-  Clicking on the sub menu ``Policies`` re-directs the current user to the ``find policy page.``
-
-Find Policy Page
-""""""""""""""""
-
-  .. _image102:
-  .. figure:: /img/user_manual/image80.png
-    :align: center
-
-    `Image 102 - Find Policy Page`
-
-  The ``Find Policy Page`` is the first step in the process of finding a policy and thereafter accessing the `Family Overview Page <#family-overview-page.>`__ of insurees, policies and contributions. This initial page can be used to search for specific policies or groups of policies based on specific criteria. The panel is divided into four panels (:ref:`Image 102<image102>`)
-
- #. **Search Panel**
-
-    The Search Panel allows a user to select specific criteria to minimise the search results. In the case of policies the following search options are available which can be used alone or in combination with each other.
-
-    * ``Enrolment Date From``
-
-      Type in a date; or use the Date Selector Button, to enter the ``Enrolment Date From`` to search for policies with an ``Enrolment Date`` equal or later than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
-
-    * ``Enrolment Date To``
-
-      Type in a date; or use the Date Selector Button, to enter the ``Enrolment Date to`` to search for policies with an ``Enrolment Date`` equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
-
-    * ``Effective Date From``
-
-      Type in a date; or use the Date Selector Button, to enter the ``Effective Date From`` to search for policies with an ``Effective Date`` equal or later than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
-
-    * ``Effective Date To``
-
-      Type in a date; or use the Date Selector Button, to enter the ^^Effective Date To'' to search for policies with an ^^Effective Date^^ equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
-
-    * ``Start Date From``
-
-      Type in a date; or use the Date Selector Button, to enter the ``Start Date From`` to search for policies with a ``Start Date`` equal or later than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
-
-    * ``Start Date To``
-
-      Type in a date; or use the Date Selector Button, to enter the ``Start Date to`` to search for policies with a ``Start Date`` equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
-
-    * ``Expiry Date From``
-
-      Type in a date; or use the Date Selector Button, to enter the ``Expiry Date From`` to search for policies with an ``Expiry Date`` equal or later then the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
-
-    * ``Date Selector Button``
-
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 103<image103>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
-
-        - At anytime during the use of the pop-up, the user can see the date of **today**.
-        - Clicking on **today** will close the pop-up and display the today’s date in the corresponding date entry box.
-        - Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box.
-        - Clicking on the arrow to the left displays the previous month.
-        - Clicking on the arrow on the right will displays the following month.
-        - Clicking on the month will display all the months for the year.
-        - Clicking on the year will display a year selector.
-
-      .. _image103:
-      .. |logo30| image:: /img/user_manual/image6.png
-        :scale: 100%
-        :align: middle
-      .. |logo31| image:: /img/user_manual/image7.png
-        :scale: 100%
-        :align: middle
-      .. |logo32| image:: /img/user_manual/image8.png
-        :scale: 100%
-        :align: middle
-
-      +----------++----------++----------+
-      | |logo30| || |logo31| || |logo32| |
-      +----------++----------++----------+
-
-        `Image 103 - Calendar Selector - Search Panel`
-
-    * ``Enrolment Officer``
-
-      Select the ``Enrolment Officer``; from the list of enrolment officers by clicking on the arrow on the right of the selector, to select policies related to a specific enrolment officer.
-
-    * ``Product``
-
-      Select the ``Product``; from the list of products by clicking on the arrow on the right of the selector, to select policies for a specific product.
-
-    * ``Policy Status``
-
-      Select the ``Policy Status``; from the list of policy statuses by clicking on the arrow on the right of the selector, to select policies for a specific policy status.
-
-      A policy can have the following statuses:
-
-        - **Idle** (Policy data entered but policy not yet activated)
-        - **Active** (Policy partially or fully paid and made active)
-        - **Suspended** (Policy was not fully paid for within the grace period)
-        - **Expired** (Policy is not active anymore as the insurance period elapsed)
-
-    * ``Balance``
-
-      Types in a positive ``Balance`` to search for policies with a balance equal or greater than the typed amount. For example if 0 (zero) is entered, all policies with a balance, will be displayed. If 1,000 is entered, then only policies with a balance equal to or greater than 1,000 will be displayed.
-
-      The balance is the difference between the policy value and total of contributions paid. For the policy
-
-    * ``Region``
-
-      Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select policies from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*
-
-    * ``District``
-
-      Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select policies for families/groups residing in a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*
-
-    * ``Policy Type``
-
-      Select whether new policies [New Policy] or renewed policies [Renewal] should be searched for.
-
-    * ``Inactive Insurees``
-
-      Check the box to select only policies for families/groups with insurees which are non-active (not covered) despite the policy of their family/group is active. The reason may be addition of a new insuree (member) to the family/group with an active policy without adequate payment of additional contributions or because the maximum number of members in the family/group exceeds the maximum number determined by the insurance product of the policy.
-
-    * ``Historical``
-
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 104<image104>`)
-
-      .. _image104:
-      .. figure:: /img/user_manual/image81.png
-        :align: center
-
-        `Image 104 - Historical records - Result Panel`
-
-    * ``Search button``
-
-      Once the criteria have been entered, use the ``Search`` button to filter the records, the results will appear in the Result Panel.
-
- #. **Result Panel**
-
-    The Result Panel displays a list of all policies found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 105<image105>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
-
-    .. _image105:
-    .. figure:: /img/user_manual/image82.png
-      :align: center
-
-      `Image 105 - Selected record (blue), hovered records (yellow) - Result Panel`
-
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 106<image106>`)
-
-    .. _image106:
-    .. figure:: /img/user_manual/image11.png
-      :align: center
-
-      `Image 106 - Page selector- Result Panel`
-
- #. **Button Panel**
-
-    The ``Cancel`` button re-directs to the `Home Page <#image-2.2-home-page>`__.
-
- #. **Information Panel**
-
-    The Information Panel is used to display messages back to the user. Messages will occur once a policy has been added, updated or deleted or if there was an error at any time during the process of these actions.
-
-Find Contribution
-^^^^^^^^^^^^^^^^^
-
-  Access to the Find Contribution Page is restricted to users with the role of Accountant or Clerk.
-
-Pre-conditions
-""""""""""""""
-
-  Need to enquire on, or edit a contribution, or the family/group, insurees and policies associated.
-
-Navigation
-""""""""""
-
-  Find Contribution can be found under the main menu ``Insurees and Policies``, sub menu ``Contributions``
-
-  .. _image107:
-  .. figure:: /img/user_manual/image83.png
-    :align: center
-
-    `Image 107 - Navigation Contributions`
-
-  Clicking on the sub menu ``Contributions`` re-directs the current user to the `Find Contribution Page <#_Image_4.22_(Find>`__\.
-
-Find Contribution Page
-""""""""""""""""""""""
-
-  .. _image108:
-  .. figure:: /img/user_manual/image84.png
-    :align: center
-
-    `Image - 108 Find Contribution Page`
-
-  The ``Find Contribution Page`` is the first step in the process of finding a contribution and thereafter accessing the `Family Overview Page <#family-overview>`__ of insures, policies and contributions. This initial page can be used to search for specific contributions or groups of contributions based on specific criteria. The page is divided into four panels (:ref:`Image 108<image108>`).
-
- #. **Search Panel**
-
-    The Search Panel allows a user to select specific criteria to minimise the search results. In the case of contributions the following search options are available which can be used alone or in combination with each other.
-
-    * ``Payer``
-
-      Select the ``Payer``; from the list of payers by clicking on the arrow on the right of the selector, to select contributions related to a specific payer.
-
-    * ``Payment Type``
-
-      Select the ``Payment Type``; from the list of types by clicking on the arrow on the right of the selector, to select contributions related to a specific payment type.
-
-    * ``Payment Date From``
-
-      Type in a date; or use the Date Selector Button, to enter the ``Payment Date From`` to search for contributions with a ``Payment Date`` equal or later than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
-
-    * ``Payment Date To``
-
-      Type in a date; or use the Date Selector Button, to enter the ``Payment Date To`` to search for contributions with a ``Payment Date`` equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
-
-    * ``Date Selector Button``
-
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 109<image109>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
-
-        - At anytime during the use of the pop-up, the user can see the date of **today**.
-        - Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
-        - Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box.
-        - Clicking on the arrow to the left displays the previous month.
-        - Clicking on the arrow on the right will displays the following month.
-        - Clicking on the month will display all the months for the year.
-        - Clicking on the year will display a year selector.
-
-      .. _image109:
-      .. |logo33| image:: /img/user_manual/image6.png
-        :scale: 100%
-        :align: middle
-      .. |logo34| image:: /img/user_manual/image7.png
-        :scale: 100%
-        :align: middle
-      .. |logo35| image:: /img/user_manual/image8.png
-        :scale: 100%
-        :align: middle
-
-      +----------++----------++----------+
-      | |logo33| || |logo34| || |logo35| |
-      +----------++----------++----------+
-
-        `Image 109 - Calendar Selector - Search Panel`
-
-    * ``Contribution Paid``
-
-      Type in the ``Contribution Paid`` to search for contributions with the paid amount, greater or equal to the typed amount.
-
-    * ``Region``
-
-      Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select contributions for policies from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*
-
-    * ``District``
-
-      Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select contributions paid for policies from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*
-
-    * ``Historical``
-
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 110<image110>`).
-
-      .. _image110:
-      .. figure:: /img/user_manual/image85.png
-        :align: center
-
-        `Image 110 - Historical records - Result Panel`
-
-    * ``Search Button``
-
-      Once the criteria have been entered, use the ``Search`` button to filter the records, the results will appear in the Result Panel.
-
- #. **Result Panel**
-
-    The result panel displays a list of all contributions found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 111<image111>`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
-
-    .. _image111:
-    .. figure:: /img/user_manual/image86.png
-      :align: center
-
-      `Image 111 Selected record (blue), hovered records (yellow) - Result Pane`
-
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 112<image112>`).
-
-    .. _image112:
-    .. figure:: /img/user_manual/image11.png
-      :align: center
-
-      `Image 112 - Page selector- Result Panel`
-
- #. **Button Panel**
-
-    The ``Cancel`` button re-directs to the `Home Page <#image-2.2-home-page>`__.
-
- #. **Information Panel**
-
-    The Information Panel is used to display messages back to the user. Messages will occur once a contribution has been added, updated or deleted or if there was an error at any time during the process of these actions.
-
-Family Overview
-^^^^^^^^^^^^^^^
-
-  Access to the `Family Overview Page <#family-overview-page.>`__ is restricted to users with the role of Accountant or Clerk.
-
-Pre-conditions
-""""""""""""""
-
-  Need to enquire on, or edit a family/group or manage the insurees, policies and contributions associated with it.
-
-Navigation
-""""""""""
-
-  `Family Overview Page <#family-overview-page.>`__ cannot be navigated directly to; the first step is to find the family/group by means of using `Find Family Page <#find-family-page>`__, `Find Insuree Page <#Find_Insuree_Page>`__, `Find Policy Page <Find_Policy_Page>`__ or `Find Contribution Page <#Find_contribution_Page>`__. Once a specific family, insuree, policy or contribution is selected by means of selecting the hyperlink in the Result Panel of the respective Find Page, the user is re-directed to the `Family Overview Page <#family-overview-page.>`__.
-
-Family Overview Page
-""""""""""""""""""""
-
-  .. _image113:
-  .. figure:: /img/user_manual/image87.png
-    :align: center
-
-    `Image 113 - Family Overview Page`
-
-  The ``Family Overview Page`` is the central point for all operations with regards to the families/groups, Insurees, policies and contributions associated with it. The page is divided into 6 panels (:ref:`Image 113<image113>`)
-
- #. **Family**  /Group Panel
-
-    The Family/Group Panel provides information about the family including the Insurance Number and the Last Name and Other Names of the head of family and the District, Municipality, Village and Poverty status of the family. In the Family/Group panel action buttons allow to add, edit and delete the family/group.
-
-    .. _image114:
-    .. figure:: /img/user_manual/image88.png
-      :align: center
-
-      `Image 114`
-
-
-      The ``green plus sign`` is for adding a new family/group.
-
-      The ``yellow pencil sign`` is for editing a family/group.
-
-      The ``red cross sign`` is for deleting a family/group.
-
- #. **Insurees Panel**
-
-    The Insurees Panel displays a list of the insurees within the family/group.
-    The currently selected record is highlighted with light blue, while hovering
-    over records changes the highlight to yellow (:ref:`Image 115<image115>`). The leftmost
-    record contains a hyperlink which if clicked, re-directs the user to the
-    insuree record for editing or detailed viewing.
-
-    .. _image115:
-    .. figure:: /img/user_manual/image89.png
-      :align: center
-
-      `Image 115 - Selected record (blue), hovered records (yellow) – Insurees Panel`
-
-    In the Insurees Panel, action buttons allow to add, edit and delete insurees belonging to the family/group.
-
-    .. _image116:
-    .. figure:: /img/user_manual/image90.png
-      :align: center
-
-      `Image 116`
-
-
-      The ``green plus sign`` is for adding a new insuree.
-
-      The ``yellow pencil sign`` is for editing an insuree.
-
-      The ``red cross sign`` is for deleting an insuree.
-
- #. **Policies Panel**
-
-    The Policies Panel displays a list of the policies held by the family/group. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 117<image117>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the policy for editing or detailed viewing. By default the first policy is selected and therefore in the Contribution Panel, only the contributions paid on that policy will be displayed in the Contribution Panel By selecting another policy in the list, the Contribution Panel, will refresh with the contributions paid on the newly selected policy.
-
-    .. _image117:
-    .. figure:: /img/user_manual/image91.png
-      :align: center
-
-      `Image 117 - Selected record (blue), hovered records (yellow) - Policy Panel`
-
-    In the fifth **Product** column of Policy data grid, there is a link showing product for the policy on the corresponding row. When the link is clicked; a popup browser window (:ref:image118) will open up showing the details of the product (in read-only mode).
-
-    .. _image118:
-    .. figure:: /img/user_manual/image92.png
-      :align: center
-
-      `Image 118 - Product Popup – Policies Panel`
-
-    In the ``Policies Panel``, action buttons allow to add, edit and delete policies.
-
-    .. _image119:
-    .. figure:: /img/user_manual/image93.png
-      :align: center
-
-      `Image 119`
-
-
-      The ``green plus sign`` is for adding a new policy.
-
-      The ``yellow pencil sign`` is for editing a policy.
-
-      The ``red cross sign`` is for deleting a policy.
-
-      The ``blue R sign`` is for renewing a policy.
-
- #. **Contributions Panel**
-
-    The ``Contribution Panel`` displays a list of contributions paid on the policy currently selected in the ``Policies Panel``. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 120<image120>`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the contribution for editing or detailed viewing.
-
-    .. _image120:
-    .. figure:: /img/user_manual/image94.png
-      :align: center
-
-      `Image 120 - Selected record (blue), hovered records (yellow) - Contributions Panel`
-
-    In the second **Payer** column of Contributions data grid, there is a link showing (institutional) payer of the contribution on the corresponding row. When the link is clicked; a popup browser window (:ref:`Image 121<image121>`) will open up showing the details of the payer in read-only mode.
-
-    .. _image121:
-    .. figure:: /img/user_manual/image95.png
-      :align: center
-
-      `Image 121 - Payer Pop up – Contribution Panel`
-
-    In the ``Contributions Panel``, action buttons allow to add, edit and delete contributions.
-
-    .. _image122:
-    .. figure:: /img/user_manual/image96.png
-      :align: center
-
-      `Image 122`
-
-
-      The ``green plus sign`` is for adding a new contribution.
-
-      The ``yellow pencil sign`` is for editing a contribution.
-
-      The ``red cross sign`` is for deleting a contribution.
-
- #. **Button Panel**
-
-    The ``Cancel`` button re-directs to the `Home Page <#image-2.2-home-page>`__.
-
- #. **Information Panel**
-
-    The Information Panel is used to display messages back to the user. Messages will occur once an insuree, a policy or a contribution have been added, updated or deleted or if there was an error at any time during the process of these actions.
-
-Family/Group Page
-"""""""""""""""""
-
-    .. _image123:
-    .. figure:: /img/user_manual/image97.png
-      :align: center
-
-      `Image 123 - Family/Group Page`
-
-
-    * ``Region``
-
-      Select from the list of available regions the region, in which the head of family/group permanently stays. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.* Mandatory.
-
-    * ``District``
-
-      Select from the list of available districts the district, in which the head of family/group permanently stays. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected*. Mandatory.
-
-    * ``Municipality``
-
-      Select from the list of available municipalities the municipality, in which the head of family/group permanently stays. *Note: The list will only be filled with the municipalities belonging to the selected district.* Mandatory.
-
-    * ``Village``
-
-      Select from the list of available villages the village, in which the head of family/group permanently stays. *Note: The list will only be filled with the villages belonging to the selected municipality.* Mandatory.
-
-    * ``Poverty Status``
-
-      Select whether the family/group has the poverty status. Mandatory.
-
-    * ``Confirmation Type``
-
-      Select the type of a confirmation of the social status of the family/group.
-
-    * ``Confirmation No.``
-
-      Enter alphanumeric identification of the confirmation of the social status of the family/group.
-
-    * ``Group Type``
-
-      Select the type of the group/family.
-
-
-
-    * ``Address Details.``
-
-      Enter details of the permanent address of the family/group.
-
-    * ``Insurance Number``
-
-      Enter the insurance number for the head of family/group. Mandatory.
-
-    * ``Last name``
-
-      Enter the last name (surname) for the head of family/group. Mandatory.
-
-    * ``Other Names``
-
-      Enter other names of the head of family/group. Mandatory.
-
-    * ``Birth Date``
-
-        Enter the date of birth for the head of family/group. *Note: You can also use the button next to the birth date field to select a date to be entered.*
-
-    * ``Gender``
-
-      Select from the list of available genders the gender of the head of family/group. Mandatory.
-
-    * ``Marital Status``
-
-      Select from the list of available marital statuses the marital status of the head of family/group. Mandatory.
-
-    * ``Beneficiary Card``
-
-      Select from the list of card whether or not an insurance identification card was issued to the head of family/group. Mandatory.
-
-    * ``Current Region``
-
-      Select from the list of available regions the region, in which the head of family/group temporarily stays.
-
-    * ``Current District``
-
-      Select from the list of available districts the district, in which the head of family/group temporarily stays. *Note: The list will only be filled with the districts belonging to the selected region*
-
-    * ``Current Municipality``
-
-      Select from the list of available municipalities the municipality, in which the head of family/group temporarily stays. *Note: The list will only be filled with the municipalities belonging to the selected district.*
-
-    * ``Current Village``
-
-      Select from the list of available villages the village, in which the head of family/group temporarily stays. *Note: The list will only be filled with the villages belonging to the selected municipality.*
-
-    * ``Current Address Details``
-
-      Enter details of the temporal address of the head of family/group.
-
-    * ``Profession``
-
-      Select the profession of the head of family/group.
-
-    * ``Education``
-
-      Select the education of the head of family/group.
-
-    * ``Phone Number``
-
-      Enter the phone number for the head of family/group.
-
-    * ``Email``
-
-      Enter the e-mail address of the head of family/group.
-
-    * ``Identification Type``
-
-      Select the type of the identification document of the head of family/group.
-
-    * ``Identification No.``
-
-      Enter alphanumeric identification of the document of head of family/group.
-
-    * ``Region of FSP``
-
-      Select from the list of available regions the region, in which the chosen primary health facility (First Service Point) of the head of family/group is located.
-
-    * ``District of FSP``
-
-      Select from the list of available districts the district, in which the chosen primary health facility (First Service Point) of the head of family/group is located. *Note: The list will only be filled with the districts belonging to the selected region.*
-
-    * ``Level of FSP``
-
-      Select the level of the chosen primary health facility (First Service Point) of the head of family/group.
-
-    * ``First Service Point``
-
-      Select from the list of available health facilities the chosen primary health facility (First Service Point) of the head of family/group. *Note: The list will only be filled with the health facilities belonging to the selected district which are of the selected level.*
-
-    * ``Browse``
-
-      Browse to get the photo for the head of family/group related to his/her insurance number.
-
- #. **Saving**
-
-    Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Family Overview Page <#family-overview-page.>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the family member has been saved will appear on the Information Panel.
-
- #. **Mandatory data**
-
-    If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk).
-
- #. **Cancel**
-
-    By clicking on the ``Cancel`` button, the user will be re-directed to the `Find Family Page <#find-family-page>`__.
-
-Adding a Family
-"""""""""""""""
-
-  Click on the ``Green Plus Sign`` to re-direct to the `Family/Group Page <#familygroup-page>`__.\
-
-
-  When the page opens all entry fields are empty. See the `Family/Group Page <#familygroup-page>`__ for information on the data entry and mandatory fields.
-
-Editing a Family/Group
-""""""""""""""""""""""
-
-  Click on the Yellow Pencil Sign to re-direct to the `Change Family/Group Page <#section-9>`__
-
-
-  The page will open with the current information loaded into the data entry fields, plus there are options to change the head of the family/group and move an insuree to the family/group.
-
-  .. _image124:
-  .. figure:: /img/user_manual/image98.png
-    :align: center
-
-    `Image 124 - Change Family/Group Page`
-
-Changing a Head of Family/Group
-"""""""""""""""""""""""""""""""
-
-  The head of the Family/Group is the main contact associated with a policy. For various reasons it may be necessary to change the head of a family/group. The new head must a head of family in another family.
-
-
-  Enter the insurance number for the new head of family/group, click on check, to confirm that the insurance number is valid and that it really is the person expected. The name will appear to the right of the check button. If all is OK, click on the Change button to complete the change. On a successful change, the user will be re-directed back to the `Family Overview Page <#family-overview-page.>`__\ ; the new head will be displayed in the Family/Group Information Panel
-
-Moving an Insuree
-"""""""""""""""""
-
-  Insurees may be moved from one family/group to another. The new insuree must not be a head of family/group in another family/group.
-
-
-  Enter the insurance number for the insuree to move. Click on check, to confirm that the insurance number is valid and that it really is the person expected. The name will appear to the right of the check button. If all is OK, click on the Change button to complete the change. On a successful change, the user will be re-directed back to the `Family Overview Page <#family-overview-page.>`__ the new insuree will be displayed in the insuree Information Panel.
-
-Deleting a Family/Group
-"""""""""""""""""""""""
-
-  Click on the Red Cross Sign button to delete the currently selected record\ .
-
-
-  Before deleting a confirmation popup (:ref:`Image 125<image125>`) is displayed, which requires the user to confirm if the action should really be carried out? Deleting of a family requires deleting of all its dependants first.
-
-  .. _image125:
-  .. figure:: /img/user_manual/image24.png
-    :align: center
-
-    `Image 125 - Delete confirmation- Button Panel`
-
-  When a family is deleted, all records retaining to the deleted family will still be available by selecting historical records.
-
-Insuree Page
-""""""""""""
-
- #. **Data Entry**
-
-    .. _image126:
-    .. figure:: /img/user_manual/image100.png
-      :align: center
-
-      `Image 126 - Insuree Page`
-
-
-    * ``Relationship``
-
-      Select from the list of available relationships of the insuree to the head of family/group.
-
-    * ``Insurance Number``
-
-      Enter the insurance number for the insuree. Mandatory.
-
-    * ``Last name``
-
-      Enter the last name (surname) for the insuree. Mandatory, 100 characters maximum.
-
-    * ``Other Names``
-
-      Enter other names of the insuree. Mandatory, 100 characters maximum.
-
-    * ``Birth Date``
-
-      Enter the date of birth for the insuree. *Note: You can also use the button next to the birth date field to select a date to be entered.*
-
-    * ``Gender``
-
-      Select from the list of available genders the gender of the insuree. Mandatory.
-
-    * ``Marital Status``
-
-      Select from the list of available options for the marital status of the insuree. Mandatory.
-
-    * ``Beneficiary Card``
-
-      Select from the list of options whether or not the card was issued to the insure. Mandatory.
-
-    * ``Current Region``
-
-      Select from the list of available regions the region, in which the insuree temporarily stays.
-
-    * ``Current District``
-
-      Select from the list of available districts the district, in which the insuree temporarily stays. *Note: The list will only be filled with the districts belonging to the selected region*
-
-    * ``Current Municipality``
-
-      Select from the list of available municipalities the municipality, in which the insuree temporarily stays. *Note: The list will only be filled with the municipalities belonging to the selected district.*
-
-    * ``Current Village``
-
-      Select from the list of available villages the village, in which the insuree temporarily stays. *Note: The list will only be filled with the villages belonging to the selected municipality.*
-
-    * ``Current Address Details.``
-
-      Enter details of the temporal address of the insuree.
-
-    * ``Profession``
-
-      Select from the list of available professions the profession of the insuree.
-
-    * ``Education``
-
-      Select from the list of available educations the education of the insuree.
-
-    * ``Phone Number``
-
-      Enter the phone number for the insuree.
-
-    * ``Email``
-
-      Enter the e-mail address of the insuree.
-
-    * ``Identification Type``
-
-      Select the type of the identification document of the insuree.
-
-    * ``Identification No.``
-
-      Enter alphanumeric identification of the document of the insuree.
-
-    * ``Region of FSP``
-
-      Select from the list of available regions the region, in which the chosen primary health facility (First Service Point) of the insuree is located.
-
-    * ``District of FSP``
-
-      Select from the list of available districts the district, in which the chosen primary health facility (First Service Point) of the insuree is located. *Note: The list will only be filled with the districts belonging to the selected region.*
-
-    * ``Level of FSP``
-
-      Select the level of the chosen primary health facility (First Service Point) of the insuree.
-
-    * ``First Service Point``
-
-      Select from the list of available health facilities the chosen primary health facility (First Service Point) of the insuree. *Note: The list will only be filled with the health facilities belonging to the selected district which are of the selected level.*
-
-    * ``Browse``
-
-      Browse to get the photo for the insuree related to his/her insurance number.
-
-    *Note: There is an automated service in the openIMIS Server which will run on configured time basis repeatedly and assign related photos to insurees without photos if any exist in the openIMIS database. So after a user has input insuree's insurance number and no photo is displayed, there is no need to browse for the photo as that process will be done automatically by the service if the service is configured.*
-
- #. **Saving**
-
-    Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Family Overview Page <#family-overview-page.>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the insuree has been saved will appear on the Information Panel.
-
- #. **Mandatory data**
-
-    If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk)
-
- #. **Cancel**
-
-    By clicking on the ``Cancel`` button, the user will be re-directed to the `Family Overview Page <#family-overview-page.>`__.
-
-Adding an Insuree
-"""""""""""""""""
-
-  Click on the Green Plus Sign to re-direct to the `Insuree Page <#insuree-page>`__\.
-
-
-  When the page opens all entry fields are empty. See the `Insuree Page <#insuree-page>`__ for information on the data entry and mandatory fields.
-
-Editing an Insuree
-""""""""""""""""""
-
-  Click on the Yellow Pencil Sign to re-direct to the `Insuree Page <#insuree-page>`__\.
-
-  The page will open with the current information loaded into the data entry fields. See the Insuree Page for information on the data entry and mandatory fields.
-
-Deleting an Insuree
-"""""""""""""""""""
-
-  Click on the Red Cross Sign to delete the currently selected record.
-
-
-  Before deleting a confirmation popup (:ref:`Image 127<image127>`) is displayed, which requires the user to confirm if the action should really becarried out?
-
-  .. _image127:
-  .. figure:: /img/user_manual/image24.png
-    :align: center
-
-    `Image 127 - Delete confirmation- Button Panel`
-
-  When an insuree is deleted, all records retaining to the deleted insuree will still be available by selecting historical records.
-
-Policy Page
-"""""""""""
-
- #. **Data Entry**
-
-    .. _image128:
-    .. figure:: /img/user_manual/image102.png
-      :align: center
-
-      `Image 128 - Policy Page`
-
-
-    * ``Enrolment Date``
-
-      Enter the enrolment date for the policy. Mandatory. *Note: You can also use the button next to the enrolment date field to select a date to be entered.*
-
-    * ``Product``
-
-      Select from the list of available products the product of the policy. Mandatory.
-
-    * ``Effective Date``
-
-      The effective date for the policy is calculated automatically later on. The effective date is the maximum of the start date and the date when the last contribution was paid or when the user enforced activation of the policy.
-
-    * ``Start Date``
-
-      The start date for the policy is calculated automatically. Either it is the enrolment date plus the administration period of the insurance product associated with the policy for free enrolment (without cycles) or it is a cycle start date determined according to enrolment date and the administration period for enrolment in fixed cycles. The start date may be modified by the user.
-
-    * ``Expiry Date``
-
-      The expiry date for the policy is calculated automatically. When entering a new policy, the expiry date is the start date plus the insurance period of the insurance product associated with the policy for free enrolment or the cycle start date plus the insurance period for enrolment in fixed cycles.
-
-    * ``Enrolment Officer``
-
-      Select from the list of available enrolment officers the enrolment officer related to the policy. Mandatory
-
- #. **Saving**
-
-    Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Family Overview Page, <#family-overview-page.>`__ with the newly saved record displayed and selected in the result panel. A message confirming that the policy has been saved will appear on the Information Panel.
-
- #. **Mandatory data**
-
-    If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk).
-
- #. **Cancel**
-
-    By clicking on the ``Cancel`` button, the user will be re-directed to the `Family Overview Page <#family-overview-page.>`__.
-
-Adding a Policy
-"""""""""""""""
-
-  Click on the ``Green Plus Sign`` to re-direct to the `Policy Page <#policy-page>`__\ .
-
-
-  When the page opens all entry fields are empty. See the `Policy Page <#policy-page>`__ for information on the data entry and mandatory fields.
-
-Editing a Policy
-""""""""""""""""
-
-  Click on the ``Yellow Pencil Sign`` to re-direct to the `Policy Page <#policy-page>`__\ .
-
-
-  The page will open with the current information loaded into the data entry fields. See the `Policy Page <#policy-page>`__ for information on the data entry and mandatory fields.
-
-Deleting a Policy
-"""""""""""""""""
-
-  Click on the ``Red Cross Sign`` to delete the currently selected policy.
-
-
-  Before deleting of a policy, all contributions of the policy should be deleted. Before deleting a confirmation popup (:ref:`Image 129<image129>`) is displayed, which requires the user to confirm if the action should really be carried out?
-
-  .. _image129:
-  .. figure:: /img/user_manual/image24.png
-    :align: center
-
-    `Image 129 - Delete confirmation- Button Panel`
-
-  When a policy is deleted, all records retaining to the deleted policy will still be available by selecting historical records.
-
-Contribution Page
-"""""""""""""""""
-
- #. **Data Entry**
-
-    .. _image130:
-    .. figure:: /img/user_manual/image104.png
-      :align: center
-
-      `Image 130 - Contribution Page`
-
-
-    * ``Payer``
-
-      Select from the list of available (institutional) payers the payer of the contribution (if the contribution is not paid by the family/group itself).
-
-    * ``Contribution Paid``
-
-      Enter the paid amount for the contribution. Mandatory.
-
-    * ``Receipt No.``
-
-      Enter the receipt identification for the contribution. Receipt identification has to be unique within all policies of the insurance product. Mandatory.
-
-    * ``Payment Date``
-
-      Enter the date of payment for the contribution. Mandatory. *Note: You can also use the button next to the date of payment field to select a date to be entered.*
-
-    * ``Payment Type``
-
-      Select from the list of available types of payment the payment type of the contribution. Mandatory.
-
- #. **Saving**
-
-    Once all mandatory data is entered, clicking on the ``Save`` button will save the record. Depending on the contribution paid, the following messages will appear.
-
-      a) If the Contribution paid matches the price of the policy:
-
-      .. _image131:
-      .. figure:: /img/user_manual/image105.png
-        :align: center
-
-        `Image 131`
-
-      b) If the contribution paid is lower than the price of the policy:
-
-      .. _image132:
-      .. figure:: /img/user_manual/image106.png
-        :align: center
-
-        `Image 132`
-
-      Followed by:
-
-      .. _image133:
-      .. figure:: /img/user_manual/image107.png
-        :align: center
-
-        `Image 133`
-
-      If you choose **Yes**, the policy will be (enforced) set as **Active**. If you choose No, it will remain **Idle**.
-
-      c) If the contribution is higher than the price of the policy:
-
-      .. _image134:
-      .. figure:: /img/user_manual/image108.png
-        :align: center
-
-        `Image 134`
-
-      The user will then be re-directed back to the `Family Overview Page <#family-overview-page.>`__\ , with the newly saved record displayed and selected in the result panel. A message confirming that the contribution has been saved will appear on the Information Panel.
-
- #. **Mandatory data**
-
-    If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk).
-
- #. **Cancel**
-
-    By clicking on the ``Cancel`` button, the user will be re-directed to the `Family Overview Page <\l>`__ .
-
-Adding a Contribution
-"""""""""""""""""""""
-
-  Click on the ``Green Plus Sign`` to re-direct to the `Contribution Page. <#contribution-page>`__
-
-
-  When the page opens all entry fields are empty. See the `Contribution Page <#contribution-page>`__ for information on the data entry and mandatory fields.
-
-Editing a Contribution
-""""""""""""""""""""""
-
-  Click on the ``Yellow Pencil`` Sign to re-direct to the `Contribution Page <#contribution-page>`__. The `Contribution Page <#contribution-page>`__ will open with the current information loaded into the data entry fields. See the `Contribution Page <#contribution-page>`__ for information on the data entry and mandatory fields.
-
-Deleting a Contribution
-"""""""""""""""""""""""
-
-  Click on the Red Cross Sign button to delete the currently selected record.
-
-
-  Before deleting a confirmation popup (:ref:`Image 135<image135>`) is displayed, which requires the user to confirm if the action should really be carried out?
-
-  .. _image135:
-  .. figure:: /img/user_manual/image109.png
-    :align: center
-
-    `Image 135 - Delete confirmation- Button Panel`
-
-  When a contribution is deleted, all records retaining to the deleted contribution will still be available by selecting historical records.
+.. include:: /_include/um/insuree_policies/quick_find_insuree.rst
+.. include:: /_include/um/insuree_policies/find_family.rst
+.. include:: /_include/um/insuree_policies/find_insuree.rst
+.. include:: /_include/um/insuree_policies/find_policy.rst
+.. include:: /_include/um/insuree_policies/find_contribution.rst
+.. include:: /_include/um/insuree_policies/family_overview.rst
 
 Claims
 ------
@@ -4216,7 +2827,6 @@ Claims
 .. include:: /_include/um/claims/hf_claims.rst
 .. include:: /_include/um/claims/review_claims.rst
 .. include:: /_include/um/claims/batch_claims.rst
-
 
 Tools
 -----
@@ -4586,7 +3196,6 @@ Registers page
 
     The Information Panel is used to display messages back to the user.
 
-
 Policy Renewals
 ^^^^^^^^^^^^^^^
 
@@ -4620,9 +3229,7 @@ Policy Renewal Page
 
     The Select Criteria Panel or the filter panel allows a user to select specific criteria to minimise the report on policy renewals.
 
-
     Two tasks are carried out by this form. 1) Preview the report on policy renewal and 2) Preview the journal on policy renewal. Depending on the selected option, filter will be changed accordingly.
-
 
     If Preview option is selected then a user has the following filters.
 
@@ -4679,7 +3286,6 @@ Policy Renewal Page
  #. **Information Panel**
 
     The Information Panel is used to display messages back to the user. Messages will occur once a user has updated the policy status or if there was an error at any time during the process of these actions.
-
 
 Preview Report on Renewals
 """"""""""""""""""""""""""
@@ -4799,9 +3405,7 @@ Pre-conditions
 
   The extract functionality is covering extracts for the mobile phone applications and the openIMIS ‘offline’ installations. Offline extracts are only to be generated in case a district has so called ‘off-line’ installations in areas where no Internet connectivity is available.
 
-
   Extracts are to be downloaded to the local PC that is initiating the creation of the extract.
-
 
   Standard procedures should be formulated to stipulate the time interval between Extract creations and the management of transporting and installing/transferring these extracts into the target environment: mobile phones or offline openIMIS clients.
 
@@ -4817,7 +3421,6 @@ Navigation
     `Image 177 - Navigation openIMIS Extracts`
 
   Clicking on the sub menu ``IMIS Extracts`` re-directs the current user to the ``IMIS Extracts Page.``
-
 
   This page opens in two different modes depending on the type of openIMIS installation: openIMIS Central (live server) or openIMIS offline (installed on local network in a health facility or an office of the scheme administration).
 
@@ -4848,7 +3451,6 @@ The Master Data section is used for generation of the data needed for off-line o
   **B - Create Phone Extract section**
 
   The Phone extract panel is used for the generation of so called SQLite database files for the mobile phone applications. Each district will have its own phone extract file that needs to be distributed to the mobile phones within the district. To generate a phone extract file, the operator has to select a region and a district from the list of available districts. In case the user is having access to its own district only, the district will be automatically selected and shown on the display.
-
 
   By clicking the ``Create`` button in panel the section, a phone extract will be created. This process might take a while. As long as the hour glass (as a cursor) is shown, openIMIS is still processing the file. The file size depends on the amount of photographs included in the extract. The file size could range into hundreds of MBs. To alleviate this problem two options are available:
 
@@ -4898,7 +3500,6 @@ The Master Data section is used for generation of the data needed for off-line o
 
   The offline extract section is used to generate the openIMIS ‘offline’ extract files for the health facilities or offices of the scheme administration that run openIMIS offline. To generate an offline extract file, the operator has to select a region and a district from the list of available districts. In case the user is having access to its own district only, the district will be automatically selected and shown on the display. When an operator belongs to one specific district, the district box is already selected with the district of the user. To create a new extract, the operator needs to click the ``Create`` button.
 
-
   Three types of extracts could be generated:
 
       - Differential Extract ``(Download D)``
@@ -4943,7 +3544,6 @@ The Master Data section is used for generation of the data needed for off-line o
 
   The message is only shown to provide some details on how much information is exported to the extract file.
 
-
   Depending on the ``Full extract`` option, we will be re-directed to the extract page and will see the newly generated extract sequence in the list or will get a new message as shown below:
 
   .. _image187:
@@ -4962,12 +3562,9 @@ The Master Data section is used for generation of the data needed for off-line o
 
   We are now ready to download the extract to our computer.
 
-
   The combo box next to the district selector contains information on all generated extracts with the sequence number and date. (e.g. Sequence 000007 – Date 06-09-2012). If the extract selector does not show any entries (blank) it means that no previous extracts were created. At least one full extract needs to be generated. This is needed to initialise a new offline openIMIS installation.
 
-
   To download the actual extracts, the operator needs to select the desired extract sequence from the list of available extracts.
-
 
   Four different types of extracts could be downloaded by clicking one of the following buttons:
 
@@ -5019,7 +3616,6 @@ The Master Data section is used for generation of the data needed for off-line o
 
   The reason for this box to appear could be that the file to be downloaded has been removed from the server or that you have attempted the download a full extract but no full extract was generated (only the differential extracts exist). It is also possible that you have attempted to download a photo extract but no photos were added since the last extract.
 
-
   Checking the checkbox ``In background`` means that the off-line extract will be created in background and the user will be notified by e-mail (provided his/her e-mail is entered in the register of users) as shown below:
 
   .. _image191:
@@ -5040,12 +3636,10 @@ The Master Data section is used for generation of the data needed for off-line o
 
     - **Browse**
 
-
       Browse for the file from the IMIS-Offline or IMIS (Claims )
       application containing claims to be uploaded.
 
     - Upload
-
 
       Upload claims contained in the selected file.
 
@@ -5053,13 +3647,11 @@ The Master Data section is used for generation of the data needed for off-line o
 
     - **Browse**
 
-
       Browse for the file from the IMIS-Offline or IMIS (Policies
       )application containing newly enrolled or renewed policies to be
       uploaded.
 
     - Upload
-
 
       Upload policies contained in the selected file.
 
@@ -5067,15 +3659,12 @@ The Master Data section is used for generation of the data needed for off-line o
 
     - **Browse**
 
-
       Browse for the file from the IMIS-Offline or IMIS (Policies
       )application containing feedbacks to be uploaded.
 
     - Upload
 
-
       Upload feedbacks contained in the selected file.
-
 
   **G - Button section**
 
@@ -5144,7 +3733,6 @@ IMIS Extracts (OFFLINE MODE)
 
   With the import/upload of an extract it is important to understand that each extract has its sequence number. This sequence number is found in the filename of the extract. We would in case of differential imports/uploads have to follow the sequence. In the example screen above, it shows in the status bar, that the last import was number 6. Therefore we should select in this case the differential extract number 7 as highlighted in the file selection dialog.
 
-
   Alternatively the operator could select any full extract with a sequence number higher than 6. In case a wrong extract is selected, warning messages will appear as shown below:
 
   .. _image197:
@@ -5153,7 +3741,6 @@ IMIS Extracts (OFFLINE MODE)
 
     `Image 197`
 
-
   .. _image198:
   .. figure:: /img/user_manual/image167.png
     :align: center
@@ -5161,7 +3748,6 @@ IMIS Extracts (OFFLINE MODE)
     `Image 198`
 
   In case you are missing extract sequences, additional extracts are needed to be uploaded before the extract selected. The extract selected, in this case, does not directly follow the last sequence as indicated in the status bar of the screen. The additional extracts are to be provided by NSHIP district office.
-
 
   In case the extract file selected is valid, the system will import the data. New data will be added and existing data might be modified. After a successful import of an extract (Differential and FULL), a form is displayed with the statistics of the import as shown below:
 
@@ -5176,7 +3762,6 @@ IMIS Extracts (OFFLINE MODE)
   **D - Import Photos**
 
   The import of photos is optional and will have no further checking on sequence numbers. NSHIP should provide (if available) with each extract the photo extract as well.
-
 
   E.g. (for Differential extract)
 
@@ -5195,7 +3780,6 @@ IMIS Extracts (OFFLINE MODE)
     `Image 201`
 
   The photo extract will contain all photographs associated with the actual extract in a zipped format. The Upload procedure will simply unzip the extract and copy the image files to the photo folder of IMIS.
-
 
   After successful upload of the photographs the following message appears:
 
@@ -5239,7 +3823,6 @@ Navigation
     :align: center
 
     `Image 204 - Reports Page`
-
 
   The Reports Page is divided into four panels (:ref:`Image 204<image204>`).
 
@@ -5591,8 +4174,6 @@ Report Preview
           - Amount of Contributions that should be allocated for policies of given insurance product for a respective period provided a uniform distribution throughout the insurance period takes place. (If the respective period overlaps with <Effective date, Expiry day> of a policy then a proportional part of corresponding Contributions relating to the respective period is included in available Contributions)
 
 
-
-
     Below is an example of the report:
 
     .. _image225:
@@ -5629,8 +4210,7 @@ Report Preview
         * - P12 
           - Number of rejected claims 
           - Time, Health facility, Insurance product 
-          - The number of claims for given insurance product that emerged during a respective period and were rejected (Start dateof a claim is within the respective period and the Status approval ofthe claim is Rejected) 
-
+          - The number of claims for given insurance product that emerged during a respective period and were rejected (Start dateof a claim is within the respective period and the Status approval ofthe claim is Rejected)
 
     Below is an example of the report:
 
@@ -5712,7 +4292,6 @@ Report Preview
 
     The report lists all actual payments of contributions according to insurance products in the defined period. The report can be used as input to an accounting system. The report can be run by users with the role Accountant. Payments are assigned to the specified period according to the actual date of payment.
 
-
     Below is an example of the report:
 
     .. _image228:
@@ -5724,7 +4303,6 @@ Report Preview
  #. **product sales report**
 
     The report provides overview of selling of policies according to insurance products in terms of calculated contributions (not necessarily actually paid). The report can be run by users with the role Accountant. Policies are assigned to the specified period according to their effective days.
-
 
     Below is an example of the report:
 
@@ -5738,9 +4316,7 @@ Report Preview
 
     The report provides proportional amount of actually paid contributions allocated by openIMIS to specific months according to insurance products. The report can be run by users with the role Accountant. This report shows the information about the **Total collection**, **Allocated amount** and **Not allocated** amount for contributions in the specified period.
 
-
     **Allocated** amount is the proportionally calculated amounts of contributions paid covering the month. **Not Allocated** amount is the amount collected for contributions that have a start date in the future (after the month in question).
-
 
     Below is an example of the report:
 
@@ -5881,7 +4457,6 @@ Utilities
 
   Access to the ``Utilities`` is restricted to the users with the role of openIMIS Administrator.
 
-
   The ``Utilities`` is the place for database administration. By having access to this page, it is possible to backup and restore the openIMIS operational database and also to execute SQL Scripts (patches provided for maintenance or update of the database). At the top of the page, the current “Backend” version is displayed for reference.
 
 Navigation
@@ -5935,7 +4510,6 @@ Funding
 
   Access to the ``Funding`` is restricted to the users with the role of Accountant.
 
-
   The ``Funding`` is the place where funding from external authorities (payers) can be for entered. openIMIS creates internally one fictive family/group (the insurance number of the head of the fictive family/group is 999999999, the name is *Funding* and the other name is *Funding* as well) for the district for which a funding is done. Each entering of a fund results in creation of a fictive policy for the corresponding fictive family/group with paid contribution in the amount of the funding. The fictive policy is active since the date of payment of the corresponding fund. These fictive policies are overpaid as these funds are usually much higher than the contribution rate for a single family/member of the group but it doesn’t matter. External funding corresponds to payment of contributions for many families/members of the group in some period. openIMIS can regard funds as standard contributions and its standard functionality can be used for handling of funds. One distinctive feature of payment of funds by means of the fictive policies is that the payments of funds don’t appear in the reports on matching funds generated for funding authorities. So, there is no danger that offices of the scheme administration would acquire new funds based on funding already acquired.
 
 Navigation
@@ -5961,7 +4535,6 @@ Funding Page
       :align: center
 
       `Image 248 - Funding Page`
-
 
     * ``Region``
 
@@ -6008,7 +4581,6 @@ Email Settings
 
   Access to the ``Email Settigns`` is restricted to the users with the role of Accountant.
 
-
   The ``Email Settigns`` is the page where the setting of the outbound email server are entered.
 
 Navigation
@@ -6034,7 +4606,6 @@ Email settings page
       :align: center
 
       `Image 277 - Email settings Page`
-
 
     * ``Email``
 
@@ -6186,7 +4757,6 @@ OFFLINE FACILITIES
 
       This section has a facility to enable synchronization of online openIMIS data with that offline openIMIS data. When online data in a zipped file is obtained (downloaded extraction) from online openIMIS to user local computer, user will use this section to put that data into offline IMIS.
 
-
       User has to select a file from a local computer by clicking the 'select file' button on the left side of the section, and in the popup window which appears (:ref:`Image 256<image256>`) user can navigate to the required file and select the file.
 
       .. _image257:
@@ -6220,7 +4790,6 @@ OFFLINE FACILITIES
     * ``section b - import photos``
 
       Just as the section name implies, this is a section with facility to enable a user synchronize insurees’ photos in online IMIS, with insurees’ photos in offline IMIS. When online insurees’ photos in a zipped file is obtained from online openIMIS to user local computer, user will use this section to put those photos into offline IMIS.
-
 
       User has to select a file from a local computer by clicking the 'select file' button on the left side of the section, and in the popup window which appears (:ref:`Image 261<image261>`), user can navigate to the required file and select the file.
 
@@ -6329,6 +4898,5 @@ OFFLINE FACILITIES
     - Create / Edit
 
       Only families, insurees, policies and contributions created/edited while offline, will be available for further manipulation. An online data is available for viewing purposes.
-
 
       For an offline user with a right to open ``Insurees`` and ``Policies`` menus, he/she can access all data but can manipulate only that data which was created offline. The rest of the data will be available in read-only mode
