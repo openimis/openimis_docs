@@ -21,11 +21,11 @@ Navigation
 
   Clicking on the sub menu ``Review`` re-directs the current user to the `Claims Overview Page. <#claims-overview-page>`__
 
-  .. _image151:
-  .. figure:: /img/user_manual/image124.png
+  .. _claims_review_img:
+  .. figure:: /img/user_manual/claims_review_page.png
     :align: center
 
-    `Image 151 - Claims Overview Page`
+    `Image - Claims Overview Page`
 
 Claims Overview Page
 """"""""""""""""""""
@@ -78,7 +78,7 @@ Claims Overview Page
 
     * ``Main Dg``
 
-      Select the ``Main Dg.`` from the list of diagnoses status by clicking on the arrow on the right of the selector, to select claims with main diagnosis.
+      Select the ``Main Dg.`` from the list of diagnoses status by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box, to select claims with main diagnosis.
 
     * ``Batch Run``
 

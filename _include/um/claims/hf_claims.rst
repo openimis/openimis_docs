@@ -23,7 +23,7 @@ Claims Control Page
 """""""""""""""""""
 
   .. _claims_control_img:
-  .. figure:: /img/user_manual/claims_control.png
+  .. figure:: /img/user_manual/claims_control_page.png
     :align: center
 
     `Image - Claims Control Page`
@@ -80,7 +80,7 @@ Claims Control Page
 
     * ``Main Dg.``
 
-      Select the ``Main Dg.`` from the list of diagnoses status by by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box, to select claims with main diagnosis.
+      Select the ``Main Dg.`` from the list of diagnoses status by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box, to select claims with main diagnosis.
 
     * ``Batch Run``
 
@@ -235,24 +235,23 @@ Claim Page
 
     * ``Main Dg.``
 
-      Select the code of the main diagnosis from the drop down list of diagnosis codes. Mandatory.
+      Select the code of the main diagnosisby typing text, all diagnoses containing the typed text will appear and be selectable underneath the box. Mandatory.
 
     * ``Sec Dg 1``
 
-      Select the code of the first secondary diagnosis from the drop down list of diagnosis codes.
+      Select the code of the first secondary diagnosis by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box.
 
     * ``Sec Dg 2``
 
-      Select the code of the second secondary diagnosis from the drop down  list of diagnosis codes.
+      Select the code of the second secondary diagnosis by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box
 
     * ``Sec Dg 3``
 
-      Select the code of the third secondary diagnosis from the drop down list of diagnosis codes.
+      Select the code of the third secondary diagnosis by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box
 
     * ``Sec Dg 4``
 
-      Select the code of the fourth secondary diagnosis from the drop down list of diagnosis codes.
-
+      Select the code of the fourth secondary diagnosis by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box
     * ``Claim Administrator``
 
       Displays code of the claim administrator. The field is read only (taken over from `the Claim Control Page <#_Health_Facility_Claims>`__) and cannot be edited.
