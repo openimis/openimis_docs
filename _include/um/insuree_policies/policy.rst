@@ -1,15 +1,92 @@
+Policy
+^^^^^^
+
+Policy Page
+"""""""""""
+
+ #. **Data Entry**
+
+    .. _image128:
+    .. figure:: /img/user_manual/image102.png
+      :align: center
+
+      `Image 128 - Policy Page`
+
+    * ``Enrolment Date``
+
+      Enter the enrolment date for the policy. Mandatory. *Note: You can also use the button next to the enrolment date field to select a date to be entered.*
+
+    * ``Product``
+
+      Select from the list of available products the product of the policy. Mandatory.
+
+    * ``Effective Date``
+
+      The effective date for the policy is calculated automatically later on. The effective date is the maximum of the start date and the date when the last contribution was paid or when the user enforced activation of the policy.
+
+    * ``Start Date``
+
+      The start date for the policy is calculated automatically. Either it is the enrolment date plus the administration period of the insurance product associated with the policy for free enrolment (without cycles) or it is a cycle start date determined according to enrolment date and the administration period for enrolment in fixed cycles. The start date may be modified by the user.
+
+    * ``Expiry Date``
+
+      The expiry date for the policy is calculated automatically. When entering a new policy, the expiry date is the start date plus the insurance period of the insurance product associated with the policy for free enrolment or the cycle start date plus the insurance period for enrolment in fixed cycles.
+
+    * ``Enrolment Officer``
+
+      Select from the list of available enrolment officers the enrolment officer related to the policy. Mandatory
+
+ #. **Saving**
+
+    Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Family Overview Page, <#family-overview-page.>`__ with the newly saved record displayed and selected in the result panel. A message confirming that the policy has been saved will appear on the Information Panel.
+
+ #. **Mandatory data**
+
+    If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk).
+
+ #. **Cancel**
+
+    By clicking on the ``Cancel`` button, the user will be re-directed to the `Family Overview Page <#family-overview-page.>`__.
+
+Adding a Policy
+"""""""""""""""
+
+  Click on the ``Green Plus Sign`` to re-direct to the `Policy Page <#policy-page>`__\ .
+
+  When the page opens all entry fields are empty. See the `Policy Page <#policy-page>`__ for information on the data entry and mandatory fields.
+
+Editing a Policy
+""""""""""""""""
+
+  Click on the ``Yellow Pencil Sign`` to re-direct to the `Policy Page <#policy-page>`__\ .
+
+  The page will open with the current information loaded into the data entry fields. See the `Policy Page <#policy-page>`__ for information on the data entry and mandatory fields.
+
+Deleting a Policy
+"""""""""""""""""
+
+  Click on the ``Red Cross Sign`` to delete the currently selected policy.
+
+  Before deleting of a policy, all contributions of the policy should be deleted. Before deleting a confirmation popup (:ref:`Image 129<image129>`) is displayed, which requires the user to confirm if the action should really be carried out?
+
+  .. _image129:
+  .. figure:: /img/user_manual/image24.png
+    :align: center
+
+    `Image 129 - Delete confirmation- Button Panel`
+
+  When a policy is deleted, all records retaining to the deleted policy will still be available by selecting historical records.
+
 Find Policy
-^^^^^^^^^^^^
+"""""""""""
 
   Access to the ``Find Policy Page`` is restricted to users with the role of Accountant, Clerk or Health Facility Receptionist.
 
 Pre-conditions
-""""""""""""""
 
   Need to enquire on, or edit a policy, and the family/group, insurees and contributions associated.
 
 Navigation
-""""""""""
 
   Find Policy Page can be found under the main menu ``Insurees and Policies``, sub menu ``Policies``.
 
@@ -22,7 +99,6 @@ Navigation
   Clicking on the sub menu ``Policies`` re-directs the current user to the ``find policy page.``
 
 Find Policy Page
-""""""""""""""""
 
   .. _image102:
   .. figure:: /img/user_manual/image80.png

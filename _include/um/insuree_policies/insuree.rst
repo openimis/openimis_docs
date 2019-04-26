@@ -1,15 +1,168 @@
+Insuree
+^^^^^^^
+
+Insuree Page
+""""""""""""
+
+ #. **Data Entry**
+
+    .. _image126:
+    .. figure:: /img/user_manual/image100.png
+      :align: center
+
+      `Image 126 - Insuree Page`
+
+    * ``Relationship``
+
+      Select from the list of available relationships of the insuree to the head of family/group.
+
+    * ``Insurance Number``
+
+      Enter the insurance number for the insuree. Mandatory.
+
+    * ``Last name``
+
+      Enter the last name (surname) for the insuree. Mandatory, 100 characters maximum.
+
+    * ``Other Names``
+
+      Enter other names of the insuree. Mandatory, 100 characters maximum.
+
+    * ``Birth Date``
+
+      Enter the date of birth for the insuree. *Note: You can also use the button next to the birth date field to select a date to be entered.*
+
+    * ``Gender``
+
+      Select from the list of available genders the gender of the insuree. Mandatory.
+
+    * ``Marital Status``
+
+      Select from the list of available options for the marital status of the insuree. Mandatory.
+
+    * ``Beneficiary Card``
+
+      Select from the list of options whether or not the card was issued to the insure. Mandatory.
+
+    * ``Current Region``
+
+      Select from the list of available regions the region, in which the insuree temporarily stays.
+
+    * ``Current District``
+
+      Select from the list of available districts the district, in which the insuree temporarily stays. *Note: The list will only be filled with the districts belonging to the selected region*
+
+    * ``Current Municipality``
+
+      Select from the list of available municipalities the municipality, in which the insuree temporarily stays. *Note: The list will only be filled with the municipalities belonging to the selected district.*
+
+    * ``Current Village``
+
+      Select from the list of available villages the village, in which the insuree temporarily stays. *Note: The list will only be filled with the villages belonging to the selected municipality.*
+
+    * ``Current Address Details.``
+
+      Enter details of the temporal address of the insuree.
+
+    * ``Profession``
+
+      Select from the list of available professions the profession of the insuree.
+
+    * ``Education``
+
+      Select from the list of available educations the education of the insuree.
+
+    * ``Phone Number``
+
+      Enter the phone number for the insuree.
+
+    * ``Email``
+
+      Enter the e-mail address of the insuree.
+
+    * ``Identification Type``
+
+      Select the type of the identification document of the insuree.
+
+    * ``Identification No.``
+
+      Enter alphanumeric identification of the document of the insuree.
+
+    * ``Region of FSP``
+
+      Select from the list of available regions the region, in which the chosen primary health facility (First Service Point) of the insuree is located.
+
+    * ``District of FSP``
+
+      Select from the list of available districts the district, in which the chosen primary health facility (First Service Point) of the insuree is located. *Note: The list will only be filled with the districts belonging to the selected region.*
+
+    * ``Level of FSP``
+
+      Select the level of the chosen primary health facility (First Service Point) of the insuree.
+
+    * ``First Service Point``
+
+      Select from the list of available health facilities the chosen primary health facility (First Service Point) of the insuree. *Note: The list will only be filled with the health facilities belonging to the selected district which are of the selected level.*
+
+    * ``Browse``
+
+      Browse to get the photo for the insuree related to his/her insurance number.
+
+    *Note: There is an automated service in the openIMIS Server which will run on configured time basis repeatedly and assign related photos to insurees without photos if any exist in the openIMIS database. So after a user has input insuree's insurance number and no photo is displayed, there is no need to browse for the photo as that process will be done automatically by the service if the service is configured.*
+
+ #. **Saving**
+
+    Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Family Overview Page <#family-overview-page.>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the insuree has been saved will appear on the Information Panel.
+
+ #. **Mandatory data**
+
+    If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk)
+
+ #. **Cancel**
+
+    By clicking on the ``Cancel`` button, the user will be re-directed to the `Family Overview Page <#family-overview-page.>`__.
+
+Adding an Insuree
+"""""""""""""""""
+
+  Click on the Green Plus Sign to re-direct to the `Insuree Page <#insuree-page>`__\.
+
+  When the page opens all entry fields are empty. See the `Insuree Page <#insuree-page>`__ for information on the data entry and mandatory fields.
+
+Editing an Insuree
+""""""""""""""""""
+
+  Click on the Yellow Pencil Sign to re-direct to the `Insuree Page <#insuree-page>`__\.
+
+  The page will open with the current information loaded into the data entry fields. See the Insuree Page for information on the data entry and mandatory fields.
+
+Deleting an Insuree
+"""""""""""""""""""
+
+  Click on the Red Cross Sign to delete the currently selected record.
+
+  Before deleting a confirmation popup (:ref:`Image 127<image127>`) is displayed, which requires the user to confirm if the action should really becarried out?
+
+  .. _image127:
+  .. figure:: /img/user_manual/image24.png
+    :align: center
+
+    `Image 127 - Delete confirmation- Button Panel`
+
+  When an insuree is deleted, all records retaining to the deleted insuree will still be available by selecting historical records.
+
 Find Insuree
-^^^^^^^^^^^^
+""""""""""""
 
   Access to the Find Insuree Page is restricted to users with the role of Accountant, Clerk and Health Facility Receptionist.
 
 Pre-conditions
-""""""""""""""
+
 
   Need to enquire on, or edit an insuree, and the family/group, policies and contributions associated.
 
 Navigation
-""""""""""
+
 
   All functionality for use with the administration of insurees can be found under the main menu ``Insurees and Policies``, sub menu ``Insurees``.
 
@@ -22,7 +175,7 @@ Navigation
   Clicking on the sub menu ``Insurees`` re-directs the current user to the Find Insuree Page.
 
 Find Insuree Page
-"""""""""""""""""
+
 
   .. _image96:
   .. figure:: /img/user_manual/image76.png
