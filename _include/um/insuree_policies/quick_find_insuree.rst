@@ -35,8 +35,6 @@ This functionality is available to users will all roles. The function Insuree En
 
       - Level of FSP
 
-
-
   .. _insuree_card_img:
   .. figure:: /img/user_manual/insuree_enquiry.png
     :align: center
