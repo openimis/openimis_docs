@@ -146,11 +146,11 @@ Enrolment Officer Page
 
  #. **Data Entry**
 
-    .. _image65:
-    .. figure:: /img/user_manual/image54.png
-      :align: center
+    .. _enrolment_officer_page_img:
+    .. figure:: /img/user_manual/enrolment_officer_page.png
+       :align: center
 
-      `Image 65 - Enrolment Officer Page`
+       `Image - Enrolment Officer Page`
 
     ``Enrolment Officers Details``
 
@@ -235,6 +235,18 @@ Enrolment Officer Page
     * ``Date of Birth``
 
       Enter the date of birth for the Village Executive officer. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
+
+    * ``Include Login``
+
+      Enable the enrolement officer to use openIMIS web by creating web credentials (enrolement officer primary interface is the enrolment application running on andriod device that doesn't require openIMIS user), the change must be saved to be taken into account.
+
+        .. _enrolment_officer_page_login:
+        .. figure:: /img/user_manual/enrolment_officer_login.png
+           :align: center
+
+           `Image - Enrolment Officer Login`
+
+      Once the login is created, it will be visible in the `User Control Page <#user-control-page>`__
 
  #. **Saving**
 
