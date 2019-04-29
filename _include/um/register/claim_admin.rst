@@ -180,7 +180,7 @@ Claim Administrator Page
 
     * ``Include Login``
 
-      Enable the claim administrator to use openIMIS web by creating web credentials (claim administrators primary interface is the claim application running on andriod device that doesn't require openIMIS user), the change must be saved to be taken into account.
+      Enable the claim administrator to use openIMIS web by creating web credentials (claim administrators primary interface is the claim application running on android device that doesn't require openIMIS user), the change must be saved to be taken into account.
 
         .. _claim_administrator_page_login:
         .. figure:: /img/user_manual/enrolment_officer_login.png
