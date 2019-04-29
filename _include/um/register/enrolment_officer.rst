@@ -238,7 +238,7 @@ Enrolment Officer Page
 
     * ``Include Login``
 
-      Enable the enrolement officer to use openIMIS web by creating web credentials (enrolement officer primary interface is the enrolment application running on andriod device that doesn't require openIMIS user), the change must be saved to be taken into account.
+      Enable the enrolement officer to use openIMIS web by creating web credentials (enrolement officers primary interface is the enrolment application running on andriod device that doesn't require openIMIS user), the change must be saved to be taken into account.
 
         .. _enrolment_officer_page_login:
         .. figure:: /img/user_manual/enrolment_officer_login.png
