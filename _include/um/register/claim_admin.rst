@@ -142,8 +142,8 @@ Claim Administrator Page
 
  #. **Data Entry**
 
-    .. _image73:
-    .. figure:: /img/user_manual/image59.png
+    .. _claim_administrator_page_ü:
+    .. figure:: /img/user_manual/enrolment_officer_login.png
       :align: center
 
       `Image 73 - Claim Administrator Page`
@@ -177,6 +177,18 @@ Claim Administrator Page
     * ``HF Code``
 
       Select from the list of available health facilities the health facility which the claim administrator will have access to and will act for. Mandatory.
+
+    * ``Include Login``
+
+      Enable the claim administrator to use openIMIS web by creating web credentials (claim administrators primary interface is the claim application running on andriod device that doesn't require openIMIS user), the change must be saved to be taken into account.
+
+        .. _claim_administrator_page_login:
+        .. figure:: /img/user_manual/enrolment_officer_login.png
+           :align: center
+
+           `Image - Claim Administrator Login`
+
+      Once the login is created, it will be visible in the `User Control Page <#user-control-page>`__
 
  #. **Saving**
 
