@@ -9,131 +9,17 @@ Web application user manual
   .. The following conventions are used:
     - `<Hyperlink>`_  enable a quick link (using the online version) to the subject relating to the functionality,
     - **Item** means an item in a drop down list,
-    * ``LABEL`` means a data field or a button,
+    - ``LABEL`` means a data field or a button,
     - _NAME_OF_PAGE_ means a name of page or a data field in a text without hyperlink.
 
-Users’ roles and rights
------------------------
 
-  .. list-table:: Table 9.1 Overview of Scheme administrator & district Staff roles
-      :widths: 2 6 4
-      :header-rows: 1
-      :stub-columns: 1
-      :class: longtable
+Users and logins
+----------------
 
-      * - **Role**
-        - **Responsibilities**
-        - **Available functionality**
-
-      * - Enrolment Officer
-        - He/she enrols insurees and submits enrolment forms to a health insurance administration; handles policy modifications; collects feedback from scheme patients and submits to the health insurance administration.
-        - | * Capture a photo of an Insuree.
-          | * Send a photo
-          | * Inquiry on an Insuree
-          | * Collect feedback from an Insuree
-
-      * - | Village Executive
-          | Officer (VEO)
-        - He/she collects feedbacks and collects changes on insurees during insurance periods
-        - | * Collect feedback from an Insuree
-          | * Inquiry on an Insuree
-
-      * - Manager
-        - Oversees operations of the health insurance scheme;runs openIMIS operational reports analyses data generated from the IMIS.
-        - | * Create managerial statistics
-          | * Authorize issuance of a substitution
-          | * membership card
-
-      * - Accountant
-        - Transfers data on collected Contributions to an external accounting system. Calculates claim amounts per health facility, runs openIMIS operational reports and presents claims decision overview to management of a health insurance administrator. Processes approved claims to health facility sub-accounts.
-        - | * Transfer of data on Contributions to accounting system
-          | * Valuation of a claim
-          | * Transfer of a batch of claims for payment
-
-      * - Clerk
-        - Enters and modifies data on families, insurees, policies and contributions. Enters data on claims if the claims are submitted in a paper form.
-        - | * `Creation/ Search/ Modification/ Deletion/ Modification <#family-group-page>`__ of a `household/group <#family-overview-page>`__, an `Insuree <#insuree-page>`_, a `Policy <#policy-page>`__ or a `Contribution <#contribution-page>`__.
-          | * `Renewal of a policy <#policy-renewals>`__
-          | * `Entry of a claim <#claim-page>`__
-
-      * - Medical Officer
-        - Provides technical advice on claims verification from a medical standpoint.
-        - | * Checking of a claim for plausibility
-          | * `Review of a claim <#policy-renewals>`__
-          | * `Authorize a claim for payment <#claim-page>`__
-
-      * - | Scheme
-          | Administrator
-        - Administers registers (all except the register of users)
-        - | * `Administer registers <#administration-of-registers>`__ ( `Officers, Payers, Health Facilities <#health-facilities-administration>`__, , `Medical Services, Medical Items, Medical Item Price Lists, Medical Services Price List <#medical-service-price-lists-administration>`__, `Products <#claim-administrators-administration>`__)
-          | * `Extract Creation for Off-line Health Facilities <#imis-extracts-online-mode>`__
-
-      * - | openIMIS
-          | Administrator
-        - Administers operations of the IMIS. Is responsible for backups of data.
-        - | * Administer the register of `users <#user_administration>`__, `Utilities <#utilities>`__
-          | * Manage `Backup <#backup>`__, `Restore <#restore>`__ and `Updates <#execute-script>`__
-          | * `Extract Creation for Off-line Health Facilities <#imis-extracts-online-mode>`__
-
-  .. list-table:: Table 9.1 Overview of Health Facilities staff roles
-      :widths: 2 6 4
-      :header-rows: 1
-      :stub-columns: 1
-
-      * - **Role**
-        - **Responsibilities**
-        - **Available functionality**
-      * - Receptionist
-        - Verifies membership and issues to a patient a claim form.
-        - | * Inquiring on a Household/group, `Insuree <#find-insuree>`__ and `Policy <#find-policy>`__
-
-      * - | Claim
-          | Administrator
-        - Pools claim forms of a health facility, enters and submits claims.
-        - | * Opening of a batch of claims
-          | * Entry of a claim
-
-      * - | HF
-          | Administrator
-        - Off-line HealthFacility administration
-        - | * `Off-line extract upload <#imis-extracts-offline-mode>`__
-
-      * - | Offline HF
-          | Administrator
-        - Off-line HealthFacility administration
-        - | * Creation of clerk
-          | * Creation of offline Extract
-
-Login Access
-------------
-
-  To access the software, Users, must have a valid User Name and Password, provided by the “IMIS Administrator”. In the browser address bar type URL of the openIMIS and request the start page. Login page will appear (:ref:`Image 1<image1>`).
-
-  .. _image1:
-  .. figure:: /img/user_manual/image1.png
-    :align: center
-
-    `Image 1 - User Login`
-
-  Use the provided Login Name and Password, and click on the button Login. If successful, the system will re-direct to the Home Page (:ref:`Image 2<image2>`).
-
-  .. _image2:
-  .. figure:: /img/user_manual/image2.png
-    :align: center
-
-    `Image 2 - Home Page`
-
-  The full menu is displayed; Clicking on the menu headers will display a sub-menu providing further navigation options. Menus with a blue fore-colour are accessible, while menus with a grey fore-colour are disabled; either due to access rights of a user or unavailable functionality. Below the main menu at the top left-hand corner there is information about the current login user: Login Name, a list of roles acquired by the user and the districts to which the user has access.
-
-  When a password is forgotten, clicking ``Forgot Password?`` results in the Forgot ``Password Page`` (:ref:`Image 3<image3>`).
-
-  .. _image3:
-  .. figure:: /img/user_manual/image3.png
-    :align: center
-
-    `Image 3 - Forgot Password Page`
-
-  Enter the ``Email`` linked to the account and click on the ``Submit`` button. In case the ``Email`` coincides with the e-mail address provided with the user in the register of users, the forgotten password is sent to the indicated e-mail.
+.. include:: /_include/um/user_login/user_role.rst
+.. include:: /_include/um/user_login/login.rst
+.. include:: /_include/um/user_login/forgotten_password.rst
+.. include:: /_include/um/user_login/password_change.rst
 
 Administration of registers
 ---------------------------
@@ -4633,58 +4519,6 @@ Email settings page
 
         Check to box if the SMTP mail server require encryption
 
-Password change
----------------
-
-  Any user can change his/her password by adjustment of his/her profile.
-
-Navigation
-^^^^^^^^^^
-
-  Functionality for changing of a password can be in the menu ``My Profile``, sub menu ``Change Password``
-
-  .. _image249:
-  .. figure:: /img/user_manual/image216.png
-    :align: center
-
-    `Image 249 - Navigation Change Password`
-
-  Clicking on the sub menu ``Change Password`` re-directs the current user to the `Change Password Page. <#image-7.2-change-password-page>`__
-
-Change Password Page
-^^^^^^^^^^^^^^^^^^^^
-
- #. **Data Entry**
-
-    .. _image250:
-    .. figure:: /img/user_manual/image217.png
-      :align: center
-
-      `Image 250 - Change Password Page`
-
-    * ``Current Password``
-
-      Enter the password of the current user.
-
-    * ``New Password``
-
-      Enter a new password of the current user. The password should have at least 8 alphanumeric characters with at least one digit.
-
-    * ``Confirm Password``
-
-      Repeat the new password of the current user.
-
- #. **Saving**
-
-    Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Home Page <#image-2.2-home-page>`__. A message confirming that the new password has been saved will appear at the bottom.
-
- #. **Mandatory data**
-
-    If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk on the right side of the corresponding field).
-
- #. **Cancel**
-
-    By clicking on the Cancel button, the user will be re-directed to the `Home Page <#image-2.2-home-page>`__
 
 Offline mode
 ------------
