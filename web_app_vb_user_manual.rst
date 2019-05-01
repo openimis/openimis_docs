@@ -16,7 +16,6 @@ Web application user manual
 Users and logins
 ----------------
 
-.. include:: /_include/um/user_login/user_role.rst
 .. include:: /_include/um/user_login/login.rst
 .. include:: /_include/um/user_login/forgotten_password.rst
 .. include:: /_include/um/user_login/password_change.rst
@@ -35,6 +34,7 @@ Administration of registers
 .. include:: /_include/um/register/service_price_list.rst
 .. include:: /_include/um/register/item_price_list.rst
 .. include:: /_include/um/register/user.rst
+.. include:: /_include/um/register/user_roles.rst
 .. include:: /_include/um/register/enrolment_officer.rst
 .. include:: /_include/um/register/claim_admin.rst
 .. include:: /_include/um/register/payer.rst
