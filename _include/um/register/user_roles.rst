@@ -151,6 +151,7 @@ User role/profile Page
             - Process
 
           - Claim Batch:
+
             - Process
 
             - Filter
@@ -195,7 +196,7 @@ User role/profile Page
           - Duplicate Pricelists – Medical Services
 
           - Duplicate Pricelists – Medical Items
-          
+
           - Duplicate User roles/profiles
 
           - Move Locations
