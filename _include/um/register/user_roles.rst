@@ -16,18 +16,18 @@ Navigation
 
     `Image - Navigation User Roles/profiles`
 
-  Clicking on the sub menu ``Users`` re-directs the current user to the `User roles/profiels control page <#user-roles-profiles-control-page>`__\ .
+  Clicking on the sub menu ``Users`` re-directs the current user to the `User roles/profiles control page <#user-roles-profiles-control-page>`__\ .
 
   .. _user_roles_control_page:
   .. figure:: /img/user_manual/user_roles_control_page.png
     :align: center
 
-    `Image - User roles/profile controle page`
+    `Image - User roles/profile control page`
 
-User roles/profiles controle page
+User roles/profiles control page
 """""""""""""""""""""""""""""""""
 
-The ``User roles/profile control page`` is the central point for all user roles/profiles administration. By having access to this page, it is possible to add, edit, delete and search users roles/profiles. The page is divided into four panels (:ref:`Image User roles/profiles controle page<user_roles_control_page>`).
+The ``User roles/profile control page`` is the central point for all user roles/profiles administration. By having access to this page, it is possible to add, edit, delete and search users roles/profiles. The page is divided into four panels (:ref:`Image User roles/profiles control page<user_roles_control_page>`).
 
 
  #. **Search Panel**
@@ -68,7 +68,7 @@ The ``User roles/profile control page`` is the central point for all user roles/
       * Yellow background: hovered records
       * Strikethrough: historical records
 
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image User roles/profile controle page<user_roles_control_page>`)
+    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image User roles/profile control page<user_roles_control_page>`)
 
  #. **Button Panel**
 
@@ -201,7 +201,7 @@ User role/profile Page
           - Move Locations
 
     * ``Tools``
-    
+
       list of the business rights available for the `Tools` module
 
         * Register
@@ -328,7 +328,7 @@ Deleting a User role/profile
 
   Click on the Delete button to delete the currently selected record
 
-  Before deleting a confirmation popup (:ref:` Image User roles/profile delete confirmation<user_role_delete>`) is displayed, this requires the user to confirm if the action should really be carried out.
+  Before deleting a confirmation popup (:ref:`Image User roles/profile delete confirmation <user_role_delete>`) is displayed, this requires the user to confirm if the action should really be carried out.
 
       .. _user_role_delete:
       .. figure:: /img/user_manual/user_role_delete.png
