@@ -2695,15 +2695,19 @@ Moving a District, Municipality, Village
 
     The Information Panel is used to display messages back to the user. Messages will occur once a district, municipality or village has been moved or if there was an error at any time during the process of this action.
 
-Insurees and Policies
----------------------
+Group/family, Insurees and Policies
+-----------------------------------
+
+In openIMIS the policies are assigned to group only, if a policy need to be assigned to an individual then a group of one must be created.
+
+Because of this approach, the `Family Overview Page <#family-overview-page>`__ is the starting point to manage, insuree (add, edit), policies(add, edit, renew ...) and contribution
 
 .. include:: /_include/um/insuree_policies/quick_find_insuree.rst
-.. include:: /_include/um/insuree_policies/find_family.rst
-.. include:: /_include/um/insuree_policies/find_insuree.rst
-.. include:: /_include/um/insuree_policies/find_policy.rst
-.. include:: /_include/um/insuree_policies/find_contribution.rst
-.. include:: /_include/um/insuree_policies/family_overview.rst
+.. include:: /_include/um/insuree_policies/family.rst
+.. include:: /_include/um/insuree_policies/insuree.rst
+.. include:: /_include/um/insuree_policies/policy.rst
+.. include:: /_include/um/insuree_policies/contribution.rst
+
 
 Claims
 ------

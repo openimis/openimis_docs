@@ -1,15 +1,16 @@
+Contribution
+^^^^^^^^^^^^
+
 Find Contribution
-^^^^^^^^^^^^^^^^^
+"""""""""""""""""
 
   Access to the Find Contribution Page is restricted to users with the role of Accountant or Clerk.
 
 Pre-conditions
-""""""""""""""
 
   Need to enquire on, or edit a contribution, or the family/group, insurees and policies associated.
 
 Navigation
-""""""""""
 
   Find Contribution can be found under the main menu ``Insurees and Policies``, sub menu ``Contributions``
 
@@ -22,7 +23,6 @@ Navigation
   Clicking on the sub menu ``Contributions`` re-directs the current user to the `Find Contribution Page <#_Image_4.22_(Find>`__\.
 
 Find Contribution Page
-""""""""""""""""""""""
 
   .. _image108:
   .. figure:: /img/user_manual/image84.png
@@ -132,3 +132,109 @@ Find Contribution Page
  #. **Information Panel**
 
     The Information Panel is used to display messages back to the user. Messages will occur once a contribution has been added, updated or deleted or if there was an error at any time during the process of these actions.
+
+Contribution Page
+"""""""""""""""""
+
+ #. **Data Entry**
+
+    .. _image130:
+    .. figure:: /img/user_manual/image104.png
+      :align: center
+
+      `Image 130 - Contribution Page`
+
+    * ``Payer``
+
+      Select from the list of available (institutional) payers the payer of the contribution (if the contribution is not paid by the family/group itself).
+
+    * ``Contribution Paid``
+
+      Enter the paid amount for the contribution. Mandatory.
+
+    * ``Receipt No.``
+
+      Enter the receipt identification for the contribution. Receipt identification has to be unique within all policies of the insurance product. Mandatory.
+
+    * ``Payment Date``
+
+      Enter the date of payment for the contribution. Mandatory. *Note: You can also use the button next to the date of payment field to select a date to be entered.*
+
+    * ``Payment Type``
+
+      Select from the list of available types of payment the payment type of the contribution. Mandatory.
+
+ #. **Saving**
+
+    Once all mandatory data is entered, clicking on the ``Save`` button will save the record. Depending on the contribution paid, the following messages will appear.
+
+      a) If the Contribution paid matches the price of the policy:
+
+      .. _image131:
+      .. figure:: /img/user_manual/image105.png
+        :align: center
+
+        `Image 131`
+
+      b) If the contribution paid is lower than the price of the policy:
+
+      .. _image132:
+      .. figure:: /img/user_manual/image106.png
+        :align: center
+
+        `Image 132`
+
+      Followed by:
+
+      .. _image133:
+      .. figure:: /img/user_manual/image107.png
+        :align: center
+
+        `Image 133`
+
+      If you choose **Yes**, the policy will be (enforced) set as **Active**. If you choose No, it will remain **Idle**.
+
+      c) If the contribution is higher than the price of the policy:
+
+      .. _image134:
+      .. figure:: /img/user_manual/image108.png
+        :align: center
+
+        `Image 134`
+
+      The user will then be re-directed back to the `Family Overview Page <#family-overview-page.>`__\ , with the newly saved record displayed and selected in the result panel. A message confirming that the contribution has been saved will appear on the Information Panel.
+
+ #. **Mandatory data**
+
+    If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk).
+
+ #. **Cancel**
+
+    By clicking on the ``Cancel`` button, the user will be re-directed to the `Family Overview Page <\l>`__ .
+
+Adding a Contribution
+"""""""""""""""""""""
+
+  Click on the ``Green Plus Sign`` to re-direct to the `Contribution Page. <#contribution-page>`__
+
+  When the page opens all entry fields are empty. See the `Contribution Page <#contribution-page>`__ for information on the data entry and mandatory fields.
+
+Editing a Contribution
+""""""""""""""""""""""
+
+  Click on the ``Yellow Pencil`` Sign to re-direct to the `Contribution Page <#contribution-page>`__. The `Contribution Page <#contribution-page>`__ will open with the current information loaded into the data entry fields. See the `Contribution Page <#contribution-page>`__ for information on the data entry and mandatory fields.
+
+Deleting a Contribution
+^^^^^^^^^^^^^^^^^^^^^^^
+
+  Click on the Red Cross Sign button to delete the currently selected record.
+
+  Before deleting a confirmation popup (:ref:`Image 135<image135>`) is displayed, which requires the user to confirm if the action should really be carried out?
+
+  .. _image135:
+  .. figure:: /img/user_manual/image109.png
+    :align: center
+
+    `Image 135 - Delete confirmation- Button Panel`
+
+  When a contribution is deleted, all records retaining to the deleted contribution will still be available by selecting historical records.
