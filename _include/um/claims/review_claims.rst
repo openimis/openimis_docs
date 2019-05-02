@@ -350,95 +350,103 @@ Claim Review Page
 
       Claim status is shown on the very bottom right end side after the two grids. This is status which claim gets after submission.
 
-    * ``rejection reason``
-
-      The last column of each of the two grids, headed with character  '**R**', gives rejection reason number for each of the claimed services or claimed items in the claim services grid or the claim items grid respectively. Rejection reasons are as follows:
-
-    +-----------------------------------+-----------------------------------+
-    | Reason Code                       | Reason Description                |
-    +===================================+===================================+
-    | -1                                | Rejected by a medical officer     |
-    +-----------------------------------+-----------------------------------+
-    | 0                                 | Accepted                          |
-    +-----------------------------------+-----------------------------------+
-    | 1                                 | Item/Service not in the registers |
-    |                                   | of medical items/services         |
-    +-----------------------------------+-----------------------------------+
-    | 2                                 | Item/Service not in the           |
-    |                                   | pricelists associated with the    |
-    |                                   | health facility                   |
-    +-----------------------------------+-----------------------------------+
-    | 3                                 | Item/Service is not covered by an |
-    |                                   | active policy of the patient      |
-    +-----------------------------------+-----------------------------------+
-    | 4                                 | Item/Service doesn’t comply with  |
-    |                                   | limitations on patients           |
-    |                                   | (men/women, adults/children)      |
-    +-----------------------------------+-----------------------------------+
-    | 5                                 | Item/Service doesn’t comply with  |
-    |                                   | frequency constraint              |
-    +-----------------------------------+-----------------------------------+
-    | 6                                 | Item/Service duplicated           |
-    +-----------------------------------+-----------------------------------+
-    | 7                                 | Not valid insurance number        |
-    +-----------------------------------+-----------------------------------+
-    | 8                                 | Diagnosis code not in the current |
-    |                                   | list of diagnoses                 |
-    +-----------------------------------+-----------------------------------+
-    | 9                                 | Target date of provision of       |
-    |                                   | health care invalid               |
-    +-----------------------------------+-----------------------------------+
-    | 10                                | Item/Service doesn’t comply with  |
-    |                                   | type of care constraint           |
-    +-----------------------------------+-----------------------------------+
-    | 11                                | Maximum number of in-patient      |
-    |                                   | admissions exceeded               |
-    +-----------------------------------+-----------------------------------+
-    | 12                                | Maximum number of out-patient     |
-    |                                   | visits exceeded                   |
-    +-----------------------------------+-----------------------------------+
-    | 13                                | Maximum number of consultations   |
-    |                                   | exceeded                          |
-    +-----------------------------------+-----------------------------------+
-    | 14                                | Maximum number of surgeries       |
-    |                                   | exceeded                          |
-    +-----------------------------------+-----------------------------------+
-    | 15                                | Maximum number of deliveries      |
-    |                                   | exceeded                          |
-    +-----------------------------------+-----------------------------------+
-    | 16                                | Maximum number of provisions of   |
-    |                                   | item/service exceeded             |
-    +-----------------------------------+-----------------------------------+
-    | 17                                | Item/service cannot be covered    |
-    |                                   | within waiting period             |
-    +-----------------------------------+-----------------------------------+
-    | 18                                | N/A                               |
-    +-----------------------------------+-----------------------------------+
-    | 19                                | Maximum number of antenatal       |
-    |                                   | contacts exceeded                 |
-    +-----------------------------------+-----------------------------------+
-
-    * ``Services and Items data entry grids.``
-
-      1. ``Approved Quantity (app.qty)``
-
-        Enter a number of approved provisions of the corresponding medical service or item.
-
-      2. ``Approved Price (app. price)``
-
-        Enter an approved price of the corresponding medical service or item.
-
-      3. ``justification``
-
-        Enter justification for the entered corrections of the price and quantity of the medical service or item.
-
-      4. ``status``
-
-        Select either the status in the claim **Passed** or **Rejected** for the corresponding medical service or item respectively.
-
     * ``Adjustment``
 
       Enter a text summarizing adjustments in claim done by a medical officer.
+
+    * **Services and Items data entry grids.**
+
+      #. ``Approved Quantity (app.qty)``
+
+         Enter a number of approved provisions of the corresponding medical service or item.
+
+      #. ``Approved Price (app. price)``
+
+         Enter an approved price of the corresponding medical service or item.
+
+      #. ``justification``
+
+         Enter justification for the entered corrections of the price and quantity of the medical service or item.
+
+      #. ``status``
+
+         Select either the status in the claim **Passed** or **Rejected** for the corresponding medical service or item respectively.
+
+      #. ``rejection reason``
+
+         The last column of each of the two grids, headed with character  '**R**', gives rejection reason number for each of the claimed services or claimed items in the claim services grid or the claim items grid respectively. Rejection reasons are as follows:
+
+         The rejection description is displayed on the screen when the mouse pointer is above the given line (:ref:`Image Rejection Description <rejection_desk_img>`)
+
+         .. _rejection_desk_img:
+         .. figure:: /img/user_manual/rejection_desc.png
+            :align: center
+
+            `Image  Rejection Description`
+
+        +-----------------------------------+-----------------------------------+
+        | Reason Code                       | Reason Description                |
+        +===================================+===================================+
+        | -1                                | Rejected by a medical officer     |
+        +-----------------------------------+-----------------------------------+
+        | 0                                 | Accepted                          |
+        +-----------------------------------+-----------------------------------+
+        | 1                                 | Item/Service not in the registers |
+        |                                   | of medical items/services         |
+        +-----------------------------------+-----------------------------------+
+        | 2                                 | Item/Service not in the           |
+        |                                   | pricelists associated with the    |
+        |                                   | health facility                   |
+        +-----------------------------------+-----------------------------------+
+        | 3                                 | Item/Service is not covered by an |
+        |                                   | active policy of the patient      |
+        +-----------------------------------+-----------------------------------+
+        | 4                                 | Item/Service doesn’t comply with  |
+        |                                   | limitations on patients           |
+        |                                   | (men/women, adults/children)      |
+        +-----------------------------------+-----------------------------------+
+        | 5                                 | Item/Service doesn’t comply with  |
+        |                                   | frequency constraint              |
+        +-----------------------------------+-----------------------------------+
+        | 6                                 | Item/Service duplicated           |
+        +-----------------------------------+-----------------------------------+
+        | 7                                 | Not valid insurance number        |
+        +-----------------------------------+-----------------------------------+
+        | 8                                 | Diagnosis code not in the current |
+        |                                   | list of diagnoses                 |
+        +-----------------------------------+-----------------------------------+
+        | 9                                 | Target date of provision of       |
+        |                                   | health care invalid               |
+        +-----------------------------------+-----------------------------------+
+        | 10                                | Item/Service doesn’t comply with  |
+        |                                   | type of care constraint           |
+        +-----------------------------------+-----------------------------------+
+        | 11                                | Maximum number of in-patient      |
+        |                                   | admissions exceeded               |
+        +-----------------------------------+-----------------------------------+
+        | 12                                | Maximum number of out-patient     |
+        |                                   | visits exceeded                   |
+        +-----------------------------------+-----------------------------------+
+        | 13                                | Maximum number of consultations   |
+        |                                   | exceeded                          |
+        +-----------------------------------+-----------------------------------+
+        | 14                                | Maximum number of surgeries       |
+        |                                   | exceeded                          |
+        +-----------------------------------+-----------------------------------+
+        | 15                                | Maximum number of deliveries      |
+        |                                   | exceeded                          |
+        +-----------------------------------+-----------------------------------+
+        | 16                                | Maximum number of provisions of   |
+        |                                   | item/service exceeded             |
+        +-----------------------------------+-----------------------------------+
+        | 17                                | Item/service cannot be covered    |
+        |                                   | within waiting period             |
+        +-----------------------------------+-----------------------------------+
+        | 18                                | N/A                               |
+        +-----------------------------------+-----------------------------------+
+        | 19                                | Maximum number of antenatal       |
+        |                                   | contacts exceeded                 |
+        +-----------------------------------+-----------------------------------+
 
  #. **Saving**
 
