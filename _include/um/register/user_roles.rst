@@ -118,8 +118,6 @@ User role/profile Page
 
           - Contribution
 
-          - Payment
-
         * Business specific roles
 
           - Renew policy
