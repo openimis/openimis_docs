@@ -40,7 +40,7 @@ Batch Run Control Page
 
     * ``District``
 
-      Select the ``district``; from the list of districts by clicking on the arrow on the right of the selector to select a district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected. If no district is selected then the processing is done only for insurance product defined for the selected region.*
+      Select the ``district``; from the list of districts by clicking on the arrow on the right of the selector to select a district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is the only one then the district will be automatically selected. If no district is selected then the processing is done only for insurance product defined for the selected region.*
 
     * ``Month``
 

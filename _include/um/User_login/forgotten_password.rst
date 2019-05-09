@@ -35,4 +35,4 @@ Forgotten password
 
         `Image - New password confirmation`
 
-  #. the new credentials can be use in the `Login <#login>`__ page.
+  #. the new credentials can be used in the `Login <#login>`__ page.
