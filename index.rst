@@ -18,7 +18,6 @@ Welcome to the openIMIS technical documentation repository.
    web_service_vb_installation_guide
    windows_services_installation_guide
    mobile_applications_configuration
-   ar_installation_guide
 
 .. toctree::
    :maxdepth: 3
