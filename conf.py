@@ -22,7 +22,8 @@ import sys
 project = u'openIMIS'
 copyright = u'2018, openIMIS team'
 author = u'openIMIS team'
-
+html_logo = 'img/logo.png'
+html_favicon = 'img/favicon.ico'
 # The short X.Y version
 version = u''
 # The full version, including alpha/beta/rc tags
@@ -63,7 +64,8 @@ language = 'en'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path .
-exclude_patterns = [u'_build', 'Thumbs.db', '.DS_Store']
+
+exclude_patterns = [u'_build', 'Thumbs.db', '.DS_Store', u'_include', 'user_manual.tex', 'install_manual.tex']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -112,31 +114,47 @@ htmlhelp_basename = 'openIMISdoc'
 
 # -- Options for LaTeX output ------------------------------------------------
 
+
+latex_logo = 'img/logo.png'
+
+latex_engine = 'pdflatex'
+
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
-    # 'papersize': 'letterpaper',
+    'papersize': 'a4paper',
+    'release':"1.3",
+    # Sonny, Lenny, Glenn, Conny, Rejne, Bjarne and Bjornstrup
+    # 'fncychap': '\\usepackage[Lenny]{fncychap}',
+    'fontpkg': '\\usepackage{amsmath,amsfonts,amssymb,amsthm}',
 
     # The font size ('10pt', '11pt' or '12pt').
     #
-    # 'pointsize': '10pt',
+    'pointsize': '10pt',
 
     # Additional stuff for the LaTeX preamble.
     #
-    # 'preamble': '',
+    'preamble': r'''
+    ''',
 
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
+    'extraclassoptions': 'openany'
 }
-
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'openIMIS.tex', u'openIMIS Documentation',
-     u'openIMIS team', 'manual'),
+    ('index_usermanual', 'user_manual.tex', u'openIMIS user manual',
+     author, 'manual'),
+	 ('index_install', 'install_manual.tex', u'openIMIS installation documentation',
+     author, 'manual'),
 ]
+#latex_documents = [
+#    (master_doc, 'openIMIS.tex', u'openIMIS Documentation',
+#     u'openIMIS team', 'manual'),
+#]
 
 
 # -- Options for manual page output ------------------------------------------

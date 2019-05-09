@@ -1,3 +1,5 @@
+[![Documentation Status](https://readthedocs.org/projects/openimis/badge/?version=latest)](https://openimis.readthedocs.io/en/latest/?badge=latest)
+
 # openIMIS Documentation
 
 This repository contains all documentation of openIMIS:

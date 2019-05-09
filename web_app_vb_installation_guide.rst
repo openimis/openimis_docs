@@ -25,7 +25,7 @@ Follow these steps to install IIS:
 
     - In Application Development, select .NET Extensibility, ASP, ASP.NET, ISAPI Extensions, ISAPI Filters and Websocket Protocol
 
-    - Management tools -> Tick all boxes
+    - Management tools → Tick all boxes
 
 - Click on Install and wait for the features to be installed.
 - Restart the server if required
@@ -102,6 +102,7 @@ be given full control of the following folders:
 Repeat the following steps for each folder listed above:
 
 - Right click on the folder and select properties
+- Ensure that the folder is not read only
 - Select the Security tab
 - Click on Edit
 - Select IIS_IUSRS and allow full control (in the below section).
