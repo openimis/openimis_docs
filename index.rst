@@ -25,7 +25,7 @@ Welcome to the openIMIS technical documentation repository.
    :caption: User documentation
 
    web_app_vb_user_manual
-   ar_user_manual
+   
 
 .. Contents
    ==================
