@@ -64,18 +64,18 @@ The ``User roles/profile control page`` is the central point for all user roles/
 
       `Image  - User roles results panel`
 
-      * Blue background: Selected record
-      * Yellow background: hovered records
-      * Strikethrough: historical records
+    * Blue background: Selected record
+    * Yellow background: hovered records
+    * Strikethrough: historical records
 
     A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image User roles/profile control page<user_roles_control_page>`)
 
  #. **Button Panel**
 
-    * The ``Add`` button will `add a new role/profile <#adding-a-user-role-profile>`__.(not available if ``Historical`` was checked)
-    * The ``Edit`` button will `edit a role/profile <#editing-a-user-role-profile>`__.(not available if ``Historical`` was checked)
-    * The ``Duplicate`` bbutton will `duplicate a role/profile <#duplicating-a-user-role-profile>`__.(not available if ``Historical`` was checked)
-    * The ``Delete`` button will `deleting a role/profile <#addeleting-a-user-role-profile>`__.(not available if ``Historical`` was checked)
+    * The ``Add`` button will `add a new role/profile <#adding-a-user-role-profile>`__ (not available if ``Historical`` was checked)
+    * The ``Edit`` button will `edit a role/profile <#editing-a-user-role-profile>`__. not available if ``Historical`` was checked)
+    * The ``Duplicate`` bbutton will `duplicate a role/profile <#duplicating-a-user-role-profile>`__ (not available if ``Historical`` was checked)
+    * The ``Delete`` button will `deleting a role/profile <#addeleting-a-user-role-profile>`__ (not available if ``Historical`` was checked)
     * The ``Cancel`` button re-directs to the `Home Page <#image-2.2-home-page>`__.
 
  #. **Information Panel**
@@ -271,10 +271,6 @@ User role/profile Page
 
           - Rejected Photos
 
-          - Contribution Payment
-
-          - Control Number Assignment
-
         * Utilities/Email setting
 
           - Backup
@@ -312,7 +308,7 @@ Editing a User role/profile
 
   Click on the Edit button to re-direct to the  `User role/profile Page <#user-role-profile-page>`__.
 
-  The page will open with the current information loaded into the data entry fields. See the `User role/profile Page <#user-role-profile-page>`__. for information on the data entry and mandatory fields
+  The page will open with the current information loaded into the data entry fields. See the `User role/profile Page <#user-role-profile-page>`__. for information on the data entry and mandatory fields.
 
 Duplicating a User role/profile
 """""""""""""""""""""""""""""""
@@ -325,7 +321,7 @@ Duplicating a User role/profile
 Deleting a User role/profile
 """"""""""""""""""""""""""""
 
-  Click on the Delete button to delete the currently selected record
+  Click on the Delete button to delete the currently selected record.
 
   Before deleting a confirmation popup (:ref:`Image User roles/profile delete confirmation <user_role_delete>`) is displayed, this requires the user to confirm if the action should really be carried out.
 
@@ -340,7 +336,7 @@ Deleting a User role/profile
 Default User roles and rights
 """""""""""""""""""""""""""""
 
-The table below shows the default roles in openIMIS
+The table below shows the default roles in openIMIS.
 
   .. list-table:: Table 9.1 Overview of Scheme administrator & district Staff roles
       :widths: 2 6 4

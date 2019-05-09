@@ -294,7 +294,7 @@ Product Page
 
     * ``Type``
 
-      Displays the type of the medical service\
+      Displays the type of the medical service
 
     * ``Level``
 

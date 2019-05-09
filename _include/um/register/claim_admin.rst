@@ -30,7 +30,7 @@ Navigation
 Claim Administrators Control Page
 """""""""""""""""""""""""""""""""
 
-  The ``Claim Administrators Control Page`` is the central point for all claim administrators administration. By having access to this panel, it is possible to add, edit, delete and search claim administrators. The panel is divided into four panels (:ref:`Image 68<image68>`).
+  The ``Claim Administrators Control Page`` is the central point for the administration of all claim administrators. By having access to this panel, it is possible to add, edit, delete and search claim administrators. The panel is divided into four panels (:ref:`Image 68<image68>`).
 
  #. **Search Panel**
 

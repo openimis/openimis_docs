@@ -30,7 +30,7 @@ Navigation
 Enrolment Officers Control Page
 """""""""""""""""""""""""""""""
 
-  The Enrolment Officers Control Page is the central point for all enrolment officer administration. By having access to this page, it is possible to add, edit, delete and search. The page is divided into four panels (:ref:`Image 60<image60>`).
+  The Enrolment Officers Control Page is the central point for all Enrolment Officer administration. By having access to this page, it is possible to add, edit, delete and search. The page is divided into four panels (:ref:`Image 60<image60>`).
 
  #. **Search Panel**
 
@@ -238,7 +238,7 @@ Enrolment Officer Page
 
     * ``Include Login``
 
-      Enable the enrolement officer to use openIMIS web by creating web credentials (enrolement officers primary interface is the enrolment application running on android device that doesn't require openIMIS user), the change must be saved to be taken into account.
+      Enable the enrolment officer to use openIMIS web by creating web credentials (enrolment officers primary interface is the enrolment application running on android device that doesn't require openIMIS user), the change must be saved to be taken into account.
 
         .. _enrolment_officer_page_login:
         .. figure:: /img/user_manual/enrolment_officer_login.png
