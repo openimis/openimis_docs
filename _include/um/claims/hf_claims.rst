@@ -235,7 +235,7 @@ Claim Page
 
     * ``Main Dg.``
 
-      Select the code of the main diagnosisby typing text, all diagnoses containing the typed text will appear and be selectable underneath the box. Mandatory.
+      Select the code of the main diagnosis by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box. Mandatory.
 
     * ``Sec Dg 1``
 

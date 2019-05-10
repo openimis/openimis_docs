@@ -2,7 +2,7 @@
 Database installation guide
 ===========================
 
-**v1.2.0 and later**
+**v1.3.0**
 
 Install SQL Server
 ------------------
@@ -11,7 +11,7 @@ Note: This installation guide is based on SQL Server 2017.
 
 Download the desired version of SQL Server (for example, the Express version from https://www.microsoft.com/en-us/sql-server/sql-server-downloads).
 
-Open the setup file. Select New Installation or add feature to an existing installation.
+When the installation wizard opens, select the manual configuration option in order to fine tune the installation process.
 
 On the Features selection:
 
@@ -38,19 +38,22 @@ Initialise openIMIS database
 
 To facilitate the setting up of the openIMIS database, it is suggested to install `SQL Server Management Studio <https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms>`_ (SSMS). The following procedure is based on SSMS, but you can use the standard SQL Server prompt to proceed with the setup.
 
-First, download the openIMIS database backup files and migration scripts from Github repository (the source code ZIP file).
+First, download the openIMIS database SQL files and migration scripts from Github repository (the source code ZIP file).
 
+In SQL Server Management Studio:
 
+- Create a new database for the openIMIS instance (i.e. openIMIS.X.Y.Z where X.Y.Z is the openIMIS database version).
 
-- Restore the initial database provided in the release sources. 
+- Execute the initial database creation script provided in the release sources (from the ``Empty databases`` folder).  
 
     Choose the database to restore based on your context. There are 3 types of databases (structurally identical, but they are pre-configured differently):
+
         * Online: this is the default choice when deploying a central online server
         * Offline: this mode is sometime used for remote insurance offices without connectivity. Note: the synchronisation of data with the central server is manual.
         * Offline HF: this database can be used in remote health facilities without connectivity. Note: the synchronisation of data with the central server is manual.
 
     Restauration can be done in SQL Server Management Studio 
-    
+
     or the below command line can be used in a shell
 
         Becareful to addapt the querries to your setup, in the command lines example those assumptions were made:
@@ -75,7 +78,7 @@ First, download the openIMIS database backup files and migration scripts from Gi
     In SQL Server Management Studio
 
         * In the Object Explorer: openIMIS (the openIMIS db name) → Programmability → Stored Procedures → dbo.SETUP-IMIS
-        
+
         * Right click on the dbo.SETUP-IMIS and execute the procedure.
 
     or run this command in a shell
@@ -86,6 +89,20 @@ First, download the openIMIS database backup files and migration scripts from Gi
            SqlCmd -E -S SQL_Server_Name -d IMIS_DATABASENAME -Q "EXECUTE [SETUP-IMIS]"
 
     The result returned from the procedure should be 0.
+
+If you prefer to initialize the database using the shell:
+
+    Be careful to adapt the queries to your setup, in the command lines example those assumptions were made:
+
+        * ``Online`` database is to be initialized 
+        * The database is called ``IMIS_DATABASENAME`` 
+        * The SQL server is called ``SQL_Server_Name``
+
+    .. code-block:: dosbatch
+       :linenos:
+
+       SqlCmd -E –Q “CREATE DATABASE IMIS_DATABASENAME”
+       SqlCmd -E -S SQL_Server_Name -d IMIS_DATABASENAME –i X:\PathToSQLFile\openIMIS_ONLINE.sql
 
 Create a dedicated user with full privilege on the openIMIS database only:
 
@@ -105,14 +122,15 @@ Create a dedicated user with full privilege on the openIMIS database only:
 Upgrade the openIMIS database
 -----------------------------
 
-Before updating the database make sure the database is not reacheable (off line) for the applications (web, mobile,...)
+Before updating the database make sure the database is not reachable (off line) for the applications (web, mobile,...).
 
 If you want to update a production instance:
-    * Please duplicate the database 
-    * Execute the steps below on the copy of the database
-    * if the migrations scripts succeeded on the copy, then you can apply the migration scripts to the production instance.
 
-This approach will prevent impacting the production if the migration scripts failed because of customisations in your imis instances and it will give you an idee of the time required to update the database
+    * Please duplicate the database (create a full backup of the database)
+    * Execute the steps below on the copy of the database
+    * If the migration script succeeded on the copy, then you can apply the migration script to the production instance.
+
+This approach will prevent impacting the production if the migration script failed because of customizations in your openIMIS instance and it will give you an idea of the time required to update the database.
 
 If an existing openIMIS database exists already, follow the next steps to upgrade it to the desired version:
 
@@ -123,14 +141,24 @@ If an existing openIMIS database exists already, follow the next steps to upgrad
   or run this command in a shell
 
     Becareful to addapt the querries to your setup, in the command lines example those assumptions were made:
+
         * The database is called ``IMIS_DATABASENAME`` 
         * The SQL server is called ``SQL_Server_Name``
 
     .. code-block:: dosbatch
        :linenos:
 
+
        SqlCmd -E -S SQL_Server_Name –Q "BACKUP DATABASE [IMIS_DATABASENAME] TO DISK='X:PathToBackupLocation\[Name_of_Database].bak'"
 
-- Download the openIMIS database backup files and migration scripts from `Github repository <https://github.com/openimis/database_ms_sqlserver/releases/latest>`_ (the source code ZIP file).
+- Download the openIMIS database SQL files and migration scripts from `Github repository <https://github.com/openimis/database_ms_sqlserver/releases/latest>`_ (the source code ZIP file).
 
-- In SQL Server Management Studio, run the migration script on the openIMIS database.
+- In SQL Server Management Studio, run the migration script on the openIMIS database
+
+
+  or using the shell:
+
+  .. code-block:: dosbatch
+       :linenos:
+
+       SqlCmd -E -S SQL_Server_Name -d IMIS_DATABASENAME –i "X:\PathToMigrationScript\openIMIS migration v1.2.0 - v1.3.0.sql"

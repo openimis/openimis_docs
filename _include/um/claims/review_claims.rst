@@ -141,9 +141,9 @@ Claims Overview Page
 
     This panel is basically for functionality of updating multiple claims which are currently loaded in the Result Panel at once basing on the claim filter criteria available on this panel. The update on the claims is basically changing **Feedback Status** and **Review Status** of a claim from **Idle** to (**Not**) **Selected for Feedback** or (**Not**) **Selected for Review** respectively. The filters in this panel work on the claims which are currently loaded on the result panel. The combination of filters is either ``Select`` alone or ``Select`` and either ``Random`` or ``Value`` or ``Variance`` or combination of ``Value`` and ``Variance``.
 
-    * ``select``
+    * ``Select``
 
-      Is a selection dropdown box to select between **Review Select** and **Feedback Select** to filter only claims whose review status is **Idle** or feedback status is **Idle** respectively from among claims currently in the Result Panel.
+      A selection dropdown box to select between **Review Select** and **Feedback Select** to filter only claims whose review status is **Idle** or feedback status is **Idle** respectively from among claims currently in the Result Panel.
 
     * ``Random``
 
@@ -466,7 +466,7 @@ Claim Review Page
 
 Claim Feedback Page
 """""""""""""""""""
-    will show read-only information of the current claim selected for feedback, on the top section of the page it has input boxes where a user with the role Medical Officer can enter feedback on the current claim or where the user can read a feedback delivered by enrolment officers.
+    The Claim Feedback page will show read-only information of the current claim selected for feedback, on the top section of the page it has input boxes where a user with the role Medical Officer can enter feedback on the current claim or where the user can read a feedback delivered by enrolment officers.
 
  #. **Data Entry**
 
@@ -484,7 +484,7 @@ Claim Feedback Page
 
     * ``HF Name``
 
-      The health facility name which the claim belongs to
+      The health facility name which the claim belongs to.
 
     * ``Claim Administrator``
 

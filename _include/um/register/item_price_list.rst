@@ -6,7 +6,7 @@ Medical Item Price Lists Administration
 Pre-conditions
 """"""""""""""
 
-  A price list of medical items may only be added, after an agreement with a health facility or a group of health facilities on specific prices. Editing of the price list may occur only after an approval of the management of the scheme administration. Deletion of a price list of medical Items normally will occur when a price list becomes obsolete.
+  A price list of medical items may only be added, after an agreement with a health facility or a group of health facilities on specific prices. Editing of the price list may occur only after an approval of the management of the scheme administration. Deletion of a price list of medical items normally will occur when a price list becomes obsolete.
 
 Navigation
 """"""""""

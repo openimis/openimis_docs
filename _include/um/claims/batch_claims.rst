@@ -1,7 +1,7 @@
 Batch Run
 ^^^^^^^^^
 
-  Administration of batches of claims is restricted to users with the role of Accountant.
+  Administration of batches of claims is restricted to users with the role of Accountant or any custom role with selected rights to batch functionality.
 
 Pre-conditions
 """"""""""""""
@@ -9,7 +9,7 @@ Pre-conditions
 Navigation
 """""""""""
 
-  All functionality for use with the administration of processing of batches can be found under the main menu ``Claims``, sub menu ``Batch Run.``
+  All functionality for use with the administration of processing of batches can be found under the main menu ``Claims``, sub menu ``Batch Run``.
 
   .. _image162:
   .. figure:: /img/user_manual/image133.png
@@ -17,7 +17,7 @@ Navigation
 
     `Image 162 - Navigation Batch Run`
 
-  Clicking on the sub menu ``Batch Run`` re-directs the current user to the `Batch Run Control Page <#_Batch_Run_Control>`__.
+  Clicking on the sub menu ``Batch Run`` re-directs the current user to the `Batch Run Control Page <#batch-run-control-page>`__.
 
 Batch Run Control Page
 """"""""""""""""""""""
@@ -30,31 +30,31 @@ Batch Run Control Page
 
   The Batch Run Control Page is the central point for batch processing administration. Access to the page is restricted to users with the role of Accountant. By having access to this page, it is possible to process batches, filter, and filter for accounts. The panel is divided into six sections (:ref:`Image 163<image163>`)
 
- #. **Batch Processing Panel**  .
+ #. **Batch Processing Panel**  
 
     The batch processing panel allows a user to process batches based on the following criteria:
 
     * ``Region``
 
-      Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select a region. *Note: The list will only be filled with the regions assigned to the current logged in user and the option National.*
+      Select the ``Region`` from the list of regions by clicking on the arrow on the right of the selector to select a region. *Note: The list will only be filled with the regions assigned to the current logged in user and the option National.*
 
     * ``District``
 
-      Select the ``district``; from the list of districts by clicking on the arrow on the right of the selector to select a district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected. If no district is selected then the processing is done only for insurance product defined for the selected region.*
+      Select the ``district`` from the list of districts by clicking on the arrow on the right of the selector to select a district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is the only one then the district will be automatically selected. If no district is selected then the processing is done only for insurance product defined for the selected region.*
 
     * ``Month``
 
-      Select the ``month``; from the list of months by clicking on the arrow on the right of the selector.
+      Select the ``Month`` from the list of months by clicking on the arrow on the right of the selector.
 
     * ``Year``
 
-      Select the ``Year``; from the list of available years by clicking on the arrow on the right of the selector. Only periods for which a batch hasn’t been run yet are offered in both lists.
+      Select the ``Year`` from the list of available years by clicking on the arrow on the right of the selector. Only periods for which a batch hasn’t been run yet are offered in both lists.
 
-    * ``process``
+    * ``Process``
 
-      Once criteria are chosen, clicking on this process button, will process based on the selected criteria. If the option **National** was used in the field ``Region`` the batch is run only for nationwide insurance products. If a region is selected in the field ``Region`` and no district is selected the batch is run only for regional insurance products for the selected region. If a district is selected in the field district the batch is run only for district insurance products for the selected district.
+      Once criteria are chosen, clicking on this button, the claims will be processed based on the selected criteria. If the option ``National`` was used in the field ``Region``, the batch will run only for nationwide insurance products. If a region is selected in the field ``Region`` and no district is selected, the batch will run only for regional insurance products for the selected region. If a district is selected in the field ``District`` the batch is run only for district insurance products for the selected district.
 
- #. **Filter Panel**  .
+ #. **Filter Panel**  
 
     The filter panel allows a user to filter results of running of batches (calculation of indexes for relative pricing) based on the following criteria:
 
@@ -90,7 +90,7 @@ Batch Run Control Page
 
       Once criteria are chosen, clicking on this filter button will filter based on the selection criteria.
 
- #. **Display Panel**  .
+ #. **Display Panel**  
 
     The Display Panel is used to display results of running of batches after the filter or processing. While hovering over records, records get highlighted with a yellow colour (:ref:`Image 164<image164>`).
 
@@ -101,7 +101,7 @@ Batch Run Control Page
       `Image 164 - Selected record (blue), hovered records (yellow) - Result Panel`
 
 
- #. **Filter for Accounts Panel**  .
+ #. **Filter for Accounts Panel**  
 
     The Filter for Accounts Panel is used in filtering of batch protocols for an accounting system based on the following criteria:
 

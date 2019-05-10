@@ -484,7 +484,7 @@ Editing a Family/Group
 Changing a Head of Family/Group
 """""""""""""""""""""""""""""""
 
-  The head of the Family/Group is the main contact associated with a policy. For various reasons it may be necessary to change the head of a family/group. The new head must a head of family in another family.
+  The head of the Family/Group is the main contact associated with a policy. For various reasons it may be necessary to change the head of a family/group. The new head must be a head of family in another family.
 
   Enter the insurance number for the new head of family/group, click on check, to confirm that the insurance number is valid and that it really is the person expected. The name will appear to the right of the check button. If all is OK, click on the Change button to complete the change. On a successful change, the user will be re-directed back to the `Family Overview Page <#family-overview-page.>`__\ ; the new head will be displayed in the Family/Group Information Panel
 

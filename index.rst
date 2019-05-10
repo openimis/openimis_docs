@@ -18,14 +18,13 @@ Welcome to the openIMIS technical documentation repository.
    web_service_vb_installation_guide
    windows_services_installation_guide
    mobile_applications_configuration
-   ar_installation_guide
 
 .. toctree::
    :maxdepth: 3
    :caption: User documentation
 
    web_app_vb_user_manual
-   ar_user_manual
+   
 
 .. Contents
    ==================
