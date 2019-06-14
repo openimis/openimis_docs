@@ -4,7 +4,7 @@ Family/Group
 Find Family
 """""""""""
 
-  Access to the ``Find Family Page`` is restricted to users with the role of Accountant, Clerk and Health Facility Receptionist.
+  Access to the ``Find Family Page`` is restricted to users with the system roles of Accountant, Clerk and Health Facility Receptionist or with a role including an access to Insurees and Families/Family/Enquiry.
 
 Pre-conditions
 
@@ -165,7 +165,7 @@ Navigation
 Family/Group Overview
 """""""""""""""""""""
 
-  Access to the `Family Overview Page <#family-overview-page.>`__ is restricted to users with the role of Accountant or Clerk.
+  Access to the `Family Overview Page <#family-overview-page.>`__ is restricted to users with the system role of Accountant or Clerk or with a role including an access to Insurees and Families.
 
 Pre-conditions
 

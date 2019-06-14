@@ -4,7 +4,7 @@ Policy
 Find Policy
 """""""""""
 
-  Access to the ``Find Policy Page`` is restricted to users with the role of Accountant, Clerk or Health Facility Receptionist.
+  Access to the ``Find Policy Page`` is restricted to users with the role system roles of Accountant, Clerk or Health Facility Receptionist or with a role including an access to Insurees and Families/Policy/Search.
 
 Pre-conditions
 

@@ -1,7 +1,7 @@
 Medical Services Administration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-  The register of Medical Services contains all medical services that can be included in packages of benefits of insurance products administered and remunerated by the health insurance scheme. Administration of the register of medical services is restricted to users with the role of Scheme Administrator.
+  The register of Medical Services contains all medical services that can be included in packages of benefits of insurance products administered and remunerated by the health insurance scheme. Administration of the register of medical services is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Medical Services.
 
 Pre-conditions
 """"""""""""""

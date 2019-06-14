@@ -4,7 +4,7 @@ Contribution
 Find Contribution
 """""""""""""""""
 
-  Access to the Find Contribution Page is restricted to users with the role of Accountant or Clerk.
+  Access to the Find Contribution Page is restricted to users with the system roles of Accountant or Clerk or with a role including an access to Insurees and Families/Contribution/Search.
 
 Pre-conditions
 
@@ -238,3 +238,4 @@ Deleting a Contribution
     `Image 135 - Delete confirmation- Button Panel`
 
   When a contribution is deleted, all records retaining to the deleted contribution will still be available by selecting historical records.
+

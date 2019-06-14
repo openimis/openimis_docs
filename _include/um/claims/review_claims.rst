@@ -1,7 +1,7 @@
 Review claims
 ^^^^^^^^^^^^^
 
-  The functionality allows reviewing and adjustments of claims from medical point of view. Reviewing of claims is restricted to users with the role of Medical Officer
+  The functionality allows reviewing and adjustments of claims from medical point of view. Reviewing of claims is restricted to users with the system role of Medical Officer or with a role including an access to Claims/Claim/Review.
 
 Pre-conditions
 """"""""""""""
@@ -261,7 +261,7 @@ Claim Review Page
       `Image 159 - Claim Review Page`
 
 
-      ``Claim Review Page`` will show read-only information of the current claim selected for review, on the top section of the page, on some of the grid columns of the claim services grid and claim items grid and on the bottom of all the grids. As well, the page has input boxes where a user with the role Medical Officer can enter new relevant values for review of the current claim.
+      ``Claim Review Page`` will show read-only information of the current claim selected for review, on the top section of the page, on some of the grid columns of the claim services grid and claim items grid and on the bottom of all the grids. As well, the page has input boxes where a user with the system role Medical Officer or with a role including an access to Claims/Claim/Review can enter new relevant values for review of the current claim.
 
 
       Read-only information of the current claim includes the following:
@@ -466,7 +466,7 @@ Claim Review Page
 
 Claim Feedback Page
 """""""""""""""""""
-    The Claim Feedback page will show read-only information of the current claim selected for feedback, on the top section of the page it has input boxes where a user with the role Medical Officer can enter feedback on the current claim or where the user can read a feedback delivered by enrolment officers.
+    The Claim Feedback page will show read-only information of the current claim selected for feedback, on the top section of the page it has input boxes where a user with the system role Medical Officer or with a role including an access to Claims/Claim/Feedback can enter feedback on the current claim or where the user can read a feedback delivered by enrolment officers.
 
  #. **Data Entry**
 

@@ -1,7 +1,7 @@
 Insurance Products Administration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-  The register of insurance products contains all insurance products in the health insurance scheme. There may be several insurance products available for distribution/selling in a territory, e.g. one basic product and one or several supplemental insurance products. The insurance products may at the different levels. For example that basic insurance product may be at the national level whereas the supplemental insurance products may be at the regional level. Administration of the register of insurance products is restricted to users with the role of Scheme Administrator.
+  The register of insurance products contains all insurance products in the health insurance scheme. There may be several insurance products available for distribution/selling in a territory, e.g. one basic product and one or several supplemental insurance products. The insurance products may at the different levels. For example that basic insurance product may be at the national level whereas the supplemental insurance products may be at the regional level. Administration of the register of insurance products is restricted to users with the system role of Scheme Administrator or with a role including an access to Administratiom/Products.
 
 Pre-conditions
 """"""""""""""
@@ -432,6 +432,10 @@ Product Page
 
       Enter the assembly fee per member of a household/group. If assembly lump sum is non zero, assembly fee is not considered. Assembly fee is paid both at the first enrolment and renewals of policies.
 
+    * ``Recurrence``
+
+      Enter duration of the period in months after which registration fee/lump sum is applied again for a renewal. The period starts with the expiry date of the policy to be renewed.
+
     * ``Start Cycle 1``
 
     * ``Start Cycle 2``
@@ -654,7 +658,7 @@ Duplicating a Product
 
   Click on the ``Duplicate`` button to re-direct to the `Product Page <#claim-administrators-administration>`__\ .
 
-  The page will open with all the current information for the selected product, (except for the product code which should be unique), loaded into the data entry fields. See the `Product Page <#claim-administrators-administration>`__ for information on the data entry and mandatory fields. To save the record, enter a unique code before clicking on save.
+  The page will open with all the current information for the selected product, (except for the product code which should be unique), loaded into the data entry fields. See the `Product Page <#claim-administrators-administration>`__ for information on the data entry and mandatory fields. To save the record, enter a unique code before clicking on ``Save``.
 
 Deleting a Product
 """"""""""""""""""

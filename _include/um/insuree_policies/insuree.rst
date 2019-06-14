@@ -4,8 +4,7 @@ Insuree
 Find Insuree
 """"""""""""
 
-  Access to the Find Insuree Page is restricted to users with the role of Accountant, Clerk and Health Facility Receptionist.
-
+  Access to the Find Insuree Page is restricted to users with the system roles of Accountant, Clerk and Health Facility Receptionist or with a role including an access to Insurees and Families/Insuree/Search.
 Pre-conditions
 
 
@@ -153,6 +152,10 @@ Find Insuree Page
       `Image 100 - Page selector- Result Panel`
 
  #. **Button Panel**
+
+    The ``CLAIMS`` button directs to the  Claims Control Pages for the selected insure. The  Claims Control Pages is populated by the insurance number of the selected insuree. The CLAIMS button is available only if the user has a role that includes access to Claims/Claim/Search.
+
+    The ``CLAIMS REVIEWED`` button directs to the Claims Overview Page for the selected insure. The  Claims Overview Page is populated by the insurance number of the selected insuree. The CLAIMS REVIEWED button is available only if the user has a role that includes access to Claims/Claim/Review.
 
     The ``Cancel`` button re-directs to the ``Home Page``.
 

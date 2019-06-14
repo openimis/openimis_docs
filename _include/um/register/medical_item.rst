@@ -1,7 +1,7 @@
 Medical Items Administration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-  The register of Medical Items contains all medical items (drugs, prostheses) that can be included in packages of benefits of insurance products within the health insurance scheme and are remunerated by the scheme administration. Administration of the register of medical items is restricted to users with the role of Scheme Administrator
+  The register of Medical Items contains all medical items (drugs, prostheses) that can be included in packages of benefits of insurance products within the health insurance scheme and are remunerated by the scheme administration. Administration of the register of medical items is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Medical Items.
 
 Pre-conditions
 """"""""""""""
