@@ -146,6 +146,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
+    ('index', 'full_manual.tex', u'openIMIS installation and user manual',
+     author, 'manual'),
     ('index_usermanual', 'user_manual.tex', u'openIMIS user manual',
      author, 'manual'),
 	 ('index_install', 'install_manual.tex', u'openIMIS installation documentation',
