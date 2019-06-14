@@ -9,6 +9,13 @@ openIMIS documentation
 Welcome to the openIMIS technical documentation repository.
 
 .. toctree::
+   :maxdepth: 3
+   :caption: User documentation
+
+   web_app_vb_user_manual
+
+
+.. toctree::
    :maxdepth: 2
    :caption: Installation documentation
 
@@ -19,11 +26,6 @@ Welcome to the openIMIS technical documentation repository.
    windows_services_installation_guide
    mobile_applications_configuration
 
-.. toctree::
-   :maxdepth: 3
-   :caption: User documentation
-
-   web_app_vb_user_manual
    
 
 .. Contents
