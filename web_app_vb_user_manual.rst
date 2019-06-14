@@ -16,9 +16,9 @@ Web application user manual
 Users and logins
 ----------------
 
-.. include:: /_include/um/user_login/login.rst
-.. include:: /_include/um/user_login/forgotten_password.rst
-.. include:: /_include/um/user_login/password_change.rst
+.. include:: ./_include/um/user_login/login.rst
+.. include:: ./_include/um/user_login/forgotten_password.rst
+.. include:: ./_include/um/user_login/password_change.rst
 
 Administration of registers
 ---------------------------
@@ -27,18 +27,18 @@ Administration of registers
 
   The register of Users defines who can login to openIMIS and under what constraints. The register of Locations defines administrative division of the territory, on which a health insurance scheme is operated. The register of Payers allows specification of institutional payers that can pay contributions on behalf of policy holders (households, groups of persons). The register of Enrolment Agents specifies all persons (either employed or contracted) by the scheme administration that are entitled to distribute/sell policies to population. The register of Claim Administrators specifies all employees of health facilities that are entitled to submit claims to the scheme administration. The register of Health Facilities contains all contractual health facilities that can submit claims to the scheme administration. The register of Medical Items specifies all possible medical items (drugs, prostheses, medical devices etc.) that can be used in definitions of packages of insurance products and in pricelists associated with contractual health facilities. The register of Pricelists that splits into two divisions for Medical Services and for Medical Items contains pricelists valid for individual health facilities or their groups reflecting results of price negotiations between contractual health facilities and the scheme administration. Finally, the register of Products includes definitions of all insurance products that can be distributed/ sold within the health insurance scheme.
 
-.. include:: /_include/um/register/policy.rst
-.. include:: /_include/um/register/health_facility.rst
-.. include:: /_include/um/register/medical_service.rst
-.. include:: /_include/um/register/medical_item.rst
-.. include:: /_include/um/register/service_price_list.rst
-.. include:: /_include/um/register/item_price_list.rst
-.. include:: /_include/um/register/user.rst
-.. include:: /_include/um/register/user_roles.rst
-.. include:: /_include/um/register/enrolment_officer.rst
-.. include:: /_include/um/register/claim_admin.rst
-.. include:: /_include/um/register/payer.rst
-.. include:: /_include/um/register/location.rst
+.. include:: ./_include/um/register/policy.rst
+.. include:: ./_include/um/register/health_facility.rst
+.. include:: ./_include/um/register/medical_service.rst
+.. include:: ./_include/um/register/medical_item.rst
+.. include:: ./_include/um/register/service_price_list.rst
+.. include:: ./_include/um/register/item_price_list.rst
+.. include:: ./_include/um/register/user.rst
+.. include:: ./_include/um/register/user_roles.rst
+.. include:: ./_include/um/register/enrolment_officer.rst
+.. include:: ./_include/um/register/claim_admin.rst
+.. include:: ./_include/um/register/payer.rst
+.. include:: ./_include/um/register/location.rst
 
 Group/family, Insurees and Policies
 -----------------------------------
@@ -47,11 +47,11 @@ In openIMIS the policies are assigned to group only, if a policy need to be assi
 
 Because of this approach, the `Family Overview Page <#family-overview-page>`__ is the starting point to manage, insuree (add, edit), policies(add, edit, renew ...) and contribution
 
-.. include:: /_include/um/insuree_policies/quick_find_insuree.rst
-.. include:: /_include/um/insuree_policies/family.rst
-.. include:: /_include/um/insuree_policies/insuree.rst
-.. include:: /_include/um/insuree_policies/policy.rst
-.. include:: /_include/um/insuree_policies/contribution.rst
+.. include:: ./_include/um/insuree_policies/quick_find_insuree.rst
+.. include:: ./_include/um/insuree_policies/family.rst
+.. include:: ./_include/um/insuree_policies/insuree.rst
+.. include:: ./_include/um/insuree_policies/policy.rst
+.. include:: ./_include/um/insuree_policies/contribution.rst
 
 
 Claims
@@ -59,9 +59,9 @@ Claims
 
   The functionality under the menu ``Claims`` allows complete processing of claims from their entering into IMIS, modification, submission to processing, automatic checking of their correctness, reviewing of them by medical officers, their evaluating and preparation of report to an accounting system for their remuneration to contractual health facilities. Each claim can be consequently in several states. Once it is entered to openIMIS (either by the mobile phone application **Claim Management** or typed in and saved in IMIS) it goes to the status **Entered**. When it is submitted and it successfully passes at least some automatic checks, the claim goes to the status **Checked**. If the claim doesn’t pass automatic checking it goes to the status **Rejected** and its processing ends. The claim in the status **Checked** may be reviewed from medical point of view and/or a feedback on it can be collected from the patient. Medical reviewing and feedback acquiring can be by-passed. Ones such (manual) scrutiny of the claim is at the end, the claim may be pushed to the status **Processed**. In this status the claim is evaluated in nominal prices, taking into account all ceilings, deductibles and other cost sharing rules associated with insurance product or products covering claimed health care. If there is no medical service or medical item price of which a relative one according to the corresponding insurance product, the claim goes automatically to the status **Valuated**. If there is at least one medical service or medical item with relative pricing, the claim goes to the status **Valuated** only after a batch for corresponding period is run. The batch for a period (month, quarter, year) finishes evaluation of relative prices on claims on one hand and summarizes all claims in the period for accounting system that is external to openIMIS (it is not a part of it). Different values (prices) of a claim are associated with each stage of processing of claims. When a claim is entered the value of the claim based on nominal prices of claimed medical services/items is designated as **Claimed Value**. **Claimed Value** is associated with the state **Entered**. The value of the claim after automatic checking of claims during submission of the claim and after manual interventions of medical officers is designated as **Approved Value**. **Approved Value** is associated with the state **Checked**. The value of the claim after corrections based on all cost sharing rules of covering insurance products is designated as **Adjusted Value**. **Adjusted Value** is associated with the state **Processed**. The final value of the claim taking into account actual value of relative prices is designated as **Paid Value**. **Paid Value** is associated with the state **Valuated**.
 
-.. include:: /_include/um/claims/hf_claims.rst
-.. include:: /_include/um/claims/review_claims.rst
-.. include:: /_include/um/claims/batch_claims.rst
+.. include:: ./_include/um/claims/hf_claims.rst
+.. include:: ./_include/um/claims/review_claims.rst
+.. include:: ./_include/um/claims/batch_claims.rst
 
 Tools
 -----
