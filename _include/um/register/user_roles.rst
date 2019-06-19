@@ -2,6 +2,8 @@
 User roles/profiles administration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+  IMIS uses the concept of user profiles (roles) that can be associated with users. Some roles are predefined and they are designated as system roles. Their purpose is guarantee compatibility with the previous versions of IMIS.
+  
   User roles/profiles administration is restricted to users with the role of openIMIS Administrator.
 
   
@@ -29,6 +31,15 @@ User roles/profiles control page
 
 The ``User roles/profile control page`` is the central point for all user roles/profiles administration. By having access to this page, it is possible to add, edit, delete and search users roles/profiles. The page is divided into four panels (:ref:`Image User roles/profiles control page<user_roles_control_page>`).
 
+Administration of users’ profile s(roles) is not included in any system role. It can be accomplished by the Admin user or by users to which such administration is delegated (by defining a role including an access to Administration/User Profiles) by the Admin user.
+
+    **Pre-conditions**
+
+      A new user profile may only be added or thereafter edited, after an approval of the management of the scheme administration. It can be accomplished at the beginning only by the Admin user. The Admin user can define a new user profile incorporating also adding, editing  or deleting of  user profiles and create new users  with this profile. In this way, rights to the register of user profiles can be delegated to other users besides the Admin user.
+
+    **Navigation**
+
+      All functionality for use with the administration of user profiles can be found under the main menu ADMINISTRATION, sub menu USER PROFILES
 
  #. **Search Panel**
 
@@ -36,20 +47,24 @@ The ``User roles/profile control page`` is the central point for all user roles/
 
     * ``Role Name``
 
-       When set the search will display the roles with a name that start with the content of the filter , `%` can be used as a wildcard meaning a search with `%er` will display all the result containing `er` in the name 
+      When set the search will display the roles with a name that start with the content of the filter , `%` can be used as a wildcard meaning a search with `%er` will display all the result containing `er` in the name 
 
     * ``System``
 
-       When set to `TRUE` the search will display the default roles, 
-       when set to `FALSE` the search will display only the custom roles
+      The system user profiles match the previous roles for compatibility reasons.
+      When set to `TRUE` the search will display the default roles, 
+      when set to `FALSE` the search will display only the custom roles
+       
 
     * ``Blocked``
 
-       When set to `TRUE` the search will display the roles that were blocked, 
-       when set to `FALSE` the search will display only the unblocked roles
+      The blocked user profiles are temporarily not acting in the sense that their access rights are not available to users to whom blocked user profiles were assigned.
+      When set to `TRUE` the search will display the roles that were blocked, 
+      when set to `FALSE` the search will display only the unblocked roles
 
     * ``Historical``
 
+      Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records 
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`User roles results <user_roles_result>`).
 
 
@@ -57,6 +72,7 @@ The ``User roles/profile control page`` is the central point for all user roles/
 
 
     The Result Panel displays a list of all roles/profiles found, matching the selected criteria in the Search Panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image User roles results panel<user_roles_result>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Change user role/profile Page <#user-role-profile-page>`__.
+    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel
 
     .. _user_roles_result:
     .. figure:: /img/user_manual/user_roles_result.png
@@ -101,6 +117,14 @@ User role/profile Page
     * ``Alternative language``
 
       Translation of the role name for the second language of openIMIS
+
+    * ``System``
+
+      Read-only checkbox indicating whether the user profile is a system one or not.
+
+    * ``Blocked``
+
+      If checked the user profile is blocked
 
  #. **Data Entry - Rights details**
 
@@ -281,10 +305,6 @@ User role/profile Page
 
           - Email Setting
 
-    **Mandatory data**
-
-      If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data fields will take the focus (by an asterisk on the right of the corresponding data field).
-
  #. **Buttons**
 
     * ``Save``
@@ -294,6 +314,10 @@ User role/profile Page
     * ``Cancel``
 
       By clicking on the ``Cancel`` button, the user will be re-directed to the `User roles/profiles control page. <#user-roles-profiles-control-page>`__
+
+    **Mandatory data**
+
+      If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data fields will take the focus (by an asterisk on the right of the corresponding data field).
 
 Adding a User role/profile
 """"""""""""""""""""""""""

@@ -1,7 +1,7 @@
 Health Facilities Administration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-  The register of health facilities contains all health facilities contracted and/or eligible for submitting of claims by/to the health insurance scheme. Health Facility administration is restricted to users with the role of Scheme Administrator.
+  The register of health facilities contains all health facilities contracted and/or eligible for submitting of claims by/to the health insurance scheme. Health Facility administration is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Health Facilities.
 
 Pre-conditions
 """"""""""""""

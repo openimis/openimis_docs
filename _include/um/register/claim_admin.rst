@@ -1,12 +1,12 @@
 Claim Administrators Administration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-  The register contains employees of contractual health facilities responsible for preparation and/or submission of claims. Administration of the register of claim administrators is restricted to users with the role of Scheme Administrator.
+  The register contains employees of contractual health facilities responsible for preparation and/or submission of claims. Administration of the register of claim administrators is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Claim Administrators.
 
 Pre-conditions
 """"""""""""""
 
-  A claim administrator may be added after the agreement of a contractual health facility and the management of the scheme administration.
+  A claim administrator may be added after the agreement of a contractual health facility and the management of the scheme administration. Entry of a claim administrator in the register of claim administrators doesn’t mean that the claim administrator can login to IMIS. He/she has to be entered also in the register of users. It is facilitated by the ability to create the entry of a claim administrator into the register of claim administrators and the register of users simultaneously.
 
 Navigation
 """"""""""

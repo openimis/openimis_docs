@@ -1,12 +1,12 @@
 Users administration
 ^^^^^^^^^^^^^^^^^^^^
 
-  User administration is restricted to users with the role of openIMIS Administrator.
+  User administration is restricted to users with the system role of IMIS Administrator or with a role including an access to Administration/Users.
 
 Pre-conditions
 """"""""""""""
 
-  A user may only be added or thereafter edited, after the approval of the management of the scheme administration. Deletion of a user normally will occur when a user leaves his/her post within the health insurance scheme and/or the scheme administration.
+  A user may only be added or thereafter edited, after the approval of the management of the scheme administration. Deletion of a user normally will occur when a user leaves his/her post within the health insurance scheme and/or the scheme administration. A built in user with the user name Admin and the initial password Admin is created automatically in IMIS with access to all locations of the register of locations (at any time). The Admin user has an implicit role that includes full access rights to the registers of locations, full access to the register of user profiles and an access to downloading/uploading of the register of locations to/from an external file.
 
 Navigation
 """"""""""
@@ -31,6 +31,13 @@ User Control Page
 """""""""""""""""
 
   The ``User Control Page`` is the central point for all user administration. By having access to this page, it is possible to add, edit, delete and search users. The page is divided into four panels (:ref:`Image 52<image52>`).
+
+  The following rules apply to the list of found users besides conformance with all search criteria:
+
+    #.  The user Admin is not included in any searching for users with exception of  searching done by an Admin user itself.
+
+    #.  A user having access rights Users/Search (see User Profiles) can get as a result of a searching only users that have access to same set of locations or to a subset of locations of the searching user only.
+
 
  #. **Search Panel**
 
@@ -165,15 +172,15 @@ User Control Page
 
     * ``Roles``
 
-      Select from the list of available roles the Roles which the user carries out, by either clicking on the ``Check All`` box at the top of the list of Roles, or by selectively clicking on the ``Check box`` to the left of the role. Mandatory (at least one role must be selected)
+      Select from the list of available roles the Roles which the user carries out, by either clicking on the ``Check All`` box at the top of the list of Roles, or by selectively clicking on the ``Check box`` to the left of the role. Mandatory (at least one role must be selected). The list of roles contains all roles (user profiles) that are not blocked. Mandatory (at least one role must be selected)
 
     * ``Regions``
 
-      Select from the list of available regions the region(s) which the user will have access to, by either clicking on the ``Check All`` box at the top of the list of regions, or by selectively clicking on the ``Check box`` to the left of a region. Mandatory (at least one region must be selected). The selection can be done indirectly by selecting a district or some districts.
+      Select from the list of available regions the region(s) which the user will have access to, by either clicking on the ``Check All`` box at the top of the list of regions, or by selectively clicking on the ``Check box`` to the left of a region. Mandatory (at least one region must be selected). The selection can be done indirectly by selecting a district or some districts. The box contains only regions accessible to the user or regions that have been added by the user. Mandatory (at least one region must be selected). The selection can be done indirectly by selecting a district or some districts.
 
     * ``Districts``
 
-      Select from the list of available districts the district(s) which the user will have access to, by either clicking on the ``Check All`` box at the top of the list of districts, or by selectively clicking on the ``Check box`` to the left of the district. Districts are pre-selected based on the selected region(s). The pre-selection can be modified. Mandatory (at least one district must be selected). The selection can be done indirectly by just selecting a region or some regions.
+      Select from the list of available districts the district(s) which the user will have access to, by either clicking on the ``Check All`` box at the top of the list of districts, or by selectively clicking on the ``Check box`` to the left of the district. Districts are pre-selected based on the selected region(s). The pre-selection can be modified. Mandatory (at least one district must be selected). The selection can be done indirectly by just selecting a region or some regions. The box contains only regions accessible to the user or regions that have been added by the user. Mandatory (at least one region must be selected). The selection can be done indirectly by selecting a district or some districts.
 
  #. **Saving**
 

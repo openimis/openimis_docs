@@ -1,12 +1,12 @@
 Enrolment Officers Administration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-  Enrolment Officers administration is restricted to users with the role of Scheme Administrator.
+  Enrolment Officers administration is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Enrolment Officers.
 
 Pre-conditions
 """"""""""""""
 
-  An enrolment officer may only be added after the approval of the management of the scheme administration with engaging of a new enrolment officer. Editing may be done on all fields; however, approval of the management of the scheme administration is usually required for a substitution of an enrolment officer. Deletion will normally occur when an enrolment officer leaves his post within the scheme administration.
+  An enrolment officer may only be added after the approval of the management of the scheme administration with engaging of a new enrolment officer. Editing may be done on all fields; however, approval of the management of the scheme administration is usually required for a substitution of an enrolment officer. Deletion will normally occur when an enrolment officer leaves his post within the scheme administration. Entry of an enrolment officer in the register of enrolment officers doesn’t mean that the enrolment officer can login to IMIS. He/she has to be entered also in the register of users. It is facilitated by the ability to create the entry of an enrolment officer into the register of enrolment officers and the register of users simultaneously.
 
 Navigation
 """"""""""

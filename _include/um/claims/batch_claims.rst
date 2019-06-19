@@ -1,7 +1,7 @@
 Batch Run
 ^^^^^^^^^
 
-  Administration of batches of claims is restricted to users with the role of Accountant or any custom role with selected rights to batch functionality.
+  Administration of batches of claims is restricted to users with the system role of Accountant or with a role including an access to Claims/Claim/Batch.
 
 Pre-conditions
 """"""""""""""
@@ -28,7 +28,7 @@ Batch Run Control Page
 
     `Image163 (Batch Run Control Page)`
 
-  The Batch Run Control Page is the central point for batch processing administration. Access to the page is restricted to users with the role of Accountant. By having access to this page, it is possible to process batches, filter, and filter for accounts. The panel is divided into six sections (:ref:`Image 163<image163>`)
+  The Batch Run Control Page is the central point for batch processing administration. Access to the page is restricted to users with the system role of Accountant or with a role including an access to Claims/Claim/Batch. By having access to this page, it is possible to process batches, filter, and filter for accounts. The panel is divided into six sections  (:ref:`Image 163<image163>`)
 
  #. **Batch Processing Panel**  
 

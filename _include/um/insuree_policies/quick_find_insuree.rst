@@ -1,7 +1,7 @@
 Insuree Enquiry
 ^^^^^^^^^^^^^^^
 
-This functionality is available to users will all roles. The function Insuree Enquiry can be accessed at any time, after login. On the top right hand of the main menu, there is a search feature, allowing the user to enter an Insurance Number for a “quick enquiry”.
+This functionality is available to all system roles or with a role including an access to Insurees and Families/Insuree/Enquiry. The function Insuree Enquiry can be accessed at any time, after login. On the top right hand of the main menu, there is a search feature, allowing the user to enter an Insurance Number for a “quick enquiry”.
 
   .. _image87:
   .. figure:: /img/user_manual/image69.png

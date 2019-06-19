@@ -16,29 +16,29 @@ Web application user manual
 Users and logins
 ----------------
 
-.. include:: /_include/um/user_login/login.rst
-.. include:: /_include/um/user_login/forgotten_password.rst
-.. include:: /_include/um/user_login/password_change.rst
+.. include:: ./_include/um/user_login/login.rst
+.. include:: ./_include/um/user_login/forgotten_password.rst
+.. include:: ./_include/um/user_login/password_change.rst
 
 Administration of registers
 ---------------------------
 
-  Registers of openIMIS serve as a principal tool by which openIMIS is adjusted to needs of health insurance schemes. With exception of the register of Users that can be managed only by users with the role openIMIS Administrator, all other registers can be managed by users with the role Scheme Administrator.
+  Registers of openIMIS serve as a principal tool by which openIMIS is adjusted to needs of health insurance schemes. With exception of the register of Users that can be managed only by users with the system role openIMIS Administrator or with a role including an access to Administration/Users or Locations, all other registers can be managed by users with the role Scheme Administrator.or with a role including an access to Administration/Products or Health Facilities or Pricelists or Medical Services or Medical Items or Enrolment Officers or Claim Administrators or Payer. There is no system role that includes an access to the register of user profiles. Only users having a role including an access to Administration/User Profiles can access the register of User Profiles.
 
   The register of Users defines who can login to openIMIS and under what constraints. The register of Locations defines administrative division of the territory, on which a health insurance scheme is operated. The register of Payers allows specification of institutional payers that can pay contributions on behalf of policy holders (households, groups of persons). The register of Enrolment Agents specifies all persons (either employed or contracted) by the scheme administration that are entitled to distribute/sell policies to population. The register of Claim Administrators specifies all employees of health facilities that are entitled to submit claims to the scheme administration. The register of Health Facilities contains all contractual health facilities that can submit claims to the scheme administration. The register of Medical Items specifies all possible medical items (drugs, prostheses, medical devices etc.) that can be used in definitions of packages of insurance products and in pricelists associated with contractual health facilities. The register of Pricelists that splits into two divisions for Medical Services and for Medical Items contains pricelists valid for individual health facilities or their groups reflecting results of price negotiations between contractual health facilities and the scheme administration. Finally, the register of Products includes definitions of all insurance products that can be distributed/ sold within the health insurance scheme.
 
-.. include:: /_include/um/register/policy.rst
-.. include:: /_include/um/register/health_facility.rst
-.. include:: /_include/um/register/medical_service.rst
-.. include:: /_include/um/register/medical_item.rst
-.. include:: /_include/um/register/service_price_list.rst
-.. include:: /_include/um/register/item_price_list.rst
-.. include:: /_include/um/register/user.rst
-.. include:: /_include/um/register/user_roles.rst
-.. include:: /_include/um/register/enrolment_officer.rst
-.. include:: /_include/um/register/claim_admin.rst
-.. include:: /_include/um/register/payer.rst
-.. include:: /_include/um/register/location.rst
+.. include:: ./_include/um/register/policy.rst
+.. include:: ./_include/um/register/health_facility.rst
+.. include:: ./_include/um/register/medical_service.rst
+.. include:: ./_include/um/register/medical_item.rst
+.. include:: ./_include/um/register/service_price_list.rst
+.. include:: ./_include/um/register/item_price_list.rst
+.. include:: ./_include/um/register/user.rst
+.. include:: ./_include/um/register/user_roles.rst
+.. include:: ./_include/um/register/enrolment_officer.rst
+.. include:: ./_include/um/register/claim_admin.rst
+.. include:: ./_include/um/register/payer.rst
+.. include:: ./_include/um/register/location.rst
 
 Group/family, Insurees and Policies
 -----------------------------------
@@ -47,11 +47,11 @@ In openIMIS the policies are assigned to group only, if a policy need to be assi
 
 Because of this approach, the `Family Overview Page <#family-overview-page>`__ is the starting point to manage, insuree (add, edit), policies(add, edit, renew ...) and contribution
 
-.. include:: /_include/um/insuree_policies/quick_find_insuree.rst
-.. include:: /_include/um/insuree_policies/family.rst
-.. include:: /_include/um/insuree_policies/insuree.rst
-.. include:: /_include/um/insuree_policies/policy.rst
-.. include:: /_include/um/insuree_policies/contribution.rst
+.. include:: ./_include/um/insuree_policies/quick_find_insuree.rst
+.. include:: ./_include/um/insuree_policies/family.rst
+.. include:: ./_include/um/insuree_policies/insuree.rst
+.. include:: ./_include/um/insuree_policies/policy.rst
+.. include:: ./_include/um/insuree_policies/contribution.rst
 
 
 Claims
@@ -59,9 +59,9 @@ Claims
 
   The functionality under the menu ``Claims`` allows complete processing of claims from their entering into IMIS, modification, submission to processing, automatic checking of their correctness, reviewing of them by medical officers, their evaluating and preparation of report to an accounting system for their remuneration to contractual health facilities. Each claim can be consequently in several states. Once it is entered to openIMIS (either by the mobile phone application **Claim Management** or typed in and saved in IMIS) it goes to the status **Entered**. When it is submitted and it successfully passes at least some automatic checks, the claim goes to the status **Checked**. If the claim doesn’t pass automatic checking it goes to the status **Rejected** and its processing ends. The claim in the status **Checked** may be reviewed from medical point of view and/or a feedback on it can be collected from the patient. Medical reviewing and feedback acquiring can be by-passed. Ones such (manual) scrutiny of the claim is at the end, the claim may be pushed to the status **Processed**. In this status the claim is evaluated in nominal prices, taking into account all ceilings, deductibles and other cost sharing rules associated with insurance product or products covering claimed health care. If there is no medical service or medical item price of which a relative one according to the corresponding insurance product, the claim goes automatically to the status **Valuated**. If there is at least one medical service or medical item with relative pricing, the claim goes to the status **Valuated** only after a batch for corresponding period is run. The batch for a period (month, quarter, year) finishes evaluation of relative prices on claims on one hand and summarizes all claims in the period for accounting system that is external to openIMIS (it is not a part of it). Different values (prices) of a claim are associated with each stage of processing of claims. When a claim is entered the value of the claim based on nominal prices of claimed medical services/items is designated as **Claimed Value**. **Claimed Value** is associated with the state **Entered**. The value of the claim after automatic checking of claims during submission of the claim and after manual interventions of medical officers is designated as **Approved Value**. **Approved Value** is associated with the state **Checked**. The value of the claim after corrections based on all cost sharing rules of covering insurance products is designated as **Adjusted Value**. **Adjusted Value** is associated with the state **Processed**. The final value of the claim taking into account actual value of relative prices is designated as **Paid Value**. **Paid Value** is associated with the state **Valuated**.
 
-.. include:: /_include/um/claims/hf_claims.rst
-.. include:: /_include/um/claims/review_claims.rst
-.. include:: /_include/um/claims/batch_claims.rst
+.. include:: ./_include/um/claims/hf_claims.rst
+.. include:: ./_include/um/claims/review_claims.rst
+.. include:: ./_include/um/claims/batch_claims.rst
 
 Tools
 -----
@@ -69,7 +69,7 @@ Tools
 Upload / Download selected registers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-  Access to uploading/downloading of selected registers is restricted to the users with the role of openIMIS Administrator.
+  Access to uploading/downloading of selected registers is restricted to the users with the the system role of IMIS Administrator ( the register of locations) or with a role including an access to Tools/Registers.
 
 Navigation
 """"""""""
@@ -547,7 +547,7 @@ Preview Journal on Renewals
 Feedback Prompts
 ^^^^^^^^^^^^^^^^
 
-  Access to administration of feedback prompts is restricted to the users with the role of Medical Officer.
+  Access to administration of feedback prompts is restricted to the users with the role system role of Medical Officer or with a role including an access to Claims/Claim/Feedback.
 
 Navigation
 """"""""""
@@ -633,7 +633,7 @@ Navigation
 IMIS Extracts
 ^^^^^^^^^^^^^
 
-  Access to the openIMIS Extracts page is restricted to users with the role of Scheme Administrator (IMIS Central online) or HF Administrator (offline installations). This page will contain all functionality for data synchronization between openIMIS Central and openIMIS offline installations as well as the generation of extract files for the mobile phones (Android). Depending on the type of installation, the interface will enable and disable certain functions.
+  Access to the openIMIS Extracts page is restricted to users with the system role of Scheme Administrator (IMIS Central online) or HF Administrator (IMIS offline installations) or with a role including an access to Tools/Extracts. This page will contain all functionality for data synchronization between IMIS Central and IMIS offline installations as well as the generation of extract files for the mobile phones (Android). Depending on the type of installation, the interface will enable and disable certain functions.
 
 Pre-conditions
 """"""""""""""
@@ -1035,7 +1035,7 @@ IMIS Extracts (OFFLINE MODE)
 Reports
 ^^^^^^^
 
-  Access to the reports is generally restricted to the users with the role of Manager, Accountant, Scheme Administrator and openIMIS Administrator. By having access to the ``Reports Page``, it is possible to generate several operational reports. Each report can be generated by users with a specific role (Manager, Accountant, Scheme Administrator and openIMIS Administrator) only.
+  Access to the reports is generally restricted to the users with the role of Manager, Accountant, Scheme Administrator and openIMIS Administrator. By having access to the ``Reports Page``, it is possible to generate several operational reports. Each report can be generated by users with a specific system role (Manager, Accountant, Scheme Administrator and IMIS Administrator) only or with a role including an access to Tools/Reports.
 
 Pre-Conditions
 """"""""""""""
@@ -1271,6 +1271,35 @@ Navigation
 
       Select the previous reports from the drop down list by clicking on the right arrow. By selecting any of the options a user can fetch a report which was produced before. *Note: This filter is available only for Matching Funds Report.*
 
+    * ``CONTROL NO.``
+
+      Enter a control number to get a payment corresponding to the entered control number. This filter is not mandatory. *Note: This filter is available only for Contribution Payment Report.*
+
+    * ``PAYMENT STATUS``
+
+      Select either Matched or Unmatched as the payment status. *Note: This filter is available only for Contribution Payment Report.*
+
+    * ``POSTING STATUS``
+
+      Select the status of posting of requests for control numbers. This filter is not mandatory. *Note: This filter is available only for Control Number Assignment.*
+
+    * ``ASSIGNMENT  STATUS``
+
+      Select the status of results of requests for control number. This filter is not mandatory. *Note: This filter is available only Control Number Assignment Report.*
+
+    * ``INSURANCE   NUMBER``
+
+      Enter the insurance number of an insuree. This filter is not mandatory. Note: This filter is available only Claim History Report.
+
+    * ``MODE``
+
+Select the mode (Prescribed Contributions, Actually Paid Contributions) of calculation of commissions. This filter is mandatory. Note: This filter is available only Overview of Commissions.
+
+    * ``COMMISSION RATE``
+
+Enter a commission rate as % of an assessment base. This filter is  mandatory. Note: This filter is available only Overview of Commissions
+
+
     * ``Date Selector Button``
 
       Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 223<image223>`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
@@ -1302,7 +1331,7 @@ Navigation
 
  #. **Report Type Selector**
 
-    This panel contains a list of available report types. A user can select to create a desired report by clicking on the report type list item (:ref:`Image 224<image224>`) and narrow the report using the criteria being shown on the panel above, and then click the preview button to create the report. Available report types are:
+    This panel contains a list of available report types. A user can select to create a desired report by clicking on the report type list item (:ref:`Image 224<image224>`) and narrow the report using the criteria being shown on the panel above, and then click the ``preview`` button to create the report. Available report types are:
 
       - Primary Operational Indicators Report.
       - Derived Operational Indicators Report.
@@ -1320,6 +1349,12 @@ Navigation
       - Pending Insurees.
       - Percentage of Referrals.
       - Capitation Payment
+      - Rejected Photos
+      - Contribution Payment
+      - Control Number Assignment
+      - Overview of Commissions
+      - Claim History
+
 
     .. _image224:
     .. figure:: /img/user_manual/image192.png
@@ -1350,7 +1385,7 @@ Report Preview
 
  #. **primary operational indicators  - policies report**
 
-    The report provides aggregate data relating to policies and insurees according to insurance products. The report can be run by users with the role Manager. The table below will provide an overview on primary indicators of the report.
+    The report provides aggregate data relating to policies and insurees according to insurance products. The report can be run by users with the system role Manager or with a role including an access to Tools/Reports/Primary Operational Indicators-policies. The table below will provide an overview on   primary indicators of the report.
 
     .. list-table:: Table  Overview of Policies indicators
         :widths: 1 2 3 7
@@ -1419,7 +1454,7 @@ Report Preview
 
  #. **primary operational indicators  - claims report**
 
-    The report provides aggregate data relating to policies and insurees according to insurance products. The report can be run by users with the role Manager. The table below will provide an overview on primary indicators of the report.
+    The report provides aggregate data relating to policies and insurees according to insurance products. The report can be run by users with the system role Manager or with a role including an access to Tools/Reports/Primary Operational Indicators-claims. The table below will provide an overview on   primary indicators of the report.
 
     .. list-table:: Table Overview of operational indicators
         :widths: 1 2 3 7
@@ -1457,7 +1492,7 @@ Report Preview
 
  #. **derived operational indicators report**
 
-    The report provides operational indicators derived from primary operational indicators. The report can be run by users with the role Manager. The table below will provide an overview on the actual derived indicators provided by the report.
+    The report provides operational indicators derived from primary operational indicators. The report can be run by users with the system role Manager or with a role including an access to Tools/Reports/Derived Operational Indicators. The table below will provide an overview on the actual derived indicators provided by the report.
 
     .. list-table:: Table Overview of derived operational indicators
         :widths: 1 2 3 7
@@ -1525,9 +1560,7 @@ Report Preview
 
  #. **Contribution collection report**
 
-    The report lists all actual payments of contributions according to insurance products in the defined period. The report can be used as input to an accounting system. The report can be run by users with the role Accountant. Payments are assigned to the specified period according to the actual date of payment.
-
-    Below is an example of the report:
+    The report lists all actual payments of contributions according to insurance products in the defined period. The report can be used as input to an accounting system. The report can be run by users with the the system role Accountant or with a role including an access to Tools/Reports/Contribution Collection. Payments are assigned to the specified period according to the actual date of payment. (:ref:`Image 228<image228>`)
 
     .. _image228:
     .. figure:: /img/user_manual/image196.png
@@ -1537,9 +1570,7 @@ Report Preview
 
  #. **product sales report**
 
-    The report provides overview of selling of policies according to insurance products in terms of calculated contributions (not necessarily actually paid). The report can be run by users with the role Accountant. Policies are assigned to the specified period according to their effective days.
-
-    Below is an example of the report:
+    The report provides overview of selling of policies according to insurance products in terms of calculated contributions (not necessarily actually paid). The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Product Sales. Policies are assigned to the specified period according to their effective days. (:ref:`Image 229<image229>`)
 
     .. _image229:
     .. figure:: /img/user_manual/image197.png
@@ -1549,11 +1580,9 @@ Report Preview
 
  #. **Contribution distribution report**
 
-    The report provides proportional amount of actually paid contributions allocated by openIMIS to specific months according to insurance products. The report can be run by users with the role Accountant. This report shows the information about the **Total collection**, **Allocated amount** and **Not allocated** amount for contributions in the specified period.
+    The report provides proportional amount of actually paid contributions allocated by openIMIS to specific months according to insurance products. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Contribution Distribution. This report shows the information about the **Total collection**, **Allocated amount** and **Not allocated** amount for contributions in the specified period.
 
-    **Allocated** amount is the proportionally calculated amounts of contributions paid covering the month. **Not Allocated** amount is the amount collected for contributions that have a start date in the future (after the month in question).
-
-    Below is an example of the report:
+    **Allocated** amount is the proportionally calculated amounts of contributions paid covering the month. **Not Allocated** amount is the amount collected for contributions that have a start date in the future (after the month in question). (:ref:`Image 230<image230>`)
 
     .. _image230:
     .. figure:: /img/user_manual/image198.png
@@ -1563,8 +1592,8 @@ Report Preview
 
  #. **user activity report**
 
-    The report shows activities of users according to types of activities and types of entities to which the activities relate. The report can be run by users with the role openIMIS Administrator. Below is an example of the report:
-
+    The report shows activities of users according to types of activities and types of entities to which the activities relate. The report can be run by users with system role IMIS Administrator or with a role including an access to Tools/Reports/User Activity.  (:ref:`Image 231<image231>`)
+    
     .. _image231:
     .. figure:: /img/user_manual/image199.png
       :align: center
@@ -1573,7 +1602,7 @@ Report Preview
 
  #. **enrolment performance indicator report**
 
-    The report provides overview of activity of enrolment officers. The report can be run by users with the role Manager. Below is an example of the report:
+    The report provides overview of activity of enrolment officers. The report can be run by users with the system role Manager or with a role including an access to Tools/Reports/Enrolment Performance Indicator. (:ref:`Image 232<image232>`)
 
     .. _image232:
     .. figure:: /img/user_manual/image200.png
@@ -1583,7 +1612,7 @@ Report Preview
 
  #. **status of registers report**
 
-    The report provides an overview of the number of items in registers according to districts. The report can be run by users with the role Scheme Administrator. Below is an example of the report:
+    The report provides an overview of the number of items in registers according to districts. The report can be run by users with the system role Scheme Administrator or with a role including an access to Tools/Reports/Status of Registers.(:ref:`Image 233<image233>`)
 
     .. _image233:
     .. figure:: /img/user_manual/image201.png
@@ -1593,7 +1622,7 @@ Report Preview
 
  #. **insurees without photos**
 
-    The report lists all insurees according to enrolment officers that have not assigned a photo. The report can be run by users with the role Accountant. Below is an example of the report:
+    The report lists all insurees according to enrolment officers that have not assigned a photo. The report can be run by users with thesystem role Accountant or with a role including an access to Tools/Reports/Insurees without Photos.  (:ref:`Image 234<image234>`)
 
     .. _image234:
     .. figure:: /img/user_manual/image202.png
@@ -1603,7 +1632,7 @@ Report Preview
 
  #. **matching funds**
 
-    The report lists all families/groups according to insurance products and (institutional) payers that paid contributions in the specified period. This report is useful for claiming of subsidies for running of health insurance schemes. The report can be run by users with the role Accountant. Below is an example of the report:
+    The report lists all families/groups according to insurance products and (institutional) payers that paid contributions in the specified period. This report is useful for claiming of subsidies for running of health insurance schemes. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Matching Funds.  (:ref:`Image 235<image235>`)
 
     .. _image235:
     .. figure:: /img/user_manual/image203.png
@@ -1613,7 +1642,7 @@ Report Preview
 
  #. **claim overview**
 
-    The report provides detailed data about results of processing of claims in openIMIS according to insurance products and health facilities. The report can be used as a tool for communication between a health insurance scheme and its contractual health facilities. The report can be run by users with the role Accountant. Claims are assigned to the specified period according to date of provision of health care (in case of in-patient care according to the date of discharge). Below is an example of the report:
+    The report provides detailed data about results of processing of claims in openIMIS according to insurance products and health facilities. The report can be used as a tool for communication between a health insurance scheme and its contractual health facilities. The report can be run by users with the rsystem role Accountant or with a role including an access to Tools/Reports/Claim Overview. Claims are assigned to the specified period according to date of provision of health care (in case of in-patient care according to the date of discharge).  (:ref:`Image 236<image236>`)
 
     .. _image236:
     .. figure:: /img/user_manual/image204.png
@@ -1623,7 +1652,7 @@ Report Preview
 
  #. **payment category overview**
 
-    The report provides split of total contributions according to their categories. The report can be run by users with the role Accountant. Contributions are assigned to the specified period according to actual payment date. Below is an example of the report:
+    The report provides split of total contributions according to their categories. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Payment Category Overview.  Contributions are assigned to the specified period according to actual payment date. (:ref:`Image 237<image237>`)
 
     .. _image237:
     .. figure:: /img/user_manual/image205.png
@@ -1633,7 +1662,7 @@ Report Preview
 
  #. **Families and Insurees Overview report**
 
-    The report provides an overview of enrolled families/groups and their members in specified location within the specified period. The report can be run by users with the role Accountant. Below is an example of the report:
+    The report provides an overview of enrolled families/groups and their members in specified location within the specified period. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Families and Insurees Overview.  (:ref:`Image 238<image238>`)
 
     .. _image238:
     .. figure:: /img/user_manual/image206.png
@@ -1649,7 +1678,7 @@ Report Preview
       b) The number of out-patient visits that have Visit Type equal to Referral in all other health facilities (irrespective of the district) for insurees with the First Service Point in the respective primary health care facility.
       c) The number of in-patient stays that have Visit Type equal to Referral in all health facilities-hospitals (irrespective of the district) for insurees with the First Service Point in the respective primary health care facility.
 
-    The report can be run by users with the role Accountant. Below is an example of the report:
+    The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Percentage of Referrals. (:ref:`Image 239<image239>`)
 
     .. _image239:
     .. figure:: /img/user_manual/image207.png
@@ -1659,7 +1688,7 @@ Report Preview
 
  #. **Pending Insurees report**
 
-    The report lists all insurees whose photos have been sent to openIMIS but who has no record in openIMIS yet. The report can be run by users with the role Accountant.  Below is an example of the report:
+    The report lists all insurees whose photos have been sent to openIMIS but who has no record in openIMIS yet. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Pending Insurees.   (:ref:`Image 240<image240>`)
 
     .. _image240:
     .. figure:: /img/user_manual/image208.png
@@ -1669,7 +1698,7 @@ Report Preview
 
  #. **Renewals report**
 
-    The report lists all renewed policies in given period for given insurance product and optionally for given enrolment officer. The families that have at least one payment of contributions in given period of time are included in the report. The report can be run by users with the role Accountant. Below is an example of the report:
+    The report lists all renewed policies in given period for given insurance product and optionally for given enrolment officer. The families that have at least one payment of contributions in given period of time are included in the report. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Renewals. Below is an example of the report (:ref:`Image 241<image241>`)
 
     .. _image241:
     .. figure:: /img/user_manual/image209.png
@@ -1679,7 +1708,7 @@ Report Preview
 
  #. **Capitation Payment Report**
 
-    The report lists capitation payments for all health facilities specified in the `capitation formula <#capitation-payment>`__ for specified month and for given insurance product. The report can be run by users with the role Accountant. Below is an example of the report:
+    The report lists capitation payments for all health facilities specified in the `capitation formula <#capitation-payment>`__ for specified month and for given insurance product. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Capitation Payment.  (:ref:`Image 242<image242>`)
 
     .. _image242:
     .. figure:: /img/user_manual/image210.png
@@ -1743,7 +1772,7 @@ Execute script
 Funding
 ^^^^^^^
 
-  Access to the ``Funding`` is restricted to the users with the role of Accountant.
+  Access to the ``Funding`` is restricted to the users with the system role of Accountant or with a role including an access to Tools/Funding.
 
   The ``Funding`` is the place where funding from external authorities (payers) can be for entered. openIMIS creates internally one fictive family/group (the insurance number of the head of the fictive family/group is 999999999, the name is *Funding* and the other name is *Funding* as well) for the district for which a funding is done. Each entering of a fund results in creation of a fictive policy for the corresponding fictive family/group with paid contribution in the amount of the funding. The fictive policy is active since the date of payment of the corresponding fund. These fictive policies are overpaid as these funds are usually much higher than the contribution rate for a single family/member of the group but it doesn’t matter. External funding corresponds to payment of contributions for many families/members of the group in some period. openIMIS can regard funds as standard contributions and its standard functionality can be used for handling of funds. One distinctive feature of payment of funds by means of the fictive policies is that the payments of funds don’t appear in the reports on matching funds generated for funding authorities. So, there is no danger that offices of the scheme administration would acquire new funds based on funding already acquired.
 

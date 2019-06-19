@@ -1,7 +1,7 @@
 Locations Administration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-  Administration of locations is restricted to users with the role of Scheme Administrator.
+  Administration of locations is restricted to users with the the system role of IMIS Administrator or with a role including an access to Administration/Locations. The user can see only locations he/she has access to.
 
 Pre-conditions
 """"""""""""""
