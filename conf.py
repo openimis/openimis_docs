@@ -65,7 +65,7 @@ language = 'en'
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path .
 
-exclude_patterns = [u'_build', 'Thumbs.db', '.DS_Store', u'_include', 'user_manual.tex', 'install_manual.tex']
+exclude_patterns = [u'_build', 'Thumbs.db', '.DS_Store']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -146,11 +146,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    ('index', 'full_manual.tex', u'openIMIS installation and user manual',
-     author, 'manual'),
-    ('index_usermanual', 'user_manual.tex', u'openIMIS user manual',
-     author, 'manual'),
-	 ('index_install', 'install_manual.tex', u'openIMIS installation documentation',
+    ('index', 'openIMIS.tex', u'openIMIS installation and user manual',
      author, 'manual'),
 ]
 #latex_documents = [
