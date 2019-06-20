@@ -5,6 +5,7 @@ Find Insuree
 """"""""""""
 
   Access to the Find Insuree Page is restricted to users with the system roles of Accountant, Clerk and Health Facility Receptionist or with a role including an access to Insurees and Families/Insuree/Search.
+
 Pre-conditions
 
 
