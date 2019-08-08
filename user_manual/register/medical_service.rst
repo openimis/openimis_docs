@@ -117,7 +117,7 @@ Medical Service Page
 
     * ``Level``
 
-      Select from the list )Simple Service, Visit, Daz of Staz, Hospital Case), the level for the medical service. Mandatory.
+      Select from the list (Simple Service, Visit, Day of Stay, Hospital Case), the level for the medical service. Mandatory.
 
     * ``Price``
 
