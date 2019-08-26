@@ -40,6 +40,13 @@ Welcome to the openIMIS technical documentation repository.
    /install_manual/windows_services_installation_guide
    /install_manual/mobile_applications_configuration
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Analytic and reporting
+
+   /ar/install/index
+   /ar/user/index
+
    
 
 .. Contents

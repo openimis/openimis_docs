@@ -1,20 +1,9 @@
-Analytic and reporting installation guide
-=========================================
+Configure IIS
+~~~~~~~~~~~~~
 
-**v1.2.0 and later**
+Additional configuration in Microsoft IIS
+-----------------------------------------
 
-
-Prerequisites
--------------
-
-In order to install openIMIS Analytic and reporting Services, you need first to install openIMIS Database and Web Application. If not yet installed please follow the steps from the database and web application installation guides.
-
-Deploying of Analytic and reporting requires complete Microsoft IIS 8.* Configuration with Analysis services installed and Microsoft Access database engine driver, you can download Microsoft Access driver from `Microsoft website <https://www.microsoft.com/en-us/download/confirmation.aspx?id=13255>`_.
-
-    .. _ISS_config:
-
-Configure additional configuration in Microsoft IIS 8.X
--------------------------------------------------------
 
 The default configuration of IIS 8.X is missing components that are necessary for HTTP access to Analysis Services.
 
@@ -50,8 +39,8 @@ Download and unzip the release from Github ar_imis_reporting_tool  repository
 (https://github.com/openimis/ar_imis_reporting_tool/releases/latest) in a new folder (openIMIS.WS.X.Y.Z)
 under the IIS wwwroot (usually in C:\\inetpub\\wwwroot).
 
-Step 1: Copy the MSMDPUMP files to a folder on the Web server
--------------------------------------------------------------
+Copy the MSMDPUMP files to a folder on the Web server
+-----------------------------------------------------
 
 Each HTTP endpoint that you create must have its own set of MSMDPUMP files. In this step, you copy the MSMDPUMP executable, configuration file, and resource folder from the Analysis Services program folders to a new virtual directory folder that you will create on the file system of the computer running IIS.
 The drive must be formatted for the NTFS file system. The path to the folder that you create must not contain any spaces.
@@ -75,8 +64,8 @@ The drive must be formatted for the NTFS file system. The path to the folder tha
     * *<drive>:\\inetpub\\wwwroot\\OLAP\\MSMDPUMP.ini*
     * *<drive>:\\inetpub\\wwwroot\\OLAP\\Resources*
 
-Step 2.1: Create an application pool in IIS
--------------------------------------------
+Create an application pool in IIS
+---------------------------------
 
 #. Start IIS Manager
 
@@ -96,8 +85,8 @@ Step 2.1: Create an application pool in IIS
 
 #. By default, IIS creates application pools using ApplicationPoolIdentity as the security identity, which is a valid choice for HTTP access to Analysis Services.
 
-Step 2.2: Create an virtual directory in IIS
---------------------------------------------
+Create an virtual directory in IIS
+----------------------------------
 
 #. In IIS Manager, open Sites, open Default Web Site. You should see a folder named Datawarehouse. This is a reference to the datawarehouse folder you created under \\inetpub\\wwwroot.(:ref:`Image -  Datawarehouse site tree structure <dw_site>`)
 
@@ -128,14 +117,14 @@ Step 2.2: Create an virtual directory in IIS
 
        `Image - New application in datawarehouse site tree structure`
 
-Step 3: Configure IIS authentication and add the extension
-----------------------------------------------------------
+Configure IIS authentication and add the extension
+--------------------------------------------------
 
 In this step, you further configure the *SSAS virtual directory* you just created. You will specify an authentication method and then add a script map. Supported authentication methods for Analysis Services over HTTP include:
     * Windows authentication (Kerberos or NTLM)
     * Basic authentication
 
-In this case we will use *Basic authentication*, make sure that the *Basic authentication* is checked in IIS features as as described in :ref:`ISS_config`.
+In this case we will use *Basic authentication*, make sure that the *Basic authentication* is checked in IIS features as as described in `additional_configuration_in_microsoft_iis>`__.
 
 **Basic authentication** is used when you have Windows identities, but user connections are from non-trusted domains (if your client and server applications are in different domains), prohibiting the use of delegated or impersonated connections. *Basic authentication* lets you specify a user identity and password on a connection string. Instead of using the security context of the current user, credentials on the connection string are used to connect to Analysis Services. Because Analysis Services supports only Windows authentication, any credentials passed to it must be a Windows user or group that is a member of the domain in which Analysis Services is hosted.
 
@@ -192,8 +181,8 @@ This mode requires the user to enter a user name and password. The user name and
 
         `Image - IIS handler mappings confirmation pop-up`
 
-Step 4: Edit the MSMDPUMP.INI file to set the target server
------------------------------------------------------------
+Edit the MSMDPUMP.INI file to set the target server
+----------------------------------------------------
 
 The *MSMDPUMP.INI* file specifies the Analysis Services instance that *MSMDPUMP.DLL* connects to. This instance can be local or remote, installed as the default or as a named instance.
 Open the *msmdpump.ini* file located in folder <drive>:\\inetpub\\wwwroot\\datawarehouse and take a look at the contents of this file. It should look like the following::
@@ -210,213 +199,3 @@ If the Analysis Services instance for which you are configuring HTTP access is l
 By default, Analysis Services listens on TCP/IP port 2383. If you installed Analysis Services as the default instance, you do not need to specify any port in ``<ServerName>`` because Analysis Services knows how to listen on port 2383 automatically. However, you do need to allow inbound connections to that port in Windows Firewall.
 
 If you configured a named or default instance of Analysis Services to listen on a fixed port, you must add the port number to the server name (for example, ``<ServerName> EXACT-SRV01:55555</ServerName>``) and you must allow inbound connections in Windows Firewall to that port.
-
-Step 5: Grant data access permissions
--------------------------------------
-
-As previously noted, you will need to grant permissions on the Analysis Services instance. Each database object will have roles that provide a given level of permissions (read or read/write), and each role will have members consisting of Windows user identities.
-To set permissions, you can use SQL Server Management Studio. Under the *Database* → *Roles* folder, you can
-
-* Create roles,
-* Specify database permissions,
-* Assign membership to Windows user or group accounts,
-* Grant read or write permissions on specific objects.
-
-Typically, Read permissions on a cube are sufficient for client connections that use, but do not update, model data. Role assignment varies depending on how you configured authentication.
-
-Step 6: Deploy SSIS
--------------------
-
-#. Once the IIS configuration has successfully completed, go to the SSIS deployment folder. Double click the IMISDW file(:ref:`Image - SSIS deployment folder <ssis_folder>`).
-
-    .. _ssis_folder:
-
-    .. figure:: /img/ar_install/ssis_folder.png
-       :align: center
-
-       `Image - SSIS deployment folder`
-
-#. On the package installation wizard click next to continue with SSIS installation(:ref:`Image - SSIS deployment wizard, Start <ssis_wizard>`).
-
-    .. _ssis_wizard:
-
-    .. figure:: /img/ar_install/ssis_wizard.png
-       :align: center
-
-       `Image - SSIS deployment wizard, Start`
-
-#. On the installation wizard, select the file system deployment and click next to continue the installation(:ref:`Image - SSIS deployment wizard, Install location <ssis_wizard_2>`).
-
-    .. _ssis_wizard_2:
-
-    .. figure:: /img/ar_install/ssis_wizard_2.png
-       :align: center
-
-       `Image - SSIS deployment wizard, Install location`
-
-#. Browse the destination folder to install the package. Click next to continue with the installation(:ref:`Image - SSIS deployment wizard, Destination folder <ssis_wizard_3>`).
-
-    .. _ssis_wizard_3:
-
-    .. figure:: /img/ar_install/ssis_wizard_3.png
-       :align: center
-
-       `Image - SSIS deployment wizard, Destination folder`
-
-#. Click next to allow the installation wizard to install the SSIS packages(:ref:`Image - SSIS deployment wizard, Launch installation <ssis_wizard_4>`).
-
-    .. _ssis_wizard_4:
-
-    .. figure:: /img/ar_install/ssis_wizard_4.png
-       :align: center
-
-       `Image - SSIS deployment wizard, Launch installation`
-
-#. Modify the credential details as required. Click next to continue with the installation(:ref:`Image - SSIS deployment wizard, Change password <ssis_wizard_5>`).
-
-    .. _ssis_wizard_5:
-
-    .. figure:: /img/ar_install/ssis_wizard_5.png
-       :align: center
-
-       `Image - SSIS deployment wizard, Change password`
-
-#. Click finish to complete the installation(:ref:`Image - SSIS deployment wizard, Finish installation <ssis_wizard_6>`).
-
-    .. _ssis_wizard_6:
-
-    .. figure:: /img/ar_install/ssis_wizard_6.png
-       :align: center
-
-       `Image - SSIS deployment wizard, Finish installation`
-
-Step 7: Deploy SSAS
--------------------
-
-#. Open the SQL Server Management studio and restore the database **IMIS_DW**.
-    Close the SQL server management studio
-
-#. Click the windows start button, search for the Deployment Wizard. Click the Deployment wizard icon(:ref:`Image - SSAS deployment wizard, Launch wizard <ssas_deploy>`).
-
-    .. _ssas_deploy:
-
-    .. figure:: /img/ar_install/ssas_deploy.png
-       :align: center
-
-       `Image - SSAS deployment wizard, Launch wizard`
-
-#. Click next  to start the installation for SSAS(:ref:`Image - SSAS deployment wizard, Start <ssas_deploy_1>`).
-
-    .. _ssas_deploy_1:
-
-    .. figure:: /img/ar_install/ssas_deploy_1.png
-       :align: center
-
-       `Image - SSAS deployment wizard, Start`
-
-#. Click the browse button (three dots) and select the IMIS cubes database from the SSAS deployment package(:ref:`Image - SSAS deployment wizard, Destination folder <ssas_deploy_2>`).
-    Click next to continue with the installation.
-
-    .. _ssas_deploy_2:
-
-    .. figure:: /img/ar_install/ssas_deploy_2.png
-       :align: center
-
-       `Image - SSAS deployment wizard, Destination folder`
-
-#. If the database does not exist on the Analysis Server, the Analysis Service Deployment Wizard will automatically create the database IMIS Cubes otherwise the database will be overwritten !
-    Click next to continue (:ref:`Image - SSAS deployment wizard, Deploy IMIS cubes <ssas_deploy_3>`).
-
-    .. _ssas_deploy_3:
-
-    .. figure:: /img/ar_install/ssas_deploy_3.png
-       :align: center
-
-       `Image - SSAS deployment wizard, Deploy IMIS cubes`
-
-#. Specify options for partitions, roles and members according to the requirements.
-    Click next to continue(:ref:`Image - SSAS deployment wizard, Partitions & Roles <ssas_deploy_4>`).
-
-    .. _ssas_deploy_4:
-
-    .. figure:: /img/ar_install/ssas_deploy_4.png
-       :align: center
-
-       `Image - SSAS deployment wizard, Partitions & Roles`
-
-#. On the providers select box, choose SQL server Native client.
-    * On the left side of the connection manager select connection.
-    * Click the refresh button and select the instance name.
-    * On the Log on to the server panel, provide username and Password for the instance selected.
-    * Under the connect to a database panel select the IMIS_DW.
-    * Verify the connection by clicking the Test Connection button.
-    * Click OK to continue with the installation(:ref:`Image - SSAS deployment wizard, SQL server <ssas_deploy_5_sql>`).
-
-    .. _ssas_deploy_5_sql:
-
-    .. figure:: /img/ar_install/ssas_deploy_5_sql.png
-       :align: center
-
-       `Image - SSAS deployment wizard, SQL server`
-
-#. On the  Select Processing Options window, select the appropriate option.
-    Click next to continue with the deployment(:ref:`Image - SSAS deployment wizard, Processing <ssas_deploy_6>`).
-
-    .. _ssas_deploy_6:
-
-    .. figure:: /img/ar_install/ssas_deploy_6.png
-       :align: center
-
-       `Image - SSAS deployment wizard, Processing`
-
-#. Confirm Deployment. If the deployment script is required, check the Create Deployment Script option and browse to the destination folder.
-    Click next to continue(:ref:`Image - SSAS deployment wizard, Finish <ssas_deploy_7>`).
-
-    .. _ssas_deploy_7:
-
-    .. figure:: /img/ar_install/ssas_deploy_7.png
-       :align: center
-
-       `Image - SSAS deployment wizard, Finish`
-
-#. Deploying Database
-    * Click next to continue(:ref:`Image - Database deployment wizard, Run <db_deploy>`).
-
-    .. _db_deploy:
-
-    .. figure:: /img/ar_install/db_deploy.png
-       :align: center
-
-       `Image - Database deployment wizard, Run`
-
-    * Click finish to complete the deployment(:ref:`Image -  Database deployment wizard, Results<db_deploy_1>`).
-	
-    .. _db_deploy_1:
-
-    .. figure:: /img/ar_install/db_deploy_1.png
-       :align: center
-
-       `Image - Database deployment wizard, Results`
-
-Step 8: Execute SSIS
---------------------
-
-Once both the SSIS and SSAS packages are deployed successfully, it’s time to start the ETL process. To start the ETL Process, follow the instructions below.
-
-#. Navigate to the folder where the SSIS package was installed. Find the file named "IMISDW" and double click the package to begin the process(:ref:`Image -  Run SSIS <ssis_run>`).
-
-    .. _ssis_run:
-
-    .. figure:: /img/ar_install/ssis_run.png
-       :align: center
-
-       `Image - Run SSIS`
-
-#. This process might take a while to finish depending on the data volume. Once the process is completed successfully, the SSAS package is now ready for the reporting(:ref:`Image -  SSIS Results <ssis_results>`).
-
-    .. _ssis_results:
-
-    .. figure:: /img/ar_install/ssis_results.png
-       :align: center
-
-       `Image - SSIS Results`
