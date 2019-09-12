@@ -1,3 +1,5 @@
+.. include:: /_sidebar.rst.inc
+
 Group/family, Insurees and Policies
 -----------------------------------
 

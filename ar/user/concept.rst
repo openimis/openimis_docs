@@ -1,3 +1,5 @@
+.. include:: /_sidebar.rst.inc
+
 Concept of AR-IMIS
 ^^^^^^^^^^^^^^^^^^
 

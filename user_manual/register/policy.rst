@@ -1,3 +1,5 @@
+.. include:: /_sidebar.rst.inc
+
 Insurance Products Administration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
