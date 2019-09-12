@@ -3,6 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. include:: /_sidebar.rst.inc
+
 openIMIS documentation
 ======================
 
@@ -28,24 +30,8 @@ Welcome to the openIMIS technical documentation repository.
    /user_manual/insuree_policies/insuree_policies
    /user_manual/tools/tools
    /user_manual/offline/offline
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Installation documentation
-
-   /install_manual/minimum_requirements
-   /install_manual/database_sql_server_installation_guide
-   /install_manual/web_app_vb_installation_guide
-   /install_manual/web_service_vb_installation_guide
-   /install_manual/windows_services_installation_guide
-   /install_manual/mobile_applications_configuration
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Analytic and reporting
-
-   /ar/install/index
    /ar/user/index
+
 
    
 
