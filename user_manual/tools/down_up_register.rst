@@ -1,4 +1,4 @@
-.. include:: /_sidebar.rst.inc
+
 
 Upload / Download selected registers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,4 +1,4 @@
-.. include:: /_sidebar.rst.inc
+
 
 How access data from the Data Warehouse
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

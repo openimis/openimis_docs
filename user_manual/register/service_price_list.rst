@@ -1,4 +1,4 @@
-.. include:: /_sidebar.rst.inc
+
 
 Medical Service Price Lists Administration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

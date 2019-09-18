@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. include:: /_sidebar.rst.inc
+
 
 openIMIS documentation
 ======================
@@ -20,17 +20,7 @@ openIMIS documentation
 
 Welcome to the openIMIS technical documentation repository.
 
-.. toctree::
-   :maxdepth: 2
-   :caption: User documentation
-
-   /user_manual/user_login/user_login
-   /user_manual/claims/claims
-   /user_manual/register/register
-   /user_manual/insuree_policies/insuree_policies
-   /user_manual/tools/tools
-   /user_manual/offline/offline
-   /ar/user/index
+.. include:: /_sidebar.rst.inc
 
 
    
