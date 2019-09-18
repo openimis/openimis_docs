@@ -64,6 +64,25 @@ def generate_sidebar(conf, conf_api):
     write("external","openIMIS Wiki", "https://openimis.atlassian.net/wiki/spaces/OP/overview")
     endl()
     endl()
+    toctree("User documentation")
+    write("main","Users and logins","/user_manual/user_login/user_login")
+    write("main","Claims","/user_manual/claims/claims")
+    write("main","Administration of registers","/user_manual/register/register")
+    write("main","Groups/Families, Insurees and Policies","/user_manual/insuree_policies/insuree_policies")
+    write("main","Tools","/user_manual/tools/tools")
+    write("main","Offline mode","/user_manual/offline/offline")
+    endl()
+    endl()
+
+
+    toctree("AR IMIS user documentation")
+
+    write("main","Concept","/ar_manual/concept")
+    write("main","Dimensions","/ar_manual/dimensions")
+    write("main","Facts","/ar_manual/facts")
+    write("main","Access Data","/ar_manual/access_data")  
+    endl()
+    endl()
     toctree("Installation documentation")
     write("Install","Minimun Requirement","/net_install/minimum_requirements")
     write("Install","SQL server","/net_install/database_sql_server_installation_guide")
@@ -73,6 +92,7 @@ def generate_sidebar(conf, conf_api):
     write("Install","Mobile application","/net_install/mobile_applications_configuration")
     endl()
     endl()
+
     toctree("AR IMIS installation documentation")
     write("Install","prerequisites","/ar_install/prerequisites")
     write("Install","ar_database_install","/ar_install/ar_database_install")
@@ -84,14 +104,5 @@ def generate_sidebar(conf, conf_api):
     endl()
     endl()
 
-    toctree("User documentation
-
-    write("main","Users and logins",/user_manual/user_login/user_login")
-    write("main","Claims",/user_manual/claims/claims")
-    write("main","Administration of registers",/user_manual/register/register")
-    write("main","Groups/Families, Insurees and Policies",/user_manual/insuree_policies/insuree_policies")
-    write("main","Tools",/user_manual/tools/tools")
-    write("main","Offline mode",/user_manual/offline/offline")
-    write("main","Analysis and Reports",/ar/user/index")
 
     write_if_changed("_sidebar.rst.inc", "\n".join(lines))
