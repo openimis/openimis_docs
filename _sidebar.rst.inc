@@ -5,4 +5,8 @@
     :caption: OpenIMIS
     :maxdepth: 2
 
-    Install manual <install>
+    open a ticket <https://openimis.atlassian.net/servicedesk/customer/portals>
+    openIMIS Wiki <https://openimis.atlassian.net/wiki/spaces/OP/overview>
+    index_local
+    openIMIS Install documentation <http://docs.openimis.org/projects/en/Install/latest/index_local.html>
+

@@ -57,13 +57,15 @@ def generate_sidebar(conf, conf_api):
                 )
             lines.append("    %s <%s>" % args)
 
-        
-
     toctree("OpenIMIS")
     write("external","open a ticket", "https://openimis.atlassian.net/servicedesk/customer/portals")
     write("external","openIMIS Wiki", "https://openimis.atlassian.net/wiki/spaces/OP/overview")
+    write("User manual","openIMIS User documentation","index_local")
+    write("Install","openIMIS Install documentation","index_local")
     endl()
     endl()
+
+    """ 
     toctree("User documentation")
     write("main","Users and logins","/user_manual/user_login/user_login")
     write("main","Claims","/user_manual/claims/claims")
@@ -102,7 +104,7 @@ def generate_sidebar(conf, conf_api):
     write("Install","ar_ssrs_start","/ar_install/ar_ssrs_install")
     write("Install","ar_iis_start","/ar_install/ar_ssis_start")
     endl()
-    endl()
+    endl() """
 
 
     write_if_changed("_sidebar.rst.inc", "\n".join(lines))
