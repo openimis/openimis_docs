@@ -1,2 +1,4 @@
 _build/
 .vscode
+_sidebar.rst.inc
+__pycache__/gensidebar.cpython-37.pyc
