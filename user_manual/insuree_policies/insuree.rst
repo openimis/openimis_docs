@@ -203,11 +203,11 @@ Insuree Page
 
     * ``Marital Status``
 
-      Select from the list of available options for the marital status of the insuree. Mandatory.
+      Select from the list of available options for the marital status of the insuree.
 
     * ``Beneficiary Card``
 
-      Select from the list of options whether or not the card was issued to the insure. Mandatory.
+      Select from the list of options whether or not the card was issued to the insure. 
 
     * ``Current Region``
 

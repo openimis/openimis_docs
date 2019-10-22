@@ -340,7 +340,7 @@ Family/Group Page
 
     * ``Poverty Status``
 
-      Select whether the family/group has the poverty status. Mandatory.
+      Select whether the family/group has the poverty status.
 
     * ``Confirmation Type``
 
@@ -381,11 +381,11 @@ Family/Group Page
 
     * ``Marital Status``
 
-      Select from the list of available marital statuses the marital status of the head of family/group. Mandatory.
+      Select from the list of available marital statuses the marital status of the head of family/group.
 
     * ``Beneficiary Card``
 
-      Select from the list of card whether or not an insurance identification card was issued to the head of family/group. Mandatory.
+      Select from the list of card whether or not an insurance identification card was issued to the head of family/group.
 
     * ``Current Region``
 

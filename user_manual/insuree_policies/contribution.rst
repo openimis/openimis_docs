@@ -83,6 +83,10 @@ Find Contribution Page
 
         `Image 109 - Calendar Selector - Search Panel`
 
+    * ``Contribution Category``
+
+      Select the ``Contribution Category`` that match with the type of contribution paid, by default there is *Contribution and Others* and *photo fee*. this enable to add fees that won't be counted as contribution payment
+
     * ``Contribution Paid``
 
       Type in the ``Contribution Paid`` to search for contributions with the paid amount, greater or equal to the typed amount.
