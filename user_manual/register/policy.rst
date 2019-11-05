@@ -158,6 +158,8 @@ Product Page
 
       `Image 10 - Product Page`
 
+    **General** 
+
     * ``Product Code``
 
       Enter the product code for the product. Mandatory, 8 characters.
@@ -213,6 +215,8 @@ Product Page
     * ``Conversion``
 
       Select from the list of products, a reference to the product which replaces the current product in case of renewal after the ``Date to``. `Note: Selecting the current product will prevent the record from saving, and cause a message to be displayed in the Information Panel.`
+
+    **Policy Amount, threshold and ceilings**
 
     * ``Lump Sum``
 
@@ -274,7 +278,24 @@ Product Page
 
       Enter the renewal discount period of the insurance product in months.
 
-    * ``Medical Services``
+    * ``Registration Lump Sum``
+
+      Enter the lump sum (for a household/group) for registration fee to be paid at the first enrolment of the household/group. Registration fee is not paid for renewals of policies.
+
+    * ``Assembly Lump Sum``
+
+      Enter the lump sum (for a household/group) for additional assembly fee to be paid both at the first enrolment and renewals of policies.
+
+    * ``Registration Fee``
+
+      Enter the registration fee per member of a household/group. If registration lump sum is non zero, registration fee is not considered. Registration fee is not paid for renewals of policies.
+
+    * ``Assembly Fee``
+
+      Enter the assembly fee per member of a household/group. If assembly lump sum is non zero, assembly fee is not considered. Assembly fee is paid both at the first enrolment and renewals of policies.
+
+
+    **Covered Medical sercices**
 
       Select from the list of available medical services (from the register of Medical Services) the medical services covered within the insurance product, by either clicking on the ``Check All`` box at the top of the list of medical services, or by selectively clicking on the check box to the left of the medical service.
 
@@ -342,7 +363,7 @@ Product Page
 
       It indicates whether the medical service is excluded from comparison against ceilings defined in the insurance product for children. Default is that the medical service is not excluded from comparisons with ceilings. [H] means exclusion only for provision of in-patient care, [N] means exclusion only for out-patient care and [B] means exclusion both for in-patient and out-patient care.
 
-    * ``medical items``
+    **Covered Medical sercices**
 
       Select from the list of available medical items (from the register of Medical Items) the medical items covered within the product; by either clicking on the Check All box at the top of the list of medical items, or by selectively clicking on the check box to the left of the medical item.
 
@@ -418,21 +439,7 @@ Product Page
 
       Enter the account code of the insurance product used in the accounting software for paid contributions. 25 characters maximum.
 
-    * ``Registration Lump Sum``
-
-      Enter the lump sum (for a household/group) for registration fee to be paid at the first enrolment of the household/group. Registration fee is not paid for renewals of policies.
-
-    * ``Assembly Lump Sum``
-
-      Enter the lump sum (for a household/group) for additional assembly fee to be paid both at the first enrolment and renewals of policies.
-
-    * ``Registration Fee``
-
-      Enter the registration fee per member of a household/group. If registration lump sum is non zero, registration fee is not considered. Registration fee is not paid for renewals of policies.
-
-    * ``Assembly Fee``
-
-      Enter the assembly fee per member of a household/group. If assembly lump sum is non zero, assembly fee is not considered. Assembly fee is paid both at the first enrolment and renewals of policies.
+    **policy lenght and start**
 
     * ``Recurrence``
 
@@ -448,7 +455,7 @@ Product Page
 
       If one or more starting dates (a day and a month) of a cycle are specified then the insurance product is considered as the insurance product with fixed enrolment dates. In this case, activation of underwritten and renewed policies is accomplished always on fixed dates during a year. Maximum four cycle dates can be specified.
 
-    * ``Ceiling Interpretation``
+    **Deductibles and Ceiling**
 
       Specify whether Hospital and Non-Hospital care should be determined according to the type of health facility (select [Hospital]) that provided health care or according to the type of health care (select [In-patient]) acquired from a claim. In the first case all health care provided in hospitals (defined in the field ``HF Level`` in the register of Health Facilities) is accounted for ``Hospital Ceilings/Deductibles`` and for calculation of relative prices for the ``Hospital`` part. It means that if clamed health care was provided out-patient in a hospital, it is considered for calculation of ceilings/deductibles and for calculation of relative prices as hospital care. In the second case only in-patient care (determined from a claim when a patient spent at least one night in a health facility) is accounted for ``Hospital Ceilings/Deductibles`` and for calculation of relative prices for hospital part. Other health care including out-patient care provided in hospitals is accounted for ``Non hospital Ceilings/Deductibles`` and also such health care is used for calculation of relative prices for non-hospital part. Mandatory.
 
@@ -511,6 +518,8 @@ Product Page
 
       `Note. It is possible to specify only one of the following ceilings –per Treatment, per Insuree or per Policy. If ceilings per category of claims are specified together with ceilings per Treatment, per Insuree or per Policy than evaluation of claims may be dependent under special circumstances on the order of claimed medical services/items in a claim.`
 
+    **Health fund management**
+
     * ``distribution Period``
 
       Distribution periods may be entered for general care (``Hospitals`` and ``Non-hospitals``), or for hospital care (``Hospitals``) only and/or for non-hospital care (``Non-Hospitals``) only. Select from the list (**NONE, Monthly, Quarterly, Yearly**), the period that is to be used for calculation of the actual value of relative prices for the insurance product; by clicking on the arrow on the right. The default value is ‘\ **NONE**\ ’ which means that relative prices are not calculated for general health care or for hospital care or non-hospital care within the insurance product. By selecting **Monthly, Quarterly** or **Yearly** will cause a pop-up (:ref:`Image 14<image14>`) with the relative periods (1 period for yearly, 4 for quarterly, 12 for monthly). Percentages should be entered to indicate the distribution over the periods as per the product description. Enter to each field an appropriate percentage of paid contributions for policies of the insurance product allocated proportionally to corresponding calendar period. It means, for example, that in case of the distribution **Monthly** we put in each slot percentage of paid contributions of the insurance product that are allocated to the corresponding month and that is to be used for calculation of relative prices.
@@ -531,7 +540,7 @@ Product Page
 
           `Image 14 - Distribution Periods (Monthly – Quarterly – Yearly) - Product)`
 
-    * ``Capitation Payment``
+    **Capitation Payment**
 
       The section allows definition of parameters of a capitation formula used for remuneration of selected levels of health facilities within the insurance product. The report `Capitation Payment` is used for calculation of the amount of capitation payment for individual health facilities. The parameters of the capitation formula are the following:
 
@@ -597,7 +606,7 @@ Product Page
 
     *Note. The capitation formula is defined as follows:*
 
-      .. math::`\text{CapitationPayment}_{i} = \sum_{a}^{\ }{(\ \text{Indicator}_{i}^{a}} \times \frac{AllocatedContribution \times ShareContribution \times \text{Share}^{a}}{\sum_{i}^{\ }{\text{In}\text{dicator}}_{i}^{a}})`
+      :math:`\text{CapitationPayment}_{i} = \sum_{a}^{\ }{(\ \text{Indicator}_{i}^{a}} \times \frac{AllocatedContribution \times ShareContribution \times \text{Share}^{a}}{\sum_{i}^{\ }{\text{In}\text{dicator}}_{i}^{a}})`
 
       *Where*
 
