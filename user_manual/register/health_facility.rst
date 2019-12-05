@@ -17,7 +17,7 @@ Navigation
   .. figure:: /img/user_manual/image19.png
     :align: center
 
-    `Image 15 - Navigation Health Facilities`
+    `Navigation Health Facilities`
 
   All functionality for use with the administration of health facilities can be found under the main menu ``Administration``, sub menu ``Health Facilities.``
 
@@ -27,12 +27,12 @@ Navigation
   .. figure:: /img/user_manual/image20.png
     :align: center
 
-    `Image 16 - Health Facilities Control Page`
+    `Health Facilities Control Page`
 
 Health Facilities Control PAGE
 """"""""""""""""""""""""""""""
 
-  The ``Health Facilities Control Page`` is the central point for all health facilities administration. By having access to this page, it is possible to add, edit, delete and search. The page is divided into four panels (:ref:`Image 16<image16>`)
+  The ``Health Facilities Control Page`` is the central point for all health facilities administration. By having access to this page, it is possible to add, edit, delete and search. The page is divided into four panels (:numref:`image16`)
 
  #. **Search Panel**
 
@@ -80,13 +80,13 @@ Health Facilities Control PAGE
 
     * ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 17<image17>`)
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image17`)
 
       .. _image17:
       .. figure:: /img/user_manual/image21.png
         :align: center
 
-        `Image 17 - Historical Records - Result Panel`
+        `Historical Records - Result Panel`
 
     * ``Search button``
 
@@ -94,25 +94,25 @@ Health Facilities Control PAGE
 
  #. **Result Panel**
 
-    The result panel displays a list of all health facilities found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 18<image18>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+    The result panel displays a list of all health facilities found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image18`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
       .. _image18:
       .. figure:: /img/user_manual/image22.png
         :align: center
 
-        `Image 18 - Selected record (blue), hovered records (yellow) - Result Panel`
+        `Selected record (blue), hovered records (yellow) - Result Panel`
 
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 19<image19>`)
+    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image19`)
 
       .. _image19:
       .. figure:: /img/user_manual/image11.png
         :align: center
 
-        `Image 19 - Page selector- Result Panel`
+        `Page selector- Result Panel`
 
  #. **Button Panel**
 
-    With exception of the ``Cancel`` button, which re-directs to the `Home Page <#image-2.2-home-page>`__, and the ``Add`` button which re-directs to the health facility page, the button panel (the buttons ``Edit`` and ``Delete)`` is used in conjunction with the current selected record (highlighted with blue). The user should select first a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
+    With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, and the ``Add`` button which re-directs to the health facility page, the button panel (the buttons ``Edit`` and ``Delete)`` is used in conjunction with the current selected record (highlighted with blue). The user should select first a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
 
  #. **Information Panel**
 
@@ -127,7 +127,7 @@ Health Facility Page
     .. figure:: /img/user_manual/image23.png
       :align: center
 
-      `Image 20 - Health Facility Page`
+      `Health Facility Page`
 
     * ``Code``
 
@@ -224,12 +224,12 @@ Deleting a Health Facility
 
   Click on the ``Delete`` button to delete the currently selected record.
 
-  Before deleting a confirmation popup (:ref:`Image 21<image21>`) is displayed, which requires the user to confirm if the action should really be carried out?
+  Before deleting a confirmation popup (:numref:`image21`) is displayed, which requires the user to confirm if the action should really be carried out?
 
     .. _image21:
     .. figure:: /img/user_manual/image24.png
       :align: center
 
-      `Image 21 - Delete confirmation- Button Panel`
+      `Delete confirmation- Button Panel`
 
   When a health facility is deleted, all records retaining to the deleted health facility will still be available by selecting historical records.

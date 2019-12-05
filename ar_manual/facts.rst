@@ -1,28 +1,27 @@
-
-
 Facts
 ^^^^^
 
-  Facts provided by AR-IMIS can be structured into the areas according to (:ref:`image273`). Within each area several facts packed into one or several cubes are provided. Facts are packed into the same cube if they have an associated meaning and are provided with the same set of dimension. The following articles lists available cubes according to the areas, for each cube indicates available facts with description of their meaning and
+Facts provided by AR-IMIS can be structured into the areas according to (:numref:`image273`). Within each area several facts packed into one or several cubes are provided. Facts are packed into the same cube if they have an associated meaning and are provided with the same set of dimension. The following articles lists available cubes according to the areas, for each cube indicates available facts with description of their meaning
 
-  .. _image273:
-  .. figure:: /img / user_manual / image238.png
-    :align: center
+.. figure:: /img / user_manual / image238.png
+  :align: center
+  :name: image273
 
-    `Image 273 - Areas of facts`
+  `Areas of facts`
 
-  underlying set of qualifying dimensions. If meaning of a dimension is not straightforward, its description is provided. It relates especially to the *Time* dimension where it is important which datum related with a fact is taken as the governing date for association with given point (period) in the *Time* dimension.
+underlying set of qualifying dimensions. If meaning of a dimension is not straightforward, its description is provided. It relates especially to the *Time* dimension where it is important which datum related with a fact is taken as the governing date for association with given point (period) in the *Time* dimension.
 
 Facts on Enrolment and policies
 """""""""""""""""""""""""""""""
 
-  This group of facts relates to acquisition of insures and development of coverage by health insurance schemes. Facts available are listed in `Table 9.2 <#table-9.2-facts-on-Enrolment-and-policies>`__
+  This group of facts relates to acquisition of insures and development of coverage by health insurance schemes. Facts available are listed in :numref:`facts_enrolment_policies`
 
-  .. list-table:: `Table 9.2 Facts on Enrolment and policies`
+  .. list-table:: `Facts on Enrolment and policies`
       :widths: 2 2 4 2 4
       :header-rows: 1
       :stub-columns: 1
       :class: longtable
+      :name: facts_enrolment_policies
 
       * - **Cube**
         - **Fact**
@@ -184,9 +183,10 @@ Facts on Enrolment and policies
 Facts on collected revenue
 """"""""""""""""""""""""""
 
-  This group of facts relates to revenue of health insurance schemes. Facts available are listed in `Table 9.3 <\l>`__.
+  This group of facts relates to revenue of health insurance schemes. Facts available are listed in :numref:`fact_contribution` .
 
-  .. list-table:: `Table 9.3 Facts on contributions`
+  .. list-table:: `Facts on contributions`
+    :name: fact_contribution
     :widths: 2 2 4 2 4
     :header-rows: 1
     :stub-columns: 1
@@ -238,9 +238,10 @@ Facts on collected revenue
 Facts on claims
 """""""""""""""
 
-  This group of facts relates to claims forwarded by health care providers to administrators of health insurance schemes. Facts available are listed in `Table 9.4 <#table-9.4-facts-on-claims>`__.
+  This group of facts relates to claims forwarded by health care providers to administrators of health insurance schemes. Facts available are listed in :numref:`facts_claims`
 
-  .. list-table:: `Table 9.4 Facts on claims`
+  .. list-table:: `Facts on claims`
+    :name: facts_claims
     :widths: 2 2 4 2 4
     :header-rows: 1
     :stub-columns: 1
@@ -334,9 +335,11 @@ Facts on claims
 Facts on utilization of health care
 """""""""""""""""""""""""""""""""""
 
-  This group of facts relates to utilization of health care by insures according to submitted and not rejected claims. Facts available are listed in `Table 9.5 <#table-9.5-facts-on-of-utilization-health-care>`__
+  This group of facts relates to utilization of health care by insures according to submitted and not rejected claims. Facts available are listed in :numref:`facts-on-of-utilization-health-care`
 
-.. list-table:: `Table 9.5 Facts on of utilization health care`
+
+.. list-table:: `Facts on of utilization health care`
+    :name: facts-on-of-utilization-health-care
     :widths: 2 2 4 2 4
     :header-rows: 1
     :stub-columns: 1
@@ -575,9 +578,10 @@ Facts on utilization of health care
 Facts on expenditures for health care
 """""""""""""""""""""""""""""""""""""
 
-  This group of facts relates to expenditures for health care actually paid to health care providers. Facts available are listed in `Table 9.6 <#table-9.6-facts-on-expenditures-for-health-care>`__
+  This group of facts relates to expenditures for health care actually paid to health care providers. Facts available are listed in :numref:`facts_expenditures_health_care`
 
- .. list-table:: `Table 9.6 Facts on expenditures for health care`
+ .. list-table:: `Facts on expenditures for health care`
+    :name: facts_expenditures_health_care
     :widths: 2 2 4 2 4
     :header-rows: 1
     :stub-columns: 1
@@ -802,9 +806,10 @@ Facts on expenditures for health care
 Facts on feedbacks
 """"""""""""""""""
 
-  This group of facts relates to evaluation of request for feedbacks on provided health care that are issued by medical officers during processing of claims. Facts available are listed in `Table 9.7 <\l>`__
+  This group of facts relates to evaluation of request for feedbacks on provided health care that are issued by medical officers during processing of claims. Facts available are listed in :numref:`fact_feedback`
 
-  .. list-table:: `Table 9.7 Facts on feedbacks`
+  .. list-table:: `Facts on feedbacks`
+    :name: fact_feedback
     :widths: 2 2 4 2 4
     :header-rows: 1
     :stub-columns: 1

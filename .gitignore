@@ -2,3 +2,5 @@ _build/
 .vscode
 _sidebar.rst.inc
 __pycache__/
+img_old
+

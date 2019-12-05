@@ -20,7 +20,7 @@ Navigation
   .. figure:: /img/user_manual/image83.png
     :align: center
 
-    `Image 107 - Navigation Contributions`
+    `Navigation Contributions`
 
   Clicking on the sub menu ``Contributions`` re-directs the current user to the `Find Contribution Page <#_Image_4.22_(Find>`__\.
 
@@ -32,7 +32,7 @@ Find Contribution Page
 
     `Image - 108 Find Contribution Page`
 
-  The ``Find Contribution Page`` is the first step in the process of finding a contribution and thereafter accessing the `Family Overview Page <#family-overview>`__ of insures, policies and contributions. This initial page can be used to search for specific contributions or groups of contributions based on specific criteria. The page is divided into four panels (:ref:`Image 108<image108>`).
+  The ``Find Contribution Page`` is the first step in the process of finding a contribution and thereafter accessing the `Family Overview Page <#family-overview>`__ of insures, policies and contributions. This initial page can be used to search for specific contributions or groups of contributions based on specific criteria. The page is divided into four panels (:numref:`image108`).
 
  #. **Search Panel**
 
@@ -56,7 +56,7 @@ Find Contribution Page
 
     * ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 109<image109>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image109`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
         - At anytime during the use of the pop-up, the user can see the date of **today**.
         - Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -81,7 +81,7 @@ Find Contribution Page
       | |logo33| || |logo34| || |logo35| |
       +----------++----------++----------+
 
-        `Image 109 - Calendar Selector - Search Panel`
+        `Calendar Selector - Search Panel`
 
     * ``Contribution Category``
 
@@ -101,13 +101,13 @@ Find Contribution Page
 
     * ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 110<image110>`).
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image110`).
 
       .. _image110:
       .. figure:: /img/user_manual/image85.png
         :align: center
 
-        `Image 110 - Historical records - Result Panel`
+        `Historical records - Result Panel`
 
     * ``Search Button``
 
@@ -115,7 +115,7 @@ Find Contribution Page
 
  #. **Result Panel**
 
-    The result panel displays a list of all contributions found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 111<image111>`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+    The result panel displays a list of all contributions found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image111`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
     .. _image111:
     .. figure:: /img/user_manual/image86.png
@@ -123,17 +123,17 @@ Find Contribution Page
 
       `Image 111 Selected record (blue), hovered records (yellow) - Result Pane`
 
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 112<image112>`).
+    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image112`).
 
     .. _image112:
     .. figure:: /img/user_manual/image11.png
       :align: center
 
-      `Image 112 - Page selector- Result Panel`
+      `Page selector- Result Panel`
 
  #. **Button Panel**
 
-    The ``Cancel`` button re-directs to the `Home Page <#image-2.2-home-page>`__.
+    The ``Cancel`` button re-directs to the :ref:`Home Page <home_page>`.
 
  #. **Information Panel**
 
@@ -148,7 +148,7 @@ Contribution Page
     .. figure:: /img/user_manual/image104.png
       :align: center
 
-      `Image 130 - Contribution Page`
+      `Contribution Page`
 
     * ``Payer``
 
@@ -235,13 +235,13 @@ Deleting a Contribution
 
   Click on the Red Cross Sign button to delete the currently selected record.
 
-  Before deleting a confirmation popup (:ref:`Image 135<image135>`) is displayed, which requires the user to confirm if the action should really be carried out?
+  Before deleting a confirmation popup (:numref:`image135`) is displayed, which requires the user to confirm if the action should really be carried out?
 
   .. _image135:
   .. figure:: /img/user_manual/image109.png
     :align: center
 
-    `Image 135 - Delete confirmation- Button Panel`
+    `Delete confirmation- Button Panel`
 
   When a contribution is deleted, all records retaining to the deleted contribution will still be available by selecting historical records.
 

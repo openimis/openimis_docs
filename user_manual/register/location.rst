@@ -19,7 +19,7 @@ Navigation
   .. figure:: /img/user_manual/image65.png
     :align: center
 
-    `Image 82 - Navigation Locations`
+    `Navigation Locations`
 
   Clicking on the sub menu ``Locations`` re-directs the current user to the `Locations Page. <#locations-page>`__
 
@@ -27,12 +27,12 @@ Navigation
   .. figure:: /img/user_manual/image66.png
     :align: center
 
-    `Image 83 - Locations Page`
+    `Locations Page`
 
 Locations Page
 """"""""""""""
 
-  The Locations page is the central point for all locations administration. By having access to this page, it is possible to add, edit, delete and move regions, districts, municipalities and villages. The page is divided into three panels (:ref:`Image 83<image83>`). *Note. Only regions and districts with associated municipalities and villages, belonging to the logged in user will be available to edit or delete. On adding a new region or district, the user will automatically become associated with this region or district.*
+  The Locations page is the central point for all locations administration. By having access to this page, it is possible to add, edit, delete and move regions, districts, municipalities and villages. The page is divided into three panels (:numref:`image83`). *Note. Only regions and districts with associated municipalities and villages, belonging to the logged in user will be available to edit or delete. On adding a new region or district, the user will automatically become associated with this region or district.*
 
  #. **Locations Panel**
 
@@ -40,13 +40,13 @@ Locations Page
 
  #. **Button Panel**
 
-    It has four buttons, ``Add``, ``Edit``, ``Delete`` and ``Move`` for actions on the locations and the ``Cancel`` button for re-directing to the `Home Page <#image-2.2-home-page>`__\.
+    It has four buttons, ``Add``, ``Edit``, ``Delete`` and ``Move`` for actions on the locations and the ``Cancel`` button for re-directing to the :ref:`Home Page <home_page>`\.
 
     .. _image84:
     .. figure:: /img/user_manual/image67.png
       :align: center
 
-      `Image 84 - Action Buttons - Locations Page`
+      `Action Buttons - Locations Page`
 
  #. **Information Panel**
 
@@ -54,7 +54,7 @@ Locations Page
 
  #. **Cancel**
 
-    By clicking on the ``Cancel`` button, the user will be re-directed to the `Home Page <#image-2.2-home-page>`__\ .
+    By clicking on the ``Cancel`` button, the user will be re-directed to the :ref:`Home Page <home_page>`\ .
 
 Adding a Region, District, Municipality, Village
 """"""""""""""""""""""""""""""""""""""""""""""""
@@ -71,26 +71,26 @@ Deleting a Region, District, Municipality, Village
 
   Select first the location to delete and click the ``Delete`` button. *Note. It is not possible to delete a region, district or municipality with associated districts, municipalities or villages respectively.*
 
-  Before deleting a confirmation popup (:ref:`Image 85<image85>`) is displayed, which requires the user to confirm if the action should really be carried out?
+  Before deleting a confirmation popup (:numref:`image85`) is displayed, which requires the user to confirm if the action should really be carried out?
 
   .. _image85:
   .. figure:: /img/user_manual/image24.png
     :align: center
 
-    `Image 85 - Delete confirmation – Location Page`
+    `Delete confirmation – Location Page`
 
   When a region, district, municipality or village is deleted, all records retaining to the deleted region, district, municipality or village will still be available by selecting historical records.
 
 Moving a District, Municipality, Village
 """"""""""""""""""""""""""""""""""""""""
 
-  Moving of a location is needed when the administrative division of the territory, on which a health insurance scheme is active, changes. Clicking on the ``Move`` button will re-direct to the Move Location Page (:ref:`Image 86<image86>`).
+  Moving of a location is needed when the administrative division of the territory, on which a health insurance scheme is active, changes. Clicking on the ``Move`` button will re-direct to the Move Location Page (:numref:`image86`).
 
   .. _image86:
   .. figure:: /img/user_manual/image68.png
     :align: center
 
-    `Image 86 - Move Location Page`
+    `Move Location Page`
 
   The ``Move Location Page`` is divided into six panels.
 

@@ -1,5 +1,4 @@
 
-
 How access data from the Data Warehouse
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -12,7 +11,7 @@ How access data from the Data Warehouse
   .. figure:: /img / user_manual / image239.png
     :align: center
 
-    `Image 274 - Accessing the Data Warehouse`
+    `Accessing the Data Warehouse`
 
   1. Open an Excel file
 
@@ -46,4 +45,4 @@ How access data from the Data Warehouse
     .. figure:: /img / user_manual / image240.png
        :align: center
 
-       `Image 275 - Pivot Table in Excel`
+       `Pivot Table in Excel`

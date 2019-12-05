@@ -19,7 +19,7 @@ Navigation
   .. figure:: /img/user_manual/image45.png
     :align: center
 
-    `Image 52 - Navigation Users`
+    `Navigation Users`
 
   Clicking on the sub menu ``Users`` re-directs the current user to the `User Control Page <#user-control-page>`__\ .
 
@@ -27,12 +27,12 @@ Navigation
   .. figure:: /img/user_manual/image46.png
     :align: center
 
-    `Image 53 - User Control Page`
+    `User Control Page`
 
 User Control Page
 """""""""""""""""
 
-  The ``User Control Page`` is the central point for all user administration. By having access to this page, it is possible to add, edit, delete and search users. The page is divided into four panels (:ref:`Image 52<image52>`).
+  The ``User Control Page`` is the central point for all user administration. By having access to this page, it is possible to add, edit, delete and search users. The page is divided into four panels (:numref:`image52`).
 
   The following rules apply to the list of found users besides conformance with all search criteria:
 
@@ -87,13 +87,13 @@ User Control Page
 
     * ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 54<image54>`).
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image54`).
 
     .. _image54:
     .. figure:: /img/user_manual/image47.png
       :align: center
 
-      `Image 54 - Historical records - Result Panel`
+      `Historical records - Result Panel`
 
     * ``Search Button``
 
@@ -105,21 +105,21 @@ User Control Page
     .. figure:: /img/user_manual/image48.png
       :align: center
 
-      `Image 55 - Selected record (blue), hovered records (yellow) - Result Panel`
+      `Selected record (blue), hovered records (yellow) - Result Panel`
 
-    The result panel displays a list of all users found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 55<image55>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+    The result panel displays a list of all users found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image55`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 56<image56>`)
+    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image56`)
 
     .. _image56:
     .. figure:: /img/user_manual/image11.png
       :align: center
 
-      `Image 56 - Page selector- Result Panel`
+      `Page selector- Result Panel`
 
  #. **Button Panel**
 
-    With exception of the ``Cancel`` button, which re-directs to the `Home Page <#image-2.2-home-page>`__, and the ``Add`` button which re-directs to the `User Page <#user-page>`__, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
+    With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
 
  #. **Information Panel**
 
@@ -134,7 +134,7 @@ User Control Page
     .. figure:: /img/user_manual/image49.png
       :align: center
 
-      `Image 57 - User Page`
+      `User Page`
 
     * ``Language``
 
@@ -215,12 +215,12 @@ Deleting a User
 
   Click on the Delete button to delete the currently selected record
 
-  Before deleting a confirmation popup (:ref:`Image 58<image58>`) is displayed, this requires the user to confirm if the action should really be carried out.
+  Before deleting a confirmation popup (:numref:`image58`) is displayed, this requires the user to confirm if the action should really be carried out.
 
   .. _image58:
   .. figure:: /img/user_manual/image24.png
     :align: center
 
-    `Image 58 - Delete confirmation- Button Panel`
+    `Delete confirmation- Button Panel`
 
   When a user is deleted, all records retaining to the deleted user will still be available by selecting historical records.

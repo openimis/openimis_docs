@@ -58,10 +58,13 @@ def generate_sidebar(conf, conf_api):
             lines.append("    %s <%s>" % args)
 
     toctree("OpenIMIS")
+    write("User manual","openIMIS User documentation","index_local")
+    write("external","openIMIS Install documentation","https://openimis.atlassian.net/wiki/spaces/OP/pages/906526894")
     write("external","open a ticket", "https://openimis.atlassian.net/servicedesk/customer/portals")
     write("external","openIMIS Wiki", "https://openimis.atlassian.net/wiki/spaces/OP/overview")
-    write("User manual","openIMIS User documentation","index_local")
-    write("Install","openIMIS Install documentation","index_local")
+
+    # write("Install","openIMIS Install documentation","index_local")
+    
     endl()
     endl()
 

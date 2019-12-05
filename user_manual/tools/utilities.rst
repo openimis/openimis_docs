@@ -16,7 +16,7 @@ Navigation
   .. figure:: /img/user_manual/image211.png
     :align: center
 
-    `Image 243 - Navigation Utilities`
+    `Navigation Utilities`
 
   Clicking on the sub menu ``Utilities`` re-directs the current user to the `Utilities Page. <#image-6.75-utilities-page>`__
 
@@ -24,7 +24,7 @@ Navigation
   .. figure:: /img/user_manual/image212.png
     :align: center
 
-    `Image 244 - Utilities Page`
+    `Utilities Page`
 
 Backup
 """"""
@@ -35,7 +35,7 @@ Backup
   .. figure:: /img/user_manual/image213.png
     :align: center
 
-    `Image 245 - Backup is in progress`
+    `Backup is in progress`
 
 Restore
 """""""
@@ -46,7 +46,7 @@ Restore
   .. figure:: /img/user_manual/image213.png
     :align: center
 
-    `Image 246 - Backup is in progress`
+    `Backup is in progress`
 
 Execute script
 """"""""""""""

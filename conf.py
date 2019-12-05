@@ -14,6 +14,7 @@
 #
 import os
 import sys
+#import sphinx_numfig
 # sys.path.insert(0, os.path.abspath('.'))
 
 from os.path import abspath, join, dirname
@@ -32,7 +33,10 @@ version = u''
 # The full version, including alpha/beta/rc tags
 release = u''
 
-
+# -- Numbering figures
+numfig = True
+numfig_format = {'figure': 'Img. %s', 'table': 'Tab. %s', 'code-block': 'Code %s'}
+numfig_secnum_depth = (2)
 # -- General configuration ---------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
@@ -42,8 +46,7 @@ release = u''
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-]
+extensions =['sphinx.ext.intersphinx']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -195,6 +198,11 @@ intersphinx_mapping = {
   'user': ('http://openimis.readthedocs.io/en/%s/' % rtd_version, None),
   'install': ('http://openimis-install.readthedocs.io/en/%s/' % rtd_version, None),
 }
+
+## Local and internalization
+
+#locale_dirs = ['locale/']   # path is example but recommended.
+#gettext_compact = False     # optional.
 
 
 ## Gen menu

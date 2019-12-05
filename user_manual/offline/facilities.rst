@@ -7,35 +7,35 @@ Offline Facilities
 
  #. **Login**
 
-    If a user who is logging in is having user role HF Administrator or offline Scheme Administrator and if Heath Facility ID/Scheme Office ID is not set yet, just after clicking login button on the login screen/page, the user will be prompted to enter Health Facility/Scheme Office ID (:ref:`Image 251<image251>`), (:ref:`Image 252<image252>`), only once for that very first time of logging in.
+    If a user who is logging in is having user role HF Administrator or offline Scheme Administrator and if Heath Facility ID/Scheme Office ID is not set yet, just after clicking login button on the login screen/page, the user will be prompted to enter Health Facility/Scheme Office ID (:numref:`image251`), (:numref:`image252`), only once for that very first time of logging in.
 
     .. _image251:
     .. figure:: /img/user_manual/image218.png
       :align: center
 
-      `Image 251 - Enter HF ID - HF Administrator Login, openIMIS offline`
+      `Enter HF ID - HF Administrator Login, openIMIS offline`
 
     .. _image252:
     .. figure:: /img/user_manual/image219.png
       :align: center
 
-      `Image 252 - Enter Scheme Office ID - offline Scheme Administrator Login, openIMIS offline`
+      `Enter Scheme Office ID - offline Scheme Administrator Login, openIMIS offline`
 
  #. **Information bar**
 
-      Throughout the application, an information bar at the bottom of each page will have a different background colour to that of online openIMIS and on the its right end, there will be shown heath facility code and health facility name / Scheme Office ID submitted (:ref:`Image 253<image253>`), (:ref:`Image 254<image254>`).
+      Throughout the application, an information bar at the bottom of each page will have a different background colour to that of online openIMIS and on the its right end, there will be shown heath facility code and health facility name / Scheme Office ID submitted (:numref:`image253`), (:numref:`image254`).
 
       .. _image253:
       .. figure:: /img/user_manual/image220.png
         :align: center
 
-        `Image 253 - Information Bar – Scheme Office, openIMIS offline`
+        `Information Bar – Scheme Office, openIMIS offline`
 
       .. _image254:
       .. figure:: /img/user_manual/image221.png
         :align: center
 
-        `Image 254 - Information Bar - Health Facility, openIMIS offline`
+        `Information Bar - Health Facility, openIMIS offline`
 
  #. **Menu Access**
 
@@ -45,73 +45,73 @@ Offline Facilities
 
     * ``Extracts``
 
-      Extracts Menu leads an offline user to Extracts control panel. Using this panel, an offline user with rights to this panel can import data from online openIMIS to the local offline IMIS, and can also download claims and enrolments prior to upload them to the online IMIS. This panel is divided into five sections (:ref:`Image 255<image255>`), (:ref:`Image 256<image256>`) If an offline user is HF Administrator, section C will contain facility to ``Download Claims``. If an offline user is Offline Scheme Administrator, section C will contain facility to ``Download Enrolments``
+      Extracts Menu leads an offline user to Extracts control panel. Using this panel, an offline user with rights to this panel can import data from online openIMIS to the local offline IMIS, and can also download claims and enrolments prior to upload them to the online IMIS. This panel is divided into five sections (:numref:`image255`), (:numref:`image256`) If an offline user is HF Administrator, section C will contain facility to ``Download Claims``. If an offline user is Offline Scheme Administrator, section C will contain facility to ``Download Enrolments``
 
       .. _image255:
       .. figure:: /img/user_manual/image222.png
         :align: center
 
-        `Image 255 - Extracts Control Page, HF Administrator, openIMIS offline`
+        `Extracts Control Page, HF Administrator, openIMIS offline`
 
       .. _image256:
       .. figure:: /img/user_manual/image223.png
         :align: center
 
-        `Image 256 - Extracts Control Page, Offline Scheme Administrator, openIMIS offline`
+        `Extracts Control Page, Offline Scheme Administrator, openIMIS offline`
 
     * ``section a - import extract``
 
       This section has a facility to enable synchronization of online openIMIS data with that offline openIMIS data. When online data in a zipped file is obtained (downloaded extraction) from online openIMIS to user local computer, user will use this section to put that data into offline IMIS.
 
-      User has to select a file from a local computer by clicking the 'select file' button on the left side of the section, and in the popup window which appears (:ref:`Image 256<image256>`) user can navigate to the required file and select the file.
+      User has to select a file from a local computer by clicking the 'select file' button on the left side of the section, and in the popup window which appears (:numref:`image256`) user can navigate to the required file and select the file.
 
       .. _image257:
       .. figure:: /img/user_manual/image224.png
         :align: center
 
-        `Image 257 - Select File Popup Window, Import Extracts, openIMIS offline`
+        `Select File Popup Window, Import Extracts, openIMIS offline`
 
-      After clicking the upload button on the very end of right hand side in this section, data in the file will be imported to the offline openIMIS and confirmation will be given as popup messages (:ref:`Image 257<image257>`), (:ref:`Image 258<image258>`).
+      After clicking the upload button on the very end of right hand side in this section, data in the file will be imported to the offline openIMIS and confirmation will be given as popup messages (:numref:`image257`), (:numref:`image258`).
 
       .. _image258:
       .. figure:: /img/user_manual/image225.png
         :align: center
 
-        `Image 258 - Popup Window, Import Extracts, HF Administrator, openIMIS offline`
+        `Popup Window, Import Extracts, HF Administrator, openIMIS offline`
 
       .. _image259:
       .. figure:: /img/user_manual/image226.png
         :align: center
 
-        `Image 259 - Popup Window, Import Extracts, Offline Scheme Administrator, openIMIS offline`
+        `Popup Window, Import Extracts, Offline Scheme Administrator, openIMIS offline`
 
-      User cannot import an extract whose sequence number is same as last one imported; if done so, a popup message (:ref:`Image 260<image260>`) will be shown.
+      User cannot import an extract whose sequence number is same as last one imported; if done so, a popup message (:numref:`image260`) will be shown.
 
       .. _image260:
       .. figure:: /img/user_manual/image227.png
         :align: center
 
-        `Image 260 - Popup Window, Wrong sequence of an extract file, openIMIS offline`
+        `Popup Window, Wrong sequence of an extract file, openIMIS offline`
 
     * ``section b - import photos``
 
       Just as the section name implies, this is a section with facility to enable a user synchronize insurees’ photos in online IMIS, with insurees’ photos in offline IMIS. When online insurees’ photos in a zipped file is obtained from online openIMIS to user local computer, user will use this section to put those photos into offline IMIS.
 
-      User has to select a file from a local computer by clicking the 'select file' button on the left side of the section, and in the popup window which appears (:ref:`Image 261<image261>`), user can navigate to the required file and select the file.
+      User has to select a file from a local computer by clicking the 'select file' button on the left side of the section, and in the popup window which appears (:numref:`image261`), user can navigate to the required file and select the file.
 
       .. _image261:
       .. figure:: /img/user_manual/image224.png
         :align: center
 
-        `Image 261 - Select File Popup Window, Import Photos, openIMIS offline`
+        `Select File Popup Window, Import Photos, openIMIS offline`
 
-      After clicking the upload button on the very end of right hand side in this section, data in the file will be imported to the offline openIMIS and confirmation will be given as popup messages (:ref:`Image 261<image261>`).
+      After clicking the upload button on the very end of right hand side in this section, data in the file will be imported to the offline openIMIS and confirmation will be given as popup messages (:numref:`image261`).
 
       .. _image262:
       .. figure:: /img/user_manual/offline_extract_photo_conf.png
         :align: center
 
-        `Image 262 - Popup Window, Import Photos, openIMIS offline`
+        `Popup Window, Import Photos, openIMIS offline`
 
       If importation of photo is not done due to some reason, the above popup message will not be shown, instead system will issue proper popup message to notify a user what went wrong and what is to be done.
 
@@ -121,19 +121,19 @@ Offline Facilities
 
     * ``download enrolment xmls``
 
-      This section has facility to enable Offline Scheme Administrator download to a zipped file all offline enrollments of families, insurees, policies and contributions. By clicking the download button on the right hand side, the user initiate download process. If no enrolment found, a popup message box (:ref:`Image 262<image262>`) will appear, notifying the user. Otherwise enrollments will be downloaded in a zipped file and a confirmation popup message (:ref:`Image 264<image264>`) will appear
+      This section has facility to enable Offline Scheme Administrator download to a zipped file all offline enrollments of families, insurees, policies and contributions. By clicking the download button on the right hand side, the user initiate download process. If no enrolment found, a popup message box (:numref:`image262`) will appear, notifying the user. Otherwise enrollments will be downloaded in a zipped file and a confirmation popup message (:numref:`image264`) will appear
 
       .. _image263:
       .. figure:: /img/user_manual/image228.png
         :align: center
 
-        `Image 263 - Popup Window, Download Enrolments, openIMIS offline`
+        `Popup Window, Download Enrolments, openIMIS offline`
 
       .. _image264:
       .. figure:: /img/user_manual/image229.png
         :align: center
 
-        `Image 264 - Popup Window, Download Enrolments, openIMIS offline`
+        `Popup Window, Download Enrolments, openIMIS offline`
 
     * ``section d - buttons``
 
@@ -151,7 +151,7 @@ Offline Facilities
         .. figure:: /img/user_manual/image230.png
           :align: center
 
-          `Image 265 - openIMIS Extracts, Information Bar, openIMIS offline`
+          `openIMIS Extracts, Information Bar, openIMIS offline`
 
       b) Last Extract Sequence: <Sequence Number>
 
@@ -161,7 +161,7 @@ Offline Facilities
         .. figure:: /img/user_manual/image231.png
           :align: center
 
-          `Image 266 - openIMIS Extracts, Information Bar, openIMIS offline`
+          `openIMIS Extracts, Information Bar, openIMIS offline`
 
       c) No claims Found
 
@@ -171,35 +171,35 @@ Offline Facilities
         .. figure:: /img/user_manual/image232.png
           :align: center
 
-          `Image 267 - openIMIS Extracts, Information Bar, openIMIS offline`
+          `openIMIS Extracts, Information Bar, openIMIS offline`
 
  #. **User**
 
-     Users with role HF Administrator, can create only users with roles: **Receptionist, Claim Administrator** and **HF Administrator** (:ref:`Image 268<image268>`). User with role 'offline NSHIP Administrator', can create only user with role: **Clerk** (:ref:`Image 269<image269>`).
+     Users with role HF Administrator, can create only users with roles: **Receptionist, Claim Administrator** and **HF Administrator** (:numref:`image268`). User with role 'offline NSHIP Administrator', can create only user with role: **Clerk** (:numref:`image269`).
 
       .. _image268:
       .. figure:: /img/user_manual/image233.png
         :align: center
 
-        `Image 268 - Users Page - HF Administrator, openIMIS offline`
+        `Users Page - HF Administrator, openIMIS offline`
 
       .. _image269:
       .. figure:: /img/user_manual/image234.png
         :align: center
 
-        `Image 269 - Users Page - Offline Scheme Administrator, openIMIS offline`
+        `Users Page - Offline Scheme Administrator, openIMIS offline`
 
  #. **data access**
 
     - Search / Find
 
-        In all pages in ``Insurees`` and ``Policies`` menus with search / find acility, there will be an extra search criteria (:ref:`image 270<image270>`) to enable search for offline data only. This feature is available if a user is in Offline IMIS.
+        In all pages in ``Insurees`` and ``Policies`` menus with search / find acility, there will be an extra search criteria (:numref:`image270`) to enable search for offline data only. This feature is available if a user is in Offline IMIS.
 
         .. _image270:
         .. figure:: /img/user_manual/image235.png
           :align: center
 
-          `Image 270 - Search Criteria - offline only data, openIMIS offline`
+          `Search Criteria - offline only data, openIMIS offline`
 
     - Create / Edit
 

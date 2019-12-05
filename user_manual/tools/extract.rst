@@ -23,7 +23,7 @@ Navigation
   .. figure:: /img/user_manual/image147.png
     :align: center
 
-    `Image 177 - Navigation openIMIS Extracts`
+    `Navigation openIMIS Extracts`
 
   Clicking on the sub menu ``IMIS Extracts`` re-directs the current user to the ``IMIS Extracts Page.``
 
@@ -36,7 +36,7 @@ IMIS Extracts (online mode)
   .. figure:: /img/user_manual/image148.jpeg
     :align: center
 
-    `Image 178 - openIMIS Extracts`
+    `openIMIS Extracts`
 
   The Extracts Page is divided into eight sections `(Image
   6.23) <#image-6.2-registers-page>`__\ \ .
@@ -273,7 +273,7 @@ The Master Data section is used for generation of the data needed for off-line o
 
   **G - Button section**
 
-  The ``Cancel`` button brings the operator back to the `Home Page <#image-2.2-home-page>`__.
+  The ``Cancel`` button brings the operator back to the :ref:`Home Page <home_page>`.
 
   **H - Information panel**
 

@@ -19,7 +19,7 @@ Navigation
   .. figure:: /img/user_manual/image60.png
     :align: center
 
-    `Image 67 - Navigation Claim Administrators`
+    `Navigation Claim Administrators`
 
   Clicking on the sub menu ``Claim Administrators`` re-directs the current user to the `Claim Administrators Control Page. <#claim-administrators-control-page>`__
 
@@ -27,12 +27,12 @@ Navigation
   .. figure:: /img/user_manual/image56.png
     :align: center
 
-    `Image 68 - Claim Administrators Control Page`
+    `Claim Administrators Control Page`
 
 Claim Administrators Control Page
 """""""""""""""""""""""""""""""""
 
-  The ``Claim Administrators Control Page`` is the central point for the administration of all claim administrators. By having access to this panel, it is possible to add, edit, delete and search claim administrators. The panel is divided into four panels (:ref:`Image 68<image68>`).
+  The ``Claim Administrators Control Page`` is the central point for the administration of all claim administrators. By having access to this panel, it is possible to add, edit, delete and search claim administrators. The panel is divided into four panels (:numref:`image68`).
 
  #. **Search Panel**
 
@@ -60,7 +60,7 @@ Claim Administrators Control Page
 
     * ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 69<image69>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image69`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
       - At any time during the use of the pop-up, the user can see the date of *today*.
       - Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -85,7 +85,7 @@ Claim Administrators Control Page
       | |logo21| || |logo22| || |logo23| |
       +----------++----------++----------+
 
-        `Image 69 - Calendar Selector - Search Panel`
+        `Calendar Selector - Search Panel`
 
     * ``HF Code``
 
@@ -107,7 +107,7 @@ Claim Administrators Control Page
     .. figure:: /img/user_manual/image57.png
       :align: center
 
-      `Image 70 - Historical records - Result Panel`
+      `Historical records - Result Panel`
 
     * ``Search Button``
 
@@ -115,25 +115,25 @@ Claim Administrators Control Page
 
  #. **Result Panel**
 
-    The Result Panel displays a list of all claim administrators found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 71<image71>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+    The Result Panel displays a list of all claim administrators found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image71`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
     .. _image71:
     .. figure:: /img/user_manual/image58.png
       :align: center
 
-      `Image 71 - Selected record (blue), hovered records (yellow) - Result Panel`
+      `Selected record (blue), hovered records (yellow) - Result Panel`
 
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 72<image72>`)
+    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image72`)
 
     .. _image72:
     .. figure:: /img/user_manual/image11.png
       :align: center
 
-      `Image 72 - Page selector- Result Panel`
+      `Page selector- Result Panel`
 
  #. **Button Panel**
 
-    With exception of the ``Cancel`` button, which re-directs to the `Home Page <#image-2.2-home-page>`__, and the ``Add`` button which re-directs to the `Claim Administrator Page <#claim-administrator-page>`__, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
+    With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
 
  #. **Information Panel**
 
@@ -148,7 +148,7 @@ Claim Administrator Page
     .. figure:: /img/user_manual/enrolment_officer_login.png
       :align: center
 
-      `Image 73 - Claim Administrator Page`
+      `Claim Administrator Page`
 
     ``claim administrator details``
 
@@ -223,12 +223,12 @@ Deleting a Claim Administrator
 
   Click on the ``Delete`` button to delete the currently selected record
 
-  Before deleting a confirmation popup (:ref:`Image 74<image74>`) is displayed, which requires the user to confirm if the action should really be carried out.
+  Before deleting a confirmation popup (:numref:`image74`) is displayed, which requires the user to confirm if the action should really be carried out.
 
   .. _image74:
   .. figure:: /img/user_manual/image24.png
     :align: center
 
-    `Image 74 - Delete confirmation- Button Panel`
+    `Delete confirmation- Button Panel`
 
   When a claim administrator is deleted, all records retaining to the deleted claim administrator will still be available by selecting historical records.

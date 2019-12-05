@@ -11,12 +11,12 @@ Navigation
   All functionality for use with the administration of uploading/downloading of selected registers can be found under the main menu ``Tools``, sub menu ``Registers``.
 
   .. _image166:
-  .. figure:: /img/user_manual/image136.jpeg
+  .. figure:: /img/user_manual/tool.menu_register.png
     :align: center
 
-    `Image 166 - Navigation to Registers`
+    `Navigation to Registers`
 
-  Clicking on the sub menu ``Registers`` re-directs the current user to the `Registers Page`: (:ref:`Image 166<image166>`)
+  Clicking on the sub menu ``Registers`` re-directs the current user to the `Registers Page`: (:numref:`image166`)
 
 Registers page
 """"""""""""""
@@ -25,9 +25,9 @@ Registers page
   .. figure:: /img/user_manual/image137.jpeg
     :align: center
 
-    `Image 167 - Upload Registers`
+    `Upload Registers`
 
-  The Registers Page is divided into eight sections: (:ref:`Image 167<image167>`)
+  The Registers Page is divided into eight sections: (:numref:`image167`)
 
   A. Upload of the list of diagnoses
 

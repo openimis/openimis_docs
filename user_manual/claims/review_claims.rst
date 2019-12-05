@@ -13,18 +13,18 @@ Pre-conditions
 Navigation
 """"""""""
 
-  All functionality for use with the administration of claim overview can be found under the main menu ``Claims``, sub menu ``Review.``
+  All functionality for use with the administration of claim overview can be found under the main menu ``Claims``, sub menu ``Reviews.``
 
   .. _image150:
-  .. figure:: /img/user_manual/image123.png
+  .. figure:: /img/user_manual/claim.menu_review.png
     :align: center
 
-    `Image 150 - Navigation Review`
+    `Navigation Review`
 
   Clicking on the sub menu ``Review`` re-directs the current user to the `Claims Overview Page. <#claims-overview-page>`__
 
   .. _claims_review_img:
-  .. figure:: /img/user_manual/claims_review_page.png
+  .. figure:: /img/user_manual/claim.review_page.png
     :align: center
 
     `Image - Claims Overview Page`
@@ -32,7 +32,7 @@ Navigation
 Claims Overview Page
 """"""""""""""""""""
 
-  The Claims Overview Page is the central point for all claim review administration. By having access to this panel, it is possible to review, feedback, amend and process claims. The panel is divided into five sections (:ref:`Image 150<image150>`).
+  The Claims Overview Page is the central point for all claim review administration. By having access to this panel, it is possible to review, feedback, amend and process claims. The panel is divided into five sections (:numref:`claims_review_img`).
 
  #. **Search Panel**
 
@@ -40,15 +40,15 @@ Claims Overview Page
 
     * ``Region``
 
-      Select the ``Region``; where searched for health facility is located or where patients are permanently living from the list of regions by clicking on the arrow on the right of the selector to select claims from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected*
+      Select the ``Region``; from the list that appear after typing characters, all region containing the typed text will appear and be selectable underneath the box. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected*
 
     * ``District``
 
-      Select the ``District``; where searched for health facility is located or where patients are permanently living from the list of districts by clicking on the arrow on the right of the selector to select claims from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*
+      Select the ``District``; from the list that appear after typing characters , all district containing the typed text will appear and be selectable underneath the box. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected*
 
     * ``HF Code``
 
-      Select the ``HF Code``; from the list of health facilities codes by clicking on the arrow on the right of the selector to select claims from a specific health facility. *Note: The list will only be filled with the health facilities belonging to the selected district and assigned to the current logged in user.*
+      Select the ``HF Code``; from the list that appear after typing characters, all HF code containing the typed text will appear and be selectable underneath the box. *Note: The list will only be filled with the health facilities belonging to the selected district and assigned to the current logged in user*.
 
     * ``HF Name``
 
@@ -56,11 +56,11 @@ Claims Overview Page
 
     * ``Claim Administrator``
 
-      Select the ``claim administrator`` from the list of claim administrator codes by clicking on the arrow on the right of the selector, to select claims submitted by a specific claim administrator. *Note: The list will only be filled with the claim administrators belonging to the health facility selected.*
+      Select the ``claim administrator`` from the list that appear after typing characters , all claim administrator containing the typed text will appear and be selectable underneath the box. *Note: The list will only be filled with the claim administrators belonging to the health facility selected*.
 
     * ``Insurence Number``
 
-      Type in the beginning of; or the full ``Insurence Number``, to search for claims for patients with the insurance number which start with or match completely the typed text.
+      Enter the insurance number of the patient. When the field is selected, the search insuree popup(:refnum:'insuree_picker') will be display and will allow the claim administrator to search the insuree based on its insurance number, or/and last name, or/and other(first) name . 
 
     * ``Claim No.``
 
@@ -68,80 +68,49 @@ Claims Overview Page
 
     * ``Review Status``
 
-      Select the ``Review Status`` from the list of the options for review status by clicking on the arrow on the right of the selector, to select claims with a specific review status.
+      Select the ``Review Status`` from the list of the options for review status by clicking on the arrow on the right of the selector to select claims with a specific review status.
 
     * ``Feedback Status``
 
-      Select the ``Feedback Status`` from the list of the options for feedback status by clicking on the arrow on the right of the selector, to select claims with a specific feedback status.
+      Select the ``Feedback Status`` from the list of the options for feedback status by clicking on the arrow on the right of the selector to select claims with a specific feedback status.
 
     * ``Claim Status``
 
-      Select the ``Claim Status`` from the list of options for claim status by clicking on the arrow on the right of the selector, to select claims with a specific claim status.
+      Select the ``Claim Status`` from the list of the options for claim status by clicking on the arrow on the right of the selector to select claims with a specific claim status.
 
     * ``Main Dg``
 
-      Select the ``Main Dg.`` from the list of diagnoses status by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box, to select claims with main diagnosis.
+      Select the ``Main Dg.`` from the list of diagnoses by typing characters, all diagnoses containing the typed text will appear and be selectable underneath the box, to select claims with main diagnosis.
 
     * ``Batch Run``
 
-      Select the ``Batch Run`` from the list of batch runs by clicking on the arrow on the right of the selector, to select claims included in a specific batch run.
+      Select the ``Batch Run`` from the list of batch runs by clicking on  the arrow on the right of the selector to select claims included in a specific batch run.
 
     * ``Visit Date From``
 
-      Type in a date; or use the Date Selector Button, to search for claims with a ``Visit Date From`` which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
+      Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date From`` which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*
 
     * ``Visit Date To``
 
-      Type in a date; or use the Date Selector Button, to search for claims with a ``Visit Date To`` which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
+      Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date To`` which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*
 
     * ``Claim Date From``
 
-      Type in a date; or use the Date Selector Button, to search for claims with a ``Claim Date From`` which is on or is greater than the  date typed/selected. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
+      Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date From`` which is on or is greater than the  date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*
 
     * ``Claim Date To``
 
-      Type in a date; or use the Date Selector Button, to search for claims with a ``Claim Date To`` which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
+      Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date To`` which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*
 
     * ``Visit Type``
 
       Select type of out-patient visit or in-patient admission from the list of types of visit to search for claims made on specific visit/admission type.
 
-    * ``Date Selector Button``
 
-      Clicking on the Date Selector Button will pop-up an easy to use, calendar selector (:ref:`Image 152<image152>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
-
-        - At anytime during the use of the pop-up, the user can see the date of **today**.
-        - Clicking on today will close the pop-up and display the today’s date in the corresponding date entry box.
-        - Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box.
-        - Clicking on the arrow to the left displays the previous month.
-        - Clicking on the arrow on the right will displays the following month.
-        - Clicking on the month will display all the months for the year.
-        - Clicking on the year will display a year selector.
-
-      .. _image152:
-      .. |logo39| image:: /img/user_manual/image6.png
-        :scale: 100%
-        :align: middle
-      .. |logo40| image:: /img/user_manual/image7.png
-        :scale: 100%
-        :align: middle
-      .. |logo41| image:: /img/user_manual/image8.png
-        :scale: 100%
-        :align: middle
-
-      +----------++----------++----------+
-      | |logo39| || |logo40| || |logo41| |
-      +----------++----------++----------+
-
-        `Image 152 - Calendar Selector - Search Panel`
-
-    * ``Search Button``
-
-      Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel.
 
  #. **Claim Selection Update Panel**
 
-    This panel is basically for functionality of updating multiple claims which are currently loaded in the Result Panel at once basing on the claim filter criteria available on this panel. The update on the claims is basically changing **Feedback Status** and **Review Status** of a claim from **Idle** to (**Not**) **Selected for Feedback** or (**Not**) **Selected for Review** respectively. The filters in this panel work on the claims which are currently loaded on the result panel. The combination of filters is either ``Select`` alone or ``Select`` and either ``Random`` or ``Value`` or ``Variance`` or combination of ``Value`` and ``Variance``.
+    This panel is basically for functionality of updating multiple claims which are currently loaded in the Result Panel at once basing on the claim filter criteria available on this panel. The update on the claims is basically changing **Feedback Status** and **Review Status** of a claim from **Idle** to **Selected for Feedback** or **Selected for Review** respectively. The filters in this panel work on the claims which are currently loaded on the result panel. The combination of filters is either ``Select`` and either ``Random`` or ``Value`` combination of ``Value`` and ``Variance``.
 
     * ``Select``
 
@@ -153,99 +122,141 @@ Claims Overview Page
 
     * ``Value``
 
-      Accept a number which is considered to be claimed value. This will filter claims from the Result Panel by taking claims whose claimed value is equal or greater than the entered number in the Value text field. Check the value checkbox and enter a number on the text field next to checkbox. The default is 40000.
+      Accept a number which is considered to be claimed value. This will filter claims from the Result Panel by taking claims whose claimed value is equal or greater than the entered number in the Value text field. Check the value checkbox and enter a number on the text field next to checkbox. 
 
     * ``variance``
 
-      Accept a number which is considered to be a percentage of the current claim value variance. Calculated by dividing the current claim value **(value)** and the average sum **(Average)** of the all claims in the previous year from the current claim date and with the same main diagnosis as that of the current claim, minus one **(1)** and finally multiply by hundred **(100)** to get the percentage variance. I.e **Percentage Variance = [(Value / Average) – 1] \* 100** Enter a number by checking the variance checkbox and enter a number on the text field next to checkbox. The default is 50%.
+      .. Accept a number which is considered to be a percentage of the current claim value variance. Calculated by dividing the current claim value **(value)** and the average sum **(Average)** of the all claims in the previous year from the current claim date and with the same main diagnosis as that of the current claim, minus one **(1)** and finally multiply by hundred **(100)** to get the percentage variance. I.e **Percentage Variance = \[(Value \/ Average) \– 1\] \* 100** Enter a number by checking the variance checkbox and enter a number on the text field next to checkbox.
 
-    * ``Update button``
-
-      Once desired criteria have been set and after clicking this button, then the claims currently displayed in the result panel which satisfy the criteria, will be updated of their **Idle** Review Status or Feedback Status to either (**Not**) **Selected for Review** or (**Not**) **Selected for Feedback** respectively.
+      Enable to set a variance arround the ``Value`` specified **Percentage Variance = [(Claim Value \ Filter Value) – 1] \* 100**
 
 
-      A popup prompt window will be displayed to confirm the process, as shown on (:ref:`Image 153<image153>`) and (:ref:`Image 154<image154>`).
+    * ``filter button``
 
+      Once desired criteria have been set and after clicking this button(:numref:`filter`), then the claims currently displayed in the result panel which satisfy the criteria, a reduced number of claim will be dispalyed in the result panel
 
-      Once the update process is over, a popup window (:ref:`Image 155<image155>`). Showing the result of the process will be displayed.
+    * ``bulk updates``
 
-      .. _image153:
-      .. figure:: /img/user_manual/image125.png
+      One can select them all (:numref:`review_select_all`) then by clicking on the 3 dots(:numref:`review_3d`) more advanced actions (:numref:`review_actions`) will be displayed.
+
+      .. _review_filter_error:
+      .. figure:: /img/user_manual/claim.review_filter_error.png
         :align: center
 
-        `Image 153 - Claim Feedback Selection Update Prompt – Claims Overview Page`
+        `Error message when the filter have no result`
 
-      .. _image154:
-      .. figure:: /img/user_manual/image126.png
+      A notification will be displayed to confirm display the action result(:numref:`review_action_not`)
+
+      .. _review_action_not:
+      .. figure:: /img/user_manual/claim.review_action_not.png
         :align: center
 
-        `Image 154 - Claim Review Selection Update Prompt – Claims Overview Page`
-
-      .. _image155:
-      .. figure:: /img/user_manual/image127.png
-        :align: center
-
-        `Image 155 - Claim Selection Update Results – Claims Overview Page`
+        `Claim Review Action Notification`
 
  #. **Result Panel**
 
-    The Result Panel displays a list of all claims found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 156<image156>`).
+    The Result Panel displays a list of all claims found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`review_result`).
 
-    .. _image156:
-    .. figure:: /img/user_manual/image128.png
+    .. _review_result:
+    .. figure:: /img/user_manual/claim.review_result.png
       :align: center
 
-      `Image 156 - Selected record (blue), hovered records (yellow) - Result Panel`
+      `Claim Review Search Result: Selected (light grey), record updated (zebras)`
 
-    A maximum of 2000 records can be displayed at one time, in a scroll panel. Further records can be viewed by processing the current loaded claims and search claims again.
+    Per default 10 records can be displayed at one time in a scroll panel but this number can be changed (:numref:`mat_record_per_page`,  the default value can also be changed in front end configuration), Further records can be viewed by changing pages (:numref:`mat_page_browser`).
 
+    The Feedback and Review Status Columns in each row contain a drop down list with options for claim feedback status and claim review status. A user can change the claim feedback and review status to **Idle** to **Not Selected** or **Selected** or **Bypass**. the change will take effect directly in an asynchronous mode, a notification will indicate the result of the update (:numref:`review_selected_not`)
 
-    The Feedback and Review Status Columns in each row contain a drop down list with options for claim feedback status and claim review status. A user can change the claim feedback and review status from low status to high status only. Either from **Idle** to **Not Selected** or **Selected for Feedback** in case of the feedback status or **Not Selected** or **Selected for Review** in case of the review status. Or from **Not Selected** to **Selected for Feedback** in case of the feedback status or **Selected for Review** in case of the review status. For changes to take effect, a user will have to update the changes by clicking the ``Update`` button.
+    .. _review_selected_not:
+    .. figure:: /img/user_manual/claim.review_selected_not.png
+      :align: center
 
- #. **Button Panel**
+      `Selection of claim for feedback/review notification`
 
-    With exception of the Cancel button, which re-directs to the `Claims Overview Page <#claims-overview-page>`__, the button panel is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record.
+    * ``Deliver Review``
 
-    * ``review``
+      Clicking on this button (:numref:`review_review_but`) re-directs a user to the `Claim Review Page <#claim-review-page>`__, where a claim with review status **Selected for Review** can be reviewed and its current review status changed to **Reviewed.** If the claim is not in the status **Selected for Review** then the claim can be only loaded and shown to the user without any subsequent action.
 
-      Clicking on this button re-directs a user to the `Claim Review Page <#claim-review-page>`__, where a claim with review status **Selected for Review** can be reviewed and its current review status changed to **Reviewed.** If the claim is not in the status **Selected for Review** then the claim can be only loaded and shown to the user without any subsequent action.
+    * ``Deliver feedback``
 
+      Clicking on this button (:numref:`review_feedback_but`) re-directs a user to the `Claim Feedback Page <#claim-feedback-page>`__, where a claim with feedback status **Selected for Feedback** can be feed backed and its current feedback status changed to **Delivered**.
 
-      The page will open with the current information loaded into the data entry fields. See the `Claim Review Page <#claim-review-page>`__, for information on the data entry and mandatory fields.
+ #. **Actions Menu**
 
-    * ``feedback``
+    The Action menu is used in conjunction with the current selected record (highlighted with light grey). The user should first select a record by clicking on any position of the record or by clicking on ``Select All`` (:numref:`review_select_all`)
 
-      Clicking on this button re-directs a user to the `Claim Feedback Page <#claim-feedback-page>`__, where a claim with feedback status **Selected for Feedback** can be feed backed and its current feedback status changed to **Delivered**.
+    .. list-table:: claims review actions
 
+       *  - .. _review_select_all:
+            .. figure:: /img/user_manual/mat.select_all.png
+              :align: center
 
-      The page will open with the current information loaded into the data entry fields. See the `Claim Feedback Page <\l>`__ for information on the data entry and mandatory fields.
+              `Select all`
+          - .. _filter:
+            .. figure:: /img/user_manual/mat.filter.png
+              :align: center
 
-    * ``update``
+              `Filter button`
+          - .. _review_3d:
+            .. figure:: /img/user_manual/mat.3d.png
+              :align: center
 
-      Clicking on this button, update the feedback status and review status of claims in the result panel from either **Idle** to **Not Selected** or **Selected for Feedback** or **Selected for Review** respectively or from **Not Selected** to **Selected for Feedback** or **Selected for Review** respectively.
+              `tree dots`
+          - .. _review_actions:
+            .. figure:: /img/user_manual/claim.review_action.png
+              :align: center
 
-    * ``process``
+              `review actions menu`
 
-      Clicking on this button changes the claim status **Checked** of all current selected claims in the Result Panel, selected by checking the checkbox on the right end of each record, to claim status **Processed**.
+       *  - .. _review_feedback_but:
+            .. figure:: /img/user_manual/claim.review_page_feedback.png
+              :align: center
 
+              `Deliver Feedback Button`
+          - .. _review_review_but:
+            .. figure:: /img/user_manual/claim.review_page_review.png
+              :align: center
 
-      Claims which can be selected for being processed are ones whose claim status is **Checked** and **Feedback Status** and **Review Status** are not **Idle**. The checkbox on the top of the Result Panel can be used to select multiple claims. The process happens while a user stays on the same page. Once the process is done, a popup window (:ref:`Image 157<image157>`) showing results of the process will be shown.
+              `Deliver Review Button`
+          - .. _mat_page_browser:
+            .. figure:: /img/user_manual/mat.page_browser.png
+              :align: center
 
-      .. _image157:
-      .. figure:: /img/user_manual/image129.png
-        :align: center
+              `Page browser`
+          - .. _mat_record_per_page:
+            .. figure:: /img/user_manual/mat.record_per_page.png
+              :align: center
 
-        `Image 157 - Process Claim Prompt – Claims Overview Page`
+              `Change the number of record per page`
 
-      .. _image158:
-      .. figure:: /img/user_manual/image130.png
-        :align: center
+    * ``Clear Selection``:
 
-        `Image 158 - Processed Claims details – Claims Overview Page`
+      Unselect the selected claims
 
-    * ``Cancel``
+    * ``Select For Feedback``:
 
-      By clicking on the cancel button, the user will be re-directed to the `Claims Overview Page <#claims-overview-page>`__.
+      set the feedback status of the selected claims to **Selected**
+
+    * ``Skip feedback``:
+
+      set the feedback status of the selected claims to **Not Selected**
+
+    * ``Select For Review``:
+
+      set the review status of the selected claims to **Selected**
+
+    * ``Skip Review``:
+
+      set the review status of the selected claims to **Not Selected**
+
+    * ``Process selected``:
+
+      Process the selected claim with the status **Checked**, once processed the claims will have the status
+
+    * ``Processed``:
+
+      this means that the valutation will be done against the cieling and deductible configure on the product page
+
 
  #. **Information Panel**
 
@@ -257,104 +268,106 @@ Claim Review Page
  #. **Data Entry**
 
     .. _image159:
-    .. figure:: /img/user_manual/image131.png
+    .. figure:: /img/user_manual/claim.review_page.png
       :align: center
 
-      `Image 159 - Claim Review Page`
+      `Claim Review Page`
 
 
-      ``Claim Review Page`` will show read-only information of the current claim selected for review, on the top section of the page, on some of the grid columns of the claim services grid and claim items grid and on the bottom of all the grids. As well, the page has input boxes where a user with the system role Medical Officer or with a role including an access to Claims/Claim/Review can enter new relevant values for review of the current claim.
+    ``Claim Review Page`` will show read-only information of the current claim selected for review, on the top section of the page, on some of the grid columns of the claim services grid and claim items grid and on the bottom of all the grids. As well, the page has input boxes where a user with the system role Medical Officer or with a role including an access to Claims/Claim/Review can enter new relevant values for review of the current claim.
 
 
-      Read-only information of the current claim includes the following:
+    *** Read-only information of the current claim**
 
-    * ``HF``
+      * ``HF``
 
-      The health facility code and name which the claim belongs to.
+        The health facility code and name which the claim belongs to.
 
-    * ``Main Dg.``
+      * ``Main Dg.``
 
-      The code of the main diagnosis.
+        The code of the main diagnosis.
 
-    * ``Sec Dg1``
+      * ``Sec Dg1``
 
-      The code of the first secondary diagnosis.
+        The code of the first secondary diagnosis.
 
-    * ``Sec Dg2``
+      * ``Sec Dg2``
 
-      The code of the second secondary diagnosis.
+        The code of the second secondary diagnosis.
 
-    * ``Sec Dg3``
+      * ``Sec Dg3``
 
-      The code of the third secondary diagnosis.
+        The code of the third secondary diagnosis.
 
-    * ``Sec Dg4``
+      * ``Sec Dg4``
 
-      The code of the fourth secondary diagnosis.
+        The code of the fourth secondary diagnosis.
 
-    * ``Visit type``
+      * ``Visit type``
 
-      The type of the visit or of the hospital stay (**Emergency, Referral, Other**)
+        The type of the visit or of the hospital stay (**Emergency, Referral, Other**)
 
-    * ``Date Processed``
+      * ``Date Processed``
 
-      The date on which the claim was processed (sent to the state **Processed**).
+        The date on which the claim was processed (sent to the state **Processed**).
 
-    * ``Claim Administrator``
+      * ``Claim Administrator``
 
-      The administrator's code, who was responsible for submission of the current claim.
+        The administrator's code, who was responsible for submission of the current claim.
 
-    * ``Insurance Number``
+      * ``Insurance Number``
 
-      The insurance number of the patient.
+        The insurance number of the patient.
 
-    * ``Claim No.``
+      * ``Claim No.``
 
-      The unique identification of the claim within the claiming health facility.
+        The unique identification of the claim within the claiming health facility.
 
-    * ``Patient Name``
+      * ``Patient Name``
 
-      The full name of the patient on whom the claim is made.
+        The full name of the patient on whom the claim is made.
 
-    * ``Date Claimed``
+      * ``Date Claimed``
 
-      The date on which the claim was prepared by the claiming health facility.
+        The date on which the claim was prepared by the claiming health facility.
 
-    * ``Visits Date From``
+      * ``Visits Date From``
 
-      The date on which the patient visited (or was admitted by) the health facility for treatment on which the claim is basing on.
+        The date on which the patient visited (or was admitted by) the health facility for treatment on which the claim is basing on.
 
-    * ``Visit Date To``
+      * ``Visit Date To``
 
-      The date on which the patient was discharged from the health facility for treatment on which the claim is basing on.
+        The date on which the patient was discharged from the health facility for treatment on which the claim is basing on.
 
-    * ``Guarantee No.``
+      * ``Guarantee No.``
 
-      Identification of a guarantee letter.
+        Identification of a guarantee letter.
 
-    * ``Claimed``
+      * ``Claimed``
 
-      The sum of prices of all claimed services and items at the moment of submission of the claim.
+        The sum of prices of all claimed services and items at the moment of submission of the claim.
 
-    * ``approved``
+      * ``approved``
 
-      The value of the claim after automatic checking during its submission and after the corrections of the claim done by a medical officer.
+        The value of the claim after automatic checking during its submission and after the corrections of the claim done by a medical officer.
 
-    * ``Adjusted``
+      * ``Adjusted``
 
-      The value of the claim after automatic adjustments done according to the conditions of coverage by the patient’s policy.
+        The value of the claim after automatic adjustments done according to the conditions of coverage by the patient’s policy.
 
-    * ``Explanation``
+      * ``Explanation``
 
-      Explanation to the claim provided by the claiming health facility.
+        Explanation to the claim provided by the claiming health facility.
 
-    * ``claim status``
+      * ``claim status``
 
-      Claim status is shown on the very bottom right end side after the two grids. This is status which claim gets after submission.
+        Claim status is shown on the very bottom right end side after the two grids. This is status which claim gets after submission.
 
-    * ``Adjustment``
+    * **Editable information of the current claim**
 
-      Enter a text summarizing adjustments in claim done by a medical officer.
+      * ``Adjustment``
+
+        Enter a text summarizing adjustments in claim done by a medical officer.
 
     * **Services and Items data entry grids.**
 
@@ -378,10 +391,10 @@ Claim Review Page
 
          The last column of each of the two grids, headed with character  '**R**', gives rejection reason number for each of the claimed services or claimed items in the claim services grid or the claim items grid respectively. Rejection reasons are as follows:
 
-         The rejection description is displayed on the screen when the mouse pointer is above the given line (:ref:`Image Rejection Description <rejection_desk_img>`)
+         The rejection description is displayed on the screen when the mouse pointer is above the given line (:numref:`rejection_desc_img`)
 
-         .. _rejection_desk_img:
-         .. figure:: /img/user_manual/rejection_desc.png
+         .. _rejection_desc_img:
+         .. figure:: /img/user_manual/claim.rejection_toolkit.png
             :align: center
 
             `Image  Rejection Description`
@@ -410,7 +423,7 @@ Claim Review Page
         | 5                                 | Item/Service doesn’t comply with  |
         |                                   | frequency constraint              |
         +-----------------------------------+-----------------------------------+
-        | 6                                 | Item/Service duplicated           |
+        | 6                                 | N/A                               |
         +-----------------------------------+-----------------------------------+
         | 7                                 | Not valid insurance number        |
         +-----------------------------------+-----------------------------------+
@@ -450,147 +463,117 @@ Claim Review Page
         |                                   | contacts exceeded                 |
         +-----------------------------------+-----------------------------------+
 
- #. **Saving**
+ #. **Saving / Reviewing**
 
-    Once appropriate data is entered, clicking on the ``Save`` button will save the claim. The user will be re-directed back to the `Claims Overview Page <#claims-overview-page>`__\; a message confirming that the claim has been saved will appear on the Information Panel. The ``Save`` button appears only if the claim was reviewed in the status **Selected for Review.**
-
- #. **reviewing**
-
-    Once appropriate data is entered, clicking on the ``Reviewed`` button will save the claim and change the claim Review Status from **Selected for Review** to **Review**. The user will be re-directed back to the `Claims Overview Page <#claims-overview-page>`__\; a message confirming that the claim has been saved will appear on the Information Panel. The ``Reviewed`` button appears only if the claim was reviewed in the status **Selected for Review**.
+    Once appropriate data is entered, clicking on the ``Save`` button (:numref:`mat_save`) will save the claim review and set the reivew status to ``deliver``; a message confirming that the claim has been saved will appear on the Information Panel.
 
  #. **data entry validation**
 
-    If inappropriate data is entered at the time the user clicks the ``Save`` or `` review`` button, an error message will appear in the Information Panel, and the data field will take the focus.
+    If inappropriate data is entered at the time the user clicks the ``Save`` button, an error message will appear in the Information Panel, and the data field will take the focus.
 
- #. **Cancel**
+ #. **Back**
 
-    By clicking on the ``Cancel`` button, the user will be re-directed to the `Claims Overview Page <#claims-overview-page>`__.
+    By clicking on the ``back`` button (:numref:`mat_back`), the user will be re-directed to the `Claims Overview Page <#claims-overview-page>`__.
 
 Claim Feedback Page
 """""""""""""""""""
+
     The Claim Feedback page will show read-only information of the current claim selected for feedback, on the top section of the page it has input boxes where a user with the system role Medical Officer or with a role including an access to Claims/Claim/Feedback can enter feedback on the current claim or where the user can read a feedback delivered by enrolment officers.
 
  #. **Data Entry**
 
     .. _image160:
-    .. figure:: /img/user_manual/image132.png
+    .. figure:: /img/user_manual/claim.feedback_page.png
       :align: center
 
-      `Image 160 - Claim Feedback Page`
+      `Claim Feedback Page`
 
-   Read-only data of the feedback includes in the section **Claim** the following:
+    * Read-only data of the feedback includes in the section **Claim** the following:
 
-    * ``HF Code``
+      * ``Health Facility``
 
-      The health facility code which the claim belongs to.
+        The health facility code and name which the claim belongs to.
 
-    * ``HF Name``
+      * ``Insuree``
 
-      The health facility name which the claim belongs to.
+        Patient/beneficiary names and insurance number
 
-    * ``Claim Administrator``
+      * ``Date Claimed``
 
-      The administrator's code, who was responsible for submission of the current claim.
+        The date on which the claim was prepared by the claiming health facility.
 
-    * ``Insurance Number``
+      * ``Visits Date From``
 
-      The insurance number of the patient.
+        The date on which the patient visited (or was admitted by) the health facility for treatment on which the claim is basing on.
 
-    * ``Claim No.``
+      * ``Visit Date To``
 
-      The unique identification of the claim within the claiming health facility.
+        The date on which the patient was discharged from the health facility for treatment on which the claim is basing on.
 
-    * ``Last Name``
+      * ``Visit Type``
 
-      The last name of the patient on whom the claim is made.
+        Type of visit covered by the claim (emergency, referal, other)
 
-    * ``Other Names``
+      * ``Claim No.``
 
-      The other names of the patient on whom the claim is made.
+        The unique identification of the claim within the claiming health facility.
 
-    * ``Date Claimed``
+      * ``Guarantee No.``
 
-      The date on which the claim was prepared by the claiming health facility.
+        Identification of a guarantee letter for prior approval of provision of claimed health care.
 
-    * ``Visits Date From``
+      * ``Claim Status``
 
-      The date on which the patient visited (or was admitted by) the health facility for treatment on which the claim is basing on.
+        The status of the claim.
 
-    * ``Visit Date To``
+      * ``Review Status``
 
-      The date on which the patient was discharged from the health facility for treatment on which the claim is basing on.
+        The status of the claim with respect to reviewing.
 
-    * ``Review Status``
+      * ``Feedback Status``
 
-      The status of the claim with respect to reviewing.
+        The status of the claim with respect to feed backing.
 
-    * ``Feedback Status``
+      * ``Claim Administrator``
 
-      The status of the claim with respect to feed backing.
+        The administrator's code and name, who was responsible for submission of the current claim.
 
-   Modifiable data of the feedback included in the section **Feedback** the following
+   * Modifiable data of the feedback included in the section **Feedback** the following
 
-    * ``Enrolment Officer``
+      * ``Feedback Date``
 
-      Select an enrolment officer from the list of enrolment officers, by clicking the arrow on the right side of selection field. The enrolment officer collects feedback from the patient.
+        Type in a date of collection of the feedback; Clicking on the field will pop-up an easy to use, calendar selector (:numref:`cal_picker`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
-    * ``Care Rendered``
+      * ``Enrolment Officer``
 
-      Select ‘Yes’ or ‘No’ from the list, by clicking the arrow on the right side of selection field.
+        Select an enrolment officer from the list of enrolment officers, by clicking the arrow on the right side of selection field. The enrolment officer collects feedback from the patient.
 
-    * ``Payment Asked``
+      * ``Care Rendered``
 
-      Select ‘Yes’ or ‘No’ from the list, by clicking the arrow on the right side of selection field.
+        Select ‘Yes’ or ‘No’ from the slider
 
-    * ``Drugs Prescribed``
+      * ``Payment Asked``
 
-      Select ‘Yes’ or ‘No’ from the list, by clicking the arrow on the right side of selection field.
+        Select ‘Yes’ or ‘No’ from the slider
 
-    * ``Drugs Received``
+      * ``Drugs Prescribed``
 
-      Select ‘Yes’ or ‘No’ from the list, by clicking the arrow on the right side of selection field
+        Select ‘Yes’ or ‘No’ from the slider
 
-    * ``Overall Assessment``
+      * ``Drugs Received``
 
-      Choose one level among the six levels available by checking/clicking on the desired checkbox.
+        Select ‘Yes’ or ‘No’ from the slider
 
-    * ``Feedback Date``
+      * ``Overall Assessment``
 
-      Type in a date of collection of the feedback; or use the date selector button, to enter date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the back space key.*
+        Choose one level among the six levels available from the slider
 
-    * ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 161<image161>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
-
-        - At anytime during the use of the pop-up, the user can see the date of **today**.
-        - Clicking on today will close the pop-up and display the today’s date in the corresponding date entry box.
-        - Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box.
-        - Clicking on the arrow to the left displays the previous month.
-        - Clicking on the arrow on the right will displays the following month.
-        - Clicking on the month will display all the months for the year.
-        - Clicking on the year will display a year selector.
-
-      .. _image161:
-      .. |logo42| image:: /img/user_manual/image6.png
-        :scale: 100%
-        :align: middle
-      .. |logo43| image:: /img/user_manual/image7.png
-        :scale: 100%
-        :align: middle
-      .. |logo44| image:: /img/user_manual/image8.png
-        :scale: 100%
-        :align: middle
-
-      +----------++----------++----------+
-      | |logo42| || |logo43| || |logo44| |
-      +----------++----------++----------+
-
-        `Image 161 - Calendar Selector - Search Panel`
 
  #. **Saving**
 
-    Once all mandatory data is entered, clicking on the ``Save`` button will save the feedback on current claim. The user will be re-directed back to the `Claims Overview Page <#claims-overview-page>`__\ ; a message confirming that the feedback has been saved will appear on the Information Panel. If inappropriate data is entered or mandatory data is not entered at the time the user clicks the Save button, an error message will appear in the Information Panel, and the data field will take the focus.
+    Once all mandatory data is entered, clicking on the ``Save`` button (:numref:`mat_save`) will save the feedback on current claim. The user will be re-directed back to the `Claims Overview Page <#claims-overview-page>`__\ ; a message confirming that the feedback has been saved will appear on the Information Panel. If inappropriate data is entered or mandatory data is not entered at the time the user clicks the Save button, an error message will appear in the Information Panel, and the data field will take the focus.
 
- #. **Cancel**
+ #. **Back**
 
-    By clicking on the ``Cancel`` button, the user will be re-directed to the `Claims Overview Page <#claims-overview-page>`__\ .
+    By clicking on the ``back`` button (:numref:`mat_back`), the user will be re-directed to the `Claims Overview Page <#claims-overview-page>`__\ .

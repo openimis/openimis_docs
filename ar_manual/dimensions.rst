@@ -38,7 +38,7 @@ Dimensions
   .. |lk_hfa_reg| replace:: `register of health facilities`_
   .. _`register of health facilities` : web_app_vb_user_manual.html#health-facilities-administration
 
-  .. list-table:: `Table 9.1 Overview of dimensions`
+  .. list-table:: `Overview of dimensions`
       :widths: 2 3 4 2
       :header-rows: 1
       :stub-columns: 1

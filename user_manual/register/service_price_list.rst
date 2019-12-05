@@ -19,7 +19,7 @@ Navigation
   .. figure:: /img/user_manual/image35.png
     :align: center
 
-    `Image 36 - Navigation Medical Services Price Lists`
+    `Navigation Medical Services Price Lists`
 
   Clicking on the sub menu ``Medical Services`` re-directs the current user to the `Price List Medical Services Control Panel. <#price-list-medical-services-control-page>`__
 
@@ -27,12 +27,12 @@ Navigation
   .. figure:: /img/user_manual/image36.png
     :align: center
 
-    `Image 37 - Price List Medical Service Control Panel`
+    `Price List Medical Service Control Panel`
 
 Price List Medical Services Control Page
 """"""""""""""""""""""""""""""""""""""""
 
-  The ``Price List Medical Services Control Page`` is the central point for administration of all price lists of medical service. By having access to this panel, it is possible to add, edit, delete and search. The panel is divided into four panels (:ref:`Image 36<image36>`)
+  The ``Price List Medical Services Control Page`` is the central point for administration of all price lists of medical service. By having access to this panel, it is possible to add, edit, delete and search. The panel is divided into four panels (:numref:`image36`)
 
  #. **Search Panel**
 
@@ -48,7 +48,7 @@ Price List Medical Services Control Page
 
     * ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 38<image38>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image38`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
       - Anytime during the use of the pop-up, the user can see the date of today.
       - Clicking on today will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -73,7 +73,7 @@ Price List Medical Services Control Page
       | |logo12| || |logo13||| |logo14||
       +----------++---------++---------+
 
-        `Image 38 - Calendar Selector - Search Panel`
+        `Calendar Selector - Search Panel`
 
     * ``Region``
 
@@ -85,13 +85,13 @@ Price List Medical Services Control Page
 
     * ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 39<image39>`)
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image39`)
 
       .. _image39:
       .. figure:: /img/user_manual/image37.png
         :align: center
 
-        `Image 39 - Historical records - Result Panel`
+        `Historical records - Result Panel`
 
     * ``Search button``
 
@@ -99,25 +99,25 @@ Price List Medical Services Control Page
 
  #. **Result Panel**
 
-    The Result Panel displays a list of all price lists of medical services found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 40<image40>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+    The Result Panel displays a list of all price lists of medical services found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image40`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
       .. _image40:
       .. figure:: /img/user_manual/image38.png
         :align: center
 
-        `Image 40 - Selected record (blue), hovered records (yellow) - Result Panel`
+        `Selected record (blue), hovered records (yellow) - Result Panel`
 
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 41<image41>`)
+    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image41`)
 
     .. _image41:
     .. figure:: /img/user_manual/image11.png
       :align: center
 
-      `Image 41 - Page selector- Result Panel`
+      `Page selector- Result Panel`
 
  #. **Button Panel**
 
-    With exception of the ``Cancel`` button, which re-directs to the `Home Page <#image-2.2-home-page>`__, and the ``Add`` button which re-directs to the `Price List Medical Service Page <#price-list-medical-services-page>`__, the Button Panel (the buttons ``Edit`` and ``Duplicate`` ) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
+    With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the Button Panel (the buttons ``Edit`` and ``Duplicate`` ) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
 
  #. **Information Panel**
 
@@ -132,7 +132,7 @@ Price List Medical Services Page
       .. figure:: /img/user_manual/image39.png
         :align: center
 
-        `Image 42 - Price List Medical Service Page`
+        `Price List Medical Service Page`
 
     * ``Name``
 
@@ -192,12 +192,12 @@ Deleting a Price List of Medical Services
 
   Click on the ``Delete`` button to delete the currently selected record.
 
-  Before deleting a confirmation popup (:ref:`Image 43<image43>`) is displayed, which requires the user to confirm if the action should really be carried out?
+  Before deleting a confirmation popup (:numref:`image43`) is displayed, which requires the user to confirm if the action should really be carried out?
 
   .. _image43:
   .. figure:: /img/user_manual/image24.png
     :align: center
 
-    `Image 43 - Delete Confirmation - Button Panel`
+    `Delete Confirmation - Button Panel`
 
   When a price list medical service is deleted, all records retaining to the deleted price list medical service will still be available by selecting historical records.

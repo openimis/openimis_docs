@@ -80,7 +80,7 @@ Administration of users’ profile s(roles) is not included in any system role. 
     .. figure:: /img/user_manual/user_roles_result.png
       :align: center
 
-      `Image  - User roles results panel`
+      `User roles results panel`
 
     * Blue background: Selected record
     * Yellow background: hovered records
@@ -94,7 +94,7 @@ Administration of users’ profile s(roles) is not included in any system role. 
     * The ``Edit`` button will `edit a role/profile <#editing-a-user-role-profile>`__. not available if ``Historical`` was checked)
     * The ``Duplicate`` bbutton will `duplicate a role/profile <#duplicating-a-user-role-profile>`__ (not available if ``Historical`` was checked)
     * The ``Delete`` button will `deleting a role/profile <#addeleting-a-user-role-profile>`__ (not available if ``Historical`` was checked)
-    * The ``Cancel`` button re-directs to the `Home Page <#image-2.2-home-page>`__.
+    * The ``Cancel`` button re-directs to the :ref:`Home Page <home_page>`.
 
  #. **Information Panel**
 
@@ -355,7 +355,7 @@ Deleting a User role/profile
       .. figure:: /img/user_manual/user_role_delete.png
          :align: center
 
-         `Image  - User roles/profile delete confirmation`
+         `User roles/profile delete confirmation`
 
   When a user roles/profile is deleted, the rights that it provide are not available to the users having that role/profile.
 
@@ -364,7 +364,7 @@ Default User roles and rights
 
 The table below shows the default roles in openIMIS.
 
-  .. list-table:: Table 9.1 Overview of Scheme administrator & district Staff roles
+  .. list-table:: Overview of Scheme administrator & district Staff roles
       :widths: 2 6 4
       :header-rows: 1
       :stub-columns: 1
@@ -424,7 +424,7 @@ The table below shows the default roles in openIMIS.
           | * Manage `Backup <#backup>`__, `Restore <#restore>`__ and `Updates <#execute-script>`__
           | * `Extract Creation for Off-line Health Facilities <#imis-extracts-online-mode>`__
 
-  .. list-table:: Table 9.1 Overview of Health Facilities staff roles
+  .. list-table:: Overview of Health Facilities staff roles
       :widths: 2 6 4
       :header-rows: 1
       :stub-columns: 1
