@@ -21,7 +21,9 @@ Navigation
 
     `Navigation Batch Run`
 
-  Clicking on the sub menu ``Batch Run`` re-directs the current user to the `Batch Run Control Page <#batch-run-control-page>`__.
+  Clicking on the sub menu ``Batch Run`` re-directs the current user to the :ref:`Batch Run Control Page  <batch-run-control-page>`.
+
+.. _batch-run-control-page:
 
 Batch Run Control Page
 """"""""""""""""""""""

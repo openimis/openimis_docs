@@ -21,13 +21,15 @@ Navigation
 
     `Navigation Review`
 
-  Clicking on the sub menu ``Review`` re-directs the current user to the `Claims Overview Page. <#claims-overview-page>`__
+  Clicking on the sub menu ``Review`` re-directs the current user to the :ref:`Claims Overview Page <claims-overview-page>`
 
   .. _claims_review_img:
   .. figure:: /img/user_manual/claim.review_page.png
     :align: center
 
     `Image - Claims Overview Page`
+
+.. _claims-overview-page:
 
 Claims Overview Page
 """"""""""""""""""""
@@ -175,11 +177,11 @@ Claims Overview Page
 
     * ``Deliver Review``
 
-      Clicking on this button (:numref:`review_review_but`) re-directs a user to the `Claim Review Page <#claim-review-page>`__, where a claim with review status **Selected for Review** can be reviewed and its current review status changed to **Reviewed.** If the claim is not in the status **Selected for Review** then the claim can be only loaded and shown to the user without any subsequent action.
+      Clicking on this button (:numref:`review_review_but`) re-directs a user to the :ref:`Claim Review Page  <claim-review-page>`, where a claim with review status **Selected for Review** can be reviewed and its current review status changed to **Reviewed.** If the claim is not in the status **Selected for Review** then the claim can be only loaded and shown to the user without any subsequent action.
 
     * ``Deliver feedback``
 
-      Clicking on this button (:numref:`review_feedback_but`) re-directs a user to the `Claim Feedback Page <#claim-feedback-page>`__, where a claim with feedback status **Selected for Feedback** can be feed backed and its current feedback status changed to **Delivered**.
+      Clicking on this button (:numref:`review_feedback_but`) re-directs a user to the :ref:`Claim Feedback Page  <claim-feedback-page>`, where a claim with feedback status **Selected for Feedback** can be feed backed and its current feedback status changed to **Delivered**.
 
  #. **Actions Menu**
 
@@ -261,6 +263,8 @@ Claims Overview Page
  #. **Information Panel**
 
     The Information Panel is used to display messages back to the user. Messages will occur once a claim has been reviewed, updated, feedback added on claim or if there was an error at any time during the process of these actions.
+
+.. _claim-review-page:
 
 Claim Review Page
 """""""""""""""""
@@ -473,7 +477,9 @@ Claim Review Page
 
  #. **Back**
 
-    By clicking on the ``back`` button (:numref:`mat_back`), the user will be re-directed to the `Claims Overview Page <#claims-overview-page>`__.
+    By clicking on the ``back`` button (:numref:`mat_back`), the user will be re-directed to the :ref:`Claims Overview Page  <claims-overview-page>`.
+
+.. _claim-feedback-page:
 
 Claim Feedback Page
 """""""""""""""""""
@@ -572,8 +578,8 @@ Claim Feedback Page
 
  #. **Saving**
 
-    Once all mandatory data is entered, clicking on the ``Save`` button (:numref:`mat_save`) will save the feedback on current claim. The user will be re-directed back to the `Claims Overview Page <#claims-overview-page>`__\ ; a message confirming that the feedback has been saved will appear on the Information Panel. If inappropriate data is entered or mandatory data is not entered at the time the user clicks the Save button, an error message will appear in the Information Panel, and the data field will take the focus.
+    Once all mandatory data is entered, clicking on the ``Save`` button (:numref:`mat_save`) will save the feedback on current claim. The user will be re-directed back to the :ref:`Claims Overview Page  <claims-overview-page>`\ ; a message confirming that the feedback has been saved will appear on the Information Panel. If inappropriate data is entered or mandatory data is not entered at the time the user clicks the Save button, an error message will appear in the Information Panel, and the data field will take the focus.
 
  #. **Back**
 
-    By clicking on the ``back`` button (:numref:`mat_back`), the user will be re-directed to the `Claims Overview Page <#claims-overview-page>`__\ .
+    By clicking on the ``back`` button (:numref:`mat_back`), the user will be re-directed to the :ref:`Claims Overview Page  <claims-overview-page>`\ .

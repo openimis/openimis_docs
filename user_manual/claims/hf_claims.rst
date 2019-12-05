@@ -19,7 +19,9 @@ Navigation
 
     `Image - Navigation Health Facility Claims`
 
-  Clicking on the sub menu ``Health Facility Claims`` re-directs the current user to the `Claims Control Page <#_Health_Facility_Claims>`__.
+  Clicking on the sub menu ``Health Facility Claims`` re-directs the current user to the :ref:`Claims Control Page  <health_facility_claims>`.
+
+.. _health_facility_claims:
 
 Claims Control Page
 """""""""""""""""""
@@ -149,7 +151,7 @@ Claims Control Page
 
  #. **Actions**
 
-    Modular openIMIS comes with `Material UI <http://https://material-ui.com/>`_ this means that there is a single button (:numref:`actions_btn`) which fonction will change depending on the context (Icon change), for less used functions a tree dots menu is available (:numref:`image_3d_claim_hf`) only when claim(s) are selected. By double-clicking on the claim line, the user is directed to the `Claim Page <#claim-page>`__, where the current selected claim can be edited (provided it in the state **Entered**), this page will open with the current information loaded into the data entry fields. See the `Claim Page <#claim-page>`__ for information on the data entry and mandatory fields.
+    Modular openIMIS comes with `Material UI <http://https://material-ui.com/>`_ this means that there is a single button (:numref:`actions_btn`) which fonction will change depending on the context (Icon change), for less used functions a tree dots menu is available (:numref:`image_3d_claim_hf`) only when claim(s) are selected. By double-clicking on the claim line, the user is directed to the :ref:`Claim Page  <claim-page>`, where the current selected claim can be edited (provided it in the state **Entered**), this page will open with the current information loaded into the data entry fields. See the :ref:`Claim Page  <claim-page>` for information on the data entry and mandatory fields.
 
 
     .. _actions_btn:
@@ -198,7 +200,7 @@ Claims Control Page
 
     * ``add``
 
-      By clicking on the add button (:numref:`mat_add`), the user is directed to the `Claim Page, <#claim-page>`__ where new entries for new claim can be added. When the page opens all entry fields are empty. See the `Claim Page <#claim-page>`__ for information on the data entry and mandatory fields.
+      By clicking on the add button (:numref:`mat_add`), the user is directed to the `Claim Page, <#claim-page>`__ where new entries for new claim can be added. When the page opens all entry fields are empty. See the :ref:`Claim Page  <claim-page>` for information on the data entry and mandatory fields.
 
 
     * ``Submit selected``
@@ -231,6 +233,8 @@ Claims Control Page
 
     The Information Panel is used to display messages back to the user. Messages will occur once a claim has been added, updated or deleted or if there was an error at any time during the process of these actions.
 
+.. _claim-page:
+
 Claim Page
 """"""""""
 
@@ -245,11 +249,11 @@ Claim Page
 
     * ``HF Code``
 
-      Displays the code of the health facility. The field is read only (taken over from the `Claims Control Page <#_Health_Facility_Claims>`__) and cannot be edited.
+      Displays the code of the health facility. The field is read only (taken over from the :ref:`Claims Control Page  <health_facility_claims>`) and cannot be edited.
 
     * ``HF Name``
 
-      Displays the name of the health facility. The field is read only (taken over from the `Claims Control Page <#_Health_Facility_Claims>`__) and cannot be edited.
+      Displays the name of the health facility. The field is read only (taken over from the :ref:`Claims Control Page  <health_facility_claims>`) and cannot be edited.
 
     * ``Insurance Number``
 
@@ -286,7 +290,7 @@ Claim Page
       Select the code of the fourth secondary diagnosis by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box
     * ``Claim Administrator``
 
-      Displays code of the claim administrator. The field is read only (taken over from `the Claim Control Page <#_Health_Facility_Claims>`__) and cannot be edited.
+      Displays code of the claim administrator. The field is read only (taken over from :ref:`the Claim Control Page  <health_facility_claims>`) and cannot be edited.
 
     * ``Visit Date From``
 
@@ -372,7 +376,7 @@ Claim Page
 
  #. **Saving**
 
-    Once all mandatory data is entered, clicking on the ``Save`` button (:numref:`mat_save`) will save the claim. The user stay in the `Claim Page <#claim-page>`__; a message confirming that the claim has been saved will appear on the right of the `Claim Page <#claim-page>`__ (:numref:`save_conf`).
+    Once all mandatory data is entered, clicking on the ``Save`` button (:numref:`mat_save`) will save the claim. The user stay in the :ref:`Claim Page  <claim-page>`; a message confirming that the claim has been saved will appear on the right of the :ref:`Claim Page  <claim-page>` (:numref:`save_conf`).
 
     .. _save_conf:
     .. list-table:: claim save confirmation
@@ -396,8 +400,8 @@ Claim Page
 
  #. **Creating of a new claim**
 
-    By clicking on the ``Add`` button (:numref:`mat_add`), the `Claim Page <#claim-page>`__ is cleared (with exception of HF Code, HF Name and Claim Administrator) and it ready for entering of a new claim for the same health facility and of the same claim administrator as before.
+    By clicking on the ``Add`` button (:numref:`mat_add`), the :ref:`Claim Page  <claim-page>` is cleared (with exception of HF Code, HF Name and Claim Administrator) and it ready for entering of a new claim for the same health facility and of the same claim administrator as before.
 
  #. **back**
 
-      By clicking on the ``back`` (:numref:`mat_back`) button, the user will be re-directed to the `Claims Control Page <#_Health_Facility_Claims>`__.
+      By clicking on the ``back`` (:numref:`mat_back`) button, the user will be re-directed to the :ref:`Claims Control Page  <health_facility_claims>`.
