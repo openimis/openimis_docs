@@ -1,3 +1,5 @@
+
+
 Administration of registers
 ---------------------------
 
@@ -9,7 +11,7 @@ The register of Users defines who can login to openIMIS and under what constrain
 .. toctree::
    :maxdepth: 3
 
-   policy
+   product
    health_facility
    medical_service
    medical_item

@@ -1,3 +1,5 @@
+
+
 Payers Administration
 ^^^^^^^^^^^^^^^^^^^^^
 
@@ -15,7 +17,7 @@ Navigation
   .. figure:: /img/user_manual/image60.png
     :align: center
 
-    `Image 75 - Navigation Payers`
+    `Navigation Payers`
 
   All functionality for use with the administration of payers can be found under the main menu ``Administration``, sub menu ``Payers.``
 
@@ -23,14 +25,14 @@ Navigation
   .. figure:: /img/user_manual/image61.png
     :align: center
 
-    `Image 76 - Payers Control Page`
+    `Payers Control Page`
 
   Clicking on the sub menu ``Payers`` re-directs the current user to the `Payer Control Page <#payer-control-page>`__\.
 
 Payer Control Page
 ~~~~~~~~~~~~~~~~~~
 
-  The Payer control Page is the central point for all payer administration. By having access to this page, it is possible to add, edit, delete and search (institutional) payers. The page is divided into four panels (:ref:`Image 76<image76>`).
+  The Payer control Page is the central point for all payer administration. By having access to this page, it is possible to add, edit, delete and search (institutional) payers. The page is divided into four panels (:numref:`image76`).
 
  #. **Search Panel**
 
@@ -62,13 +64,13 @@ Payer Control Page
 
     * ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 77<image77>`).
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image77`).
 
     .. _image77:
     .. figure:: /img/user_manual/image62.png
       :align: center
 
-      `Image 77 - Historical records - Result Panel`
+      `Historical records - Result Panel`
 
     * ``Search Button``
 
@@ -80,21 +82,21 @@ Payer Control Page
     .. figure:: /img/user_manual/image63.png
       :align: center
 
-      `Image 78 - Selected record (blue), hovered records (yellow) - Result Panel`
+      `Selected record (blue), hovered records (yellow) - Result Panel`
 
-    The result panel displays a list of all payers found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 78<image78>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+    The result panel displays a list of all payers found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image78`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 79<image79>`).
+    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image79`).
 
     .. _image79:
     .. figure:: /img/user_manual/image11.png
       :align: center
 
-      `Image 79 - Page selector- Result Panel`
+      `Page selector- Result Panel`
 
  #. **Button Panel**
 
-    With exception of the ``Cancel`` button, which re-directs to the `Home Page <#image-2.2-home-page>`__, and the ``Add`` button which re-directs to the `Payer Page <#payer-page>`__, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
+    With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
 
  #. **Information Panel**
 
@@ -109,7 +111,7 @@ Payer Page
     .. figure:: /img/user_manual/image64.png
       :align: center
 
-      `Image 80 - Payer Page`
+      `Payer Page`
 
     * ``Type``
 
@@ -174,12 +176,12 @@ Deleting a Payer
 
   Click on the Delete button to delete the currently selected record.
 
-  Before deleting a confirmation popup (:ref:`Image 81<image81>`) is displayed, which requires the user to confirm if the action should really be carried out?
+  Before deleting a confirmation popup (:numref:`image81`) is displayed, which requires the user to confirm if the action should really be carried out?
 
   .. _image81:
   .. figure:: /img/user_manual/image24.png
     :align: center
 
-    `Image 81 - Delete confirmation- Button Panel`
+    `Delete confirmation- Button Panel`
 
   When a payer is deleted, all records retaining to the deleted payer will still be available by selecting historical records.

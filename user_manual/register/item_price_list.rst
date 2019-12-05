@@ -1,3 +1,5 @@
+
+
 Medical Item Price Lists Administration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -17,7 +19,7 @@ Navigation
   .. figure:: /img/user_manual/image40.png
     :align: center
 
-    `Image 44 - Navigation Price Lists Medical Items`
+    `Navigation Price Lists Medical Items`
 
   Clicking on the sub menu ``Medical Items`` re-directs the current user to the `Price List Medical Items Control Page <#price-list-medical-items-control-page>`__\ .
 
@@ -25,12 +27,12 @@ Navigation
   .. figure:: /img/user_manual/image41.png
     :align: center
 
-    `Image 45 - Price List Medical Items Control Page`
+    `Price List Medical Items Control Page`
 
 Price List Medical Items Control Page
 """""""""""""""""""""""""""""""""""""
 
-  The ``Price List Medical Items Control Page`` is the central point for all medical item price list administration. By having access to this panel, it is possible to add, edit, delete and search. The panel is divided into four panels (:ref:`Image 48<image48>`).
+  The ``Price List Medical Items Control Page`` is the central point for all medical item price list administration. By having access to this panel, it is possible to add, edit, delete and search. The panel is divided into four panels (:numref:`image48`).
 
  #. **Search Panel**
 
@@ -46,7 +48,7 @@ Price List Medical Items Control Page
 
     * ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 45<image45>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image45`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
       - At anytime during the use of the pop-up, the user can see the date of today.
       - Clicking on today will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -67,7 +69,7 @@ Price List Medical Items Control Page
       ||logo15|||logo16|||logo17||
       +--------+--------+--------+
 
-        `Image 46 - Calendar Selector - Search Panel`
+        `Calendar Selector - Search Panel`
 
     * ``Region``
 
@@ -79,13 +81,13 @@ Price List Medical Items Control Page
 
     * ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 47<image47>`).
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image47`).
 
       .. _image47:
       .. figure:: /img/user_manual/image42.png
         :align: center
 
-        `Image 47 - Historical records - Result Panel`
+        `Historical records - Result Panel`
 
     * ``Search button``
 
@@ -93,25 +95,25 @@ Price List Medical Items Control Page
 
  #. **Result Panel**
 
-    The Result Panel displays a list of all price lists of medical items found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 48<image48>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+    The Result Panel displays a list of all price lists of medical items found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image48`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
     .. _image48:
     .. figure:: /img/user_manual/image43.png
       :align: center
 
-      `Image 48 - Selected record (blue), hovered records (yellow) - Result Panel`
+      `Selected record (blue), hovered records (yellow) - Result Panel`
 
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 49<image49>`)
+    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image49`)
 
     .. _image49:
     .. figure:: /img/user_manual/image11.png
       :align: center
 
-      `Image 49 - Page selector- Result Panel`
+      `Page selector- Result Panel`
 
  #. **Button Panel**
 
-    With exception of the ``Cancel`` button, which re-directs to the `Home Page <#image-2.2-home-page>`__, and the ``Add`` button which re-directs to the `Price List Medical Item Page <#price-list-medical-item-page>`__, the button panel (the buttons ``Edit`` and ``Delete`` ) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
+    With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete`` ) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
 
  #. **Information Panel**
 
@@ -126,7 +128,7 @@ Price List Medical Item Page
     .. figure:: /img/user_manual/image44.png
       :align: center
 
-      `Image 50 - Price List Medical Item Page`
+      `Price List Medical Item Page`
 
     * ``Name``
 
@@ -186,12 +188,12 @@ Deleting a Price List of Medical Items
 
   Click on the ``Delete`` button to delete the currently selected record\; the user is re-directed to the `Price List Medical Items Control Page <#medical-items-control-page>`__\.
 
-  Before deleting a confirmation popup (:ref:`Image 51<image51>`) is displayed, which requires the user to confirm if the action should really be carried out?
+  Before deleting a confirmation popup (:numref:`image51`) is displayed, which requires the user to confirm if the action should really be carried out?
 
   .. _image51:
   .. figure:: /img/user_manual/image24.png
     :align: center
 
-    `Image 51 - Delete confirmation- Button Panel`
+    `Delete confirmation- Button Panel`
 
   When a price list of medical items is deleted, all records retaining to the deleted price list of medical items will still be available by selecting historical records.

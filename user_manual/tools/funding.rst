@@ -1,3 +1,5 @@
+
+
 Funding
 ^^^^^^^
 
@@ -11,10 +13,10 @@ Navigation
   The functionality for entering of funds can be found under the main menu ``Tools``, sub menu ``Funding``
 
   .. _image247:
-  .. figure:: /img/user_manual/image214.png
+  .. figure:: /img/user_manual/tool.menu_funding.png
     :align: center
 
-    `Image 247 - Navigation Funding`
+    `Navigation Funding`
 
   Clicking on the sub menu ``Funding`` re-directs the current user to the `Funding Page. <#image-6.79-funding-page>`__
 
@@ -27,7 +29,7 @@ Funding Page
     .. figure:: /img/user_manual/image215.png
       :align: center
 
-      `Image 248 - Funding Page`
+      `Funding Page`
 
     * ``Region``
 
@@ -59,12 +61,12 @@ Funding Page
 
  #. **Saving**
 
-    Once all mandatory data is entered, clicking on the ``Save`` button will save the record. A message confirming that the new password has been saved will appear. The user will be re-directed back to the `Home Page <#image-2.2-home-page>`__.
+    Once all mandatory data is entered, clicking on the ``Save`` button will save the record. A message confirming that the new password has been saved will appear. The user will be re-directed back to the :ref:`Home Page <home_page>`.
 
  #. **Mandatory data**
 
-    If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk on the right side of the corresponding field). The user will be re-directed to the `Home Page <#image-2.2-home-page>`__.
+    If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk on the right side of the corresponding field). The user will be re-directed to the :ref:`Home Page <home_page>`.
 
  #. **Cancel**
 
-    By clicking on the Cancel button, the user will be re-directed to the `Home Page <#image-2.2-home-page>`__.
+    By clicking on the Cancel button, the user will be re-directed to the :ref:`Home Page <home_page>`.

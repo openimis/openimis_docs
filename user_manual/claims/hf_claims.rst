@@ -1,3 +1,5 @@
+
+
 Heath Facility Claims
 ^^^^^^^^^^^^^^^^^^^^^
 
@@ -12,23 +14,25 @@ Navigation
   All functionality for use with the administration of health facility claims can be found under the main menu ``Claims``, sub menu ``Health Facility Claims``.
 
   .. _image136:
-  .. figure:: /img/user_manual/image110.png
+  .. figure:: /img/user_manual/claim.menu_hf.png
     :align: center
 
-    `Image 136 - Navigation Health Facility Claims`
+    `Image - Navigation Health Facility Claims`
 
-  Clicking on the sub menu ``Health Facility Claims`` re-directs the current user to the `Claims Control Page <#_Health_Facility_Claims>`__.
+  Clicking on the sub menu ``Health Facility Claims`` re-directs the current user to the :ref:`Claims Control Page  <health_facility_claims>`.
+
+.. _health_facility_claims:
 
 Claims Control Page
 """""""""""""""""""
 
   .. _claims_control_img:
-  .. figure:: /img/user_manual/claims_control_page.png
+  .. figure:: /img/user_manual/claim.control_page.png
     :align: center
 
     `Image - Claims Control Page`
 
-  The Claims Control Page is the central point for all health facility claim administration. By having access to this panel, it is possible to add, edit and search claims. Claims can be edited only in the state **Entered**. The panel is divided into four panels (:ref:`Image 136<image136>`).
+  The Claims Control Page is the central point for all health facility claim administration. By having access to this panel, it is possible to add, edit and search claims. Claims can be edited only in the state **Entered**. The panel is divided into four panels (:numref:`claims_control_img`).
 
  #. **Search Panel**
 
@@ -88,48 +92,46 @@ Claims Control Page
 
     * ``Visit Date From``
 
-      Type in a date; or use the Date Selector Button, to search for claims with a ``Visit Date From`` date which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.* ``Visit Date From`` should be the day of admission for in-patient care or the visit date in case of out-patient care.
+      Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date From`` date which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.* ``Visit Date From`` should be the day of admission for in-patient care or the visit date in case of out-patient care.
 
     * ``Visit Date To``
 
-      Type in a date; or use the Date Selector Button, to search for claims with a ``Visit Date From`` date which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.* ``Visit Date To`` should be the day of discharge for in-patient care or the visit date in case of out-patient care.
+      Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date From`` date which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.* ``Visit Date To`` should be the day of discharge for in-patient care or the visit date in case of out-patient care.
 
     * ``Claim Date From``
 
-      Type in a date; or use the Date Selector Button, to search for claims with a ``Claim Date`` date which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
+      Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date`` date which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*
 
     * ``Claim Date To``
 
-      Type in a date; or use the Date Selector Button, to search for claims with a ``Claim Date`` date which is on or is less than the date typed/selected. Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
+      Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date`` date which is on or is less than the date typed/selected. Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    * ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 138<image138>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
-        - At anytime during the use of the pop-up, the user can see the date of **today**.
-        - Clicking on today will close the pop-up and display the today’s date in the corresponding date entry box.
-        - Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box.
-        - Clicking on the arrow to the left displays the previous month.
-        - Clicking on the arrow on the right will displays the following month.
-        - Clicking on the month will display all the months for the year.
-        - Clicking on the year will display a year selector.
+      .. _cal_picker:
+      .. list-table:: Date Picker
+        :widths: 1 1 1
 
-      .. _image138:
-      .. |logo36| image:: /img/user_manual/image6.png
-        :scale: 100%
-        :align: middle
-      .. |logo37| image:: /img/user_manual/image7.png
-        :scale: 100%
-        :align: middle
-      .. |logo38| image:: /img/user_manual/image8.png
-        :scale: 100%
-        :align: middle
+        * - .. figure:: /img/user_manual/date_picker.day.png
+              :align: center
 
-      +----------++----------++----------+
-      | |logo36| || |logo37| || |logo38| |
-      +----------++----------++----------+
+              `Day picker`
+          - .. figure:: /img/user_manual/date_picker.month.png
+              :align: center
 
-        `Image 138 - Calendar Selector - Search Panel`
+              `Month picker`
+          - .. figure:: /img/user_manual/date_picker.year.png
+              :align: center
+
+              `Year picker`
+        * - At anytime during the use of the pop-up, the user can see the date of **today**.
+            Clicking on a day will close the pop-up and display the date 
+
+          - Clicking on the arrow to the left displays the previous month.
+            Clicking on the arrow on the right will displays the following month.
+
+          - Clicking on the year will display a year selector.
+
 
     * ``Search Button``
 
@@ -137,73 +139,101 @@ Claims Control Page
 
  #. **Result Panel**
 
-    The Result Panel displays a list of all claims found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 139<image139>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+    The Result Panel displays a list of all claims found, matching the selected criteria in the search panel. The currently selected record is highlighted with light grey. (:numref:`image139`). Double click on the line re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
     .. _image139:
-    .. figure:: /img/user_manual/image112.png
+    .. figure:: /img/user_manual/claim.search_result.png
       :align: center
 
-      `Image 139 - Selected record (blue), hovered records (yellow) - Result Panel`
+      `Selected record (grey) - Result Panel`
 
-    A maximum of 2000 records can be displayed at one time, in a scroll panel. Further records can be viewed by processing the current loaded claims and search claims again.
+    A maximum of 10 records can be displayed per default but it can be changed by configuration (`gitHub <https://github.com/openimis/openimis-fe-claim_js>`_), in a scroll panel. Further records can be viewed by either changing the page or deleting/submitting the current loaded claims and search claims again.
 
- #. **Button Panel**
+ #. **Actions**
 
-    With exception of the ``Cancel`` button, which re-directs to the `Home Page <#image-2.2-home-page>`__, and the ``Add`` button which re-directs to the `Claim Page, <#claim-page>`__ the button panel (the buttons Load and Submit) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
+    Modular openIMIS comes with `Material UI <http://https://material-ui.com/>`_ this means that there is a single button (:numref:`actions_btn`) which fonction will change depending on the context (Icon change), for less used functions a tree dots menu is available (:numref:`image_3d_claim_hf`) only when claim(s) are selected. By double-clicking on the claim line, the user is directed to the :ref:`Claim Page  <claim-page>`, where the current selected claim can be edited (provided it in the state **Entered**), this page will open with the current information loaded into the data entry fields. See the :ref:`Claim Page  <claim-page>` for information on the data entry and mandatory fields.
+
+
+    .. _actions_btn:
+    .. list-table:: Materal icons
+
+      * - .. _mat_add:
+          .. figure:: /img/user_manual/mat.add.png
+            :align: center
+
+            `Add`
+        - .. _mat_save:
+          .. figure:: /img/user_manual/mat.save.png
+            :align: center
+
+            `Save`
+
+        - .. _mat_back:
+          .. figure:: /img/user_manual/mat.back.png
+            :align: center
+
+            `Back`
+        - .. _mat_print:
+          .. figure:: /img/user_manual/mat.print.png
+
+            `Print`
+
+    .. _image_3d_claim_hf:
+    .. list-table:: claims actions
+
+      * - .. _mat_select_all:
+          .. figure:: /img/user_manual/mat.select_all.png
+            :align: center
+
+            `select all`
+        - .. _mat_3d:
+          .. figure:: /img/user_manual/mat.3d.png
+            :align: center
+
+            `tree dots`
+        - .. _mat_hf_claim_menu:
+          .. figure:: /img/user_manual/claim.hf_3d.png
+            :align: center
+
+            `tree dots menu`
+
 
     * ``add``
 
-      By clicking on the add button, the user is directed to the `Claim Page, <#claim-page>`__ where new entries for new claim can be added. When the page opens all entry fields are empty. See the `Claim Page <#claim-page>`__ for information on the data entry and mandatory fields.
-
-    * ``load``
-
-      By clicking on the load button, the user is directed to the `Claim Page <#claim-page>`__, where the current selected claim can be edited (provided it in the state **Entered**).
+      By clicking on the add button (:numref:`mat_add`), the user is directed to the `Claim Page, <#claim-page>`__ where new entries for new claim can be added. When the page opens all entry fields are empty. See the :ref:`Claim Page  <claim-page>` for information on the data entry and mandatory fields.
 
 
-      The page will open with the current information loaded into the data entry fields. See the `Claim Page <#claim-page>`__ for information on the data entry and mandatory fields.
+    * ``Submit selected``
 
-    * ``submit``
+      By clicking on the submit selected manu (:numref:`mat_hf_claim_menu`), claim status of all selected claims with the status **Entered** will be submitted.
 
-      By clicking on the submit button, claim status of all claims with claim status **Entered** and which have been selected to be submitted by checking the check box on right end of each record, will be submitted.
-
-
-      On the top of result panel, there is a checkbox to be used to select all claims currently loaded in the result panel and whose claim status is **Entered**, prior to be submitted.
-
-
-      Once the process is done, a popup window (:ref:`Image 140<image140>`) with the result of the process will be shown.
-
-      .. _image140:
-      .. figure:: /img/user_manual/image113.png
-        :align: center
-
-        `Image 140 - Submit Claims Prompt – Claims Control Page`
+      Once the process is done, a popup window ( :numref:`image141` ) with the result of the process will be shown.
 
       .. _image141:
-      .. figure:: /img/user_manual/image114.png
+      .. figure:: /img/user_manual/claim.submit_details.png
         :align: center
 
-        `Image 141 - Submitted Claims details – Claims Control Page`
+        `Submitted Claims details – Claims Control Page`
 
-    * ``delete``
+    * ``delete selected``
 
-      By clicking on the delete button, the current selected claim will be deleted.
+      By clicking on the delete selected menu, the current selected claim will be deleted.
 
 
-      Before deleting a confirmation popup (:ref:`Image 142<image142>`) is displayed, which requires the user to confirm if the action should really be carried out?
+      Before deleting a confirmation popup ( :numref:`image142` ) is displayed, which requires the user to confirm if the action should really be carried out?
 
       .. _image142:
-      .. figure:: /img/user_manual/image115.png
+      .. figure:: /img/user_manual/claim.delete_conf.png
         :align: center
 
-        `Image 142 - Delete confirmation – Claims Control Page`
+        `Delete confirmation – Claims Control Page`
 
-    * ``cancel``
-
-      By clicking on the ``Cancel`` button, the user will be re-directed to the `Home Page <#image-2.2-home-page>`__.
 
  #. **Information Panel**
 
     The Information Panel is used to display messages back to the user. Messages will occur once a claim has been added, updated or deleted or if there was an error at any time during the process of these actions.
+
+.. _claim-page:
 
 Claim Page
 """"""""""
@@ -211,23 +241,29 @@ Claim Page
  #. **Data Entry**
 
     .. _claim_add_img:
-    .. figure:: /img/user_manual/claim_add.png
+    .. figure:: /img/user_manual/claim.add.png
       :align: center
 
-      `Image - Claim Page`
+      `Claim Page`
 
 
     * ``HF Code``
 
-      Displays the code of the health facility. The field is read only (taken over from the `Claims Control Page) <#_Health_Facility_Claims>`__ and cannot be edited.
+      Displays the code of the health facility. The field is read only (taken over from the :ref:`Claims Control Page  <health_facility_claims>`) and cannot be edited.
 
     * ``HF Name``
 
-      Displays the name of the health facility. The field is read only (taken over from the `Claims Control Page <#_Health_Facility_Claims>`__) and cannot be edited.
+      Displays the name of the health facility. The field is read only (taken over from the :ref:`Claims Control Page  <health_facility_claims>`) and cannot be edited.
 
     * ``Insurance Number``
 
-      Enter the insurance number of the patient. When done entering this field, the corresponding name of the patient will be filled on the name of the patient (the text box which is read only field and is on the right side of the Insurance Number text field). Mandatory.
+      Enter the insurance number of the patient. When the field is selected, the search insuree popup(:refnum:'insuree_picker') will be display and will allow the claim administrator to search the insuree based on its insurance number, or/and last name, or/and other(first) name . Mandatory.
+
+      .. _insuree_picker:
+      .. figure:: /img/user_manual/insuree_picker.png
+        :align: center
+
+        `Search insuree popup`
 
     * ``Claim No.``
 
@@ -254,7 +290,7 @@ Claim Page
       Select the code of the fourth secondary diagnosis by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box
     * ``Claim Administrator``
 
-      Displays code of the claim administrator. The field is read only (taken over from `the Claim Control Page <#_Health_Facility_Claims>`__) and cannot be edited.
+      Displays code of the claim administrator. The field is read only (taken over from :ref:`the Claim Control Page  <health_facility_claims>`) and cannot be edited.
 
     * ``Visit Date From``
 
@@ -278,55 +314,54 @@ Claim Page
 
     * ``Services``
 
-      1. ``service code``
+      #. ``service code``
 
         When entering the service code, a dropdown suggestion box for the available services with the service code or service name matching your typed text will be shown. Available medical services in the dropdown suggestion box are taken over from the pricelist of medical services associated with the claiming health facility. The desired service can then be selected from the dropdown suggestion box by clicking on it using mouse or selecting it using up and down arrows, then pressing Enter key fill the service code text field, together with quantity and value field in the same row.
 
-
-        Once the selected service has been written on the service data grid row, the dropdown suggestion box will close itself. When needed, the dropdown suggestion box can be closed by clicking any place on the page but outside the dropdown suggestion box.
+        Once the selected service has been written on the service data grid row, a new service line will be added and the dropdown suggestion box will close itself. When needed, the dropdown suggestion box can be closed by clicking any place on the page but outside the dropdown suggestion box.
 
         .. _image144:
         .. figure:: /img/user_manual/image117.png
           :align: center
 
-          `Image 144 - Services dropdown suggestion box – Claim Page`
+          `Services dropdown suggestion box – Claim Page`
 
-      2. ``quantity``
+      #. ``quantity``
 
         This field can be filled manually by entering a number in it or automatically is filled by 1 when the service code above is filled, through dropdown suggestion box. It is this field that receives focus after service code is filled above from the dropdown suggestion box.
 
-      3. ``price``
+      #. ``price``
 
         This field can be filled manually by entering a number in it or automatically is filled when the service code above is filled, through dropdown suggestion box. Automatically filled prices are taken over from the pricelist of medical services associated with the claiming health facility.
 
-      4. ``explanation``
+      #. ``explanation``
 
         Enter extra information about the service for the scheme administration (a medical officer of the scheme administrator).
 
     * ``Items``
 
-      1. ``item code``
+      #. ``item code``
 
         When entering the item code, a dropdown suggestion box for the available items with the item code or item name matching your typed text will be shown. Available medical items in the dropdown suggestion box are taken over from the pricelist of medical items associated with the claiming health facility. The desired item can then be selected from the dropdown suggestion box by clicking on it using mouse or selecting it using up and down arrows, then pressing Enter key to fill the item code text field, together with quantity and value field in the same row.
 
 
-        Once the selected item has been written on the item data grid row, the dropdown suggestion box will close itself. When needed, the dropdown suggestion box can be closed by clicking any place on the page but outside the dropdown suggestion box.
+        Once the selected item has been written on the item data grid row, a new service line will be added and the dropdown suggestion box will close itself. When needed, the dropdown suggestion box can be closed by clicking any place on the page but outside the dropdown suggestion box.
 
         .. _image145:
         .. figure:: /img/user_manual/image118.png
           :align: center
 
-          `Image 145 - Items dropdown suggestion box – Claim Page`
+          `Items dropdown suggestion box – Claim Page`
 
-      2. ``quantity``
+      #. ``quantity``
 
         This field can be filled manually by entering a number in it or automatically is filled by 1 when the item code above is filled, through dropdown suggestion box. It is this filled that receives focus after item code is filled above from the dropdown suggestion box.
 
-      3. ``price``
+      #. ``price``
 
         This field can be filled manually by entering a number in it or automatically is filled when the item code above is filled, through dropdown suggestion box. Automatically filled prices are taken over from the pricelist of medical items associated with the claiming health facility.
 
-      4. ``explanation``
+      #. ``explanation``
 
         Enter extra information about the medical item for the scheme administration (a medical officer of the scheme administrator).
 
@@ -336,41 +371,24 @@ Claim Page
 
     * ``explanation``
 
-      Enter extra information about the whole claim for the scheme administration (medical officer).
+      Enter extra information about the whole claim for the scheme administration (a medical officer of the scheme administrator).
 
-    **#  User Controls**
-
-    On top of services input grid panel and items input grid panel, there is a textbox field (:ref:`Image 146<image146>`) and (:ref:`Image 147<image147>`) which is filled with a constant representing the current number of rows in the input grid a user is working with. A user can change the current number of rows in the corresponding data input grid by entered a number of rows greater than existing one. This change is only allowed before a user has made changes to the corresponding data input grid.
-
-    .. _image146:
-    .. figure:: /img/user_manual/image119.png
-      :align: center
-
-      `Image 146 - Services input grid row number change, input field – Claim Page`
-
-    .. _image147:
-    .. figure:: /img/user_manual/image120.png
-      :align: center
-
-      `Image 147 - Items input grid row number change, input field – Claim Page`
-
-    A user can manually clear the inputs in the row by clicking the ``Red Cross`` button on the end right of a desired row (:ref:`Image 148<image148>`). This action will require a user to confirm for the clearing process to proceed by choosing either yes / no from the popup window (:ref:`Image 149<image149>`) asking for user confirmation.
-
-    .. _image148:
-    .. figure:: /img/user_manual/image121.png
-      :align: center
-
-      `Image 148 - Clear row inputs button-Claim Page`
-
-    .. _image149:
-    .. figure:: /img/user_manual/image122.png
-      :align: center
-
-      `Image 149 - Clearing of a row confirmation – Claim Page`
 
  #. **Saving**
 
-    Once all mandatory data is entered, clicking on the ``Save`` button will save the claim. The user stay in the `Claim Page <#claim-page>`__; a message confirming that the claim has been saved will appear on the bottom of the `Claim Page <#claim-page>`__.
+    Once all mandatory data is entered, clicking on the ``Save`` button (:numref:`mat_save`) will save the claim. The user stay in the :ref:`Claim Page  <claim-page>`; a message confirming that the claim has been saved will appear on the right of the :ref:`Claim Page  <claim-page>` (:numref:`save_conf`).
+
+    .. _save_conf:
+    .. list-table:: claim save confirmation
+
+      * - .. figure:: /img/user_manual/claim.create_conf.png
+            :align: center
+
+            `Create confirmation`
+        - .. figure:: /img/user_manual/claim.save_conf.png
+            :align: center
+
+            `Update confirmation`
 
  #. **Mandatory data**
 
@@ -378,12 +396,12 @@ Claim Page
 
  #. **Printing of a claim**
 
-    By clicking on the ``Print`` button, the user will be shown a printable version of the claim details page. The printable version of the claim is available in the following formats (Word, PDF, Excel)
+    By clicking on the ``Print`` button (:numref:`mat_print`), the user will be shown a printable version of the claim details page. The printable version of the claim is available in the pdf formats.
 
  #. **Creating of a new claim**
 
-    By clicking on the ``Add`` button, the `Claim Page <#claim-page>`__ is cleared (with exception of HF Code, HF Name and Claim Administrator) and it ready for entering of a new claim for the same health facility and of the same claim administrator as before.
+    By clicking on the ``Add`` button (:numref:`mat_add`), the :ref:`Claim Page  <claim-page>` is cleared (with exception of HF Code, HF Name and Claim Administrator) and it ready for entering of a new claim for the same health facility and of the same claim administrator as before.
 
- #. **Cancel**
+ #. **back**
 
-    By clicking on the ``Cancel`` button, the user will be re-directed to the `Claims Control Page <#_Health_Facility_Claims>`__\ .
+      By clicking on the ``back`` (:numref:`mat_back`) button, the user will be re-directed to the :ref:`Claims Control Page  <health_facility_claims>`.

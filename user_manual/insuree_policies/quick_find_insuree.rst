@@ -1,3 +1,5 @@
+
+
 Insuree Enquiry
 ^^^^^^^^^^^^^^^
 
@@ -7,9 +9,9 @@ This functionality is available to all system roles or with a role including an 
   .. figure:: /img/user_manual/image69.png
     :align: center
 
-    `Image 87 - Insuree Enquiry Field`
+    `Insuree Enquiry Field`
 
-  By typing in a valid insurance­­­­­­­ number and pressing the enter key or clicking on the green search button, a pop-up will appear (:ref:`Image 87<image87>`), providing a photo of the insuree and information about the current policy or policies covering of the insuree.
+  By typing in a valid insurance­­­­­­­ number and pressing the enter key or clicking on the green search button, a pop-up will appear (:numref:`image87`), providing a photo of the insuree and information about the current policy or policies covering of the insuree.
 
   The Information includes the following:
 

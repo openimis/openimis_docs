@@ -1,3 +1,5 @@
+
+
 Reports
 ^^^^^^^
 
@@ -12,24 +14,24 @@ Navigation
   All functionality for use with the administration of Reports can be found under the main menu ``Tools``, sub menu ``Reports.``
 
   .. _image203:
-  .. figure:: /img/user_manual/image172.png
+  .. figure:: /img/user_manual/tool.menu_report.png
     :align: center
 
-    `Image 203 - Navigation Reports`
+    `Navigation Reports`
 
-  Clicking on the sub menu ``Reports`` re-directs the current user to the Reports Page (:ref:`Image 204<image204>`).
+  Clicking on the sub menu ``Reports`` re-directs the current user to the Reports Page (:numref:`image204`).
 
   .. _image204:
   .. figure:: /img/user_manual/image173.png
     :align: center
 
-    `Image 204 - Reports Page`
+    `Reports Page`
 
-  The Reports Page is divided into four panels (:ref:`Image 204<image204>`).
+  The Reports Page is divided into four panels (:numref:`image204`).
 
  #. **Select Criteria**
 
-    The Select Criteria panel or the filter panel allows a user to select specific criteria determining the scope of data included in the report. The criteria (:ref:`Image 205<image205>` – :ref:`Image 222<image222>`) will change depending on the selected type of the report.
+    The Select Criteria panel or the filter panel allows a user to select specific criteria determining the scope of data included in the report. The criteria (:numref:`image205` – :numref:`image222`) will change depending on the selected type of the report.
 
       - Primary Operational Indicators - Policies Report.
 
@@ -37,7 +39,7 @@ Navigation
       .. figure:: /img/user_manual/image174.png
         :align: center
 
-        `Image 205 - Primary Operational Indicators - Policies Report Criteria`
+        `Primary Operational Indicators - Policies Report Criteria`
 
       - Primary Operational Indicators - Claims Report.
 
@@ -45,7 +47,7 @@ Navigation
       .. figure:: /img/user_manual/image175.png
         :align: center
 
-        `Image 206 - Primary Operational Indicators - Claims Report Criteria`
+        `Primary Operational Indicators - Claims Report Criteria`
 
       - Derived Operational Indicators Report.
 
@@ -53,7 +55,7 @@ Navigation
       .. figure:: /img/user_manual/image176.png
         :align: center
 
-        `Image 207 - Derived Operational Indicators Report Criteria`
+        `Derived Operational Indicators Report Criteria`
 
       - Contribution Collection Report.
 
@@ -61,7 +63,7 @@ Navigation
       .. figure:: /img/user_manual/image177.png
         :align: center
 
-        `Image 208 - Contribution Collection Report Criteria`
+        `Contribution Collection Report Criteria`
 
       - Product Sales Report.
 
@@ -69,7 +71,7 @@ Navigation
       .. figure:: /img/user_manual/image178.png
         :align: center
 
-        `Image 209 - Product Sales Report Criteria`
+        `Product Sales Report Criteria`
 
       - Contribution Distribution Report.
 
@@ -77,7 +79,7 @@ Navigation
       .. figure:: /img/user_manual/image179.png
         :align: center
 
-        `Image 210 - Contribution Distribution Report Criteria`
+        `Contribution Distribution Report Criteria`
 
       - User Activity Report.
 
@@ -85,7 +87,7 @@ Navigation
       .. figure:: /img/user_manual/image180.png
         :align: center
 
-        `Image 211 - User Activity Report Criteria`
+        `User Activity Report Criteria`
 
       - Enrolment Performance Indicator Report.
 
@@ -93,7 +95,7 @@ Navigation
       .. figure:: /img/user_manual/image181.png
         :align: center
 
-        `Image 212 - Enrolment Performance Indicators Report Criteria`
+        `Enrolment Performance Indicators Report Criteria`
 
       - Status of Registers Report.
 
@@ -101,7 +103,7 @@ Navigation
       .. figure:: /img/user_manual/image182.png
         :align: center
 
-        `Image 213 - Status of Registers Report Criteria`
+        `Status of Registers Report Criteria`
 
       - Insurees without Photos Report.
 
@@ -109,7 +111,7 @@ Navigation
       .. figure:: /img/user_manual/image183.png
         :align: center
 
-        `Image 214 - Insurees without photos Report Criteria`
+        `Insurees without photos Report Criteria`
 
       - Payment Category Overview Report.
 
@@ -117,7 +119,7 @@ Navigation
       .. figure:: /img/user_manual/image184.png
         :align: center
 
-        `Image 215 - Payment Category Overview Report Criteria`
+        `Payment Category Overview Report Criteria`
 
       - Matching Funds Report.
 
@@ -125,7 +127,7 @@ Navigation
       .. figure:: /img/user_manual/image185.png
         :align: center
 
-        `Image 216 - Matching funds Report Criteria`
+        `Matching funds Report Criteria`
 
       - Claim Overview Report.
 
@@ -133,7 +135,7 @@ Navigation
       .. figure:: /img/user_manual/image186.png
         :align: center
 
-        `Image 217 - Claim Overview Report Criteria`
+        `Claim Overview Report Criteria`
 
       - Percentage of Referrals Report.
 
@@ -141,7 +143,7 @@ Navigation
       .. figure:: /img/user_manual/image187.png
         :align: center
 
-        `Image 218 - Percentage of Referrals Report Criteria`
+        `Percentage of Referrals Report Criteria`
 
       - Families and Insurees Overview Report.
 
@@ -149,7 +151,7 @@ Navigation
       .. figure:: /img/user_manual/image188.png
         :align: center
 
-        `Image 219 - Families and Insurees Overview Report Criteria`
+        `Families and Insurees Overview Report Criteria`
 
       - Pending Insurees Report.
 
@@ -157,7 +159,7 @@ Navigation
       .. figure:: /img/user_manual/image189.png
         :align: center
 
-        `Image 220 - Pending Insurees Report Criteria`
+        `Pending Insurees Report Criteria`
 
       - Renewals Report.
 
@@ -268,7 +270,7 @@ Enter a commission rate as % of an assessment base. This filter is  mandatory. N
 
     * ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 223<image223>`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image223`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
         - At anytime during the use of the pop-up, the user can see the date of **today**.
         - Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -293,11 +295,11 @@ Enter a commission rate as % of an assessment base. This filter is  mandatory. N
       | |logo48| || |logo49| || |logo50| |
       +----------++----------++----------+
 
-        `Image 223 - Calendar Selector - Search Panel`
+        `Calendar Selector - Search Panel`
 
  #. **Report Type Selector**
 
-    This panel contains a list of available report types. A user can select to create a desired report by clicking on the report type list item (:ref:`Image 224<image224>`) and narrow the report using the criteria being shown on the panel above, and then click the ``preview`` button to create the report. Available report types are:
+    This panel contains a list of available report types. A user can select to create a desired report by clicking on the report type list item (:numref:`image224`) and narrow the report using the criteria being shown on the panel above, and then click the ``preview`` button to create the report. Available report types are:
 
       - Primary Operational Indicators Report.
       - Derived Operational Indicators Report.
@@ -326,7 +328,7 @@ Enter a commission rate as % of an assessment base. This filter is  mandatory. N
     .. figure:: /img/user_manual/image192.png
       :align: center
 
-      `Image 224 - Report Type Selector`
+      `Report Type Selector`
 
  #. **Button Panel**
 
@@ -336,7 +338,7 @@ Enter a commission rate as % of an assessment base. This filter is  mandatory. N
 
     * ``Cancel button``
 
-      By clicking on this button, the current user will be re-directed to the `Home Page <#image-2.2-home-page>`__.
+      By clicking on this button, the current user will be re-directed to the :ref:`Home Page <home_page>`.
 
  #. **Information Panel**
 
@@ -416,7 +418,7 @@ Report Preview
     .. figure:: /img/user_manual/image193.png
       :align: center
 
-      `Image 225 - Preview – Primary Operational Indicators - Policies Report`
+      `Preview – Primary Operational Indicators - Policies Report`
 
  #. **primary operational indicators  - claims report**
 
@@ -454,7 +456,7 @@ Report Preview
     .. figure:: /img/user_manual/image194.png
       :align: center
 
-      `Image 226 - Preview – Primary Operational Indicators - Claims Report`
+      `Preview – Primary Operational Indicators - Claims Report`
 
  #. **derived operational indicators report**
 
@@ -522,93 +524,93 @@ Report Preview
     .. figure:: /img/user_manual/image195.png
       :align: center
 
-      `Image 227 - Preview – Derived Operational Indicators Report`
+      `Preview – Derived Operational Indicators Report`
 
  #. **Contribution collection report**
 
-    The report lists all actual payments of contributions according to insurance products in the defined period. The report can be used as input to an accounting system. The report can be run by users with the the system role Accountant or with a role including an access to Tools/Reports/Contribution Collection. Payments are assigned to the specified period according to the actual date of payment. (:ref:`Image 228<image228>`)
+    The report lists all actual payments of contributions according to insurance products in the defined period. The report can be used as input to an accounting system. The report can be run by users with the the system role Accountant or with a role including an access to Tools/Reports/Contribution Collection. Payments are assigned to the specified period according to the actual date of payment. (:numref:`image228`)
 
     .. _image228:
     .. figure:: /img/user_manual/image196.png
       :align: center
 
-      `Image 228 - Preview – Contribution Collection Report`
+      `Preview – Contribution Collection Report`
 
  #. **product sales report**
 
-    The report provides overview of selling of policies according to insurance products in terms of calculated contributions (not necessarily actually paid). The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Product Sales. Policies are assigned to the specified period according to their effective days. (:ref:`Image 229<image229>`)
+    The report provides overview of selling of policies according to insurance products in terms of calculated contributions (not necessarily actually paid). The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Product Sales. Policies are assigned to the specified period according to their effective days. (:numref:`image229`)
 
     .. _image229:
     .. figure:: /img/user_manual/image197.png
       :align: center
 
-      `Image 229 - Preview – Product Sales Report`
+      `Preview – Product Sales Report`
 
  #. **Contribution distribution report**
 
     The report provides proportional amount of actually paid contributions allocated by openIMIS to specific months according to insurance products. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Contribution Distribution. This report shows the information about the **Total collection**, **Allocated amount** and **Not allocated** amount for contributions in the specified period.
 
-    **Allocated** amount is the proportionally calculated amounts of contributions paid covering the month. **Not Allocated** amount is the amount collected for contributions that have a start date in the future (after the month in question). (:ref:`Image 230<image230>`)
+    **Allocated** amount is the proportionally calculated amounts of contributions paid covering the month. **Not Allocated** amount is the amount collected for contributions that have a start date in the future (after the month in question). (:numref:`image230`)
 
     .. _image230:
     .. figure:: /img/user_manual/image198.png
       :align: center
 
-      `Image 230 - Preview – Contribution Distribution Report`
+      `Preview – Contribution Distribution Report`
 
  #. **user activity report**
 
-    The report shows activities of users according to types of activities and types of entities to which the activities relate. The report can be run by users with system role IMIS Administrator or with a role including an access to Tools/Reports/User Activity.  (:ref:`Image 231<image231>`)
+    The report shows activities of users according to types of activities and types of entities to which the activities relate. The report can be run by users with system role IMIS Administrator or with a role including an access to Tools/Reports/User Activity.  (:numref:`image231`)
     
     .. _image231:
     .. figure:: /img/user_manual/image199.png
       :align: center
 
-      `Image 231 - Preview – User Activity Report`
+      `Preview – User Activity Report`
 
  #. **enrolment performance indicator report**
 
-    The report provides overview of activity of enrolment officers. The report can be run by users with the system role Manager or with a role including an access to Tools/Reports/Enrolment Performance Indicator. (:ref:`Image 232<image232>`)
+    The report provides overview of activity of enrolment officers. The report can be run by users with the system role Manager or with a role including an access to Tools/Reports/Enrolment Performance Indicator. (:numref:`image232`)
 
     .. _image232:
     .. figure:: /img/user_manual/image200.png
       :align: center
 
-      `Image 232 - Preview – Enrolment Performance Indicator Report`
+      `Preview – Enrolment Performance Indicator Report`
 
  #. **status of registers report**
 
-    The report provides an overview of the number of items in registers according to districts. The report can be run by users with the system role Scheme Administrator or with a role including an access to Tools/Reports/Status of Registers.(:ref:`Image 233<image233>`)
+    The report provides an overview of the number of items in registers according to districts. The report can be run by users with the system role Scheme Administrator or with a role including an access to Tools/Reports/Status of Registers.(:numref:`image233`)
 
     .. _image233:
     .. figure:: /img/user_manual/image201.png
       :align: center
 
-      `Image 233 - Preview – Status of Registers Report`
+      `Preview – Status of Registers Report`
 
  #. **insurees without photos**
 
-    The report lists all insurees according to enrolment officers that have not assigned a photo. The report can be run by users with thesystem role Accountant or with a role including an access to Tools/Reports/Insurees without Photos.  (:ref:`Image 234<image234>`)
+    The report lists all insurees according to enrolment officers that have not assigned a photo. The report can be run by users with thesystem role Accountant or with a role including an access to Tools/Reports/Insurees without Photos.  (:numref:`image234`)
 
     .. _image234:
     .. figure:: /img/user_manual/image202.png
       :align: center
 
-      `Image 234 - Preview – Insurees without photos`
+      `Preview – Insurees without photos`
 
  #. **matching funds**
 
-    The report lists all families/groups according to insurance products and (institutional) payers that paid contributions in the specified period. This report is useful for claiming of subsidies for running of health insurance schemes. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Matching Funds.  (:ref:`Image 235<image235>`)
+    The report lists all families/groups according to insurance products and (institutional) payers that paid contributions in the specified period. This report is useful for claiming of subsidies for running of health insurance schemes. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Matching Funds.  (:numref:`image235`)
 
     .. _image235:
     .. figure:: /img/user_manual/image203.png
       :align: center
 
-      `Image 235 - Preview –Matching Funds`
+      `Preview –Matching Funds`
 
  #. **claim overview**
 
-    The report provides detailed data about results of processing of claims in openIMIS according to insurance products and health facilities. The report can be used as a tool for communication between a health insurance scheme and its contractual health facilities. The report can be run by users with the rsystem role Accountant or with a role including an access to Tools/Reports/Claim Overview. Claims are assigned to the specified period according to date of provision of health care (in case of in-patient care according to the date of discharge).  (:ref:`Image 236<image236>`)
+    The report provides detailed data about results of processing of claims in openIMIS according to insurance products and health facilities. The report can be used as a tool for communication between a health insurance scheme and its contractual health facilities. The report can be run by users with the rsystem role Accountant or with a role including an access to Tools/Reports/Claim Overview. Claims are assigned to the specified period according to date of provision of health care (in case of in-patient care according to the date of discharge).  (:numref:`image236`)
 
     .. _image236:
     .. figure:: /img/user_manual/image204.png
@@ -618,23 +620,23 @@ Report Preview
 
  #. **payment category overview**
 
-    The report provides split of total contributions according to their categories. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Payment Category Overview.  Contributions are assigned to the specified period according to actual payment date. (:ref:`Image 237<image237>`)
+    The report provides split of total contributions according to their categories. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Payment Category Overview.  Contributions are assigned to the specified period according to actual payment date. (:numref:`image237`)
 
     .. _image237:
     .. figure:: /img/user_manual/image205.png
       :align: center
 
-      `Image 237 - Preview – Payment Category Overview`
+      `Preview – Payment Category Overview`
 
  #. **Families and Insurees Overview report**
 
-    The report provides an overview of enrolled families/groups and their members in specified location within the specified period. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Families and Insurees Overview.  (:ref:`Image 238<image238>`)
+    The report provides an overview of enrolled families/groups and their members in specified location within the specified period. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Families and Insurees Overview.  (:numref:`image238`)
 
     .. _image238:
     .. figure:: /img/user_manual/image206.png
       :align: center
 
-      `Image 238 - Preview – Families and Insurees Overview Report`
+      `Preview – Families and Insurees Overview Report`
 
  #. **Percentage of Referrals report**
 
@@ -644,40 +646,40 @@ Report Preview
       b) The number of out-patient visits that have Visit Type equal to Referral in all other health facilities (irrespective of the district) for insurees with the First Service Point in the respective primary health care facility.
       c) The number of in-patient stays that have Visit Type equal to Referral in all health facilities-hospitals (irrespective of the district) for insurees with the First Service Point in the respective primary health care facility.
 
-    The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Percentage of Referrals. (:ref:`Image 239<image239>`)
+    The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Percentage of Referrals. (:numref:`image239`)
 
     .. _image239:
     .. figure:: /img/user_manual/image207.png
       :align: center
 
-      `Image 239 - Preview – Percentage of Referrals Overview Report`
+      `Preview – Percentage of Referrals Overview Report`
 
  #. **Pending Insurees report**
 
-    The report lists all insurees whose photos have been sent to openIMIS but who has no record in openIMIS yet. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Pending Insurees.   (:ref:`Image 240<image240>`)
+    The report lists all insurees whose photos have been sent to openIMIS but who has no record in openIMIS yet. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Pending Insurees.   (:numref:`image240`)
 
     .. _image240:
     .. figure:: /img/user_manual/image208.png
       :align: center
 
-      `Image 240 - Preview – Pending Insurees Report`
+      `Preview – Pending Insurees Report`
 
  #. **Renewals report**
 
-    The report lists all renewed policies in given period for given insurance product and optionally for given enrolment officer. The families that have at least one payment of contributions in given period of time are included in the report. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Renewals. Below is an example of the report (:ref:`Image 241<image241>`)
+    The report lists all renewed policies in given period for given insurance product and optionally for given enrolment officer. The families that have at least one payment of contributions in given period of time are included in the report. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Renewals. Below is an example of the report (:numref:`image241`)
 
     .. _image241:
     .. figure:: /img/user_manual/image209.png
       :align: center
 
-      `Image 241 - Preview – Renewals Report`
+      `Preview – Renewals Report`
 
  #. **Capitation Payment Report**
 
-    The report lists capitation payments for all health facilities specified in the `capitation formula <#capitation-payment>`__ for specified month and for given insurance product. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Capitation Payment.  (:ref:`Image 242<image242>`)
+    The report lists capitation payments for all health facilities specified in the `capitation formula <#capitation-payment>`__ for specified month and for given insurance product. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Capitation Payment.  (:numref:`image242`)
 
     .. _image242:
     .. figure:: /img/user_manual/image210.png
       :align: center
 
-      `Image 242 - Preview –Capitation Payment Report`
+      `Preview –Capitation Payment Report`

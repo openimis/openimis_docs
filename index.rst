@@ -3,10 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+
+
 openIMIS documentation
 ======================
 
-  **v1.3.0**
+  **v1.4.0**
 
   The open Insurance Management Information System ( openIMIS ) is a web based software to manage health insurance schemes. It includes functionality for setup of the software to requirements of health insurance schemes, administration of policies and policy holders and for claim processing. This manual is a guide on the use and functionality of the software rather than in-depth technical reference. The Contents section, provide a reference to the page of each major chapter and the sub chapters within. By clicking on the content title (online version), the reader is re-directed to the position of the content title.
 
@@ -18,27 +20,8 @@ openIMIS documentation
 
 Welcome to the openIMIS technical documentation repository.
 
-.. toctree::
-   :maxdepth: 2
-   :caption: User documentation
+.. include:: /_sidebar.rst.inc
 
-   /user_manual/user_login/user_login
-   /user_manual/claims/claims
-   /user_manual/register/register
-   /user_manual/insuree_policies/insuree_policies
-   /user_manual/tools/tools
-   /user_manual/offline/offline
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Installation documentation
-
-   /install_manual/minimum_requirements
-   /install_manual/database_sql_server_installation_guide
-   /install_manual/web_app_vb_installation_guide
-   /install_manual/web_service_vb_installation_guide
-   /install_manual/windows_services_installation_guide
-   /install_manual/mobile_applications_configuration
 
    
 

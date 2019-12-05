@@ -1,3 +1,5 @@
+
+
 Medical Items Administration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -17,7 +19,7 @@ Navigation
   .. figure:: /img/user_manual/image30.png
     :align: center
 
-    `Image 29 - Navigation Medical Items`
+    `Navigation Medical Items`
 
   Clicking on the sub menu ``Medical Items`` re-directs the current user to the `Medical Items Control Page <#medical-items-control-page>`__\.
 
@@ -25,12 +27,12 @@ Navigation
   .. figure:: /img/user_manual/image31.png
     :align: center
 
-    `Image 30 - Medical Items Control Page`
+    `Medical Items Control Page`
 
 Medical Items Control Page
 """"""""""""""""""""""""""
 
-  The ``Medical Items Control Page`` is the central point for all medical item administration. By having access to this page, it is possible to add, edit, delete and search. The panel is divided into four panels (:ref:`Image 30<image30>`)
+  The ``Medical Items Control Page`` is the central point for all medical item administration. By having access to this page, it is possible to add, edit, delete and search. The panel is divided into four panels (:numref:`image30`)
 
  #. **Search Panel**
 
@@ -54,13 +56,13 @@ Medical Items Control Page
 
     * ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 31<image31>`).
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image31`).
 
       .. _image31:
       .. figure:: /img/user_manual/image32.png
         :align: center
 
-        `Image 31 - Historical records - Result Panel`
+        `Historical records - Result Panel`
 
     * ``Search button``
 
@@ -68,25 +70,25 @@ Medical Items Control Page
 
  #. **Result Panel**
 
-    The result panel displays a list of all medical items found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 32<image32>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+    The result panel displays a list of all medical items found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image32`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
     .. _image32:
     .. figure:: /img/user_manual/image33.png
       :align: center
 
-      `Image 32 - Selected record (blue), hovered records (yellow) - Result Panel`
+      `Selected record (blue), hovered records (yellow) - Result Panel`
 
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 33<image33>`)
+    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image33`)
 
     .. _image33:
     .. figure:: /img/user_manual/image11.png
       :align: center
 
-      `Image 33 - Page selector- Result Panel`
+      `Page selector- Result Panel`
 
  #. **Button Panel**
 
-    With exception of the ``Cancel`` button, which re-directs to the `Home Page <#image-2.2-home-page>`__, and the ``Add`` button which re-directs to the `Medical Item Page <#medical-item-page>`__, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
+    With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
 
  #. **Information Panel**
 
@@ -101,7 +103,7 @@ Medical Item Page
     .. figure:: /img/user_manual/image34.png
       :align: center
 
-      `Image 34 - Medical Item Page`
+      `Medical Item Page`
 
     * ``Code``
 
@@ -166,12 +168,12 @@ Deleting a Medical Item
 
   Click on the ``Delete`` button to delete the currently selected record
 
-  Before deleting a confirmation popup (:ref:`Image 35<image35>`) is displayed, which requires the user to confirm if the action should really be carried out?
+  Before deleting a confirmation popup (:numref:`image35`) is displayed, which requires the user to confirm if the action should really be carried out?
 
   .. _image35:
   .. figure:: /img/user_manual/image24.png
     :align: center
 
-    `Image 35 - Delete confirmation- Button Panel`
+    `Delete confirmation- Button Panel`
 
   When the medical item is deleted, all records retaining to the deleted medical item will still be available by selecting historical records.
