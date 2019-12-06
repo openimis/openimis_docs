@@ -24,7 +24,7 @@ sys.path.insert(0, abspath(join(dirname(__file__))))
 
 project = u'openIMIS'
 subproject= u'User manual'
-copyright = u'2018, openIMIS team'
+copyright = u'2019, openIMIS team'
 author = u'openIMIS team'
 html_logo = 'img/logo.png'
 html_favicon = 'img/favicon.ico'
@@ -153,7 +153,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     ('index', 'openIMIS.tex', u'openIMIS installation and user manual',
-     author, subproject),
+     author, 'sphinxmanual'),
 ]
 #latex_documents = [
 #    (master_doc, 'openIMIS.tex', u'openIMIS Documentation',
@@ -178,7 +178,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'openIMIS', u'openIMIS Documentation',
-     author, 'openIMIS', 'One line description of project.',
+     author, 'openIMIS', 'opneIMIS is a health insurance management solution',
      'Miscellaneous'),
 ]
 

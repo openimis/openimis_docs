@@ -20,10 +20,19 @@ openIMIS documentation
 
 Welcome to the openIMIS technical documentation repository.
 
-.. include:: /_sidebar.rst.inc
+.. .. include:: /_sidebar.rst.inc
 
 
-   
+.. toctree::
+    :caption: OpenIMIS
+    :maxdepth: 2
+
+    index_local
+    openIMIS Install documentation <https://openimis.atlassian.net/wiki/spaces/OP/pages/906526894>
+    open a ticket <https://openimis.atlassian.net/servicedesk/customer/portals>
+    openIMIS Wiki <https://openimis.atlassian.net/wiki/spaces/OP/overview>
+
+
 
 .. Contents
    ==================

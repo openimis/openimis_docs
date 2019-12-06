@@ -32,6 +32,8 @@ first generate the LATEX file(s)
 | sphinx-build -b latex .\ .\_build\latex\
 
 then use your favourite latex tool to generate the PDF
+or
+pdflatex.exe .\_build\latex\openIMIS.tex
 
 * for HTML
 
