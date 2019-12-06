@@ -1,3 +1,5 @@
+
+
 Policy
 ^^^^^^
 
@@ -18,7 +20,7 @@ Navigation
   .. figure:: /img/user_manual/image79.png
     :align: center
 
-    `Image 101 - Navigation Policies`
+    `Navigation Policies`
 
   Clicking on the sub menu ``Policies`` re-directs the current user to the ``find policy page.``
 
@@ -28,9 +30,9 @@ Find Policy Page
   .. figure:: /img/user_manual/image80.png
     :align: center
 
-    `Image 102 - Find Policy Page`
+    `Find Policy Page`
 
-  The ``Find Policy Page`` is the first step in the process of finding a policy and thereafter accessing the `Family Overview Page <#family-overview-page.>`__ of insurees, policies and contributions. This initial page can be used to search for specific policies or groups of policies based on specific criteria. The panel is divided into four panels (:ref:`Image 102<image102>`)
+  The ``Find Policy Page`` is the first step in the process of finding a policy and thereafter accessing the `Family Overview Page <#family-overview-page.>`__ of insurees, policies and contributions. This initial page can be used to search for specific policies or groups of policies based on specific criteria. The panel is divided into four panels (:numref:`image102`)
 
  #. **Search Panel**
 
@@ -66,7 +68,7 @@ Find Policy Page
 
     * ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 103<image103>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image103`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
         - At anytime during the use of the pop-up, the user can see the date of **today**.
         - Clicking on **today** will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -91,7 +93,7 @@ Find Policy Page
       | |logo30| || |logo31| || |logo32| |
       +----------++----------++----------+
 
-        `Image 103 - Calendar Selector - Search Panel`
+        `Calendar Selector - Search Panel`
 
     * ``Enrolment Officer``
 
@@ -136,13 +138,13 @@ Find Policy Page
 
     * ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 104<image104>`)
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image104`)
 
       .. _image104:
       .. figure:: /img/user_manual/image81.png
         :align: center
 
-        `Image 104 - Historical records - Result Panel`
+        `Historical records - Result Panel`
 
     * ``Search button``
 
@@ -150,25 +152,25 @@ Find Policy Page
 
  #. **Result Panel**
 
-    The Result Panel displays a list of all policies found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 105<image105>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+    The Result Panel displays a list of all policies found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image105`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
     .. _image105:
     .. figure:: /img/user_manual/image82.png
       :align: center
 
-      `Image 105 - Selected record (blue), hovered records (yellow) - Result Panel`
+      `Selected record (blue), hovered records (yellow) - Result Panel`
 
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 106<image106>`)
+    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image106`)
 
     .. _image106:
     .. figure:: /img/user_manual/image11.png
       :align: center
 
-      `Image 106 - Page selector- Result Panel`
+      `Page selector- Result Panel`
 
  #. **Button Panel**
 
-    The ``Cancel`` button re-directs to the `Home Page <#image-2.2-home-page>`__.
+    The ``Cancel`` button re-directs to the :ref:`Home Page <home_page>`.
 
  #. **Information Panel**
 
@@ -183,7 +185,7 @@ Policy Page
     .. figure:: /img/user_manual/image102.png
       :align: center
 
-      `Image 128 - Policy Page`
+      `Policy Page`
 
     * ``Enrolment Date``
 
@@ -240,13 +242,13 @@ Deleting a Policy
 
   Click on the ``Red Cross Sign`` to delete the currently selected policy.
 
-  Before deleting of a policy, all contributions of the policy should be deleted. Before deleting a confirmation popup (:ref:`Image 129<image129>`) is displayed, which requires the user to confirm if the action should really be carried out?
+  Before deleting of a policy, all contributions of the policy should be deleted. Before deleting a confirmation popup (:numref:`image129`) is displayed, which requires the user to confirm if the action should really be carried out?
 
   .. _image129:
   .. figure:: /img/user_manual/image24.png
     :align: center
 
-    `Image 129 - Delete confirmation- Button Panel`
+    `Delete confirmation- Button Panel`
 
   When a policy is deleted, all records retaining to the deleted policy will still be available by selecting historical records.
 

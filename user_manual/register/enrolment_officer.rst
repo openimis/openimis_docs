@@ -1,3 +1,5 @@
+
+
 Enrolment Officers Administration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -17,7 +19,7 @@ Navigation
   .. figure:: /img/user_manual/image50.png
     :align: center
 
-    `Image 59 - Navigation Enrolment Officers`
+    `Navigation Enrolment Officers`
 
   Clicking on the sub menu ``Enrolment Officers`` re-directs the current user to the `Enrolment Officers Control Page. <#enrolment-officers-control-page>`__.
 
@@ -25,12 +27,12 @@ Navigation
   .. figure:: /img/user_manual/image51.png
     :align: center
 
-    `Image 60 - Enrolment Officers Control Page`
+    `Enrolment Officers Control Page`
 
 Enrolment Officers Control Page
 """""""""""""""""""""""""""""""
 
-  The Enrolment Officers Control Page is the central point for all Enrolment Officer administration. By having access to this page, it is possible to add, edit, delete and search. The page is divided into four panels (:ref:`Image 60<image60>`).
+  The Enrolment Officers Control Page is the central point for all Enrolment Officer administration. By having access to this page, it is possible to add, edit, delete and search. The page is divided into four panels (:numref:`image60`).
 
  #. **Search Panel**
 
@@ -58,7 +60,7 @@ Enrolment Officers Control Page
 
     * ``Date Selector button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 61<image61>`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image61`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
       - At anytime during the use of the pop-up, the user can see the date of *today*.
       - Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -83,7 +85,7 @@ Enrolment Officers Control Page
       | |logo18| || |logo19||| |logo20||
       +----------++---------++---------+
 
-        `Image 61 - Calendar Selector - Search Panel`
+        `Calendar Selector - Search Panel`
 
     * ``Region``
 
@@ -103,13 +105,13 @@ Enrolment Officers Control Page
 
     * ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 62<image62>`).
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image62`).
 
     .. _image62:
     .. figure:: /img/user_manual/image52.png
       :align: center
 
-      `Image 62 - Historical records - Result Panel`
+      `Historical records - Result Panel`
 
     * ``Search Button``
 
@@ -123,19 +125,19 @@ Enrolment Officers Control Page
 
       `Image 63  - Selected record (blue), hovered records (yellow) - Result Panel`
 
-    The result panel displays a list of all officers found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 63<image63>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+    The result panel displays a list of all officers found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image63`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 64<image64>`)
+    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image64`)
 
     .. _image64:
     .. figure:: /img/user_manual/image11.png
       :align: center
 
-      `Image 64 - Page selector- Result Panel`
+      `Page selector- Result Panel`
 
  #. **Button Panel**
 
-    With exception of the ``Cancel`` button, which re-directs to the `Home Page <#image-2.2-home-page>`__, and the ``Add`` button which re-directs to the `Enrolment Officer Page <#enrolment-officer-page>`__, the button panel (the buttons ``Edit`` and ``Delete`` is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
+    With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete`` is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
 
  #. **Information Panel**
 
@@ -279,12 +281,12 @@ Deleting an Enrolment Officer
 
   Click on the ``Delete`` button to delete the currently selected record.
 
-  Before deleting a confirmation popup (:ref:`Image 66<image66>`) is displayed, which requires the user to confirm if the action should really be carried out?
+  Before deleting a confirmation popup (:numref:`image66`) is displayed, which requires the user to confirm if the action should really be carried out?
 
   .. _image66:
   .. figure:: /img/user_manual/image24.png
     :align: center
 
-    `Image 66 - Delete confirmation- Button Panel`
+    `Delete confirmation- Button Panel`
 
   When an officer is deleted, all records retaining to the deleted officer will still be available by selecting historical records.

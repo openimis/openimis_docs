@@ -1,3 +1,5 @@
+
+
 Insuree
 ^^^^^^^
 
@@ -20,7 +22,7 @@ Navigation
   .. figure:: /img/user_manual/image75.png
     :align: center
 
-    `Image 95 - Navigation Insurees`
+    `Navigation Insurees`
 
   Clicking on the sub menu ``Insurees`` re-directs the current user to the Find Insuree Page.
 
@@ -31,9 +33,9 @@ Find Insuree Page
   .. figure:: /img/user_manual/image76.png
     :align: center
 
-    `Image 96 - Find Insuree Page`
+    `Find Insuree Page`
 
-  The ``Find Insuree Page`` is the first step in the process of finding an insuree and thereafter accessing the family/group overview of insurees, policies and contributions. This initial page can be used to search for specific Insurees or groups of insurees based on specific criteria. The panel is divided into four panels (:ref:`Image 96<image96>`)
+  The ``Find Insuree Page`` is the first step in the process of finding an insuree and thereafter accessing the family/group overview of insurees, policies and contributions. This initial page can be used to search for specific Insurees or groups of insurees based on specific criteria. The panel is divided into four panels (:numref:`image96`)
 
  #. **Search Panel**
 
@@ -69,7 +71,7 @@ Find Insuree Page
 
     * ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 97<image97>`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image97`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
         - At anytime during the use of the pop-up, the user can see the date of **today**.
         - Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -94,7 +96,7 @@ Find Insuree Page
       | |logo27| || |logo28| || |logo29| |
       +----------++----------++----------+
 
-        `Image 97 - Calendar Selector - Search Panel`
+        `Calendar Selector - Search Panel`
 
     * ``Gender``
 
@@ -122,13 +124,13 @@ Find Insuree Page
 
     * ``Historical``
 
-      Click on Historical to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 98<image98>`)
+      Click on Historical to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image98`)
 
       .. _image98:
       .. figure:: /img/user_manual/image77.png
         :align: center
 
-        `Image 98 - Historical records - Result Panel`
+        `Historical records - Result Panel`
 
     * ``Search Button``
 
@@ -136,21 +138,21 @@ Find Insuree Page
 
  #. **Result Panel**
 
-    The result panel displays a list of all Insurees found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 99<image99>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Family Overview Page <#family-overview-page.>`__ of the insuree’s family, or the `Insuree Page <#insuree-page>`__ if it is a historical record for viewing purposes.
+    The result panel displays a list of all Insurees found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image99`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Family Overview Page <#family-overview-page.>`__ of the insuree’s family, or the `Insuree Page <#insuree-page>`__ if it is a historical record for viewing purposes.
 
     .. _image99:
     .. figure:: /img/user_manual/image78.png
       :align: center
 
-      `Image 99 - Selected record (blue), hovered records (yellow) - Result Panel`
+      `Selected record (blue), hovered records (yellow) - Result Panel`
 
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 100<image100>`)
+    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image100`)
 
     .. _image100:
     .. figure:: /img/user_manual/image11.png
       :align: center
 
-      `Image 100 - Page selector- Result Panel`
+      `Page selector- Result Panel`
 
  #. **Button Panel**
 
@@ -173,7 +175,7 @@ Insuree Page
     .. figure:: /img/user_manual/image100.png
       :align: center
 
-      `Image 126 - Insuree Page`
+      `Insuree Page`
 
     * ``Relationship``
 
@@ -201,11 +203,11 @@ Insuree Page
 
     * ``Marital Status``
 
-      Select from the list of available options for the marital status of the insuree. Mandatory.
+      Select from the list of available options for the marital status of the insuree.
 
     * ``Beneficiary Card``
 
-      Select from the list of options whether or not the card was issued to the insure. Mandatory.
+      Select from the list of options whether or not the card was issued to the insure. 
 
     * ``Current Region``
 
@@ -304,12 +306,12 @@ Deleting an Insuree
 
   Click on the Red Cross Sign to delete the currently selected record.
 
-  Before deleting a confirmation popup (:ref:`Image 127<image127>`) is displayed, which requires the user to confirm if the action should really becarried out?
+  Before deleting a confirmation popup (:numref:`image127`) is displayed, which requires the user to confirm if the action should really becarried out?
 
   .. _image127:
   .. figure:: /img/user_manual/image24.png
     :align: center
 
-    `Image 127 - Delete confirmation- Button Panel`
+    `Delete confirmation- Button Panel`
 
   When an insuree is deleted, all records retaining to the deleted insuree will still be available by selecting historical records.

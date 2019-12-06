@@ -1,3 +1,5 @@
+
+
 Family/Group
 ^^^^^^^^^^^^
 
@@ -18,7 +20,7 @@ Navigation
   .. figure:: /img/user_manual/image71.png
     :align: center
 
-    `Image 89 - Navigation – Families - Find Family`
+    `Navigation – Families - Find Family`
 
   Clicking on the sub menu ``Families/Groups`` re-directs the current user to the `Find Family Page <#find-family-page>`__\.
 
@@ -26,9 +28,9 @@ Navigation
   .. figure:: /img/user_manual/image72.png
     :align: center
 
-    `Image 90 - Find Families`
+    `Find Families`
 
-  The Find Family Page is the first step in the process of finding of a family and thereafter accessing the `Family Overview Page <#family-overview>`__ of insurees, policies and contributions. This initial page can be used to search for specific families or groups based on specific criteria. The page is divided into four panels (:ref:`Image 90<image90>`):
+  The Find Family Page is the first step in the process of finding of a family and thereafter accessing the `Family Overview Page <#family-overview>`__ of insurees, policies and contributions. This initial page can be used to search for specific families or groups based on specific criteria. The page is divided into four panels (:numref:`image90`):
 
  #. **Search Panel**
 
@@ -60,7 +62,7 @@ Navigation
 
     * ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:ref:`Image 91<image91>`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image91`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
         - At anytime during the use of the pop-up, the user can see the date of **today**.
         - Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
@@ -85,7 +87,7 @@ Navigation
       | |logo24| || |logo25| || |logo26| |
       +----------++----------++----------+
 
-        `Image 91 - Calendar Selector - Search Panel`
+        `Calendar Selector - Search Panel`
 
     * ``Gender``
 
@@ -124,13 +126,13 @@ Navigation
 
     * ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 92<image92>`).
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image92`).
 
       .. _image92:
       .. figure:: /img/user_manual/image73.png
         :align: center
 
-        `Image 92 - Historical records - Result Panel`
+        `Historical records - Result Panel`
 
     * ``Search Button``
 
@@ -142,21 +144,21 @@ Navigation
     .. figure:: /img/user_manual/image74.png
       :align: center
 
-      `Image 93 - Selected record (blue), hovered records (yellow) - Result Panel`
+      `Selected record (blue), hovered records (yellow) - Result Panel`
 
-    The Result Panel displays a list of all families/groups found, matching the selected criteria in the Search Panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 93<image93>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Family Overview Page <#family-overview>`__ for the Family selected or if it is an historical record then the `Change Family Page <#family-group-page>`__, for detailed viewing.
+    The Result Panel displays a list of all families/groups found, matching the selected criteria in the Search Panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image93`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Family Overview Page <#family-overview>`__ for the Family selected or if it is an historical record then the `Change Family Page <#family-group-page>`__, for detailed viewing.
 
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 94<image94>`)
+    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image94`)
 
     .. _image94:
     .. figure:: /img/user_manual/image11.png
       :align: center
 
-      `Image 94 - Page selector- Result Panel`
+      `Page selector- Result Panel`
 
  #. **Button Panel**
 
-    The ``Cancel`` button re-directs to the `Home Page <#image-2.2-home-page>`__.
+    The ``Cancel`` button re-directs to the :ref:`Home Page <home_page>`.
 
  #. **Information Panel**
 
@@ -208,7 +210,7 @@ Family Overview Page
 
     The Insurees Panel displays a list of the insurees within the family/group.
     The currently selected record is highlighted with light blue, while hovering
-    over records changes the highlight to yellow (:ref:`Image 115<image115>`). The leftmost
+    over records changes the highlight to yellow (:numref:`image115`). The leftmost
     record contains a hyperlink which if clicked, re-directs the user to the
     insuree record for editing or detailed viewing.
 
@@ -216,7 +218,7 @@ Family Overview Page
     .. figure:: /img/user_manual/image89.png
       :align: center
 
-      `Image 115 - Selected record (blue), hovered records (yellow) – Insurees Panel`
+      `Selected record (blue), hovered records (yellow) – Insurees Panel`
 
     In the Insurees Panel, action buttons allow to add, edit and delete insurees belonging to the family/group.
 
@@ -237,13 +239,13 @@ Family Overview Page
 
  #. **Policies Panel**
 
-    The Policies Panel displays a list of the policies held by the family/group. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 117<image117>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the policy for editing or detailed viewing. By default the first policy is selected and therefore in the Contribution Panel, only the contributions paid on that policy will be displayed in the Contribution Panel By selecting another policy in the list, the Contribution Panel, will refresh with the contributions paid on the newly selected policy.
+    The Policies Panel displays a list of the policies held by the family/group. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image117`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the policy for editing or detailed viewing. By default the first policy is selected and therefore in the Contribution Panel, only the contributions paid on that policy will be displayed in the Contribution Panel By selecting another policy in the list, the Contribution Panel, will refresh with the contributions paid on the newly selected policy.
 
     .. _image117:
     .. figure:: /img/user_manual/image91.png
       :align: center
 
-      `Image 117 - Selected record (blue), hovered records (yellow) - Policy Panel`
+      `Selected record (blue), hovered records (yellow) - Policy Panel`
 
     In the fifth **Product** column of Policy data grid, there is a link showing product for the policy on the corresponding row. When the link is clicked; a popup browser window (:ref:image118) will open up showing the details of the product (in read-only mode).
 
@@ -251,7 +253,7 @@ Family Overview Page
     .. figure:: /img/user_manual/image92.png
       :align: center
 
-      `Image 118 - Product Popup – Policies Panel`
+      `Product Popup – Policies Panel`
 
     In the ``Policies Panel``, action buttons allow to add, edit and delete policies.
 
@@ -273,21 +275,21 @@ Family Overview Page
 
  #. **Contributions Panel**
 
-    The ``Contribution Panel`` displays a list of contributions paid on the policy currently selected in the ``Policies Panel``. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 120<image120>`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the contribution for editing or detailed viewing.
+    The ``Contribution Panel`` displays a list of contributions paid on the policy currently selected in the ``Policies Panel``. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image120`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the contribution for editing or detailed viewing.
 
     .. _image120:
     .. figure:: /img/user_manual/image94.png
       :align: center
 
-      `Image 120 - Selected record (blue), hovered records (yellow) - Contributions Panel`
+      `Selected record (blue), hovered records (yellow) - Contributions Panel`
 
-    In the second **Payer** column of Contributions data grid, there is a link showing (institutional) payer of the contribution on the corresponding row. When the link is clicked; a popup browser window (:ref:`Image 121<image121>`) will open up showing the details of the payer in read-only mode.
+    In the second **Payer** column of Contributions data grid, there is a link showing (institutional) payer of the contribution on the corresponding row. When the link is clicked; a popup browser window (:numref:`image121`) will open up showing the details of the payer in read-only mode.
 
     .. _image121:
     .. figure:: /img/user_manual/image95.png
       :align: center
 
-      `Image 121 - Payer Pop up – Contribution Panel`
+      `Payer Pop up – Contribution Panel`
 
     In the ``Contributions Panel``, action buttons allow to add, edit and delete contributions.
 
@@ -305,7 +307,7 @@ Family Overview Page
 
  #. **Button Panel**
 
-    The ``Cancel`` button re-directs to the `Home Page <#image-2.2-home-page>`__.
+    The ``Cancel`` button re-directs to the :ref:`Home Page <home_page>`.
 
  #. **Information Panel**
 
@@ -318,7 +320,7 @@ Family/Group Page
     .. figure:: /img/user_manual/image97.png
       :align: center
 
-      `Image 123 - Family/Group Page`
+      `Family/Group Page`
 
     * ``Region``
 
@@ -338,7 +340,7 @@ Family/Group Page
 
     * ``Poverty Status``
 
-      Select whether the family/group has the poverty status. Mandatory.
+      Select whether the family/group has the poverty status.
 
     * ``Confirmation Type``
 
@@ -379,11 +381,11 @@ Family/Group Page
 
     * ``Marital Status``
 
-      Select from the list of available marital statuses the marital status of the head of family/group. Mandatory.
+      Select from the list of available marital statuses the marital status of the head of family/group.
 
     * ``Beneficiary Card``
 
-      Select from the list of card whether or not an insurance identification card was issued to the head of family/group. Mandatory.
+      Select from the list of card whether or not an insurance identification card was issued to the head of family/group.
 
     * ``Current Region``
 
@@ -479,7 +481,7 @@ Editing a Family/Group
   .. figure:: /img/user_manual/image98.png
     :align: center
 
-    `Image 124 - Change Family/Group Page`
+    `Change Family/Group Page`
 
 Changing a Head of Family/Group
 """""""""""""""""""""""""""""""
@@ -500,12 +502,12 @@ Deleting a Family/Group
 
   Click on the Red Cross Sign button to delete the currently selected record\ .
 
-  Before deleting a confirmation popup (:ref:`Image 125<image125>`) is displayed, which requires the user to confirm if the action should really be carried out? Deleting of a family requires deleting of all its dependants first.
+  Before deleting a confirmation popup (:numref:`image125`) is displayed, which requires the user to confirm if the action should really be carried out? Deleting of a family requires deleting of all its dependants first.
 
   .. _image125:
   .. figure:: /img/user_manual/image24.png
     :align: center
 
-    `Image 125 - Delete confirmation- Button Panel`
+    `Delete confirmation- Button Panel`
 
   When a family is deleted, all records retaining to the deleted family will still be available by selecting historical records.

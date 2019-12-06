@@ -1,3 +1,5 @@
+
+
 Email Settings
 ^^^^^^^^^^^^^^
 
@@ -11,10 +13,10 @@ Navigation
   The functionality for entering of funds can be found under the main menu ``Tools``, sub menu ``Email Settigns``
 
     .. _image276:
-    .. figure:: /img/user_manual/topmenu_tool_email.png
+    .. figure:: /img/user_manual/tool.menu_emails.png
       :align: center
 
-      `Image 276 - Navigation Email Settings`
+      `Navigation Email Settings`
 
   Clicking on the sub menu ``Email Settigns`` re-directs the current user to the `Email settings Page. <#image-277-email-settings-page>`__
 
@@ -27,7 +29,7 @@ Email settings page
     .. figure:: /img/user_manual/email_settings.png
       :align: center
 
-      `Image 277 - Email settings Page`
+      `Email settings Page`
 
     * ``Email``
 

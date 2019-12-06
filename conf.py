@@ -14,13 +14,17 @@
 #
 import os
 import sys
+#import sphinx_numfig
 # sys.path.insert(0, os.path.abspath('.'))
 
+from os.path import abspath, join, dirname
 
+sys.path.insert(0, abspath(join(dirname(__file__))))
 # -- Project information -----------------------------------------------------
 
 project = u'openIMIS'
-copyright = u'2018, openIMIS team'
+subproject= u'User manual'
+copyright = u'2019, openIMIS team'
 author = u'openIMIS team'
 html_logo = 'img/logo.png'
 html_favicon = 'img/favicon.ico'
@@ -29,7 +33,10 @@ version = u''
 # The full version, including alpha/beta/rc tags
 release = u''
 
-
+# -- Numbering figures
+numfig = True
+numfig_format = {'figure': 'Img. %s', 'table': 'Tab. %s', 'code-block': 'Code %s'}
+numfig_secnum_depth = (2)
 # -- General configuration ---------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
@@ -39,8 +46,7 @@ release = u''
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-]
+extensions =['sphinx.ext.intersphinx']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -147,7 +153,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     ('index', 'openIMIS.tex', u'openIMIS installation and user manual',
-     author, 'manual'),
+     author, 'sphinxmanual'),
 ]
 #latex_documents = [
 #    (master_doc, 'openIMIS.tex', u'openIMIS Documentation',
@@ -172,10 +178,34 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'openIMIS', u'openIMIS Documentation',
-     author, 'openIMIS', 'One line description of project.',
+     author, 'openIMIS', 'opneIMIS is a health insurance management solution',
      'Miscellaneous'),
 ]
 
 # Add custom CSS to resize the tables
 def setup(app):
     app.add_stylesheet('css/theme_overrides.css')
+
+#interlink mapping
+# on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+
+# This is used for linking and such so we link to the thing we're building
+rtd_version = os.environ.get('READTHEDOCS_VERSION', 'latest')
+if rtd_version not in ['stable', 'latest']:
+    rtd_version = 'stable'
+intersphinx_mapping = {
+  'user': ('http://openimis.readthedocs.io/en/%s/' % rtd_version, None),
+  'install': ('http://openimis-install.readthedocs.io/en/%s/' % rtd_version, None),
+}
+
+## Local and internalization
+
+#locale_dirs = ['locale/']   # path is example but recommended.
+#gettext_compact = False     # optional.
+
+
+## Gen menu
+import gensidebar
+
+gensidebar.generate_sidebar(globals(), "openIMIS")

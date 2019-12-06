@@ -1,3 +1,5 @@
+
+
 Medical Services Administration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -17,7 +19,7 @@ Navigation
   .. figure:: /img/user_manual/image25.png
     :align: center
 
-    `Image 22 - Navigation Medical Services`
+    `Navigation Medical Services`
 
   Clicking on the sub menu ``Medical Services`` re-directs the current user to the `Medical Services Control Page <#medical-services-control-page>`__\.
 
@@ -25,12 +27,12 @@ Navigation
   .. figure:: /img/user_manual/image26.png
     :align: center
 
-    `Image 23 - Medical Services Control Page`
+    `Medical Services Control Page`
 
 Medical Services Control Page
 """""""""""""""""""""""""""""
 
-  The ``Medical Services Control Page`` is the central point for all medical service administration. By having Access to this panel, it is possible to add, edit, delete and search. The panel is divided into four panels (:ref:`Image 23<image23>`)
+  The ``Medical Services Control Page`` is the central point for all medical service administration. By having Access to this panel, it is possible to add, edit, delete and search. The panel is divided into four panels (:numref:`image23`)
 
  #. **Search Panel**
 
@@ -50,13 +52,13 @@ Medical Services Control Page
 
     * ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image 24<image24>`)
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image24`)
 
       .. _image24:
       .. figure:: /img/user_manual/image27.png
         :align: center
 
-        `Image 24 - Historical records - Result Panel`
+        `Historical records - Result Panel`
 
     * ``Search Button``
 
@@ -64,25 +66,25 @@ Medical Services Control Page
 
  #. **Result Panel**
 
-    The Result Panel displays a list of all medical services found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image 25<image25>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+    The Result Panel displays a list of all medical services found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image25`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
       .. _image25:
       .. figure:: /img/user_manual/image28.png
         :align: center
 
-        `Image 25 - Selected record (blue), hovered records (yellow) - Result Panel`
+        `Selected record (blue), hovered records (yellow) - Result Panel`
 
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image 26<image26>`).
+    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image26`).
 
       .. _image26:
       .. figure:: /img/user_manual/image11.png
         :align: center
 
-        `Image 26 - Page Selector - Result Panel`
+        `Page Selector - Result Panel`
 
  #. **Button Panel**
 
-    With exception of the cancel button, which re-directs to the `Home Page <#image-2.2-home-page>`__, and the ``Add`` button which re-directs to the `Medical Service Page <#medical-service-page>`__, the button panel (the buttons ``End`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
+    With exception of the cancel button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``End`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
 
  #. **Information Panel**
 
@@ -97,7 +99,7 @@ Medical Service Page
     .. figure:: /img/user_manual/image29.png
       :align: center
 
-      `Image 27 - Medical Service Page`
+      `Medical Service Page`
 
     * ``Code``
 
@@ -117,7 +119,7 @@ Medical Service Page
 
     * ``Level``
 
-      Select from the list )Simple Service, Visit, Daz of Staz, Hospital Case), the level for the medical service. Mandatory.
+      Select from the list (Simple Service, Visit, Day of Stay, Hospital Case), the level for the medical service. Mandatory.
 
     * ``Price``
 
@@ -166,12 +168,12 @@ Deleting a Medical Service
 
   Click on the ``Cancel`` button to delete the currently selected record; the user is re-directed the `Medical Services Control Page <#medical-services-control-page>`__\.
 
-  Before deleting a confirmation popup (:ref:`Image 28<image28>`) is displayed, which requires the user to confirm if the action should really be carried out?
+  Before deleting a confirmation popup (:numref:`image28`) is displayed, which requires the user to confirm if the action should really be carried out?
 
   .. _image28:
   .. figure:: /img/user_manual/image24.png
     :align: center
 
-    `Image 28 - Delete confirmation- Button Panel`
+    `Delete confirmation- Button Panel`
 
   When a medical service is deleted, all records retaining to the deleted medical service will still be available by selecting historical records.

@@ -1,3 +1,5 @@
+
+
 Password change
 ^^^^^^^^^^^^^^^
 
@@ -6,13 +8,13 @@ Password change
 Navigation
 """"""""""
 
-  Functionality for changing of a password can be done in the menu ``My Profile``, sub menu ``Change Password``.
+  Functionality for changing of a password can be done in the menu ``Profile``, sub menu ``Change Password``.
 
   .. _image249:
   .. figure:: /img/user_manual/image216.png
     :align: center
 
-    `Image 249 - Navigation Change Password`
+    `Navigation Change Password`
 
   Clicking on the sub menu ``Change Password`` re-directs the current user to the `Change Password Page <#image-7.2-change-password-page>`__.
 
@@ -25,7 +27,7 @@ Change Password Page
     .. figure:: /img/user_manual/image217.png
       :align: center
 
-      `Image 250 - Change Password Page`
+      `Change Password Page`
 
     * ``Current Password``
 
@@ -41,7 +43,7 @@ Change Password Page
 
  #. **Saving**
 
-    Once all mandatory data are entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Home Page <#image-2.2-home-page>`__. A message confirming that the new password has been saved will appear at the bottom.
+    Once all mandatory data are entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the :ref:`Home Page <home_page>`. A message confirming that the new password has been saved will appear at the bottom.
 
  #. **Mandatory data**
 
@@ -49,4 +51,4 @@ Change Password Page
 
  #. **Cancel**
 
-    By clicking on the Cancel button, the user will be re-directed to the `Home Page <#image-2.2-home-page>`__
+    By clicking on the Cancel button, the user will be re-directed to the :ref:`Home Page <home_page>`
