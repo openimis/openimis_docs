@@ -1,6 +1,6 @@
 [![Documentation Status](https://readthedocs.org/projects/openimis/badge/?version=latest)](https://openimis.readthedocs.io/en/latest/?badge=latest)
 
-# openIMIS Documentation v1.4.0
+# openIMIS Documentation
 
 This repository contains all documentation of openIMIS:
 
