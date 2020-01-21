@@ -1,0 +1,102 @@
+msgid ""
+msgstr "" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n" 
+"X-Generator: lokalise.com\n" 
+"Project-Id-Version: openIMIS docs\n" 
+"PO-Revision-Date: 2020-01-09 10:45\n" 
+"Last-Translator: lokalise.com\n" 
+"Language-Team: lokalise.com\n\n" 
+"Language: fr\n"
+
+#, fuzzy
+msgid "Email Settings"
+msgstr "Paramètres de messagerie"
+
+#, fuzzy
+msgid "Access to the ``Email Settigns`` is restricted to the users with the role of Accountant."
+msgstr "L'accès aux ``Email Settigns`` est limité aux utilisateurs ayant le rôle de comptable."
+
+#, fuzzy
+msgid "The ``Email Settigns`` is the page where the setting of the outbound email server are entered."
+msgstr "Le ``Email Settigns`` est la page où les paramètres du serveur de messagerie sortant sont entrés."
+
+#, fuzzy
+msgid "Navigation"
+msgstr "La navigation"
+
+#, fuzzy
+msgid "The functionality for entering of funds can be found under the main menu ``Tools``, sub menu ``Email Settigns``"
+msgstr "La fonctionnalité de saisie des fonds se trouve dans le menu principal ``Outils``, sous-menu ``Email Settigns``"
+
+#, fuzzy
+msgid "`Navigation Email Settings`"
+msgstr "`Paramètres de messagerie de navigation`"
+
+msgid "Clicking on the sub menu ``Email Settigns`` re-directs the current user to the `Email settings Page. <#image-277-email-settings-page>`__"
+msgstr "Un clic sur le sous-menu ``Email Settigns`` redirige l'utilisateur actuel vers la page `` Paramètres de messagerie``. <#image-277-email-settings-page>`__"
+
+#, fuzzy
+msgid "Email settings page"
+msgstr "Page des paramètres de messagerie"
+
+#, fuzzy
+msgid "**Data Entry**"
+msgstr "**La saisie des données**"
+
+#, fuzzy
+msgid "`Email settings Page`"
+msgstr "`Page des paramètres de messagerie électronique`"
+
+#, fuzzy
+msgid "``Email``"
+msgstr "`` Courriel``"
+
+#, fuzzy
+msgid "SMTP Login to be used on the email server in order to send email"
+msgstr "Connexion SMTP à utiliser sur le serveur de messagerie pour envoyer des e-mails"
+
+#, fuzzy
+msgid "``Password``"
+msgstr "``Mot de passe``"
+
+#, fuzzy
+msgid "SMTP password to be used on the email server in order to send email."
+msgstr "Mot de passe SMTP à utiliser sur le serveur de messagerie pour envoyer des e-mails."
+
+#, fuzzy
+msgid "``SMTP Host``"
+msgstr "``Hôte SMTP``"
+
+#, fuzzy
+msgid "SMTP email server address or IP"
+msgstr "Adresse de serveur de messagerie SMTP ou IP"
+
+#, fuzzy
+msgid "``Port``"
+msgstr "``Port``"
+
+#, fuzzy
+msgid "SMTP email server IP port, standard port are"
+msgstr "Le port IP du serveur de messagerie SMTP, le port standard sont"
+
+#, fuzzy
+msgid "25 when no encryption is used"
+msgstr "25 quand aucun cryptage n'est utilisé"
+
+#, fuzzy
+msgid "465 when implicit encryption is used(depreciated)"
+msgstr "465 lorsque le cryptage implicite est utilisé (amorti)"
+
+#, fuzzy
+msgid "587 when explicit encryption is used, see ``Enable SSL``"
+msgstr "587 lorsqu'un cryptage explicite est utilisé, voir ``Activer SSL``"
+
+#, fuzzy
+msgid "``Enable SSL``"
+msgstr "``Activer SSL``"
+
+#, fuzzy
+msgid "Check to box if the SMTP mail server require encryption"
+msgstr "Cochez la case si le serveur de messagerie SMTP nécessite un chiffrement"

@@ -1,0 +1,23 @@
+msgid ""
+msgstr "" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n" 
+"X-Generator: lokalise.com\n" 
+"Project-Id-Version: openIMIS docs\n" 
+"PO-Revision-Date: 2020-01-09 10:45\n" 
+"Last-Translator: lokalise.com\n" 
+"Language-Team: lokalise.com\n\n" 
+"Language: fr\n"
+
+#, fuzzy
+msgid "Group/family, Insurees and Policies"
+msgstr "Groupe / famille, assurés et polices"
+
+#, fuzzy
+msgid "In openIMIS the policies are assigned to group only, if a policy need to be assigned to an individual then a group of one must be created."
+msgstr "Dans openIMIS, les politiques sont affectées au groupe uniquement, si une politique doit être affectée à un individu, alors un groupe doit être créé."
+
+#, fuzzy
+msgid "Because of this approach, the `Family Overview Page <#family-overview-page>`__ is the starting point to manage, insuree (add, edit), policies(add, edit, renew ...) and contribution"
+msgstr "En raison de cette approche, la `page de présentation de la famille <#family-overview-page>`__ est le point de départ pour gérer, assurer (ajouter, modifier), les politiques (ajouter, modifier, renouveler ...) et la contribution"

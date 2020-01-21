@@ -1,0 +1,19 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  6 DEC 2019 09:31
+entering extended mode
+**./_build/latex/openIMIS.tex
+(_build/latex/openIMIS.tex
+LaTeX2e <2019-10-01> patch level 3
+
+! LaTeX Error: File `sphinxmanual.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: sphinxmanual.cls
+
+! LaTeX Error: File `sphinxmanual.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: 

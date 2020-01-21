@@ -1,0 +1,701 @@
+msgid ""
+msgstr "" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n" 
+"X-Generator: lokalise.com\n" 
+"Project-Id-Version: openIMIS docs\n" 
+"PO-Revision-Date: 2020-01-09 10:45\n" 
+"Last-Translator: lokalise.com\n" 
+"Language-Team: lokalise.com\n\n" 
+"Language: fr\n"
+
+#, fuzzy
+msgid "Facts"
+msgstr "Les faits"
+
+msgid "Facts provided by AR-IMIS can be structured into the areas according to (:numref:`image273`). Within each area several facts packed into one or several cubes are provided. Facts are packed into the same cube if they have an associated meaning and are provided with the same set of dimension. The following articles lists available cubes according to the areas, for each cube indicates available facts with description of their meaning"
+msgstr "Des faits fournis par l'AR-IMIS peut être structurée dans les domaines suivant (:numref:`image273`). Au sein de chaque zone de plusieurs faits emballé dans un ou plusieurs cubes sont fournis. Les faits sont emballés dans le même cube s'ils sont associés à un sens et sont fournis avec le même ensemble de dimension. Les articles suivants de la listes des cubes selon les zones, pour chaque cube indique les faits avec la description de leur signification"
+
+#, fuzzy
+msgid "`Areas of facts`"
+msgstr "`Domaines de faits`"
+
+msgid "underlying set of qualifying dimensions. If meaning of a dimension is not straightforward, its description is provided. It relates especially to the *Time* dimension where it is important which datum related with a fact is taken as the governing date for association with given point (period) in the *Time* dimension."
+msgstr "ensemble sous-jacent de qualification dimensions. Si le sens d'une dimension n'est pas simple, sa description est fournie. Elle se rapporte en particulier à la *Fois* dimension où il est important de savoir quelle donnée relative à un fait est considéré comme le conseil de date pour l'association avec point donné (période) dans le *Temps* dimension."
+
+#, fuzzy
+msgid "Facts on Enrolment and policies"
+msgstr "Faits sur l'inscription et les politiques"
+
+#, fuzzy
+msgid "This group of facts relates to acquisition of insures and development of coverage by health insurance schemes. Facts available are listed in :numref:`facts_enrolment_policies`"
+msgstr "Ce groupe de faits concerne l'acquisition des assurés et le développement de la couverture par les régimes d'assurance maladie. Les données disponibles sont répertoriées dans :numref:`facts_enrolment_policies`"
+
+#, fuzzy
+msgid "`Facts on Enrolment and policies`"
+msgstr "`Faits sur l'inscription et les politiques`"
+
+#, fuzzy
+msgid "**Cube**"
+msgstr "**Cube**"
+
+#, fuzzy
+msgid "**Fact**"
+msgstr "**Fait**"
+
+#, fuzzy
+msgid "**Meaning**"
+msgstr "**Sens**"
+
+#, fuzzy
+msgid "**Dimension**"
+msgstr "**Dimension**"
+
+#, fuzzy
+msgid "**Comment**"
+msgstr "**Commentaire**"
+
+#, fuzzy
+msgid "Population"
+msgstr "Population"
+
+#, fuzzy
+msgid "Number of inhabitants"
+msgstr "Nombre d'habitants"
+
+#, fuzzy
+msgid "Gender"
+msgstr "Le sexe"
+
+#, fuzzy
+msgid "Region"
+msgstr "Région"
+
+#, fuzzy
+msgid "Time"
+msgstr "Temps"
+
+#, fuzzy
+msgid "Number of families / groups"
+msgstr "Nombre de familles / groupes"
+
+#, fuzzy
+msgid "Number of households according to a census"
+msgstr "Nombre de ménages selon un recensement"
+
+#, fuzzy
+msgid "Current and new insurees"
+msgstr "Assurés actuels et nouveaux"
+
+#, fuzzy
+msgid "Current insurees"
+msgstr "Assurés actuels"
+
+#, fuzzy
+msgid "Insurees covered by at least one policy active at the end of a time period"
+msgstr "Assurés couverts par au moins une police active à la fin d'une période"
+
+#, fuzzy
+msgid "Age"
+msgstr "Âge"
+
+#, fuzzy
+msgid "Age at the end of a time period"
+msgstr "Âge à la fin d'une période"
+
+#, fuzzy
+msgid "Enrolment Officers"
+msgstr "Agents d'inscription"
+
+#, fuzzy
+msgid "An enrolment officer responsible for corresponding policy"
+msgstr "Un agent d'inscription responsable de la politique correspondante"
+
+#, fuzzy
+msgid "New acquired insurees"
+msgstr "Nouveaux assurés acquis"
+
+#, fuzzy
+msgid "Insurees newly insured during a time period"
+msgstr "Assurés nouvellement assurés pendant une période de temps"
+
+#, fuzzy
+msgid "Place of living of a household"
+msgstr "Lieu de vie d'un ménage"
+
+#, fuzzy
+msgid "Products"
+msgstr "Des produits"
+
+#, fuzzy
+msgid "An insurance product covering an insuree"
+msgstr "Un produit d'assurance couvrant un assuré"
+
+#, fuzzy
+msgid "Period of enrolment of insurees for new insurees Period of effective day and later of their policies for current insurees"
+msgstr "Période d'inscription des assurés pour les nouveaux assurés Période du jour de prise d'effet et plus tard de leurs polices pour les assurés actuels"
+
+#, fuzzy
+msgid "All types of policies"
+msgstr "Tous les types de politiques"
+
+#, fuzzy
+msgid "Current policies"
+msgstr "Politiques actuelles"
+
+#, fuzzy
+msgid "Number of active policies at the end of a time period"
+msgstr "Nombre de politiques actives à la fin d'une période"
+
+#, fuzzy
+msgid "Age of the head of a household at the end of a time period"
+msgstr "Âge du chef de ménage à la fin d'une période"
+
+#, fuzzy
+msgid "Expired policies"
+msgstr "Politiques expirées"
+
+#, fuzzy
+msgid "Number of policies that expired during a time period"
+msgstr "Nombre de stratégies ayant expiré au cours d'une période"
+
+#, fuzzy
+msgid "Gender of the head of a household"
+msgstr "Sexe du chef de ménage"
+
+#, fuzzy
+msgid "Renewed policies"
+msgstr "Politiques renouvelées"
+
+#, fuzzy
+msgid "Number of policies that were renewed during a time period"
+msgstr "Nombre de polices renouvelées au cours d'une période"
+
+#, fuzzy
+msgid "Sold policies"
+msgstr "Politiques vendues"
+
+#, fuzzy
+msgid "Number of policies that were sold during a time period"
+msgstr "Nombre de polices vendues au cours d'une période"
+
+#, fuzzy
+msgid "An insurance product of a policy"
+msgstr "Un produit d'assurance d'une police"
+
+#, fuzzy
+msgid "Period of enrolment date for sold policies Period of expiry date for expired policies Period of renewal date(when renewing was done)  for renewed policies Period of effective day and later for current policies"
+msgstr "Période de date d'adhésion pour les polices vendues Période de date d'expiration pour les polices expirées Période de date de renouvellement (lorsque le renouvellement a été effectué) pour les polices renouvelées"
+
+#, fuzzy
+msgid "Share of insured population"
+msgstr "Part de la population assurée"
+
+#, fuzzy
+msgid "Current insures /  Population at the end of a time period"
+msgstr "Assurances actuelles / Population à la fin d'une période"
+
+#, fuzzy
+msgid "Share of insured families / groups"
+msgstr "Part des familles / groupes assurés"
+
+#, fuzzy
+msgid "Number of insured families / groups"
+msgstr "Nombre de familles / groupes assurés"
+
+#, fuzzy
+msgid "Number of households that are covered by at least one active policy at the end of a time period"
+msgstr "Nombre de ménages couverts par au moins une police active à la fin d'une période"
+
+#, fuzzy
+msgid "=Number of insured households / Number of households at the end of a time period"
+msgstr "= Nombre de ménages assurés / Nombre de ménages à la fin d'une période"
+
+#, fuzzy
+msgid "Facts on collected revenue"
+msgstr "Faits sur les revenus perçus"
+
+#, fuzzy
+msgid "This group of facts relates to revenue of health insurance schemes. Facts available are listed in :numref:`fact_contribution` ."
+msgstr "Ce groupe de faits concerne les revenus des régimes d'assurance maladie. Les faits disponibles sont répertoriés dans :numref:`fact_contribution`."
+
+#, fuzzy
+msgid "`Facts on contributions`"
+msgstr "`Faits sur les contributions`"
+
+#, fuzzy
+msgid "Contribution collection"
+msgstr "Collecte des contributions"
+
+#, fuzzy
+msgid "Contribution collected"
+msgstr "Contribution collectée"
+
+#, fuzzy
+msgid "contributions collected in given time period"
+msgstr "contributions collectées au cours d'une période donnée"
+
+#, fuzzy
+msgid "Collection of contributions from policies of an enrolment officer"
+msgstr "Collecte des contributions des politiques d'un agent d'inscription"
+
+#, fuzzy
+msgid "Payers"
+msgstr "Payeurs"
+
+#, fuzzy
+msgid "Collection of contributions from an institution al payer or from families itself"
+msgstr "Recouvrement des contributions d'un payeur institutionnel ou des familles elles-mêmes"
+
+#, fuzzy
+msgid "Collection of contributions within an insurance product"
+msgstr "Recouvrement des cotisations au sein d'un produit d'assurance"
+
+#, fuzzy
+msgid "Period of payment date of contributions"
+msgstr "Période de paiement date des contributions"
+
+#, fuzzy
+msgid "Contribution allocation"
+msgstr "Répartition des contributions"
+
+#, fuzzy
+msgid "Contribution allocated"
+msgstr "Contribution allouée"
+
+#, fuzzy
+msgid "Amount of collected contributions allocated proportionally for using in a time period"
+msgstr "Montant des contributions collectées réparties proportionnellement pour une utilisation dans une période de temps"
+
+#, fuzzy
+msgid "Allocation of contributions within an insurance product"
+msgstr "Répartition des contributions au sein d'un produit d'assurance"
+
+#, fuzzy
+msgid "Period of allocation of contributions"
+msgstr "Période d'allocation des contributions"
+
+#, fuzzy
+msgid "Facts on claims"
+msgstr "Faits sur les réclamations"
+
+#, fuzzy
+msgid "This group of facts relates to claims forwarded by health care providers to administrators of health insurance schemes. Facts available are listed in :numref:`facts_claims`"
+msgstr "Ce groupe de faits concerne les réclamations transmises par les prestataires de soins de santé aux administrateurs des régimes d'assurance maladie. Les données disponibles sont répertoriées dans :numref:`facts_claims`"
+
+#, fuzzy
+msgid "`Facts on claims`"
+msgstr "`Faits sur les allégations`"
+
+#, fuzzy
+msgid "Claim details"
+msgstr "Détails de la réclamation"
+
+#, fuzzy
+msgid "Amount claimed"
+msgstr "Montant réclamé"
+
+#, fuzzy
+msgid "Total amount in nominal prices that was submitted by health care providers for health care provided in given period"
+msgstr "Montant total en prix nominaux soumis par les prestataires de soins de santé pour les soins fournis au cours d'une période donnée"
+
+#, fuzzy
+msgid "Providers"
+msgstr "Fournisseurs"
+
+#, fuzzy
+msgid "Providers that entered and or submitted claims"
+msgstr "Fournisseurs qui ont introduit et / ou soumis des réclamations"
+
+#, fuzzy
+msgid "Amount rejected"
+msgstr "Montant rejeté"
+
+#, fuzzy
+msgid "Total amount that was on totally rejected claims"
+msgstr "Montant total des réclamations totalement rejetées"
+
+#, fuzzy
+msgid "Time period of provision of health care that was invoiced in claims"
+msgstr "Période de prestation des soins de santé facturée en réclamations"
+
+#, fuzzy
+msgid "Entered claims"
+msgstr "Réclamations saisies"
+
+#, fuzzy
+msgid "Number of claims entered"
+msgstr "Nombre de réclamations saisies"
+
+#, fuzzy
+msgid "Submitted claims"
+msgstr "Réclamations soumises"
+
+#, fuzzy
+msgid "Number of claims submitted"
+msgstr "Nombre de réclamations soumises"
+
+#, fuzzy
+msgid "Rejected claims"
+msgstr "Réclamations rejetées"
+
+#, fuzzy
+msgid "Number of claims totally rejected"
+msgstr "Nombre de demandes totalement rejetées"
+
+#, fuzzy
+msgid "Average amount claimed"
+msgstr "Montant moyen réclamé"
+
+#, fuzzy
+msgid "=Amount claimed / Submitted claims"
+msgstr "= Montant réclamé / Demandes soumises"
+
+#, fuzzy
+msgid "Average amount rejected"
+msgstr "Montant moyen rejeté"
+
+#, fuzzy
+msgid "=Amount rejected / Rejected claims"
+msgstr "= Montant des demandes rejetées / rejetées"
+
+#, fuzzy
+msgid "Claim details products"
+msgstr "Réclamation détails produits"
+
+#, fuzzy
+msgid "Amount adjusted"
+msgstr "Montant ajusté"
+
+#, fuzzy
+msgid "Amount adjusted after processing in nominal prices"
+msgstr "Montant ajusté après traitement aux prix nominaux"
+
+#, fuzzy
+msgid "Providers that submitted claims"
+msgstr "Fournisseurs ayant soumis des réclamations"
+
+#, fuzzy
+msgid "Amount paid"
+msgstr "Le montant payé"
+
+#, fuzzy
+msgid "Amount actually to be paid to health facilities taking into account indexes of relative pricing"
+msgstr "Montant effectivement à payer aux formations sanitaires en tenant compte des indices de tarification relative"
+
+#, fuzzy
+msgid "Products by which health care claimed was covered"
+msgstr "Produits pour lesquels les soins de santé déclarés étaient couverts"
+
+#, fuzzy
+msgid "Processed claims"
+msgstr "Réclamations traitées"
+
+#, fuzzy
+msgid "Number of claims sent for valuation"
+msgstr "Nombre de réclamations envoyées pour évaluation"
+
+#, fuzzy
+msgid "Paid claims"
+msgstr "Créances payées"
+
+#, fuzzy
+msgid "Number of claims actually valuated"
+msgstr "Nombre de réclamations réellement évaluées"
+
+#, fuzzy
+msgid "Average amount adjusted"
+msgstr "Montant moyen ajusté"
+
+#, fuzzy
+msgid "=Amount adjusted / Pr ocessed claims"
+msgstr "= Montant ajusté / réclamations traitées"
+
+#, fuzzy
+msgid "Average amount paid"
+msgstr "Montant moyen payé"
+
+#, fuzzy
+msgid "=Amount paid/ Valuated claims"
+msgstr "= Montant payé / Réclamations évaluées"
+
+#, fuzzy
+msgid "Facts on utilization of health care"
+msgstr "Faits sur l'utilisation des soins de santé"
+
+#, fuzzy
+msgid "This group of facts relates to utilization of health care by insures according to submitted and not rejected claims. Facts available are listed in :numref:`facts-on-of-utilization-health-care`"
+msgstr "Ce groupe de faits concerne l'utilisation des soins de santé par les assurés selon les demandes soumises et non rejetées. Les données disponibles sont répertoriées dans :numref:`facts-on-of-use-health-care`"
+
+#, fuzzy
+msgid "`Facts on of utilization health care`"
+msgstr "`Faits sur l'utilisation des soins de santé`"
+
+#, fuzzy
+msgid "Admissions and visits and hospital days"
+msgstr "Admissions et visites et journées d'hospitalisation"
+
+#, fuzzy
+msgid "Number of hospital admissions"
+msgstr "Nombre d'admissions à l'hôpital"
+
+#, fuzzy
+msgid "Age at the time of provision health care"
+msgstr "Âge au moment de la prestation des soins de santé"
+
+#, fuzzy
+msgid "Disease"
+msgstr "Maladie"
+
+#, fuzzy
+msgid "Number of hospital days"
+msgstr "Nombre de jours d'hospitalisation"
+
+#, fuzzy
+msgid "Care category"
+msgstr "Catégorie de soins"
+
+#, fuzzy
+msgid "Average length of stay"
+msgstr "Durée moyenne de séjour"
+
+#, fuzzy
+msgid "= Number of hospital days / Number of hospital admissions"
+msgstr "= Nombre de jours d'hospitalisation / Nombre d'hospitalisations"
+
+#, fuzzy
+msgid "In case two or more insurance products covered a hospital admission / visit, it is accounted to each of them"
+msgstr "Dans le cas où deux ou plusieurs produits d'assurance couvraient une admission / visite à l'hôpital, ils sont comptabilisés pour chacun d'eux"
+
+#, fuzzy
+msgid "Number of out-patient visits"
+msgstr "Nombre de consultations externes"
+
+#, fuzzy
+msgid "Providers which claimed health care"
+msgstr "Prestataires qui ont réclamé des soins de santé"
+
+#, fuzzy
+msgid "Hospital admissions are associated with time periods according to dates of discharge. Time period of provision of health care"
+msgstr "Les admissions à l'hôpital sont associées à des périodes selon les dates de sortie. Période de prestation des soins de santé"
+
+#, fuzzy
+msgid "Utilization of services"
+msgstr "Utilisation des services"
+
+#, fuzzy
+msgid "Services utilized"
+msgstr "Services utilisés"
+
+#, fuzzy
+msgid "Number of utilized services according to submitted claims."
+msgstr "Nombre de services utilisés selon les réclamations soumises."
+
+#, fuzzy
+msgid "If a service was provided during one visit / hospital stay, the service is counted according to the number of its provision"
+msgstr "Si un service a été fourni pendant une visite / un séjour à l'hôpital, le service est compté en fonction du numéro de sa prestation"
+
+#, fuzzy
+msgid "Care type"
+msgstr "Type de soins"
+
+#, fuzzy
+msgid "Services"
+msgstr "Prestations de service"
+
+#, fuzzy
+msgid "Utilization of medical items"
+msgstr "Utilisation d'articles médicaux"
+
+#, fuzzy
+msgid "Items utilized"
+msgstr "Articles utilisés"
+
+#, fuzzy
+msgid "Number of utilized medical items according to submitted claims"
+msgstr "Nombre d'articles médicaux utilisés selon les demandes soumises"
+
+#, fuzzy
+msgid "If a medical item was provided during one visit / hospital stay, the medical item is counted according to the number of its provision"
+msgstr "Si un article médical a été fourni pendant une visite / un séjour à l'hôpital, l'article médical est compté selon le numéro de sa fourniture"
+
+#, fuzzy
+msgid "Items"
+msgstr "Articles"
+
+#, fuzzy
+msgid "Average utilization of services per insuree"
+msgstr "Utilisation moyenne des services par assuré"
+
+#, fuzzy
+msgid "= Services utilized / Current insurees"
+msgstr "= Services utilisés / Assurés actuels"
+
+#, fuzzy
+msgid "Average utilization of medical items per insuree"
+msgstr "Utilisation moyenne d'articles médicaux par assuré"
+
+#, fuzzy
+msgid "= Items utilized / Current insurees"
+msgstr "= Articles utilisés / Assurés actuels"
+
+#, fuzzy
+msgid "Facts on expenditures for health care"
+msgstr "Faits sur les dépenses de santé"
+
+#, fuzzy
+msgid "This group of facts relates to expenditures for health care actually paid to health care providers. Facts available are listed in :numref:`facts_expenditures_health_care`"
+msgstr "Ce groupe de faits se rapporte aux dépenses de soins de santé réellement payées aux fournisseurs de soins de santé. Les données disponibles sont répertoriées dans :numref:`facts_expenditures_health_care`"
+
+#, fuzzy
+msgid "`Facts on expenditures for health care`"
+msgstr "`Faits sur les dépenses de santé`"
+
+#, fuzzy
+msgid "expenditures for services"
+msgstr "dépenses de services"
+
+#, fuzzy
+msgid "Service expenditures"
+msgstr "Dépenses de service"
+
+#, fuzzy
+msgid "Expenditures for services actually remunerated to health facilities"
+msgstr "Dépenses pour les services réellement rémunérés aux établissements de santé"
+
+#, fuzzy
+msgid "expenditures for medical items"
+msgstr "dépenses pour articles médicaux"
+
+#, fuzzy
+msgid "Item expenditures"
+msgstr "Dépenses d'articles"
+
+#, fuzzy
+msgid "expenditures for medical items actually remunerated to health facilities"
+msgstr "dépenses pour les articles médicaux réellement rémunérés aux établissements de santé"
+
+#, fuzzy
+msgid "Average expenditures for services per insuree"
+msgstr "Dépenses moyennes de services par assuré"
+
+#, fuzzy
+msgid "= Service expenditures/ Current insurees"
+msgstr "= Dépenses de services / Assurés actuels"
+
+#, fuzzy
+msgid "Average expenditures for medical items per insuree"
+msgstr "Dépenses moyennes pour les articles médicaux par assuré"
+
+#, fuzzy
+msgid "= Item expenditures/ Number of inhabitants"
+msgstr "= Dépenses article / Nombre d'habitants"
+
+#, fuzzy
+msgid "Average expenditures for health care per insuree"
+msgstr "Dépenses moyennes de soins de santé par assuré"
+
+#, fuzzy
+msgid "Average expenditures per insuree"
+msgstr "Dépenses moyennes par assuré"
+
+#, fuzzy
+msgid "= Average expenditures of services per insuree + Average expenditures for medical items per insuree"
+msgstr "= Dépenses moyennes de services par assuré + Dépenses moyennes d'articles médicaux par assuré"
+
+#, fuzzy
+msgid "Facts on feedbacks"
+msgstr "Faits sur les rétroactions"
+
+#, fuzzy
+msgid "This group of facts relates to evaluation of request for feedbacks on provided health care that are issued by medical officers during processing of claims. Facts available are listed in :numref:`fact_feedback`"
+msgstr "Ce groupe de faits se rapporte à l'évaluation des demandes de rétroaction sur les soins de santé fournis qui sont émises par les médecins-conseils lors du traitement des demandes. Les faits disponibles sont répertoriés dans :numref:`fact_feedback`"
+
+#, fuzzy
+msgid "`Facts on feedbacks`"
+msgstr "`Faits sur les retours`"
+
+#, fuzzy
+msgid "Feedback details"
+msgstr "Détails des commentaires"
+
+#, fuzzy
+msgid "Feedbacks sent"
+msgstr "Commentaires envoyés"
+
+#, fuzzy
+msgid "Number of requests for feedbacks sent in a time period"
+msgstr "Nombre de demandes de rétroaction envoyées au cours d'une période"
+
+#, fuzzy
+msgid "Insurance products that covered claims initiating requests for feedbacks"
+msgstr "Produits d'assurance couvrant les sinistres initiant des demandes de rétroaction"
+
+#, fuzzy
+msgid "Feedbacks responded"
+msgstr "Les commentaires ont répondu"
+
+#, fuzzy
+msgid "Number of feedbacks received in a time period"
+msgstr "Nombre de commentaires reçus au cours d'une période"
+
+#, fuzzy
+msgid "Providers that submitted claims initiating requests for feedbacks"
+msgstr "Fournisseurs ayant soumis des réclamations à l'origine de demandes de rétroaction"
+
+#, fuzzy
+msgid "Overall assessment"
+msgstr "Évaluation globale"
+
+#, fuzzy
+msgid "Sum of all assessment overall assessment marks in responded feedbacks"
+msgstr "Somme de toutes les notes d'évaluation globale de l'évaluation dans les commentaires"
+
+#, fuzzy
+msgid "Period of sending / rec eiving feedbacks"
+msgstr "Période d'envoi / réception des retours"
+
+#, fuzzy
+msgid "Feedback return share"
+msgstr "Partager retour de rétroaction"
+
+#, fuzzy
+msgid "= Feedbacks responded/ Feedbacks sent"
+msgstr "= Feedbacks répondu / Feedbacks envoyés"
+
+#, fuzzy
+msgid "Average overall assessment"
+msgstr "Évaluation globale moyenne"
+
+#, fuzzy
+msgid "= Overall assessment/ Feedbacks responded"
+msgstr "= Évaluation globale / Feedbacks répondu"
+
+#, fuzzy
+msgid "Feedback answers"
+msgstr "Réponses de rétroaction"
+
+#, fuzzy
+msgid "Answers Yes"
+msgstr "Réponses Oui"
+
+#, fuzzy
+msgid "Count of all Yes answers"
+msgstr "Nombre de réponses Oui"
+
+#, fuzzy
+msgid "Share of Answers Yes"
+msgstr "Part des réponses Oui"
+
+#, fuzzy
+msgid "= Answers Yes/ Feedbacks responded"
+msgstr "= Réponses Oui / Réponses répondues"
+
+#, fuzzy
+msgid "Questions"
+msgstr "Des questions"
+
+#, fuzzy
+msgid "Period of sending / receiving feedbacks"
+msgstr "Période d'envoi / réception des retours"

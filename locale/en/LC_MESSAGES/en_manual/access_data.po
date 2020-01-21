@@ -1,0 +1,68 @@
+msgid ""
+msgstr "" 
+"Project-Id-Version: openIMIS \n" 
+"Report-Msgid-Bugs-To: \n" 
+"POT-Creation-Date: 2019-08-16 15:21+0200\n" 
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n" 
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n" 
+"Language-Team: LANGUAGE <LL@li.org>\n" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "How access data from the Data Warehouse"
+msgstr "How access data from the Data Warehouse"
+
+msgid "Data from the Data Warehouse can be accessed by means of an Excel file. As access to the Data Warehouse is protected, a user has to get from an administrator of AR-MIS URL of the Data Warehouse for remote access, a userid and a password. A userid may allow access to all data in the Data Warehouse or only to a subset of data corresponding to a specific region, to selected regions, to a specific district or to selected districts."
+msgstr "Data from the Data Warehouse can be accessed by means of an Excel file. As access to the Data Warehouse is protected, a user has to get from an administrator of AR-MIS URL of the Data Warehouse for remote access, a userid and a password. A userid may allow access to all data in the Data Warehouse or only to a subset of data corresponding to a specific region, to selected regions, to a specific district or to selected districts."
+
+msgid "The procedure of accessing of data is as follows (:ref:`image274`)"
+msgstr "The procedure of accessing of data is as follows (:ref:`image274`)"
+
+msgid "`Accessing the Data Warehouse`"
+msgstr "`Accessing the Data Warehouse`"
+
+msgid "Open an Excel file"
+msgstr "Open an Excel file"
+
+msgid "Click on the menu item **Data**"
+msgstr "Click on the menu item **Data**"
+
+msgid "Click on the sub-menu **From Other Sources**"
+msgstr "Click on the sub-menu **From Other Sources**"
+
+msgid "Click on the sub-menu **From Analysis Services**"
+msgstr "Click on the sub-menu **From Analysis Services**"
+
+msgid "A dialog box appears for specification of logon data:"
+msgstr "A dialog box appears for specification of logon data:"
+
+msgid "Enter URL of the Data Warehouse into the field **Server Name**"
+msgstr "Enter URL of the Data Warehouse into the field **Server Name**"
+
+msgid "Select the option **Use the following user name and password**"
+msgstr "Select the option **Use the following user name and password**"
+
+msgid "Enter your userid into the field **User Name**"
+msgstr "Enter your userid into the field **User Name**"
+
+msgid "Enter your password into the field **Password**"
+msgstr "Enter your password into the field **Password**"
+
+msgid "Click on **Finish**"
+msgstr "Click on **Finish**"
+
+msgid "A box appears (**Select Database and Tables**) with the list of available cubes. Select one and click on **Finish**"
+msgstr "A box appears (**Select Database and Tables**) with the list of available cubes. Select one and click on **Finish**"
+
+msgid "A box appears (**Save Data Connection File and Finish**).Check the box **Save passport in file** and click on **Finish**."
+msgstr "A box appears (**Save Data Connection File and Finish**).Check the box **Save passport in file** and click on **Finish**."
+
+msgid "A box appears (**Import Data**). Select whether cube should be accessed by a pivot table and / or chart and specify a placement of the pivot table. Click on **OK**."
+msgstr "A box appears (**Import Data**). Select whether cube should be accessed by a pivot table and / or chart and specify a placement of the pivot table. Click on **OK**."
+
+msgid "An area for the pivot table appears in the sheet with the **Pivot Table Field** area on the right (:ref:`image275`). Click on facts to be displayed and click or drag dimensions to appropriate sectors of the pivot table in the **Pivot Table Field** area."
+msgstr "An area for the pivot table appears in the sheet with the **Pivot Table Field** area on the right (:ref:`image275`). Click on facts to be displayed and click or drag dimensions to appropriate sectors of the pivot table in the **Pivot Table Field** area."
+
+msgid "`Pivot Table in Excel`"
+msgstr "`Pivot Table in Excel`"

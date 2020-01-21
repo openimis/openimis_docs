@@ -1,0 +1,300 @@
+msgid ""
+msgstr "" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n" 
+"X-Generator: lokalise.com\n" 
+"Project-Id-Version: openIMIS docs\n" 
+"PO-Revision-Date: 2020-01-09 10:45\n" 
+"Last-Translator: lokalise.com\n" 
+"Language-Team: lokalise.com\n\n" 
+"Language: fr\n"
+
+#, fuzzy
+msgid "Batch Run"
+msgstr "Batch Run"
+
+#, fuzzy
+msgid "Administration of batches of claims is restricted to users with the system role of Accountant or with a role including an access to Claims/Claim/Batch."
+msgstr "L'administration des lots de réclamations est réservée aux utilisateurs ayant le rôle système de comptable ou un rôle incluant un accès aux réclamations / réclamations / lots."
+
+#, fuzzy
+msgid "Pre-conditions"
+msgstr "Conditions préalables"
+
+#, fuzzy
+msgid "A claim has been already processed (:ref:`review_actions`)."
+msgstr "Une réclamation a déjà été traitée (:ref:`review_actions`)."
+
+#, fuzzy
+msgid "Navigation"
+msgstr "La navigation"
+
+#, fuzzy
+msgid "All functionality for use with the administration of processing of batches can be found under the main menu ``Claims``, sub menu ``Batch Run`` (:numref:`batch_run_menu`)."
+msgstr "Toutes les fonctionnalités à utiliser pour l'administration du traitement des lots se trouvent dans le menu principal ``Réclamations``, sous-menu `` Batch Run`` (:numref:`batch_run_menu`)."
+
+#, fuzzy
+msgid "`Navigation Batch Run`"
+msgstr "`Navigation Batch Run`"
+
+#, fuzzy
+msgid "Clicking on the sub menu ``Batch Run`` re-directs the current user to the :ref:`Batch Run Control Page  <batch-run-control-page>`."
+msgstr "Un clic sur le sous-menu `` Batch Run`` redirige l'utilisateur actuel vers :ref:`Batch Run Control Page <batch-run-control-page>`."
+
+#, fuzzy
+msgid "Batch Run Control Page"
+msgstr "Page Contrôle de l'exécution par lots"
+
+#, fuzzy
+msgid "`Batch Run Control Page`"
+msgstr "`Page de contrôle de l'exécution par lots`"
+
+msgid "The Batch Run Control Page is the central point for batch processing administration. Access to the page is restricted to users with the system role of Accountant or with a role including an access to Claims/Claim/Batch. By having access to this page, it is possible to process batches, filter, and filter for accounts. The panel is divided into six sections (:numref:`batch_run_page`)"
+msgstr "Le Lot de Contrôle d'Exécution de la Page est le point central pour le traitement par lots l'administration. L'accès à la page est restreint aux utilisateurs avec le système de rôle de l'expert-Comptable ou à un rôle, y compris un accès aux Demandes/Demande/Lot. En ayant accès à cette page, il est possible de traiter des lots, de filtre et filtre pour les comptes. Le panneau est divisé en six sections (:numref:`batch_run_page`)"
+
+#, fuzzy
+msgid "**Batch Processing Panel**"
+msgstr "** Panneau de traitement par lots **"
+
+#, fuzzy
+msgid "The batch processing panel allows a user to process batches based on the following criteria:"
+msgstr "Le panneau de traitement par lots permet à un utilisateur de traiter des lots en fonction des critères suivants:"
+
+#, fuzzy
+msgid "``Region``"
+msgstr "`` Région``"
+
+msgid "Select the ``Region`` from the list of regions by clicking on the arrow on the right of the selector to select a region. *Note: The list will only be filled with the regions assigned to the current logged in user and the option National*.  The option ``National`` will process all the claim for the period specified in ``Month`` and ``Year``"
+msgstr "Sélectionnez la `Région` de la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner une région. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté et l'option Nationale*. L'option `National` va traiter tous les la demande pour la période spécifiée dans le `Mois` et `Année`"
+
+#, fuzzy
+msgid "``District``"
+msgstr "`` Quartier``"
+
+msgid "Select the ``district`` from the list of districts by clicking on the arrow on the right of the selector to select a district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is the only one then the district will be automatically selected. If no district is selected then the processing is done only for insurance product defined for the selected region.*"
+msgstr "Sélectionnez le `quartier` de la liste des districts, en cliquant sur la flèche à droite du sélecteur pour sélectionner une zone. *Remarque: La liste ne sera rempli avec les districts appartenant à la région sélectionnée et assigné à l'utilisateur connecté. Si c'est le seul alors le quartier sera automatiquement sélectionné. Si aucun district est sélectionnée, alors le traitement est effectué uniquement pour les produits d'assurance définies pour la région sélectionnée.*"
+
+#, fuzzy
+msgid "``Year``"
+msgstr "``Année``"
+
+#, fuzzy
+msgid "Select the ``Year`` from the list of available years by clicking on the arrow on the right of the selector. Only periods for which a batch hasn’t been run yet are offered in both lists."
+msgstr "Sélectionnez l'année dans la liste des années disponibles en cliquant sur la flèche à droite du sélecteur. Seules les périodes pour lesquelles un lot n'a pas encore été exécuté sont proposées dans les deux listes."
+
+#, fuzzy
+msgid "``Month``"
+msgstr "``Mois``"
+
+#, fuzzy
+msgid "Select the ``Month`` from the list of months by clicking on the arrow on the right of the selector."
+msgstr "Sélectionnez le ``Mois`` dans la liste des mois en cliquant sur la flèche à droite du sélecteur."
+
+#, fuzzy
+msgid "The Month at the end of the quarter process the claim for insuree having a product with Quaterly distribution (:ref:`Product Page <product_distribution>`):"
+msgstr "Le Mois à la fin du trimestre traite la réclamation de l'assuré ayant un produit avec distribution Quaterly (:ref:`Product Page <product_distribution>`):"
+
+#, fuzzy
+msgid "March     --> Process the claim for first quatrer"
+msgstr "Mars --> Traiter la demande du premier trimestre"
+
+#, fuzzy
+msgid "June      --> Process the claim for second quatrer"
+msgstr "Juin --> Traiter la demande de deuxième trimestre"
+
+#, fuzzy
+msgid "September --> Process the claim for Third quatrer"
+msgstr "Septembre --> Traiter la demande de troisième trimestre"
+
+#, fuzzy
+msgid "December  --> Process the claim for Fourth quatrer"
+msgstr "Décembre --> Traiter la demande de quatrième trimestre"
+
+#, fuzzy
+msgid "December process the claim for insuree having a product with Yearly distribution (:ref:`Product Page <product_distribution>`)"
+msgstr "Décembre traite la réclamation de l'assuré ayant un produit avec distribution annuelle (:ref:`Product Page <product_distribution>`)"
+
+#, fuzzy
+msgid "``Process``"
+msgstr "``Processus``"
+
+msgid "Once criteria are chosen, clicking on this button (:numref:`batch_run_process`), the claims will be processed based on the selected criteria. If the option ``National`` was used in the field ``Region``, the batch will run only for nationwide insurance products. If a region is selected in the field ``Region`` and no district is selected, the batch will run only for regional insurance products for the selected region. If a district is selected in the field ``District`` the batch is run only for district insurance products for the selected district."
+msgstr "Une fois les critères sont choisis, en cliquant sur ce bouton (:numref:`batch_run_process`), les demandes seront traitées en fonction des critères sélectionnés. Si l'option `National` a été utilisé dans le domaine de la `Région`, le lot sera exécuté uniquement pour les produits d'assurance à l'échelle nationale. Si une région est sélectionnée dans le champ `Région` et pas de quartier est sélectionné, le lot sera exécutée que pour les régionales de produits d'assurance pour la région sélectionnée. Si un quartier est sélectionné dans le champ `District` le lot est exécuté uniquement pour le district de produits d'assurance pour le district."
+
+#, fuzzy
+msgid "`Batch Run Process Button`"
+msgstr "`Bouton de traitement par lots`"
+
+#, fuzzy
+msgid "**Filter Panel for the relative price index per product and period**"
+msgstr "** Panneau de filtre pour l'indice de prix relatif par produit et par période **"
+
+msgid "The filter panel allows a user to filter the of indexes for relative pricing per period, product and zone (results of running of batches). In case the product doesn't have any distribution configured then no relative price index are calculated by running the batch meaning no record will be added to the below list."
+msgstr "Le panneau de filtre permet à l'utilisateur de filtrer les des indices de prix relatifs par période, le produit et la zone (résultats de l'exécution des lots). Dans le cas où le produit n'ait pas de distribution configuré, aucun parent de l'indice des prix sont calculés par l'exécution du lot, pas d'enregistrement sera ajouté à la liste ci-dessous."
+
+#, fuzzy
+msgid "the Relative price indexes can be filtered based on the following criteria:"
+msgstr "les indices de prix relatifs peuvent être filtrés en fonction des critères suivants:"
+
+#, fuzzy
+msgid "``Type``"
+msgstr "``Type``"
+
+#, fuzzy
+msgid "Select the ``Type``; from the list of time group types (**Monthly, Quarterly, Yearly**) by clicking on the arrow on the right of the selector."
+msgstr "Sélectionnez le ``Type``; dans la liste des types de plages horaires (** Mensuel, Trimestriel, Annuel **) en cliquant sur la flèche à droite du sélecteur."
+
+#, fuzzy
+msgid "Select the ``Year``; from the list of available years by clicking on the arrow on the right of the selector."
+msgstr "Sélectionnez ``l'année``; dans la liste des années disponibles en cliquant sur la flèche à droite du sélecteur."
+
+#, fuzzy
+msgid "``Period``"
+msgstr "`` Période``"
+
+#, fuzzy
+msgid "Select the ``Period``; from the list of months/quarters by clicking on the arrow on the right of the selector."
+msgstr "Sélectionnez la ``période``; dans la liste des mois / trimestres en cliquant sur la flèche à droite du sélecteur."
+
+#, fuzzy
+msgid "Select the ``Region``; from the list that appear after typing characters, all region containing the typed text will appear and be selectable underneath the box. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected*"
+msgstr "Sélectionnez la ``Région``; dans la liste qui apparaît après avoir tapé des caractères, toutes les régions contenant le texte tapé apparaîtront et pourront être sélectionnées sous la boîte. * Remarque: La liste ne sera remplie qu'avec les régions affectées à l'utilisateur actuellement connecté. S'il ne s'agit que d'une seule, la région sera automatiquement sélectionnée *"
+
+msgid "Select the ``District``; from the list that appear after typing characters , all district containing the typed text will appear and be selectable underneath the box. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected*"
+msgstr "Sélectionnez le `Quartier`; dans la liste qui apparaît après la saisie de caractères , tous les districts de l'contenant le texte saisi apparaît et être sélectionnable en dessous de la boîte. *Remarque: La liste ne sera rempli avec les districts appartenant à la région sélectionnée et assigné à l'utilisateur connecté. Si ce n'est qu'un, le quartier sera automatiquement sélectionnée*"
+
+#, fuzzy
+msgid "``Product``"
+msgstr "`` Produit``"
+
+#, fuzzy
+msgid "Select the ``Product``; from the list that appear after typing characters , all product containing the typed text will appear and be selectable underneath the box."
+msgstr "Sélectionnez le ``Produit``; Dans la liste qui apparaît après avoir tapé des caractères, tous les produits contenant le texte tapé apparaîtront et pourront être sélectionnés sous la boîte."
+
+#, fuzzy
+msgid "``Category``"
+msgstr "`` Catégorie``"
+
+#, fuzzy
+msgid "Select category of health care (**In-patient/hospital, Out-patient/Non-hospital, All**) from the list of categories of health care by clicking on the arrow on the right of the selector."
+msgstr "Sélectionnez la catégorie de soins de santé (** Hospitalisé / hospitalier, Ambulatoire / Non hospitalier, Tous **) dans la liste des catégories de soins de santé en cliquant sur la flèche à droite du sélecteur."
+
+#, fuzzy
+msgid "``Filter``"
+msgstr "``Filtre``"
+
+#, fuzzy
+msgid "Once criteria are chosen, clicking on this filter button (:numref:`batch_run_filter`) will filter based on the selection criteria."
+msgstr "Une fois les critères choisis, cliquer sur ce bouton de filtre (:numref:`batch_run_filter`) filtrera en fonction des critères de sélection."
+
+#, fuzzy
+msgid "`Batch Run filter Button`"
+msgstr "`Bouton de filtre d'exécution par lots`"
+
+#, fuzzy
+msgid "**Display Panel for the relative price index per product and period**"
+msgstr "** Panneau d'affichage pour l'indice de prix relatif par produit et par période **"
+
+#, fuzzy
+msgid "The Display Panel is used to display results of running of batches after the filter or processing."
+msgstr "Le panneau d'affichage est utilisé pour afficher les résultats de l'exécution des lots après le filtre ou le traitement."
+
+#, fuzzy
+msgid "**Filter for Accounts Panel**"
+msgstr "** Filtre pour le panneau des comptes **"
+
+#, fuzzy
+msgid "The Filter for Accounts Panel is used in filtering of batch protocols for an accounting system based on the following criteria:"
+msgstr "Le panneau Filtre pour les comptes est utilisé pour filtrer les protocoles de traitement par lots pour un système de comptabilité en fonction des critères suivants:"
+
+#, fuzzy
+msgid "``Group By``"
+msgstr "``Grouper par``"
+
+#, fuzzy
+msgid "Select either grouping of the report by health facility (``health facility``) or by product (``Product``)."
+msgstr "Sélectionnez soit le regroupement du rapport par établissement de santé (``établissement de santé``) ou par produit (``Produit``)."
+
+#, fuzzy
+msgid "``Start Date``"
+msgstr "``Date de début``"
+
+#, fuzzy
+msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`) to enter date which is equal or less than claim date. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
+msgstr "Tapez une date; ou utilisez le sélecteur de date (:numref:`cal_picker`) pour saisir une date égale ou inférieure à la date de réclamation. *Remarque. Pour effacer la zone de saisie de la date; utilisez le bouton ``Effacer`` dans la fenêtre contextuelle du sélecteur de date. *"
+
+#, fuzzy
+msgid "``End Date``"
+msgstr "``Date de fin``"
+
+#, fuzzy
+msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`) to enter date which is equal or greater than claim date. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
+msgstr "Tapez une date; ou utilisez le sélecteur de date (:numref:`cal_picker`) pour saisir une date égale ou supérieure à la date de réclamation. *Remarque. Pour effacer la zone de saisie de la date; utilisez le bouton ``Effacer`` dans la fenêtre contextuelle du sélecteur de date. *"
+
+#, fuzzy
+msgid "``Show Claims``"
+msgstr "``Afficher les Réclamations``"
+
+#, fuzzy
+msgid "Check this checkbox, if you need to show all claims in detailed way in the protocol."
+msgstr "Cochez cette case si vous devez afficher toutes les Réclamations de manière détaillée dans le protocole."
+
+#, fuzzy
+msgid "``Health facility``"
+msgstr "``Établissement de santé``"
+
+msgid "Select the ``Health facility``; from the list that appear after typing characters, all Health facility containing the typed text will appear and be selectable underneath the box.*Note: The list will only be filled with the Health facility belonging to the selected region and assigned to the current logged in user. If this is only one then the Health facility will be automatically selected*"
+msgstr "Sélectionnez le `établissement de Santé`; dans la liste qui apparaît après la saisie de caractères, tous les établissements de Santé contenant le texte saisi apparaît et être sélectionnable en dessous de la boîte.*Remarque: La liste ne sera rempli avec de l'établissement de Santé appartenant à la région sélectionnée et assigné à l'utilisateur connecté. Si ce n'est que l'une puis l'établissement de Santé sera automatiquement sélectionnée*"
+
+#, fuzzy
+msgid "``Health facility Level``"
+msgstr "``Niveau établissement de santé``"
+
+#, fuzzy
+msgid "Select a level from the list of levels of health facilities by clicking on the arrow on the right of the selector."
+msgstr "Sélectionnez un niveau dans la liste des niveaux des formations sanitaires en cliquant sur la flèche à droite du sélecteur."
+
+#, fuzzy
+msgid "``Show All``"
+msgstr "``Tout montrer``"
+
+#, fuzzy
+msgid "Check this checkbox, if you need to show all health facilities in the report although they have no claim included."
+msgstr "Cochez cette case si vous devez afficher tous les établissements de santé dans le rapport, bien qu'ils n'aient aucune réclamation incluse."
+
+#, fuzzy
+msgid "``Preview``"
+msgstr "``Aperçu``"
+
+#, fuzzy
+msgid "Once criteria are chosen, clicking on this preview button (:numref:`batch_run_print`) will create a protocol of the selected batch."
+msgstr "Une fois les critères choisis, cliquer sur ce bouton d'aperçu (:numref:`batch_run_print`) créera un protocole du lot sélectionné."
+
+#, fuzzy
+msgid "`Accountant report preview Button`"
+msgstr "`Bouton d'aperçu du rapport comptable`"
+
+#, fuzzy
+msgid "**Button Panel**"
+msgstr "** Panneau de boutons **"
+
+#, fuzzy
+msgid "This panel contains control button."
+msgstr "Ce panneau contient un bouton de commande."
+
+#, fuzzy
+msgid "``Back``"
+msgstr "`` Retour``"
+
+#, fuzzy
+msgid "By clicking on the back button (:numref:`mat_back`), the user will be re-directed to the :ref:`Home Page <home_page>`."
+msgstr "En cliquant sur le bouton de retour (:numref:`mat_back`), l'utilisateur sera redirigé vers :ref:`Home Page <home_page>`."
+
+#, fuzzy
+msgid "**Information Panel**"
+msgstr "** Panneau d'information **"
+
+#, fuzzy
+msgid "The Information Panel is used to display messages back to the user. Messages will occur once a batch has been processed, filtered or if there was an error at any time during the process of these actions."
+msgstr "Le panneau d'informations est utilisé pour afficher les messages à l'utilisateur. Les messages s'afficheront une fois qu'un lot aura été traité, filtré ou s'il y a eu une erreur à tout moment au cours du processus de ces actions."

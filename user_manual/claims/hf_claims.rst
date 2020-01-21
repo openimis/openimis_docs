@@ -151,7 +151,7 @@ Claims Control Page
 
  #. **Actions**
 
-    Modular openIMIS comes with `Material UI <http://https://material-ui.com/>`_ this means that there is a single button (:numref:`actions_btn`) which fonction will change depending on the context (Icon change), for less used functions a tree dots menu is available (:numref:`image_3d_claim_hf`) only when claim(s) are selected. By double-clicking on the claim line, the user is directed to the :ref:`Claim Page  <claim-page>`, where the current selected claim can be edited (provided it in the state **Entered**), this page will open with the current information loaded into the data entry fields. See the :ref:`Claim Page  <claim-page>` for information on the data entry and mandatory fields.
+    Modular openIMIS comes with `Material UI <https://material-ui.com/>`_ this means that there is a single button (:numref:`actions_btn`) which fonction will change depending on the context (Icon change), for less used functions a tree dots menu is available (:numref:`image_3d_claim_hf`) only when claim(s) are selected. By double-clicking on the claim line, the user is directed to the :ref:`Claim Page  <claim-page>`, where the current selected claim can be edited (provided it in the state **Entered**), this page will open with the current information loaded into the data entry fields. See the :ref:`Claim Page  <claim-page>` for information on the data entry and mandatory fields.
 
 
     .. _actions_btn:

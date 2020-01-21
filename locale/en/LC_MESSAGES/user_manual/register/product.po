@@ -1,0 +1,833 @@
+msgid ""
+msgstr "" 
+"Project-Id-Version: openIMIS \n" 
+"Report-Msgid-Bugs-To: \n" 
+"POT-Creation-Date: 2019-08-16 15:21+0200\n" 
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n" 
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n" 
+"Language-Team: LANGUAGE <LL@li.org>\n" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Insurance Products Administration"
+msgstr "Insurance Products Administration"
+
+msgid "The register of insurance products contains all insurance products in the health insurance scheme. There may be several insurance products available for distribution/selling in a territory, e.g. one basic product and one or several supplemental insurance products. The insurance products may at the different levels. For example that basic insurance product may be at the national level whereas the supplemental insurance products may be at the regional level. Administration of the register of insurance products is restricted to users with the system role of Scheme Administrator or with a role including an access to Administratiom/Products."
+msgstr "The register of insurance products contains all insurance products in the health insurance scheme. There may be several insurance products available for distribution/selling in a territory, e.g. one basic product and one or several supplemental insurance products. The insurance products may at the different levels. For example that basic insurance product may be at the national level whereas the supplemental insurance products may be at the regional level. Administration of the register of insurance products is restricted to users with the system role of Scheme Administrator or with a role including an access to Administratiom/Products."
+
+msgid "Pre-conditions"
+msgstr "Pre-conditions"
+
+msgid "An insurance product may only be added or thereafter edited, after the approval of the management of the scheme administration."
+msgstr "An insurance product may only be added or thereafter edited, after the approval of the management of the scheme administration."
+
+msgid "Navigation"
+msgstr "Navigation"
+
+msgid "All functionality for use with the administration of insurance products can be found under the main menu ``Administration``, sub menu ``Products``."
+msgstr "All functionality for use with the administration of insurance products can be found under the main menu ``Administration``, sub menu ``Products``."
+
+msgid "`Navigation Products`"
+msgstr "`Navigation Products`"
+
+msgid "Product Control Page"
+msgstr "Product Control Page"
+
+msgid "Clicking on the sub menu ``Products`` re-directs the current user to the ``Product Control Page``."
+msgstr "Clicking on the sub menu ``Products`` re-directs the current user to the ``Product Control Page``."
+
+msgid "`Product Control Page`"
+msgstr "`Product Control Page`"
+
+msgid "The ``Product Control Page`` is the central point for administration of insurance products. By having access to this page, it is possible to add, edit, duplicate and search. The panel is divided into four panels. (:numref:`image5`)"
+msgstr "The ``Product Control Page`` is the central point for administration of insurance products. By having access to this page, it is possible to add, edit, duplicate and search. The panel is divided into four panels. (:numref:`image5`)"
+
+msgid "**Search Panel**"
+msgstr "**Search Panel**"
+
+msgid "The search panel allows a user to select specific criteria to minimise the search results. In the case of Products the following search options are available, which can be used alone, or in combination with each other."
+msgstr "The search panel allows a user to select specific criteria to minimise the search results. In the case of Products the following search options are available, which can be used alone, or in combination with each other."
+
+msgid "``Product Code``"
+msgstr "``Product Code``"
+
+msgid "Type in the beginning of; or the full ``Product Code``; to search for products with a ``Product Code``, which starts with or matches completely, the typed text."
+msgstr "Type in the beginning of; or the full ``Product Code``; to search for products with a ``Product Code``, which starts with or matches completely, the typed text."
+
+msgid "``Product Name``"
+msgstr "``Product Name``"
+
+msgid "Type in the beginning of; or the full ``Product Name`` to search for products with a ``Product Name``, which starts with or matches completely, the typed text."
+msgstr "Type in the beginning of; or the full ``Product Name`` to search for products with a ``Product Name``, which starts with or matches completely, the typed text."
+
+msgid "``Date From``"
+msgstr "``Date From``"
+
+msgid "Type in a date; or use the Date Selector Button, to search for products with a ``Date From``, which is on or is greater than the date typed/selected. *Note: To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Type in a date; or use the Date Selector Button, to search for products with a ``Date From``, which is on or is greater than the date typed/selected. *Note: To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+
+msgid "``Date To``"
+msgstr "``Date To``"
+
+msgid "Type in a date; or use the Date Selector Button, to search for products with a ``Date To``, which is on or is greater than the date typed/selected. *Note: To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Type in a date; or use the Date Selector Button, to search for products with a ``Date To``, which is on or is greater than the date typed/selected. *Note: To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+
+msgid "``Date Selector Button``"
+msgstr "``Date Selector Button``"
+
+msgid "Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image6`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted."
+msgstr "Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image6`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted."
+
+msgid "Anytime during the use of the pop-up, the user can see the date of today."
+msgstr "Anytime during the use of the pop-up, the user can see the date of today."
+
+msgid "Clicking on today will close the pop-up and display the today’s date in the corresponding date entry box."
+msgstr "Clicking on today will close the pop-up and display the today’s date in the corresponding date entry box."
+
+msgid "Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box."
+msgstr "Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box."
+
+msgid "Clicking on the arrow to the left displays the previous month."
+msgstr "Clicking on the arrow to the left displays the previous month."
+
+msgid "Clicking on the arrow on the right will displays the following month."
+msgstr "Clicking on the arrow on the right will displays the following month."
+
+msgid "Clicking on the month will display all the months for the year."
+msgstr "Clicking on the month will display all the months for the year."
+
+msgid "Clicking on the year will display a year selector."
+msgstr "Clicking on the year will display a year selector."
+
+msgid "|logo1|"
+msgstr "|logo1|"
+
+msgid "|logo2|"
+msgstr "|logo2|"
+
+msgid "`Calendar Selector - Search Panel`"
+msgstr "`Calendar Selector - Search Panel`"
+
+msgid "``Region``"
+msgstr "``Region``"
+
+msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select products from a specific region. The option **National** means that the found insurance products should be common for all regions. `Note: The list will only be filled with the regions assigned to the current logged in user and with the option National. All nationwide products and all regional products relating to the selected region will be found. If no district is selected then also all district products for districts belonging to the selected region will be found.`"
+msgstr "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select products from a specific region. The option **National** means that the found insurance products should be common for all regions. `Note: The list will only be filled with the regions assigned to the current logged in user and with the option National. All nationwide products and all regional products relating to the selected region will be found. If no district is selected then also all district products for districts belonging to the selected region will be found.`"
+
+msgid "``District``"
+msgstr "``District``"
+
+msgid "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select products from a specific district. `Note: The list will be only filled with the districts belonging to the selected region. All nationwide products, all regional products relating to the selected region and all district products for the selected district will be found.`"
+msgstr "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select products from a specific district. `Note: The list will be only filled with the districts belonging to the selected region. All nationwide products, all regional products relating to the selected region and all district products for the selected district will be found.`"
+
+msgid "``Historical``"
+msgstr "``Historical``"
+
+msgid "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image7`)."
+msgstr "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image7`)."
+
+msgid "`Historical records - Result Panel`"
+msgstr "`Historical records - Result Panel`"
+
+msgid "``Search Button``"
+msgstr "``Search Button``"
+
+msgid "Once the criteria have been entered, use the search button to filter the records, the results will appear in the result panel."
+msgstr "Once the criteria have been entered, use the search button to filter the records, the results will appear in the result panel."
+
+msgid "**Result Panel**"
+msgstr "**Result Panel**"
+
+msgid "The result panel displays a list of all products found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image8`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
+msgstr "The result panel displays a list of all products found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image8`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
+
+msgid "`Selected record (blue), hovered records (yellow) - Result Panel`"
+msgstr "`Selected record (blue), hovered records (yellow) - Result Panel`"
+
+msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image9`)."
+msgstr "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image9`)."
+
+msgid "`Page selector - Result Panel`"
+msgstr "`Page selector - Result Panel`"
+
+msgid "**Button Panel**"
+msgstr "**Button Panel**"
+
+msgid "With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, and the Add button which re-directs to the product page, the button panel (the buttons ``Edit`` and ``Duplicate`` ) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button."
+msgstr "With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, and the Add button which re-directs to the product page, the button panel (the buttons ``Edit`` and ``Duplicate`` ) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button."
+
+msgid "**Information Panel**"
+msgstr "**Information Panel**"
+
+msgid "The Information Panel is used to display messages back to the user. Messages will occur once a product has been added, updated or deleted or if there was an error at any time during the process of these actions."
+msgstr "The Information Panel is used to display messages back to the user. Messages will occur once a product has been added, updated or deleted or if there was an error at any time during the process of these actions."
+
+msgid "Product Page"
+msgstr "Product Page"
+
+msgid "**Data Entry**"
+msgstr "**Data Entry**"
+
+msgid "|logo4|"
+msgstr "|logo4|"
+
+msgid "|logo5|"
+msgstr "|logo5|"
+
+msgid "`Product Page`"
+msgstr "`Product Page`"
+
+msgid "**General**"
+msgstr "**General**"
+
+msgid "Enter the product code for the product. Mandatory, 8 characters."
+msgstr "Enter the product code for the product. Mandatory, 8 characters."
+
+msgid "Enter product name for the product. Mandatory, 100 characters maximum."
+msgstr "Enter product name for the product. Mandatory, 100 characters maximum."
+
+msgid "Select the region in which the product will be used, from the list by clicking on the arrow on the right hand side of the lookup. The option National means that the insurance product is nationwide and it is not constraint to a specific region. `Note: The list will only be filled with the regions assigned to the current logged in user and with the option National.` Mandatory."
+msgstr "Select the region in which the product will be used, from the list by clicking on the arrow on the right hand side of the lookup. The option National means that the insurance product is nationwide and it is not constraint to a specific region. `Note: The list will only be filled with the regions assigned to the current logged in user and with the option National.` Mandatory."
+
+msgid "Select the district in which the product will be used, from the list by clicking on the arrow on the right hand side of the lookup. `Note: The list will only be filled with the districts assigned to the selected region and assigned to the current logged in user. If no district is selected then the product is considered to be either nationwide (the option National is selected in the field Region) or regional associated with the selected region.`"
+msgstr "Select the district in which the product will be used, from the list by clicking on the arrow on the right hand side of the lookup. `Note: The list will only be filled with the districts assigned to the selected region and assigned to the current logged in user. If no district is selected then the product is considered to be either nationwide (the option National is selected in the field Region) or regional associated with the selected region.`"
+
+msgid "Type in the date or use the ``Date Selector Button`` to provide the date for which underwriting for the insurance product can be done from. ``Date From`` determines the earliest date from which underwriting can be done. `Note: To clear the date entry box; use the mouse to highlight the full date and then press the space key.` Mandatory."
+msgstr "Type in the date or use the ``Date Selector Button`` to provide the date for which underwriting for the insurance product can be done from. ``Date From`` determines the earliest date from which underwriting can be done. `Note: To clear the date entry box; use the mouse to highlight the full date and then press the space key.` Mandatory."
+
+msgid "Type in the date or use the Date Selector Button to provide the date until which underwriting can be done to.`Note: To clear the date entry box; use the mouse to highlight the full date and then press the space key.` Mandatory."
+msgstr "Type in the date or use the Date Selector Button to provide the date until which underwriting can be done to.`Note: To clear the date entry box; use the mouse to highlight the full date and then press the space key.` Mandatory."
+
+msgid "Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image11`). By default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted. At anytime during the use of the pop-up, the user can see the date of ``today``."
+msgstr "Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image11`). By default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted. At anytime during the use of the pop-up, the user can see the date of ``today``."
+
+msgid "Clicking on ``today`` will close the pop-up and display the today’s date in the corresponding date entry box."
+msgstr "Clicking on ``today`` will close the pop-up and display the today’s date in the corresponding date entry box."
+
+msgid "|logo6|"
+msgstr "|logo6|"
+
+msgid "|logo7|"
+msgstr "|logo7|"
+
+msgid "|logo8|"
+msgstr "|logo8|"
+
+msgid "``Conversion``"
+msgstr "``Conversion``"
+
+msgid "Select from the list of products, a reference to the product which replaces the current product in case of renewal after the ``Date to``. `Note: Selecting the current product will prevent the record from saving, and cause a message to be displayed in the Information Panel.`"
+msgstr "Select from the list of products, a reference to the product which replaces the current product in case of renewal after the ``Date to``. `Note: Selecting the current product will prevent the record from saving, and cause a message to be displayed in the Information Panel.`"
+
+msgid "**Policy Amount, threshold and ceilings**"
+msgstr "**Policy Amount, threshold and ceilings**"
+
+msgid "``Lump Sum``"
+msgstr "``Lump Sum``"
+
+msgid "Enter the lump sum contribution (an amount paid irrespective of the number of members up to a threshold) to be paid by a household/group for the product. If the lump sum is zero no lump sum is applied irrespective of the threshold members. Decimal up to two digits."
+msgstr "Enter the lump sum contribution (an amount paid irrespective of the number of members up to a threshold) to be paid by a household/group for the product. If the lump sum is zero no lump sum is applied irrespective of the threshold members. Decimal up to two digits."
+
+msgid "``Threshold Members``"
+msgstr "``Threshold Members``"
+
+msgid "Enter the threshold number of members in product for which the lump sum is valid."
+msgstr "Enter the threshold number of members in product for which the lump sum is valid."
+
+msgid "``Number of Members``"
+msgstr "``Number of Members``"
+
+msgid "Enter the maximal number of members of a household/group for the product."
+msgstr "Enter the maximal number of members of a household/group for the product."
+
+msgid "``Contribution Adult``"
+msgstr "``Contribution Adult``"
+
+msgid "Enter the contribution to be paid for each adult (on top of the threshold number of members). Decimal up to two digits."
+msgstr "Enter the contribution to be paid for each adult (on top of the threshold number of members). Decimal up to two digits."
+
+msgid "``Contribution Child``"
+msgstr "``Contribution Child``"
+
+msgid "Enter the contribution to be paid for each child (on top of the threshold number of members). Decimal up to two digits."
+msgstr "Enter the contribution to be paid for each child (on top of the threshold number of members). Decimal up to two digits."
+
+msgid "``Insurance Period``"
+msgstr "``Insurance Period``"
+
+msgid "Enter duration of the period in months, in which a policy with the product will be valid. Mandatory."
+msgstr "Enter duration of the period in months, in which a policy with the product will be valid. Mandatory."
+
+msgid "``Administration Period``"
+msgstr "``Administration Period``"
+
+msgid "Enter duration of the administration period in months. The administration period is added to the enrolment date/renewal date for determination of the policy start date."
+msgstr "Enter duration of the administration period in months. The administration period is added to the enrolment date/renewal date for determination of the policy start date."
+
+msgid "``Max Instalments``"
+msgstr "``Max Instalments``"
+
+msgid "Enter maximal number of instalments in which contributions for a policy may be paid. Mandatory."
+msgstr "Enter maximal number of instalments in which contributions for a policy may be paid. Mandatory."
+
+msgid "``Grace Period Payment``"
+msgstr "``Grace Period Payment``"
+
+msgid "Enter duration of the period in months, in which a policy has a grace period (not fully paid up) before it is suspended. Mandatory, although it is by default and can be left at zero."
+msgstr "Enter duration of the period in months, in which a policy has a grace period (not fully paid up) before it is suspended. Mandatory, although it is by default and can be left at zero."
+
+msgid "``Grace Period Enrolment``"
+msgstr "``Grace Period Enrolment``"
+
+msgid "Enter duration of the period in months after the starting date of a cycle (including this starting date), in which underwriting of a policy will still be associated with this cycle."
+msgstr "Enter duration of the period in months after the starting date of a cycle (including this starting date), in which underwriting of a policy will still be associated with this cycle."
+
+msgid "``Grace Period Renewal``"
+msgstr "``Grace Period Renewal``"
+
+msgid "Enter duration of the period in months after the starting date of a cycle (including this starting date), in which renewing of a policy will still be associated with this cycle."
+msgstr "Enter duration of the period in months after the starting date of a cycle (including this starting date), in which renewing of a policy will still be associated with this cycle."
+
+msgid "``Enrolment Discount percentage``"
+msgstr "``Enrolment Discount percentage``"
+
+msgid "Enter the enrolment discount percentage for the insurance product. The discount percentage is applied on the total contributions calculated for a policy underwritten earlier than ``Enrolment disc. period`` months before the start date of the corresponding cycle."
+msgstr "Enter the enrolment discount percentage for the insurance product. The discount percentage is applied on the total contributions calculated for a policy underwritten earlier than ``Enrolment disc. period`` months before the start date of the corresponding cycle."
+
+msgid "``Enrolment Discount Period``"
+msgstr "``Enrolment Discount Period``"
+
+msgid "Enter the enrolment discount period of the insurance product in months."
+msgstr "Enter the enrolment discount period of the insurance product in months."
+
+msgid "``Renewal Discount Percentage``"
+msgstr "``Renewal Discount Percentage``"
+
+msgid "Enter the renewal discount percentage for the insurance product. The discount percentage is applied on the total contributions calculated for a policy renewed earlier than ``renewal disc. period`` months before the start date of the corresponding cycle."
+msgstr "Enter the renewal discount percentage for the insurance product. The discount percentage is applied on the total contributions calculated for a policy renewed earlier than ``renewal disc. period`` months before the start date of the corresponding cycle."
+
+msgid "``Renewal Discount Period``"
+msgstr "``Renewal Discount Period``"
+
+msgid "Enter the renewal discount period of the insurance product in months."
+msgstr "Enter the renewal discount period of the insurance product in months."
+
+msgid "``Registration Lump Sum``"
+msgstr "``Registration Lump Sum``"
+
+msgid "Enter the lump sum (for a household/group) for registration fee to be paid at the first enrolment of the household/group. Registration fee is not paid for renewals of policies."
+msgstr "Enter the lump sum (for a household/group) for registration fee to be paid at the first enrolment of the household/group. Registration fee is not paid for renewals of policies."
+
+msgid "``Assembly Lump Sum``"
+msgstr "``Assembly Lump Sum``"
+
+msgid "Enter the lump sum (for a household/group) for additional assembly fee to be paid both at the first enrolment and renewals of policies."
+msgstr "Enter the lump sum (for a household/group) for additional assembly fee to be paid both at the first enrolment and renewals of policies."
+
+msgid "``Registration Fee``"
+msgstr "``Registration Fee``"
+
+msgid "Enter the registration fee per member of a household/group. If registration lump sum is non zero, registration fee is not considered. Registration fee is not paid for renewals of policies."
+msgstr "Enter the registration fee per member of a household/group. If registration lump sum is non zero, registration fee is not considered. Registration fee is not paid for renewals of policies."
+
+msgid "``Assembly Fee``"
+msgstr "``Assembly Fee``"
+
+msgid "Enter the assembly fee per member of a household/group. If assembly lump sum is non zero, assembly fee is not considered. Assembly fee is paid both at the first enrolment and renewals of policies."
+msgstr "Enter the assembly fee per member of a household/group. If assembly lump sum is non zero, assembly fee is not considered. Assembly fee is paid both at the first enrolment and renewals of policies."
+
+msgid "**Covered Medical sercices**"
+msgstr "**Covered Medical sercices**"
+
+msgid "Select from the list of available medical services (from the register of Medical Services) the medical services covered within the insurance product, by either clicking on the ``Check All`` box at the top of the list of medical services, or by selectively clicking on the check box to the left of the medical service."
+msgstr "Select from the list of available medical services (from the register of Medical Services) the medical services covered within the insurance product, by either clicking on the ``Check All`` box at the top of the list of medical services, or by selectively clicking on the check box to the left of the medical service."
+
+msgid "``Medical Services Grid``"
+msgstr "``Medical Services Grid``"
+
+msgid "`Medical Services - Product`"
+msgstr "`Medical Services - Product`"
+
+msgid "``Code``"
+msgstr "``Code``"
+
+msgid "Displays the code for the medical service"
+msgstr "Displays the code for the medical service"
+
+msgid "``Name``"
+msgstr "``Name``"
+
+msgid "Displays the name of the medical service"
+msgstr "Displays the name of the medical service"
+
+msgid "``Type``"
+msgstr "``Type``"
+
+msgid "Displays the type of the medical service"
+msgstr "Displays the type of the medical service"
+
+msgid "``Level``"
+msgstr "``Level``"
+
+msgid "Displays the level of the medical service"
+msgstr "Displays the level of the medical service"
+
+msgid "``Limit``"
+msgstr "``Limit``"
+
+msgid "Indicates the type of limitation of coverage for the medical service. This may be adjusted per medical service, select between Co-Insurance [C] and Fixed amount [F]. Co-insurance means coverage of a specific percentage of the price of the medical service by policies of the insurance product. Fixed amount means coverage up the specified limit. C is the default value. Limit O is used for claims having the type of visit Other, Limit R is used for claims having the type of visit Referral and Limit E is used for claims having the type of visit Emergency."
+msgstr "Indicates the type of limitation of coverage for the medical service. This may be adjusted per medical service, select between Co-Insurance [C] and Fixed amount [F]. Co-insurance means coverage of a specific percentage of the price of the medical service by policies of the insurance product. Fixed amount means coverage up the specified limit. C is the default value. Limit O is used for claims having the type of visit Other, Limit R is used for claims having the type of visit Referral and Limit E is used for claims having the type of visit Emergency."
+
+msgid "``Origin``"
+msgstr "``Origin``"
+
+msgid "Indicates where the price for remuneration of the service comes from. This may be adjusted per service, the options are: [P] Price taken from the price list of a claiming health facility, [O] Price taken from a claim and [R] Relative price, the nominal value of which is taken from the price list and the actual value of which is determined backwards according to available funds and volume of claimed services and medical items in a period. [R] is the default value."
+msgstr "Indicates where the price for remuneration of the service comes from. This may be adjusted per service, the options are: [P] Price taken from the price list of a claiming health facility, [O] Price taken from a claim and [R] Relative price, the nominal value of which is taken from the price list and the actual value of which is determined backwards according to available funds and volume of claimed services and medical items in a period. [R] is the default value."
+
+msgid "``Adult``"
+msgstr "``Adult``"
+
+msgid "Indicates the limitation for adults. If the type of limitation is a co-insurance then the value is the percentage of the price covered by policies of the insurance product for adults. If the type of limitation is a fixed limit the value is an amount up to which price of the service is covered for adults by policies of the insurance product. Default is 100%. Adult O is for Other, Adult R is for Referral and Adult E is for Emergency claims according to the type of visit (Visit Type)."
+msgstr "Indicates the limitation for adults. If the type of limitation is a co-insurance then the value is the percentage of the price covered by policies of the insurance product for adults. If the type of limitation is a fixed limit the value is an amount up to which price of the service is covered for adults by policies of the insurance product. Default is 100%. Adult O is for Other, Adult R is for Referral and Adult E is for Emergency claims according to the type of visit (Visit Type)."
+
+msgid "``Child``"
+msgstr "``Child``"
+
+msgid "Indicates the limitation for children. If the type of limitation is a co-insurance then the value is the percentage of the price covered for children by policies of the insurance product. If the type of limitation is a fixed limit the value is an amount up to which price of the service is covered for children by policies of the insurance product. Default is 100%. Child O is for Other, Child R is for Referral and Child E is for Emergency claims according to the type of visit (Visit Type)."
+msgstr "Indicates the limitation for children. If the type of limitation is a co-insurance then the value is the percentage of the price covered for children by policies of the insurance product. If the type of limitation is a fixed limit the value is an amount up to which price of the service is covered for children by policies of the insurance product. Default is 100%. Child O is for Other, Child R is for Referral and Child E is for Emergency claims according to the type of visit (Visit Type)."
+
+msgid "``No Adult``"
+msgstr "``No Adult``"
+
+msgid "It indicates the maximal number of provisions of the medical service during the insurance period for an adult."
+msgstr "It indicates the maximal number of provisions of the medical service during the insurance period for an adult."
+
+msgid "``No Child``"
+msgstr "``No Child``"
+
+msgid "It indicates the maximal number of provisions of the medical service during the insurance period for an child."
+msgstr "It indicates the maximal number of provisions of the medical service during the insurance period for an child."
+
+msgid "``Waiting Period Adult``"
+msgstr "``Waiting Period Adult``"
+
+msgid "Indicates waiting period in months (after the effective date of a policy) for an adult."
+msgstr "Indicates waiting period in months (after the effective date of a policy) for an adult."
+
+msgid "``Waiting Period Child``"
+msgstr "``Waiting Period Child``"
+
+msgid "Indicates waiting period in months (after the effective date of a policy) for a child."
+msgstr "Indicates waiting period in months (after the effective date of a policy) for a child."
+
+msgid "``Ceiling Adult``"
+msgstr "``Ceiling Adult``"
+
+msgid "It indicates whether the medical service is excluded from comparison against ceilings defined in the insurance product for adults. Default is that the medical service is not excluded from comparisons with ceilings. [H] means exclusion only for provision of in-patient care, [N] means exclusion only for out-patient care and [B] means exclusion both for in-patient and out-patient care."
+msgstr "It indicates whether the medical service is excluded from comparison against ceilings defined in the insurance product for adults. Default is that the medical service is not excluded from comparisons with ceilings. [H] means exclusion only for provision of in-patient care, [N] means exclusion only for out-patient care and [B] means exclusion both for in-patient and out-patient care."
+
+msgid "``Ceiling Child``"
+msgstr "``Ceiling Child``"
+
+msgid "It indicates whether the medical service is excluded from comparison against ceilings defined in the insurance product for children. Default is that the medical service is not excluded from comparisons with ceilings. [H] means exclusion only for provision of in-patient care, [N] means exclusion only for out-patient care and [B] means exclusion both for in-patient and out-patient care."
+msgstr "It indicates whether the medical service is excluded from comparison against ceilings defined in the insurance product for children. Default is that the medical service is not excluded from comparisons with ceilings. [H] means exclusion only for provision of in-patient care, [N] means exclusion only for out-patient care and [B] means exclusion both for in-patient and out-patient care."
+
+msgid "Select from the list of available medical items (from the register of Medical Items) the medical items covered within the product; by either clicking on the Check All box at the top of the list of medical items, or by selectively clicking on the check box to the left of the medical item."
+msgstr "Select from the list of available medical items (from the register of Medical Items) the medical items covered within the product; by either clicking on the Check All box at the top of the list of medical items, or by selectively clicking on the check box to the left of the medical item."
+
+msgid "``medical items grid``"
+msgstr "``medical items grid``"
+
+msgid "`Medical Items - Product`"
+msgstr "`Medical Items - Product`"
+
+msgid "Displays the code for the medical item"
+msgstr "Displays the code for the medical item"
+
+msgid "Displays the name of the medical item"
+msgstr "Displays the name of the medical item"
+
+msgid "Displays the type of the medical item"
+msgstr "Displays the type of the medical item"
+
+msgid "``Package``"
+msgstr "``Package``"
+
+msgid "Displays the packaging of the medical Item"
+msgstr "Displays the packaging of the medical Item"
+
+msgid "Indicates the type of limitation of coverage for the medical item. This may be adjusted per medical item, select between Co-Insurance [C] and Fixed amount [F]. Co-insurance means coverage of a specific percentage of the price of the medical item by policies of the insurance product. Fixed amount means coverage up the specified limit. C is the default value. Limit O is used for claims having the type of visit Other, Limit R is used for claims having the type of visit Referral and Limit E is used for claims having the type of visit Emergency."
+msgstr "Indicates the type of limitation of coverage for the medical item. This may be adjusted per medical item, select between Co-Insurance [C] and Fixed amount [F]. Co-insurance means coverage of a specific percentage of the price of the medical item by policies of the insurance product. Fixed amount means coverage up the specified limit. C is the default value. Limit O is used for claims having the type of visit Other, Limit R is used for claims having the type of visit Referral and Limit E is used for claims having the type of visit Emergency."
+
+msgid "It indicates where the price for remuneration of the item, comes from: This may be adjusted per medical item, the options are: [P] Price taken from the price list of a claiming health facility, [O] Price taken from a claim and [R] Relative price, the nominal value of which is taken from the price list and the actual value of which is determined backwards according to available funds and the volume of claimed services and medical items in a period. [R] is the default value."
+msgstr "It indicates where the price for remuneration of the item, comes from: This may be adjusted per medical item, the options are: [P] Price taken from the price list of a claiming health facility, [O] Price taken from a claim and [R] Relative price, the nominal value of which is taken from the price list and the actual value of which is determined backwards according to available funds and the volume of claimed services and medical items in a period. [R] is the default value."
+
+msgid "It indicates the limitation for adults. If the type of limitation is a co-insurance then the value is the percentage of the price covered for adults by policies of the insurance product. If the type of limitation is a fixed limit the value is an amount up to which price of the item is covered for adults by policies of the insurance product. Default is 100%. Adult O is for Other, Adult R is for Referral and Adult E is for Emergency claims according to the type of visit (Visit Type)."
+msgstr "It indicates the limitation for adults. If the type of limitation is a co-insurance then the value is the percentage of the price covered for adults by policies of the insurance product. If the type of limitation is a fixed limit the value is an amount up to which price of the item is covered for adults by policies of the insurance product. Default is 100%. Adult O is for Other, Adult R is for Referral and Adult E is for Emergency claims according to the type of visit (Visit Type)."
+
+msgid "It indicates the limitation for children. If the type of limitation is a co-insurance then the value is the percentage of the price covered for children by policies of the insurance product. If the type of limitation is a fixed limit the value is an amount up to which price of the service is covered for children by policies of the insurance product. Default is 100%. Child O is for Other, Child R is for Referral and Child E is for Emergency claims according to the type of visit (Visit Type)."
+msgstr "It indicates the limitation for children. If the type of limitation is a co-insurance then the value is the percentage of the price covered for children by policies of the insurance product. If the type of limitation is a fixed limit the value is an amount up to which price of the service is covered for children by policies of the insurance product. Default is 100%. Child O is for Other, Child R is for Referral and Child E is for Emergency claims according to the type of visit (Visit Type)."
+
+msgid "It indicates the maximal number of provisions of the medical item during the insurance period for an adult."
+msgstr "It indicates the maximal number of provisions of the medical item during the insurance period for an adult."
+
+msgid "It indicates the maximal number of provisions of the medical item during the insurance period for a child."
+msgstr "It indicates the maximal number of provisions of the medical item during the insurance period for a child."
+
+msgid "It indicates waiting period in months (after the effective date of a policy) for an adult."
+msgstr "It indicates waiting period in months (after the effective date of a policy) for an adult."
+
+msgid "It indicates waiting period in months (after effective date of a policy) for a child."
+msgstr "It indicates waiting period in months (after effective date of a policy) for a child."
+
+msgid "It indicates whether the medical item is excluded from comparison against ceilings defined for adults in the insurance product. The default is that the medical item is not excluded from comparisons with ceilings. [H] means exclusion only for provision of in-patient care, [N] means exclusion only for out-patient care and [B] means exclusion both for in-patient and out-patient care."
+msgstr "It indicates whether the medical item is excluded from comparison against ceilings defined for adults in the insurance product. The default is that the medical item is not excluded from comparisons with ceilings. [H] means exclusion only for provision of in-patient care, [N] means exclusion only for out-patient care and [B] means exclusion both for in-patient and out-patient care."
+
+msgid "It indicates whether the medical item is excluded from comparison against ceilings defined for children in the insurance product. The default is that the medical item is not excluded from comparisons with ceilings. [H] means exclusion only for provision of in-patient care, [N] means exclusion only for out-patient care and [B] means exclusion both for in-patient and out-patient care."
+msgstr "It indicates whether the medical item is excluded from comparison against ceilings defined for children in the insurance product. The default is that the medical item is not excluded from comparisons with ceilings. [H] means exclusion only for provision of in-patient care, [N] means exclusion only for out-patient care and [B] means exclusion both for in-patient and out-patient care."
+
+msgid "``Account Code Remuneration``"
+msgstr "``Account Code Remuneration``"
+
+msgid "Enter the account code of the insurance product used in the accounting software for remuneration of the product. 25 characters maximum."
+msgstr "Enter the account code of the insurance product used in the accounting software for remuneration of the product. 25 characters maximum."
+
+msgid "``Account Code Contribution``"
+msgstr "``Account Code Contribution``"
+
+msgid "Enter the account code of the insurance product used in the accounting software for paid contributions. 25 characters maximum."
+msgstr "Enter the account code of the insurance product used in the accounting software for paid contributions. 25 characters maximum."
+
+msgid "**policy lenght and start**"
+msgstr "**policy lenght and start**"
+
+msgid "``Recurrence``"
+msgstr "``Recurrence``"
+
+msgid "Enter duration of the period in months after which registration fee/lump sum is applied again for a renewal. The period starts with the expiry date of the policy to be renewed."
+msgstr "Enter duration of the period in months after which registration fee/lump sum is applied again for a renewal. The period starts with the expiry date of the policy to be renewed."
+
+msgid "``Start Cycle 1``"
+msgstr "``Start Cycle 1``"
+
+msgid "``Start Cycle 2``"
+msgstr "``Start Cycle 2``"
+
+msgid "``Start Cycle 3``"
+msgstr "``Start Cycle 3``"
+
+msgid "``Start Cycle 4``"
+msgstr "``Start Cycle 4``"
+
+msgid "If one or more starting dates (a day and a month) of a cycle are specified then the insurance product is considered as the insurance product with fixed enrolment dates. In this case, activation of underwritten and renewed policies is accomplished always on fixed dates during a year. Maximum four cycle dates can be specified."
+msgstr "If one or more starting dates (a day and a month) of a cycle are specified then the insurance product is considered as the insurance product with fixed enrolment dates. In this case, activation of underwritten and renewed policies is accomplished always on fixed dates during a year. Maximum four cycle dates can be specified."
+
+msgid "**Deductibles and Ceiling**"
+msgstr "**Deductibles and Ceiling**"
+
+msgid "Specify whether Hospital and Non-Hospital care should be determined according to the type of health facility (select [Hospital]) that provided health care or according to the type of health care (select [In-patient]) acquired from a claim. In the first case all health care provided in hospitals (defined in the field ``HF Level`` in the register of Health Facilities) is accounted for ``Hospital Ceilings/Deductibles`` and for calculation of relative prices for the ``Hospital`` part. It means that if clamed health care was provided out-patient in a hospital, it is considered for calculation of ceilings/deductibles and for calculation of relative prices as hospital care. In the second case only in-patient care (determined from a claim when a patient spent at least one night in a health facility) is accounted for ``Hospital Ceilings/Deductibles`` and for calculation of relative prices for hospital part. Other health care including out-patient care provided in hospitals is accounted for ``Non hospital Ceilings/Deductibles`` and also such health care is used for calculation of relative prices for non-hospital part. Mandatory."
+msgstr "Specify whether Hospital and Non-Hospital care should be determined according to the type of health facility (select [Hospital]) that provided health care or according to the type of health care (select [In-patient]) acquired from a claim. In the first case all health care provided in hospitals (defined in the field ``HF Level`` in the register of Health Facilities) is accounted for ``Hospital Ceilings/Deductibles`` and for calculation of relative prices for the ``Hospital`` part. It means that if clamed health care was provided out-patient in a hospital, it is considered for calculation of ceilings/deductibles and for calculation of relative prices as hospital care. In the second case only in-patient care (determined from a claim when a patient spent at least one night in a health facility) is accounted for ``Hospital Ceilings/Deductibles`` and for calculation of relative prices for hospital part. Other health care including out-patient care provided in hospitals is accounted for ``Non hospital Ceilings/Deductibles`` and also such health care is used for calculation of relative prices for non-hospital part. Mandatory."
+
+msgid "``Treatment``"
+msgstr "``Treatment``"
+
+msgid "Deductibles and Ceilings for treatments may be entered for general care (``Hospitals and Non-hospitals``) or for hospital care (``Hospitals``) only and/or for non-hospital care (``Non-Hospitals``) only. An amount may be set, indicating the value that a patient should cover within his/her own means, before a policy of the insurance product comes into effect (``Deductibles``) or the ceiling (maximum amount covered) within a policy of the insurance product (``Ceilings``) for a treatment (the treatment is identified health care claimed in one claim)"
+msgstr "Deductibles and Ceilings for treatments may be entered for general care (``Hospitals and Non-hospitals``) or for hospital care (``Hospitals``) only and/or for non-hospital care (``Non-Hospitals``) only. An amount may be set, indicating the value that a patient should cover within his/her own means, before a policy of the insurance product comes into effect (``Deductibles``) or the ceiling (maximum amount covered) within a policy of the insurance product (``Ceilings``) for a treatment (the treatment is identified health care claimed in one claim)"
+
+msgid "``Insuree``"
+msgstr "``Insuree``"
+
+msgid "Deductibles and Ceilings for an insuree may be entered for general care (``Hospitals and Non-hospitals``) or for hospital care (Hospitals) only and/or for non-hospital care (``Non-Hospitals``) only. An amount may be set, indicating the value that an insuree should cover within his/her own means, before a policy of the insurance product comes into effect (``Deductibles``) or the ceiling (maximum amount covered) within a policy of the insurance product (``Ceilings``) for an insuree for the whole insurance period."
+msgstr "Deductibles and Ceilings for an insuree may be entered for general care (``Hospitals and Non-hospitals``) or for hospital care (Hospitals) only and/or for non-hospital care (``Non-Hospitals``) only. An amount may be set, indicating the value that an insuree should cover within his/her own means, before a policy of the insurance product comes into effect (``Deductibles``) or the ceiling (maximum amount covered) within a policy of the insurance product (``Ceilings``) for an insuree for the whole insurance period."
+
+msgid "``Policy``"
+msgstr "``Policy``"
+
+msgid "Deductibles and Ceilings for a policy may be entered for general care (``Hospitals and Non-hospitals``) or for hospital care (``Hospitals``) only and/or for non-hospital care (Non-Hospitals) only. An amount may be set, indicating the value that policy holders should cover within their own means, before a policy of the insurance product comes into effect (``Deductibles``) or the ceiling (maximum amount covered) for the policy (all members of a family/group) of the insurance product (``Ceilings``) for the whole insurance period."
+msgstr "Deductibles and Ceilings for a policy may be entered for general care (``Hospitals and Non-hospitals``) or for hospital care (``Hospitals``) only and/or for non-hospital care (Non-Hospitals) only. An amount may be set, indicating the value that policy holders should cover within their own means, before a policy of the insurance product comes into effect (``Deductibles``) or the ceiling (maximum amount covered) for the policy (all members of a family/group) of the insurance product (``Ceilings``) for the whole insurance period."
+
+msgid "``Extra Member Ceiling``"
+msgstr "``Extra Member Ceiling``"
+
+msgid "Additional (extra) ceiling for a policy may be entered for general care (``Hospitals`` and ``Non-hospitals``) or for hospital care (``Hospitals``) only and/or for non-hospital care (``Non-Hospital`` s ) only per a member of a family/group above ``Threshold Members``."
+msgstr "Additional (extra) ceiling for a policy may be entered for general care (``Hospitals`` and ``Non-hospitals``) or for hospital care (``Hospitals``) only and/or for non-hospital care (``Non-Hospital`` s ) only per a member of a family/group above ``Threshold Members``."
+
+msgid "``Maximum Ceiling``"
+msgstr "``Maximum Ceiling``"
+
+msgid "Maximal ceiling for a policy may be entered for general care (``Hospitals`` and ``Non-hospitals``) or for hospital care (``Hospitals``) only and/or for non-hospital care (``Non-Hospitals``) only if extra ceilings are applied for members of a family/group above ``Threshold Members``."
+msgstr "Maximal ceiling for a policy may be entered for general care (``Hospitals`` and ``Non-hospitals``) or for hospital care (``Hospitals``) only and/or for non-hospital care (``Non-Hospitals``) only if extra ceilings are applied for members of a family/group above ``Threshold Members``."
+
+msgid "``Number``"
+msgstr "``Number``"
+
+msgid "Maximal number of covered claims per an insuree during the whole insurance period according to the category of a claim. The options are claims of the category ``Consultations``, ``Surgery``, ``Delivery`` and ``Antenatal care``. Maximal numbers may be also specified for Hospitalizations (in-patient stays) and (out-patient visits) ``Visits``. The claim category is determined as follows:"
+msgstr "Maximal number of covered claims per an insuree during the whole insurance period according to the category of a claim. The options are claims of the category ``Consultations``, ``Surgery``, ``Delivery`` and ``Antenatal care``. Maximal numbers may be also specified for Hospitalizations (in-patient stays) and (out-patient visits) ``Visits``. The claim category is determined as follows:"
+
+msgid "If at least one service of the category *Surgery* is given in the claim it is of category *Surgery*"
+msgstr "If at least one service of the category *Surgery* is given in the claim it is of category *Surgery*"
+
+msgid "otherwise"
+msgstr "otherwise"
+
+msgid "if at least one service of the category *Delivery* is given in the claim it is of category *Delivery*"
+msgstr "if at least one service of the category *Delivery* is given in the claim it is of category *Delivery*"
+
+msgid "if at least one service of the category *Antenatal care* is given in the claim it is of category *Antenatal care*"
+msgstr "if at least one service of the category *Antenatal care* is given in the claim it is of category *Antenatal care*"
+
+msgid "if the claim is a hospital one the claim it is of category *Hospitalization*"
+msgstr "if the claim is a hospital one the claim it is of category *Hospitalization*"
+
+msgid "if at least one service of the category *Consultation* is given in the claim it is of category *Consultation*"
+msgstr "if at least one service of the category *Consultation* is given in the claim it is of category *Consultation*"
+
+msgid "the claim is of the category *Visit*"
+msgstr "the claim is of the category *Visit*"
+
+msgid "``Ceiling``"
+msgstr "``Ceiling``"
+
+msgid "Maximal amount of coverage can be specified for claims according to the category of a claim. The options are claims of the category ``Consultations``, ``Surgery``, ``Delivery``, ``Antenatal care``, Hospitalizations, and ``Visits``. The category of claim is determined according to the procedure described with ``Number``."
+msgstr "Maximal amount of coverage can be specified for claims according to the category of a claim. The options are claims of the category ``Consultations``, ``Surgery``, ``Delivery``, ``Antenatal care``, Hospitalizations, and ``Visits``. The category of claim is determined according to the procedure described with ``Number``."
+
+msgid "`Note. It is possible to specify only one of the following ceilings –per Treatment, per Insuree or per Policy. If ceilings per category of claims are specified together with ceilings per Treatment, per Insuree or per Policy than evaluation of claims may be dependent under special circumstances on the order of claimed medical services/items in a claim.`"
+msgstr "`Note. It is possible to specify only one of the following ceilings –per Treatment, per Insuree or per Policy. If ceilings per category of claims are specified together with ceilings per Treatment, per Insuree or per Policy than evaluation of claims may be dependent under special circumstances on the order of claimed medical services/items in a claim.`"
+
+msgid "**Health fund management**"
+msgstr "**Health fund management**"
+
+msgid "``distribution Period``"
+msgstr "``distribution Period``"
+
+msgid "Distribution periods may be entered for general care (``Hospitals`` and ``Non-hospitals``), or for hospital care (``Hospitals``) only and/or for non-hospital care (``Non-Hospitals``) only. Select from the list (**NONE, Monthly, Quarterly, Yearly**), the period that is to be used for calculation of the actual value of relative prices for the insurance product; by clicking on the arrow on the right. The default value is ‘\\ **NONE**\\ ’ which means that relative prices are not calculated for general health care or for hospital care or non-hospital care within the insurance product. By selecting **Monthly, Quarterly** or **Yearly** will cause a pop-up (:numref:`image14`) with the relative periods (1 period for yearly, 4 for quarterly, 12 for monthly). Percentages should be entered to indicate the distribution over the periods as per the product description. Enter to each field an appropriate percentage of paid contributions for policies of the insurance product allocated proportionally to corresponding calendar period. It means, for example, that in case of the distribution **Monthly** we put in each slot percentage of paid contributions of the insurance product that are allocated to the corresponding month and that is to be used for calculation of relative prices."
+msgstr "Distribution periods may be entered for general care (``Hospitals`` and ``Non-hospitals``), or for hospital care (``Hospitals``) only and/or for non-hospital care (``Non-Hospitals``) only. Select from the list (**NONE, Monthly, Quarterly, Yearly**), the period that is to be used for calculation of the actual value of relative prices for the insurance product; by clicking on the arrow on the right. The default value is ‘\\ **NONE**\\ ’ which means that relative prices are not calculated for general health care or for hospital care or non-hospital care within the insurance product. By selecting **Monthly, Quarterly** or **Yearly** will cause a pop-up (:numref:`image14`) with the relative periods (1 period for yearly, 4 for quarterly, 12 for monthly). Percentages should be entered to indicate the distribution over the periods as per the product description. Enter to each field an appropriate percentage of paid contributions for policies of the insurance product allocated proportionally to corresponding calendar period. It means, for example, that in case of the distribution **Monthly** we put in each slot percentage of paid contributions of the insurance product that are allocated to the corresponding month and that is to be used for calculation of relative prices."
+
+msgid "It is not required to enter a value in each period, zero values are accepted. Once all the percentage values have been entered, click on the button OK to submit the values to the respective grid. Clicking on the button ``Cancel`` will cancel the action closing the popup and cancelling the change in the distribution."
+msgstr "It is not required to enter a value in each period, zero values are accepted. Once all the percentage values have been entered, click on the button OK to submit the values to the respective grid. Clicking on the button ``Cancel`` will cancel the action closing the popup and cancelling the change in the distribution."
+
+msgid "|logo9|"
+msgstr "|logo9|"
+
+msgid "|logo10|"
+msgstr "|logo10|"
+
+msgid "|logo11|"
+msgstr "|logo11|"
+
+msgid "`Distribution Periods (Monthly – Quarterly – Yearly) - Product)`"
+msgstr "`Distribution Periods (Monthly – Quarterly – Yearly) - Product)`"
+
+msgid "**Capitation Payment**"
+msgstr "**Capitation Payment**"
+
+msgid "The section allows definition of parameters of a capitation formula used for remuneration of selected levels of health facilities within the insurance product. The report `Capitation Payment` is used for calculation of the amount of capitation payment for individual health facilities. The parameters of the capitation formula are the following:"
+msgstr "The section allows definition of parameters of a capitation formula used for remuneration of selected levels of health facilities within the insurance product. The report `Capitation Payment` is used for calculation of the amount of capitation payment for individual health facilities. The parameters of the capitation formula are the following:"
+
+msgid "``Level 1``"
+msgstr "``Level 1``"
+
+msgid "The first level of health facilities can be selected that should be included in the calculation of capitation payments. The options are the following levels of a health facility: Dispensary, Health Centre, and Hospital."
+msgstr "The first level of health facilities can be selected that should be included in the calculation of capitation payments. The options are the following levels of a health facility: Dispensary, Health Centre, and Hospital."
+
+msgid "``Sub Level 1``"
+msgstr "``Sub Level 1``"
+
+msgid "The sub-level of the first level of health facilities can be selected that should be included in calculation of capitation payments. If the sub level is not selected, all health facilities of the specified level are included irrespective of their sub-level."
+msgstr "The sub-level of the first level of health facilities can be selected that should be included in calculation of capitation payments. If the sub level is not selected, all health facilities of the specified level are included irrespective of their sub-level."
+
+msgid "``Level 2``"
+msgstr "``Level 2``"
+
+msgid "The second level of health facilities can be selected that should be included in the calculation of capitation payments. The options are the following levels of a health facility: ``Dispensary``, ``Health Centre``, and ``Hospital``."
+msgstr "The second level of health facilities can be selected that should be included in the calculation of capitation payments. The options are the following levels of a health facility: ``Dispensary``, ``Health Centre``, and ``Hospital``."
+
+msgid "``Sub Level 2``"
+msgstr "``Sub Level 2``"
+
+msgid "The sub-level of the second level of health facilities can be selected that should be included in calculation of capitation payments. If the sub level is not selected, all health facilities of the specified level are included irrespective of their sub-level."
+msgstr "The sub-level of the second level of health facilities can be selected that should be included in calculation of capitation payments. If the sub level is not selected, all health facilities of the specified level are included irrespective of their sub-level."
+
+msgid "``Level 3``"
+msgstr "``Level 3``"
+
+msgid "The third level of health facilities can be selected that should be included in the calculation of capitation payments. The options are the following levels of a health facility: ``Dispensary``, ``Health Centre``, and ``Hospital``."
+msgstr "The third level of health facilities can be selected that should be included in the calculation of capitation payments. The options are the following levels of a health facility: ``Dispensary``, ``Health Centre``, and ``Hospital``."
+
+msgid "``Sub Level 3``"
+msgstr "``Sub Level 3``"
+
+msgid "The sub-level of the third level of health facilities can be selected that should be included in calculation of capitation payments. If the sub level is not selected, all health facilities of the specified level are included irrespective of their sub-level."
+msgstr "The sub-level of the third level of health facilities can be selected that should be included in calculation of capitation payments. If the sub level is not selected, all health facilities of the specified level are included irrespective of their sub-level."
+
+msgid "``Level 4``"
+msgstr "``Level 4``"
+
+msgid "The fourth level of health facilities can be selected that should be included in the calculation of capitation payments. The options are the following levels of a health facility: ``Dispensary``, ``Health Centre``, and ``Hospital``."
+msgstr "The fourth level of health facilities can be selected that should be included in the calculation of capitation payments. The options are the following levels of a health facility: ``Dispensary``, ``Health Centre``, and ``Hospital``."
+
+msgid "``Sub Level 4``"
+msgstr "``Sub Level 4``"
+
+msgid "The sub-level of the fourth level of health facilities can be selected that should be included in calculation of capitation payments. If the sub level is not selected, all health facilities of the specified level are included irrespective of their sub-level."
+msgstr "The sub-level of the fourth level of health facilities can be selected that should be included in calculation of capitation payments. If the sub level is not selected, all health facilities of the specified level are included irrespective of their sub-level."
+
+msgid "``Share of Contribution``"
+msgstr "``Share of Contribution``"
+
+msgid "The share of allocated contributions for given insurance product and the period specified for the report Capitation Payment that should be used for calculation of capitation payments for individual health facilities. The amount specified is interpreted as a percentage."
+msgstr "The share of allocated contributions for given insurance product and the period specified for the report Capitation Payment that should be used for calculation of capitation payments for individual health facilities. The amount specified is interpreted as a percentage."
+
+msgid "``Weight of Population``"
+msgstr "``Weight of Population``"
+
+msgid "The weight can be entered that is used for the number of population living in catchments areas of individual health facilities. The amount specified is interpreted as a percentage."
+msgstr "The weight can be entered that is used for the number of population living in catchments areas of individual health facilities. The amount specified is interpreted as a percentage."
+
+msgid "``Weight of Number of Families``"
+msgstr "``Weight of Number of Families``"
+
+msgid "The weight can be entered that is used for the number of families living in catchments areas of individual health facilities. The amount specified is interpreted as a percentage."
+msgstr "The weight can be entered that is used for the number of families living in catchments areas of individual health facilities. The amount specified is interpreted as a percentage."
+
+msgid "``Weight of Insured Population``"
+msgstr "``Weight of Insured Population``"
+
+msgid "The weight can be entered that is used for the number of insured population by given insurance product and living in catchments areas of individual health facilities. The amount specified is interpreted as a percentage."
+msgstr "The weight can be entered that is used for the number of insured population by given insurance product and living in catchments areas of individual health facilities. The amount specified is interpreted as a percentage."
+
+msgid "``Weight of Number of Insured Families``"
+msgstr "``Weight of Number of Insured Families``"
+
+msgid "The weight can be entered that is used for the number of insured families by given insurance product and living in catchments areas of individual health facilities. The amount specified is interpreted as a percentage."
+msgstr "The weight can be entered that is used for the number of insured families by given insurance product and living in catchments areas of individual health facilities. The amount specified is interpreted as a percentage."
+
+msgid "``Weight of Number of Visits``"
+msgstr "``Weight of Number of Visits``"
+
+msgid "The weight can be entered that is used for the number of contacts of insured by given insurance product and living in catchments areas of individual health facilities. The amount specified is interpreted as a percentage."
+msgstr "The weight can be entered that is used for the number of contacts of insured by given insurance product and living in catchments areas of individual health facilities. The amount specified is interpreted as a percentage."
+
+msgid "``Weight of Adjusted Amount``"
+msgstr "``Weight of Adjusted Amount``"
+
+msgid "The weight can be entered that is used for the adjusted amount on claims for insured by given insurance product and living in catchments areas of individual health facilities. The amount specified is interpreted as a percentage."
+msgstr "The weight can be entered that is used for the adjusted amount on claims for insured by given insurance product and living in catchments areas of individual health facilities. The amount specified is interpreted as a percentage."
+
+msgid "*Note. The capitation formula is defined as follows:*"
+msgstr "*Note. The capitation formula is defined as follows:*"
+
+msgid ":math:`\\text{CapitationPayment}_{i} = \\sum_{a}^{\\ }{(\\ \\text{Indicator}_{i}^{a}} \\times \\frac{AllocatedContribution \\times ShareContribution \\times \\text{Share}^{a}}{\\sum_{i}^{\\ }{\\text{In}\\text{dicator}}_{i}^{a}})`"
+msgstr ":math:`\\text{CapitationPayment}_{i} = \\sum_{a}^{\\ }{(\\ \\text{Indicator}_{i}^{a}} \\times \\frac{AllocatedContribution \\times ShareContribution \\times \\text{Share}^{a}}{\\sum_{i}^{\\ }{\\text{In}\\text{dicator}}_{i}^{a}})`"
+
+msgid "*Where*"
+msgstr "*Where*"
+
+msgid ":math:`\\text{CapitationPayment}_{i}` *is the amount of capitation payment for i-th health facility*"
+msgstr ":math:`\\text{CapitationPayment}_{i}` *is the amount of capitation payment for i-th health facility*"
+
+msgid ":math:`\\text{Indicator}_{i}^{a}` *is the value of the indicator of the type a for the i-th health facility.* :math:`\\text{Indicator}_{i}^{a}`"
+msgstr ":math:`\\text{Indicator}_{i}^{a}` *is the value of the indicator of the type a for the i-th health facility.* :math:`\\text{Indicator}_{i}^{a}`"
+
+msgid "*may be:*"
+msgstr "*may be:*"
+
+msgid "*Population living in catchments area of the health facility*"
+msgstr "*Population living in catchments area of the health facility*"
+
+msgid "*Number of families living in catchments area of the health facility*"
+msgstr "*Number of families living in catchments area of the health facility*"
+
+msgid "*Insured population living in catchments area of the health facility*"
+msgstr "*Insured population living in catchments area of the health facility*"
+
+msgid "*Insured number of families living in catchments area of the health facility*"
+msgstr "*Insured number of families living in catchments area of the health facility*"
+
+msgid "*Number of claims (contacts) with the health facility by insured in the catchment area*"
+msgstr "*Number of claims (contacts) with the health facility by insured in the catchment area*"
+
+msgid "*Adjusted amount*\`
+msgstr "*Adjusted amount*\`
+
+msgid ":math:`\\text{AllocatedContribution}` *is the amount of contributions for given insurance product for given period*"
+msgstr ":math:`\\text{AllocatedContribution}` *is the amount of contributions for given insurance product for given period*"
+
+msgid ":math:`\\text{ShareContribution}` *is the formula parameter Share of contribution*"
+msgstr ":math:`\\text{ShareContribution}` *is the formula parameter Share of contribution*"
+
+msgid ":math:`\\text{Share}^{a}` *is the weight of the indicator of the type a .*"
+msgstr ":math:`\\text{Share}^{a}` *is the weight of the indicator of the type a .*"
+
+msgid ":math:`\\text{Share}^{a}` *may be:*"
+msgstr ":math:`\\text{Share}^{a}` *may be:*"
+
+msgid "*Weight of Population*"
+msgstr "*Weight of Population*"
+
+msgid "*Weight of Number of Families*"
+msgstr "*Weight of Number of Families*"
+
+msgid "*Weight of Insured Population*"
+msgstr "*Weight of Insured Population*"
+
+msgid "*Weight of Number of Insured Families*"
+msgstr "*Weight of Number of Insured Families*"
+
+msgid "*Weight of Number of Visits*"
+msgstr "*Weight of Number of Visits*"
+
+msgid "*Weight of Adjusted Amount*"
+msgstr "*Weight of Adjusted Amount*"
+
+msgid "**Saving**"
+msgstr "**Saving**"
+
+msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Product Control Page <#product-control-page>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the product has been saved will appear on the Information Panel."
+msgstr "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Product Control Page <#product-control-page>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the product has been saved will appear on the Information Panel."
+
+msgid "**Mandatory data**"
+msgstr "**Mandatory data**"
+
+msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk on the right of the corresponding data field)."
+msgstr "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk on the right of the corresponding data field)."
+
+msgid "**Cancel**"
+msgstr "**Cancel**"
+
+msgid "By clicking on the ``Cancel`` button, the user will be re-directed to the `Product Control Page <#product-control-page>`__."
+msgstr "By clicking on the ``Cancel`` button, the user will be re-directed to the `Product Control Page <#product-control-page>`__."
+
+msgid "Adding a Product"
+msgstr "Adding a Product"
+
+msgid "Click on the ``Add`` button to re-direct to the `Product Page <#claim-administrators-administration>`__\\ ."
+msgstr "Click on the ``Add`` button to re-direct to the `Product Page <#claim-administrators-administration>`__\\ ."
+
+msgid "When the page opens all entry fields are empty. See the `Product Page <#claim-administrators-administration>`__ information on the data entry and mandatory fields."
+msgstr "When the page opens all entry fields are empty. See the `Product Page <#claim-administrators-administration>`__ information on the data entry and mandatory fields."
+
+msgid "Editing a Product"
+msgstr "Editing a Product"
+
+msgid "Click on the ``Edit`` button to re-direct to the `ProductPage <#claim-administrators-administration>`__\\ ."
+msgstr "Click on the ``Edit`` button to re-direct to the `ProductPage <#claim-administrators-administration>`__\\ ."
+
+msgid "The page will open with the current information loaded into the data entry fields. See the `Product Page <#claim-administrators-administration>`__ for information on the data entry and mandatory fields"
+msgstr "The page will open with the current information loaded into the data entry fields. See the `Product Page <#claim-administrators-administration>`__ for information on the data entry and mandatory fields"
+
+msgid "Duplicating a Product"
+msgstr "Duplicating a Product"
+
+msgid "Click on the ``Duplicate`` button to re-direct to the `Product Page <#claim-administrators-administration>`__\\ ."
+msgstr "Click on the ``Duplicate`` button to re-direct to the `Product Page <#claim-administrators-administration>`__\\ ."
+
+msgid "The page will open with all the current information for the selected product, (except for the product code which should be unique), loaded into the data entry fields. See the `Product Page <#claim-administrators-administration>`__ for information on the data entry and mandatory fields. To save the record, enter a unique code before clicking on ``Save``."
+msgstr "The page will open with all the current information for the selected product, (except for the product code which should be unique), loaded into the data entry fields. See the `Product Page <#claim-administrators-administration>`__ for information on the data entry and mandatory fields. To save the record, enter a unique code before clicking on ``Save``."
+
+msgid "Deleting a Product"
+msgstr "Deleting a Product"
+
+msgid "Because of potential problems with synchronization of data between off-line and on-line version, it is not possible delete insurance products currently."
+msgstr "Because of potential problems with synchronization of data between off-line and on-line version, it is not possible delete insurance products currently."

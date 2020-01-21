@@ -1,0 +1,437 @@
+msgid ""
+msgstr "" 
+"Project-Id-Version: openIMIS \n" 
+"Report-Msgid-Bugs-To: \n" 
+"POT-Creation-Date: 2019-08-16 15:21+0200\n" 
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n" 
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n" 
+"Language-Team: LANGUAGE <LL@li.org>\n" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Heath Facility Claims"
+msgstr "Heath Facility Claims"
+
+msgid "Access to the ``Health Facility Claims Page`` is restricted to users with the role of Claim Administrator."
+msgstr "Access to the ``Health Facility Claims Page`` is restricted to users with the role of Claim Administrator."
+
+msgid "Pre-conditions"
+msgstr "Pre-conditions"
+
+msgid "Navigation"
+msgstr "Navigation"
+
+msgid "All functionality for use with the administration of health facility claims can be found under the main menu ``Claims``, sub menu ``Health Facility Claims``."
+msgstr "All functionality for use with the administration of health facility claims can be found under the main menu ``Claims``, sub menu ``Health Facility Claims``."
+
+msgid "`Image - Navigation Health Facility Claims`"
+msgstr "`Image - Navigation Health Facility Claims`"
+
+msgid "Clicking on the sub menu ``Health Facility Claims`` re-directs the current user to the :ref:`Claims Control Page  <health_facility_claims>`."
+msgstr "Clicking on the sub menu ``Health Facility Claims`` re-directs the current user to the :ref:`Claims Control Page  <health_facility_claims>`."
+
+msgid "Claims Control Page"
+msgstr "Claims Control Page"
+
+msgid "`Image - Claims Control Page`"
+msgstr "`Image - Claims Control Page`"
+
+msgid "The Claims Control Page is the central point for all health facility claim administration. By having access to this panel, it is possible to add, edit and search claims. Claims can be edited only in the state **Entered**. The panel is divided into four panels (:numref:`claims_control_img`)."
+msgstr "The Claims Control Page is the central point for all health facility claim administration. By having access to this panel, it is possible to add, edit and search claims. Claims can be edited only in the state **Entered**. The panel is divided into four panels (:numref:`claims_control_img`)."
+
+msgid "**Search Panel**"
+msgstr "**Search Panel**"
+
+msgid "The search panel allows a user to select specific criteria to minimise the search results. In the case of claims the following search options are available which can be used alone or in combination with each other."
+msgstr "The search panel allows a user to select specific criteria to minimise the search results. In the case of claims the following search options are available which can be used alone or in combination with each other."
+
+msgid "``Region``"
+msgstr "``Region``"
+
+msgid "Select the ``Region``; where claiming or searched for health facility is located from the list of regions by clicking on the arrow on the right of the selector to select claims from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected*"
+msgstr "Select the ``Region``; where claiming or searched for health facility is located from the list of regions by clicking on the arrow on the right of the selector to select claims from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected*"
+
+msgid "``District``"
+msgstr "``District``"
+
+msgid "Select the ``district``; where claiming or searched for health facility is located from the list of districts by clicking on the arrow on the right of the selector to select claims from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*"
+msgstr "Select the ``district``; where claiming or searched for health facility is located from the list of districts by clicking on the arrow on the right of the selector to select claims from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*"
+
+msgid "``HF Code``"
+msgstr "``HF Code``"
+
+msgid "Select the ``HF Code`` (Health Facility Code) from the list of codes of health facilities by clicking on the arrow on the right of the selector, to select claims from a specific health facility. *Note: The list will only be filled with the health facilities belonging to the selected district and assigned to the current logged in user.*"
+msgstr "Select the ``HF Code`` (Health Facility Code) from the list of codes of health facilities by clicking on the arrow on the right of the selector, to select claims from a specific health facility. *Note: The list will only be filled with the health facilities belonging to the selected district and assigned to the current logged in user.*"
+
+msgid "``HF Name``"
+msgstr "``HF Name``"
+
+msgid "Type in the beginning of; or the full ``HF Name`` (Health Facility Name) to search for claims belonging to the health facility whose name start with or match completely the typed text."
+msgstr "Type in the beginning of; or the full ``HF Name`` (Health Facility Name) to search for claims belonging to the health facility whose name start with or match completely the typed text."
+
+msgid "``Claim Administrator``"
+msgstr "``Claim Administrator``"
+
+msgid "Select the ``Claim Administrator`` from the list of claim administrators by clicking on the arrow on the right of the selector, to select claims submitted by a specific claim administrator. *Note: The list will only be filled with the claim administrators belonging to the health facility selected.*"
+msgstr "Select the ``Claim Administrator`` from the list of claim administrators by clicking on the arrow on the right of the selector, to select claims submitted by a specific claim administrator. *Note: The list will only be filled with the claim administrators belonging to the health facility selected.*"
+
+msgid "``Visit Type``"
+msgstr "``Visit Type``"
+
+msgid "Select the ``Visit Type`` from the list of visit types (or hospital stays) by clicking on the arrow on the right of the selector, to select claims with specified visit type."
+msgstr "Select the ``Visit Type`` from the list of visit types (or hospital stays) by clicking on the arrow on the right of the selector, to select claims with specified visit type."
+
+msgid "``Insurance Number``"
+msgstr "``Insurance Number``"
+
+msgid "Type in the beginning of; or the full ``Insurance Number``, to search for claims, on behalf of insurees with the insurance number which starts with or match completely the typed text."
+msgstr "Type in the beginning of; or the full ``Insurance Number``, to search for claims, on behalf of insurees with the insurance number which starts with or match completely the typed text."
+
+msgid "``Claim No.``"
+msgstr "``Claim No.``"
+
+msgid "Type in the beginning of; or the full ``Claim No.``, to search for claims with the specific claim identification which starts with or match completely the typed text."
+msgstr "Type in the beginning of; or the full ``Claim No.``, to search for claims with the specific claim identification which starts with or match completely the typed text."
+
+msgid "``Review Status``"
+msgstr "``Review Status``"
+
+msgid "Select the ``Review Status`` from the list of options for review status by clicking on the arrow on the right of the selector, to select claims with specific review status."
+msgstr "Select the ``Review Status`` from the list of options for review status by clicking on the arrow on the right of the selector, to select claims with specific review status."
+
+msgid "``Feedback Status``"
+msgstr "``Feedback Status``"
+
+msgid "Select the ``Feedback Status`` from the list of options for feedback status by clicking on the arrow on the right of the selector, to select claims with specific feedback status."
+msgstr "Select the ``Feedback Status`` from the list of options for feedback status by clicking on the arrow on the right of the selector, to select claims with specific feedback status."
+
+msgid "``Claim Status``"
+msgstr "``Claim Status``"
+
+msgid "Select the ``Claim Status`` from the list of options for claim status by clicking on the arrow on the right of the selector, to select claims with specific claim status."
+msgstr "Select the ``Claim Status`` from the list of options for claim status by clicking on the arrow on the right of the selector, to select claims with specific claim status."
+
+msgid "``Main Dg.``"
+msgstr "``Main Dg.``"
+
+msgid "Select the ``Main Dg.`` from the list of diagnoses status by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box, to select claims with main diagnosis."
+msgstr "Select the ``Main Dg.`` from the list of diagnoses status by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box, to select claims with main diagnosis."
+
+msgid "``Batch Run``"
+msgstr "``Batch Run``"
+
+msgid "Select the ``batch run`` from the list of batch runs by clicking on the arrow on the right of the selector, to select claims from specific batch run"
+msgstr "Select the ``batch run`` from the list of batch runs by clicking on the arrow on the right of the selector, to select claims from specific batch run"
+
+msgid "``Visit Date From``"
+msgstr "``Visit Date From``"
+
+msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date From`` date which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.* ``Visit Date From`` should be the day of admission for in-patient care or the visit date in case of out-patient care."
+msgstr "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date From`` date which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.* ``Visit Date From`` should be the day of admission for in-patient care or the visit date in case of out-patient care."
+
+msgid "``Visit Date To``"
+msgstr "``Visit Date To``"
+
+msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date From`` date which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.* ``Visit Date To`` should be the day of discharge for in-patient care or the visit date in case of out-patient care."
+msgstr "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date From`` date which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.* ``Visit Date To`` should be the day of discharge for in-patient care or the visit date in case of out-patient care."
+
+msgid "``Claim Date From``"
+msgstr "``Claim Date From``"
+
+msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date`` date which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
+msgstr "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date`` date which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
+
+msgid "``Claim Date To``"
+msgstr "``Claim Date To``"
+
+msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date`` date which is on or is less than the date typed/selected. Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date`` date which is on or is less than the date typed/selected. Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+
+msgid "Date Picker"
+msgstr "Date Picker"
+
+msgid "`Day picker`"
+msgstr "`Day picker`"
+
+msgid "`Month picker`"
+msgstr "`Month picker`"
+
+msgid "`Year picker`"
+msgstr "`Year picker`"
+
+msgid "At anytime during the use of the pop-up, the user can see the date of **today**. Clicking on a day will close the pop-up and display the date"
+msgstr "At anytime during the use of the pop-up, the user can see the date of **today**. Clicking on a day will close the pop-up and display the date"
+
+msgid "Clicking on the arrow to the left displays the previous month. Clicking on the arrow on the right will displays the following month."
+msgstr "Clicking on the arrow to the left displays the previous month. Clicking on the arrow on the right will displays the following month."
+
+msgid "Clicking on the year will display a year selector."
+msgstr "Clicking on the year will display a year selector."
+
+msgid "``Search Button``"
+msgstr "``Search Button``"
+
+msgid "Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel."
+msgstr "Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel."
+
+msgid "**Result Panel**"
+msgstr "**Result Panel**"
+
+msgid "The Result Panel displays a list of all claims found, matching the selected criteria in the search panel. The currently selected record is highlighted with light grey. (:numref:`image139`). Double click on the line re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
+msgstr "The Result Panel displays a list of all claims found, matching the selected criteria in the search panel. The currently selected record is highlighted with light grey. (:numref:`image139`). Double click on the line re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
+
+msgid "`Selected record (grey) - Result Panel`"
+msgstr "`Selected record (grey) - Result Panel`"
+
+msgid "A maximum of 10 records can be displayed per default but it can be changed by configuration (`gitHub <https://github.com/openimis/openimis-fe-claim_js>`_), in a scroll panel. Further records can be viewed by either changing the page or deleting/submitting the current loaded claims and search claims again."
+msgstr "A maximum of 10 records can be displayed per default but it can be changed by configuration (`gitHub <https://github.com/openimis/openimis-fe-claim_js>`_), in a scroll panel. Further records can be viewed by either changing the page or deleting/submitting the current loaded claims and search claims again."
+
+msgid "**Actions**"
+msgstr "**Actions**"
+
+msgid "Modular openIMIS comes with `Material UI <http://https://material-ui.com/>`_ this means that there is a single button (:numref:`actions_btn`) which fonction will change depending on the context (Icon change), for less used functions a tree dots menu is available (:numref:`image_3d_claim_hf`) only when claim(s) are selected. By double-clicking on the claim line, the user is directed to the :ref:`Claim Page  <claim-page>`, where the current selected claim can be edited (provided it in the state **Entered**), this page will open with the current information loaded into the data entry fields. See the :ref:`Claim Page  <claim-page>` for information on the data entry and mandatory fields."
+msgstr "Modular openIMIS comes with `Material UI <http://https://material-ui.com/>`_ this means that there is a single button (:numref:`actions_btn`) which fonction will change depending on the context (Icon change), for less used functions a tree dots menu is available (:numref:`image_3d_claim_hf`) only when claim(s) are selected. By double-clicking on the claim line, the user is directed to the :ref:`Claim Page  <claim-page>`, where the current selected claim can be edited (provided it in the state **Entered**), this page will open with the current information loaded into the data entry fields. See the :ref:`Claim Page  <claim-page>` for information on the data entry and mandatory fields."
+
+msgid "Materal icons"
+msgstr "Materal icons"
+
+msgid "`Add`"
+msgstr "`Add`"
+
+msgid "`Save`"
+msgstr "`Save`"
+
+msgid "`Back`"
+msgstr "`Back`"
+
+msgid "`Print`"
+msgstr "`Print`"
+
+msgid "claims actions"
+msgstr "claims actions"
+
+msgid "`select all`"
+msgstr "`select all`"
+
+msgid "`tree dots`"
+msgstr "`tree dots`"
+
+msgid "`tree dots menu`"
+msgstr "`tree dots menu`"
+
+msgid "``add``"
+msgstr "``add``"
+
+msgid "By clicking on the add button (:numref:`mat_add`), the user is directed to the `Claim Page, <#claim-page>`__ where new entries for new claim can be added. When the page opens all entry fields are empty. See the :ref:`Claim Page  <claim-page>` for information on the data entry and mandatory fields."
+msgstr "By clicking on the add button (:numref:`mat_add`), the user is directed to the `Claim Page, <#claim-page>`__ where new entries for new claim can be added. When the page opens all entry fields are empty. See the :ref:`Claim Page  <claim-page>` for information on the data entry and mandatory fields."
+
+msgid "``Submit selected``"
+msgstr "``Submit selected``"
+
+msgid "By clicking on the submit selected manu (:numref:`mat_hf_claim_menu`), claim status of all selected claims with the status **Entered** will be submitted."
+msgstr "By clicking on the submit selected manu (:numref:`mat_hf_claim_menu`), claim status of all selected claims with the status **Entered** will be submitted."
+
+msgid "Once the process is done, a popup window ( :numref:`image141` ) with the result of the process will be shown."
+msgstr "Once the process is done, a popup window ( :numref:`image141` ) with the result of the process will be shown."
+
+msgid "`Submitted Claims details – Claims Control Page`"
+msgstr "`Submitted Claims details – Claims Control Page`"
+
+msgid "``delete selected``"
+msgstr "``delete selected``"
+
+msgid "By clicking on the delete selected menu, the current selected claim will be deleted."
+msgstr "By clicking on the delete selected menu, the current selected claim will be deleted."
+
+msgid "Before deleting a confirmation popup ( :numref:`image142` ) is displayed, which requires the user to confirm if the action should really be carried out?"
+msgstr "Before deleting a confirmation popup ( :numref:`image142` ) is displayed, which requires the user to confirm if the action should really be carried out?"
+
+msgid "`Delete confirmation – Claims Control Page`"
+msgstr "`Delete confirmation – Claims Control Page`"
+
+msgid "**Information Panel**"
+msgstr "**Information Panel**"
+
+msgid "The Information Panel is used to display messages back to the user. Messages will occur once a claim has been added, updated or deleted or if there was an error at any time during the process of these actions."
+msgstr "The Information Panel is used to display messages back to the user. Messages will occur once a claim has been added, updated or deleted or if there was an error at any time during the process of these actions."
+
+msgid "Claim Page"
+msgstr "Claim Page"
+
+msgid "**Data Entry**"
+msgstr "**Data Entry**"
+
+msgid "`Claim Page`"
+msgstr "`Claim Page`"
+
+msgid "Displays the code of the health facility. The field is read only (taken over from the :ref:`Claims Control Page  <health_facility_claims>`) and cannot be edited."
+msgstr "Displays the code of the health facility. The field is read only (taken over from the :ref:`Claims Control Page  <health_facility_claims>`) and cannot be edited."
+
+msgid "Displays the name of the health facility. The field is read only (taken over from the :ref:`Claims Control Page  <health_facility_claims>`) and cannot be edited."
+msgstr "Displays the name of the health facility. The field is read only (taken over from the :ref:`Claims Control Page  <health_facility_claims>`) and cannot be edited."
+
+msgid "Enter the insurance number of the patient. When the field is selected, the search insuree popup(:refnum:'insuree_picker') will be display and will allow the claim administrator to search the insuree based on its insurance number, or/and last name, or/and other(first) name . Mandatory."
+msgstr "Enter the insurance number of the patient. When the field is selected, the search insuree popup(:refnum:'insuree_picker') will be display and will allow the claim administrator to search the insuree based on its insurance number, or/and last name, or/and other(first) name . Mandatory."
+
+msgid "`Search insuree popup`"
+msgstr "`Search insuree popup`"
+
+msgid "Enter the identification of the claim. Mandatory, up to 8 characters. It should be unique within the claiming health facility."
+msgstr "Enter the identification of the claim. Mandatory, up to 8 characters. It should be unique within the claiming health facility."
+
+msgid "Select the code of the main diagnosis by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box. Mandatory."
+msgstr "Select the code of the main diagnosis by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box. Mandatory."
+
+msgid "``Sec Dg 1``"
+msgstr "``Sec Dg 1``"
+
+msgid "Select the code of the first secondary diagnosis by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box."
+msgstr "Select the code of the first secondary diagnosis by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box."
+
+msgid "``Sec Dg 2``"
+msgstr "``Sec Dg 2``"
+
+msgid "Select the code of the second secondary diagnosis by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box"
+msgstr "Select the code of the second secondary diagnosis by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box"
+
+msgid "``Sec Dg 3``"
+msgstr "``Sec Dg 3``"
+
+msgid "Select the code of the third secondary diagnosis by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box"
+msgstr "Select the code of the third secondary diagnosis by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box"
+
+msgid "``Sec Dg 4``"
+msgstr "``Sec Dg 4``"
+
+msgid "Select the code of the fourth secondary diagnosis by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box"
+msgstr "Select the code of the fourth secondary diagnosis by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box"
+
+msgid "Displays code of the claim administrator. The field is read only (taken over from :ref:`the Claim Control Page  <health_facility_claims>`) and cannot be edited."
+msgstr "Displays code of the claim administrator. The field is read only (taken over from :ref:`the Claim Control Page  <health_facility_claims>`) and cannot be edited."
+
+msgid "Enter the visit date for out-patient care or the admission date for in-patient care. Mandatory."
+msgstr "Enter the visit date for out-patient care or the admission date for in-patient care. Mandatory."
+
+msgid "Enter the discharge date for in-patient care."
+msgstr "Enter the discharge date for in-patient care."
+
+msgid "``Date Claimed``"
+msgstr "``Date Claimed``"
+
+msgid "Enter the date when the claim was prepared by the health facility."
+msgstr "Enter the date when the claim was prepared by the health facility."
+
+msgid "``Guarantee No.``"
+msgstr "``Guarantee No.``"
+
+msgid "Enter identification of a guarantee letter for prior approval of provision of claimed health care."
+msgstr "Enter identification of a guarantee letter for prior approval of provision of claimed health care."
+
+msgid "Select the type of visit/hospital admission from the drop down list (**Emergency, Referral, Other**)"
+msgstr "Select the type of visit/hospital admission from the drop down list (**Emergency, Referral, Other**)"
+
+msgid "``Services``"
+msgstr "``Services``"
+
+msgid "``service code``"
+msgstr "``service code``"
+
+msgid "When entering the service code, a dropdown suggestion box for the available services with the service code or service name matching your typed text will be shown. Available medical services in the dropdown suggestion box are taken over from the pricelist of medical services associated with the claiming health facility. The desired service can then be selected from the dropdown suggestion box by clicking on it using mouse or selecting it using up and down arrows, then pressing Enter key fill the service code text field, together with quantity and value field in the same row."
+msgstr "When entering the service code, a dropdown suggestion box for the available services with the service code or service name matching your typed text will be shown. Available medical services in the dropdown suggestion box are taken over from the pricelist of medical services associated with the claiming health facility. The desired service can then be selected from the dropdown suggestion box by clicking on it using mouse or selecting it using up and down arrows, then pressing Enter key fill the service code text field, together with quantity and value field in the same row."
+
+msgid "Once the selected service has been written on the service data grid row, a new service line will be added and the dropdown suggestion box will close itself. When needed, the dropdown suggestion box can be closed by clicking any place on the page but outside the dropdown suggestion box."
+msgstr "Once the selected service has been written on the service data grid row, a new service line will be added and the dropdown suggestion box will close itself. When needed, the dropdown suggestion box can be closed by clicking any place on the page but outside the dropdown suggestion box."
+
+msgid "`Services dropdown suggestion box – Claim Page`"
+msgstr "`Services dropdown suggestion box – Claim Page`"
+
+msgid "``quantity``"
+msgstr "``quantity``"
+
+msgid "This field can be filled manually by entering a number in it or automatically is filled by 1 when the service code above is filled, through dropdown suggestion box. It is this field that receives focus after service code is filled above from the dropdown suggestion box."
+msgstr "This field can be filled manually by entering a number in it or automatically is filled by 1 when the service code above is filled, through dropdown suggestion box. It is this field that receives focus after service code is filled above from the dropdown suggestion box."
+
+msgid "``price``"
+msgstr "``price``"
+
+msgid "This field can be filled manually by entering a number in it or automatically is filled when the service code above is filled, through dropdown suggestion box. Automatically filled prices are taken over from the pricelist of medical services associated with the claiming health facility."
+msgstr "This field can be filled manually by entering a number in it or automatically is filled when the service code above is filled, through dropdown suggestion box. Automatically filled prices are taken over from the pricelist of medical services associated with the claiming health facility."
+
+msgid "``explanation``"
+msgstr "``explanation``"
+
+msgid "Enter extra information about the service for the scheme administration (a medical officer of the scheme administrator)."
+msgstr "Enter extra information about the service for the scheme administration (a medical officer of the scheme administrator)."
+
+msgid "``Items``"
+msgstr "``Items``"
+
+msgid "``item code``"
+msgstr "``item code``"
+
+msgid "When entering the item code, a dropdown suggestion box for the available items with the item code or item name matching your typed text will be shown. Available medical items in the dropdown suggestion box are taken over from the pricelist of medical items associated with the claiming health facility. The desired item can then be selected from the dropdown suggestion box by clicking on it using mouse or selecting it using up and down arrows, then pressing Enter key to fill the item code text field, together with quantity and value field in the same row."
+msgstr "When entering the item code, a dropdown suggestion box for the available items with the item code or item name matching your typed text will be shown. Available medical items in the dropdown suggestion box are taken over from the pricelist of medical items associated with the claiming health facility. The desired item can then be selected from the dropdown suggestion box by clicking on it using mouse or selecting it using up and down arrows, then pressing Enter key to fill the item code text field, together with quantity and value field in the same row."
+
+msgid "Once the selected item has been written on the item data grid row, a new service line will be added and the dropdown suggestion box will close itself. When needed, the dropdown suggestion box can be closed by clicking any place on the page but outside the dropdown suggestion box."
+msgstr "Once the selected item has been written on the item data grid row, a new service line will be added and the dropdown suggestion box will close itself. When needed, the dropdown suggestion box can be closed by clicking any place on the page but outside the dropdown suggestion box."
+
+msgid "`Items dropdown suggestion box – Claim Page`"
+msgstr "`Items dropdown suggestion box – Claim Page`"
+
+msgid "This field can be filled manually by entering a number in it or automatically is filled by 1 when the item code above is filled, through dropdown suggestion box. It is this filled that receives focus after item code is filled above from the dropdown suggestion box."
+msgstr "This field can be filled manually by entering a number in it or automatically is filled by 1 when the item code above is filled, through dropdown suggestion box. It is this filled that receives focus after item code is filled above from the dropdown suggestion box."
+
+msgid "This field can be filled manually by entering a number in it or automatically is filled when the item code above is filled, through dropdown suggestion box. Automatically filled prices are taken over from the pricelist of medical items associated with the claiming health facility."
+msgstr "This field can be filled manually by entering a number in it or automatically is filled when the item code above is filled, through dropdown suggestion box. Automatically filled prices are taken over from the pricelist of medical items associated with the claiming health facility."
+
+msgid "Enter extra information about the medical item for the scheme administration (a medical officer of the scheme administrator)."
+msgstr "Enter extra information about the medical item for the scheme administration (a medical officer of the scheme administrator)."
+
+msgid "``claimed``"
+msgstr "``claimed``"
+
+msgid "This field is filled automatically with a new total of quantities multiplied to their corresponding values in both data input grids at any time when there is a change in values in the either quantity fields or value fields anywhere in both data input grids."
+msgstr "This field is filled automatically with a new total of quantities multiplied to their corresponding values in both data input grids at any time when there is a change in values in the either quantity fields or value fields anywhere in both data input grids."
+
+msgid "Enter extra information about the whole claim for the scheme administration (a medical officer of the scheme administrator)."
+msgstr "Enter extra information about the whole claim for the scheme administration (a medical officer of the scheme administrator)."
+
+msgid "**Saving**"
+msgstr "**Saving**"
+
+msgid "Once all mandatory data is entered, clicking on the ``Save`` button (:numref:`mat_save`) will save the claim. The user stay in the :ref:`Claim Page  <claim-page>`; a message confirming that the claim has been saved will appear on the right of the :ref:`Claim Page  <claim-page>` (:numref:`save_conf`)."
+msgstr "Once all mandatory data is entered, clicking on the ``Save`` button (:numref:`mat_save`) will save the claim. The user stay in the :ref:`Claim Page  <claim-page>`; a message confirming that the claim has been saved will appear on the right of the :ref:`Claim Page  <claim-page>` (:numref:`save_conf`)."
+
+msgid "claim save confirmation"
+msgstr "claim save confirmation"
+
+msgid "`Create confirmation`"
+msgstr "`Create confirmation`"
+
+msgid "`Update confirmation`"
+msgstr "`Update confirmation`"
+
+msgid "**Mandatory data**"
+msgstr "**Mandatory data**"
+
+msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk)."
+msgstr "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk)."
+
+msgid "**Printing of a claim**"
+msgstr "**Printing of a claim**"
+
+msgid "By clicking on the ``Print`` button (:numref:`mat_print`), the user will be shown a printable version of the claim details page. The printable version of the claim is available in the pdf formats."
+msgstr "By clicking on the ``Print`` button (:numref:`mat_print`), the user will be shown a printable version of the claim details page. The printable version of the claim is available in the pdf formats."
+
+msgid "**Creating of a new claim**"
+msgstr "**Creating of a new claim**"
+
+msgid "By clicking on the ``Add`` button (:numref:`mat_add`), the :ref:`Claim Page  <claim-page>` is cleared (with exception of HF Code, HF Name and Claim Administrator) and it ready for entering of a new claim for the same health facility and of the same claim administrator as before."
+msgstr "By clicking on the ``Add`` button (:numref:`mat_add`), the :ref:`Claim Page  <claim-page>` is cleared (with exception of HF Code, HF Name and Claim Administrator) and it ready for entering of a new claim for the same health facility and of the same claim administrator as before."
+
+msgid "**back**"
+msgstr "**back**"
+
+msgid "By clicking on the ``back`` (:numref:`mat_back`) button, the user will be re-directed to the :ref:`Claims Control Page  <health_facility_claims>`."
+msgstr "By clicking on the ``back`` (:numref:`mat_back`) button, the user will be re-directed to the :ref:`Claims Control Page  <health_facility_claims>`."

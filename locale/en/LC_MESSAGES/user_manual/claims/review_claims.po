@@ -1,0 +1,993 @@
+
+msgid ""
+msgstr "" 
+"Project-Id-Version: openIMIS \n" 
+"Report-Msgid-Bugs-To: \n" 
+"POT-Creation-Date: 2020-01-09 08:50+0100\n" 
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n" 
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n" 
+"Language-Team: LANGUAGE <LL@li.org>\n" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=utf-8\n" 
+"Content-Transfer-Encoding: 8bit\n" 
+"Generated-By: Babel 2.6.0\n"
+
+
+msgid "Review claims"
+msgstr "Review claims"
+
+
+msgid "The functionality allows reviewing and adjustments of claims from medical point of view. Reviewing of claims is restricted to users with the system role of Medical Officer or with a role including an access to Claims/Claim/Review."
+msgstr "The functionality allows reviewing and adjustments of claims from medical point of view. Reviewing of claims is restricted to users with the system role of Medical Officer or with a role including an access to Claims/Claim/Review."
+
+
+msgid "Pre-conditions"
+msgstr "Pre-conditions"
+
+
+msgid "A claim has been already submitted."
+msgstr "A claim has been already submitted."
+
+
+msgid "Navigation"
+msgstr "Navigation"
+
+
+msgid "All functionality for use with the administration of claim overview can be found under the main menu ``Claims``, sub menu ``Reviews.``"
+msgstr "All functionality for use with the administration of claim overview can be found under the main menu ``Claims``, sub menu ``Reviews.``"
+
+
+msgid "`Navigation Review`"
+msgstr "`Navigation Review`"
+
+
+msgid "Clicking on the sub menu ``Review`` re-directs the current user to the :ref:`Claims Overview Page <claims-overview-page>`"
+msgstr "Clicking on the sub menu ``Review`` re-directs the current user to the :ref:`Claims Overview Page <claims-overview-page>`"
+
+
+msgid "`Image - Claims Overview Page`"
+msgstr "`Image - Claims Overview Page`"
+
+
+msgid "Claims Overview Page"
+msgstr "Claims Overview Page"
+
+
+msgid "The Claims Overview Page is the central point for all claim review administration. By having access to this panel, it is possible to review, feedback, amend and process claims. The panel is divided into five sections (:numref:`claims_review_img`)."
+msgstr "The Claims Overview Page is the central point for all claim review administration. By having access to this panel, it is possible to review, feedback, amend and process claims. The panel is divided into five sections (:numref:`claims_review_img`)."
+
+
+msgid "**Search Panel**"
+msgstr "**Search Panel**"
+
+
+msgid "The search panel allows a user to select specific criteria to minimise the search results. In the case of claims the following search options are available, which can be used alone, or in combination with each other."
+msgstr "The search panel allows a user to select specific criteria to minimise the search results. In the case of claims the following search options are available, which can be used alone, or in combination with each other."
+
+
+msgid "``Region``"
+msgstr "``Region``"
+
+
+msgid "Select the ``Region``; from the list that appear after typing characters, all region containing the typed text will appear and be selectable underneath the box. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected*"
+msgstr "Select the ``Region``; from the list that appear after typing characters, all region containing the typed text will appear and be selectable underneath the box. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected*"
+
+
+msgid "``District``"
+msgstr "``District``"
+
+
+msgid "Select the ``District``; from the list that appear after typing characters , all district containing the typed text will appear and be selectable underneath the box. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected*"
+msgstr "Select the ``District``; from the list that appear after typing characters , all district containing the typed text will appear and be selectable underneath the box. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected*"
+
+
+msgid "``HF Code``"
+msgstr "``HF Code``"
+
+
+msgid "Select the ``HF Code``; from the list that appear after typing characters, all HF code containing the typed text will appear and be selectable underneath the box. *Note: The list will only be filled with the health facilities belonging to the selected district and assigned to the current logged in user*."
+msgstr "Select the ``HF Code``; from the list that appear after typing characters, all HF code containing the typed text will appear and be selectable underneath the box. *Note: The list will only be filled with the health facilities belonging to the selected district and assigned to the current logged in user*."
+
+
+msgid "``HF Name``"
+msgstr "``HF Name``"
+
+
+msgid "Type in the beginning of; or the full ``HF Name``, to search for claims belonging to the health facility whose name start with or match completely the typed text."
+msgstr "Type in the beginning of; or the full ``HF Name``, to search for claims belonging to the health facility whose name start with or match completely the typed text."
+
+
+
+
+msgid "``Claim Administrator``"
+msgstr "``Claim Administrator``"
+
+
+msgid "Select the ``claim administrator`` from the list that appear after typing characters , all claim administrator containing the typed text will appear and be selectable underneath the box. *Note: The list will only be filled with the claim administrators belonging to the health facility selected*."
+msgstr "Select the ``claim administrator`` from the list that appear after typing characters , all claim administrator containing the typed text will appear and be selectable underneath the box. *Note: The list will only be filled with the claim administrators belonging to the health facility selected*."
+
+
+msgid "``Insurence Number``"
+msgstr "``Insurence Number``"
+
+
+msgid "Enter the insurance number of the patient. When the field is selected, the search insuree popup(:refnum:'insuree_picker') will be display and will allow the claim administrator to search the insuree based on its insurance number, or/and last name, or/and other(first) name ."
+msgstr "Enter the insurance number of the patient. When the field is selected, the search insuree popup(:refnum:'insuree_picker') will be display and will allow the claim administrator to search the insuree based on its insurance number, or/and last name, or/and other(first) name ."
+
+
+
+
+msgid "``Claim No.``"
+msgstr "``Claim No.``"
+
+
+msgid "Type in the beginning of; or the full ``Claim No.``, to search for claims with claim identification which start with or match completely the typed text."
+msgstr "Type in the beginning of; or the full ``Claim No.``, to search for claims with claim identification which start with or match completely the typed text."
+
+
+
+msgid "``Review Status``"
+msgstr "``Review Status``"
+
+
+msgid "Select the ``Review Status`` from the list of the options for review status by clicking on the arrow on the right of the selector to select claims with a specific review status."
+msgstr "Select the ``Review Status`` from the list of the options for review status by clicking on the arrow on the right of the selector to select claims with a specific review status."
+
+
+
+msgid "``Feedback Status``"
+msgstr "``Feedback Status``"
+
+
+msgid "Select the ``Feedback Status`` from the list of the options for feedback status by clicking on the arrow on the right of the selector to select claims with a specific feedback status."
+msgstr "Select the ``Feedback Status`` from the list of the options for feedback status by clicking on the arrow on the right of the selector to select claims with a specific feedback status."
+
+
+
+msgid "``Claim Status``"
+msgstr "``Claim Status``"
+
+
+msgid "Select the ``Claim Status`` from the list of the options for claim status by clicking on the arrow on the right of the selector to select claims with a specific claim status."
+msgstr "Select the ``Claim Status`` from the list of the options for claim status by clicking on the arrow on the right of the selector to select claims with a specific claim status."
+
+
+msgid "``Main Dg``"
+msgstr "``Main Dg``"
+
+
+msgid "Select the ``Main Dg.`` from the list of diagnoses by typing characters, all diagnoses containing the typed text will appear and be selectable underneath the box, to select claims with main diagnosis."
+msgstr "Select the ``Main Dg.`` from the list of diagnoses by typing characters, all diagnoses containing the typed text will appear and be selectable underneath the box, to select claims with main diagnosis."
+
+
+msgid "``Batch Run``"
+msgstr "``Batch Run``"
+
+
+msgid "Select the ``Batch Run`` from the list of batch runs by clicking on  the arrow on the right of the selector to select claims included in a specific batch run."
+msgstr "Select the ``Batch Run`` from the list of batch runs by clicking on  the arrow on the right of the selector to select claims included in a specific batch run."
+
+
+msgid "``Visit Date From``"
+msgstr "``Visit Date From``"
+
+
+msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date From`` which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
+msgstr "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date From`` which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
+
+
+
+
+msgid "``Visit Date To``"
+msgstr "``Visit Date To``"
+
+
+msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date To`` which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
+msgstr "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date To`` which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
+
+
+msgid "``Claim Date From``"
+msgstr "``Claim Date From``"
+
+
+msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date From`` which is on or is greater than the  date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
+msgstr "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date From`` which is on or is greater than the  date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
+
+
+msgid "``Claim Date To``"
+msgstr "``Claim Date To``"
+
+
+msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date To`` which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
+msgstr "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date To`` which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
+
+
+
+msgid "``Visit Type``"
+msgstr "``Visit Type``"
+
+
+msgid "Select type of out-patient visit or in-patient admission from the list of types of visit to search for claims made on specific visit/admission type."
+msgstr "Select type of out-patient visit or in-patient admission from the list of types of visit to search for claims made on specific visit/admission type."
+
+
+msgid "**Claim Selection Update Panel**"
+msgstr "**Claim Selection Update Panel**"
+
+
+msgid "This panel is basically for functionality of updating multiple claims which are currently loaded in the Result Panel at once basing on the claim filter criteria available on this panel. The update on the claims is basically changing **Feedback Status** and **Review Status** of a claim from **Idle** to **Selected for Feedback** or **Selected for Review** respectively. The filters in this panel work on the claims which are currently loaded on the result panel. The combination of filters is either ``Select`` and either ``Random`` or ``Value`` combination of ``Value`` and ``Variance``."
+msgstr "This panel is basically for functionality of updating multiple claims which are currently loaded in the Result Panel at once basing on the claim filter criteria available on this panel. The update on the claims is basically changing **Feedback Status** and **Review Status** of a claim from **Idle** to **Selected for Feedback** or **Selected for Review** respectively. The filters in this panel work on the claims which are currently loaded on the result panel. The combination of filters is either ``Select`` and either ``Random`` or ``Value`` combination of ``Value`` and ``Variance``."
+
+
+msgid "``Select``"
+msgstr "``Select``"
+
+
+msgid "A selection dropdown box to select between **Review Select** and **Feedback Select** to filter only claims whose review status is **Idle** or feedback status is **Idle** respectively from among claims currently in the Result Panel."
+msgstr "A selection dropdown box to select between **Review Select** and **Feedback Select** to filter only claims whose review status is **Idle** or feedback status is **Idle** respectively from among claims currently in the Result Panel."
+
+
+msgid "``Random``"
+msgstr "``Random``"
+
+
+msgid "Accept a number which is considered to be a percentage of the claims in the Result Panel. Check the random checkbox and enter a number on the text field next to checkbox. The default is 5%."
+msgstr "Accept a number which is considered to be a percentage of the claims in the Result Panel. Check the random checkbox and enter a number on the text field next to checkbox. The default is 5%."
+
+
+msgid "``Value``"
+msgstr "``Value``"
+
+
+msgid "Accept a number which is considered to be claimed value. This will filter claims from the Result Panel by taking claims whose claimed value is equal or greater than the entered number in the Value text field. Check the value checkbox and enter a number on the text field next to checkbox."
+msgstr "Accept a number which is considered to be claimed value. This will filter claims from the Result Panel by taking claims whose claimed value is equal or greater than the entered number in the Value text field. Check the value checkbox and enter a number on the text field next to checkbox."
+
+
+msgid "``variance``"
+msgstr "``variance``"
+
+
+msgid "Enable to set a variance arround the ``Value`` specified **Percentage Variance = [(Claim Value \\ Filter Value) – 1] \\* 100**"
+msgstr "Enable to set a variance arround the ``Value`` specified **Percentage Variance = [(Claim Value \\ Filter Value) – 1] \\* 100**"
+
+
+msgid "``filter button``"
+msgstr "``filter button``"
+
+
+msgid "Once desired criteria have been set and after clicking this button(:numref:`filter`), then the claims currently displayed in the result panel which satisfy the criteria, a reduced number of claim will be dispalyed in the result panel"
+msgstr "Once desired criteria have been set and after clicking this button(:numref:`filter`), then the claims currently displayed in the result panel which satisfy the criteria, a reduced number of claim will be dispalyed in the result panel"
+
+
+msgid "``bulk updates``"
+msgstr "``bulk updates``"
+
+
+msgid "One can select them all (:numref:`review_select_all`) then by clicking on" 
+" the 3 dots(:numref:`review_3d`) more advanced actions (:numref:`review_actions`) will be displayed."
+msgstr "One can select them all (:numref:`review_select_all`) then by clicking on" 
+" the 3 dots(:numref:`review_3d`) more advanced actions (:numref:`review_actions`) will be displayed."
+
+
+msgid "`Error message when the filter have no result`"
+msgstr "`Error message when the filter have no result`"
+
+
+msgid "A notification will be displayed to confirm display the action result(:numref:`review_action_not`)"
+msgstr "A notification will be displayed to confirm display the action result(:numref:`review_action_not`)"
+
+
+msgid "`Claim Review Action Notification`"
+msgstr "`Claim Review Action Notification`"
+
+
+msgid "**Result Panel**"
+msgstr "**Result Panel**"
+
+
+msgid "The Result Panel displays a list of all claims found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`review_result`)."
+msgstr "The Result Panel displays a list of all claims found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`review_result`)."
+
+
+msgid "`Claim Review Search Result: Selected (light grey), record updated (zebras)`"
+msgstr "`Claim Review Search Result: Selected (light grey), record updated (zebras)`"
+
+
+msgid "Per default 10 records can be displayed at one time in a scroll panel but this number can be changed (:numref:`mat_record_per_page`,  the default value can also be changed in front end configuration), Further records can be viewed by changing pages (:numref:`mat_page_browser`)."
+msgstr "Per default 10 records can be displayed at one time in a scroll panel but this number can be changed (:numref:`mat_record_per_page`,  the default value can also be changed in front end configuration), Further records can be viewed by changing pages (:numref:`mat_page_browser`)."
+
+
+msgid "The Feedback and Review Status Columns in each row contain a drop down list with options for claim feedback status and claim review status. A user can change the claim feedback and review status to **Idle** to **Not Selected** or **Selected** or **Bypass**. the change will take effect directly in an asynchronous mode, a notification will indicate the result of the update (:numref:`review_selected_not`)"
+msgstr "The Feedback and Review Status Columns in each row contain a drop down list with options for claim feedback status and claim review status. A user can change the claim feedback and review status to **Idle** to **Not Selected** or **Selected** or **Bypass**. the change will take effect directly in an asynchronous mode, a notification will indicate the result of the update (:numref:`review_selected_not`)"
+
+
+msgid "`Selection of claim for feedback/review notification`"
+msgstr "`Selection of claim for feedback/review notification`"
+
+
+msgid "``Deliver Review``"
+msgstr "``Deliver Review``"
+
+
+msgid "Clicking on this button (:numref:`review_review_but`) re-directs a user to the :ref:`Claim Review Page  <claim-review-page>`, where a claim with review status **Selected for Review** can be reviewed and its current review status changed to **Reviewed.** If the claim is not in the status **Selected for Review** then the claim can be only loaded and shown to the user without any subsequent action."
+msgstr "Clicking on this button (:numref:`review_review_but`) re-directs a user to the :ref:`Claim Review Page  <claim-review-page>`, where a claim with review status **Selected for Review** can be reviewed and its current review status changed to **Reviewed.** If the claim is not in the status **Selected for Review** then the claim can be only loaded and shown to the user without any subsequent action."
+
+
+msgid "``Deliver feedback``"
+msgstr "``Deliver feedback``"
+
+
+msgid "Clicking on this button (:numref:`review_feedback_but`) re-directs a user to the :ref:`Claim Feedback Page  <claim-feedback-page>`, where a claim with feedback status **Selected for Feedback** can be feed backed and its current feedback status changed to **Delivered**."
+msgstr "Clicking on this button (:numref:`review_feedback_but`) re-directs a user to the :ref:`Claim Feedback Page  <claim-feedback-page>`, where a claim with feedback status **Selected for Feedback** can be feed backed and its current feedback status changed to **Delivered**."
+
+
+msgid "**Actions Menu**"
+msgstr "**Actions Menu**"
+
+
+msgid "The Action menu is used in conjunction with the current selected record (highlighted with light grey). The user should first select a record by clicking on any position of the record or by clicking on ``Select All`` (:numref:`review_select_all`)"
+msgstr "The Action menu is used in conjunction with the current selected record (highlighted with light grey). The user should first select a record by clicking on any position of the record or by clicking on ``Select All`` (:numref:`review_select_all`)"
+
+
+msgid "claims review actions"
+msgstr "claims review actions"
+
+
+msgid "`Select all`"
+msgstr "`Select all`"
+
+
+msgid "`Filter button`"
+msgstr "`Filter button`"
+
+
+msgid "`tree dots`"
+msgstr "`tree dots`"
+
+
+msgid "`review actions menu`"
+msgstr "`review actions menu`"
+
+
+msgid "`Deliver Feedback Button`"
+msgstr "`Deliver Feedback Button`"
+
+
+msgid "`Deliver Review Button`"
+msgstr "`Deliver Review Button`"
+
+
+msgid "`Page browser`"
+msgstr "`Page browser`"
+
+
+msgid "`Change the number of record per page`"
+msgstr "`Change the number of record per page`"
+
+
+msgid "``Clear Selection``:"
+msgstr "``Clear Selection``:"
+
+
+msgid "Unselect the selected claims"
+msgstr "Unselect the selected claims"
+
+
+msgid "``Select For Feedback``:"
+msgstr "``Select For Feedback``:"
+
+
+msgid "set the feedback status of the selected claims to **Selected**"
+msgstr "set the feedback status of the selected claims to **Selected**"
+
+
+msgid "``Skip feedback``:"
+msgstr "``Skip feedback``:"
+
+
+msgid "set the feedback status of the selected claims to **Not Selected**"
+msgstr "set the feedback status of the selected claims to **Not Selected**"
+
+
+msgid "``Select For Review``:"
+msgstr "``Select For Review``:"
+
+
+msgid "set the review status of the selected claims to **Selected**"
+msgstr "set the review status of the selected claims to **Selected**"
+
+
+msgid "``Skip Review``:"
+msgstr "``Skip Review``:"
+
+
+msgid "set the review status of the selected claims to **Not Selected**"
+msgstr "set the review status of the selected claims to **Not Selected**"
+
+
+msgid "``Process selected``:"
+msgstr "``Process selected``:"
+
+
+msgid "Process the selected claim with the status **Checked**, once processed the claims will have the status"
+msgstr "Process the selected claim with the status **Checked**, once processed the claims will have the status"
+
+
+msgid "``Processed``:"
+msgstr "``Processed``:"
+
+
+msgid "this means that the valutation will be done against the cieling and deductible configure on the product page"
+msgstr "this means that the valutation will be done against the cieling and deductible configure on the product page"
+
+
+msgid "**Information Panel**"
+msgstr "**Information Panel**"
+
+
+msgid "The Information Panel is used to display messages back to the user. Messages will occur once a claim has been reviewed, updated, feedback added on claim or if there was an error at any time during the process of these actions."
+msgstr "The Information Panel is used to display messages back to the user. Messages will occur once a claim has been reviewed, updated, feedback added on claim or if there was an error at any time during the process of these actions."
+
+
+msgid "Claim Review Page"
+msgstr "Claim Review Page"
+
+
+
+msgid "**Data Entry**"
+msgstr "**Data Entry**"
+
+
+msgid "`Claim Review Page`"
+msgstr "`Claim Review Page`"
+
+
+msgid "``Claim Review Page`` will show read-only information of the current claim selected for review, on the top section of the page, on some of the grid columns of the claim services grid and claim items grid and on the bottom of all the grids. As well, the page has input boxes where a user with the system role Medical Officer or with a role including an access to Claims/Claim/Review can enter new relevant values for review of the current claim."
+msgstr "``Claim Review Page`` will show read-only information of the current claim selected for review, on the top section of the page, on some of the grid columns of the claim services grid and claim items grid and on the bottom of all the grids. As well, the page has input boxes where a user with the system role Medical Officer or with a role including an access to Claims/Claim/Review can enter new relevant values for review of the current claim."
+
+
+msgid "*** Read-only information of the current claim**"
+msgstr "*** Read-only information of the current claim**"
+
+
+msgid "``HF``"
+msgstr "``HF``"
+
+
+
+msgid "The health facility code and name which the claim belongs to."
+msgstr "The health facility code and name which the claim belongs to."
+
+
+msgid "``Main Dg.``"
+msgstr "``Main Dg.``"
+
+
+msgid "The code of the main diagnosis."
+msgstr "The code of the main diagnosis."
+
+
+msgid "``Sec Dg1``"
+msgstr "``Sec Dg1``"
+
+
+msgid "The code of the first secondary diagnosis."
+msgstr "The code of the first secondary diagnosis."
+
+
+msgid "``Sec Dg2``"
+msgstr "``Sec Dg2``"
+
+
+msgid "The code of the second secondary diagnosis."
+msgstr "The code of the second secondary diagnosis."
+
+
+msgid "``Sec Dg3``"
+msgstr "``Sec Dg3``"
+
+
+msgid "The code of the third secondary diagnosis."
+msgstr "The code of the third secondary diagnosis."
+
+
+msgid "``Sec Dg4``"
+msgstr "``Sec Dg4``"
+
+
+msgid "The code of the fourth secondary diagnosis."
+msgstr "The code of the fourth secondary diagnosis."
+
+
+msgid "``Visit type``"
+msgstr "``Visit type``"
+
+
+msgid "The type of the visit or of the hospital stay (**Emergency, Referral, Other**)"
+msgstr "The type of the visit or of the hospital stay (**Emergency, Referral, Other**)"
+
+
+msgid "``Date Processed``"
+msgstr "``Date Processed``"
+
+
+msgid "The date on which the claim was processed (sent to the state **Processed**)."
+msgstr "The date on which the claim was processed (sent to the state **Processed**)."
+
+
+msgid "The administrator's code, who was responsible for submission of the current claim."
+msgstr "The administrator's code, who was responsible for submission of the current claim."
+
+
+msgid "``Insurance Number``"
+msgstr "``Insurance Number``"
+
+
+msgid "The insurance number of the patient."
+msgstr "The insurance number of the patient."
+
+
+
+msgid "The unique identification of the claim within the claiming health facility."
+msgstr "The unique identification of the claim within the claiming health facility."
+
+
+msgid "``Patient Name``"
+msgstr "``Patient Name``"
+
+
+msgid "The full name of the patient on whom the claim is made."
+msgstr "The full name of the patient on whom the claim is made."
+
+
+
+msgid "``Date Claimed``"
+msgstr "``Date Claimed``"
+
+
+
+msgid "The date on which the claim was prepared by the claiming health facility."
+msgstr "The date on which the claim was prepared by the claiming health facility."
+
+
+
+msgid "``Visits Date From``"
+msgstr "``Visits Date From``"
+
+
+
+msgid "The date on which the patient visited (or was admitted by) the health facility for treatment on which the claim is basing on."
+msgstr "The date on which the patient visited (or was admitted by) the health facility for treatment on which the claim is basing on."
+
+
+
+msgid "The date on which the patient was discharged from the health facility for treatment on which the claim is basing on."
+msgstr "The date on which the patient was discharged from the health facility for treatment on which the claim is basing on."
+
+
+
+msgid "``Guarantee No.``"
+msgstr "``Guarantee No.``"
+
+
+msgid "Identification of a guarantee letter."
+msgstr "Identification of a guarantee letter."
+
+
+msgid "``Claimed``"
+msgstr "``Claimed``"
+
+
+msgid "The sum of prices of all claimed services and items at the moment of submission of the claim."
+msgstr "The sum of prices of all claimed services and items at the moment of submission of the claim."
+
+
+msgid "``approved``"
+msgstr "``approved``"
+
+
+msgid "The value of the claim after automatic checking during its submission and after the corrections of the claim done by a medical officer."
+msgstr "The value of the claim after automatic checking during its submission and after the corrections of the claim done by a medical officer."
+
+
+msgid "``Adjusted``"
+msgstr "``Adjusted``"
+
+
+msgid "The value of the claim after automatic adjustments done according to the conditions of coverage by the patient’s policy."
+msgstr "The value of the claim after automatic adjustments done according to the conditions of coverage by the patient’s policy."
+
+
+msgid "``Explanation``"
+msgstr "``Explanation``"
+
+
+msgid "Explanation to the claim provided by the claiming health facility."
+msgstr "Explanation to the claim provided by the claiming health facility."
+
+
+msgid "``claim status``"
+msgstr "``claim status``"
+
+
+msgid "Claim status is shown on the very bottom right end side after the two grids. This is status which claim gets after submission."
+msgstr "Claim status is shown on the very bottom right end side after the two grids. This is status which claim gets after submission."
+
+
+msgid "**Editable information of the current claim**"
+msgstr "**Editable information of the current claim**"
+
+
+msgid "``Adjustment``"
+msgstr "``Adjustment``"
+
+
+msgid "Enter a text summarizing adjustments in claim done by a medical officer."
+msgstr "Enter a text summarizing adjustments in claim done by a medical officer."
+
+
+msgid "**Services and Items data entry grids.**"
+msgstr "**Services and Items data entry grids.**"
+
+
+msgid "``Approved Quantity (app.qty)``"
+msgstr "``Approved Quantity (app.qty)``"
+
+
+msgid "Enter a number of approved provisions of the corresponding medical service or item."
+msgstr "Enter a number of approved provisions of the corresponding medical service or item."
+
+
+msgid "``Approved Price (app. price)``"
+msgstr "``Approved Price (app. price)``"
+
+
+msgid "Enter an approved price of the corresponding medical service or item."
+msgstr "Enter an approved price of the corresponding medical service or item."
+
+
+msgid "``justification``"
+msgstr "``justification``"
+
+
+msgid "Enter justification for the entered corrections of the price and quantity of the medical service or item."
+msgstr "Enter justification for the entered corrections of the price and quantity of the medical service or item."
+
+
+msgid "``status``"
+msgstr "``status``"
+
+
+msgid "Select either the status in the claim **Passed** or **Rejected** for the corresponding medical service or item respectively."
+msgstr "Select either the status in the claim **Passed** or **Rejected** for the corresponding medical service or item respectively."
+
+
+msgid "``rejection reason``"
+msgstr "``rejection reason``"
+
+
+msgid "The last column of each of the two grids, headed with character  '**R**', gives rejection reason number for each of the claimed services or claimed items in the claim services grid or the claim items grid respectively. Rejection reasons are as follows:"
+msgstr "The last column of each of the two grids, headed with character  '**R**', gives rejection reason number for each of the claimed services or claimed items in the claim services grid or the claim items grid respectively. Rejection reasons are as follows:"
+
+
+msgid "The rejection description is displayed on the screen when the mouse pointer is above the given line (:numref:`rejection_desc_img`)"
+msgstr "The rejection description is displayed on the screen when the mouse pointer is above the given line (:numref:`rejection_desc_img`)"
+
+
+msgid "`Image  Rejection Description`"
+msgstr "`Image  Rejection Description`"
+
+
+msgid "Reason Code"
+msgstr "Reason Code"
+
+
+msgid "Reason Description"
+msgstr "Reason Description"
+
+
+msgid "-1"
+msgstr "-1"
+
+
+msgid "Rejected by a medical officer"
+msgstr "Rejected by a medical officer"
+
+
+#, fuzzy
+msgid "0"
+msgstr "10"
+
+
+msgid "Accepted"
+msgstr "Accepted"
+
+
+msgid "1"
+msgstr "1"
+
+
+msgid "Item/Service not in the registers of medical items/services"
+msgstr "Item/Service not in the registers of medical items/services"
+
+
+msgid "2"
+msgstr "2"
+
+
+msgid "Item/Service not in the pricelists associated with the health facility"
+msgstr "Item/Service not in the pricelists associated with the health facility"
+
+
+msgid "3"
+msgstr "3"
+
+
+msgid "Item/Service is not covered by an active policy of the patient"
+msgstr "Item/Service is not covered by an active policy of the patient"
+
+
+msgid "4"
+msgstr "4"
+
+
+msgid "Item/Service doesn’t comply with limitations on patients (men/women, adults/children)"
+msgstr "Item/Service doesn’t comply with limitations on patients (men/women, adults/children)"
+
+
+msgid "5"
+msgstr "5"
+
+
+msgid "Item/Service doesn’t comply with frequency constraint"
+msgstr "Item/Service doesn’t comply with frequency constraint"
+
+
+msgid "6"
+msgstr "6"
+
+
+
+msgid "N/A"
+msgstr "N/A"
+
+
+msgid "7"
+msgstr "7"
+
+
+msgid "Not valid insurance number"
+msgstr "Not valid insurance number"
+
+
+msgid "8"
+msgstr "8"
+
+
+msgid "Diagnosis code not in the current list of diagnoses"
+msgstr "Diagnosis code not in the current list of diagnoses"
+
+
+msgid "9"
+msgstr "9"
+
+
+msgid "Target date of provision of health care invalid"
+msgstr "Target date of provision of health care invalid"
+
+
+msgid "10"
+msgstr "10"
+
+
+msgid "Item/Service doesn’t comply with type of care constraint"
+msgstr "Item/Service doesn’t comply with type of care constraint"
+
+
+msgid "11"
+msgstr "11"
+
+
+msgid "Maximum number of in-patient admissions exceeded"
+msgstr "Maximum number of in-patient admissions exceeded"
+
+
+msgid "12"
+msgstr "12"
+
+
+msgid "Maximum number of out-patient visits exceeded"
+msgstr "Maximum number of out-patient visits exceeded"
+
+
+msgid "13"
+msgstr "13"
+
+
+msgid "Maximum number of consultations exceeded"
+msgstr "Maximum number of consultations exceeded"
+
+
+msgid "14"
+msgstr "14"
+
+
+msgid "Maximum number of surgeries exceeded"
+msgstr "Maximum number of surgeries exceeded"
+
+
+msgid "15"
+msgstr "15"
+
+
+msgid "Maximum number of deliveries exceeded"
+msgstr "Maximum number of deliveries exceeded"
+
+
+msgid "16"
+msgstr "16"
+
+
+msgid "Maximum number of provisions of item/service exceeded"
+msgstr "Maximum number of provisions of item/service exceeded"
+
+
+msgid "17"
+msgstr "17"
+
+
+msgid "Item/service cannot be covered within waiting period"
+msgstr "Item/service cannot be covered within waiting period"
+
+
+msgid "18"
+msgstr "18"
+
+
+msgid "19"
+msgstr "19"
+
+
+msgid "Maximum number of antenatal contacts exceeded"
+msgstr "Maximum number of antenatal contacts exceeded"
+
+
+msgid "**Saving / Reviewing**"
+msgstr "**Saving / Reviewing**"
+
+
+msgid "Once appropriate data is entered, clicking on the ``Save`` button (:numref:`mat_save`) will save the claim review and set the reivew status to ``deliver``; a message confirming that the claim has been saved will appear on the Information Panel."
+msgstr "Once appropriate data is entered, clicking on the ``Save`` button (:numref:`mat_save`) will save the claim review and set the reivew status to ``deliver``; a message confirming that the claim has been saved will appear on the Information Panel."
+
+
+msgid "**data entry validation**"
+msgstr "**data entry validation**"
+
+
+msgid "If inappropriate data is entered at the time the user clicks the ``Save`` button, an error message will appear in the Information Panel, and the data field will take the focus."
+msgstr "If inappropriate data is entered at the time the user clicks the ``Save`` button, an error message will appear in the Information Panel, and the data field will take the focus."
+
+
+
+msgid "**Back**"
+msgstr "**Back**"
+
+
+msgid "By clicking on the ``back`` button (:numref:`mat_back`), the user will be re-directed to the :ref:`Claims Overview Page  <claims-overview-page>`."
+msgstr "By clicking on the ``back`` button (:numref:`mat_back`), the user will be re-directed to the :ref:`Claims Overview Page  <claims-overview-page>`."
+
+
+msgid "Claim Feedback Page"
+msgstr "Claim Feedback Page"
+
+
+msgid "The Claim Feedback page will show read-only information of the current claim selected for feedback, on the top section of the page it has input boxes where a user with the system role Medical Officer or with a role including an access to Claims/Claim/Feedback can enter feedback on the current claim or where the user can read a feedback delivered by enrolment officers."
+msgstr "The Claim Feedback page will show read-only information of the current claim selected for feedback, on the top section of the page it has input boxes where a user with the system role Medical Officer or with a role including an access to Claims/Claim/Feedback can enter feedback on the current claim or where the user can read a feedback delivered by enrolment officers."
+
+
+msgid "`Claim Feedback Page`"
+msgstr "`Claim Feedback Page`"
+
+
+msgid "Read-only data of the feedback includes in the section **Claim** the following:"
+msgstr "Read-only data of the feedback includes in the section **Claim** the following:"
+
+
+msgid "``Health Facility``"
+msgstr "``Health Facility``"
+
+
+msgid "``Insuree``"
+msgstr "``Insuree``"
+
+
+msgid "Patient/beneficiary names and insurance number"
+msgstr "Patient/beneficiary names and insurance number"
+
+
+msgid "Type of visit covered by the claim (emergency, referal, other)"
+msgstr "Type of visit covered by the claim (emergency, referal, other)"
+
+
+msgid "Identification of a guarantee letter for prior approval of provision of claimed health care."
+msgstr "Identification of a guarantee letter for prior approval of provision of claimed health care."
+
+
+msgid "The status of the claim."
+msgstr "The status of the claim."
+
+
+msgid "The status of the claim with respect to reviewing."
+msgstr "The status of the claim with respect to reviewing."
+
+
+msgid "The status of the claim with respect to feed backing."
+msgstr "The status of the claim with respect to feed backing."
+
+
+msgid "The administrator's code and name, who was responsible for submission of the current claim."
+msgstr "The administrator's code and name, who was responsible for submission of the current claim."
+
+
+msgid "Modifiable data of the feedback included in the section **Feedback** the following"
+msgstr "Modifiable data of the feedback included in the section **Feedback** the following"
+
+
+msgid "``Feedback Date``"
+msgstr "``Feedback Date``"
+
+
+msgid "Type in a date of collection of the feedback; Clicking on the field will pop-up an easy to use, calendar selector (:numref:`cal_picker`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted."
+msgstr "Type in a date of collection of the feedback; Clicking on the field will pop-up an easy to use, calendar selector (:numref:`cal_picker`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted."
+
+
+msgid "``Enrolment Officer``"
+msgstr "``Enrolment Officer``"
+
+
+msgid "Select an enrolment officer from the list of enrolment officers, by clicking the arrow on the right side of selection field. The enrolment officer collects feedback from the patient."
+msgstr "Select an enrolment officer from the list of enrolment officers, by clicking the arrow on the right side of selection field. The enrolment officer collects feedback from the patient."
+
+
+msgid "``Care Rendered``"
+msgstr "``Care Rendered``"
+
+
+
+
+
+msgid "Select ‘Yes’ or ‘No’ from the slider"
+msgstr "Select ‘Yes’ or ‘No’ from the slider"
+
+
+msgid "``Payment Asked``"
+msgstr "``Payment Asked``"
+
+
+msgid "``Drugs Prescribed``"
+msgstr "``Drugs Prescribed``"
+
+
+msgid "``Drugs Received``"
+msgstr "``Drugs Received``"
+
+
+msgid "``Overall Assessment``"
+msgstr "``Overall Assessment``"
+
+
+msgid "Choose one level among the six levels available from the slider"
+msgstr "Choose one level among the six levels available from the slider"
+
+
+msgid "**Saving**"
+msgstr "**Saving**"
+
+
+msgid "Once all mandatory data is entered, clicking on the ``Save`` button (:numref:`mat_save`) will save the feedback on current claim. The user will be re-directed back to the :ref:`Claims Overview Page  <claims-overview-page>`\\ ; a message confirming that the feedback has been saved will appear on the Information Panel. If inappropriate data is entered or mandatory data is not entered at the time the user clicks the Save button, an error message will appear in the Information Panel, and the data field will take the focus."
+msgstr "Once all mandatory data is entered, clicking on the ``Save`` button (:numref:`mat_save`) will save the feedback on current claim. The user will be re-directed back to the :ref:`Claims Overview Page  <claims-overview-page>`\\ ; a message confirming that the feedback has been saved will appear on the Information Panel. If inappropriate data is entered or mandatory data is not entered at the time the user clicks the Save button, an error message will appear in the Information Panel, and the data field will take the focus."
+
+
+msgid "By clicking on the ``back`` button (:numref:`mat_back`), the user will be re-directed to the :ref:`Claims Overview Page  <claims-overview-page>`\\ ."
+msgstr "By clicking on the ``back`` button (:numref:`mat_back`), the user will be re-directed to the :ref:`Claims Overview Page  <claims-overview-page>`\\ ."
+

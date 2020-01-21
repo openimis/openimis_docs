@@ -1,0 +1,392 @@
+msgid ""
+msgstr "" 
+"Project-Id-Version: openIMIS \n" 
+"Report-Msgid-Bugs-To: \n" 
+"POT-Creation-Date: 2019-08-16 15:21+0200\n" 
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n" 
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n" 
+"Language-Team: LANGUAGE <LL@li.org>\n" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Upload / Download selected registers"
+msgstr "Upload / Download selected registers"
+
+msgid "Access to uploading/downloading of selected registers is restricted to the users with the the system role of IMIS Administrator ( the register of locations) or with a role including an access to Tools/Registers."
+msgstr "Access to uploading/downloading of selected registers is restricted to the users with the the system role of IMIS Administrator ( the register of locations) or with a role including an access to Tools/Registers."
+
+msgid "Navigation"
+msgstr "Navigation"
+
+msgid "All functionality for use with the administration of uploading/downloading of selected registers can be found under the main menu ``Tools``, sub menu ``Registers``."
+msgstr "All functionality for use with the administration of uploading/downloading of selected registers can be found under the main menu ``Tools``, sub menu ``Registers``."
+
+msgid "`Navigation to Registers`"
+msgstr "`Navigation to Registers`"
+
+msgid "Clicking on the sub menu ``Registers`` re-directs the current user to the `Registers Page`: (:numref:`image166`)"
+msgstr "Clicking on the sub menu ``Registers`` re-directs the current user to the `Registers Page`: (:numref:`image166`)"
+
+msgid "Registers page"
+msgstr "Registers page"
+
+msgid "`Upload Registers`"
+msgstr "`Upload Registers`"
+
+msgid "The Registers Page is divided into eight sections: (:numref:`image167`)"
+msgstr "The Registers Page is divided into eight sections: (:numref:`image167`)"
+
+msgid "Upload of the list of diagnoses"
+msgstr "Upload of the list of diagnoses"
+
+msgid "``Browse``"
+msgstr "``Browse``"
+
+msgid "Select from a file in the XML format serving as a source for uploading of the list of diagnoses. Mandatory."
+msgstr "Select from a file in the XML format serving as a source for uploading of the list of diagnoses. Mandatory."
+
+msgid "``Strategy``"
+msgstr "``Strategy``"
+
+msgid "Select a desired strategy for uploading of the list of diagnoses. The following options are available:"
+msgstr "Select a desired strategy for uploading of the list of diagnoses. The following options are available:"
+
+msgid "``Insert Only``"
+msgstr "``Insert Only``"
+
+msgid "Uploads only diagnoses that are not yet included in the list of diagnoses"
+msgstr "Uploads only diagnoses that are not yet included in the list of diagnoses"
+
+msgid "``Update Only``"
+msgstr "``Update Only``"
+
+msgid "Updates only diagnoses that are already included in the list of diagnoses"
+msgstr "Updates only diagnoses that are already included in the list of diagnoses"
+
+msgid "``Insert and Update``"
+msgstr "``Insert and Update``"
+
+msgid "Uploads diagnoses that are not yet included in the list of diagnoses and updates diagnoses that are already included in the list of diagnoses"
+msgstr "Uploads diagnoses that are not yet included in the list of diagnoses and updates diagnoses that are already included in the list of diagnoses"
+
+msgid "``Insert, Update and Delete``"
+msgstr "``Insert, Update and Delete``"
+
+msgid "Uploads diagnoses that are not yet included in the list of diagnoses, updates diagnoses that are already included in the list of diagnoses and deletes diagnose that are not included in the source file"
+msgstr "Uploads diagnoses that are not yet included in the list of diagnoses, updates diagnoses that are already included in the list of diagnoses and deletes diagnose that are not included in the source file"
+
+msgid "``Dry Run``"
+msgstr "``Dry Run``"
+
+msgid "If checked, only diagnostics is provided without real uploading."
+msgstr "If checked, only diagnostics is provided without real uploading."
+
+msgid "``Upload``"
+msgstr "``Upload``"
+
+msgid "By clicking on the ``Upload`` button, a prompt popup message will appear, require a user to agree or disagree:(:ref:`image_upload_diagnoses`"
+msgstr "By clicking on the ``Upload`` button, a prompt popup message will appear, require a user to agree or disagree:(:ref:`image_upload_diagnoses`"
+
+msgid "If user agrees the selected file containing diagnoses will be uploaded."
+msgstr "If user agrees the selected file containing diagnoses will be uploaded."
+
+msgid "`Upload Diagnoses`"
+msgstr "`Upload Diagnoses`"
+
+msgid "A statistics on the number of inserted/updated diagnoses appears:"
+msgstr "A statistics on the number of inserted/updated diagnoses appears:"
+
+msgid "(:ref:`image_upload_diagnoses_statistics`)."
+msgstr "(:ref:`image_upload_diagnoses_statistics`)."
+
+msgid "`Statistics on uploaded diagnoses`"
+msgstr "`Statistics on uploaded diagnoses`"
+
+msgid "If there are errors an error protocol appears: (:ref:`image_upload_diagnoses_error`)"
+msgstr "If there are errors an error protocol appears: (:ref:`image_upload_diagnoses_error`)"
+
+msgid "`Error protocol on uploaded diagnoses`"
+msgstr "`Error protocol on uploaded diagnoses`"
+
+msgid "*DTD definition of the XML file for uploading/downloading of diagnoses:*"
+msgstr "*DTD definition of the XML file for uploading/downloading of diagnoses:*"
+
+msgid "<!DOCTYPE Diagnoses> ["
+msgstr "<!DOCTYPE Diagnoses> ["
+
+msgid "<!ELEMENT Diagnoses (Diagnosis)*>"
+msgstr "<!ELEMENT Diagnoses (Diagnosis)*>"
+
+msgid "<!ELEMENT Diagnosis (DiagnosisCode, DiagnosisName)>"
+msgstr "<!ELEMENT Diagnosis (DiagnosisCode, DiagnosisName)>"
+
+msgid "< !ELEMENT DiagnosisCode (#CDATA)>"
+msgstr "< !ELEMENT DiagnosisCode (#CDATA)>"
+
+msgid "< !ELEMENT DiagnosisName (#CDATA)>"
+msgstr "< !ELEMENT DiagnosisName (#CDATA)>"
+
+msgid "]>"
+msgstr "]>"
+
+msgid "Upload of the register of locations"
+msgstr "Upload of the register of locations"
+
+msgid "Select from a file in the XML format serving as a source for uploading of the register of locations. Mandatory."
+msgstr "Select from a file in the XML format serving as a source for uploading of the register of locations. Mandatory."
+
+msgid "Select a desired strategy for uploading of the register of locations. The following options are available:"
+msgstr "Select a desired strategy for uploading of the register of locations. The following options are available:"
+
+msgid "Uploads only locations that are not yet included in the register of locations"
+msgstr "Uploads only locations that are not yet included in the register of locations"
+
+msgid "Updates only locations that are already included in the register of locations"
+msgstr "Updates only locations that are already included in the register of locations"
+
+msgid "Uploads locations that are not yet included in the register of locations and updates locations that are already included in the register of locations"
+msgstr "Uploads locations that are not yet included in the register of locations and updates locations that are already included in the register of locations"
+
+msgid "If checked only diagnostics is provided without real uploading."
+msgstr "If checked only diagnostics is provided without real uploading."
+
+msgid "By clicking on the Upload button, a prompt popup message will appear, require a user to agree or disagree (:ref:`image_upload_locations`). If user agrees the selected file containing locations will be uploaded."
+msgstr "By clicking on the Upload button, a prompt popup message will appear, require a user to agree or disagree (:ref:`image_upload_locations`). If user agrees the selected file containing locations will be uploaded."
+
+msgid "`Upload Locations`"
+msgstr "`Upload Locations`"
+
+msgid "A statistics on the number of inserted/updated locations appears (:ref:`image_upload_locations_statistics`)"
+msgstr "A statistics on the number of inserted/updated locations appears (:ref:`image_upload_locations_statistics`)"
+
+msgid "`Upload Locations statistics`"
+msgstr "`Upload Locations statistics`"
+
+msgid "If there are errors an error protocol appears (:ref:`image_upload_locations_error`)"
+msgstr "If there are errors an error protocol appears (:ref:`image_upload_locations_error`)"
+
+msgid "`Upload Locations error`"
+msgstr "`Upload Locations error`"
+
+msgid "*DTD definition of the XML file for uploading/downloading of locations:*"
+msgstr "*DTD definition of the XML file for uploading/downloading of locations:*"
+
+msgid "<!DOCTYPE Locations> ["
+msgstr "<!DOCTYPE Locations> ["
+
+msgid "<!ELEMENT Locations (Regions, Districts, Municipalities, Villages)>"
+msgstr "<!ELEMENT Locations (Regions, Districts, Municipalities, Villages)>"
+
+msgid "<!ELEMENT Regions (Region*)>"
+msgstr "<!ELEMENT Regions (Region*)>"
+
+msgid "<!ELEMENT Region (RegionCode, RegionName)>"
+msgstr "<!ELEMENT Region (RegionCode, RegionName)>"
+
+msgid "< !ELEMENT RegionCode (#CDATA)>"
+msgstr "< !ELEMENT RegionCode (#CDATA)>"
+
+msgid "< !ELEMENT RegionName (#CDATA)>"
+msgstr "< !ELEMENT RegionName (#CDATA)>"
+
+msgid "<!ELEMENT Districts (District*)>"
+msgstr "<!ELEMENT Districts (District*)>"
+
+msgid "<!ELEMENT District (RegionCode,DistrictCode, DistrictName)>"
+msgstr "<!ELEMENT District (RegionCode,DistrictCode, DistrictName)>"
+
+msgid "< !ELEMENT DistrictCode (#CDATA)>"
+msgstr "< !ELEMENT DistrictCode (#CDATA)>"
+
+msgid "< !ELEMENT DistrictName (#CDATA)>"
+msgstr "< !ELEMENT DistrictName (#CDATA)>"
+
+msgid "<!ELEMENT Municipalities (Municipality*)>"
+msgstr "<!ELEMENT Municipalities (Municipality*)>"
+
+msgid "<!ELEMENT Municipality (DistrictCode,MunicipalityCode, MunicipalityName)>"
+msgstr "<!ELEMENT Municipality (DistrictCode,MunicipalityCode, MunicipalityName)>"
+
+msgid "< !ELEMENT MunicipalityCode (#CDATA)>"
+msgstr "< !ELEMENT MunicipalityCode (#CDATA)>"
+
+msgid "< !ELEMENT MunicipalityName (#CDATA)>"
+msgstr "< !ELEMENT MunicipalityName (#CDATA)>"
+
+msgid "<!ELEMENT Villages (Village*)>"
+msgstr "<!ELEMENT Villages (Village*)>"
+
+msgid "<!ELEMENT Village (MunicipalityCode,VillageCode, VillageName,MalePopulation ?, FemalePopulation ?, OtherPopulation,Families ?)>"
+msgstr "<!ELEMENT Village (MunicipalityCode,VillageCode, VillageName,MalePopulation ?, FemalePopulation ?, OtherPopulation,Families ?)>"
+
+msgid "< !ELEMENT VillageCode (#CDATA)>"
+msgstr "< !ELEMENT VillageCode (#CDATA)>"
+
+msgid "< !ELEMENT VillageName (#CDATA)>"
+msgstr "< !ELEMENT VillageName (#CDATA)>"
+
+msgid "< !ELEMENT MalePopulation (#CDATA)>"
+msgstr "< !ELEMENT MalePopulation (#CDATA)>"
+
+msgid "< !ELEMENT FemalePopulation (#CDATA)>"
+msgstr "< !ELEMENT FemalePopulation (#CDATA)>"
+
+msgid "< !ELEMENT OtherPopulation (#CDATA)>"
+msgstr "< !ELEMENT OtherPopulation (#CDATA)>"
+
+msgid "< !ELEMENT Families (#CDATA)>"
+msgstr "< !ELEMENT Families (#CDATA)>"
+
+msgid "Upload of the register of health facilities"
+msgstr "Upload of the register of health facilities"
+
+msgid "Select from a file in the XML format serving as a source for uploading of the register of health facilities. Mandatory."
+msgstr "Select from a file in the XML format serving as a source for uploading of the register of health facilities. Mandatory."
+
+msgid "Select a desired strategy for uploading of the register of health facilities. The following options are available:"
+msgstr "Select a desired strategy for uploading of the register of health facilities. The following options are available:"
+
+msgid "Uploads only health facilities that are not yet included in the register of health facilities"
+msgstr "Uploads only health facilities that are not yet included in the register of health facilities"
+
+msgid "Updates only health facilities that are already included in the register of health facilities"
+msgstr "Updates only health facilities that are already included in the register of health facilities"
+
+msgid "Uploads health facilities that are not yet included in the register of health facilities and updates health facilities that are already included in the register of health facilities"
+msgstr "Uploads health facilities that are not yet included in the register of health facilities and updates health facilities that are already included in the register of health facilities"
+
+msgid "By clicking on the Upload button, a prompt popup message will appear, require a user to agree or disagree: (:ref:`image_upload_facilities`) If user agrees the selected file containing locations will be uploaded."
+msgstr "By clicking on the Upload button, a prompt popup message will appear, require a user to agree or disagree: (:ref:`image_upload_facilities`) If user agrees the selected file containing locations will be uploaded."
+
+msgid "`Upload Health Facilities`"
+msgstr "`Upload Health Facilities`"
+
+msgid "A statistics on the number of inserted/updated health facilities appears."
+msgstr "A statistics on the number of inserted/updated health facilities appears."
+
+msgid "If there are errors an error protocol appears."
+msgstr "If there are errors an error protocol appears."
+
+msgid "*DTD definition of the XML file for uploading/downloading of health facilities:*"
+msgstr "*DTD definition of the XML file for uploading/downloading of health facilities:*"
+
+msgid "<!DOCTYPE HealthFacilities> ["
+msgstr "<!DOCTYPE HealthFacilities> ["
+
+msgid "<!ELEMENT HealthFacilities (HealthFacilityDetails,CatchmentsDetails)>"
+msgstr "<!ELEMENT HealthFacilities (HealthFacilityDetails,CatchmentsDetails)>"
+
+msgid "<!ELEMENT HealthFacilityDetails (HealthFacility)*>"
+msgstr "<!ELEMENT HealthFacilityDetails (HealthFacility)*>"
+
+msgid "<!ELEMENT HealthFacility (LegalForm, Level, Sublevel, Code, Name, Address, DistrictCode, DistrictName, Phone, Fax, Email, CareType, AccountCode, ItemPriceListName. ServicePricelistName)>"
+msgstr "<!ELEMENT HealthFacility (LegalForm, Level, Sublevel, Code, Name, Address, DistrictCode, DistrictName, Phone, Fax, Email, CareType, AccountCode, ItemPriceListName. ServicePricelistName)>"
+
+msgid "<!ELEMENT LegalForm (D\\| C|G|P)>"
+msgstr "<!ELEMENT LegalForm (D\\| C|G|P)>"
+
+msgid "<!ELEMENT Level (D|C|H)>"
+msgstr "<!ELEMENT Level (D|C|H)>"
+
+msgid "<!ELEMENT SubLevel (I|N|R)>"
+msgstr "<!ELEMENT SubLevel (I|N|R)>"
+
+msgid "<!ELEMENT Code (#CDATA)>"
+msgstr "<!ELEMENT Code (#CDATA)>"
+
+msgid "<!ELEMENT Name (#CDATA)>"
+msgstr "<!ELEMENT Name (#CDATA)>"
+
+msgid "<!ELEMENT Address (#CDATA)>"
+msgstr "<!ELEMENT Address (#CDATA)>"
+
+msgid "<!ELEMENT DistrictCode (#CDATA)>"
+msgstr "<!ELEMENT DistrictCode (#CDATA)>"
+
+msgid "<!ELEMENT DistrictName (#CDATA)>"
+msgstr "<!ELEMENT DistrictName (#CDATA)>"
+
+msgid "<!ELEMENT Phone (#CDATA)>"
+msgstr "<!ELEMENT Phone (#CDATA)>"
+
+msgid "<!ELEMENT Fax (#CDATA)>"
+msgstr "<!ELEMENT Fax (#CDATA)>"
+
+msgid "<!ELEMENT Email (#CDATA)>"
+msgstr "<!ELEMENT Email (#CDATA)>"
+
+msgid "<!ELEMENT CareType (I|N|B)>"
+msgstr "<!ELEMENT CareType (I|N|B)>"
+
+msgid "<!ELEMENT AccountCode (#CDATA)>"
+msgstr "<!ELEMENT AccountCode (#CDATA)>"
+
+msgid "<!ELEMENT ItemPriceListName (#CDATA)>"
+msgstr "<!ELEMENT ItemPriceListName (#CDATA)>"
+
+msgid "<!ELEMENT ServicePriceListName (#CDATA)>"
+msgstr "<!ELEMENT ServicePriceListName (#CDATA)>"
+
+msgid "<!ELEMENT CatchmentsDetails(Catchment*)>"
+msgstr "<!ELEMENT CatchmentsDetails(Catchment*)>"
+
+msgid "<!ELEMENT Catchment (HFCode,VillageCode, VillageName, Percentage)>"
+msgstr "<!ELEMENT Catchment (HFCode,VillageCode, VillageName, Percentage)>"
+
+msgid "<!ELEMENT HFCode (#CDATA)>"
+msgstr "<!ELEMENT HFCode (#CDATA)>"
+
+msgid "<!ELEMENT VillageCode (#CDATA)>"
+msgstr "<!ELEMENT VillageCode (#CDATA)>"
+
+msgid "<!ELEMENT VillageName (#CDATA)>"
+msgstr "<!ELEMENT VillageName (#CDATA)>"
+
+msgid "<!ELEMENT Percentage (#CDATA)>"
+msgstr "<!ELEMENT Percentage (#CDATA)>"
+
+msgid "Download of the list diagnoses"
+msgstr "Download of the list diagnoses"
+
+msgid "``Download``"
+msgstr "``Download``"
+
+msgid "By clicking on the Download button, a prompt popup message will appear, require a user to specify whether the XML file with downloaded list of diagnoses should be opened or saved or canceled: (:ref:`image_download_diagnoses`)"
+msgstr "By clicking on the Download button, a prompt popup message will appear, require a user to specify whether the XML file with downloaded list of diagnoses should be opened or saved or canceled: (:ref:`image_download_diagnoses`)"
+
+msgid "`Download Diagnoses`"
+msgstr "`Download Diagnoses`"
+
+msgid "Download of the register of locations"
+msgstr "Download of the register of locations"
+
+msgid "By clicking on the Download button, a prompt popup message will appear, require a user to specify whether the XML file with downloaded register of locations should be opened or saved or canceled (:ref:`image_download_locations`)"
+msgstr "By clicking on the Download button, a prompt popup message will appear, require a user to specify whether the XML file with downloaded register of locations should be opened or saved or canceled (:ref:`image_download_locations`)"
+
+msgid "`Download locations`"
+msgstr "`Download locations`"
+
+msgid "Download of the register of health facilities"
+msgstr "Download of the register of health facilities"
+
+msgid "By clicking on the Download button, a prompt popup message will appear, require a user to specify whether the XML file with downloaded  canceled (:ref:`image_download_facilities`)"
+msgstr "By clicking on the Download button, a prompt popup message will appear, require a user to specify whether the XML file with downloaded  canceled (:ref:`image_download_facilities`)"
+
+msgid "`Download facilities`"
+msgstr "`Download facilities`"
+
+msgid "Buttons"
+msgstr "Buttons"
+
+msgid "``Cancel``"
+msgstr "``Cancel``"
+
+msgid "By clicking on ``Cancel`` button, user will be re-directed to the Home page."
+msgstr "By clicking on ``Cancel`` button, user will be re-directed to the Home page."
+
+msgid "Information Panel"
+msgstr "Information Panel"
+
+msgid "The Information Panel is used to display messages back to the user."
+msgstr "The Information Panel is used to display messages back to the user."

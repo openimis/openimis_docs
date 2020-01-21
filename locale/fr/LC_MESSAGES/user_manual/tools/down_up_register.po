@@ -1,0 +1,503 @@
+msgid ""
+msgstr "" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n" 
+"X-Generator: lokalise.com\n" 
+"Project-Id-Version: openIMIS docs\n" 
+"PO-Revision-Date: 2020-01-09 10:45\n" 
+"Last-Translator: lokalise.com\n" 
+"Language-Team: lokalise.com\n\n" 
+"Language: fr\n"
+
+#, fuzzy
+msgid "Upload / Download selected registers"
+msgstr "Téléchargement / téléchargement des registres sélectionnés"
+
+#, fuzzy
+msgid "Access to uploading/downloading of selected registers is restricted to the users with the the system role of IMIS Administrator ( the register of locations) or with a role including an access to Tools/Registers."
+msgstr "L'accès au téléchargement / téléchargement des registres sélectionnés est limité aux utilisateurs avec le rôle système d'Administrateur IMIS (le registre des emplacements) ou avec un rôle comprenant un accès aux Outils / Registres."
+
+#, fuzzy
+msgid "Navigation"
+msgstr "La navigation"
+
+#, fuzzy
+msgid "All functionality for use with the administration of uploading/downloading of selected registers can be found under the main menu ``Tools``, sub menu ``Registers``."
+msgstr "Toutes les fonctionnalités à utiliser avec l'administration du téléchargement / téléchargement des registres sélectionnés se trouvent dans le menu principal ``Outils``, sous-menu ``Registres``."
+
+#, fuzzy
+msgid "`Navigation to Registers`"
+msgstr "`Navigation vers les registres`"
+
+#, fuzzy
+msgid "Clicking on the sub menu ``Registers`` re-directs the current user to the `Registers Page`: (:numref:`image166`)"
+msgstr "Cliquer sur le sous-menu ``Registres`` redirige l'utilisateur actuel vers la `Page Registres`: (: numref:` image166`)"
+
+#, fuzzy
+msgid "Registers page"
+msgstr "Page des registres"
+
+#, fuzzy
+msgid "`Upload Registers`"
+msgstr "`Importer des registres`"
+
+#, fuzzy
+msgid "The Registers Page is divided into eight sections: (:numref:`image167`)"
+msgstr "La page des registres est divisée en huit sections: (:numref:`image167`)"
+
+#, fuzzy
+msgid "Upload of the list of diagnoses"
+msgstr "Téléchargement de la liste des diagnostics"
+
+#, fuzzy
+msgid "``Browse``"
+msgstr "`` Parcourir``"
+
+#, fuzzy
+msgid "Select from a file in the XML format serving as a source for uploading of the list of diagnoses. Mandatory."
+msgstr "Sélectionnez dans un fichier au format XML servant de source pour le téléchargement de la liste des diagnostics. Obligatoire."
+
+#, fuzzy
+msgid "``Strategy``"
+msgstr "``Stratégie``"
+
+#, fuzzy
+msgid "Select a desired strategy for uploading of the list of diagnoses. The following options are available:"
+msgstr "Sélectionnez la stratégie souhaitée pour le téléchargement de la liste des diagnostics. Les options suivantes sont disponibles:"
+
+#, fuzzy
+msgid "``Insert Only``"
+msgstr "`` Insérer uniquement``"
+
+#, fuzzy
+msgid "Uploads only diagnoses that are not yet included in the list of diagnoses"
+msgstr "Télécharge uniquement les diagnostics qui ne sont pas encore inclus dans la liste des diagnostics"
+
+#, fuzzy
+msgid "``Update Only``"
+msgstr "``Mettre à jour uniquement``"
+
+#, fuzzy
+msgid "Updates only diagnoses that are already included in the list of diagnoses"
+msgstr "Met à jour uniquement les diagnostics déjà inclus dans la liste des diagnostics"
+
+#, fuzzy
+msgid "``Insert and Update``"
+msgstr "``Insérer et mettre à jour``"
+
+#, fuzzy
+msgid "Uploads diagnoses that are not yet included in the list of diagnoses and updates diagnoses that are already included in the list of diagnoses"
+msgstr "Télécharge les diagnostics qui ne sont pas encore inclus dans la liste des diagnostics et met à jour les diagnostics qui sont déjà inclus dans la liste des diagnostics"
+
+#, fuzzy
+msgid "``Insert, Update and Delete``"
+msgstr "``Insérer, mettre à jour et supprimer``"
+
+#, fuzzy
+msgid "Uploads diagnoses that are not yet included in the list of diagnoses, updates diagnoses that are already included in the list of diagnoses and deletes diagnose that are not included in the source file"
+msgstr "Télécharge les diagnostics qui ne sont pas encore inclus dans la liste des diagnostics, met à jour les diagnostics qui sont déjà inclus dans la liste des diagnostics et supprime les diagnostics qui ne sont pas inclus dans le fichier source"
+
+#, fuzzy
+msgid "``Dry Run``"
+msgstr "``Dry Run``"
+
+#, fuzzy
+msgid "If checked, only diagnostics is provided without real uploading."
+msgstr "Si cette case est cochée, seuls les diagnostics sont fournis sans véritable téléchargement."
+
+#, fuzzy
+msgid "``Upload``"
+msgstr "``Télécharger``"
+
+#, fuzzy
+msgid "By clicking on the ``Upload`` button, a prompt popup message will appear, require a user to agree or disagree:(:ref:`image_upload_diagnoses`"
+msgstr "En cliquant sur le bouton ``Télécharger``, un message contextuel apparaîtra, demandant à un utilisateur d'accepter ou de refuser :(:ref:`image_upload_diagnoses`"
+
+#, fuzzy
+msgid "If user agrees the selected file containing diagnoses will be uploaded."
+msgstr "Si l'utilisateur accepte, le fichier sélectionné contenant les diagnostics sera téléchargé."
+
+#, fuzzy
+msgid "`Upload Diagnoses`"
+msgstr "`Télécharger les diagnostics`"
+
+#, fuzzy
+msgid "A statistics on the number of inserted/updated diagnoses appears:"
+msgstr "Une statistique sur le nombre de diagnostics insérés / mis à jour apparaît:"
+
+#, fuzzy
+msgid "(:ref:`image_upload_diagnoses_statistics`)."
+msgstr "(: réf: `image_upload_diagnoses_statistics`)."
+
+#, fuzzy
+msgid "`Statistics on uploaded diagnoses`"
+msgstr "`Statistiques sur les diagnostics téléchargés`"
+
+#, fuzzy
+msgid "If there are errors an error protocol appears: (:ref:`image_upload_diagnoses_error`)"
+msgstr "S'il y a des erreurs, un protocole d'erreur apparaît: (:ref:`image_upload_diagnoses_error`)"
+
+#, fuzzy
+msgid "`Error protocol on uploaded diagnoses`"
+msgstr "`Protocole d'erreur sur les diagnostics téléchargés`"
+
+#, fuzzy
+msgid "*DTD definition of the XML file for uploading/downloading of diagnoses:*"
+msgstr "* Définition DTD du fichier XML pour le chargement / téléchargement des diagnostics: *"
+
+#, fuzzy
+msgid "<!DOCTYPE Diagnoses> ["
+msgstr "<!DOCTYPE Diagnoses> ["
+
+#, fuzzy
+msgid "<!ELEMENT Diagnoses (Diagnosis)*>"
+msgstr ""
+
+#, fuzzy
+msgid "<!ELEMENT Diagnosis (DiagnosisCode, DiagnosisName)>"
+msgstr ""
+
+#, fuzzy
+msgid "< !ELEMENT DiagnosisCode (#CDATA)>"
+msgstr ""
+
+#, fuzzy
+msgid "< !ELEMENT DiagnosisName (#CDATA)>"
+msgstr ""
+
+#, fuzzy
+msgid "]>"
+msgstr "] >"
+
+#, fuzzy
+msgid "Upload of the register of locations"
+msgstr "Téléchargement du registre des emplacements"
+
+#, fuzzy
+msgid "Select from a file in the XML format serving as a source for uploading of the register of locations. Mandatory."
+msgstr "Sélectionnez dans un fichier au format XML servant de source pour le téléchargement du registre des emplacements. Obligatoire."
+
+#, fuzzy
+msgid "Select a desired strategy for uploading of the register of locations. The following options are available:"
+msgstr "Sélectionnez la stratégie souhaitée pour le téléchargement du registre des emplacements. Les options suivantes sont disponibles:"
+
+#, fuzzy
+msgid "Uploads only locations that are not yet included in the register of locations"
+msgstr "Télécharge uniquement les emplacements qui ne sont pas encore inclus dans le registre des emplacements"
+
+#, fuzzy
+msgid "Updates only locations that are already included in the register of locations"
+msgstr "Met à jour uniquement les emplacements déjà inclus dans le registre des emplacements"
+
+#, fuzzy
+msgid "Uploads locations that are not yet included in the register of locations and updates locations that are already included in the register of locations"
+msgstr "Télécharge des emplacements qui ne sont pas encore inclus dans le registre des emplacements et met à jour les emplacements qui sont déjà inclus dans le registre des emplacements"
+
+#, fuzzy
+msgid "If checked only diagnostics is provided without real uploading."
+msgstr "Si coché, seuls les diagnostics sont fournis sans véritable téléchargement."
+
+#, fuzzy
+msgid "By clicking on the Upload button, a prompt popup message will appear, require a user to agree or disagree (:ref:`image_upload_locations`). If user agrees the selected file containing locations will be uploaded."
+msgstr "En cliquant sur le bouton Télécharger, un message contextuel apparaîtra, demandant à un utilisateur d'accepter ou de refuser (:ref:`image_upload_locations`). Si l'utilisateur accepte, le fichier sélectionné contenant les emplacements sera téléchargé."
+
+#, fuzzy
+msgid "`Upload Locations`"
+msgstr "`Emplacements de téléchargement`"
+
+#, fuzzy
+msgid "A statistics on the number of inserted/updated locations appears (:ref:`image_upload_locations_statistics`)"
+msgstr "Une statistique sur le nombre d'emplacements insérés / mis à jour apparaît (:ref:`image_upload_locations_statistics`)"
+
+#, fuzzy
+msgid "`Upload Locations statistics`"
+msgstr "`Télécharger les statistiques de localisation`"
+
+#, fuzzy
+msgid "If there are errors an error protocol appears (:ref:`image_upload_locations_error`)"
+msgstr "S'il y a des erreurs, un protocole d'erreur apparaît (:ref:`image_upload_locations_error`)"
+
+#, fuzzy
+msgid "`Upload Locations error`"
+msgstr "`Erreur de téléchargement des emplacements`"
+
+#, fuzzy
+msgid "*DTD definition of the XML file for uploading/downloading of locations:*"
+msgstr "* Définition DTD du fichier XML pour le chargement / téléchargement des emplacements: *"
+
+#, fuzzy
+msgid "<!DOCTYPE Locations> ["
+msgstr "<!DOCTYPE Locations> ["
+
+#, fuzzy
+msgid "<!ELEMENT Locations (Regions, Districts, Municipalities, Villages)>"
+msgstr ""
+
+#, fuzzy
+msgid "<!ELEMENT Regions (Region*)>"
+msgstr ""
+
+#, fuzzy
+msgid "<!ELEMENT Region (RegionCode, RegionName)>"
+msgstr ""
+
+#, fuzzy
+msgid "< !ELEMENT RegionCode (#CDATA)>"
+msgstr ""
+
+#, fuzzy
+msgid "< !ELEMENT RegionName (#CDATA)>"
+msgstr ""
+
+#, fuzzy
+msgid "<!ELEMENT Districts (District*)>"
+msgstr ""
+
+#, fuzzy
+msgid "<!ELEMENT District (RegionCode,DistrictCode, DistrictName)>"
+msgstr ""
+
+#, fuzzy
+msgid "< !ELEMENT DistrictCode (#CDATA)>"
+msgstr ""
+
+#, fuzzy
+msgid "< !ELEMENT DistrictName (#CDATA)>"
+msgstr ""
+
+#, fuzzy
+msgid "<!ELEMENT Municipalities (Municipality*)>"
+msgstr ""
+
+#, fuzzy
+msgid "<!ELEMENT Municipality (DistrictCode,MunicipalityCode, MunicipalityName)>"
+msgstr ""
+
+#, fuzzy
+msgid "< !ELEMENT MunicipalityCode (#CDATA)>"
+msgstr ""
+
+#, fuzzy
+msgid "< !ELEMENT MunicipalityName (#CDATA)>"
+msgstr ""
+
+#, fuzzy
+msgid "<!ELEMENT Villages (Village*)>"
+msgstr ""
+
+#, fuzzy
+msgid "<!ELEMENT Village (MunicipalityCode,VillageCode, VillageName,MalePopulation ?, FemalePopulation ?, OtherPopulation,Families ?)>"
+msgstr ""
+
+#, fuzzy
+msgid "< !ELEMENT VillageCode (#CDATA)>"
+msgstr ""
+
+#, fuzzy
+msgid "< !ELEMENT VillageName (#CDATA)>"
+msgstr ""
+
+#, fuzzy
+msgid "< !ELEMENT MalePopulation (#CDATA)>"
+msgstr ""
+
+#, fuzzy
+msgid "< !ELEMENT FemalePopulation (#CDATA)>"
+msgstr ""
+
+#, fuzzy
+msgid "< !ELEMENT OtherPopulation (#CDATA)>"
+msgstr ""
+
+#, fuzzy
+msgid "< !ELEMENT Families (#CDATA)>"
+msgstr ""
+
+#, fuzzy
+msgid "Upload of the register of health facilities"
+msgstr "Téléchargement du registre des formations sanitaires"
+
+#, fuzzy
+msgid "Select from a file in the XML format serving as a source for uploading of the register of health facilities. Mandatory."
+msgstr "Sélectionnez dans un fichier au format XML servant de source pour le téléchargement du registre des établissements de santé. Obligatoire."
+
+#, fuzzy
+msgid "Select a desired strategy for uploading of the register of health facilities. The following options are available:"
+msgstr "Sélectionnez la stratégie souhaitée pour le téléchargement du registre des établissements de santé. Les options suivantes sont disponibles:"
+
+#, fuzzy
+msgid "Uploads only health facilities that are not yet included in the register of health facilities"
+msgstr "Télécharge uniquement les établissements de santé qui ne sont pas encore inscrits dans le registre des établissements de santé"
+
+#, fuzzy
+msgid "Updates only health facilities that are already included in the register of health facilities"
+msgstr "Met à jour uniquement les établissements de santé déjà inclus dans le registre des établissements de santé"
+
+#, fuzzy
+msgid "Uploads health facilities that are not yet included in the register of health facilities and updates health facilities that are already included in the register of health facilities"
+msgstr "Télécharge les établissements de santé qui ne sont pas encore inscrits dans le registre des établissements de santé et met à jour les établissements de santé qui sont déjà inscrits dans le registre des établissements de santé"
+
+#, fuzzy
+msgid "By clicking on the Upload button, a prompt popup message will appear, require a user to agree or disagree: (:ref:`image_upload_facilities`) If user agrees the selected file containing locations will be uploaded."
+msgstr "En cliquant sur le bouton Télécharger, un message contextuel apparaîtra, demandant à un utilisateur d'accepter ou de refuser: (:ref:`image_upload_facilities`) Si l'utilisateur accepte le fichier sélectionné contenant les emplacements sera téléchargé."
+
+#, fuzzy
+msgid "`Upload Health Facilities`"
+msgstr "`Télécharger les établissements de santé`"
+
+#, fuzzy
+msgid "A statistics on the number of inserted/updated health facilities appears."
+msgstr "Une statistique sur le nombre d'établissements de santé insérés / mis à jour apparaît."
+
+#, fuzzy
+msgid "If there are errors an error protocol appears."
+msgstr "S'il y a des erreurs, un protocole d'erreur apparaît."
+
+#, fuzzy
+msgid "*DTD definition of the XML file for uploading/downloading of health facilities:*"
+msgstr "* Définition DTD du fichier XML pour le chargement / téléchargement des formations sanitaires: *"
+
+#, fuzzy
+msgid "<!DOCTYPE HealthFacilities> ["
+msgstr "<!DOCTYPE HealthFacilities> ["
+
+#, fuzzy
+msgid "<!ELEMENT HealthFacilities (HealthFacilityDetails,CatchmentsDetails)>"
+msgstr ""
+
+#, fuzzy
+msgid "<!ELEMENT HealthFacilityDetails (HealthFacility)*>"
+msgstr ""
+
+#, fuzzy
+msgid "<!ELEMENT HealthFacility (LegalForm, Level, Sublevel, Code, Name, Address, DistrictCode, DistrictName, Phone, Fax, Email, CareType, AccountCode, ItemPriceListName. ServicePricelistName)>"
+msgstr ""
+
+#, fuzzy
+msgid "<!ELEMENT LegalForm (D\\| C|G|P)>"
+msgstr ""
+
+#, fuzzy
+msgid "<!ELEMENT Level (D|C|H)>"
+msgstr ""
+
+#, fuzzy
+msgid "<!ELEMENT SubLevel (I|N|R)>"
+msgstr ""
+
+#, fuzzy
+msgid "<!ELEMENT Code (#CDATA)>"
+msgstr ""
+
+#, fuzzy
+msgid "<!ELEMENT Name (#CDATA)>"
+msgstr ""
+
+msgid "<!ELEMENT Address (#CDATA)>"
+msgstr "<!ELEMENT Address (#CDATA)>"
+
+msgid "<!ELEMENT DistrictCode (#CDATA)>"
+msgstr "<!ELEMENT DistrictCode (#CDATA)>"
+
+msgid "<!ELEMENT DistrictName (#CDATA)>"
+msgstr "<!ELEMENT DistrictName (#CDATA)>"
+
+msgid "<!ELEMENT Phone (#CDATA)>"
+msgstr "<!ELEMENT Phone (#CDATA)>"
+
+msgid "<!ELEMENT Fax (#CDATA)>"
+msgstr "<!ELEMENT Fax (#CDATA)>"
+
+msgid "<!ELEMENT Email (#CDATA)>"
+msgstr "<!ELEMENT Email (#CDATA)>"
+
+msgid "<!ELEMENT CareType (I|N|B)>"
+msgstr "<!ELEMENT CareType (I|N|B)>"
+
+msgid "<!ELEMENT AccountCode (#CDATA)>"
+msgstr "<!ELEMENT AccountCode (#CDATA)>"
+
+msgid "<!ELEMENT ItemPriceListName (#CDATA)>"
+msgstr "<!ELEMENT ItemPriceListName (#CDATA)>"
+
+msgid "<!ELEMENT ServicePriceListName (#CDATA)>"
+msgstr "<!ELEMENT ServicePriceListName (#CDATA)>"
+
+msgid "<!ELEMENT CatchmentsDetails(Catchment*)>"
+msgstr "<!ELEMENT CatchmentsDetails(Catchment*)>"
+
+msgid "<!ELEMENT Catchment (HFCode,VillageCode, VillageName, Percentage)>"
+msgstr "<!ELEMENT Catchment (HFCode,VillageCode, VillageName, Percentage)>"
+
+msgid "<!ELEMENT HFCode (#CDATA)>"
+msgstr "<!ELEMENT HFCode (#CDATA)>"
+
+msgid "<!ELEMENT VillageCode (#CDATA)>"
+msgstr "<!ELEMENT VillageCode (#CDATA)>"
+
+msgid "<!ELEMENT VillageName (#CDATA)>"
+msgstr "<!ELEMENT VillageName (#CDATA)>"
+
+msgid "<!ELEMENT Percentage (#CDATA)>"
+msgstr "<!ELEMENT Percentage (#CDATA)>"
+
+#, fuzzy
+msgid "Download of the list diagnoses"
+msgstr "Téléchargement de la liste des diagnostics"
+
+#, fuzzy
+msgid "``Download``"
+msgstr "``Télécharger``"
+
+#, fuzzy
+msgid "By clicking on the Download button, a prompt popup message will appear, require a user to specify whether the XML file with downloaded list of diagnoses should be opened or saved or canceled: (:ref:`image_download_diagnoses`)"
+msgstr "En cliquant sur le bouton Télécharger, un message contextuel apparaîtra, demandant à un utilisateur de spécifier si le fichier XML avec la liste de diagnostics téléchargée doit être ouvert ou enregistré ou annulé: (:ref:`image_download_diagnoses`)"
+
+#, fuzzy
+msgid "`Download Diagnoses`"
+msgstr "`Télécharger les diagnostics`"
+
+#, fuzzy
+msgid "Download of the register of locations"
+msgstr "Téléchargement du registre des lieux"
+
+#, fuzzy
+msgid "By clicking on the Download button, a prompt popup message will appear, require a user to specify whether the XML file with downloaded register of locations should be opened or saved or canceled (:ref:`image_download_locations`)"
+msgstr "En cliquant sur le bouton Télécharger, un message contextuel apparaîtra, demandant à un utilisateur de spécifier si le fichier XML avec le registre des emplacements téléchargé doit être ouvert ou enregistré ou annulé (:ref:`image_download_locations`)"
+
+#, fuzzy
+msgid "`Download locations`"
+msgstr "`Emplacements de téléchargement`"
+
+#, fuzzy
+msgid "Download of the register of health facilities"
+msgstr "Téléchargement du registre des formations sanitaires"
+
+#, fuzzy
+msgid "By clicking on the Download button, a prompt popup message will appear, require a user to specify whether the XML file with downloaded  canceled (:ref:`image_download_facilities`)"
+msgstr "En cliquant sur le bouton Télécharger, un message contextuel apparaîtra, demandant à un utilisateur de spécifier si le fichier XML téléchargé a été annulé (:ref:`image_download_facilities`)"
+
+#, fuzzy
+msgid "`Download facilities`"
+msgstr "`Installations de téléchargement`"
+
+#, fuzzy
+msgid "Buttons"
+msgstr "Boutons"
+
+#, fuzzy
+msgid "``Cancel``"
+msgstr "`` Annuler``"
+
+#, fuzzy
+msgid "By clicking on ``Cancel`` button, user will be re-directed to the Home page."
+msgstr "En cliquant sur le bouton ``Annuler``, l'utilisateur sera redirigé vers la page d'accueil."
+
+#, fuzzy
+msgid "Information Panel"
+msgstr "Panneau d'information"
+
+#, fuzzy
+msgid "The Information Panel is used to display messages back to the user."
+msgstr "Le panneau d'informations est utilisé pour afficher les messages à l'utilisateur."

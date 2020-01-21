@@ -1,0 +1,839 @@
+msgid ""
+msgstr "" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n" 
+"X-Generator: lokalise.com\n" 
+"Project-Id-Version: openIMIS docs\n" 
+"PO-Revision-Date: 2020-01-09 10:45\n" 
+"Last-Translator: lokalise.com\n" 
+"Language-Team: lokalise.com\n\n" 
+"Language: fr\n"
+
+#, fuzzy
+msgid "User roles/profiles administration"
+msgstr "Administration des rôles / profils utilisateur"
+
+msgid "IMIS uses the concept of user profiles (roles) that can be associated with users. Some roles are predefined and they are designated as system roles. Their purpose is guarantee compatibility with the previous versions of IMIS."
+msgstr "IL utilise le concept de profils d'utilisateurs (rôles) qui peut être associé avec les utilisateurs. Certains rôles sont prédéfinis et ils sont désignés comme le système de rôles. Leur but est d'assurer la compatibilité avec les versions précédentes de l'IMIS."
+
+#, fuzzy
+msgid "User roles/profiles administration is restricted to users with the role of openIMIS Administrator."
+msgstr "L'administration des rôles / profils utilisateur est réservée aux utilisateurs ayant le rôle d'administrateur openIMIS."
+
+#, fuzzy
+msgid "Navigation"
+msgstr "La navigation"
+
+#, fuzzy
+msgid "All functionality for use with the administration of user roles can be found under the main menu ``Administration``, sub menu ``Users Profile``."
+msgstr "Toutes les fonctionnalités à utiliser avec l'administration des rôles utilisateur se trouvent dans le menu principal ``Administration``, sous-menu ``Profil utilisateur``."
+
+#, fuzzy
+msgid "`Image - Navigation User Roles/profiles`"
+msgstr "`Image - Rôles / profils utilisateur de navigation`"
+
+#, fuzzy
+msgid "Clicking on the sub menu ``Users`` re-directs the current user to the `User roles/profiles control page <#user-roles-profiles-control-page>`__\\ ."
+msgstr "Un clic sur le sous-menu ``Utilisateurs`` redirige l'utilisateur actuel vers la `page de contrôle des rôles / profils <#user-roles-profiles-control-page>`__ \\."
+
+#, fuzzy
+msgid "`Image - User roles/profile control page`"
+msgstr "`Image - Rôles d'utilisateur / page de contrôle de profil`"
+
+#, fuzzy
+msgid "User roles/profiles control page"
+msgstr "Page de contrôle des rôles / profils utilisateur"
+
+msgid "The ``User roles/profile control page`` is the central point for all user roles/profiles administration. By having access to this page, it is possible to add, edit, delete and search users roles/profiles. The page is divided into four panels (:ref:`Image User roles/profiles control page<user_roles_control_page>`)."
+msgstr "La ``page de contrôle des rôles / profils utilisateur`` est le point central de l'administration de tous les rôles / profils utilisateurs. En ayant accès à cette page, il est possible d'ajouter, de modifier, de supprimer et de rechercher des rôles / profils d'utilisateurs. La page est divisée en quatre panneaux (:ref:`Image Page de contrôle des rôles / profils utilisateur <user_roles_control_page>`)."
+
+msgid "Administration of users’ profile s(roles) is not included in any system role. It can be accomplished by the Admin user or by users to which such administration is delegated (by defining a role including an access to Administration/User Profiles) by the Admin user."
+msgstr "Administration des utilisateurs profil s(rôles) n'est inclus dans aucun système de rôle. Elle peut être réalisée par l'utilisateur Admin ou par les utilisateurs pour qui une telle administration est déléguée (par la définition d'un rôle, y compris un accès à l'Administration/Profils d'Utilisateur) par l'utilisateur Admin."
+
+#, fuzzy
+msgid "**Pre-conditions**"
+msgstr "** Conditions préalables **"
+
+msgid "A new user profile may only be added or thereafter edited, after an approval of the management of the scheme administration. It can be accomplished at the beginning only by the Admin user. The Admin user can define a new user profile incorporating also adding, editing  or deleting of  user profiles and create new users  with this profile. In this way, rights to the register of user profiles can be delegated to other users besides the Admin user."
+msgstr "Un nouveau profil d'utilisateur ne peut être ajouté ou par la suite édité, après une approbation de la gestion du régime de l'administration. Il peut être accompli au début uniquement par l'utilisateur Admin. L'Administrateur peut définir un nouveau profil d'utilisateur, intégrant également l'ajout, la modification ou la suppression de profils d'utilisateur et de créer de nouveaux utilisateurs avec ce profil. De cette façon, les droits d'inscription au registre des profils d'utilisateurs peuvent être déléguées à d'autres utilisateurs en plus de l'utilisateur Admin."
+
+#, fuzzy
+msgid "**Navigation**"
+msgstr "**La navigation**"
+
+msgid "All functionality for use with the administration of user profiles can be found under the main menu ADMINISTRATION, sub menu USER PROFILES"
+msgstr "Toutes les fonctionnalités pour une utilisation avec l'administration des profils utilisateur peuvent être trouvées dans le menu principal, ADMINISTRATION, sous-menu PROFILS UTILISATEUR"
+
+#, fuzzy
+msgid "**Search Panel**"
+msgstr "** Panneau de recherche **"
+
+msgid "The search panel allows a user to select specific criteria to minimise the search results. The following search options are available which can be used alone or in combination with each other."
+msgstr "Le panneau de recherche permet à un utilisateur de sélectionner des critères spécifiques afin de minimiser les résultats de la recherche. Les options de recherche suivantes sont disponibles qui peuvent être utilisés seuls ou en combinaison les uns avec les autres."
+
+#, fuzzy
+msgid "``Role Name``"
+msgstr "``Nom du rôle``"
+
+msgid "When set the search will display the roles with a name that start with the content of the filter , `%` can be used as a wildcard meaning a search with `%er` will display all the result containing `er` in the name"
+msgstr "Lorsque l'ensemble de la recherche affiche les rôles avec un nom qui commence avec le contenu du filtre , `%` peut être utilisé comme joker sens une recherche avec `%er` l'affichage de tous les résultats contenant `er` dans le nom"
+
+#, fuzzy
+msgid "``System``"
+msgstr "`` Système``"
+
+#, fuzzy
+msgid "The system user profiles match the previous roles for compatibility reasons. When set to `TRUE` the search will display the default roles, when set to `FALSE` the search will display only the custom roles"
+msgstr "Les profils utilisateur système correspondent aux rôles précédents pour des raisons de compatibilité. Lorsqu'elle est définie sur `VRAI`, la recherche affichera les rôles par défaut, lorsqu'elle est définie sur `FAUX`, la recherche n'affichera que les rôles personnalisés"
+
+#, fuzzy
+msgid "``Blocked``"
+msgstr "``Bloqué``"
+
+msgid "The blocked user profiles are temporarily not acting in the sense that their access rights are not available to users to whom blocked user profiles were assigned. When set to `TRUE` the search will display the roles that were blocked, when set to `FALSE` the search will display only the unblocked roles"
+msgstr "Les utilisateurs bloqués, les profils sont temporairement n'agissant pas dans le sens que leurs droits d'accès ne sont pas disponibles pour les utilisateurs auxquels l'utilisateur bloqué profils ont été affectés. Lorsque la valeur `TRUE` à la recherche seront affichés les rôles qui ont été bloquées, lorsque la valeur `FALSE`, la recherche affichera uniquement les rôles débloqué"
+
+#, fuzzy
+msgid "``Historical``"
+msgstr "``Historique``"
+
+msgid "Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`User roles results <user_roles_result>`)."
+msgstr "Les enregistrements historiques sont affichés dans le résultat avec une ligne au milieu du texte (barré) pour les définir clairement à partir des enregistrements actuels Cliquez sur ``Historique`` pour voir les enregistrements historiques correspondant aux critères sélectionnés. Les enregistrements historiques sont affichés dans le résultat avec une ligne au milieu du texte (barré) pour les définir clairement à partir des enregistrements actuels (:ref:`User roles results <user_roles_result>`)."
+
+#, fuzzy
+msgid "**Result Panel**"
+msgstr "** Panneau de résultats **"
+
+msgid "The Result Panel displays a list of all roles/profiles found, matching the selected criteria in the Search Panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image User roles results panel<user_roles_result>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Change user role/profile Page <#user-role-profile-page>`__. A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel"
+msgstr "Le panneau de résultats affiche une liste de tous les rôles / profils trouvés, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est surligné en bleu clair, tandis que le <user_roles_result> la surbrillance en jaune (:ref:`Image User roles results panel <user_roles_result>`). L'enregistrement le plus à gauche contient un lien hypertexte qui, s'il est cliqué, redirige l'utilisateur vers la page `Modifier le rôle / profil <#user-role-profile-page>`__. Un maximum de 15 enregistrements sont affichés en même temps, d'autres enregistrements peuvent être consultés en parcourant les pages à l'aide du sélecteur de page en bas du panneau de résultats"
+
+#, fuzzy
+msgid "`User roles results panel`"
+msgstr "`Panneau de résultats des rôles utilisateur`"
+
+#, fuzzy
+msgid "Blue background: Selected record"
+msgstr "Fond bleu: enregistrement sélectionné"
+
+#, fuzzy
+msgid "Yellow background: hovered records"
+msgstr "Fond jaune: enregistrements planés"
+
+#, fuzzy
+msgid "Strikethrough: historical records"
+msgstr "Barré: documents historiques"
+
+msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image User roles/profile control page<user_roles_control_page>`)"
+msgstr "Un maximum de 15 enregistrements sont affichés en même temps, d'autres enregistrements peuvent être consultés en parcourant les pages en utilisant le sélecteur de page en bas du panneau de résultats (:ref:`Image Rôles utilisateur / page de contrôle de profil <user_roles_control_page>`))"
+
+#, fuzzy
+msgid "**Button Panel**"
+msgstr "** Panneau de boutons **"
+
+#, fuzzy
+msgid "The ``Add`` button will `add a new role/profile <#adding-a-user-role-profile>`__ (not available if ``Historical`` was checked)"
+msgstr "Le bouton ``Ajouter`` ajoutera `un nouveau rôle / profil <#adding-a-user-role-profile>`__ (non disponible si ``Historique`` a été coché)"
+
+msgid "The ``Edit`` button will `edit a role/profile <#editing-a-user-role-profile>`__. not available if ``Historical`` was checked)"
+msgstr "Le bouton ``Éditer`` éditera un rôle / profil <#editing-a-user-role-profile>`__. non disponible si ``Historique`` était coché)"
+
+msgid "The ``Duplicate`` bbutton will `duplicate a role/profile <#duplicating-a-user-role-profile>`__ (not available if ``Historical`` was checked)"
+msgstr "Le bouton `` Dupliquer`` va `dupliquer un rôle / profil <#duplicating-a-user-role-profile>`__ (non disponible si ``Historique`` a été coché)"
+
+#, fuzzy
+msgid "The ``Delete`` button will `deleting a role/profile <#addeleting-a-user-role-profile>`__ (not available if ``Historical`` was checked)"
+msgstr "Le bouton ``Supprimer``supprimera un rôle / profil <#addeleting-a-user-role-profile>`__ (non disponible si ``Historique`` a été coché)"
+
+#, fuzzy
+msgid "The ``Cancel`` button re-directs to the :ref:`Home Page <home_page>`."
+msgstr "Le bouton ``Annuler`` redirige vers :ref:`Page d'accueil <home_page>`."
+
+#, fuzzy
+msgid "**Information Panel**"
+msgstr "** Panneau d'information **"
+
+msgid "The Information Panel is used to display messages back to the user. Messages will occur once a user role/profile has been added, updated or deleted or if there was an error at any time during the process of these actions."
+msgstr "Le Panneau d'Information est utilisé pour afficher des messages à l'utilisateur. Les Messages se produire une fois un rôle d'utilisateur/profil a été ajouté, mis à jour ou supprimés, ou si il y a une erreur à tout moment pendant le déroulement de ces actions."
+
+#, fuzzy
+msgid "User role/profile Page"
+msgstr "Page rôle / profil utilisateur"
+
+#, fuzzy
+msgid "`Image - User role/profile page`"
+msgstr "`Image - Rôle utilisateur / page de profil`"
+
+#, fuzzy
+msgid "**Data Entry - Role details**"
+msgstr "** Entrée de données - Détails du rôle **"
+
+msgid "Enter the name of the role/profile, this name will be used as reference in the `User roles/profiels control page <#user-roles-profiles-control-page>`__ and `Users page <#user-page>`__"
+msgstr "Entrez le nom du rôle / profil, ce nom sera utilisé comme référence dans la `page de contrôle des rôles / profils <#user-roles-profiles-control-page>`__ et `page des utilisateurs <#user-page>`__"
+
+#, fuzzy
+msgid "``Alternative language``"
+msgstr "``Langue alternative``"
+
+#, fuzzy
+msgid "Translation of the role name for the second language of openIMIS"
+msgstr "Traduction du nom de rôle pour la seconde langue d'openIMIS"
+
+#, fuzzy
+msgid "Read-only checkbox indicating whether the user profile is a system one or not."
+msgstr "Case à cocher en lecture seule indiquant si le profil utilisateur est un système ou non."
+
+#, fuzzy
+msgid "If checked the user profile is blocked"
+msgstr "Si coché, le profil utilisateur est bloqué"
+
+#, fuzzy
+msgid "**Data Entry - Rights details**"
+msgstr "** Saisie de données - Détails des droits **"
+
+#, fuzzy
+msgid "``Insurees and Policies``"
+msgstr "``Assurés et polices``"
+
+#, fuzzy
+msgid "list of the right available for the `Insurees and Policies` module:"
+msgstr "liste des droits disponibles pour le module `Assurés et polices`:"
+
+#, fuzzy
+msgid "CRUD rights (Create, read/search, update/edit and Delete):"
+msgstr "Droits CRUD (Créer, lire / rechercher, mettre à jour / modifier et supprimer):"
+
+#, fuzzy
+msgid "Family/Group"
+msgstr "Groupe familial"
+
+#, fuzzy
+msgid "Insuree"
+msgstr "Assuré"
+
+#, fuzzy
+msgid "Policy"
+msgstr "Politique"
+
+#, fuzzy
+msgid "Contribution"
+msgstr "Contribution"
+
+#, fuzzy
+msgid "Business specific roles"
+msgstr "Rôles spécifiques à l'entreprise"
+
+#, fuzzy
+msgid "Renew policy"
+msgstr "Renouveler la politique"
+
+#, fuzzy
+msgid "Enquire insuree"
+msgstr "Renseignez-vous sur l'assuré"
+
+#, fuzzy
+msgid "``Claims``"
+msgstr "``Réclamations``"
+
+#, fuzzy
+msgid "list of the right available for the `Claims` module:"
+msgstr "liste des droits disponibles pour le module `Réclamations`:"
+
+#, fuzzy
+msgid "Claims"
+msgstr "Réclamations"
+
+#, fuzzy
+msgid "Business specific roles:"
+msgstr "Rôles spécifiques à l'entreprise:"
+
+#, fuzzy
+msgid "Claims:"
+msgstr "Réclamations:"
+
+#, fuzzy
+msgid "Print"
+msgstr "Impression"
+
+#, fuzzy
+msgid "Submit"
+msgstr "Soumettre"
+
+#, fuzzy
+msgid "Review"
+msgstr "La revue"
+
+#, fuzzy
+msgid "Feedback"
+msgstr "Retour d'information"
+
+#, fuzzy
+msgid "Update"
+msgstr "Mise à jour"
+
+#, fuzzy
+msgid "Process"
+msgstr "Processus"
+
+#, fuzzy
+msgid "Claim Batch:"
+msgstr "Lot de réclamation:"
+
+#, fuzzy
+msgid "Filter"
+msgstr "Filtre"
+
+#, fuzzy
+msgid "Preview"
+msgstr "Aperçu"
+
+#, fuzzy
+msgid "``Administration``"
+msgstr "``Administration``"
+
+#, fuzzy
+msgid "list of the right available for the `Administration` module:"
+msgstr "liste des droits disponibles pour le module `Administration`:"
+
+#, fuzzy
+msgid "Products"
+msgstr "Des produits"
+
+#, fuzzy
+msgid "Health Facilities"
+msgstr "Établissements de santé"
+
+#, fuzzy
+msgid "Pricelists – Medical Services"
+msgstr "Listes de prix - Services médicaux"
+
+#, fuzzy
+msgid "Pricelists – Medical Items"
+msgstr "Listes de prix - Articles médicaux"
+
+#, fuzzy
+msgid "Medical Services"
+msgstr "Services médicaux"
+
+#, fuzzy
+msgid "Medical Items"
+msgstr "Articles médicaux"
+
+#, fuzzy
+msgid "Enrolment Officers"
+msgstr "Agents d'inscription"
+
+#, fuzzy
+msgid "Claim Administrators"
+msgstr "Administrateurs de Réclamations"
+
+#, fuzzy
+msgid "Users"
+msgstr "Utilisateurs"
+
+#, fuzzy
+msgid "User roles/profiles"
+msgstr "Rôles / profils utilisateur"
+
+#, fuzzy
+msgid "Payers"
+msgstr "Payeurs"
+
+#, fuzzy
+msgid "Locations"
+msgstr "Emplacements"
+
+#, fuzzy
+msgid "Duplicate Products"
+msgstr "Produits en double"
+
+#, fuzzy
+msgid "Duplicate Pricelists – Medical Services"
+msgstr "Liste de prix en double - Services médicaux"
+
+#, fuzzy
+msgid "Duplicate Pricelists – Medical Items"
+msgstr "Liste de prix en double - Articles médicaux"
+
+#, fuzzy
+msgid "Duplicate User roles/profiles"
+msgstr "Rôles / profils utilisateur en double"
+
+#, fuzzy
+msgid "Move Locations"
+msgstr "Déplacer des emplacements"
+
+#, fuzzy
+msgid "``Tools``"
+msgstr "`` Outils``"
+
+#, fuzzy
+msgid "list of the business rights available for the `Tools` module"
+msgstr "liste des droits commerciaux disponibles pour le module `Tools`"
+
+#, fuzzy
+msgid "Register"
+msgstr "S'inscrire"
+
+#, fuzzy
+msgid "Upload Diagnoses"
+msgstr "Télécharger les diagnostics"
+
+#, fuzzy
+msgid "Upload Health Facilities"
+msgstr "Télécharger les établissements de santé"
+
+#, fuzzy
+msgid "Upload Locations"
+msgstr "Lieux de téléchargement"
+
+#, fuzzy
+msgid "Download Diagnoses"
+msgstr "Télécharger les diagnostics"
+
+#, fuzzy
+msgid "Download Health Facilities"
+msgstr "Télécharger les établissements de santé"
+
+#, fuzzy
+msgid "Download Locations"
+msgstr "Lieux de téléchargement"
+
+#, fuzzy
+msgid "Extracts"
+msgstr "Extraits"
+
+#, fuzzy
+msgid "Download Mater-data"
+msgstr "Télécharger Mater-data"
+
+#, fuzzy
+msgid "Create Phone Extracts"
+msgstr "Créer des extraits de téléphone"
+
+#, fuzzy
+msgid "Create Offline Extract"
+msgstr "Créer un extrait hors ligne"
+
+#, fuzzy
+msgid "Upload Claims"
+msgstr "Importer des réclamations"
+
+#, fuzzy
+msgid "Upload Enrolments"
+msgstr "Télécharger les inscriptions"
+
+#, fuzzy
+msgid "Upload Feedback"
+msgstr "Importer des commentaires"
+
+#, fuzzy
+msgid "Run report"
+msgstr "Rapport d'exécution"
+
+#, fuzzy
+msgid "Primary Operational Indicators-policies"
+msgstr "Indicateurs opérationnels principaux - politiques"
+
+#, fuzzy
+msgid "Primary Operational Indicators-claims"
+msgstr "Indicateurs opérationnels principaux - allégations"
+
+#, fuzzy
+msgid "Derived Operational Indicators"
+msgstr "Indicateurs opérationnels dérivés"
+
+#, fuzzy
+msgid "Contribution Collection"
+msgstr "Collecte des contributions"
+
+#, fuzzy
+msgid "Product Sales"
+msgstr "Ventes de produits"
+
+#, fuzzy
+msgid "Contribution Distribution"
+msgstr "Répartition des contributions"
+
+#, fuzzy
+msgid "User Activity Report"
+msgstr "Rapport d'activité de l'utilisateur"
+
+#, fuzzy
+msgid "Enrolment Performance Indicators"
+msgstr "Indicateurs de rendement des inscriptions"
+
+#, fuzzy
+msgid "Status of Registers"
+msgstr "Statut des registres"
+
+#, fuzzy
+msgid "Insurees without Photos"
+msgstr "Assurés sans photos"
+
+#, fuzzy
+msgid "Payment Category Overview"
+msgstr "Aperçu des catégories de paiement"
+
+#, fuzzy
+msgid "Matching Funds"
+msgstr "Fonds de contrepartie"
+
+#, fuzzy
+msgid "Claim Overview"
+msgstr "Aperçu de la réclamation"
+
+#, fuzzy
+msgid "Percentage of Referrals"
+msgstr "Pourcentage de références"
+
+#, fuzzy
+msgid "Families and insurees Overview"
+msgstr "Présentation des familles et des assurés"
+
+#, fuzzy
+msgid "Pending Insurees"
+msgstr "Assurés en attente"
+
+#, fuzzy
+msgid "Renewals"
+msgstr "Renouvellements"
+
+#, fuzzy
+msgid "Capitation Payment"
+msgstr "Paiement par capitation"
+
+#, fuzzy
+msgid "Rejected Photos"
+msgstr "Photos rejetées"
+
+#, fuzzy
+msgid "Utilities/Email setting"
+msgstr "Utilitaires / Paramètres de messagerie"
+
+#, fuzzy
+msgid "Backup"
+msgstr "Sauvegarde"
+
+#, fuzzy
+msgid "Restore"
+msgstr "Restaurer"
+
+#, fuzzy
+msgid "Execute Script"
+msgstr "Exécuter le script"
+
+#, fuzzy
+msgid "Email Setting"
+msgstr "Paramètres de messagerie"
+
+#, fuzzy
+msgid "**Buttons**"
+msgstr "**Boutons**"
+
+#, fuzzy
+msgid "``Save``"
+msgstr "`` Enregistrer``"
+
+msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `User Control Page <#user-control-page>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the user has been saved will appear on the Information Panel."
+msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton ``Sauvegarder`` sauvegardera l'enregistrement. L'utilisateur sera redirigé vers la `page de contrôle utilisateur <#user-control-page> page de contrôle <#user-control-page>`__, avec l'enregistrement nouvellement enregistré affiché et sélectionné dans le panneau de résultats. Un message confirmant que l'utilisateur a été enregistré apparaîtra sur le panneau d'informations."
+
+#, fuzzy
+msgid "``Cancel``"
+msgstr "`` Annuler``"
+
+#, fuzzy
+msgid "By clicking on the ``Cancel`` button, the user will be re-directed to the `User roles/profiles control page. <#user-roles-profiles-control-page>`__"
+msgstr "En cliquant sur le bouton ``Annuler``, l'utilisateur sera redirigé vers la page de contrôle des rôles / profils utilisateurs. <#user-roles-profiles-control-page>`__"
+
+#, fuzzy
+msgid "**Mandatory data**"
+msgstr "** Données obligatoires **"
+
+msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data fields will take the focus (by an asterisk on the right of the corresponding data field)."
+msgstr "S'il est obligatoire de données n'est pas entré au moment où l'utilisateur clique sur le bouton `Enregistrer`, un message s'affiche dans le Panneau d'Information, et les champs de données va prendre le focus (par un astérisque sur la droite du champ de données correspondant)."
+
+#, fuzzy
+msgid "Adding a User role/profile"
+msgstr "Ajout d'un rôle / profil utilisateur"
+
+#, fuzzy
+msgid "Click on the Add button to re-direct to the  `User role/profile Page <#user-role-profile-page>`__."
+msgstr "Cliquez sur le bouton Ajouter pour rediriger vers la `Page de rôle / profil <#user-role-profile-page> page de profil de rôle utilisateur <#user-role-profile-page>`__."
+
+#, fuzzy
+msgid "When the page opens all entry fields are empty. See the  `User role/profile Page <#user-role-profile-page>`__. for information on the data entry and mandatory fields."
+msgstr "Lorsque la page s'ouvre, tous les champs de saisie sont vides. Reportez-vous à la `Page de rôle / profil <#user-role-profile-page> page de profil <#user-role-profile-page>`__. pour plus d'informations sur la saisie des données et les champs obligatoires."
+
+#, fuzzy
+msgid "Editing a User role/profile"
+msgstr "Modification d'un rôle / profil utilisateur"
+
+#, fuzzy
+msgid "Click on the Edit button to re-direct to the  `User role/profile Page <#user-role-profile-page>`__."
+msgstr "Cliquez sur le bouton Modifier pour rediriger vers la `Page de rôle / profil <#user-role-profile-page> page de profil de rôle utilisateur <#user-role-profile-page>`__."
+
+#, fuzzy
+msgid "The page will open with the current information loaded into the data entry fields. See the `User role/profile Page <#user-role-profile-page>`__. for information on the data entry and mandatory fields."
+msgstr "La page s'ouvrira avec les informations actuelles chargées dans les champs de saisie de données. Reportez-vous à la `Page de rôle / profil <#user-role-profile-page> page de profil <#user-role-profile-page>`__. pour plus d'informations sur la saisie des données et les champs obligatoires."
+
+#, fuzzy
+msgid "Duplicating a User role/profile"
+msgstr "Duplication d'un rôle / profil utilisateur"
+
+#, fuzzy
+msgid "Click on the Duplicate button to re-direct to the `User role/profile Page <#user-role-profile-page>`__."
+msgstr "Cliquez sur le bouton Dupliquer pour rediriger vers la `Page de rôle / profil <#user-role-profile-page> page de profil <#user-role-profile-page>`__."
+
+#, fuzzy
+msgid "The page will open with all the current rights for the selected user role/profile, (except for theuser role/profile name which should be unique), loaded into the data entry fields. See the `User role/profile Page <#user-role-profile-page>`__ for information on the data entry and mandatory fields. To save the record, enter a unique code before clicking on ``Save``."
+msgstr "La page s'ouvrira avec tous les droits actuels pour le rôle / profil utilisateur sélectionné, (à l'exception du nom de rôle / profil utilisateur qui devrait être unique), chargé dans les champs de saisie de données. Reportez-vous à la `Page de rôle / profil <#user-role-profile-page> page <#user-role-profile-page>`__ pour plus d'informations sur la saisie des données et les champs obligatoires. Pour sauvegarder l'enregistrement, entrez un code unique avant de cliquer sur ``Enregistrer``."
+
+#, fuzzy
+msgid "Deleting a User role/profile"
+msgstr "Suppression d'un rôle / profil utilisateur"
+
+#, fuzzy
+msgid "Click on the Delete button to delete the currently selected record."
+msgstr "Cliquez sur le bouton Supprimer pour supprimer l'enregistrement actuellement sélectionné."
+
+#, fuzzy
+msgid "Before deleting a confirmation popup (:ref:`Image User roles/profile delete confirmation <user_role_delete>`) is displayed, this requires the user to confirm if the action should really be carried out."
+msgstr "Avant de supprimer une fenêtre contextuelle de confirmation (:ref:`Image Confirmation de suppression des rôles / profils utilisateur <user_role_delete>`) s'affiche, cela oblige l'utilisateur à confirmer si l'action doit vraiment être effectuée."
+
+#, fuzzy
+msgid "`User roles/profile delete confirmation`"
+msgstr "`Confirmation de suppression des rôles / profils utilisateur`"
+
+#, fuzzy
+msgid "When a user roles/profile is deleted, the rights that it provide are not available to the users having that role/profile."
+msgstr "Lorsqu'un rôle / profil utilisateur est supprimé, les droits qu'il fournit ne sont pas disponibles pour les utilisateurs ayant ce rôle / profil."
+
+#, fuzzy
+msgid "Default User roles and rights"
+msgstr "Rôles et droits d'utilisateur par défaut"
+
+#, fuzzy
+msgid "The table below shows the default roles in openIMIS."
+msgstr "Le tableau ci-dessous montre les rôles par défaut dans openIMIS."
+
+#, fuzzy
+msgid "Overview of Scheme administrator & district Staff roles"
+msgstr "Aperçu des rôles d'administrateur de programme et de personnel de district"
+
+#, fuzzy
+msgid "**Role**"
+msgstr "**Rôle**"
+
+#, fuzzy
+msgid "**Responsibilities**"
+msgstr "**Responsabilités**"
+
+#, fuzzy
+msgid "**Available functionality**"
+msgstr "** Fonctionnalité disponible **"
+
+#, fuzzy
+msgid "Enrolment Officer"
+msgstr "Agent d'inscription"
+
+#, fuzzy
+msgid "He/she enrols insurees and submits enrolment forms to a health insurance administration; handles policy modifications; collects feedback from scheme patients and submits to the health insurance administration."
+msgstr "Il / elle inscrit les assurés et soumet les formulaires d'adhésion à une administration d'assurance maladie; gère les modifications de politique; recueille les commentaires des patients du régime et les soumet à l'administration de l'assurance maladie."
+
+#, fuzzy
+msgid "* Capture a photo of an Insuree."
+msgstr "* Capturez une photo d'un assuré."
+
+#, fuzzy
+msgid "* Send a photo"
+msgstr "* Envoie une photo"
+
+#, fuzzy
+msgid "* Inquiry on an Insuree"
+msgstr "* Enquête sur un assuré"
+
+#, fuzzy
+msgid "* Collect feedback from an Insuree"
+msgstr "* Recueillir les commentaires d'un assuré"
+
+#, fuzzy
+msgid "Village Executive"
+msgstr "Exécutif du village"
+
+#, fuzzy
+msgid "Officer (VEO)"
+msgstr "Officier (VEO)"
+
+#, fuzzy
+msgid "He/she collects feedbacks and collects changes on insurees during insurance periods"
+msgstr "Il recueille les commentaires et recueille les changements sur les assurés pendant les périodes d'assurance"
+
+#, fuzzy
+msgid "Manager"
+msgstr "Directeur"
+
+#, fuzzy
+msgid "Oversees operations of the health insurance scheme;runs openIMIS operational reports analyses data generated from the IMIS."
+msgstr "Supervise les opérations du régime d'assurance maladie; exécute les rapports opérationnels openIMIS analyse les données générées à partir du SIG."
+
+#, fuzzy
+msgid "* Create managerial statistics"
+msgstr "* Créer des statistiques de gestion"
+
+#, fuzzy
+msgid "* Authorize issuance of a substitution"
+msgstr "* Autoriser l'émission d'une substitution"
+
+#, fuzzy
+msgid "* membership card"
+msgstr "* carte de membre"
+
+#, fuzzy
+msgid "Accountant"
+msgstr "Comptable"
+
+msgid "Transfers data on collected Contributions to an external accounting system. Calculates claim amounts per health facility, runs openIMIS operational reports and presents claims decision overview to management of a health insurance administrator. Processes approved claims to health facility sub-accounts."
+msgstr "Les transferts de données recueillies sur les Contributions à un système comptable externe. Calcule les montants d'indemnisation par l'établissement de santé, pistes de openIMIS rapports opérationnels et présente des demandes de décision aperçu de la gestion de l'assurance-santé de l'administrateur. Processus de demandes approuvées à l'établissement de santé sous-comptes."
+
+#, fuzzy
+msgid "* Transfer of data on Contributions to accounting system"
+msgstr "* Transfert de données sur les contributions au système comptable"
+
+#, fuzzy
+msgid "* Valuation of a claim"
+msgstr "* Évaluation d'une réclamation"
+
+#, fuzzy
+msgid "* Transfer of a batch of claims for payment"
+msgstr "* Transfert d'un lot de demandes de paiement"
+
+#, fuzzy
+msgid "Clerk"
+msgstr "Employé de bureau"
+
+#, fuzzy
+msgid "Enters and modifies data on families, insurees, policies and contributions. Enters data on claims if the claims are submitted in a paper form."
+msgstr "Entre et modifie les données sur les familles, les assurés, les polices et les cotisations. Entre les données sur les réclamations si les réclamations sont soumises sous forme papier."
+
+msgid "* `Creation/ Search/ Modification/ Deletion/ Modification <#family-group-page>`__ of a `household/group <#family-overview-page>`__, an `Insuree <#insuree-page>`_, a `Policy <#policy-page>`__ or a `Contribution <#contribution-page>`__."
+msgstr "* `Création / Recherche / Modification / Suppression / Modification <#family-group-page>`__ d'une `maison / groupe <#family-overview-page>`__, une `Assuré <#insuree-page> ` _, une `Policy <#policy-page>`__ ou une `Contribution <#contribution-page>`__."
+
+#, fuzzy
+msgid "* `Renewal of a policy <#policy-renewals>`__"
+msgstr "* `Renouvellement d'une politique <#policy-renewals>`__"
+
+#, fuzzy
+msgid "* `Entry of a claim <#claim-page>`__"
+msgstr "* `Entrée d'une réclamation <#claim-page>`__"
+
+#, fuzzy
+msgid "Medical Officer"
+msgstr "Médecin"
+
+#, fuzzy
+msgid "Provides technical advice on claims verification from a medical standpoint."
+msgstr "Fournit des conseils techniques sur la vérification des réclamations d'un point de vue médical."
+
+#, fuzzy
+msgid "* Checking of a claim for plausibility"
+msgstr "* Vérification d'une réclamation pour plausibilité"
+
+#, fuzzy
+msgid "* `Review of a claim <#policy-renewals>`__"
+msgstr "* `Examen d'une réclamation <#policy-renewals>`__"
+
+#, fuzzy
+msgid "* `Authorize a claim for payment <#claim-page>`__"
+msgstr "* `Autoriser une demande de paiement <#claim-page>`__"
+
+#, fuzzy
+msgid "Scheme"
+msgstr "Schème"
+
+#, fuzzy
+msgid "Administrator"
+msgstr "Administrateur"
+
+#, fuzzy
+msgid "Administers registers (all except the register of users)"
+msgstr "Administre les registres (tous sauf le registre des utilisateurs)"
+
+msgid "* `Administer registers <#administration-of-registers>`__ ( `Officers, Payers, Health Facilities <#health-facilities-administration>`__, , `Medical Services, Medical Items, Medical Item Price Lists, Medical Services Price List <#medical-service-price-lists-administration>`__, `Products <#claim-administrators-administration>`__)"
+msgstr "* `Administrer les registres <#administration-of-registers>`__ (`Officiers, payeurs, établissements de santé <#health-facilities-administration>`__,, `Services médicaux, articles médicaux, listes de prix d'articles médicaux, liste de prix des services médicaux <#medical-service-price-lists-administration>`__,` Products <#claim-administrators-administration>`__)"
+
+#, fuzzy
+msgid "* `Extract Creation for Off-line Health Facilities <#imis-extracts-online-mode>`__"
+msgstr "* `Création d'extrait pour les établissements de santé hors ligne <#imis-extracts-online-mode>`__"
+
+#, fuzzy
+msgid "openIMIS"
+msgstr "openIMIS"
+
+#, fuzzy
+msgid "Administers operations of the IMIS. Is responsible for backups of data."
+msgstr "Administrer les opérations du SIG. Est responsable des sauvegardes de données."
+
+#, fuzzy
+msgid "* Administer the register of `users <#user_administration>`__, `Utilities <#utilities>`__"
+msgstr "* Administrer le registre des `utilisateurs <#user_administration>`__, `Utilitaires <#utilities>`__"
+
+#, fuzzy
+msgid "* Manage `Backup <#backup>`__, `Restore <#restore>`__ and `Updates <#execute-script>`__"
+msgstr "* Gérer `Backup <#backup>`__, `Restore <#restore>`__ and `Updates <#execute-script>`__"
+
+#, fuzzy
+msgid "Overview of Health Facilities staff roles"
+msgstr "Aperçu des rôles du personnel des établissements de santé"
+
+#, fuzzy
+msgid "Receptionist"
+msgstr "Réceptionniste"
+
+#, fuzzy
+msgid "Verifies membership and issues to a patient a claim form."
+msgstr "Vérifie l'adhésion et délivre au patient un formulaire de réclamation."
+
+#, fuzzy
+msgid "* Inquiring on a Household/group, `Insuree <#find-insuree>`__ and `Policy <#find-policy>`__"
+msgstr "* Renseignez-vous sur un ménage / groupe, `assuré <#find-insuree>`__ et `police <#find-policy>`__"
+
+#, fuzzy
+msgid "Claim"
+msgstr "Prétendre"
+
+#, fuzzy
+msgid "Pools claim forms of a health facility, enters and submits claims."
+msgstr "Les pools réclament les formulaires d'un établissement de santé, saisissent et soumettent les réclamations."
+
+#, fuzzy
+msgid "* Opening of a batch of claims"
+msgstr "* Ouverture d'un lot de réclamations"
+
+#, fuzzy
+msgid "* Entry of a claim"
+msgstr "* Entrée d'une réclamation"
+
+#, fuzzy
+msgid "HF"
+msgstr "HF"
+
+#, fuzzy
+msgid "Off-line HealthFacility administration"
+msgstr "Administration hors ligne de HealthFacility"
+
+#, fuzzy
+msgid "* `Off-line extract upload <#imis-extracts-offline-mode>`__"
+msgstr "* ` <#imis-extracts-offline-mode> ligne <#imis-extracts-offline-mode>`__"
+
+#, fuzzy
+msgid "Offline HF"
+msgstr "HF hors ligne"
+
+#, fuzzy
+msgid "* Creation of clerk"
+msgstr "* Création d'un commis"
+
+#, fuzzy
+msgid "* Creation of offline Extract"
+msgstr "* Création d'extrait hors ligne"

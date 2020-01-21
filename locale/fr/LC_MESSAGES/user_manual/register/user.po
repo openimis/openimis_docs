@@ -1,0 +1,345 @@
+msgid ""
+msgstr "" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n" 
+"X-Generator: lokalise.com\n" 
+"Project-Id-Version: openIMIS docs\n" 
+"PO-Revision-Date: 2020-01-09 10:45\n" 
+"Last-Translator: lokalise.com\n" 
+"Language-Team: lokalise.com\n\n" 
+"Language: fr\n"
+
+#, fuzzy
+msgid "Users administration"
+msgstr "Administration des utilisateurs"
+
+#, fuzzy
+msgid "User administration is restricted to users with the system role of IMIS Administrator or with a role including an access to Administration/Users."
+msgstr "L'administration des utilisateurs est limitée aux utilisateurs ayant le rôle système d'Administrateur IMIS ou avec un rôle comprenant un accès à Administration / Utilisateurs."
+
+#, fuzzy
+msgid "Pre-conditions"
+msgstr "Conditions préalables"
+
+msgid "A user may only be added or thereafter edited, after the approval of the management of the scheme administration. Deletion of a user normally will occur when a user leaves his/her post within the health insurance scheme and/or the scheme administration. A built in user with the user name Admin and the initial password Admin is created automatically in IMIS with access to all locations of the register of locations (at any time). The Admin user has an implicit role that includes full access rights to the registers of locations, full access to the register of user profiles and an access to downloading/uploading of the register of locations to/from an external file."
+msgstr "Un utilisateur ne peut être ajouté ou par la suite modifié, après l'approbation de la gestion du régime de l'administration. Suppression d'un utilisateur normalement se produire lorsqu'un utilisateur quitte son poste au sein du régime d'assurance maladie et/ou le régime de l'administration. Construit dans de l'utilisateur avec le nom d'utilisateur Admin et le mot de passe d'Administrateur est automatiquement créé dans le SIG avec accès à tous les emplacements du registre des emplacements (à tout moment). L'utilisateur Admin a un rôle implicite qui comprend les droits d'accès aux registres de lieux, d'accès complet pour le registre des profils d'utilisateur et un accès au téléchargement/chargement du registre des emplacements vers/depuis un fichier externe."
+
+#, fuzzy
+msgid "Navigation"
+msgstr "La navigation"
+
+#, fuzzy
+msgid "All functionality for use with the administration of users can be found under the main menu ``Administration``, sub menu ``Users``."
+msgstr "Toutes les fonctionnalités à utiliser avec l'administration des utilisateurs se trouvent dans le menu principal ``Administration``, sous-menu ``Utilisateurs``."
+
+#, fuzzy
+msgid "`Navigation Users`"
+msgstr "`Utilisateurs de navigation`"
+
+msgid "Clicking on the sub menu ``Users`` re-directs the current user to the `User Control Page <#user-control-page>`__\\ ."
+msgstr "Un clic sur le sous-menu ``Utilisateurs`` redirige l'utilisateur actuel vers la `Page de contrôle utilisateur <#user-control-page> page de contrôle <#user-control-page>`__ \\."
+
+#, fuzzy
+msgid "`User Control Page`"
+msgstr "`Page de contrôle utilisateur`"
+
+#, fuzzy
+msgid "User Control Page"
+msgstr "Page de contrôle utilisateur"
+
+msgid "The ``User Control Page`` is the central point for all user administration. By having access to this page, it is possible to add, edit, delete and search users. The page is divided into four panels (:numref:`image52`)."
+msgstr "Le `Contrôle de l'Utilisateur Page` est le point central pour tous les utilisateurs de l'administration. En ayant accès à cette page, il est possible d'ajouter, modifier, supprimer et rechercher des utilisateurs. La page est divisée en quatre panneaux (:numref:`image52`)."
+
+#, fuzzy
+msgid "The following rules apply to the list of found users besides conformance with all search criteria:"
+msgstr "Les règles suivantes s'appliquent à la liste des utilisateurs trouvés en plus de la conformité avec tous les critères de recherche:"
+
+#, fuzzy
+msgid "The user Admin is not included in any searching for users with exception of  searching done by an Admin user itself."
+msgstr "L'administrateur utilisateur n'est inclus dans aucune recherche d'utilisateurs, à l'exception de la recherche effectuée par un utilisateur administrateur lui-même."
+
+msgid "A user having access rights Users/Search (see User Profiles) can get as a result of a searching only users that have access to same set of locations or to a subset of locations of the searching user only."
+msgstr "Un utilisateur possédant des droits d'accès des Utilisateurs/Recherche (voir les Profils Utilisateur) peut obtenir comme résultat de la recherche seuls les utilisateurs qui ont accès aux mêmes endroits ou à un sous-ensemble des lieux de la recherche de l'utilisateur uniquement."
+
+#, fuzzy
+msgid "**Search Panel**"
+msgstr "** Panneau de recherche **"
+
+msgid "The search panel allows a user to select specific criteria to minimise the search results. In the case of users the following search options are available which can be used alone or in combination with each other."
+msgstr "Le panneau de recherche permet à un utilisateur de sélectionner des critères spécifiques afin de minimiser les résultats de la recherche. Dans le cas des utilisateurs les options de recherche suivantes sont disponibles qui peuvent être utilisés seuls ou en combinaison les uns avec les autres."
+
+#, fuzzy
+msgid "``Last Name``"
+msgstr "``Nom de famille``"
+
+#, fuzzy
+msgid "Type in the beginning of; or the full Last name; to search for users with a Last name, which starts with or matches completely, the typed text."
+msgstr "Tapez au début de; ou le nom de famille complet; pour rechercher des utilisateurs dont le nom de famille commence par ou correspond entièrement au texte saisi."
+
+#, fuzzy
+msgid "``Login Name``"
+msgstr "``Nom de connexion``"
+
+#, fuzzy
+msgid "Type in the beginning of; or the full Login name, to search for users with a Login name, which starts with or matches completely, the typed text."
+msgstr "Tapez au début de; ou le nom de connexion complet, pour rechercher des utilisateurs avec un nom de connexion, qui commence ou correspond complètement au texte tapé."
+
+#, fuzzy
+msgid "``Phone Number``"
+msgstr "``Numéro de téléphone``"
+
+#, fuzzy
+msgid "Type in the beginning of; or the full Phone Number, to search for users, with a Phone Number which starts with or matches completely, the typed text."
+msgstr "Tapez au début de; ou le numéro de téléphone complet, pour rechercher des utilisateurs, avec un numéro de téléphone commençant ou correspondant complètement au texte saisi."
+
+#, fuzzy
+msgid "``Email``"
+msgstr "`` Courriel``"
+
+#, fuzzy
+msgid "Type in the beginning of; or the full Email, to search for users, with an Email which starts with or matches completely, the typed text."
+msgstr "Tapez au début de; ou l'e-mail complet, pour rechercher des utilisateurs, avec un e-mail qui commence ou correspond complètement au texte tapé."
+
+#, fuzzy
+msgid "``Other Names``"
+msgstr "``Autres noms``"
+
+#, fuzzy
+msgid "Type in the beginning of; or the full Other Names, to search for users, with Other names which start with or match completely the typed text."
+msgstr "Tapez au début de; ou les autres noms complets, pour rechercher des utilisateurs, avec d'autres noms qui commencent par ou correspondent complètement au texte tapé."
+
+#, fuzzy
+msgid "``Role``"
+msgstr "``Rôle``"
+
+#, fuzzy
+msgid "Select the Role; from the list of roles by clicking on the arrow on the right of the selector, to select users of a specific role."
+msgstr "Sélectionnez le rôle; dans la liste des rôles en cliquant sur la flèche à droite du sélecteur, pour sélectionner les utilisateurs d'un rôle spécifique."
+
+#, fuzzy
+msgid "``Health Facilities``"
+msgstr "``Établissements de santé``"
+
+msgid "Select the Health Facility; from the list of health facilities by clicking on the arrow on the right of the selector, to select users from a specific health facility. *Note: The list will only be filled with the health facilities belonging to the districts assigned to the currently logged in user.*"
+msgstr "Sélectionnez l'Établissement de Santé; à partir de la liste des établissements de santé en cliquant sur la flèche à droite du sélecteur, sélectionnez les utilisateurs à partir d'un établissement de santé. *Remarque: La liste ne sera rempli avec les établissements de santé appartenant aux districts affectés à l'utilisateur actuellement connecté.*"
+
+#, fuzzy
+msgid "``Region``"
+msgstr "`` Région``"
+
+msgid "Select the Region; from the list of regions by clicking on the arrow on the right of the selector to find users with access to a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user.*"
+msgstr "Sélectionnez la Région; à partir de la liste des régions en cliquant sur la flèche à droite du sélecteur de trouver des utilisateurs ayant accès à une région spécifique. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté.*"
+
+#, fuzzy
+msgid "``District``"
+msgstr "`` Quartier``"
+
+msgid "Select the District; from the list of districts by clicking on the arrow on the right of the selector to find users with access to a specific district. *The list will be only filled with the districts belonging to the selected region.*"
+msgstr "Sélectionnez le District; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur de trouver des utilisateurs ayant accès à un district particulier. *La liste sera remplie uniquement avec les districts appartenant à la région sélectionnée.*"
+
+#, fuzzy
+msgid "``Language``"
+msgstr "`` Langue``"
+
+#, fuzzy
+msgid "Select the Language; from the list of languages by clicking on the arrow on the right of the selector, to select users with a specific language."
+msgstr "Sélectionnez la langue; dans la liste des langues en cliquant sur la flèche à droite du sélecteur, pour sélectionner les utilisateurs avec une langue spécifique."
+
+#, fuzzy
+msgid "``Historical``"
+msgstr "``Historique``"
+
+msgid "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image54`)."
+msgstr "Cliquez sur `Historique` pour voir l'historique des enregistrements correspondant aux critères sélectionnés. Les documents historiques sont affichés dans le résultat avec une ligne au milieu du texte (barré) de définir clairement de dossiers en cours (:numref:`image54`)."
+
+#, fuzzy
+msgid "`Historical records - Result Panel`"
+msgstr "`Dossiers historiques - Panneau de résultats`"
+
+#, fuzzy
+msgid "``Search Button``"
+msgstr "``Bouton de recherche``"
+
+#, fuzzy
+msgid "Once the criteria have been entered, use the search button to filter the records, the results will appear in the result panel."
+msgstr "Une fois les critères saisis, utilisez le bouton de recherche pour filtrer les enregistrements, les résultats apparaîtront dans le panneau de résultats."
+
+#, fuzzy
+msgid "**Result Panel**"
+msgstr "** Panneau de résultats **"
+
+#, fuzzy
+msgid "`Selected record (blue), hovered records (yellow) - Result Panel`"
+msgstr "`Enregistrement sélectionné (bleu), enregistrements survolés (jaune) - Panneau de résultats`"
+
+msgid "The result panel displays a list of all users found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image55`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
+msgstr "Le résultat s'affiche sur le panneau une liste de tous les utilisateurs trouvent, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image55`). La gauche dossier contient un lien, qui, si vous cliquez dessus, re-dirige l'utilisateur vers le record actuel pour obtenir la visualisation si c'est un record historique ou de la modification si c'est l'enregistrement en cours."
+
+#, fuzzy
+msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image56`)"
+msgstr "Un maximum de 15 enregistrements sont affichés en même temps, d'autres enregistrements peuvent être consultés en parcourant les pages à l'aide du sélecteur de page en bas du panneau de résultat (:numref:`image56`)"
+
+#, fuzzy
+msgid "`Page selector- Result Panel`"
+msgstr "`Sélecteur de page - Panneau de résultats`"
+
+#, fuzzy
+msgid "**Button Panel**"
+msgstr "** Panneau de boutons **"
+
+msgid "With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button."
+msgstr "À l'exception du bouton ``Annuler``, qui redirige vers :ref:`Page d'accueil <home_page>`, le panneau de boutons (les boutons ``Modifier``et ``Supprimer``) est utilisé conjointement avec l'enregistrement actuellement sélectionné (surligné en bleu). L'utilisateur doit d'abord sélectionner un enregistrement en cliquant sur n'importe quelle position de l'enregistrement à l'exception du lien hypertexte le plus à gauche, puis cliquez sur le bouton."
+
+#, fuzzy
+msgid "**Information Panel**"
+msgstr "** Panneau d'information **"
+
+msgid "The Information Panel is used to display messages back to the user. Messages will occur once a user has been added, updated or deleted or if there was an error at any time during the process of these actions."
+msgstr "Le Panneau d'Information est utilisé pour afficher des messages à l'utilisateur. Les Messages se fera une fois qu'un utilisateur a été ajouté, mis à jour ou supprimés, ou si il y a une erreur à tout moment pendant le déroulement de ces actions."
+
+#, fuzzy
+msgid "­User Page"
+msgstr "Page utilisateur"
+
+#, fuzzy
+msgid "**Data Entry**"
+msgstr "**La saisie des données**"
+
+#, fuzzy
+msgid "`User Page`"
+msgstr "`Page utilisateur`"
+
+#, fuzzy
+msgid "Select the user’s preferred language from the list by clicking on the arrow on the right hand side of the lookup. Mandatory."
+msgstr "Sélectionnez la langue préférée de l'utilisateur dans la liste en cliquant sur la flèche à droite de la recherche. Obligatoire."
+
+#, fuzzy
+msgid "``Last name``"
+msgstr "``Nom de famille``"
+
+#, fuzzy
+msgid "Enter the last name (surname) for the user. Mandatory, 100 characters maximum."
+msgstr "Entrez le nom de famille (nom de famille) de l'utilisateur. Obligatoire, 100 caractères maximum."
+
+#, fuzzy
+msgid "Enter other names of the user. Mandatory, 100 characters maximum."
+msgstr "Entrez d'autres noms de l'utilisateur. Obligatoire, 100 caractères maximum."
+
+#, fuzzy
+msgid "Enter the phone number for the user. 50 characters maximum."
+msgstr "Saisissez le numéro de téléphone de l'utilisateur. 50 caractères maximum."
+
+#, fuzzy
+msgid "Enter the e-mail address for the user. 50 characters maximum."
+msgstr "Saisissez l'adresse e-mail de l'utilisateur. 50 caractères maximum."
+
+msgid "Enter the Login name for the user. This is an alias used for logging into the application; a minimum of 6 and a maximum of 25 characters should be used for the login. Each Login Name should be unique. Mandatory."
+msgstr "Entrez le nom de Connexion de l'utilisateur. C'est un alias utilisé pour la connexion à la demande, un minimum de 6 et un maximum de 25 caractères doit être utilisé pour la connexion. Chaque Nom de Connexion doit être unique. Obligatoire."
+
+#, fuzzy
+msgid "``Password``"
+msgstr "``Mot de passe``"
+
+msgid "Enter the password for the user. This is used at login to grant access to the application; a minimum of 8 and a maximum of 25 characters should be used for the password. The password should have at least one digit. Mandatory."
+msgstr "Entrez le mot de passe pour l'utilisateur. Il est utilisé lors de la connexion d'accorder l'accès à l'application; un minimum de 8 et un maximum de 25 caractères doit être utilisé pour le mot de passe. Le mot de passe doit comporter au moins un chiffre. Obligatoire."
+
+#, fuzzy
+msgid "``Confirm Password``"
+msgstr "``Confirmer le mot de passe``"
+
+#, fuzzy
+msgid "Re-enter the password. The password must be entered twice, to ensure that there was no mistyping in the first entry. Mandatory."
+msgstr "Entrez à nouveau le mot de passe. Le mot de passe doit être entré deux fois pour garantir qu'il n'y a pas eu de faute de frappe lors de la première entrée. Obligatoire."
+
+#, fuzzy
+msgid "``Health Facility``"
+msgstr "``Établissement de santé``"
+
+msgid "Select the health facility that the user belongs to, if applicable, from the list of health Facilities from the list by clicking on the arrow on the right hand side of the lookup. *Note: The list will only be filled with the Health Facilities belonging to the districts assigned to the currently logged in user.*"
+msgstr "Sélectionnez l'établissement de santé auquel l'utilisateur appartient, le cas échéant, de la liste des Établissements de santé de la liste en cliquant sur la flèche sur le côté droit de la recherche. *Remarque: La liste ne sera rempli avec les Établissements de Santé appartenant aux districts affectés à l'utilisateur actuellement connecté.*"
+
+#, fuzzy
+msgid "``Roles``"
+msgstr "``Rôles``"
+
+msgid "Select from the list of available roles the Roles which the user carries out, by either clicking on the ``Check All`` box at the top of the list of Roles, or by selectively clicking on the ``Check box`` to the left of the role. Mandatory (at least one role must be selected). The list of roles contains all roles (user profiles) that are not blocked. Mandatory (at least one role must be selected)"
+msgstr "Sélectionnez dans la liste des rôles disponibles, les Rôles que l'utilisateur effectue, soit en cliquant sur `Vérifier Tout` en haut de la liste des Rôles, ou de manière sélective la cliquant sur sur la `case à cocher` à la gauche de la de la rôle. Obligatoire (au moins un rôle doit être sélectionné). La liste des rôles contient tous les rôles (profils d'utilisateur) qui ne sont pas bloqués. Obligatoire (au moins un rôle doit être sélectionné)"
+
+#, fuzzy
+msgid "``Regions``"
+msgstr "``Régions``"
+
+msgid "Select from the list of available regions the region(s) which the user will have access to, by either clicking on the ``Check All`` box at the top of the list of regions, or by selectively clicking on the ``Check box`` to the left of a region. Mandatory (at least one region must be selected). The selection can be done indirectly by selecting a district or some districts. The box contains only regions accessible to the user or regions that have been added by the user. Mandatory (at least one region must be selected). The selection can be done indirectly by selecting a district or some districts."
+msgstr "Sélectionnez à partir de la liste des régions de la région de(s) l'utilisateur aura accès à l', soit en cliquant sur `Vérifier Tout` en haut de la liste des régions, ou de manière sélective la cliquant sur sur la `case à cocher` à la gauche d'une région. Obligatoire (au moins une région doit être sélectionné). La sélection peut être effectué par la sélection d'un district ou de certains districts. La boîte ne contient que des régions accessible à l'utilisateur ou les régions qui ont été ajoutés par l'utilisateur. Obligatoire (au moins une région doit être sélectionné). La sélection peut être effectué par la sélection d'un district ou de certains districts."
+
+#, fuzzy
+msgid "``Districts``"
+msgstr "``Districts``"
+
+msgid "Select from the list of available districts the district(s) which the user will have access to, by either clicking on the ``Check All`` box at the top of the list of districts, or by selectively clicking on the ``Check box`` to the left of the district. Districts are pre-selected based on the selected region(s). The pre-selection can be modified. Mandatory (at least one district must be selected). The selection can be done indirectly by just selecting a region or some regions. The box contains only regions accessible to the user or regions that have been added by the user. Mandatory (at least one region must be selected). The selection can be done indirectly by selecting a district or some districts."
+msgstr "Sélectionnez à partir de la liste des districts, le district(s) que l'utilisateur aura accès à l', soit en cliquant sur `Vérifier Tout` en haut de la liste des districts, ou de manière sélective la cliquant sur sur la `case à cocher` à la gauche de l'arrondissement. Les Districts sont pré-sélectionnés en fonction de la région sélectionnée(s). La pré-sélection peut être modifiée. Obligatoire (au moins un district doit être sélectionné). La sélection peut être effectué simplement en sélectionnant une région ou certaines régions. La boîte ne contient que des régions accessible à l'utilisateur ou les régions qui ont été ajoutés par l'utilisateur. Obligatoire (au moins une région doit être sélectionné). La sélection peut être effectué par la sélection d'un district ou de certains districts."
+
+#, fuzzy
+msgid "**Saving**"
+msgstr "**Sauvegarder**"
+
+msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `User Control Page <#user-control-page>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the user has been saved will appear on the Information Panel."
+msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton ``Sauvegarder`` sauvegardera l'enregistrement. L'utilisateur sera redirigé vers la `page de contrôle utilisateur <#user-control-page> page de contrôle <#user-control-page>`__, avec l'enregistrement nouvellement enregistré affiché et sélectionné dans le panneau de résultats. Un message confirmant que l'utilisateur a été enregistré apparaîtra sur le panneau d'informations."
+
+#, fuzzy
+msgid "**Mandatory data**"
+msgstr "** Données obligatoires **"
+
+msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data fields will take the focus (by an asterisk on the right of the corresponding data field)."
+msgstr "S'il est obligatoire de données n'est pas entré au moment où l'utilisateur clique sur le bouton `Enregistrer`, un message s'affiche dans le Panneau d'Information, et les champs de données va prendre le focus (par un astérisque sur la droite du champ de données correspondant)."
+
+#, fuzzy
+msgid "**Cancel**"
+msgstr "**Annuler**"
+
+#, fuzzy
+msgid "By clicking on the ``Cancel`` button, the user will be re-directed to the `User Control Page. <#user-control-page>`__"
+msgstr "En cliquant sur le bouton ``Annuler``, l'utilisateur sera redirigé vers la `page de contrôle utilisateur. <#user-control-page>`__"
+
+#, fuzzy
+msgid "Adding a User"
+msgstr "Ajout d'un utilisateur"
+
+#, fuzzy
+msgid "Click on the Add button to re-direct to the `User Page <#user-page>`__."
+msgstr "Cliquez sur le bouton Ajouter pour rediriger vers la page utilisateur <#user-page>`__."
+
+#, fuzzy
+msgid "When the page opens all entry fields are empty. See the `User Page <#user-page>`__ for information on the data entry and mandatory fields."
+msgstr "Lorsque la page s'ouvre, tous les champs de saisie sont vides. Voir la `Page utilisateur <#user-page>`__ pour des informations sur la saisie des données et les champs obligatoires."
+
+#, fuzzy
+msgid "Editing a User"
+msgstr "Modification d'un utilisateur"
+
+#, fuzzy
+msgid "Click on the Edit button to re-direct to the `User Page <#user-page>`__"
+msgstr "Cliquez sur le bouton Modifier pour rediriger vers la page utilisateur <#user-page>`__"
+
+msgid "The page will open with the current information loaded into the data entry fields. See the `User Page <#user-page>`__ for information on the data entry and mandatory fields"
+msgstr "La page s'ouvrira avec les informations actuelles chargées dans les champs de saisie de données. Voir la `Page utilisateur <#user-page>`__ pour plus d'informations sur la saisie des données et les champs obligatoires"
+
+#, fuzzy
+msgid "Deleting a User"
+msgstr "Supprimer un utilisateur"
+
+#, fuzzy
+msgid "Click on the Delete button to delete the currently selected record"
+msgstr "Cliquez sur le bouton Supprimer pour supprimer l'enregistrement actuellement sélectionné"
+
+msgid "Before deleting a confirmation popup (:numref:`image58`) is displayed, this requires the user to confirm if the action should really be carried out."
+msgstr "Avant de supprimer un popup de confirmation (:numref:`image58`) est affichée, ce qui oblige l'utilisateur à confirmer si l'action doit vraiment être réalisée."
+
+#, fuzzy
+msgid "`Delete confirmation- Button Panel`"
+msgstr "`Supprimer la confirmation - Panneau de boutons`"
+
+#, fuzzy
+msgid "When a user is deleted, all records retaining to the deleted user will still be available by selecting historical records."
+msgstr "Lorsqu'un utilisateur est supprimé, tous les enregistrements conservés par l'utilisateur supprimé seront toujours disponibles en sélectionnant les enregistrements historiques."
