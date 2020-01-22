@@ -1,0 +1,275 @@
+msgid ""
+msgstr "" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n" 
+"X-Generator: lokalise.com\n" 
+"Project-Id-Version: openIMIS docs\n" 
+"PO-Revision-Date: 2020-01-09 10:45\n" 
+"Last-Translator: lokalise.com\n" 
+"Language-Team: lokalise.com\n\n" 
+"Language: fr\n"
+
+
+msgid "Medical Services Administration"
+msgstr "Administration des services médicaux"
+
+msgid "The register of Medical Services contains all medical services that can be included in packages of benefits of insurance products administered and remunerated by the health insurance scheme. Administration of the register of medical services is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Medical Services."
+msgstr "Le registre des Services Médicaux contient tous les services médicaux qui peuvent être inclus dans les packages de prestations de l'assurance des produits administrés et rémunérées par le régime d'assurance maladie. L'Administration du registre des services médicaux est limité aux utilisateurs avec le rôle de système de Régime d'Administrateur ou avec un rôle, y compris un accès à l'Administration/Services Médicaux."
+
+
+msgid "Pre-conditions"
+msgstr "Conditions préalables"
+
+
+msgid "A medical service may only be added or thereafter edited or deleted, after the approval of the management of the scheme administration."
+msgstr "Un service médical ne peut être ajouté ou modifié ou supprimé par la suite qu'après approbation de la direction de l'administration du régime."
+
+
+msgid "Navigation"
+msgstr "La navigation"
+
+
+msgid "All functionality for use with the administration of Medical Services can be found under the main menu ``Administration``, sub menu ``Medical Services.``"
+msgstr "Toutes les fonctionnalités à utiliser avec l'administration des services médicaux se trouvent dans le menu principal ``Administration``, sous-menu ``Services médicaux``."
+
+
+msgid "`Navigation Medical Services`"
+msgstr "`Services médicaux de navigation`"
+
+
+msgid "Clicking on the sub menu ``Medical Services`` re-directs the current user to the `Medical Services Control Page <#medical-services-control-page>`__\\."
+msgstr "Un clic sur le sous-menu ``Services médicaux`` redirige l'utilisateur actuel vers la `Page de contrôle des services médicaux <#medical-services-control-page>`__ \\."
+
+
+msgid "`Medical Services Control Page`"
+msgstr "`Page de contrôle des services médicaux`"
+
+
+msgid "Medical Services Control Page"
+msgstr "Page de contrôle des services médicaux"
+
+msgid "The ``Medical Services Control Page`` is the central point for all medical service administration. By having Access to this panel, it is possible to add, edit, delete and search. The panel is divided into four panels (:numref:`image23`)"
+msgstr "Les `Services Médicaux de Contrôle de la Page` est le point central pour tous le service médical de l'administration. En ayant Accès à ce panneau, il est possible d'ajouter, modifier, supprimer et rechercher. Le panneau est divisé en quatre panneaux (:numref:`image23`)"
+
+
+msgid "**Search Panel**"
+msgstr "** Panneau de recherche **"
+
+msgid "The Search Panel allows a user to select specific criteria to minimise the search results. In the case of medical services the following search options are available which can be used alone or in combination with each other."
+msgstr "Le Panneau de Recherche permet à un utilisateur de sélectionner des critères spécifiques afin de minimiser les résultats de la recherche. Dans le cas des services médicaux, les options de recherche suivantes sont disponibles qui peuvent être utilisés seuls ou en combinaison les uns avec les autres."
+
+
+msgid "``Code``"
+msgstr "`` Code``"
+
+
+msgid "Type in the beginning of; or the full ``Code``; to search for medical services with a ``Code``, which starts with or matches completely, the typed text."
+msgstr "Tapez au début de; ou le ``Code`` complet; pour rechercher des services médicaux avec un ``Code``, qui commence ou correspond complètement au texte tapé."
+
+
+msgid "``Name``"
+msgstr "``Nom``"
+
+
+msgid "Type in the beginning of; or the full ``Name`` to search for medical services with a ``Name``, which starts with or matches completely, the typed text."
+msgstr "Tapez au début de; ou le ``Nom`` complet pour rechercher des services médicaux avec un ``Nom``, qui commence ou correspond complètement au texte tapé."
+
+
+msgid "``Type``"
+msgstr "``Type``"
+
+
+msgid "Select the ``Type``; from the list of types (Preventive, Curative) by clicking on the arrow on the right of the selector, to select medical services of a specific type."
+msgstr "Sélectionnez le ``Type``; dans la liste des types (Préventif, Curatif) en cliquant sur la flèche à droite du sélecteur, pour sélectionner les services médicaux d'un type spécifique."
+
+
+msgid "``Historical``"
+msgstr "``Historique``"
+
+msgid "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image24`)"
+msgstr "Cliquez sur `Historique` pour voir l'historique des enregistrements correspondant aux critères sélectionnés. Les documents historiques sont affichés dans le résultat avec une ligne au milieu du texte (barré) de définir clairement de dossiers en cours (:numref:`image24`)"
+
+
+msgid "`Historical records - Result Panel`"
+msgstr "`Dossiers historiques - Panneau de résultats`"
+
+
+msgid "``Search Button``"
+msgstr "``Bouton de recherche``"
+
+
+msgid "Once the criteria have been entered, use the search button to filter the records, the results will appear in the result panel."
+msgstr "Une fois les critères saisis, utilisez le bouton de recherche pour filtrer les enregistrements, les résultats apparaîtront dans le panneau de résultats."
+
+
+msgid "**Result Panel**"
+msgstr "**Panneau de résultats**"
+
+msgid "The Result Panel displays a list of all medical services found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image25`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
+msgstr "Le Résultat s'affiche sur le Panneau une liste de tous les services médicaux trouvé, correspondant aux Critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image25`). La gauche dossier contient un lien, qui, si vous cliquez dessus, re-dirige l'utilisateur vers le record actuel pour obtenir la visualisation si c'est un record historique ou de la modification si c'est l'enregistrement en cours."
+
+
+msgid "`Selected record (blue), hovered records (yellow) - Result Panel`"
+msgstr "`Enregistrement sélectionné (bleu), enregistrements survolés (jaune) - Panneau de résultats`"
+
+
+msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image26`)."
+msgstr "Un maximum de 15 enregistrements sont affichés en même temps, d'autres enregistrements peuvent être consultés en parcourant les pages à l'aide du sélecteur de page en bas du panneau de résultats (:numref:`image26`)."
+
+
+msgid "`Page Selector - Result Panel`"
+msgstr "`Sélecteur de page - Panneau de résultats`"
+
+
+msgid "**Button Panel**"
+msgstr "** Panneau de boutons **"
+
+msgid "With exception of the cancel button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``End`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button."
+msgstr "À l'exception du bouton d'annulation, qui redirige vers :ref:`Page d'accueil <home_page>`, le panneau de boutons (les boutons ``Fin`` et ``Supprimer``) est utilisé en conjonction avec le courant sélectionné enregistrement (surligné en bleu). L'utilisateur doit d'abord sélectionner un enregistrement en cliquant sur n'importe quelle position de l'enregistrement à l'exception du lien hypertexte le plus à gauche, puis cliquez sur le bouton."
+
+
+msgid "**Information Panel**"
+msgstr "** Panneau d'information **"
+
+
+msgid "The Information Panel is used to display messages back to the user. Messages will occur once a medical service has been added, updated or deleted or if there was an error at any time during the process of these actions."
+msgstr "Le panneau d'informations est utilisé pour afficher les messages à l'utilisateur. Les messages s'afficheront une fois qu'un service médical aura été ajouté, mis à jour ou supprimé ou s'il y a eu une erreur à tout moment au cours du processus de ces actions."
+
+
+msgid "Medical Service Page"
+msgstr "Page du service médical"
+
+
+msgid "**Data Entry**"
+msgstr "**La saisie des données**"
+
+
+msgid "`Medical Service Page`"
+msgstr "`Page de service médical`"
+
+
+msgid "Enter the code for the medical service. Mandatory, 6 characters."
+msgstr "Entrez le code du service médical. Obligatoire, 6 caractères."
+
+
+msgid "Enter the name of the medical service. Mandatory, 100 characters maximum."
+msgstr "Saisissez le nom du service médical. Obligatoire, 100 caractères maximum."
+
+
+msgid "``Category``"
+msgstr "`` Catégorie``"
+
+
+msgid "Choose the category (Surgery, Consultation, Delivery, Antenatal, Other) which the medical service belongs to."
+msgstr "Choisissez la catégorie (chirurgie, consultation, accouchement, prénatale, autre) à laquelle appartient le service médical."
+
+
+msgid "Choose one from the options available (Preventive, Curative), the type of the medical service. Mandatory."
+msgstr "Choisissez l'une des options disponibles (préventive, curative), le type de service médical. Obligatoire."
+
+
+msgid "``Level``"
+msgstr "`` Niveau``"
+
+
+msgid "Select from the list (Simple Service, Visit, Day of Stay, Hospital Case), the level for the medical service. Mandatory."
+msgstr "Sélectionnez dans la liste (Service simple, Visite, Jour de séjour, Cas hospitalier), le niveau du service médical. Obligatoire."
+
+
+msgid "``Price``"
+msgstr "`` Prix``"
+
+
+msgid "Enter the price a general price that can be overloaded in pricelists. Full general price (including potential cost sharing of an insuree) for the medical service. Mandatory."
+msgstr "Entrez le prix un prix général qui peut être surchargé dans les listes de prix. Prix général complet (y compris le partage éventuel des coûts d'un assuré) pour le service médical. Obligatoire."
+
+
+msgid "``Care Type``"
+msgstr "``Type de soins``"
+
+
+msgid "Choose one from the options available (Out-patient, In-patient, Both), the limitation of provision of the medical service to the specific type of health care. Mandatory."
+msgstr "Choisissez l'une des options disponibles (ambulatoire, hospitalisé, les deux), la limitation de la prestation des services médicaux au type spécifique de soins de santé. Obligatoire."
+
+
+msgid "``Frequency``"
+msgstr "``Fréquence``"
+
+
+msgid "Enter the limitation of frequency of provision in a number of days within which a medical service can be provided to a patient not more than once. If the frequency is zero, there is no limitation. *Note: By default the frequency is 0.*"
+msgstr "Entrez la limitation de la fréquence de prestation dans un certain nombre de jours pendant lesquels un service médical peut être fourni à un patient pas plus d'une fois. Si la fréquence est nulle, il n'y a pas de limitation. *Remarque: Par défaut, la fréquence est 0.*"
+
+
+msgid "``Patient``"
+msgstr "``Patient``"
+
+
+msgid "Choose one or a combination of the options available, to specify which patient type the medical service is applicable to. *Note: By default all patient options are checked (selected).*"
+msgstr "Choisissez une ou une combinaison des options disponibles pour spécifier à quel type de patient le service médical s'applique. *Remarque: Par défaut, toutes les options patient sont cochées (sélectionnées).*"
+
+
+msgid "**Saving**"
+msgstr "**Sauvegarder**"
+
+msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Medical Services Control Page <#medical-services-control-page>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the medical service has been saved will appear on the Information Panel."
+msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton ``Sauvegarder`` sauvegardera l'enregistrement. L'utilisateur sera redirigé vers la `page de contrôle des services médicaux <#medical-services-control-page>`__, avec l'enregistrement nouvellement enregistré affiché et sélectionné dans le panneau de résultats. Un message confirmant que le service médical a été enregistré apparaîtra sur le panneau d'information."
+
+
+msgid "**Mandatory data**"
+msgstr "** Données obligatoires **"
+
+msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk on the right of the corresponding data field)."
+msgstr "S'il est obligatoire de données n'est pas entré au moment où l'utilisateur clique sur le bouton `Enregistrer`, un message s'affiche dans le Panneau d'Information, et le champ de données de prendre le focus (par un astérisque sur la droite du champ de données correspondant)."
+
+
+msgid "**Cancel**"
+msgstr "**Annuler**"
+
+
+msgid "By clicking on the ``Cancel`` button, the user will be re-directed to the `Medical Services Control Page <#medical-services-control-page>`__."
+msgstr "En cliquant sur le bouton ``Annuler``, l'utilisateur sera redirigé vers la `Page de contrôle des services médicaux <#medical-services-control-page>`__."
+
+
+msgid "Adding a Medical Service"
+msgstr "Ajout d'un service médical"
+
+
+msgid "Click on the ``Add`` button to re-direct to the `Medical Service Page <#medical-service-page>`__\\ ."
+msgstr "Cliquez sur le bouton ``Ajouter`` pour rediriger vers la `Page de service médical <#medical-service-page>`__ \\."
+
+
+msgid "When the page opens all entry fields are empty. See the `Medical Service Page <#medical-service-page>`__ for information on the data entry and mandatory fields."
+msgstr "Lorsque la page s'ouvre, tous les champs de saisie sont vides. Consultez la page `Service médical <#medical-service-page>`__ pour plus d'informations sur la saisie des données et les champs obligatoires."
+
+
+msgid "Editing a Medical Service"
+msgstr "Modification d'un service médical"
+
+
+msgid "Click on the ``Edit`` button to re-direct to the `Medical Service Page <\\l>`__\\ ."
+msgstr "Cliquez sur le bouton ``Modifier`` pour rediriger vers la `page des services médicaux <\\l>`__ \\."
+
+
+msgid "The page will open with the current information loaded into the data entry fields. See the `Medical Service Page <#medical-service-page>`__ for information on the data entry and mandatory fields."
+msgstr "La page s'ouvrira avec les informations actuelles chargées dans les champs de saisie de données. Consultez la page `Service médical <#medical-service-page>`__ pour plus d'informations sur la saisie des données et les champs obligatoires."
+
+
+msgid "Deleting a Medical Service"
+msgstr "Suppression d'un service médical"
+
+
+msgid "Click on the ``Cancel`` button to delete the currently selected record; the user is re-directed the `Medical Services Control Page <#medical-services-control-page>`__\\."
+msgstr "Cliquez sur le bouton ``Annuler`` pour supprimer l'enregistrement actuellement sélectionné; l'utilisateur est redirigé vers la `page de contrôle des services médicaux <#medical-services-control-page>`__ \\."
+
+
+msgid "Before deleting a confirmation popup (:numref:`image28`) is displayed, which requires the user to confirm if the action should really be carried out?"
+msgstr "Avant de supprimer une fenêtre de confirmation (:numref:`image28`) s'affiche, ce qui oblige l'utilisateur à confirmer si l'action doit vraiment être effectuée?"
+
+
+msgid "`Delete confirmation- Button Panel`"
+msgstr "`Supprimer la confirmation - Panneau de boutons`"
+
+
+msgid "When a medical service is deleted, all records retaining to the deleted medical service will still be available by selecting historical records."
+msgstr "Lorsqu'un service médical est supprimé, tous les enregistrements conservant le service médical supprimé seront toujours disponibles en sélectionnant les enregistrements historiques."

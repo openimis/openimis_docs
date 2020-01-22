@@ -1,0 +1,80 @@
+msgid ""
+msgstr "" 
+"Project-Id-Version: openIMIS \n" 
+"Report-Msgid-Bugs-To: \n" 
+"POT-Creation-Date: 2019-08-16 15:21+0200\n" 
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n" 
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n" 
+"Language-Team: LANGUAGE <LL@li.org>\n" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Email Settings"
+msgstr "Email Settings"
+
+msgid "Access to the ``Email Settigns`` is restricted to the users with the role of Accountant."
+msgstr "Access to the ``Email Settigns`` is restricted to the users with the role of Accountant."
+
+msgid "The ``Email Settigns`` is the page where the setting of the outbound email server are entered."
+msgstr "The ``Email Settigns`` is the page where the setting of the outbound email server are entered."
+
+msgid "Navigation"
+msgstr "Navigation"
+
+msgid "The functionality for entering of funds can be found under the main menu ``Tools``, sub menu ``Email Settigns``"
+msgstr "The functionality for entering of funds can be found under the main menu ``Tools``, sub menu ``Email Settigns``"
+
+msgid "`Navigation Email Settings`"
+msgstr "`Navigation Email Settings`"
+
+msgid "Clicking on the sub menu ``Email Settigns`` re-directs the current user to the `Email settings Page. <#image-277-email-settings-page>`__"
+msgstr "Clicking on the sub menu ``Email Settigns`` re-directs the current user to the `Email settings Page. <#image-277-email-settings-page>`__"
+
+msgid "Email settings page"
+msgstr "Email settings page"
+
+msgid "**Data Entry**"
+msgstr "**Data Entry**"
+
+msgid "`Email settings Page`"
+msgstr "`Email settings Page`"
+
+msgid "``Email``"
+msgstr "``Email``"
+
+msgid "SMTP Login to be used on the email server in order to send email"
+msgstr "SMTP Login to be used on the email server in order to send email"
+
+msgid "``Password``"
+msgstr "``Password``"
+
+msgid "SMTP password to be used on the email server in order to send email."
+msgstr "SMTP password to be used on the email server in order to send email."
+
+msgid "``SMTP Host``"
+msgstr "``SMTP Host``"
+
+msgid "SMTP email server address or IP"
+msgstr "SMTP email server address or IP"
+
+msgid "``Port``"
+msgstr "``Port``"
+
+msgid "SMTP email server IP port, standard port are"
+msgstr "SMTP email server IP port, standard port are"
+
+msgid "25 when no encryption is used"
+msgstr "25 when no encryption is used"
+
+msgid "465 when implicit encryption is used(depreciated)"
+msgstr "465 when implicit encryption is used(depreciated)"
+
+msgid "587 when explicit encryption is used, see ``Enable SSL``"
+msgstr "587 when explicit encryption is used, see ``Enable SSL``"
+
+msgid "``Enable SSL``"
+msgstr "``Enable SSL``"
+
+msgid "Check to box if the SMTP mail server require encryption"
+msgstr "Check to box if the SMTP mail server require encryption"

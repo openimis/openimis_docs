@@ -1,0 +1,32 @@
+msgid ""
+msgstr "" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n" 
+"X-Generator: lokalise.com\n" 
+"Project-Id-Version: openIMIS docs\n" 
+"PO-Revision-Date: 2020-01-09 10:45\n" 
+"Last-Translator: lokalise.com\n" 
+"Language-Team: lokalise.com\n\n" 
+"Language: fr\n"
+
+
+msgid "Login"
+msgstr "S'identifier"
+
+msgid "To access the software, Users must have a valid User Name and Password, provided by the “IMIS Administrator”. In the browser address bar type the URL of the openIMIS instance to request the start page. Login page will appear (:numref:`image1`)."
+msgstr "Pour accéder au logiciel, les Utilisateurs doivent avoir un Nom d'Utilisateur valide et Mot de passe, fournis par le “IMIS Administrateur”. Dans la barre d'adresse du navigateur, entrez l'URL du openIMIS instance pour demander la page de démarrage. Page de connexion s'affiche (:numref:`image1`)."
+
+
+msgid "`User Login`"
+msgstr "`Connexion utilisateur`"
+
+msgid "Use the provided Login Name and Password, and click on the button Login. If successful, the system will re-direct to the Home Page (:numref:`home_page`)."
+msgstr "Utiliser le Nom de Connexion et Mot de passe, et cliquez sur le bouton de Connexion. En cas de succès, le système sera redirigé vers la Page d'Accueil (:numref:`home_page`)."
+
+
+msgid "`Home Page`"
+msgstr "`Page d'accueil`"
+
+msgid "The full menu is displayed. Clicking on the menu headers will display a sub-menu providing further navigation options. Only menu accessible to the user are displayed. Below the main menu at the top left-hand corner there is information about the current login user: Login Name, a list of roles acquired by the user and and the region the districts to which the user has access. Logins and roles assignment can be created in the `Users Administration page <#users-administration>`__, custom roles can be created and modified in the `User roles Administration Page <#user-roles-adminstration>`__."
+msgstr "Le menu complet s'affiche. Cliquez sur les en-têtes de menu pour afficher un sous-menu offrant d'autres options de navigation. Seul le menu accessible à l'utilisateur est affiché. Sous le menu principal dans le coin supérieur gauche, il y a des informations sur l'utilisateur de connexion actuel: Nom de connexion, une liste des rôles acquis par l'utilisateur et et la région des districts auxquels l'utilisateur a accès. Les connexions et attributions de rôles peuvent être créées dans la `page d'administration des utilisateurs <#users-administration>`__, les rôles personnalisés peuvent être créés et modifiés dans la `page d'administration des rôles d'utilisateurs <#user-roles-adminstration>`__."

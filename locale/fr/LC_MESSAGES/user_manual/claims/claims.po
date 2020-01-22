@@ -1,0 +1,50 @@
+msgid ""
+msgstr "" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n" 
+"X-Generator: lokalise.com\n" 
+"Project-Id-Version: openIMIS docs\n" 
+"PO-Revision-Date: 2020-01-09 10:45\n" 
+"Last-Translator: lokalise.com\n" 
+"Language-Team: lokalise.com\n\n" 
+"Language: fr\n"
+
+
+msgid "Claims"
+msgstr "Réclamations"
+
+msgid "The functionality under the menu ``Claims`` allows complete processing of claims from their entering into IMIS, modification, submission to processing, automatic checking of their correctness, reviewing of them by medical officers, their evaluating and preparation of report to an accounting system for their remuneration to contractual health facilities. Each claim can be consequently in several states. Once it is entered to openIMIS (either by the mobile phone application **Claim Management** or typed in and saved in IMIS) it goes to the status **Entered**."
+msgstr "La fonctionnalité dans le menu `Réclamations` permet de compléter le traitement de la demande à partir de leur entrée dans le SIG, la modification, la soumission à la transformation, à la vérification automatique de l'exactitude, de l'examen par les officiers de santé, de leur évaluation et de la préparation de ce rapport à un système de comptabilité pour leur rémunération contractuelle des établissements de santé. Chaque demande peut être, par conséquent, dans plusieurs états. Une fois qu'il est entré à openIMIS (soit par le téléphone mobile de l'application **Gestion des réclamations** ou dactylographiés et enregistrés l'IMIS), il va à l'état **Conclusion**."
+
+
+msgid "**claim entry and submission**"
+msgstr "** entrée et soumission de réclamation **"
+
+msgid "When it is submitted and it successfully passes at least some automatic checks, the claim goes to the status **Checked**. If the claim doesn’t pass automatic checking it goes to the status **Rejected** and its processing ends. The claim in the status **Checked** may be reviewed from medical point of view and/or a feedback on it can be collected from the patient."
+msgstr "Lorsqu'il est soumis et il réussit au moins certains des contrôles automatiques, la demande passe à l'état **Cochée**. Si la demande ne passe pas de vérification automatique, il va à l'état **Rejeté** et son traitement se termine. La revendication du statut de **Cochée** peuvent être examinés au point de vue médical et/ou un retour sur elle peut être recueillie à partir du patient."
+
+
+msgid "**claim review: scrutinisation and feedback**"
+msgstr "** examen des réclamations: examen minutieux et rétroaction **"
+
+
+msgid "Medical reviewing and feedback acquiring can be by-passed. Ones such (manual) scrutiny of the claim is at the end, the claim may be pushed to the status **Processed**."
+msgstr "L'examen médical et l'acquisition de commentaires peuvent être contournés. Un tel examen (manuel) de la réclamation est à la fin, la réclamation peut être poussée au statut **Traitée**."
+
+
+msgid "**claim valuation**"
+msgstr "**évaluation des réclamations**"
+
+msgid "In this status the claim is evaluated in nominal prices, taking into account all ceilings, deductibles and other cost sharing rules associated with insurance product or products covering claimed health care. If there is no medical service or medical item price of which a relative one according to the corresponding insurance product, the claim goes automatically to the status **Valuated**."
+msgstr "Dans cet état de la demande est évaluée en valeur nominale prix, en prenant en compte tous les plafonds, franchises et autres règles de partage des coûts associés à un produit d'assurance ou de produits couvrant réclamé des soins de santé. Si il n'y a pas de service médical médical ou de prix de l'article, dont un rapport de selon le correspondant de produits d'assurance, la demande passe automatiquement à l'état **Stock**."
+
+msgid "If there is at least one medical service or medical item with relative pricing, the claim goes to the status **Valuated** only after a batch for corresponding period is run. The batch for a period (month, quarter, year) finishes evaluation of relative prices on claims on one hand and summarizes all claims in the period for accounting system that is external to openIMIS (it is not a part of it)."
+msgstr "Si il y a au moins un service médical ou le médical point avec des prix relatifs, la demande passe à l'état **Stock** seulement après un lot pour la période correspondante est exécutée. Le lot pour une période (mois, trimestre, année) termine l'évaluation des prix relatifs sur les réclamations d'une part, et résume toutes les réclamations dans le délai de système comptable externe à openIMIS (ce n'est pas une partie de celui-ci)."
+
+
+msgid "**claims values based on stage**"
+msgstr "** valeurs des réclamations basées sur l'étape **"
+
+msgid "Different values (prices) of a claim are associated with each stage of processing of claims. When a claim is entered the value of the claim based on nominal prices of claimed medical services/items is designated as **Claimed Value**. **Claimed Value** is associated with the state **Entered**. The value of the claim after automatic checking of claims during submission of the claim and after manual interventions of medical officers is designated as **Approved Value**. **Approved Value** is associated with the state **Checked**. The value of the claim after corrections based on all cost sharing rules of covering insurance products is designated as **Adjusted Value**. **Adjusted Value** is associated with the state **Processed**. The final value of the claim taking into account actual value of relative prices is designated as **Paid Value**. **Paid Value** is associated with the state **Valuated**."
+msgstr "Des valeurs différentes (les prix) d'une demande qui sont associées à chaque étape de traitement des réclamations. Lorsqu'une réclamation est entré la valeur de la demande basée sur les prix nominaux des revendiquée services médicaux/articles est désigné comme **Valeur Revendiquée**. **Valeur revendiquée** est associé avec l'etat **Conclusion**. La valeur de la demande, après vérification automatique des demandes au cours de la présentation de la demande et après les interventions manuelles de personnel médical est désigné comme **Approuvé Valeur**. **Approuvé Valeur** est associé avec l'etat **Cochée**. La valeur de la créance après corrections basées sur toutes les règles de partage des coûts de la couverture des produits d'assurance est désigné comme **Ajusté de la Valeur**. **Ajusté de la Valeur** est associé avec l'etat **Traité**. La valeur finale de la demande en tenant compte de la valeur réelle des prix relatifs, il est désigné comme **Valeur Payée**. **Valeur payée** est associé avec l'etat **Stock**."

@@ -1,0 +1,726 @@
+
+msgid ""
+msgstr "Project-Id-Version: openIMIS docs\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-01-22 10:20+0100\n"
+"PO-Revision-Date: 2020-01-09 10:45+0000\n"
+"Last-Translator: lokalise.com\n"
+"Language-Team: lokalise.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../user_manual/claims/hf_claims.rst:4
+
+msgid "Heath Facility Claims"
+msgstr "Réclamations relatives aux installations de Santé"
+
+#: ../../user_manual/claims/hf_claims.rst:6
+
+msgid "Access to the ``Health Facility Claims Page`` is restricted to users with the role of Claim Administrator."
+msgstr "L'accès à la ``Page des réclamations des établissements de santé`` est réservé aux utilisateurs ayant le rôle d'administrateur des réclamations."
+
+#: ../../user_manual/claims/hf_claims.rst:9
+
+msgid "Pre-conditions"
+msgstr "Conditions préalables"
+
+#: ../../user_manual/claims/hf_claims.rst:12
+
+msgid "Navigation"
+msgstr "La navigation"
+
+#: ../../user_manual/claims/hf_claims.rst:14
+
+msgid "All functionality for use with the administration of health facility claims can be found under the main menu ``Claims``, sub menu ``Health Facility Claims``."
+msgstr "Toutes les fonctionnalités destinées à l'administration des demandes de règlement des établissements de santé se trouvent dans le menu principal ``Réclamations``, sous-menu ``Réclamations des établissements de santé``."
+
+#: ../../user_manual/claims/hf_claims.rst:20
+
+msgid "`Image - Navigation Health Facility Claims`"
+msgstr "`Image - Réclamations des établissements de santé de navigation`"
+
+#: ../../user_manual/claims/hf_claims.rst:22
+
+msgid "Clicking on the sub menu ``Health Facility Claims`` re-directs the current user to the :ref:`Claims Control Page  <health_facility_claims>`."
+msgstr "En cliquant sur le sous-menu ``Réclamations des établissements de santé``, l'utilisateur actuel est redirigé vers :ref:`Page de contrôle des réclamations <health_facility_claims>`."
+
+#: ../../user_manual/claims/hf_claims.rst:27
+
+msgid "Claims Control Page"
+msgstr "Page de contrôle des réclamations"
+
+#: ../../user_manual/claims/hf_claims.rst:33
+
+msgid "`Image - Claims Control Page`"
+msgstr "`Image - Page de contrôle des réclamations`"
+
+#: ../../user_manual/claims/hf_claims.rst:35
+msgid "The Claims Control Page is the central point for all health facility claim administration. By having access to this panel, it is possible to add, edit and search claims. Claims can be edited only in the state **Entered**. The panel is divided into four panels (:numref:`claims_control_img`)."
+msgstr "Le Contrôle des Demandes de la Page est le point central pour tous les établissements de santé demande de l'administration. En ayant accès à ce panneau, il est possible d'ajouter, de modifier et rechercher des Réclamations. Les réclamations peuvent être modifiés que dans l'état **Conclusion**. Le panneau est divisé en quatre panneaux (:numref:`claims_control_img`)."
+
+#: ../../user_manual/claims/hf_claims.rst:37
+
+msgid "**Search Panel**"
+msgstr "** Panneau de recherche **"
+
+#: ../../user_manual/claims/hf_claims.rst:39
+msgid "The search panel allows a user to select specific criteria to minimise the search results. In the case of claims the following search options are available which can be used alone or in combination with each other."
+msgstr "Le panneau de recherche permet à un utilisateur de sélectionner des critères spécifiques afin de minimiser les résultats de la recherche. Dans le cas des créances les options de recherche suivantes sont disponibles qui peuvent être utilisés seuls ou en combinaison les uns avec les autres."
+
+#: ../../user_manual/claims/hf_claims.rst:41
+
+msgid "``Region``"
+msgstr "``Région``"
+
+#: ../../user_manual/claims/hf_claims.rst:43
+msgid "Select the ``Region``; where claiming or searched for health facility is located from the list of regions by clicking on the arrow on the right of the selector to select claims from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected*"
+msgstr "Sélectionnez la `Région`; d'où la réclamation ou à recherché pour le centre de santé est situé à partir de la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner les Réclamations d'une région spécifique. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté. Si ce n'est qu'un alors la région sera automatiquement sélectionnée*"
+
+#: ../../user_manual/claims/hf_claims.rst:45
+
+msgid "``District``"
+msgstr "``Quartier``"
+
+#: ../../user_manual/claims/hf_claims.rst:47
+msgid "Select the ``district``; where claiming or searched for health facility is located from the list of districts by clicking on the arrow on the right of the selector to select claims from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*"
+msgstr "Sélectionnez le `quartier`; d'où la réclamation ou à recherché pour le centre de santé est situé à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur pour sélectionner les Réclamations d'un district particulier. *Remarque: La liste ne sera rempli avec les districts appartenant à la région sélectionnée et assigné à l'utilisateur connecté. Si ce n'est qu'un, le quartier sera automatiquement sélectionné.*"
+
+#: ../../user_manual/claims/hf_claims.rst:49
+#: ../../user_manual/claims/hf_claims.rst:250
+
+msgid "``HF Code``"
+msgstr "``Code HF``"
+
+#: ../../user_manual/claims/hf_claims.rst:51
+
+msgid "Select the ``HF Code`` (Health Facility Code) from the list of codes of health facilities by clicking on the arrow on the right of the selector, to select claims from a specific health facility. *Note: The list will only be filled with the health facilities belonging to the selected district and assigned to the current logged in user.*"
+msgstr "Sélectionnez le ``Code HF`` (Code de l'établissement de santé) dans la liste des codes des établissements de santé en cliquant sur la flèche à droite du sélecteur, pour sélectionner les demandes d'un établissement de santé spécifique. *Remarque: La liste ne sera remplie qu'avec les formations sanitaires appartenant au district sélectionné et affectée à l'utilisateur actuellement connecté.*"
+
+#: ../../user_manual/claims/hf_claims.rst:53
+#: ../../user_manual/claims/hf_claims.rst:254
+
+msgid "``HF Name``"
+msgstr "``Nom HF``"
+
+#: ../../user_manual/claims/hf_claims.rst:55
+
+msgid "Type in the beginning of; or the full ``HF Name`` (Health Facility Name) to search for claims belonging to the health facility whose name start with or match completely the typed text."
+msgstr "Tapez au début de; ou le ``Nom HF`` complet (Nom de l'établissement de santé) pour rechercher les allégations appartenant à l'établissement de santé dont le nom commence ou correspond complètement au texte tapé."
+
+#: ../../user_manual/claims/hf_claims.rst:57
+#: ../../user_manual/claims/hf_claims.rst:291
+
+msgid "``Claim Administrator``"
+msgstr "`` Administrateur des réclamations ``"
+
+#: ../../user_manual/claims/hf_claims.rst:59
+
+msgid "Select the ``Claim Administrator`` from the list of claim administrators by clicking on the arrow on the right of the selector, to select claims submitted by a specific claim administrator. *Note: The list will only be filled with the claim administrators belonging to the health facility selected.*"
+msgstr "Sélectionnez ``Administrateur de réclamations`` dans la liste des administrateurs de réclamations en cliquant sur la flèche à droite du sélecteur, pour sélectionner les réclamations soumises par un administrateur de réclamation spécifique. *Remarque: La liste ne sera remplie qu'avec les administrateurs de demandes d'indemnisation appartenant à l'établissement de santé sélectionné.*"
+
+#: ../../user_manual/claims/hf_claims.rst:61
+#: ../../user_manual/claims/hf_claims.rst:311
+
+msgid "``Visit Type``"
+msgstr "``Type de visite``"
+
+#: ../../user_manual/claims/hf_claims.rst:63
+
+msgid "Select the ``Visit Type`` from the list of visit types (or hospital stays) by clicking on the arrow on the right of the selector, to select claims with specified visit type."
+msgstr "Sélectionnez le ``Type de visite`` dans la liste des types de visites (ou séjours hospitaliers) en cliquant sur la flèche à droite du sélecteur, pour sélectionner les demandes avec le type de visite spécifié."
+
+#: ../../user_manual/claims/hf_claims.rst:65
+#: ../../user_manual/claims/hf_claims.rst:258
+
+msgid "``Insurance Number``"
+msgstr "`` Numéro d'assurance ``"
+
+#: ../../user_manual/claims/hf_claims.rst:67
+
+msgid "Type in the beginning of; or the full ``Insurance Number``, to search for claims, on behalf of insurees with the insurance number which starts with or match completely the typed text."
+msgstr "Tapez au début de; ou le ``Numéro d'assurance`` complet, pour rechercher des réclamations, au nom des assurés avec le numéro d'assurance qui commence ou correspond complètement au texte tapé."
+
+#: ../../user_manual/claims/hf_claims.rst:69
+#: ../../user_manual/claims/hf_claims.rst:268
+
+msgid "``Claim No.``"
+msgstr "`` Réclamation n ° ``"
+
+#: ../../user_manual/claims/hf_claims.rst:71
+
+msgid "Type in the beginning of; or the full ``Claim No.``, to search for claims with the specific claim identification which starts with or match completely the typed text."
+msgstr "Tapez au début de; ou le ``numéro de revendication`` complet, pour rechercher des Réclamations avec l'identification de revendication spécifique qui commence ou correspond complètement au texte tapé."
+
+#: ../../user_manual/claims/hf_claims.rst:73
+
+msgid "``Review Status``"
+msgstr "`` Vérifier l'état ``"
+
+#: ../../user_manual/claims/hf_claims.rst:75
+
+msgid "Select the ``Review Status`` from the list of options for review status by clicking on the arrow on the right of the selector, to select claims with specific review status."
+msgstr "Sélectionnez le ``Statut de révision`` dans la liste des options pour le statut de révision en cliquant sur la flèche à droite du sélecteur, pour sélectionner les Réclamations avec un statut de révision spécifique."
+
+#: ../../user_manual/claims/hf_claims.rst:77
+
+msgid "``Feedback Status``"
+msgstr "`` Statut de rétroaction ``"
+
+#: ../../user_manual/claims/hf_claims.rst:79
+
+msgid "Select the ``Feedback Status`` from the list of options for feedback status by clicking on the arrow on the right of the selector, to select claims with specific feedback status."
+msgstr "Sélectionnez le ``Statut de rétroaction`` dans la liste des options pour le statut de rétroaction en cliquant sur la flèche à droite du sélecteur, pour sélectionner les Réclamations avec un statut de rétroaction spécifique."
+
+#: ../../user_manual/claims/hf_claims.rst:81
+
+msgid "``Claim Status``"
+msgstr "`` Statut de réclamation ``"
+
+#: ../../user_manual/claims/hf_claims.rst:83
+
+msgid "Select the ``Claim Status`` from the list of options for claim status by clicking on the arrow on the right of the selector, to select claims with specific claim status."
+msgstr "Sélectionnez le ``Statut de réclamation`` dans la liste des options pour le statut de réclamation en cliquant sur la flèche à droite du sélecteur, pour sélectionner les réclamations avec un statut de réclamation spécifique."
+
+#: ../../user_manual/claims/hf_claims.rst:85
+#: ../../user_manual/claims/hf_claims.rst:272
+
+msgid "``Main Dg.``"
+msgstr "``Dg principal``."
+
+#: ../../user_manual/claims/hf_claims.rst:87
+
+msgid "Select the ``Main Dg.`` from the list of diagnoses status by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box, to select claims with main diagnosis."
+msgstr "Sélectionnez le ``Dg principal`` dans la liste des diagnostics en tapant du texte, tous les diagnostics contenant le texte tapé apparaîtront et pourront être sélectionnés sous la boîte, pour sélectionner les Réclamations avec le diagnostic principal."
+
+#: ../../user_manual/claims/hf_claims.rst:89
+
+msgid "``Batch Run``"
+msgstr "``Batch Run``"
+
+#: ../../user_manual/claims/hf_claims.rst:91
+
+msgid "Select the ``batch run`` from the list of batch runs by clicking on the arrow on the right of the selector, to select claims from specific batch run"
+msgstr "Sélectionnez le ``batch batch`` dans la liste des batch batchs en cliquant sur la flèche à droite du sélecteur, pour sélectionner les réclamations d'un batch batch spécifique"
+
+#: ../../user_manual/claims/hf_claims.rst:93
+#: ../../user_manual/claims/hf_claims.rst:295
+
+msgid "``Visit Date From``"
+msgstr "``Date de visite du``"
+
+#: ../../user_manual/claims/hf_claims.rst:95
+
+msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date From`` date which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.* ``Visit Date From`` should be the day of admission for in-patient care or the visit date in case of out-patient care."
+msgstr "Saisissez une date; ou utilisez le Sélecteur de Date (:numref:`cal_picker`), à la recherche pour les réclamations avec une `Date de la Visite De` la date qui est sur ou est supérieure à la date tapé/sélectionné. *Remarque. Pour effacer la date d'entrée de la boîte; utiliser le bouton `Effacer` sur le sélecteur de date popup.* `Date de la visite De` devrait être le jour de l'admission pour une hospitalisation ou la date de visite en cas de soins ambulatoires."
+
+#: ../../user_manual/claims/hf_claims.rst:97
+#: ../../user_manual/claims/hf_claims.rst:299
+
+msgid "``Visit Date To``"
+msgstr "`` Date de visite à ``"
+
+#: ../../user_manual/claims/hf_claims.rst:99
+
+msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date From`` date which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.* ``Visit Date To`` should be the day of discharge for in-patient care or the visit date in case of out-patient care."
+msgstr "Saisissez une date; ou utilisez le Sélecteur de Date (:numref:`cal_picker`), à la recherche pour les réclamations avec une `Date de la Visite De` la date qui est sur ou est inférieure à la date tapé/sélectionné. *Remarque. Pour effacer la date d'entrée de la boîte; utiliser le bouton `Effacer` sur le sélecteur de date popup.* `Date de la visite de À la` devrait être la journée de décharge pour les soins du patient ou de la date de visite en cas de soins ambulatoires."
+
+#: ../../user_manual/claims/hf_claims.rst:101
+
+msgid "``Claim Date From``"
+msgstr "`` Date de réclamation du ``"
+
+#: ../../user_manual/claims/hf_claims.rst:103
+
+msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date`` date which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
+msgstr "Saisissez une date; ou utilisez le Sélecteur de Date (:numref:`cal_picker`), à la recherche pour les réclamations avec une `Date de la Revendication` à la date qui est sur ou est supérieure à la date tapé/sélectionné. *Remarque. Pour effacer la date d'entrée de la boîte; utiliser le bouton `Effacer` sur le sélecteur de date popup.*"
+
+#: ../../user_manual/claims/hf_claims.rst:105
+
+msgid "``Claim Date To``"
+msgstr "`` Date de réclamation jusqu'à ``"
+
+#: ../../user_manual/claims/hf_claims.rst:107
+msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date`` date which is on or is less than the date typed/selected. Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Saisissez une date; ou utilisez le Sélecteur de Date (:numref:`cal_picker`), à la recherche pour les réclamations avec une `Date de la Revendication` à la date qui est sur ou est inférieure à la date tapé/sélectionné. Remarque. Pour effacer la date d'entrée de la boîte; utilisation de la souris pour sélectionner la date et appuyez sur la touche espace.*"
+
+#: ../../user_manual/claims/hf_claims.rst:112
+
+msgid "Date Picker"
+msgstr "Sélecteur de date"
+
+#: ../../user_manual/claims/hf_claims.rst:118
+
+msgid "`Day picker`"
+msgstr "`Sélecteur de jour`"
+
+#: ../../user_manual/claims/hf_claims.rst:122
+
+msgid "`Month picker`"
+msgstr "`Sélecteur de mois`"
+
+#: ../../user_manual/claims/hf_claims.rst:126
+
+msgid "`Year picker`"
+msgstr "`Sélecteur d'année`"
+
+#: ../../user_manual/claims/hf_claims.rst:127
+
+msgid "At anytime during the use of the pop-up, the user can see the date of **today**. Clicking on a day will close the pop-up and display the date"
+msgstr "À tout moment pendant l'utilisation de la fenêtre contextuelle, l'utilisateur peut voir la date de **aujourd'hui**. Cliquer sur un jour fermera la fenêtre contextuelle et affichera la date"
+
+#: ../../user_manual/claims/hf_claims.rst:130
+
+msgid "Clicking on the arrow to the left displays the previous month. Clicking on the arrow on the right will displays the following month."
+msgstr "Cliquer sur la flèche à gauche affiche le mois précédent. Cliquer sur la flèche à droite affichera le mois suivant."
+
+#: ../../user_manual/claims/hf_claims.rst:133
+
+msgid "Clicking on the year will display a year selector."
+msgstr "Cliquer sur l'année affichera un sélecteur d'année."
+
+#: ../../user_manual/claims/hf_claims.rst:136
+
+msgid "``Search Button``"
+msgstr "``Bouton de recherche``"
+
+#: ../../user_manual/claims/hf_claims.rst:138
+
+msgid "Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel."
+msgstr "Une fois les critères saisis, utilisez le bouton de recherche pour filtrer les enregistrements, les résultats apparaîtront dans le panneau de résultats."
+
+#: ../../user_manual/claims/hf_claims.rst:140
+
+msgid "**Result Panel**"
+msgstr "**Panneau de résultats**"
+
+#: ../../user_manual/claims/hf_claims.rst:142
+msgid "The Result Panel displays a list of all claims found, matching the selected criteria in the search panel. The currently selected record is highlighted with light grey. (:numref:`image139`). Double click on the line re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
+msgstr "Le Résultat s'affiche sur le Panneau une liste de toutes les demandes, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec un gris clair. (:numref:`image139`). Double-cliquez sur la ligne re-dirige l'utilisateur vers le record actuel pour obtenir la visualisation si c'est un record historique ou de la modification si c'est l'enregistrement en cours."
+
+#: ../../user_manual/claims/hf_claims.rst:148
+
+msgid "`Selected record (grey) - Result Panel`"
+msgstr "`Enregistrement sélectionné (gris) - Panneau de résultats`"
+
+#: ../../user_manual/claims/hf_claims.rst:150
+msgid "A maximum of 10 records can be displayed per default but it can be changed by configuration (`gitHub <https://github.com/openimis/openimis-fe-claim_js>`_), in a scroll panel. Further records can be viewed by either changing the page or deleting/submitting the current loaded claims and search claims again."
+msgstr "Un maximum de 10 enregistrements peuvent être affichés par défaut, mais ils peuvent être modifiés par configuration (`gitHub <https://github.com/openimis/openimis-fe-claim_js>`_), dans un panneau de défilement. D'autres enregistrements peuvent être consultés en modifiant la page ou en supprimant / soumettant à nouveau les Réclamations actuellement chargées et en effectuant une nouvelle recherche."
+
+#: ../../user_manual/claims/hf_claims.rst:152
+
+msgid "**Actions**"
+msgstr "**Actions**"
+
+#: ../../user_manual/claims/hf_claims.rst:154
+
+msgid "Modular openIMIS comes with `Material UI <https://material-ui.com/>`_ this means that there is a single button (:numref:`actions_btn`) which fonction will change depending on the context (Icon change), for less used functions a tree dots menu is available (:numref:`image_3d_claim_hf`) only when claim(s) are selected. By double-clicking on the claim line, the user is directed to the :ref:`Claim Page  <claim-page>`, where the current selected claim can be edited (provided it in the state **Entered**), this page will open with the current information loaded into the data entry fields. See the :ref:`Claim Page  <claim-page>` for information on the data entry and mandatory fields."
+msgstr "OpenIMIS modulaire est livré avec `Material UI <https://material-ui.com/>`_ cela signifie qu'il y a un seul bouton (:numref:`actions_btn`) dont la fonction changera en fonction du contexte ( Changement d'icône), pour les fonctions moins utilisées, un menu arborescent de points est disponible (:numref:`image_3d_claim_hf`) uniquement lorsque les Réclamations sont sélectionnées. En double-cliquant sur la ligne de réclamation, l'utilisateur est dirigé vers :ref:`Page des réclamations <claim-page>`, où la réclamation actuellement sélectionnée peut être modifiée (à condition qu'elle soit dans l'état **Saisie**), cette La page s'ouvrira avec les informations actuelles chargées dans les champs de saisie des données. Voir la :ref:`Page des réclamations <claim-page>` pour plus d'informations sur la saisie des données et les champs obligatoires."
+
+#: ../../user_manual/claims/hf_claims.rst:158
+
+msgid "Materal icons"
+msgstr "Icônes matérielles"
+
+#: ../../user_manual/claims/hf_claims.rst:164
+
+msgid "`Add`"
+msgstr "`Ajouter`"
+
+#: ../../user_manual/claims/hf_claims.rst:169
+
+msgid "`Save`"
+msgstr "`Enregistrer`"
+
+#: ../../user_manual/claims/hf_claims.rst:175
+
+msgid "`Back`"
+msgstr "`Retour`"
+
+#: ../../user_manual/claims/hf_claims.rst:179
+
+msgid "`Print`"
+msgstr "`Imprimer`"
+
+#: ../../user_manual/claims/hf_claims.rst:182
+
+msgid "claims actions"
+msgstr "actions en revendication"
+
+#: ../../user_manual/claims/hf_claims.rst:188
+
+msgid "`select all`"
+msgstr "`sélectionner tout`"
+
+#: ../../user_manual/claims/hf_claims.rst:193
+
+msgid "`tree dots`"
+msgstr "`points d'arbre`"
+
+#: ../../user_manual/claims/hf_claims.rst:198
+
+msgid "`tree dots menu`"
+msgstr "`menu de points d'arbre`"
+
+#: ../../user_manual/claims/hf_claims.rst:201
+
+msgid "``add``"
+msgstr "``ajouter``"
+
+#: ../../user_manual/claims/hf_claims.rst:203
+
+msgid "By clicking on the add button (:numref:`mat_add`), the user is directed to the `Claim Page, <#claim-page>`__ where new entries for new claim can be added. When the page opens all entry fields are empty. See the :ref:`Claim Page  <claim-page>` for information on the data entry and mandatory fields."
+msgstr "En cliquant sur le bouton Ajouter (:numref:`mat_add`), l'utilisateur est dirigé vers la `Page des réclamations <#claim-page>`__ où de nouvelles entrées pour une nouvelle réclamation peuvent être ajoutées. Lorsque la page s'ouvre, tous les champs de saisie sont vides. Voir la :ref:`Page des réclamations <claim-page>` pour plus d'informations sur la saisie des données et les champs obligatoires."
+
+#: ../../user_manual/claims/hf_claims.rst:206
+
+msgid "``Submit selected``"
+msgstr "``Soumettre la sélection``"
+
+#: ../../user_manual/claims/hf_claims.rst:208
+
+msgid "By clicking on the submit selected manu (:numref:`mat_hf_claim_menu`), claim status of all selected claims with the status **Entered** will be submitted."
+msgstr "En cliquant sur le dossier de soumission sélectionné (:numref:`mat_hf_claim_menu`), le statut de toutes les Réclamations sélectionnées avec le statut **$1** sera soumis."
+
+#: ../../user_manual/claims/hf_claims.rst:210
+
+msgid "Once the process is done, a popup window ( :numref:`image141` ) with the result of the process will be shown."
+msgstr "Une fois le processus terminé, une fenêtre contextuelle (:numref:`image141`) avec le résultat du processus sera affichée."
+
+#: ../../user_manual/claims/hf_claims.rst:216
+
+msgid "`Submitted Claims details – Claims Control Page`"
+msgstr "`Détails des réclamations soumises - Page de contrôle des réclamations`"
+
+#: ../../user_manual/claims/hf_claims.rst:218
+
+msgid "``delete selected``"
+msgstr "`` supprimer la sélection ``"
+
+#: ../../user_manual/claims/hf_claims.rst:220
+
+msgid "By clicking on the delete selected menu, the current selected claim will be deleted."
+msgstr "En cliquant sur le menu Supprimer la sélection, la revendication actuellement sélectionnée sera supprimée."
+
+#: ../../user_manual/claims/hf_claims.rst:223
+
+msgid "Before deleting a confirmation popup ( :numref:`image142` ) is displayed, which requires the user to confirm if the action should really be carried out?"
+msgstr "Avant de supprimer une fenêtre de confirmation (:numref:`image142`) s'affiche, ce qui oblige l'utilisateur à confirmer si l'action doit vraiment être effectuée?"
+
+#: ../../user_manual/claims/hf_claims.rst:229
+
+msgid "`Delete confirmation – Claims Control Page`"
+msgstr "`Confirmation de suppression - Page de contrôle des réclamations`"
+
+#: ../../user_manual/claims/hf_claims.rst:232
+
+msgid "**Information Panel**"
+msgstr "** Panneau d'information **"
+
+#: ../../user_manual/claims/hf_claims.rst:234
+
+msgid "The Information Panel is used to display messages back to the user. Messages will occur once a claim has been added, updated or deleted or if there was an error at any time during the process of these actions."
+msgstr "Le panneau d'informations est utilisé pour afficher les messages à l'utilisateur. Des messages s'afficheront une fois qu'une réclamation aura été ajoutée, mise à jour ou supprimée ou s'il y a eu une erreur à tout moment au cours du processus de ces actions."
+
+#: ../../user_manual/claims/hf_claims.rst:239
+
+msgid "Claim Page"
+msgstr "Page de réclamation"
+
+#: ../../user_manual/claims/hf_claims.rst:241
+
+msgid "**Data Entry**"
+msgstr "**La saisie des données**"
+
+#: ../../user_manual/claims/hf_claims.rst:247
+
+msgid "`Claim Page`"
+msgstr "`Page de réclamation`"
+
+#: ../../user_manual/claims/hf_claims.rst:252
+
+msgid "Displays the code of the health facility. The field is read only (taken over from the :ref:`Claims Control Page  <health_facility_claims>`) and cannot be edited."
+msgstr "Affiche le code de l'établissement de santé. Le champ est en lecture seule (repris de :ref:`Claims Control Page <health_facility_claims>`) et ne peut pas être modifié."
+
+#: ../../user_manual/claims/hf_claims.rst:256
+
+msgid "Displays the name of the health facility. The field is read only (taken over from the :ref:`Claims Control Page  <health_facility_claims>`) and cannot be edited."
+msgstr "Affiche le nom du centre de santé. Le champ est en lecture seule (repris de :ref:`Claims Control Page <health_facility_claims>`) et ne peut pas être modifié."
+
+#: ../../user_manual/claims/hf_claims.rst:260
+
+msgid "Enter the insurance number of the patient. When the field is selected, the search insuree popup(:refnum:'insuree_picker') will be display and will allow the claim administrator to search the insuree based on its insurance number, or/and last name, or/and other(first) name . Mandatory."
+msgstr "Saisissez le numéro d'assurance du patient. Lorsque le champ est sélectionné, la fenêtre contextuelle de l'assuré de recherche (: refnum: 'insuree_picker') sera affichée et permettra à l'administrateur de réclamation de rechercher l'assuré en fonction de son numéro d'assurance, ou / et de son nom de famille, ou / et autre (en premier) Nom . Obligatoire."
+
+#: ../../user_manual/claims/hf_claims.rst:266
+
+msgid "`Search insuree popup`"
+msgstr "`Recherche popup de l'assuré`"
+
+#: ../../user_manual/claims/hf_claims.rst:270
+
+msgid "Enter the identification of the claim. Mandatory, up to 8 characters. It should be unique within the claiming health facility."
+msgstr "Saisissez l'identification de la réclamation. Obligatoire, jusqu'à 8 caractères. Il doit être unique dans l'établissement de santé demandeur."
+
+#: ../../user_manual/claims/hf_claims.rst:274
+
+msgid "Select the code of the main diagnosis by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box. Mandatory."
+msgstr "Sélectionnez le code du diagnostic principal en tapant du texte, tous les diagnostics contenant le texte tapé apparaîtront et pourront être sélectionnés sous la boîte. Obligatoire."
+
+#: ../../user_manual/claims/hf_claims.rst:276
+
+msgid "``Sec Dg 1``"
+msgstr "``Sec Dg 1``"
+
+#: ../../user_manual/claims/hf_claims.rst:278
+
+msgid "Select the code of the first secondary diagnosis by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box."
+msgstr "Sélectionnez le code du premier diagnostic secondaire en tapant du texte, tous les diagnostics contenant le texte tapé apparaîtront et pourront être sélectionnés sous la case."
+
+#: ../../user_manual/claims/hf_claims.rst:280
+
+msgid "``Sec Dg 2``"
+msgstr "``Sec Dg 2``"
+
+#: ../../user_manual/claims/hf_claims.rst:282
+
+msgid "Select the code of the second secondary diagnosis by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box"
+msgstr "Sélectionnez le code du deuxième diagnostic secondaire en tapant du texte, tous les diagnostics contenant le texte tapé apparaîtront et pourront être sélectionnés sous la case"
+
+#: ../../user_manual/claims/hf_claims.rst:284
+
+msgid "``Sec Dg 3``"
+msgstr "``Sec Dg 3``"
+
+#: ../../user_manual/claims/hf_claims.rst:286
+
+msgid "Select the code of the third secondary diagnosis by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box"
+msgstr "Sélectionnez le code du troisième diagnostic secondaire en tapant du texte, tous les diagnostics contenant le texte tapé apparaîtront et pourront être sélectionnés sous la case"
+
+#: ../../user_manual/claims/hf_claims.rst:288
+
+msgid "``Sec Dg 4``"
+msgstr "``Sec Dg 4``"
+
+#: ../../user_manual/claims/hf_claims.rst:290
+
+msgid "Select the code of the fourth secondary diagnosis by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box"
+msgstr "Sélectionnez le code du quatrième diagnostic secondaire en tapant du texte, tous les diagnostics contenant le texte tapé apparaîtront et pourront être sélectionnés sous la case"
+
+#: ../../user_manual/claims/hf_claims.rst:293
+
+msgid "Displays code of the claim administrator. The field is read only (taken over from :ref:`the Claim Control Page  <health_facility_claims>`) and cannot be edited."
+msgstr "Affiche le code de l'administrateur de Réclamations. Le champ est en lecture seule (repris de :ref:`la page de contrôle des réclamations <health_facility_claims>`) et ne peut pas être modifié."
+
+#: ../../user_manual/claims/hf_claims.rst:297
+
+msgid "Enter the visit date for out-patient care or the admission date for in-patient care. Mandatory."
+msgstr "Saisissez la date de visite pour les soins ambulatoires ou la date d'admission pour les soins hospitaliers. Obligatoire."
+
+#: ../../user_manual/claims/hf_claims.rst:301
+
+msgid "Enter the discharge date for in-patient care."
+msgstr "Entrez la date de sortie pour les soins hospitaliers."
+
+#: ../../user_manual/claims/hf_claims.rst:303
+
+msgid "``Date Claimed``"
+msgstr "`` Date réclamée ``"
+
+#: ../../user_manual/claims/hf_claims.rst:305
+
+msgid "Enter the date when the claim was prepared by the health facility."
+msgstr "Entrez la date à laquelle la demande a été préparée par l'établissement de santé."
+
+#: ../../user_manual/claims/hf_claims.rst:307
+
+msgid "``Guarantee No.``"
+msgstr "`` Numéro de garantie ``"
+
+#: ../../user_manual/claims/hf_claims.rst:309
+
+msgid "Enter identification of a guarantee letter for prior approval of provision of claimed health care."
+msgstr "Entrez l'identification d'une lettre de garantie pour l'approbation préalable de la prestation des soins de santé réclamés."
+
+#: ../../user_manual/claims/hf_claims.rst:313
+
+msgid "Select the type of visit/hospital admission from the drop down list (**Emergency, Referral, Other**)"
+msgstr "Sélectionnez le type de visite/admission à l'hôpital dans la liste déroulante (**Urgence, référence, autre**)"
+
+#: ../../user_manual/claims/hf_claims.rst:315
+
+msgid "``Services``"
+msgstr "``Services``"
+
+#: ../../user_manual/claims/hf_claims.rst:317
+
+msgid "``service code``"
+msgstr "``code service``"
+
+#: ../../user_manual/claims/hf_claims.rst:319
+msgid "When entering the service code, a dropdown suggestion box for the available services with the service code or service name matching your typed text will be shown. Available medical services in the dropdown suggestion box are taken over from the pricelist of medical services associated with the claiming health facility. The desired service can then be selected from the dropdown suggestion box by clicking on it using mouse or selecting it using up and down arrows, then pressing Enter key fill the service code text field, together with quantity and value field in the same row."
+msgstr "Lorsque vous entrez le code de service, une liste déroulante dans la boîte à suggestions pour les services offerts avec le code de service ou nom de service correspondant à votre texte saisi sera affiché. Disponible à des services médicaux dans la liste déroulante de la boîte à suggestions sont prises en charge à partir de la liste de prix des services médicaux associés à la demande de l'établissement de santé. Le service souhaité peut être sélectionné à partir de la liste déroulante de la boîte à suggestions en cliquant sur l'aide de la souris ou en le sélectionnant à l'aide de flèches haut et bas, puis en appuyant sur la touche Enter remplir le code de service de champ de texte, avec la quantité et la valeur du champ dans la même ligne."
+
+#: ../../user_manual/claims/hf_claims.rst:321
+
+msgid "Once the selected service has been written on the service data grid row, a new service line will be added and the dropdown suggestion box will close itself. When needed, the dropdown suggestion box can be closed by clicking any place on the page but outside the dropdown suggestion box."
+msgstr "Une fois que le service sélectionné a été écrit sur la ligne de la grille de données de service, une nouvelle ligne de service sera ajoutée et la boîte à suggestions déroulante se fermera. Si nécessaire, la boîte à suggestions déroulante peut être fermée en cliquant sur n'importe quel endroit de la page mais en dehors de la boîte à suggestions déroulante."
+
+#: ../../user_manual/claims/hf_claims.rst:327
+
+msgid "`Services dropdown suggestion box – Claim Page`"
+msgstr "`Boîte à suggestions déroulante Services - Page de réclamation`"
+
+#: ../../user_manual/claims/hf_claims.rst:329
+#: ../../user_manual/claims/hf_claims.rst:356
+
+msgid "``quantity``"
+msgstr "`` quantité ``"
+
+#: ../../user_manual/claims/hf_claims.rst:331
+
+msgid "This field can be filled manually by entering a number in it or automatically is filled by 1 when the service code above is filled, through dropdown suggestion box. It is this field that receives focus after service code is filled above from the dropdown suggestion box."
+msgstr "Ce champ peut être rempli manuellement en entrant un nombre ou automatiquement rempli par 1 lorsque le code de service ci-dessus est rempli, via la liste déroulante. C'est ce champ qui reçoit le focus après que le code de service est rempli ci-dessus à partir de la boîte à suggestions déroulante."
+
+#: ../../user_manual/claims/hf_claims.rst:333
+#: ../../user_manual/claims/hf_claims.rst:360
+
+msgid "``price``"
+msgstr "``prix``"
+
+#: ../../user_manual/claims/hf_claims.rst:335
+
+msgid "This field can be filled manually by entering a number in it or automatically is filled when the service code above is filled, through dropdown suggestion box. Automatically filled prices are taken over from the pricelist of medical services associated with the claiming health facility."
+msgstr "Ce champ peut être rempli manuellement en entrant un numéro ou est automatiquement rempli lorsque le code de service ci-dessus est rempli, via la liste déroulante. Les prix remplis automatiquement sont repris de la liste de prix des services médicaux associés à l'établissement de santé demandeur."
+
+#: ../../user_manual/claims/hf_claims.rst:337
+#: ../../user_manual/claims/hf_claims.rst:364
+#: ../../user_manual/claims/hf_claims.rst:372
+
+msgid "``explanation``"
+msgstr "``explication``"
+
+#: ../../user_manual/claims/hf_claims.rst:339
+
+msgid "Enter extra information about the service for the scheme administration (a medical officer of the scheme administrator)."
+msgstr "Entrez des informations supplémentaires sur le service pour l'administration du régime (un médecin de l'administrateur du régime)."
+
+#: ../../user_manual/claims/hf_claims.rst:341
+
+msgid "``Items``"
+msgstr "``Articles``"
+
+#: ../../user_manual/claims/hf_claims.rst:343
+
+msgid "``item code``"
+msgstr "``code article``"
+
+#: ../../user_manual/claims/hf_claims.rst:345
+msgid "When entering the item code, a dropdown suggestion box for the available items with the item code or item name matching your typed text will be shown. Available medical items in the dropdown suggestion box are taken over from the pricelist of medical items associated with the claiming health facility. The desired item can then be selected from the dropdown suggestion box by clicking on it using mouse or selecting it using up and down arrows, then pressing Enter key to fill the item code text field, together with quantity and value field in the same row."
+msgstr "Lors de la saisie du code d'article, une liste déroulante dans la boîte à suggestions pour les articles disponibles avec le code d'article ou le nom de l'élément correspondant à votre texte saisi sera affiché. Médicaux mis à disposition des éléments dans la liste déroulante de la boîte à suggestions sont prises en charge à partir de la liste des prix des articles médicaux associés à la demande de l'établissement de santé. L'élément souhaité peut être sélectionné à partir de la liste déroulante de la boîte à suggestions en cliquant sur l'aide de la souris ou en le sélectionnant à l'aide de flèches haut et bas, puis en appuyant sur la touche Enter pour remplir le code article de champ de texte, avec la quantité et la valeur du champ dans la même ligne."
+
+#: ../../user_manual/claims/hf_claims.rst:348
+
+msgid "Once the selected item has been written on the item data grid row, a new service line will be added and the dropdown suggestion box will close itself. When needed, the dropdown suggestion box can be closed by clicking any place on the page but outside the dropdown suggestion box."
+msgstr "Une fois que l'élément sélectionné a été écrit sur la ligne de la grille de données de l'élément, une nouvelle ligne de service sera ajoutée et la boîte à suggestions déroulante se fermera. Si nécessaire, la boîte à suggestions déroulante peut être fermée en cliquant sur n'importe quel endroit de la page mais en dehors de la boîte à suggestions déroulante."
+
+#: ../../user_manual/claims/hf_claims.rst:354
+
+msgid "`Items dropdown suggestion box – Claim Page`"
+msgstr "`Boîte à suggestions de liste déroulante Articles - Page de réclamation`"
+
+#: ../../user_manual/claims/hf_claims.rst:358
+
+msgid "This field can be filled manually by entering a number in it or automatically is filled by 1 when the item code above is filled, through dropdown suggestion box. It is this filled that receives focus after item code is filled above from the dropdown suggestion box."
+msgstr "Ce champ peut être rempli manuellement en entrant un nombre ou automatiquement rempli par 1 lorsque le code de l'article ci-dessus est rempli, via la liste déroulante. C'est ce remplissage qui reçoit le focus après le remplissage du code de l'article ci-dessus dans la boîte à suggestions déroulante."
+
+#: ../../user_manual/claims/hf_claims.rst:362
+
+msgid "This field can be filled manually by entering a number in it or automatically is filled when the item code above is filled, through dropdown suggestion box. Automatically filled prices are taken over from the pricelist of medical items associated with the claiming health facility."
+msgstr "Ce champ peut être rempli manuellement en entrant un nombre ou est automatiquement rempli lorsque le code de l'article ci-dessus est rempli, via la liste déroulante. Les prix remplis automatiquement sont repris de la liste de prix des articles médicaux associés à l'établissement de santé demandeur."
+
+#: ../../user_manual/claims/hf_claims.rst:366
+
+msgid "Enter extra information about the medical item for the scheme administration (a medical officer of the scheme administrator)."
+msgstr "Entrez des informations supplémentaires sur le produit médical pour l'administration du régime (un médecin de l'administrateur du régime)."
+
+#: ../../user_manual/claims/hf_claims.rst:368
+
+msgid "``claimed``"
+msgstr "`` revendiqué ``"
+
+#: ../../user_manual/claims/hf_claims.rst:370
+
+msgid "This field is filled automatically with a new total of quantities multiplied to their corresponding values in both data input grids at any time when there is a change in values in the either quantity fields or value fields anywhere in both data input grids."
+msgstr "Ce champ est rempli automatiquement avec un nouveau total de quantités multiplié à leurs valeurs correspondantes dans les deux grilles d'entrée de données à tout moment lorsqu'il y a un changement de valeurs dans les champs de quantité ou les champs de valeur n'importe où dans les deux grilles d'entrée de données."
+
+#: ../../user_manual/claims/hf_claims.rst:374
+
+msgid "Enter extra information about the whole claim for the scheme administration (a medical officer of the scheme administrator)."
+msgstr "Entrez des informations supplémentaires sur l'ensemble de la réclamation pour l'administration du régime (un médecin de l'administrateur du régime)."
+
+#: ../../user_manual/claims/hf_claims.rst:377
+
+msgid "**Saving**"
+msgstr "**Sauvegarder**"
+
+#: ../../user_manual/claims/hf_claims.rst:379
+
+msgid "Once all mandatory data is entered, clicking on the ``Save`` button (:numref:`mat_save`) will save the claim. The user stay in the :ref:`Claim Page  <claim-page>`; a message confirming that the claim has been saved will appear on the right of the :ref:`Claim Page  <claim-page>` (:numref:`save_conf`)."
+msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton ``Enregistrer`` (:numref:`mat_save`) enregistrera la réclamation. L'utilisateur reste dans :ref:`Claim Page <claim-page>`; un message confirmant que la réclamation a été enregistrée apparaîtra à droite de la :ref:`Page de réclamation <claim-page>` (:numref:`save_conf`)."
+
+#: ../../user_manual/claims/hf_claims.rst:382
+
+msgid "claim save confirmation"
+msgstr "demande de confirmation de sauvegarde"
+
+#: ../../user_manual/claims/hf_claims.rst:387
+
+msgid "`Create confirmation`"
+msgstr "`Créer une confirmation`"
+
+#: ../../user_manual/claims/hf_claims.rst:391
+
+msgid "`Update confirmation`"
+msgstr "`Confirmation de mise à jour`"
+
+#: ../../user_manual/claims/hf_claims.rst:393
+
+msgid "**Mandatory data**"
+msgstr "** Données obligatoires **"
+
+#: ../../user_manual/claims/hf_claims.rst:395
+
+msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk)."
+msgstr "Si les données obligatoires ne sont pas saisies au moment où l'utilisateur clique sur le bouton ``Enregistrer``, un message apparaîtra dans le panneau d'informations et le champ de données prendra le focus (par un astérisque)."
+
+#: ../../user_manual/claims/hf_claims.rst:397
+
+msgid "**Printing of a claim**"
+msgstr "** Impression d'une réclamation **"
+
+#: ../../user_manual/claims/hf_claims.rst:399
+
+msgid "By clicking on the ``Print`` button (:numref:`mat_print`), the user will be shown a printable version of the claim details page. The printable version of the claim is available in the pdf formats."
+msgstr "En cliquant sur le bouton ``Imprimer`` (:numref:`mat_print`), l'utilisateur verra une version imprimable de la page des détails de la réclamation. La version imprimable de la réclamation est disponible dans les formats pdf."
+
+#: ../../user_manual/claims/hf_claims.rst:401
+
+msgid "**Creating of a new claim**"
+msgstr "** Création d'une nouvelle réclamation **"
+
+#: ../../user_manual/claims/hf_claims.rst:403
+
+msgid "By clicking on the ``Add`` button (:numref:`mat_add`), the :ref:`Claim Page  <claim-page>` is cleared (with exception of HF Code, HF Name and Claim Administrator) and it ready for entering of a new claim for the same health facility and of the same claim administrator as before."
+msgstr "En cliquant sur le bouton ``Ajouter`` (:numref:`mat_add`), la :ref:`Page de réclamation <claim-page>` est effacé (à l'exception du code HF, du nom HF et de l'administrateur des réclamations) et il est prêt pour la saisie d'une nouvelle demande pour le même établissement de santé et le même administrateur de demande que précédemment."
+
+#: ../../user_manual/claims/hf_claims.rst:405
+
+msgid "**back**"
+msgstr "**retour**"
+
+#: ../../user_manual/claims/hf_claims.rst:407
+
+msgid "By clicking on the ``back`` (:numref:`mat_back`) button, the user will be re-directed to the :ref:`Claims Control Page  <health_facility_claims>`."
+msgstr "En cliquant sur le bouton ``retour`` (:numref:`mat_back`), l'utilisateur sera redirigé vers la :ref:`Page de contrôle des réclamations <health_facility_claims>`.

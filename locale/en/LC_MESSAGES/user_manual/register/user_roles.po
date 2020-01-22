@@ -1,0 +1,647 @@
+msgid ""
+msgstr "" 
+"Project-Id-Version: openIMIS \n" 
+"Report-Msgid-Bugs-To: \n" 
+"POT-Creation-Date: 2019-08-16 15:21+0200\n" 
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n" 
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n" 
+"Language-Team: LANGUAGE <LL@li.org>\n" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "User roles/profiles administration"
+msgstr "User roles/profiles administration"
+
+msgid "IMIS uses the concept of user profiles (roles) that can be associated with users. Some roles are predefined and they are designated as system roles. Their purpose is guarantee compatibility with the previous versions of IMIS."
+msgstr "IMIS uses the concept of user profiles (roles) that can be associated with users. Some roles are predefined and they are designated as system roles. Their purpose is guarantee compatibility with the previous versions of IMIS."
+
+msgid "User roles/profiles administration is restricted to users with the role of openIMIS Administrator."
+msgstr "User roles/profiles administration is restricted to users with the role of openIMIS Administrator."
+
+msgid "Navigation"
+msgstr "Navigation"
+
+msgid "All functionality for use with the administration of user roles can be found under the main menu ``Administration``, sub menu ``Users Profile``."
+msgstr "All functionality for use with the administration of user roles can be found under the main menu ``Administration``, sub menu ``Users Profile``."
+
+msgid "`Image - Navigation User Roles/profiles`"
+msgstr "`Image - Navigation User Roles/profiles`"
+
+msgid "Clicking on the sub menu ``Users`` re-directs the current user to the `User roles/profiles control page <#user-roles-profiles-control-page>`__\\ ."
+msgstr "Clicking on the sub menu ``Users`` re-directs the current user to the `User roles/profiles control page <#user-roles-profiles-control-page>`__\\ ."
+
+msgid "`Image - User roles/profile control page`"
+msgstr "`Image - User roles/profile control page`"
+
+msgid "User roles/profiles control page"
+msgstr "User roles/profiles control page"
+
+msgid "The ``User roles/profile control page`` is the central point for all user roles/profiles administration. By having access to this page, it is possible to add, edit, delete and search users roles/profiles. The page is divided into four panels (:ref:`Image User roles/profiles control page<user_roles_control_page>`)."
+msgstr "The ``User roles/profile control page`` is the central point for all user roles/profiles administration. By having access to this page, it is possible to add, edit, delete and search users roles/profiles. The page is divided into four panels (:ref:`Image User roles/profiles control page<user_roles_control_page>`)."
+
+msgid "Administration of users’ profile s(roles) is not included in any system role. It can be accomplished by the Admin user or by users to which such administration is delegated (by defining a role including an access to Administration/User Profiles) by the Admin user."
+msgstr "Administration of users’ profile s(roles) is not included in any system role. It can be accomplished by the Admin user or by users to which such administration is delegated (by defining a role including an access to Administration/User Profiles) by the Admin user."
+
+msgid "**Pre-conditions**"
+msgstr "**Pre-conditions**"
+
+msgid "A new user profile may only be added or thereafter edited, after an approval of the management of the scheme administration. It can be accomplished at the beginning only by the Admin user. The Admin user can define a new user profile incorporating also adding, editing  or deleting of  user profiles and create new users  with this profile. In this way, rights to the register of user profiles can be delegated to other users besides the Admin user."
+msgstr "A new user profile may only be added or thereafter edited, after an approval of the management of the scheme administration. It can be accomplished at the beginning only by the Admin user. The Admin user can define a new user profile incorporating also adding, editing  or deleting of  user profiles and create new users  with this profile. In this way, rights to the register of user profiles can be delegated to other users besides the Admin user."
+
+msgid "**Navigation**"
+msgstr "**Navigation**"
+
+msgid "All functionality for use with the administration of user profiles can be found under the main menu ADMINISTRATION, sub menu USER PROFILES"
+msgstr "All functionality for use with the administration of user profiles can be found under the main menu ADMINISTRATION, sub menu USER PROFILES"
+
+msgid "**Search Panel**"
+msgstr "**Search Panel**"
+
+msgid "The search panel allows a user to select specific criteria to minimise the search results. The following search options are available which can be used alone or in combination with each other."
+msgstr "The search panel allows a user to select specific criteria to minimise the search results. The following search options are available which can be used alone or in combination with each other."
+
+msgid "``Role Name``"
+msgstr "``Role Name``"
+
+msgid "When set the search will display the roles with a name that start with the content of the filter , `%` can be used as a wildcard meaning a search with `%er` will display all the result containing `er` in the name"
+msgstr "When set the search will display the roles with a name that start with the content of the filter , `%` can be used as a wildcard meaning a search with `%er` will display all the result containing `er` in the name"
+
+msgid "``System``"
+msgstr "``System``"
+
+msgid "The system user profiles match the previous roles for compatibility reasons. When set to `TRUE` the search will display the default roles, when set to `FALSE` the search will display only the custom roles"
+msgstr "The system user profiles match the previous roles for compatibility reasons. When set to `TRUE` the search will display the default roles, when set to `FALSE` the search will display only the custom roles"
+
+msgid "``Blocked``"
+msgstr "``Blocked``"
+
+msgid "The blocked user profiles are temporarily not acting in the sense that their access rights are not available to users to whom blocked user profiles were assigned. When set to `TRUE` the search will display the roles that were blocked, when set to `FALSE` the search will display only the unblocked roles"
+msgstr "The blocked user profiles are temporarily not acting in the sense that their access rights are not available to users to whom blocked user profiles were assigned. When set to `TRUE` the search will display the roles that were blocked, when set to `FALSE` the search will display only the unblocked roles"
+
+msgid "``Historical``"
+msgstr "``Historical``"
+
+msgid "Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`User roles results <user_roles_result>`)."
+msgstr "Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`User roles results <user_roles_result>`)."
+
+msgid "**Result Panel**"
+msgstr "**Result Panel**"
+
+msgid "The Result Panel displays a list of all roles/profiles found, matching the selected criteria in the Search Panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image User roles results panel<user_roles_result>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Change user role/profile Page <#user-role-profile-page>`__. A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel"
+msgstr "The Result Panel displays a list of all roles/profiles found, matching the selected criteria in the Search Panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:ref:`Image User roles results panel<user_roles_result>`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Change user role/profile Page <#user-role-profile-page>`__. A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel"
+
+msgid "`User roles results panel`"
+msgstr "`User roles results panel`"
+
+msgid "Blue background: Selected record"
+msgstr "Blue background: Selected record"
+
+msgid "Yellow background: hovered records"
+msgstr "Yellow background: hovered records"
+
+msgid "Strikethrough: historical records"
+msgstr "Strikethrough: historical records"
+
+msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image User roles/profile control page<user_roles_control_page>`)"
+msgstr "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:ref:`Image User roles/profile control page<user_roles_control_page>`)"
+
+msgid "**Button Panel**"
+msgstr "**Button Panel**"
+
+msgid "The ``Add`` button will `add a new role/profile <#adding-a-user-role-profile>`__ (not available if ``Historical`` was checked)"
+msgstr "The ``Add`` button will `add a new role/profile <#adding-a-user-role-profile>`__ (not available if ``Historical`` was checked)"
+
+msgid "The ``Edit`` button will `edit a role/profile <#editing-a-user-role-profile>`__. not available if ``Historical`` was checked)"
+msgstr "The ``Edit`` button will `edit a role/profile <#editing-a-user-role-profile>`__. not available if ``Historical`` was checked)"
+
+msgid "The ``Duplicate`` bbutton will `duplicate a role/profile <#duplicating-a-user-role-profile>`__ (not available if ``Historical`` was checked)"
+msgstr "The ``Duplicate`` bbutton will `duplicate a role/profile <#duplicating-a-user-role-profile>`__ (not available if ``Historical`` was checked)"
+
+msgid "The ``Delete`` button will `deleting a role/profile <#addeleting-a-user-role-profile>`__ (not available if ``Historical`` was checked)"
+msgstr "The ``Delete`` button will `deleting a role/profile <#addeleting-a-user-role-profile>`__ (not available if ``Historical`` was checked)"
+
+msgid "The ``Cancel`` button re-directs to the :ref:`Home Page <home_page>`."
+msgstr "The ``Cancel`` button re-directs to the :ref:`Home Page <home_page>`."
+
+msgid "**Information Panel**"
+msgstr "**Information Panel**"
+
+msgid "The Information Panel is used to display messages back to the user. Messages will occur once a user role/profile has been added, updated or deleted or if there was an error at any time during the process of these actions."
+msgstr "The Information Panel is used to display messages back to the user. Messages will occur once a user role/profile has been added, updated or deleted or if there was an error at any time during the process of these actions."
+
+msgid "User role/profile Page"
+msgstr "User role/profile Page"
+
+msgid "`Image - User role/profile page`"
+msgstr "`Image - User role/profile page`"
+
+msgid "**Data Entry - Role details**"
+msgstr "**Data Entry - Role details**"
+
+msgid "Enter the name of the role/profile, this name will be used as reference in the `User roles/profiels control page <#user-roles-profiles-control-page>`__ and `Users page <#user-page>`__"
+msgstr "Enter the name of the role/profile, this name will be used as reference in the `User roles/profiels control page <#user-roles-profiles-control-page>`__ and `Users page <#user-page>`__"
+
+msgid "``Alternative language``"
+msgstr "``Alternative language``"
+
+msgid "Translation of the role name for the second language of openIMIS"
+msgstr "Translation of the role name for the second language of openIMIS"
+
+msgid "Read-only checkbox indicating whether the user profile is a system one or not."
+msgstr "Read-only checkbox indicating whether the user profile is a system one or not."
+
+msgid "If checked the user profile is blocked"
+msgstr "If checked the user profile is blocked"
+
+msgid "**Data Entry - Rights details**"
+msgstr "**Data Entry - Rights details**"
+
+msgid "``Insurees and Policies``"
+msgstr "``Insurees and Policies``"
+
+msgid "list of the right available for the `Insurees and Policies` module:"
+msgstr "list of the right available for the `Insurees and Policies` module:"
+
+msgid "CRUD rights (Create, read/search, update/edit and Delete):"
+msgstr "CRUD rights (Create, read/search, update/edit and Delete):"
+
+msgid "Family/Group"
+msgstr "Family/Group"
+
+msgid "Insuree"
+msgstr "Insuree"
+
+msgid "Policy"
+msgstr "Policy"
+
+msgid "Contribution"
+msgstr "Contribution"
+
+msgid "Business specific roles"
+msgstr "Business specific roles"
+
+msgid "Renew policy"
+msgstr "Renew policy"
+
+msgid "Enquire insuree"
+msgstr "Enquire insuree"
+
+msgid "``Claims``"
+msgstr "``Claims``"
+
+msgid "list of the right available for the `Claims` module:"
+msgstr "list of the right available for the `Claims` module:"
+
+msgid "Claims"
+msgstr "Claims"
+
+msgid "Business specific roles:"
+msgstr "Business specific roles:"
+
+msgid "Claims:"
+msgstr "Claims:"
+
+msgid "Print"
+msgstr "Print"
+
+msgid "Submit"
+msgstr "Submit"
+
+msgid "Review"
+msgstr "Review"
+
+msgid "Feedback"
+msgstr "Feedback"
+
+msgid "Update"
+msgstr "Update"
+
+msgid "Process"
+msgstr "Process"
+
+msgid "Claim Batch:"
+msgstr "Claim Batch:"
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid "Preview"
+msgstr "Preview"
+
+msgid "``Administration``"
+msgstr "``Administration``"
+
+msgid "list of the right available for the `Administration` module:"
+msgstr "list of the right available for the `Administration` module:"
+
+msgid "Products"
+msgstr "Products"
+
+msgid "Health Facilities"
+msgstr "Health Facilities"
+
+msgid "Pricelists – Medical Services"
+msgstr "Pricelists – Medical Services"
+
+msgid "Pricelists – Medical Items"
+msgstr "Pricelists – Medical Items"
+
+msgid "Medical Services"
+msgstr "Medical Services"
+
+msgid "Medical Items"
+msgstr "Medical Items"
+
+msgid "Enrolment Officers"
+msgstr "Enrolment Officers"
+
+msgid "Claim Administrators"
+msgstr "Claim Administrators"
+
+msgid "Users"
+msgstr "Users"
+
+msgid "User roles/profiles"
+msgstr "User roles/profiles"
+
+msgid "Payers"
+msgstr "Payers"
+
+msgid "Locations"
+msgstr "Locations"
+
+msgid "Duplicate Products"
+msgstr "Duplicate Products"
+
+msgid "Duplicate Pricelists – Medical Services"
+msgstr "Duplicate Pricelists – Medical Services"
+
+msgid "Duplicate Pricelists – Medical Items"
+msgstr "Duplicate Pricelists – Medical Items"
+
+msgid "Duplicate User roles/profiles"
+msgstr "Duplicate User roles/profiles"
+
+msgid "Move Locations"
+msgstr "Move Locations"
+
+msgid "``Tools``"
+msgstr "``Tools``"
+
+msgid "list of the business rights available for the `Tools` module"
+msgstr "list of the business rights available for the `Tools` module"
+
+msgid "Register"
+msgstr "Register"
+
+msgid "Upload Diagnoses"
+msgstr "Upload Diagnoses"
+
+msgid "Upload Health Facilities"
+msgstr "Upload Health Facilities"
+
+msgid "Upload Locations"
+msgstr "Upload Locations"
+
+msgid "Download Diagnoses"
+msgstr "Download Diagnoses"
+
+msgid "Download Health Facilities"
+msgstr "Download Health Facilities"
+
+msgid "Download Locations"
+msgstr "Download Locations"
+
+msgid "Extracts"
+msgstr "Extracts"
+
+msgid "Download Mater-data"
+msgstr "Download Mater-data"
+
+msgid "Create Phone Extracts"
+msgstr "Create Phone Extracts"
+
+msgid "Create Offline Extract"
+msgstr "Create Offline Extract"
+
+msgid "Upload Claims"
+msgstr "Upload Claims"
+
+msgid "Upload Enrolments"
+msgstr "Upload Enrolments"
+
+msgid "Upload Feedback"
+msgstr "Upload Feedback"
+
+msgid "Run report"
+msgstr "Run report"
+
+msgid "Primary Operational Indicators-policies"
+msgstr "Primary Operational Indicators-policies"
+
+msgid "Primary Operational Indicators-claims"
+msgstr "Primary Operational Indicators-claims"
+
+msgid "Derived Operational Indicators"
+msgstr "Derived Operational Indicators"
+
+msgid "Contribution Collection"
+msgstr "Contribution Collection"
+
+msgid "Product Sales"
+msgstr "Product Sales"
+
+msgid "Contribution Distribution"
+msgstr "Contribution Distribution"
+
+msgid "User Activity Report"
+msgstr "User Activity Report"
+
+msgid "Enrolment Performance Indicators"
+msgstr "Enrolment Performance Indicators"
+
+msgid "Status of Registers"
+msgstr "Status of Registers"
+
+msgid "Insurees without Photos"
+msgstr "Insurees without Photos"
+
+msgid "Payment Category Overview"
+msgstr "Payment Category Overview"
+
+msgid "Matching Funds"
+msgstr "Matching Funds"
+
+msgid "Claim Overview"
+msgstr "Claim Overview"
+
+msgid "Percentage of Referrals"
+msgstr "Percentage of Referrals"
+
+msgid "Families and insurees Overview"
+msgstr "Families and insurees Overview"
+
+msgid "Pending Insurees"
+msgstr "Pending Insurees"
+
+msgid "Renewals"
+msgstr "Renewals"
+
+msgid "Capitation Payment"
+msgstr "Capitation Payment"
+
+msgid "Rejected Photos"
+msgstr "Rejected Photos"
+
+msgid "Utilities/Email setting"
+msgstr "Utilities/Email setting"
+
+msgid "Backup"
+msgstr "Backup"
+
+msgid "Restore"
+msgstr "Restore"
+
+msgid "Execute Script"
+msgstr "Execute Script"
+
+msgid "Email Setting"
+msgstr "Email Setting"
+
+msgid "**Buttons**"
+msgstr "**Buttons**"
+
+msgid "``Save``"
+msgstr "``Save``"
+
+msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `User Control Page <#user-control-page>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the user has been saved will appear on the Information Panel."
+msgstr "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `User Control Page <#user-control-page>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the user has been saved will appear on the Information Panel."
+
+msgid "``Cancel``"
+msgstr "``Cancel``"
+
+msgid "By clicking on the ``Cancel`` button, the user will be re-directed to the `User roles/profiles control page. <#user-roles-profiles-control-page>`__"
+msgstr "By clicking on the ``Cancel`` button, the user will be re-directed to the `User roles/profiles control page. <#user-roles-profiles-control-page>`__"
+
+msgid "**Mandatory data**"
+msgstr "**Mandatory data**"
+
+msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data fields will take the focus (by an asterisk on the right of the corresponding data field)."
+msgstr "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data fields will take the focus (by an asterisk on the right of the corresponding data field)."
+
+msgid "Adding a User role/profile"
+msgstr "Adding a User role/profile"
+
+msgid "Click on the Add button to re-direct to the  `User role/profile Page <#user-role-profile-page>`__."
+msgstr "Click on the Add button to re-direct to the  `User role/profile Page <#user-role-profile-page>`__."
+
+msgid "When the page opens all entry fields are empty. See the  `User role/profile Page <#user-role-profile-page>`__. for information on the data entry and mandatory fields."
+msgstr "When the page opens all entry fields are empty. See the  `User role/profile Page <#user-role-profile-page>`__. for information on the data entry and mandatory fields."
+
+msgid "Editing a User role/profile"
+msgstr "Editing a User role/profile"
+
+msgid "Click on the Edit button to re-direct to the  `User role/profile Page <#user-role-profile-page>`__."
+msgstr "Click on the Edit button to re-direct to the  `User role/profile Page <#user-role-profile-page>`__."
+
+msgid "The page will open with the current information loaded into the data entry fields. See the `User role/profile Page <#user-role-profile-page>`__. for information on the data entry and mandatory fields."
+msgstr "The page will open with the current information loaded into the data entry fields. See the `User role/profile Page <#user-role-profile-page>`__. for information on the data entry and mandatory fields."
+
+msgid "Duplicating a User role/profile"
+msgstr "Duplicating a User role/profile"
+
+msgid "Click on the Duplicate button to re-direct to the `User role/profile Page <#user-role-profile-page>`__."
+msgstr "Click on the Duplicate button to re-direct to the `User role/profile Page <#user-role-profile-page>`__."
+
+msgid "The page will open with all the current rights for the selected user role/profile, (except for theuser role/profile name which should be unique), loaded into the data entry fields. See the `User role/profile Page <#user-role-profile-page>`__ for information on the data entry and mandatory fields. To save the record, enter a unique code before clicking on ``Save``."
+msgstr "The page will open with all the current rights for the selected user role/profile, (except for theuser role/profile name which should be unique), loaded into the data entry fields. See the `User role/profile Page <#user-role-profile-page>`__ for information on the data entry and mandatory fields. To save the record, enter a unique code before clicking on ``Save``."
+
+msgid "Deleting a User role/profile"
+msgstr "Deleting a User role/profile"
+
+msgid "Click on the Delete button to delete the currently selected record."
+msgstr "Click on the Delete button to delete the currently selected record."
+
+msgid "Before deleting a confirmation popup (:ref:`Image User roles/profile delete confirmation <user_role_delete>`) is displayed, this requires the user to confirm if the action should really be carried out."
+msgstr "Before deleting a confirmation popup (:ref:`Image User roles/profile delete confirmation <user_role_delete>`) is displayed, this requires the user to confirm if the action should really be carried out."
+
+msgid "`User roles/profile delete confirmation`"
+msgstr "`User roles/profile delete confirmation`"
+
+msgid "When a user roles/profile is deleted, the rights that it provide are not available to the users having that role/profile."
+msgstr "When a user roles/profile is deleted, the rights that it provide are not available to the users having that role/profile."
+
+msgid "Default User roles and rights"
+msgstr "Default User roles and rights"
+
+msgid "The table below shows the default roles in openIMIS."
+msgstr "The table below shows the default roles in openIMIS."
+
+msgid "Overview of Scheme administrator & district Staff roles"
+msgstr "Overview of Scheme administrator & district Staff roles"
+
+msgid "**Role**"
+msgstr "**Role**"
+
+msgid "**Responsibilities**"
+msgstr "**Responsibilities**"
+
+msgid "**Available functionality**"
+msgstr "**Available functionality**"
+
+msgid "Enrolment Officer"
+msgstr "Enrolment Officer"
+
+msgid "He/she enrols insurees and submits enrolment forms to a health insurance administration; handles policy modifications; collects feedback from scheme patients and submits to the health insurance administration."
+msgstr "He/she enrols insurees and submits enrolment forms to a health insurance administration; handles policy modifications; collects feedback from scheme patients and submits to the health insurance administration."
+
+msgid "* Capture a photo of an Insuree."
+msgstr "* Capture a photo of an Insuree."
+
+msgid "* Send a photo"
+msgstr "* Send a photo"
+
+msgid "* Inquiry on an Insuree"
+msgstr "* Inquiry on an Insuree"
+
+msgid "* Collect feedback from an Insuree"
+msgstr "* Collect feedback from an Insuree"
+
+msgid "Village Executive"
+msgstr "Village Executive"
+
+msgid "Officer (VEO)"
+msgstr "Officer (VEO)"
+
+msgid "He/she collects feedbacks and collects changes on insurees during insurance periods"
+msgstr "He/she collects feedbacks and collects changes on insurees during insurance periods"
+
+msgid "Manager"
+msgstr "Manager"
+
+msgid "Oversees operations of the health insurance scheme;runs openIMIS operational reports analyses data generated from the IMIS."
+msgstr "Oversees operations of the health insurance scheme;runs openIMIS operational reports analyses data generated from the IMIS."
+
+msgid "* Create managerial statistics"
+msgstr "* Create managerial statistics"
+
+msgid "* Authorize issuance of a substitution"
+msgstr "* Authorize issuance of a substitution"
+
+msgid "* membership card"
+msgstr "* membership card"
+
+msgid "Accountant"
+msgstr "Accountant"
+
+msgid "Transfers data on collected Contributions to an external accounting system. Calculates claim amounts per health facility, runs openIMIS operational reports and presents claims decision overview to management of a health insurance administrator. Processes approved claims to health facility sub-accounts."
+msgstr "Transfers data on collected Contributions to an external accounting system. Calculates claim amounts per health facility, runs openIMIS operational reports and presents claims decision overview to management of a health insurance administrator. Processes approved claims to health facility sub-accounts."
+
+msgid "* Transfer of data on Contributions to accounting system"
+msgstr "* Transfer of data on Contributions to accounting system"
+
+msgid "* Valuation of a claim"
+msgstr "* Valuation of a claim"
+
+msgid "* Transfer of a batch of claims for payment"
+msgstr "* Transfer of a batch of claims for payment"
+
+msgid "Clerk"
+msgstr "Clerk"
+
+msgid "Enters and modifies data on families, insurees, policies and contributions. Enters data on claims if the claims are submitted in a paper form."
+msgstr "Enters and modifies data on families, insurees, policies and contributions. Enters data on claims if the claims are submitted in a paper form."
+
+msgid "* `Creation/ Search/ Modification/ Deletion/ Modification <#family-group-page>`__ of a `household/group <#family-overview-page>`__, an `Insuree <#insuree-page>`_, a `Policy <#policy-page>`__ or a `Contribution <#contribution-page>`__."
+msgstr "* `Creation/ Search/ Modification/ Deletion/ Modification <#family-group-page>`__ of a `household/group <#family-overview-page>`__, an `Insuree <#insuree-page>`_, a `Policy <#policy-page>`__ or a `Contribution <#contribution-page>`__."
+
+msgid "* `Renewal of a policy <#policy-renewals>`__"
+msgstr "* `Renewal of a policy <#policy-renewals>`__"
+
+msgid "* `Entry of a claim <#claim-page>`__"
+msgstr "* `Entry of a claim <#claim-page>`__"
+
+msgid "Medical Officer"
+msgstr "Medical Officer"
+
+msgid "Provides technical advice on claims verification from a medical standpoint."
+msgstr "Provides technical advice on claims verification from a medical standpoint."
+
+msgid "* Checking of a claim for plausibility"
+msgstr "* Checking of a claim for plausibility"
+
+msgid "* `Review of a claim <#policy-renewals>`__"
+msgstr "* `Review of a claim <#policy-renewals>`__"
+
+msgid "* `Authorize a claim for payment <#claim-page>`__"
+msgstr "* `Authorize a claim for payment <#claim-page>`__"
+
+msgid "Scheme"
+msgstr "Scheme"
+
+msgid "Administrator"
+msgstr "Administrator"
+
+msgid "Administers registers (all except the register of users)"
+msgstr "Administers registers (all except the register of users)"
+
+msgid "* `Administer registers <#administration-of-registers>`__ ( `Officers, Payers, Health Facilities <#health-facilities-administration>`__, , `Medical Services, Medical Items, Medical Item Price Lists, Medical Services Price List <#medical-service-price-lists-administration>`__, `Products <#claim-administrators-administration>`__)"
+msgstr "* `Administer registers <#administration-of-registers>`__ ( `Officers, Payers, Health Facilities <#health-facilities-administration>`__, , `Medical Services, Medical Items, Medical Item Price Lists, Medical Services Price List <#medical-service-price-lists-administration>`__, `Products <#claim-administrators-administration>`__)"
+
+msgid "* `Extract Creation for Off-line Health Facilities <#imis-extracts-online-mode>`__"
+msgstr "* `Extract Creation for Off-line Health Facilities <#imis-extracts-online-mode>`__"
+
+msgid "openIMIS"
+msgstr "openIMIS"
+
+msgid "Administers operations of the IMIS. Is responsible for backups of data."
+msgstr "Administers operations of the IMIS. Is responsible for backups of data."
+
+msgid "* Administer the register of `users <#user_administration>`__, `Utilities <#utilities>`__"
+msgstr "* Administer the register of `users <#user_administration>`__, `Utilities <#utilities>`__"
+
+msgid "* Manage `Backup <#backup>`__, `Restore <#restore>`__ and `Updates <#execute-script>`__"
+msgstr "* Manage `Backup <#backup>`__, `Restore <#restore>`__ and `Updates <#execute-script>`__"
+
+msgid "Overview of Health Facilities staff roles"
+msgstr "Overview of Health Facilities staff roles"
+
+msgid "Receptionist"
+msgstr "Receptionist"
+
+msgid "Verifies membership and issues to a patient a claim form."
+msgstr "Verifies membership and issues to a patient a claim form."
+
+msgid "* Inquiring on a Household/group, `Insuree <#find-insuree>`__ and `Policy <#find-policy>`__"
+msgstr "* Inquiring on a Household/group, `Insuree <#find-insuree>`__ and `Policy <#find-policy>`__"
+
+msgid "Claim"
+msgstr "Claim"
+
+msgid "Pools claim forms of a health facility, enters and submits claims."
+msgstr "Pools claim forms of a health facility, enters and submits claims."
+
+msgid "* Opening of a batch of claims"
+msgstr "* Opening of a batch of claims"
+
+msgid "* Entry of a claim"
+msgstr "* Entry of a claim"
+
+msgid "HF"
+msgstr "HF"
+
+msgid "Off-line HealthFacility administration"
+msgstr "Off-line HealthFacility administration"
+
+msgid "* `Off-line extract upload <#imis-extracts-offline-mode>`__"
+msgstr "* `Off-line extract upload <#imis-extracts-offline-mode>`__"
+
+msgid "Offline HF"
+msgstr "Offline HF"
+
+msgid "* Creation of clerk"
+msgstr "* Creation of clerk"
+
+msgid "* Creation of offline Extract"
+msgstr "* Creation of offline Extract"

@@ -1,0 +1,520 @@
+msgid ""
+msgstr "" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n" 
+"X-Generator: lokalise.com\n" 
+"Project-Id-Version: openIMIS docs\n" 
+"PO-Revision-Date: 2020-01-09 10:45\n" 
+"Last-Translator: lokalise.com\n" 
+"Language-Team: lokalise.com\n\n" 
+"Language: fr\n"
+
+
+msgid "IMIS Extracts"
+msgstr "Extraits IMIS"
+
+msgid "Access to the openIMIS Extracts page is restricted to users with the system role of Scheme Administrator (IMIS Central online) or HF Administrator (IMIS offline installations) or with a role including an access to Tools/Extracts. This page will contain all functionality for data synchronization between IMIS Central and IMIS offline installations as well as the generation of extract files for the mobile phones (Android). Depending on the type of installation, the interface will enable and disable certain functions."
+msgstr "L'accès à la openIMIS Extraits de la page est restreint aux utilisateurs avec le rôle de système de l'Administrateur du dispositif (IMIS Centrale en ligne) ou HF Administrateur (IMIS en mode hors connexion des installations) ou avec un rôle, y compris un accès à des Outils/des Extraits. Cette page contient toutes les fonctionnalités pour la synchronisation de données entre l'IMIS Centrale et de l'IMIS en mode hors connexion des installations ainsi que la génération d'extraire les fichiers pour les téléphones mobiles (Android). Selon le type d'installation, l'interface d'activer et de désactiver certaines fonctions."
+
+
+msgid "Pre-conditions"
+msgstr "Conditions préalables"
+
+msgid "The extract functionality is covering extracts for the mobile phone applications and the openIMIS ‘offline’ installations. Offline extracts are only to be generated in case a district has so called ‘off-line’ installations in areas where no Internet connectivity is available."
+msgstr "L'extrait des fonctionnalités couvrant des extraits pour les applications de téléphonie mobile et les openIMIS `hors ligne` des installations. Hors ligne des extraits sont seulement être généré dans le cas d'un district a soi-disant `hors ligne` installations dans les zones où aucune connexion à Internet n'est disponible."
+
+
+msgid "Extracts are to be downloaded to the local PC that is initiating the creation of the extract."
+msgstr "Les extraits doivent être téléchargés sur le PC local qui lance la création de l'extrait."
+
+
+msgid "Standard procedures should be formulated to stipulate the time interval between Extract creations and the management of transporting and installing/transferring these extracts into the target environment: mobile phones or offline openIMIS clients."
+msgstr "Des procédures standard devraient être formulées pour stipuler l'intervalle de temps entre les créations d'extrait et la gestion du transport et de l'installation / transfert de ces extraits dans l'environnement cible: téléphones mobiles ou clients openIMIS hors ligne."
+
+
+msgid "Navigation"
+msgstr "La navigation"
+
+
+msgid "All functionality related to openIMIS extracts can be found under the main menu ``Tools``, sub menu ``IMIS Extracts``"
+msgstr "Toutes les fonctionnalités liées aux extraits openIMIS se trouvent dans le menu principal ``Outils``, sous-menu ``Extraits IMIS``"
+
+
+msgid "`Navigation openIMIS Extracts`"
+msgstr "`Navigation openIMIS Extracts`"
+
+
+msgid "Clicking on the sub menu ``IMIS Extracts`` re-directs the current user to the ``IMIS Extracts Page.``"
+msgstr "Cliquer sur le sous-menu ``Extraits IMIS`` redirige l'utilisateur actuel vers la ``Page Extraits IMIS``."
+
+msgid "This page opens in two different modes depending on the type of openIMIS installation: openIMIS Central (live server) or openIMIS offline (installed on local network in a health facility or an office of the scheme administration)."
+msgstr "Cette page s'ouvre dans deux modes différents selon le type de openIMIS installation: openIMIS Central (serveur) ou openIMIS en mode hors connexion (installé sur un réseau local dans un établissement de santé ou d'un office du schéma d'administration)."
+
+
+msgid "IMIS Extracts (online mode)"
+msgstr "Extraits IMIS (mode en ligne)"
+
+
+msgid "`openIMIS Extracts`"
+msgstr "`Extraits openIMIS`"
+
+msgid "The Extracts Page is divided into eight sections `(Image 6.23) <#image-6.2-registers-page>`__\\ \\ ."
+msgstr "La page des extraits est divisée en huit sections `(Image 6.23) <#image-6.2-registers-page>`__ \\ \\."
+
+
+msgid "**A - Download Master Data section**"
+msgstr "** A - Télécharger la section des données de base **"
+
+msgid "The Master Data section is used for generation of the data needed for off-line operation of IMIS (Policies) application run on Android platforms. The following data files can be downloaded:"
+msgstr "Les Données de base de la section est utilisée pour la production des données nécessaires pour le hors-fonctionnement de la ligne de l'IMIS (Politiques) l'exécution de l'application sur les plates-formes Android. Les fichiers de données suivants peuvent être téléchargés:"
+
+
+msgid "Master data for running IMIS (Policies) application **(Download Master Data)**"
+msgstr "Données de base pour l'exécution de l'application IMIS (politiques)**(Télécharger les données de base)**"
+
+
+msgid "Prompts for renewal of policies **(Download Renewals)**"
+msgstr "Invite au renouvellement des politiques**(Télécharger les renouvellements)**"
+
+
+msgid "Prompts for acquiring of feedbacks **(Download Feedbacks)**"
+msgstr "Invites pour l'acquisition de commentaires**(Télécharger les commentaires)**"
+
+
+msgid "**Enrolment Officers Code**: Enter the code of an enrolment officer for whom the master data and prompts should be generated."
+msgstr "** Code d'agent d'inscription **: Entrez le code d'un agent d'inscription pour lequel les données de base et les invites doivent être générées."
+
+
+msgid "**B - Create Phone Extract section**"
+msgstr "** B - Section Créer un extrait de téléphone **"
+
+msgid "The Phone extract panel is used for the generation of so called SQLite database files for the mobile phone applications. Each district will have its own phone extract file that needs to be distributed to the mobile phones within the district. To generate a phone extract file, the operator has to select a region and a district from the list of available districts. In case the user is having access to its own district only, the district will be automatically selected and shown on the display."
+msgstr "Le Téléphone extraire le panneau est utilisé pour la génération de fichiers de base de données SQLite pour les applications de téléphonie mobile. Chaque quartier aura son propre téléphone extraire le fichier qui doit être distribué à tous les téléphones mobiles dans le district. Pour générer un téléphone extraire le fichier, l'opérateur doit sélectionner une région et d'un district à partir de la liste des districts. Dans le cas où l'utilisateur est d'avoir accès à son propre quartier, le quartier sera automatiquement sélectionné et affiché sur l'écran."
+
+msgid "By clicking the ``Create`` button in panel the section, a phone extract will be created. This process might take a while. As long as the hour glass (as a cursor) is shown, openIMIS is still processing the file. The file size depends on the amount of photographs included in the extract. The file size could range into hundreds of MBs. To alleviate this problem two options are available:"
+msgstr "En cliquant sur le bouton `Créer` dans le panneau de la section, un téléphone extrait sera créé. Ce processus peut prendre un certain temps. Aussi longtemps que l'heure de verre (comme un curseur) est indiqué, openIMIS est encore le traitement du fichier. La taille du fichier dépend de la quantité de photographies contenues dans l'extrait. La taille du fichier peut varier dans des centaines de mo. Pour pallier ce problème, deux options sont disponibles:"
+
+
+msgid "``With Insurees``"
+msgstr "``Avec les assurés``"
+
+
+msgid "Checking this box means that a complete phone extract (including photos) will be generated. Leaving it unchecked a shortened phone extract without photos will be generated."
+msgstr "Cocher cette case signifie qu'un extrait complet du téléphone (y compris des photos) sera généré. Ne pas cocher un extrait de téléphone abrégé sans photos sera généré."
+
+
+msgid "``In background``"
+msgstr "``En arrière-plan``"
+
+msgid "Checking this box means that the phone extract will be created in background and the user will be notified by e-mail (provided his/her e-mail is entered in the register of users)."
+msgstr "En cochant cette case, le téléphone de l'extrait sera créé dans le fond et l'utilisateur sera averti par e-mail (à condition que son adresse e-mail est inscrit dans le registre d'utilisateurs)."
+
+msgid "In case the extract is created in the background, the following dialog box appears:"
+msgstr "Dans le cas où l'extrait est créé dans le fond, la boîte de dialogue suivante s'affiche:"
+
+
+msgid "`Image 179`"
+msgstr "`Image 179`"
+
+msgid "If the extract is not created in background the user is notified about successful creation by the following message as shown below."
+msgstr "Si l'extrait n'est pas créé dans le contexte de l'utilisateur est notifié sur la réussite de la création par le message suivant comme indiqué ci-dessous."
+
+
+msgid "`Image 180`"
+msgstr "`Image 180`"
+
+msgid "The extract will be downloaded to your local computer by clicking the ``Download`` link that will appear after the creation of the extract, as shown below."
+msgstr "L'extrait sera téléchargé sur votre ordinateur local en cliquant sur le bouton `Téléchargement` lien qui apparaîtra après la création de l'extrait, comme indiqué ci-dessous."
+
+
+msgid "`Image 181`"
+msgstr "`Image 181`"
+
+msgid "The extract file is called **IMISDATA.DB3** and needs first to be copied (downloaded) to the local machine. After clicking the ``Download`` button, the operator is able to select the destination folder (locally) for the file to download as shown below."
+msgstr "L'extrait de fichier est appelé **IMISDATA.DB3** et doit d'abord être copié (téléchargé) sur la machine locale. Après avoir cliqué sur le bouton `Télécharger`, l'opérateur est en mesure de sélectionner le dossier de destination (en local) pour le fichier à télécharger comme indiqué ci-dessous."
+
+
+msgid "`Image 182`"
+msgstr "`Image 182`"
+
+msgid "The extract is now ready to be transferred/copied to the mobile phones. This process is performed manually by connecting the mobile phone to the computer with the provided USB cable. The user needs to copy, manually, the file from the local machine into the ‘IMIS’ Folder on the mobile phone."
+msgstr "L'extrait est maintenant prêt à être transféré, copié, pour les téléphones mobiles. Ce processus est effectué manuellement par la connexion d'un téléphone mobile à l'ordinateur avec le câble USB fourni. L'utilisateur doit copier manuellement le fichier à partir de la machine locale dans le ‘SIG’ Dossier sur le téléphone mobile."
+
+
+msgid "**C - Offline Extract section**"
+msgstr "** C - Section d'extrait hors ligne **"
+
+msgid "The offline extract section is used to generate the openIMIS ‘offline’ extract files for the health facilities or offices of the scheme administration that run openIMIS offline. To generate an offline extract file, the operator has to select a region and a district from the list of available districts. In case the user is having access to its own district only, the district will be automatically selected and shown on the display. When an operator belongs to one specific district, the district box is already selected with the district of the user. To create a new extract, the operator needs to click the ``Create`` button."
+msgstr "Le mode hors connexion de l'extrait de l'article est utilisé pour générer le openIMIS `hors ligne` extraire les fichiers pour les établissements de santé ou dans les bureaux du régime de l'administration qui s'exécutent openIMIS en mode hors connexion. Pour générer un hors-ligne de l'extrait de fichier, l'utilisateur doit sélectionner une région et d'un district à partir de la liste des districts. Dans le cas où l'utilisateur est d'avoir accès à son propre quartier, le quartier sera automatiquement sélectionné et affiché sur l'écran. Lorsqu'un opérateur appartient à un seul district, le district de la boîte est déjà sélectionné avec le district de l'utilisateur. Pour créer un nouvel extrait, l'opérateur doit cliquer sur le bouton `Créer`."
+
+
+msgid "Three types of extracts could be generated:"
+msgstr "Trois types d'extraits pourraient être générés:"
+
+
+msgid "Differential Extract ``(Download D)``"
+msgstr "Extrait différentiel ``(Télécharger D)``"
+
+msgid "Differential extracts will only contain the differences in data compared with the previous extract. The first differential extract (sequence 000001) will contain all data as it will be the first extract. Thereafter, this type of the extract, will only contain any differences after the previous extract. This will result in smaller files sent to the health facilities in off-line mode. When we click the create button, the differential extract is always generated and will be assigned the next sequence number. A separate Photo extract will be created containing only photographs linked to changes compared with the previous extract. Differential extracts with insure and policy data are only generated in case the ``With Insuree`` checkbox is checked as shown below."
+msgstr "Différentiel extraits ne contiennent que les différences dans les données par rapport à la précédente extrait. La première différentiel extrait (séquence 000001) contient toutes les données qu'il sera le premier extrait. Par la suite, ce type de l'extrait ne contient aucune différences après le précédent extrait. Cela se traduira dans les petits fichiers envoyés à tous les établissements de santé en mode off-line. Quand on clique sur le bouton créer, le différentiel extrait est toujours généré et sera attribué le prochain numéro de séquence. Séparé Photo extrait sera créé contenant uniquement des photographies liées à des changements par rapport à la précédente extrait. Différentiel des extraits assurer et politique de données ne sont générés que dans le cas où le preneur d'assurance` case à cocher est cochée comme indiqué ci-dessous."
+
+
+msgid "`Image 183`"
+msgstr "`Image 183`"
+
+
+msgid "Full extract ``(Download F)``"
+msgstr "Extrait complet``(Télécharger F)``"
+
+msgid "The Full extract will always contain all information in the database. These extracts are only generated in case the ``Full extract`` and the ``With Insuree`` checkbox are checked as shown below."
+msgstr "L'extrait Complet contient toujours toutes les informations dans la base de données. Ces extraits ne sont générés que dans le cas où la `extraire` et le `Avec le preneur d'assurance la case à cocher` sont cochées comme indiqué ci-dessous."
+
+
+msgid "`Image 184`"
+msgstr "`Image 184`"
+
+msgid "By clicking the ``Create`` button, in case of ``Full extract`` is checked, two extracts will be generated, one differential extract and one full extract. Both extracts will have the same sequence number. This implies that full extracts are not always needed/generated. A separate photo extract will be created containing all photographs."
+msgstr "En cliquant sur le bouton `Créer`, en cas de `extrait Complet` est cochée, deux extraits seront générés, l'un différentiel d'extraire et d'un extrait complet. Les deux extraits ont le même numéro de séquence. Cela implique que la pleine extraits ne sont pas toujours nécessaires et/ou générés. Séparé photo extrait sera créé contenant toutes les photos."
+
+
+msgid "Empty Extract ``(Download E)``"
+msgstr "Extrait vide``(Télécharger E)``"
+
+msgid "Empty extracts will only contain the data from registers and no data on insurees and their policies/photos. If a full set of register data should be included in the extract, the checkbox ``Full extract`` has to be checked as shown below."
+msgstr "Vide extraits ne contiennent que les données tirées des registres et des pas de données sur les assurés et leurs politiques/des photos. Si un ensemble complet de données du registre devrait être inclus dans l'extrait, la case à cocher `extrait Complet` doit être cochée comme indiqué ci-dessous."
+
+
+msgid "`Image  185`"
+msgstr "`Image 185`"
+
+
+msgid "After clicking the ``Create`` button, the system will create the extract file and will on completion display the following message:"
+msgstr "Après avoir cliqué sur le bouton ``Créer``, le système créera le fichier d'extraction et affichera à la fin le message suivant:"
+
+
+msgid "`Image 186`"
+msgstr "`Image 186`"
+
+
+msgid "The message is only shown to provide some details on how much information is exported to the extract file."
+msgstr "Le message s'affiche uniquement pour fournir des détails sur la quantité d'informations exportées vers le fichier d'extraction."
+
+
+msgid "Depending on the ``Full extract`` option, we will be re-directed to the extract page and will see the newly generated extract sequence in the list or will get a new message as shown below:"
+msgstr "En fonction de l'option ``Extrait complet``, nous serons redirigés vers la page d'extraction et verrons la séquence d'extrait nouvellement générée dans la liste ou obtiendrons un nouveau message comme indiqué ci-dessous:"
+
+
+msgid "`Image 187`"
+msgstr "`Image 187`"
+
+
+msgid "After clicking OK the statistics of the full extract will be shown:"
+msgstr "Après avoir cliqué sur OK, les statistiques de l'extrait complet seront affichées:"
+
+
+msgid "`Image 188`"
+msgstr "`Image 188`"
+
+
+msgid "We are now ready to download the extract to our computer."
+msgstr "Nous sommes maintenant prêts à télécharger l'extrait sur notre ordinateur."
+
+msgid "The combo box next to the district selector contains information on all generated extracts with the sequence number and date. (e.g. Sequence 000007 – Date 06-09-2012). If the extract selector does not show any entries (blank) it means that no previous extracts were created. At least one full extract needs to be generated. This is needed to initialise a new offline openIMIS installation."
+msgstr "La liste déroulante à côté du quartier sélecteur contient des informations sur tous les extraits avec le numéro de séquence et la date. (par exemple, la Séquence 000007 – Date 06-09-2012). Si l'extrait sélecteur de ne pas afficher toutes les entrées (vide), cela signifie qu'aucun des précédents extraits ont été créés. Au moins un extrait complet doit être généré. Ce qui est nécessaire à l'initialisation d'un nouveau carnet d'openIMIS de l'installation."
+
+
+msgid "To download the actual extracts, the operator needs to select the desired extract sequence from the list of available extracts."
+msgstr "Pour télécharger les extraits réels, l'opérateur doit sélectionner la séquence d'extraits souhaitée dans la liste des extraits disponibles."
+
+
+msgid "Four different types of extracts could be downloaded by clicking one of the following buttons:"
+msgstr "Quatre types d'extraits différents peuvent être téléchargés en cliquant sur l'un des boutons suivants:"
+
+
+msgid "``Download D`` (Differential extract)"
+msgstr "`` Télécharger D`` (extrait différentiel)"
+
+
+msgid "Will download the selected differential extract with the following filename"
+msgstr "Télécharge l'extrait différentiel sélectionné avec le nom de fichier suivant"
+
+msgid "*Filename: OE_D_<DistrictID>_<Sequence>.RAR (e.g. OE_D_1_8.RAR)*"
+msgstr "* Nom de fichier: OE_D_ <DistrictID> IDistrict>> <DistrictID> <Sequence> .RAR (par exemple OE_D_1_8.RAR) *"
+
+
+msgid "``Download F`` (Full extract)"
+msgstr "`` Télécharger F`` (Extrait complet)"
+
+
+msgid "Will download the latest full extract with the following filename"
+msgstr "Télécharge le dernier extrait complet avec le nom de fichier suivant"
+
+msgid "*Filename: OE_F_<DistrictID>_<Sequence>.RAR (e.g. OE_F_1_8.RAR)*"
+msgstr "* Nom de fichier: OE_F_ <DistrictID> IDistrict <DistrictID> _ <Sequence> .RAR (par exemple OE_F_1_8.RAR) *"
+
+
+msgid "``Download E`` (Empty extract)"
+msgstr "``Télécharger E`` (extrait vide)"
+
+msgid "*Filename: OE_E_<DistrictID>_<Sequence>.RAR (e.g. OE_F_1_8.RAR)*"
+msgstr "* Nom de fichier: OE_E_ <DistrictID> IDistrict <DistrictID> _ <Sequence> .RAR (par exemple OE_F_1_8.RAR) *"
+
+
+msgid "``Download Photos D`` (Differential Photo extract)"
+msgstr "``Télécharger les photos D`` (extrait photo différentiel)"
+
+
+msgid "Will download the selected differential photo extract with filename:"
+msgstr "Télécharge l'extrait de photo différentiel sélectionné avec le nom de fichier:"
+
+msgid "*Filename: OE_D_<DistrictID>_<Sequence>.RAR (e.g. OE_D_1_8_Photos.RAR)*"
+msgstr "* Nom de fichier: OE_D_ <DistrictID> _ <Sequence> .RAR (par exemple OE_D_1_8_Photos.RAR) *"
+
+
+msgid "``Download Photos F`` (Full Photo extract)"
+msgstr "``Télécharger les photos F`` (extrait photo complet)"
+
+
+msgid "Will download the latest FULL photo extract with the following filename"
+msgstr "Télécharge le dernier extrait de photo COMPLET avec le nom de fichier suivant"
+
+msgid "*Filename: OE_D_<DistrictID>_<Sequence>.RAR (e.g. OE_F_1_8_Photos.RAR)*"
+msgstr "* Nom de fichier: OE_D_ <DistrictID> _ <Sequence> .RAR (par exemple OE_F_1_8_Photos.RAR) *"
+
+msgid "After clicking the desired extract download button, the file download dialog box appears to select the destination folder for the extract file as shown below:"
+msgstr "Après avoir cliqué sur l'extrait désiré bouton de téléchargement, le téléchargement de fichier boîte de dialogue s'affiche pour sélectionner le dossier de destination pour l'extrait de fichier comme indiqué ci-dessous:"
+
+
+msgid "`Image 189`"
+msgstr "`Image 189`"
+
+
+msgid "In case the extract file is not available (anymore) on the server, the following dialog box might appear:"
+msgstr "Dans le cas où le fichier d'extraction n'est pas disponible (plus) sur le serveur, la boîte de dialogue suivante peut apparaître:"
+
+
+msgid "`Image 190`"
+msgstr "`Image 190`"
+
+msgid "The reason for this box to appear could be that the file to be downloaded has been removed from the server or that you have attempted the download a full extract but no full extract was generated (only the differential extracts exist). It is also possible that you have attempted to download a photo extract but no photos were added since the last extract."
+msgstr "La raison de cette boîte à comparaître pourrait être que le fichier à télécharger a été supprimé depuis le serveur ou que vous avez tenté le téléchargement complet d'un extrait, mais aucun extrait complet a été généré (uniquement le différentiel extraits existent). Il est également possible que vous avez tenté de télécharger une photo à extraire, mais pas de photos ont été ajoutées depuis la dernière extraction."
+
+msgid "Checking the checkbox ``In background`` means that the off-line extract will be created in background and the user will be notified by e-mail (provided his/her e-mail is entered in the register of users) as shown below:"
+msgstr "En cochant la case `Dans le fond` signifie que le off-line extrait sera créé dans le fond et l'utilisateur sera averti par e-mail (à condition que son adresse e-mail est inscrit dans le registre d'utilisateurs) comme indiqué ci-dessous:"
+
+
+msgid "`Image 191`"
+msgstr "`Image 191`"
+
+
+msgid "`Image 192`"
+msgstr "`Image 192`"
+
+
+msgid "**D - Upload Claims section**"
+msgstr "** D - Télécharger la section des réclamations **"
+
+
+msgid "**Browse**"
+msgstr "**Feuilleter**"
+
+
+msgid "Browse for the file from the IMIS-Offline or IMIS (Claims ) application containing claims to be uploaded."
+msgstr "Recherchez le fichier dans l'application IMIS-Offline ou IMIS (Réclamations) contenant les Réclamations à télécharger."
+
+
+msgid "Upload"
+msgstr "Télécharger"
+
+
+msgid "Upload claims contained in the selected file."
+msgstr "Téléchargez les Réclamations contenues dans le fichier sélectionné."
+
+
+msgid "**E - Upload Enrolment section**"
+msgstr "** E - Section de téléchargement des inscriptions **"
+
+
+msgid "Browse for the file from the IMIS-Offline or IMIS (Policies )application containing newly enrolled or renewed policies to be uploaded."
+msgstr "Recherchez le fichier dans l'application IMIS-Offline ou IMIS (politiques) contenant les politiques nouvellement inscrites ou renouvelées à télécharger."
+
+
+msgid "Upload policies contained in the selected file."
+msgstr "Téléchargez les politiques contenues dans le fichier sélectionné."
+
+
+msgid "**F - Upload Feedback section**"
+msgstr "** F - Section de commentaires sur le téléchargement **"
+
+
+msgid "Browse for the file from the IMIS-Offline or IMIS (Policies )application containing feedbacks to be uploaded."
+msgstr "Recherchez le fichier dans l'application IMIS-Offline ou IMIS (politiques) contenant les commentaires à télécharger."
+
+
+msgid "Upload feedbacks contained in the selected file."
+msgstr "Téléchargez les commentaires contenus dans le fichier sélectionné."
+
+
+msgid "**G - Button section**"
+msgstr "** G - Section de bouton **"
+
+msgid "The ``Cancel`` button brings the operator back to the :ref:`Home Page <home_page>`."
+msgstr "Le bouton ``Annuler`` ramène l'opérateur à :ref:`Page d'accueil <home_page>`."
+
+
+msgid "**H - Information panel**"
+msgstr "** H - Panneau d'information **"
+
+
+msgid "The Information Panel is used to display messages back to the user. Messages will occur once an action has completed or if there was an error at any time during the process of these actions."
+msgstr "Le panneau d'informations est utilisé pour afficher les messages à l'utilisateur. Des messages s'afficheront une fois l'action terminée ou s'il y a eu une erreur à tout moment pendant le processus de ces actions."
+
+
+msgid "IMIS Extracts (OFFLINE MODE)"
+msgstr "Extraits IMIS (MODE HORS LIGNE)"
+
+
+msgid "**Offline HF**"
+msgstr "** Hors ligne HF **"
+
+
+msgid "`Image 193`"
+msgstr "`Image 193`"
+
+
+msgid "**A - Import Extract**"
+msgstr "** A - Importer un extrait **"
+
+
+msgid "Used to extract photos obtained from online IMIS"
+msgstr "Utilisé pour extraire des photos obtenues à partir du SIG en ligne"
+
+
+msgid "**B - Import Photos**"
+msgstr "** B - Importer des photos **"
+
+
+msgid "Used to upload photos obtained from online IMIS"
+msgstr "Utilisé pour télécharger des photos obtenues à partir du SIG en ligne"
+
+
+msgid "**C - Download Claim XMLs**"
+msgstr "** C - Télécharger les réclamations XML **"
+
+
+msgid "Used to download claims made in the offline health facility prior to be sent to online IMIS"
+msgstr "Utilisé pour télécharger les réclamations faites dans l'établissement de santé hors ligne avant d'être envoyées au SIG en ligne"
+
+
+msgid "**Offline Insurer**"
+msgstr "** Assureur hors ligne **"
+
+
+msgid "`Image 194`"
+msgstr "`Image 194`"
+
+
+msgid "Used to upload extract obtained from online IMIS"
+msgstr "Utilisé pour télécharger un extrait obtenu à partir du SIG en ligne"
+
+
+msgid "**C - Import Extract**"
+msgstr "** C - Importer un extrait **"
+
+
+msgid "The Choose file section should be clicked to select an extract file to upload/import. The following file selector appears for Internet explorer (the appearance might differ for different internet browsers):"
+msgstr "Il faut cliquer sur la section Choisir un fichier pour sélectionner un fichier d'extraction à télécharger / importer. Le sélecteur de fichiers suivant apparaît pour Internet Explorer (l'apparence peut différer pour différents navigateurs Internet):"
+
+
+msgid "`Image 195`"
+msgstr "`Image 195`"
+
+
+msgid "On clicking the ``Choose File`` button, the file selector dialog appears as shown below:"
+msgstr "En cliquant sur le bouton ``Choisir un fichier``, la boîte de dialogue de sélection de fichier apparaît comme illustré ci-dessous:"
+
+
+msgid "`Image 196`"
+msgstr "`Image 196`"
+
+
+msgid "With the import/upload of an extract it is important to understand that each extract has its sequence number. This sequence number is found in the filename of the extract. We would in case of differential imports/uploads have to follow the sequence. In the example screen above, it shows in the status bar, that the last import was number 6. Therefore we should select in this case the differential extract number 7 as highlighted in the file selection dialog."
+msgstr "Avec l'importation / le téléchargement d'un extrait, il est important de comprendre que chaque extrait a son numéro de séquence. Ce numéro de séquence se trouve dans le nom de fichier de l'extrait. En cas d'importations / téléchargements différentiels, nous devons suivre la séquence. Dans l'exemple d'écran ci-dessus, il montre dans la barre d'état que la dernière importation était le numéro 6. Par conséquent, nous devons sélectionner dans ce cas l'extrait différentiel numéro 7 comme mis en évidence dans la boîte de dialogue de sélection de fichier."
+
+
+msgid "Alternatively the operator could select any full extract with a sequence number higher than 6. In case a wrong extract is selected, warning messages will appear as shown below:"
+msgstr "L'opérateur peut également sélectionner n'importe quel extrait complet avec un numéro de séquence supérieur à 6. Dans le cas où un mauvais extrait est sélectionné, des messages d'avertissement apparaîtront comme indiqué ci-dessous:"
+
+
+msgid "`Image 197`"
+msgstr "`Image 197`"
+
+
+msgid "`Image 198`"
+msgstr "`Image 198`"
+
+msgid "In case you are missing extract sequences, additional extracts are needed to be uploaded before the extract selected. The extract selected, in this case, does not directly follow the last sequence as indicated in the status bar of the screen. The additional extracts are to be provided by NSHIP district office."
+msgstr "Dans le cas où vous êtes en manque d'extraire des séquences, des extraits supplémentaires sont nécessaires pour être téléchargé avant de l'extrait sélectionné. L'extrait sélectionné, dans ce cas, ne pas suivre directement la dernière séquence, comme indiqué dans la barre d'état de l'écran. Le des extraits supplémentaires sont fournis par le NSHIP bureau de district."
+
+
+msgid "In case the extract file selected is valid, the system will import the data. New data will be added and existing data might be modified. After a successful import of an extract (Differential and FULL), a form is displayed with the statistics of the import as shown below:"
+msgstr "Si le fichier d'extraction sélectionné est valide, le système importera les données. De nouvelles données seront ajoutées et les données existantes pourraient être modifiées. Après une importation réussie d'un extrait (différentiel et complet), un formulaire s'affiche avec les statistiques de l'importation comme indiqué ci-dessous:"
+
+
+msgid "`Image 199`"
+msgstr "`Image 199`"
+
+msgid "The above statistics are provided to give some quick overview of how many records were inserted or updated during the import process. In case we would for example update the phone number of an enrolment officer, it would result in one update and one insert as we always keep historical records. The photos inserts and updates are related to information on the photos, but are not the actual photographs. The actual photographs (\\\\*.jpg) are uploaded separately."
+msgstr "Les statistiques ci-dessus sont donnés pour avoir une vue d'ensemble rapide de combien d'enregistrements ont été insérées ou mises à jour pendant le processus d'importation. Dans le cas où nous permettrait par exemple de mettre à jour le numéro de téléphone d'un agent d'inscription, il en résulterait une mise à jour et d'un insert comme nous l'avons toujours conserver les documents historiques. Les photos insertions et mises à jour sont liées à des informations sur les photos, mais ne sont pas les photographies réelles. Les photographies réelles (\\\\*.jpg) sont téléchargées séparément."
+
+
+msgid "**D - Import Photos**"
+msgstr "** D - Importer des photos **"
+
+
+msgid "The import of photos is optional and will have no further checking on sequence numbers. NSHIP should provide (if available) with each extract the photo extract as well."
+msgstr "L'importation de photos est facultative et n'aura plus de vérification sur les numéros de séquence. NSHIP devrait également fournir (si disponible) avec chaque extrait l'extrait de photo."
+
+
+msgid "E.g. (for Differential extract)"
+msgstr "Par exemple (pour l'extrait différentiel)"
+
+
+msgid "`Image 200`"
+msgstr "`Image 200`"
+
+
+msgid "OR (for FULL extract)"
+msgstr "OU (pour un extrait COMPLET)"
+
+
+msgid "`Image 201`"
+msgstr "`Image 201`"
+
+
+msgid "The photo extract will contain all photographs associated with the actual extract in a zipped format. The Upload procedure will simply unzip the extract and copy the image files to the photo folder of IMIS."
+msgstr "L'extrait de photo contiendra toutes les photographies associées à l'extrait réel dans un format zippé. La procédure de téléchargement décompressera simplement l'extrait et copiera les fichiers image dans le dossier photo d'IMIS."
+
+
+msgid "After successful upload of the photographs the following message appears:"
+msgstr "Après le téléchargement réussi des photos, le message suivant apparaît:"
+
+
+msgid "`Image 202`"
+msgstr "`Image 202`"
+
+
+msgid "**E - Button panel**"
+msgstr "** E - Panneau de boutons **"
+
+
+msgid "The ‘Cancel’ button brings the operator back to the main page of IMIS."
+msgstr "Le bouton `Annuler` ramène l'opérateur à la page principale d'IMIS."
+
+
+msgid "**F - Information panel**"
+msgstr "** F - Panneau d'information **"
+
+msgid "The Information Panel is used to display messages back to the user. Messages will occur once an action has completed or if there was an error at any time during the process of these actions. If the user opens the openIMIS extracts page (in offline mode only), the status bar will show the last sequence number uploaded."
+msgstr "Le Panneau d'Information est utilisé pour afficher des messages à l'utilisateur. Les Messages se fera une fois qu'une action est terminée ou si il y a une erreur à tout moment pendant le déroulement de ces actions. Si l'utilisateur ouvre la openIMIS extraits de la page (en mode hors ligne uniquement), la barre d'état affichera le dernier numéro de séquence téléchargé."

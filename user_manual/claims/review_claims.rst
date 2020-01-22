@@ -281,7 +281,7 @@ Claim Review Page
     ``Claim Review Page`` will show read-only information of the current claim selected for review, on the top section of the page, on some of the grid columns of the claim services grid and claim items grid and on the bottom of all the grids. As well, the page has input boxes where a user with the system role Medical Officer or with a role including an access to Claims/Claim/Review can enter new relevant values for review of the current claim.
 
 
-    *** Read-only information of the current claim**
+    * **Read-only information of the current claim**
 
       * ``HF``
 

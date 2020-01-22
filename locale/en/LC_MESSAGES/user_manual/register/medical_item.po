@@ -1,0 +1,212 @@
+msgid ""
+msgstr "" 
+"Project-Id-Version: openIMIS \n" 
+"Report-Msgid-Bugs-To: \n" 
+"POT-Creation-Date: 2019-08-16 15:21+0200\n" 
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n" 
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n" 
+"Language-Team: LANGUAGE <LL@li.org>\n" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Medical Items Administration"
+msgstr "Medical Items Administration"
+
+msgid "The register of Medical Items contains all medical items (drugs, prostheses) that can be included in packages of benefits of insurance products within the health insurance scheme and are remunerated by the scheme administration. Administration of the register of medical items is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Medical Items."
+msgstr "The register of Medical Items contains all medical items (drugs, prostheses) that can be included in packages of benefits of insurance products within the health insurance scheme and are remunerated by the scheme administration. Administration of the register of medical items is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Medical Items."
+
+msgid "Pre-conditions"
+msgstr "Pre-conditions"
+
+msgid "A medical item may only be added or thereafter edited or deleted, after the approval of the management of the scheme administration."
+msgstr "A medical item may only be added or thereafter edited or deleted, after the approval of the management of the scheme administration."
+
+msgid "Navigation"
+msgstr "Navigation"
+
+msgid "All functionality for use with the administration of medical items can be found under the main menu ``Administration``, sub menu ``Medical Items``"
+msgstr "All functionality for use with the administration of medical items can be found under the main menu ``Administration``, sub menu ``Medical Items``"
+
+msgid "`Navigation Medical Items`"
+msgstr "`Navigation Medical Items`"
+
+msgid "Clicking on the sub menu ``Medical Items`` re-directs the current user to the `Medical Items Control Page <#medical-items-control-page>`__\\."
+msgstr "Clicking on the sub menu ``Medical Items`` re-directs the current user to the `Medical Items Control Page <#medical-items-control-page>`__\\."
+
+msgid "`Medical Items Control Page`"
+msgstr "`Medical Items Control Page`"
+
+msgid "Medical Items Control Page"
+msgstr "Medical Items Control Page"
+
+msgid "The ``Medical Items Control Page`` is the central point for all medical item administration. By having access to this page, it is possible to add, edit, delete and search. The panel is divided into four panels (:numref:`image30`)"
+msgstr "The ``Medical Items Control Page`` is the central point for all medical item administration. By having access to this page, it is possible to add, edit, delete and search. The panel is divided into four panels (:numref:`image30`)"
+
+msgid "**Search Panel**"
+msgstr "**Search Panel**"
+
+msgid "The search panel allows a user to select specific criteria to minimise the search results. In the case of medical items the following search options are available which can be used alone or in combination with each other."
+msgstr "The search panel allows a user to select specific criteria to minimise the search results. In the case of medical items the following search options are available which can be used alone or in combination with each other."
+
+msgid "``Code``"
+msgstr "``Code``"
+
+msgid "Type in the beginning of; or the full ``Code``; to search for medical items with a ``Code``, which starts with or matches completely, the typed text."
+msgstr "Type in the beginning of; or the full ``Code``; to search for medical items with a ``Code``, which starts with or matches completely, the typed text."
+
+msgid "``Name``"
+msgstr "``Name``"
+
+msgid "Type in the beginning of; or the full ``Name`` to search for medical items with a ``Name``, which starts with or matches completely, the typed text."
+msgstr "Type in the beginning of; or the full ``Name`` to search for medical items with a ``Name``, which starts with or matches completely, the typed text."
+
+msgid "``Type``"
+msgstr "``Type``"
+
+msgid "Select the ``Type``; from the list of types (Drugs, Medical Prostheses) by clicking on the arrow on the right of the selector, to select medical items of a specific type."
+msgstr "Select the ``Type``; from the list of types (Drugs, Medical Prostheses) by clicking on the arrow on the right of the selector, to select medical items of a specific type."
+
+msgid "``Package``"
+msgstr "``Package``"
+
+msgid "Type in the beginning of; or the full ``Package``; to search for medical items with a ``Package``, which starts with or matches completely, the typed text."
+msgstr "Type in the beginning of; or the full ``Package``; to search for medical items with a ``Package``, which starts with or matches completely, the typed text."
+
+msgid "``Historical``"
+msgstr "``Historical``"
+
+msgid "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image31`)."
+msgstr "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image31`)."
+
+msgid "`Historical records - Result Panel`"
+msgstr "`Historical records - Result Panel`"
+
+msgid "``Search button``"
+msgstr "``Search button``"
+
+msgid "Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel."
+msgstr "Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel."
+
+msgid "**Result Panel**"
+msgstr "**Result Panel**"
+
+msgid "The result panel displays a list of all medical items found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image32`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
+msgstr "The result panel displays a list of all medical items found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image32`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
+
+msgid "`Selected record (blue), hovered records (yellow) - Result Panel`"
+msgstr "`Selected record (blue), hovered records (yellow) - Result Panel`"
+
+msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image33`)"
+msgstr "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image33`)"
+
+msgid "`Page selector- Result Panel`"
+msgstr "`Page selector- Result Panel`"
+
+msgid "**Button Panel**"
+msgstr "**Button Panel**"
+
+msgid "With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button."
+msgstr "With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button."
+
+msgid "**Information Panel**"
+msgstr "**Information Panel**"
+
+msgid "The Information Panel is used to display messages back to the user. Messages will occur once a medical item has been added, updated or deleted or if there was an error at any time during the process of these actions."
+msgstr "The Information Panel is used to display messages back to the user. Messages will occur once a medical item has been added, updated or deleted or if there was an error at any time during the process of these actions."
+
+msgid "Medical Item Page"
+msgstr "Medical Item Page"
+
+msgid "**Data Entry**"
+msgstr "**Data Entry**"
+
+msgid "`Medical Item Page`"
+msgstr "`Medical Item Page`"
+
+msgid "Enter the code for the medical item. Mandatory, 6 characters."
+msgstr "Enter the code for the medical item. Mandatory, 6 characters."
+
+msgid "Enter the name of the medical item. Mandatory, 100 characters maximum."
+msgstr "Enter the name of the medical item. Mandatory, 100 characters maximum."
+
+msgid "Choose one from the options available, the type of the medical item. Mandatory."
+msgstr "Choose one from the options available, the type of the medical item. Mandatory."
+
+msgid "Enter the package (Indication of type and volume of package in a suitable coding system) for the medical item. Mandatory, 255 characters maximum."
+msgstr "Enter the package (Indication of type and volume of package in a suitable coding system) for the medical item. Mandatory, 255 characters maximum."
+
+msgid "``Price``"
+msgstr "``Price``"
+
+msgid "Enter the price (a general price that can be overloaded in pricelists). Full general price including potential cost sharing of an insuree) for the medical item. Mandatory."
+msgstr "Enter the price (a general price that can be overloaded in pricelists). Full general price including potential cost sharing of an insuree) for the medical item. Mandatory."
+
+msgid "``Care Type``"
+msgstr "``Care Type``"
+
+msgid "Choose one from the options available, the limitation of provision of the medical item within the specific type of health care (In-patient, Out-patient or Both). Mandatory."
+msgstr "Choose one from the options available, the limitation of provision of the medical item within the specific type of health care (In-patient, Out-patient or Both). Mandatory."
+
+msgid "``Frequency``"
+msgstr "``Frequency``"
+
+msgid "Enter the limitation of frequency of provision in a number of days within which a medical item cannot be provided to a patient not more than once. If the frequency is zero, there is no limitation. *Note: By default the frequency is 0.*"
+msgstr "Enter the limitation of frequency of provision in a number of days within which a medical item cannot be provided to a patient not more than once. If the frequency is zero, there is no limitation. *Note: By default the frequency is 0.*"
+
+msgid "``Patient``"
+msgstr "``Patient``"
+
+msgid "Choose one or a combination of the options available, to specify which patient type the medical item may be provided to. *Note: By default all patients’ options are checked (selected).*"
+msgstr "Choose one or a combination of the options available, to specify which patient type the medical item may be provided to. *Note: By default all patients’ options are checked (selected).*"
+
+msgid "**Saving**"
+msgstr "**Saving**"
+
+msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Medical Items Control Page <#medical-items-control-page>`__, with the newly saved record displayed and selected in the Result Panel. A message confirming that the medical item has been saved will appear on the Information Panel."
+msgstr "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Medical Items Control Page <#medical-items-control-page>`__, with the newly saved record displayed and selected in the Result Panel. A message confirming that the medical item has been saved will appear on the Information Panel."
+
+msgid "**Mandatory data**"
+msgstr "**Mandatory data**"
+
+msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk on the right of the corresponding data field)."
+msgstr "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk on the right of the corresponding data field)."
+
+msgid "**Cancel**"
+msgstr "**Cancel**"
+
+msgid "By clicking on the ``Cancel`` button, the user will be re-directed to the `Medical Items Control Page. <#medical-items-control-page>`__"
+msgstr "By clicking on the ``Cancel`` button, the user will be re-directed to the `Medical Items Control Page. <#medical-items-control-page>`__"
+
+msgid "Adding a Medical Item"
+msgstr "Adding a Medical Item"
+
+msgid "Click on the ``Add`` button to re-direct to the `Medical Item Page <#medical-item-page>`__\\ ."
+msgstr "Click on the ``Add`` button to re-direct to the `Medical Item Page <#medical-item-page>`__\\ ."
+
+msgid "When the page opens all entry fields are empty. See the `Medical Item Page <#medical-item-page>`__ for information on the data entry and mandatory fields."
+msgstr "When the page opens all entry fields are empty. See the `Medical Item Page <#medical-item-page>`__ for information on the data entry and mandatory fields."
+
+msgid "Editing a Medical Item"
+msgstr "Editing a Medical Item"
+
+msgid "Click on the ``Edit`` button to re-direct to the `Medical Item Page <#medical-item-page>`__\\ ."
+msgstr "Click on the ``Edit`` button to re-direct to the `Medical Item Page <#medical-item-page>`__\\ ."
+
+msgid "The page will open with the current information loaded into the data entry fields. See the `Medical Item Page <#medical-item-page>`__ for information on the data entry and mandatory fields."
+msgstr "The page will open with the current information loaded into the data entry fields. See the `Medical Item Page <#medical-item-page>`__ for information on the data entry and mandatory fields."
+
+msgid "Deleting a Medical Item"
+msgstr "Deleting a Medical Item"
+
+msgid "Click on the ``Delete`` button to delete the currently selected record"
+msgstr "Click on the ``Delete`` button to delete the currently selected record"
+
+msgid "Before deleting a confirmation popup (:numref:`image35`) is displayed, which requires the user to confirm if the action should really be carried out?"
+msgstr "Before deleting a confirmation popup (:numref:`image35`) is displayed, which requires the user to confirm if the action should really be carried out?"
+
+msgid "`Delete confirmation- Button Panel`"
+msgstr "`Delete confirmation- Button Panel`"
+
+msgid "When the medical item is deleted, all records retaining to the deleted medical item will still be available by selecting historical records."
+msgstr "When the medical item is deleted, all records retaining to the deleted medical item will still be available by selecting historical records."
