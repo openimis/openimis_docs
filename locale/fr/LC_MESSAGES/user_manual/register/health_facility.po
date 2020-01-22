@@ -99,7 +99,7 @@ msgstr "``Numéro de téléphone``"
 
 
 msgid "Type in the beginning of; or the full ``Phone Number`` to search for health facilities with a ``Phone Number``, which starts with or matches completely, the typed number."
-msgstr "Tapez au début de; ou le ``Numéro de téléphone`` complet pour rechercher des établissements de santé avec un `` Numéro de téléphone``, qui commence ou correspond complètement au numéro tapé."
+msgstr "Tapez au début de; ou le ``Numéro de téléphone`` complet pour rechercher des établissements de santé avec un ``Numéro de téléphone``, qui commence ou correspond complètement au numéro tapé."
 
 
 msgid "``Email``"
@@ -181,7 +181,7 @@ msgid "**Button Panel**"
 msgstr "** Panneau de boutons **"
 
 msgid "With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, and the ``Add`` button which re-directs to the health facility page, the button panel (the buttons ``Edit`` and ``Delete)`` is used in conjunction with the current selected record (highlighted with blue). The user should select first a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button."
-msgstr "À l'exception du bouton ``Annuler``, qui redirige vers la :ref:`Page d'accueil <home_page>`, et le bouton ``Ajouter``qui redirige vers la page de l'établissement de santé, le panneau de boutons ( les boutons ``Modifier``et `` Supprimer)`` sont utilisés conjointement avec l'enregistrement actuellement sélectionné (surligné en bleu). L'utilisateur doit d'abord sélectionner un enregistrement en cliquant sur n'importe quelle position de l'enregistrement à l'exception du lien hypertexte le plus à gauche, puis cliquez sur le bouton."
+msgstr "À l'exception du bouton ``Annuler``, qui redirige vers la :ref:`Page d'accueil <home_page>`, et le bouton ``Ajouter`` qui redirige vers la page de l'établissement de santé, le panneau de boutons ( les boutons ``Modifier`` et ``Supprimer)`` sont utilisés conjointement avec l'enregistrement actuellement sélectionné (surligné en bleu). L'utilisateur doit d'abord sélectionner un enregistrement en cliquant sur n'importe quelle position de l'enregistrement à l'exception du lien hypertexte le plus à gauche, puis cliquez sur le bouton."
 
 
 msgid "**Information Panel**"

@@ -118,7 +118,7 @@ msgstr "En cliquant sur le bouton à côté de la `Date` du champ de données d'
 
 
 msgid "When previewing the journal; the ``Policy Status`` filter will be replaced with ``SMS Status`` and there will be one more additional filter, ``Journal On``."
-msgstr "Lors de la prévisualisation du journal; le filtre ``État de la politique`` sera remplacé par ``État SMS`` et il y aura un autre filtre supplémentaire, `` Journal activé``."
+msgstr "Lors de la prévisualisation du journal; le filtre ``État de la politique`` sera remplacé par ``État SMS`` et il y aura un autre filtre supplémentaire, ``Journal activé``."
 
 
 msgid "``SMS Status``"
@@ -214,7 +214,7 @@ msgstr "Le panneau de sélection des critères ou le panneau de filtrage permet 
 
 
 msgid "Select ``SMS Status`` from the list"
-msgstr "Sélectionnez `` SMS Status`` dans la liste"
+msgstr "Sélectionnez ``SMS Status`` dans la liste"
 
 msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select a specific region for feedbacks. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*"
 msgstr "Sélectionnez la `Région`; à partir de la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner une région spécifique pour les retours. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté. Si ce n'est qu'un alors la région sera automatiquement sélectionné.*"

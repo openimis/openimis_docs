@@ -68,7 +68,7 @@ msgstr "``Nom de famille``"
 
 
 msgid "Type in the beginning of; or the full ``Last name``; to search for claim administrator with a ``Last name``, which starts with or matches completely, the typed text."
-msgstr "Tapez au début de; ou le ``Nom de famille`` complet; pour rechercher l'administrateur de Réclamations avec un `` Nom de famille``, qui commence ou correspond complètement au texte tapé."
+msgstr "Tapez au début de; ou le ``Nom de famille`` complet; pour rechercher l'administrateur de Réclamations avec un ``Nom de famille``, qui commence ou correspond complètement au texte tapé."
 
 
 msgid "``Code``"
@@ -84,7 +84,7 @@ msgstr "``Autres noms``"
 
 
 msgid "Type in the beginning of; or the full ``Other Names`` to search for claim administrator with ``Other Names`` which starts with or matches completely, the typed text."
-msgstr "Tapez au début de; ou le nom complet ``Autres noms`` pour rechercher l'administrateur de Réclamations avec `` Autres noms`` qui commence ou correspond complètement au texte tapé."
+msgstr "Tapez au début de; ou le nom complet ``Autres noms`` pour rechercher l'administrateur de Réclamations avec ``Autres noms`` qui commence ou correspond complètement au texte tapé."
 
 
 msgid "``Birth Date From``"
@@ -166,7 +166,7 @@ msgstr "``Numéro de téléphone``"
 
 
 msgid "Type in the beginning of; or the full ``Phone Number`` to search for claim administrators with a ``Phone Number``, which starts with or matches completely, the typed number."
-msgstr "Tapez au début de; ou le ``Numéro de téléphone`` complet pour rechercher les administrateurs de réclamations avec un `` Numéro de téléphone``, qui commence ou correspond complètement au numéro tapé."
+msgstr "Tapez au début de; ou le ``Numéro de téléphone`` complet pour rechercher les administrateurs de réclamations avec un ``Numéro de téléphone``, qui commence ou correspond complètement au numéro tapé."
 
 
 msgid "``Email``"

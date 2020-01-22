@@ -139,11 +139,11 @@ msgid "The ``Edit`` button will `edit a role/profile <#editing-a-user-role-profi
 msgstr "Le bouton ``Éditer`` éditera un rôle / profil <#editing-a-user-role-profile>`__. non disponible si ``Historique`` était coché)"
 
 msgid "The ``Duplicate`` bbutton will `duplicate a role/profile <#duplicating-a-user-role-profile>`__ (not available if ``Historical`` was checked)"
-msgstr "Le bouton `` Dupliquer`` va `dupliquer un rôle / profil <#duplicating-a-user-role-profile>`__ (non disponible si ``Historique`` a été coché)"
+msgstr "Le bouton ``Dupliquer`` va `dupliquer un rôle / profil <#duplicating-a-user-role-profile>`__ (non disponible si ``Historique`` a été coché)"
 
 
 msgid "The ``Delete`` button will `deleting a role/profile <#addeleting-a-user-role-profile>`__ (not available if ``Historical`` was checked)"
-msgstr "Le bouton ``Supprimer``supprimera un rôle / profil <#addeleting-a-user-role-profile>`__ (non disponible si ``Historique`` a été coché)"
+msgstr "Le bouton ``Supprimer`` supprimera un rôle / profil <#addeleting-a-user-role-profile>`__ (non disponible si ``Historique`` a été coché)"
 
 
 msgid "The ``Cancel`` button re-directs to the :ref:`Home Page <home_page>`."

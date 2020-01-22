@@ -67,7 +67,7 @@ msgstr "``Nom de famille``"
 
 
 msgid "Type in the beginning of; or the full ``Last name``; to search for officers with a ``Last name``, that starts with or matches completely, the typed text."
-msgstr "Tapez au début de; ou le ``Nom de famille`` complet; pour rechercher des officiers avec un `` Nom de famille``, qui commence par ou correspond complètement au texte tapé."
+msgstr "Tapez au début de; ou le ``Nom de famille`` complet; pour rechercher des officiers avec un ``Nom de famille``, qui commence par ou correspond complètement au texte tapé."
 
 
 msgid "``Code``"
@@ -83,7 +83,7 @@ msgstr "``Autres noms``"
 
 
 msgid "Type in the beginning of; or the full ``Other Names`` to search for officers with ``other names``, that starts with or matches completely, the typed text."
-msgstr "Tapez au début de; ou le ``Autres noms`` complet pour rechercher des officiers avec `` d'autres noms``, qui commence ou correspond complètement au texte tapé."
+msgstr "Tapez au début de; ou le ``Autres noms`` complet pour rechercher des officiers avec ``d'autres noms``, qui commence ou correspond complètement au texte tapé."
 
 
 msgid "``Birth Date From``"
@@ -229,7 +229,7 @@ msgstr "** Panneau de boutons **"
 
 
 msgid "With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete`` is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button."
-msgstr "À l'exception du bouton ``Annuler``, qui redirige vers :ref:`Page d'accueil <home_page>`, le panneau de boutons (les boutons ``Modifier``et ``Supprimer``est utilisé en conjonction avec l'enregistrement actuellement sélectionné (surligné en bleu). L'utilisateur doit d'abord sélectionner un enregistrement en cliquant sur n'importe quelle position de l'enregistrement à l'exception du lien hypertexte le plus à gauche, puis sur le bouton."
+msgstr "À l'exception du bouton ``Annuler``, qui redirige vers :ref:`Page d'accueil <home_page>`, le panneau de boutons (les boutons ``Modifier`` et ``Supprimer`` est utilisé en conjonction avec l'enregistrement actuellement sélectionné (surligné en bleu). L'utilisateur doit d'abord sélectionner un enregistrement en cliquant sur n'importe quelle position de l'enregistrement à l'exception du lien hypertexte le plus à gauche, puis sur le bouton."
 
 
 msgid "**Information Panel**"

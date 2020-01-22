@@ -75,7 +75,7 @@ msgstr "``Autres noms``"
 
 
 msgid "Type in the beginning of; or the full ``Other Names`` to search for families/groups, who’s family head/group head ``Other Names`` starts with or matches completely, the typed text."
-msgstr "Tapez au début de; ou le nom complet ``Autres noms`` pour rechercher des familles / groupes, qui est le chef de famille / chef de groupe `` Autres noms`` commence ou correspond complètement au texte tapé."
+msgstr "Tapez au début de; ou le nom complet ``Autres noms`` pour rechercher des familles / groupes, qui est le chef de famille / chef de groupe ``Autres noms`` commence ou correspond complètement au texte tapé."
 
 
 msgid "``Insurance Number``"
@@ -83,7 +83,7 @@ msgstr "``Numéro d'assurance``"
 
 
 msgid "Type in the beginning of; or the full ``Insurance Number`` to search for families/groups, who’s family head/group head ``Insurance Number``, starts with or matches completely, the typed text."
-msgstr "Tapez au début de; ou le ``Numéro d'assurance`` complet pour rechercher des familles / groupes, qui est le chef de famille / chef de groupe `` Numéro d'assurance``, commence ou correspond complètement au texte tapé."
+msgstr "Tapez au début de; ou le ``Numéro d'assurance`` complet pour rechercher des familles / groupes, qui est le chef de famille / chef de groupe ``Numéro d'assurance``, commence ou correspond complètement au texte tapé."
 
 
 msgid "``Phone Number``"
@@ -91,7 +91,7 @@ msgstr "``Numéro de téléphone``"
 
 
 msgid "Type in the beginning of; or the full ``Phone Number`` to search for families/groups, who’s family head/group head ``Phone Number``, starts with or matches completely, the typed number."
-msgstr "Tapez au début de; ou le ``Numéro de téléphone`` complet pour rechercher des familles / groupes, qui est le chef de famille / chef de groupe `` Numéro de téléphone``, commence par ou correspond complètement au numéro tapé."
+msgstr "Tapez au début de; ou le ``Numéro de téléphone`` complet pour rechercher des familles / groupes, qui est le chef de famille / chef de groupe ``Numéro de téléphone``, commence par ou correspond complètement au numéro tapé."
 
 
 msgid "``Birth Date From``"
@@ -106,7 +106,7 @@ msgstr "``Date de naissance à``"
 
 
 msgid "Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for families/groups, who’s family head/group head, has the same or earlier birth date than ``Birth Date To``. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
-msgstr "Tapez une date; ou utilisez le bouton de sélection de la date pour entrer la ``date de naissance à`` pour rechercher des familles / groupes dont le chef de famille / chef de groupe a la même date de naissance ou une date antérieure à la `` date de naissance à``. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace.*"
+msgstr "Tapez une date; ou utilisez le bouton de sélection de la date pour entrer la ``date de naissance à`` pour rechercher des familles / groupes dont le chef de famille / chef de groupe a la même date de naissance ou une date antérieure à la ``date de naissance à``. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace.*"
 
 
 msgid "``Date Selector Button``"
@@ -190,7 +190,7 @@ msgstr "``Type de confirmation``"
 
 
 msgid "Type in the beginning of; or the full ``Confirmation Type`` to search for families/groups, who’s ``Confirmation Type``. starts with or matches completely the typed text."
-msgstr "Tapez au début de; ou le ``Type de confirmation`` complet pour rechercher des familles / groupes, qui est le `` Type de confirmation``. commence par ou correspond complètement au texte tapé."
+msgstr "Tapez au début de; ou le ``Type de confirmation`` complet pour rechercher des familles / groupes, qui est le ``Type de confirmation``. commence par ou correspond complètement au texte tapé."
 
 
 msgid "``Confirmation No.``"
@@ -198,7 +198,7 @@ msgstr "``Numéro de confirmation``"
 
 
 msgid "Type in the beginning of; or the full ``Confirmation No.`` to search for families/groups, who’s ``Confirmation No.`` starts with or matches completely the typed text."
-msgstr "Tapez au début de; ou le ``numéro de confirmation`` complet pour rechercher des familles / groupes, qui est le `` numéro de confirmation`` commence par ou correspond complètement au texte tapé."
+msgstr "Tapez au début de; ou le ``numéro de confirmation`` complet pour rechercher des familles / groupes, qui est le ``numéro de confirmation`` commence par ou correspond complètement au texte tapé."
 
 
 msgid "``Region``"
@@ -697,7 +697,7 @@ msgstr "Ajout d'une famille"
 
 
 msgid "Click on the ``Green Plus Sign`` to re-direct to the `Family/Group Page <#familygroup-page>`__.\`
-msgstr "Cliquez sur le `` Green Plus Sign`` pour rediriger vers la `Family / Group Page <#familygroup-page>`__. \`
+msgstr "Cliquez sur le ``Green Plus Sign`` pour rediriger vers la `Family / Group Page <#familygroup-page>`__. \`
 
 
 msgid "When the page opens all entry fields are empty. See the `Family/Group Page <#familygroup-page>`__ for information on the data entry and mandatory fields."

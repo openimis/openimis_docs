@@ -30,14 +30,14 @@ msgstr "La navigation"
 
 
 msgid "All functionality for use with the administration of price lists medical services can be found under the main menu ``Administration``, sub menu ``Price Lists`` and sub menu ``Medical Services``"
-msgstr "Toutes les fonctionnalités destinées à l'administration des listes de prix des services médicaux se trouvent dans le menu principal ``Administration``, sous-menu ``Listes de prix`` et sous-menu `` Services médicaux``"
+msgstr "Toutes les fonctionnalités destinées à l'administration des listes de prix des services médicaux se trouvent dans le menu principal ``Administration``, sous-menu ``Listes de prix`` et sous-menu ``Services médicaux``"
 
 
 msgid "`Navigation Medical Services Price Lists`"
 msgstr "`Listes de prix des services médicaux de navigation`"
 
 msgid "Clicking on the sub menu ``Medical Services`` re-directs the current user to the `Price List Medical Services Control Panel. <#price-list-medical-services-control-page>`__"
-msgstr "Un clic sur le sous-menu ``Services médicaux`` redirige l'utilisateur actuel vers le `` Tableau de contrôle des services médicaux de la liste de prix``. <#price-list-medical-services-control-page>`__"
+msgstr "Un clic sur le sous-menu ``Services médicaux`` redirige l'utilisateur actuel vers le ``Tableau de contrôle des services médicaux de la liste de prix``. <#price-list-medical-services-control-page>`__"
 
 
 msgid "`Price List Medical Service Control Panel`"
@@ -178,7 +178,7 @@ msgid "**Button Panel**"
 msgstr "** Panneau de boutons **"
 
 msgid "With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the Button Panel (the buttons ``Edit`` and ``Duplicate`` ) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button."
-msgstr "À l'exception du bouton ``Annuler``, qui redirige vers :ref:`Page d'accueil <home_page>`, le panneau de boutons (les boutons ``Modifier``et ``Dupliquer``) est utilisé conjointement avec l'enregistrement en cours sélectionné (en bleu). L'utilisateur doit d'abord sélectionner un enregistrement en cliquant sur n'importe quelle position de l'enregistrement à l'exception du lien hypertexte le plus à gauche, puis cliquez sur le bouton."
+msgstr "À l'exception du bouton ``Annuler``, qui redirige vers :ref:`Page d'accueil <home_page>`, le panneau de boutons (les boutons ``Modifier`` et ``Dupliquer``) est utilisé conjointement avec l'enregistrement en cours sélectionné (en bleu). L'utilisateur doit d'abord sélectionner un enregistrement en cliquant sur n'importe quelle position de l'enregistrement à l'exception du lien hypertexte le plus à gauche, puis cliquez sur le bouton."
 
 
 msgid "**Information Panel**"
@@ -271,7 +271,7 @@ msgstr "Duplication d'une liste de prix des services médicaux"
 
 
 msgid "Click on the ``Duplicate`` button to re-direct to the `Price List Medical Services Page <#price-list-medical-services-page>`__\\."
-msgstr "Cliquez sur le bouton `` Dupliquer`` pour rediriger vers la `page des <#price-list-medical-services-page> services médicaux <#price-list-medical-services-page>`__ \\."
+msgstr "Cliquez sur le bouton ``Dupliquer`` pour rediriger vers la `page des <#price-list-medical-services-page> services médicaux <#price-list-medical-services-page>`__ \\."
 
 msgid "The page will open with all the current information for the selected pricelist, (except for the pricelist name which should be unique), loaded into the data entry fields. See the `Price List Medical Services Page <#price-list-medical-services-page>`__ for information on the data entry and mandatory fields. To save the record, enter a unique code before clicking on save."
 msgstr "La page s'ouvrira avec toutes les informations actuelles pour la liste de prix sélectionnée, (à l'exception du nom de liste de prix qui devrait être unique), chargé dans les champs de saisie de données. Consultez la page ``Liste des prix des services médicaux <#price-list-medical-services-page>`` __ pour obtenir des informations sur la saisie des données et les champs obligatoires. Pour sauvegarder l'enregistrement, entrez un code unique avant de cliquer sur enregistrer."

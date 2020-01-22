@@ -43,7 +43,7 @@ msgstr "Page de contrôle des produits"
 
 
 msgid "Clicking on the sub menu ``Products`` re-directs the current user to the ``Product Control Page``."
-msgstr "Un clic sur le sous-menu ``Produits``redirige l'utilisateur actuel vers la `` Page de contrôle des produits``."
+msgstr "Un clic sur le sous-menu ``Produits`` redirige l'utilisateur actuel vers la ``Page de contrôle des produits``."
 
 
 msgid "`Product Control Page`"
@@ -66,7 +66,7 @@ msgstr "``Code produit``"
 
 
 msgid "Type in the beginning of; or the full ``Product Code``; to search for products with a ``Product Code``, which starts with or matches completely, the typed text."
-msgstr "Tapez au début de; ou le ``Code produit`` complet; pour rechercher des produits avec un `` Code produit``, qui commence ou correspond complètement au texte tapé."
+msgstr "Tapez au début de; ou le ``Code produit`` complet; pour rechercher des produits avec un ``Code produit``, qui commence ou correspond complètement au texte tapé."
 
 
 msgid "``Product Name``"
@@ -74,7 +74,7 @@ msgstr "``Nom du produit``"
 
 
 msgid "Type in the beginning of; or the full ``Product Name`` to search for products with a ``Product Name``, which starts with or matches completely, the typed text."
-msgstr "Tapez au début de; ou le ``Nom du produit`` complet pour rechercher des produits avec un `` Nom du produit``, qui commence ou correspond complètement au texte tapé."
+msgstr "Tapez au début de; ou le ``Nom du produit`` complet pour rechercher des produits avec un ``Nom du produit``, qui commence ou correspond complètement au texte tapé."
 
 
 msgid "``Date From``"
@@ -737,7 +737,7 @@ msgstr "``Plafond``"
 
 
 msgid "Maximal amount of coverage can be specified for claims according to the category of a claim. The options are claims of the category ``Consultations``, ``Surgery``, ``Delivery``, ``Antenatal care``, Hospitalizations, and ``Visits``. The category of claim is determined according to the procedure described with ``Number``."
-msgstr "Le montant maximal de couverture peut être spécifié pour les réclamations en fonction de la catégorie d'une réclamation. Les options sont des réclamations de la catégorie ``Consultations``, ``Chirurgie``, ``Accouchement``, ``Soins prénatals``, Hospitalisations et ``Visites``. La catégorie de réclamation est déterminée selon la procédure décrite avec `` Numéro``."
+msgstr "Le montant maximal de couverture peut être spécifié pour les réclamations en fonction de la catégorie d'une réclamation. Les options sont des réclamations de la catégorie ``Consultations``, ``Chirurgie``, ``Accouchement``, ``Soins prénatals``, Hospitalisations et ``Visites``. La catégorie de réclamation est déterminée selon la procédure décrite avec ``Numéro``."
 
 msgid "`Note. It is possible to specify only one of the following ceilings –per Treatment, per Insuree or per Policy. If ceilings per category of claims are specified together with ceilings per Treatment, per Insuree or per Policy than evaluation of claims may be dependent under special circumstances on the order of claimed medical services/items in a claim.`"
 msgstr "`Remarque. Il est possible de spécifier qu'une seule des plafonds suivants –par Traitement, par preneur d'assurance ou par la Politique. Si des plafonds par catégorie de réclamations sont indiqués avec des plafonds par Traitement, par preneur d'assurance ou par la Politique de l'évaluation des allégations peuvent être dépendante de circonstances particulières, sur l'ordre de réclamation pour des services médicaux ou des éléments dans une revendication.`"
@@ -1027,7 +1027,7 @@ msgstr "Duplication d'un produit"
 
 
 msgid "Click on the ``Duplicate`` button to re-direct to the `Product Page <#claim-administrators-administration>`__\\ ."
-msgstr "Cliquez sur le bouton `` Dupliquer`` pour rediriger vers la `Page Produit <#claim-administrators-administration>`__ \\."
+msgstr "Cliquez sur le bouton ``Dupliquer`` pour rediriger vers la `Page Produit <#claim-administrators-administration>`__ \\."
 
 msgid "The page will open with all the current information for the selected product, (except for the product code which should be unique), loaded into the data entry fields. See the `Product Page <#claim-administrators-administration>`__ for information on the data entry and mandatory fields. To save the record, enter a unique code before clicking on ``Save``."
 msgstr "La page s'ouvrira avec toutes les informations actuelles pour le produit sélectionné, (à l'exception du code produit qui doit être unique), chargé dans les champs de saisie de données. Reportez-vous à la page produit <#claim-administrators-administration>`__ pour plus d'informations sur la saisie des données et les champs obligatoires. Pour sauvegarder l'enregistrement, entrez un code unique avant de cliquer sur ``Enregistrer``."

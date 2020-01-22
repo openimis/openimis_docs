@@ -33,7 +33,7 @@ msgstr "La navigation"
 
 
 msgid "All functionality for use with the administration of utilities can be found under the main menu ``Tools``, sub menu ``Utilities``"
-msgstr "Toutes les fonctionnalités à utiliser avec l'administration des utilitaires se trouvent dans le menu principal ``Outils``, sous-menu `` Utilitaires ''"
+msgstr "Toutes les fonctionnalités à utiliser avec l'administration des utilitaires se trouvent dans le menu principal ``Outils``, sous-menu ``Utilitaires``"
 
 
 
@@ -56,7 +56,7 @@ msgstr "Sauvegarde"
 
 
 msgid "Backup utility can be found in the top panel of the `Utilities Page <#Utilities>`_. By default the path of the backup folder will be populated from the default table. User can change the path according to the requirement. Next to the textbox user can see one heck box called ``Save Path``. If user wants to update the backup folder in default table then this check box should be in checked state. Otherwise system will take the backup on the folder assigned by the user but it will not be updated in database. So next time when user comes on the `Utilities Page <#Utilities>`_, the textbox will be populated with the original path. After the path has been entered user can just click on the ``Backup button`` to start the process and a progress bar will be appeared on the screen. Users are requested to be patient while the system performs the task."
-msgstr "L'utilitaire de sauvegarde se trouve dans le panneau supérieur de la `Page Utilitaires <#Utilities> ` _. Par défaut, le chemin du dossier de sauvegarde sera rempli à partir de la table par défaut. L'utilisateur peut modifier le chemin en fonction de l'exigence. À côté de la zone de texte, l'utilisateur peut voir une case à cocher appelée `` Enregistrer le chemin ''. Si l'utilisateur souhaite mettre à jour le dossier de sauvegarde dans le tableau par défaut, cette case à cocher doit être cochée. Sinon, le système prendra la sauvegarde sur le dossier attribué par l'utilisateur mais elle ne sera pas mise à jour dans la base de données. Ainsi, la prochaine fois que l'utilisateur viendra sur la `Page Utilitaires <#Utilities> ` _, la zone de texte sera remplie avec le chemin d'origine. Une fois le chemin d'accès entré, l'utilisateur peut simplement cliquer sur le ``bouton de sauvegarde`` pour démarrer le processus et une barre de progression apparaîtra à l'écran. Les utilisateurs sont priés d'être patients pendant que le système exécute la tâche."
+msgstr "L'utilitaire de sauvegarde se trouve dans le panneau supérieur de la `Page Utilitaires <#Utilities> ` _. Par défaut, le chemin du dossier de sauvegarde sera rempli à partir de la table par défaut. L'utilisateur peut modifier le chemin en fonction de l'exigence. À côté de la zone de texte, l'utilisateur peut voir une case à cocher appelée ``Enregistrer le chemin``. Si l'utilisateur souhaite mettre à jour le dossier de sauvegarde dans le tableau par défaut, cette case à cocher doit être cochée. Sinon, le système prendra la sauvegarde sur le dossier attribué par l'utilisateur mais elle ne sera pas mise à jour dans la base de données. Ainsi, la prochaine fois que l'utilisateur viendra sur la `Page Utilitaires <#Utilities> ` _, la zone de texte sera remplie avec le chemin d'origine. Une fois le chemin d'accès entré, l'utilisateur peut simplement cliquer sur le ``bouton de sauvegarde`` pour démarrer le processus et une barre de progression apparaîtra à l'écran. Les utilisateurs sont priés d'être patients pendant que le système exécute la tâche."
 
 
 

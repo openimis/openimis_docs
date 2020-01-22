@@ -55,7 +55,7 @@ msgid "`Image - 108 Find Contribution Page`"
 msgstr "`Image - 108 Rechercher la page de contribution`"
 
 msgid "The ``Find Contribution Page`` is the first step in the process of finding a contribution and thereafter accessing the `Family Overview Page <#family-overview>`__ of insures, policies and contributions. This initial page can be used to search for specific contributions or groups of contributions based on specific criteria. The page is divided into four panels (:numref:`image108`)."
-msgstr "La ``page de recherche de cotisation`` est la première étape du processus de recherche d'une cotisation, puis l'accès à la `` page de présentation de la famille <#family-overview> `` des assurances, des polices et des cotisations. Cette page initiale peut être utilisée pour rechercher des contributions spécifiques ou des groupes de contributions en fonction de critères spécifiques. La page est divisée en quatre panneaux (:numref:`image108`)."
+msgstr "La ``page de recherche de cotisation`` est la première étape du processus de recherche d'une cotisation, puis l'accès à la `page de présentation de la famille <#family-overview>`__ des assurances, des polices et des cotisations. Cette page initiale peut être utilisée pour rechercher des contributions spécifiques ou des groupes de contributions en fonction de critères spécifiques. La page est divisée en quatre panneaux (:numref:`image108`)."
 
 
 msgid "**Search Panel**"
@@ -87,7 +87,7 @@ msgstr "``Date de paiement du``"
 
 
 msgid "Type in a date; or use the Date Selector Button, to enter the ``Payment Date From`` to search for contributions with a ``Payment Date`` equal or later than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
-msgstr "Tapez une date; ou utilisez le bouton de sélection de date pour saisir la ``date de paiement du`` pour rechercher des contributions avec une `` date de paiement`` égale ou ultérieure à la date spécifiée. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace.*"
+msgstr "Tapez une date; ou utilisez le bouton de sélection de date pour saisir la ``date de paiement du`` pour rechercher des contributions avec une ``date de paiement`` égale ou ultérieure à la date spécifiée. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace.*"
 
 
 msgid "``Payment Date To``"
@@ -95,7 +95,7 @@ msgstr "``Date de paiement à``"
 
 
 msgid "Type in a date; or use the Date Selector Button, to enter the ``Payment Date To`` to search for contributions with a ``Payment Date`` equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
-msgstr "Tapez une date; ou utilisez le bouton de sélection de date pour saisir la ``date de paiement jusqu'à`` pour rechercher des contributions avec une `` date de paiement`` égale ou antérieure à la date spécifiée. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace.*"
+msgstr "Tapez une date; ou utilisez le bouton de sélection de date pour saisir la ``date de paiement jusqu'à`` pour rechercher des contributions avec une`` date de paiement`` égale ou antérieure à la date spécifiée. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace.*"
 
 
 msgid "``Date Selector Button``"
@@ -345,7 +345,7 @@ msgstr "Ajout d'une contribution"
 
 
 msgid "Click on the ``Green Plus Sign`` to re-direct to the `Contribution Page. <#contribution-page>`__"
-msgstr "Cliquez sur le `` Green Plus Sign`` pour rediriger vers la `Contribution Page. <#contribution-page>`__"
+msgstr "Cliquez sur le ``Green Plus Sign`` pour rediriger vers la `Contribution Page. <#contribution-page>`__"
 
 
 msgid "When the page opens all entry fields are empty. See the `Contribution Page <#contribution-page>`__ for information on the data entry and mandatory fields."

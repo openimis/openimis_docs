@@ -1,780 +1,701 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2019, openIMIS team
-# This file is distributed under the same license as the openIMIS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
-
 msgid ""
 msgstr "" 
-"Project-Id-Version: openIMIS \n" 
-"Report-Msgid-Bugs-To: \n" 
-"POT-Creation-Date: 2020-01-09 08:50+0100\n" 
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n" 
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n" 
-"Language-Team: LANGUAGE <LL@li.org>\n" 
 "MIME-Version: 1.0\n" 
-"Content-Type: text/plain; charset=utf-8\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
 "Content-Transfer-Encoding: 8bit\n" 
-"Generated-By: Babel 2.6.0\n"
+"X-Generator: lokalise.com\n" 
+"Project-Id-Version: openIMIS docs\n" 
+"PO-Revision-Date: 2020-01-09 10:45\n" 
+"Last-Translator: lokalise.com\n" 
+"Language-Team: lokalise.com\n\n" 
+"Language: fr\n"
 
-#: ../../ar_manual/facts.rst:2
+
 msgid "Facts"
-msgstr ""
+msgstr "Les faits"
 
-#: ../../ar_manual/facts.rst:4
 msgid "Facts provided by AR-IMIS can be structured into the areas according to (:numref:`image273`). Within each area several facts packed into one or several cubes are provided. Facts are packed into the same cube if they have an associated meaning and are provided with the same set of dimension. The following articles lists available cubes according to the areas, for each cube indicates available facts with description of their meaning"
-msgstr ""
+msgstr "Des faits fournis par l'AR-IMIS peut être structurée dans les domaines suivant (:numref:`image273`). Au sein de chaque zone de plusieurs faits emballé dans un ou plusieurs cubes sont fournis. Les faits sont emballés dans le même cube s'ils sont associés à un sens et sont fournis avec le même ensemble de dimension. Les articles suivants de la listes des cubes selon les zones, pour chaque cube indique les faits avec la description de leur signification"
 
-#: ../../ar_manual/facts.rst:10
+
 msgid "`Areas of facts`"
-msgstr ""
+msgstr "`Domaines de faits`"
 
-#: ../../ar_manual/facts.rst:12
 msgid "underlying set of qualifying dimensions. If meaning of a dimension is not straightforward, its description is provided. It relates especially to the *Time* dimension where it is important which datum related with a fact is taken as the governing date for association with given point (period) in the *Time* dimension."
-msgstr ""
+msgstr "ensemble sous-jacent de qualification dimensions. Si le sens d'une dimension n'est pas simple, sa description est fournie. Elle se rapporte en particulier à la *Fois* dimension où il est important de savoir quelle donnée relative à un fait est considéré comme le conseil de date pour l'association avec point donné (période) dans le *Temps* dimension."
 
-#: ../../ar_manual/facts.rst:15
+
 msgid "Facts on Enrolment and policies"
-msgstr ""
+msgstr "Faits sur l'inscription et les politiques"
 
-#: ../../ar_manual/facts.rst:17
+
 msgid "This group of facts relates to acquisition of insures and development of coverage by health insurance schemes. Facts available are listed in :numref:`facts_enrolment_policies`"
-msgstr ""
+msgstr "Ce groupe de faits concerne l'acquisition des assurés et le développement de la couverture par les régimes d'assurance maladie. Les données disponibles sont répertoriées dans :numref:`facts_enrolment_policies`"
 
-#: ../../ar_manual/facts.rst:19
+
 msgid "`Facts on Enrolment and policies`"
-msgstr ""
+msgstr "`Faits sur l'inscription et les politiques`"
 
-#: ../../ar_manual/facts.rst:26 ../../ar_manual/facts.rst:195
-#: ../../ar_manual/facts.rst:250 ../../ar_manual/facts.rst:348
-#: ../../ar_manual/facts.rst:590 ../../ar_manual/facts.rst:818
+
 msgid "**Cube**"
-msgstr ""
+msgstr "**Cube**"
 
-#: ../../ar_manual/facts.rst:27 ../../ar_manual/facts.rst:196
-#: ../../ar_manual/facts.rst:251 ../../ar_manual/facts.rst:349
-#: ../../ar_manual/facts.rst:591 ../../ar_manual/facts.rst:819
+
 msgid "**Fact**"
-msgstr ""
+msgstr "**Fait**"
 
-#: ../../ar_manual/facts.rst:28 ../../ar_manual/facts.rst:197
-#: ../../ar_manual/facts.rst:252 ../../ar_manual/facts.rst:350
-#: ../../ar_manual/facts.rst:592 ../../ar_manual/facts.rst:820
+
 msgid "**Meaning**"
-msgstr ""
+msgstr "**Sens**"
 
-#: ../../ar_manual/facts.rst:29 ../../ar_manual/facts.rst:198
-#: ../../ar_manual/facts.rst:253 ../../ar_manual/facts.rst:351
-#: ../../ar_manual/facts.rst:593 ../../ar_manual/facts.rst:821
+
 msgid "**Dimension**"
-msgstr ""
+msgstr "**Dimension**"
 
-#: ../../ar_manual/facts.rst:30 ../../ar_manual/facts.rst:199
-#: ../../ar_manual/facts.rst:254 ../../ar_manual/facts.rst:352
-#: ../../ar_manual/facts.rst:594 ../../ar_manual/facts.rst:822
+
 msgid "**Comment**"
-msgstr ""
+msgstr "**Commentaire**"
 
-#: ../../ar_manual/facts.rst:32 ../../ar_manual/facts.rst:33
+
 msgid "Population"
-msgstr ""
+msgstr "Population"
 
-#: ../../ar_manual/facts.rst:34
+
 msgid "Number of inhabitants"
-msgstr ""
+msgstr "Nombre d'habitants"
 
-#: ../../ar_manual/facts.rst:35 ../../ar_manual/facts.rst:71
-#: ../../ar_manual/facts.rst:107 ../../ar_manual/facts.rst:137
-#: ../../ar_manual/facts.rst:363 ../../ar_manual/facts.rst:406
-#: ../../ar_manual/facts.rst:461 ../../ar_manual/facts.rst:515
-#: ../../ar_manual/facts.rst:551 ../../ar_manual/facts.rst:605
-#: ../../ar_manual/facts.rst:659 ../../ar_manual/facts.rst:713
-#: ../../ar_manual/facts.rst:749 ../../ar_manual/facts.rst:785
+
 msgid "Gender"
-msgstr ""
+msgstr "Le sexe"
 
-#: ../../ar_manual/facts.rst:41 ../../ar_manual/facts.rst:53
-#: ../../ar_manual/facts.rst:83 ../../ar_manual/facts.rst:119
-#: ../../ar_manual/facts.rst:143 ../../ar_manual/facts.rst:161
-#: ../../ar_manual/facts.rst:173
+
 msgid "Region"
-msgstr ""
+msgstr "Région"
 
-#: ../../ar_manual/facts.rst:47 ../../ar_manual/facts.rst:59
-#: ../../ar_manual/facts.rst:95 ../../ar_manual/facts.rst:131
-#: ../../ar_manual/facts.rst:155 ../../ar_manual/facts.rst:167
-#: ../../ar_manual/facts.rst:179 ../../ar_manual/facts.rst:222
-#: ../../ar_manual/facts.rst:234 ../../ar_manual/facts.rst:265
-#: ../../ar_manual/facts.rst:313 ../../ar_manual/facts.rst:393
-#: ../../ar_manual/facts.rst:448 ../../ar_manual/facts.rst:503
-#: ../../ar_manual/facts.rst:539 ../../ar_manual/facts.rst:575
-#: ../../ar_manual/facts.rst:647 ../../ar_manual/facts.rst:701
-#: ../../ar_manual/facts.rst:737 ../../ar_manual/facts.rst:773
-#: ../../ar_manual/facts.rst:803 ../../ar_manual/facts.rst:839
-#: ../../ar_manual/facts.rst:875
+
 msgid "Time"
-msgstr ""
+msgstr "Temps"
 
-#: ../../ar_manual/facts.rst:50 ../../ar_manual/facts.rst:51
+
 msgid "Number of families / groups"
-msgstr ""
+msgstr "Nombre de familles / groupes"
 
-#: ../../ar_manual/facts.rst:52
+
 msgid "Number of households according to a census"
-msgstr ""
+msgstr "Nombre de ménages selon un recensement"
 
-#: ../../ar_manual/facts.rst:62
+
 msgid "Current and new insurees"
-msgstr ""
+msgstr "Assurés actuels et nouveaux"
 
-#: ../../ar_manual/facts.rst:63
+
 msgid "Current insurees"
-msgstr ""
+msgstr "Assurés actuels"
 
-#: ../../ar_manual/facts.rst:64
+
 msgid "Insurees covered by at least one policy active at the end of a time period"
-msgstr ""
+msgstr "Assurés couverts par au moins une police active à la fin d'une période"
 
-#: ../../ar_manual/facts.rst:65 ../../ar_manual/facts.rst:101
-#: ../../ar_manual/facts.rst:357 ../../ar_manual/facts.rst:400
-#: ../../ar_manual/facts.rst:455 ../../ar_manual/facts.rst:509
-#: ../../ar_manual/facts.rst:545 ../../ar_manual/facts.rst:599
-#: ../../ar_manual/facts.rst:653 ../../ar_manual/facts.rst:707
-#: ../../ar_manual/facts.rst:743 ../../ar_manual/facts.rst:779
+
 msgid "Age"
-msgstr ""
+msgstr "Âge"
 
-#: ../../ar_manual/facts.rst:66
+
 msgid "Age at the end of a time period"
-msgstr ""
+msgstr "Âge à la fin d'une période"
 
-#: ../../ar_manual/facts.rst:77 ../../ar_manual/facts.rst:113
-#: ../../ar_manual/facts.rst:204
+
 msgid "Enrolment Officers"
-msgstr ""
+msgstr "Agents d'inscription"
 
-#: ../../ar_manual/facts.rst:78 ../../ar_manual/facts.rst:114
+
 msgid "An enrolment officer responsible for corresponding policy"
-msgstr ""
+msgstr "Un agent d'inscription responsable de la politique correspondante"
 
-#: ../../ar_manual/facts.rst:81
+
 msgid "New acquired insurees"
-msgstr ""
+msgstr "Nouveaux assurés acquis"
 
-#: ../../ar_manual/facts.rst:82
+
 msgid "Insurees newly insured during a time period"
-msgstr ""
+msgstr "Assurés nouvellement assurés pendant une période de temps"
 
-#: ../../ar_manual/facts.rst:84 ../../ar_manual/facts.rst:120
-#: ../../ar_manual/facts.rst:144 ../../ar_manual/facts.rst:162
-#: ../../ar_manual/facts.rst:174
+
 msgid "Place of living of a household"
-msgstr ""
+msgstr "Lieu de vie d'un ménage"
 
-#: ../../ar_manual/facts.rst:89 ../../ar_manual/facts.rst:125
-#: ../../ar_manual/facts.rst:149 ../../ar_manual/facts.rst:216
-#: ../../ar_manual/facts.rst:228 ../../ar_manual/facts.rst:307
-#: ../../ar_manual/facts.rst:381 ../../ar_manual/facts.rst:430
-#: ../../ar_manual/facts.rst:485 ../../ar_manual/facts.rst:527
-#: ../../ar_manual/facts.rst:563 ../../ar_manual/facts.rst:629
-#: ../../ar_manual/facts.rst:683 ../../ar_manual/facts.rst:725
-#: ../../ar_manual/facts.rst:761 ../../ar_manual/facts.rst:797
-#: ../../ar_manual/facts.rst:827 ../../ar_manual/facts.rst:857
+
 msgid "Products"
-msgstr ""
+msgstr "Des produits"
 
-#: ../../ar_manual/facts.rst:90 ../../ar_manual/facts.rst:150
+
 msgid "An insurance product covering an insuree"
-msgstr ""
+msgstr "Un produit d'assurance couvrant un assuré"
 
-#: ../../ar_manual/facts.rst:96
+
 msgid "Period of enrolment of insurees for new insurees Period of effective day and later of their policies for current insurees"
-msgstr ""
+msgstr "Période d'inscription des assurés pour les nouveaux assurés Période du jour de prise d'effet et plus tard de leurs polices pour les assurés actuels"
 
-#: ../../ar_manual/facts.rst:98
+
 msgid "All types of policies"
-msgstr ""
+msgstr "Tous les types de politiques"
 
-#: ../../ar_manual/facts.rst:99
+
 msgid "Current policies"
-msgstr ""
+msgstr "Politiques actuelles"
 
-#: ../../ar_manual/facts.rst:100
+
 msgid "Number of active policies at the end of a time period"
-msgstr ""
+msgstr "Nombre de politiques actives à la fin d'une période"
 
-#: ../../ar_manual/facts.rst:102
+
 msgid "Age of the head of a household at the end of a time period"
-msgstr ""
+msgstr "Âge du chef de ménage à la fin d'une période"
 
-#: ../../ar_manual/facts.rst:105
+
 msgid "Expired policies"
-msgstr ""
+msgstr "Politiques expirées"
 
-#: ../../ar_manual/facts.rst:106
+
 msgid "Number of policies that expired during a time period"
-msgstr ""
+msgstr "Nombre de stratégies ayant expiré au cours d'une période"
 
-#: ../../ar_manual/facts.rst:108
+
 msgid "Gender of the head of a household"
-msgstr ""
+msgstr "Sexe du chef de ménage"
 
-#: ../../ar_manual/facts.rst:111
+
 msgid "Renewed policies"
-msgstr ""
+msgstr "Politiques renouvelées"
 
-#: ../../ar_manual/facts.rst:112
+
 msgid "Number of policies that were renewed during a time period"
-msgstr ""
+msgstr "Nombre de polices renouvelées au cours d'une période"
 
-#: ../../ar_manual/facts.rst:117
+
 msgid "Sold policies"
-msgstr ""
+msgstr "Politiques vendues"
 
-#: ../../ar_manual/facts.rst:118
+
 msgid "Number of policies that were sold during a time period"
-msgstr ""
+msgstr "Nombre de polices vendues au cours d'une période"
 
-#: ../../ar_manual/facts.rst:126
+
 msgid "An insurance product of a policy"
-msgstr ""
+msgstr "Un produit d'assurance d'une police"
 
-#: ../../ar_manual/facts.rst:132
+
 msgid "Period of enrolment date for sold policies Period of expiry date for expired policies Period of renewal date(when renewing was done)  for renewed policies Period of effective day and later for current policies"
-msgstr ""
+msgstr "Période de date d'adhésion pour les polices vendues Période de date d'expiration pour les polices expirées Période de date de renouvellement (lorsque le renouvellement a été effectué) pour les polices renouvelées"
 
-#: ../../ar_manual/facts.rst:134 ../../ar_manual/facts.rst:135
+
 msgid "Share of insured population"
-msgstr ""
+msgstr "Part de la population assurée"
 
-#: ../../ar_manual/facts.rst:136
+
 msgid "Current insures /  Population at the end of a time period"
-msgstr ""
+msgstr "Assurances actuelles / Population à la fin d'une période"
 
-#: ../../ar_manual/facts.rst:158 ../../ar_manual/facts.rst:171
+
 msgid "Share of insured families / groups"
-msgstr ""
+msgstr "Part des familles / groupes assurés"
 
-#: ../../ar_manual/facts.rst:159
+
 msgid "Number of insured families / groups"
-msgstr ""
+msgstr "Nombre de familles / groupes assurés"
 
-#: ../../ar_manual/facts.rst:160
+
 msgid "Number of households that are covered by at least one active policy at the end of a time period"
-msgstr ""
+msgstr "Nombre de ménages couverts par au moins une police active à la fin d'une période"
 
-#: ../../ar_manual/facts.rst:172
+
 msgid "=Number of insured households / Number of households at the end of a time period"
-msgstr ""
+msgstr "= Nombre de ménages assurés / Nombre de ménages à la fin d'une période"
 
-#: ../../ar_manual/facts.rst:184
+
 msgid "Facts on collected revenue"
-msgstr ""
+msgstr "Faits sur les revenus perçus"
 
-#: ../../ar_manual/facts.rst:186
+
 msgid "This group of facts relates to revenue of health insurance schemes. Facts available are listed in :numref:`fact_contribution` ."
-msgstr ""
+msgstr "Ce groupe de faits concerne les revenus des régimes d'assurance maladie. Les faits disponibles sont répertoriés dans :numref:`fact_contribution`."
 
-#: ../../ar_manual/facts.rst:188
+
 msgid "`Facts on contributions`"
-msgstr ""
+msgstr "`Faits sur les contributions`"
 
-#: ../../ar_manual/facts.rst:201
+
 msgid "Contribution collection"
-msgstr ""
+msgstr "Collecte des contributions"
 
-#: ../../ar_manual/facts.rst:202
+
 msgid "Contribution collected"
-msgstr ""
+msgstr "Contribution collectée"
 
-#: ../../ar_manual/facts.rst:203
+
 msgid "contributions collected in given time period"
-msgstr ""
+msgstr "contributions collectées au cours d'une période donnée"
 
-#: ../../ar_manual/facts.rst:205
+
 msgid "Collection of contributions from policies of an enrolment officer"
-msgstr ""
+msgstr "Collecte des contributions des politiques d'un agent d'inscription"
 
-#: ../../ar_manual/facts.rst:210
+
 msgid "Payers"
-msgstr ""
+msgstr "Payeurs"
 
-#: ../../ar_manual/facts.rst:211
+
 msgid "Collection of contributions from an institution al payer or from families itself"
-msgstr ""
+msgstr "Recouvrement des contributions d'un payeur institutionnel ou des familles elles-mêmes"
 
-#: ../../ar_manual/facts.rst:217
+
 msgid "Collection of contributions within an insurance product"
-msgstr ""
+msgstr "Recouvrement des cotisations au sein d'un produit d'assurance"
 
-#: ../../ar_manual/facts.rst:223
+
 msgid "Period of payment date of contributions"
-msgstr ""
+msgstr "Période de paiement date des contributions"
 
-#: ../../ar_manual/facts.rst:225
+
 msgid "Contribution allocation"
-msgstr ""
+msgstr "Répartition des contributions"
 
-#: ../../ar_manual/facts.rst:226
+
 msgid "Contribution allocated"
-msgstr ""
+msgstr "Contribution allouée"
 
-#: ../../ar_manual/facts.rst:227
+
 msgid "Amount of collected contributions allocated proportionally for using in a time period"
-msgstr ""
+msgstr "Montant des contributions collectées réparties proportionnellement pour une utilisation dans une période de temps"
 
-#: ../../ar_manual/facts.rst:229
+
 msgid "Allocation of contributions within an insurance product"
-msgstr ""
+msgstr "Répartition des contributions au sein d'un produit d'assurance"
 
-#: ../../ar_manual/facts.rst:235
+
 msgid "Period of allocation of contributions"
-msgstr ""
+msgstr "Période d'allocation des contributions"
 
-#: ../../ar_manual/facts.rst:239
+
 msgid "Facts on claims"
-msgstr ""
+msgstr "Faits sur les réclamations"
 
-#: ../../ar_manual/facts.rst:241
+
 msgid "This group of facts relates to claims forwarded by health care providers to administrators of health insurance schemes. Facts available are listed in :numref:`facts_claims`"
-msgstr ""
+msgstr "Ce groupe de faits concerne les réclamations transmises par les prestataires de soins de santé aux administrateurs des régimes d'assurance maladie. Les données disponibles sont répertoriées dans :numref:`facts_claims`"
 
-#: ../../ar_manual/facts.rst:243
+
 msgid "`Facts on claims`"
-msgstr ""
+msgstr "`Faits sur les allégations`"
 
-#: ../../ar_manual/facts.rst:256
+
 msgid "Claim details"
-msgstr ""
+msgstr "Détails de la réclamation"
 
-#: ../../ar_manual/facts.rst:257
+
 msgid "Amount claimed"
-msgstr ""
+msgstr "Montant réclamé"
 
-#: ../../ar_manual/facts.rst:258
+
 msgid "Total amount in nominal prices that was submitted by health care providers for health care provided in given period"
-msgstr ""
+msgstr "Montant total en prix nominaux soumis par les prestataires de soins de santé pour les soins fournis au cours d'une période donnée"
 
-#: ../../ar_manual/facts.rst:259 ../../ar_manual/facts.rst:301
-#: ../../ar_manual/facts.rst:387 ../../ar_manual/facts.rst:436
-#: ../../ar_manual/facts.rst:491 ../../ar_manual/facts.rst:635
-#: ../../ar_manual/facts.rst:689 ../../ar_manual/facts.rst:833
-#: ../../ar_manual/facts.rst:863
+
 msgid "Providers"
-msgstr ""
+msgstr "Fournisseurs"
 
-#: ../../ar_manual/facts.rst:260
+
 msgid "Providers that entered and or submitted claims"
-msgstr ""
+msgstr "Fournisseurs qui ont introduit et / ou soumis des réclamations"
 
-#: ../../ar_manual/facts.rst:263
+
 msgid "Amount rejected"
-msgstr ""
+msgstr "Montant rejeté"
 
-#: ../../ar_manual/facts.rst:264
+
 msgid "Total amount that was on totally rejected claims"
-msgstr ""
+msgstr "Montant total des réclamations totalement rejetées"
 
-#: ../../ar_manual/facts.rst:266 ../../ar_manual/facts.rst:314
+
 msgid "Time period of provision of health care that was invoiced in claims"
-msgstr ""
+msgstr "Période de prestation des soins de santé facturée en réclamations"
 
-#: ../../ar_manual/facts.rst:269
+
 msgid "Entered claims"
-msgstr ""
+msgstr "Réclamations saisies"
 
-#: ../../ar_manual/facts.rst:270
+
 msgid "Number of claims entered"
-msgstr ""
+msgstr "Nombre de réclamations saisies"
 
-#: ../../ar_manual/facts.rst:275
+
 msgid "Submitted claims"
-msgstr ""
+msgstr "Réclamations soumises"
 
-#: ../../ar_manual/facts.rst:276
+
 msgid "Number of claims submitted"
-msgstr ""
+msgstr "Nombre de réclamations soumises"
 
-#: ../../ar_manual/facts.rst:281
+
 msgid "Rejected claims"
-msgstr ""
+msgstr "Réclamations rejetées"
 
-#: ../../ar_manual/facts.rst:282
+
 msgid "Number of claims totally rejected"
-msgstr ""
+msgstr "Nombre de demandes totalement rejetées"
 
-#: ../../ar_manual/facts.rst:287
+
 msgid "Average amount claimed"
-msgstr ""
+msgstr "Montant moyen réclamé"
 
-#: ../../ar_manual/facts.rst:288
+
 msgid "=Amount claimed / Submitted claims"
-msgstr ""
+msgstr "= Montant réclamé / Demandes soumises"
 
-#: ../../ar_manual/facts.rst:293
+
 msgid "Average amount rejected"
-msgstr ""
+msgstr "Montant moyen rejeté"
 
-#: ../../ar_manual/facts.rst:294
+
 msgid "=Amount rejected / Rejected claims"
-msgstr ""
+msgstr "= Montant des demandes rejetées / rejetées"
 
-#: ../../ar_manual/facts.rst:298
+
 msgid "Claim details products"
-msgstr ""
+msgstr "Réclamation détails produits"
 
-#: ../../ar_manual/facts.rst:299
+
 msgid "Amount adjusted"
-msgstr ""
+msgstr "Montant ajusté"
 
-#: ../../ar_manual/facts.rst:300
+
 msgid "Amount adjusted after processing in nominal prices"
-msgstr ""
+msgstr "Montant ajusté après traitement aux prix nominaux"
 
-#: ../../ar_manual/facts.rst:302
+
 msgid "Providers that submitted claims"
-msgstr ""
+msgstr "Fournisseurs ayant soumis des réclamations"
 
-#: ../../ar_manual/facts.rst:305
+
 msgid "Amount paid"
-msgstr ""
+msgstr "Le montant payé"
 
-#: ../../ar_manual/facts.rst:306
+
 msgid "Amount actually to be paid to health facilities taking into account indexes of relative pricing"
-msgstr ""
+msgstr "Montant effectivement à payer aux formations sanitaires en tenant compte des indices de tarification relative"
 
-#: ../../ar_manual/facts.rst:308
+
 msgid "Products by which health care claimed was covered"
-msgstr ""
+msgstr "Produits pour lesquels les soins de santé déclarés étaient couverts"
 
-#: ../../ar_manual/facts.rst:311
+
 msgid "Processed claims"
-msgstr ""
+msgstr "Réclamations traitées"
 
-#: ../../ar_manual/facts.rst:312
+
 msgid "Number of claims sent for valuation"
-msgstr ""
+msgstr "Nombre de réclamations envoyées pour évaluation"
 
-#: ../../ar_manual/facts.rst:317
+
 msgid "Paid claims"
-msgstr ""
+msgstr "Créances payées"
 
-#: ../../ar_manual/facts.rst:318
+
 msgid "Number of claims actually valuated"
-msgstr ""
+msgstr "Nombre de réclamations réellement évaluées"
 
-#: ../../ar_manual/facts.rst:323
+
 msgid "Average amount adjusted"
-msgstr ""
+msgstr "Montant moyen ajusté"
 
-#: ../../ar_manual/facts.rst:324
+
 msgid "=Amount adjusted / Pr ocessed claims"
-msgstr ""
+msgstr "= Montant ajusté / réclamations traitées"
 
-#: ../../ar_manual/facts.rst:329
+
 msgid "Average amount paid"
-msgstr ""
+msgstr "Montant moyen payé"
 
-#: ../../ar_manual/facts.rst:330
+
 msgid "=Amount paid/ Valuated claims"
-msgstr ""
+msgstr "= Montant payé / Réclamations évaluées"
 
-#: ../../ar_manual/facts.rst:336
+
 msgid "Facts on utilization of health care"
-msgstr ""
+msgstr "Faits sur l'utilisation des soins de santé"
 
-#: ../../ar_manual/facts.rst:338
+
 msgid "This group of facts relates to utilization of health care by insures according to submitted and not rejected claims. Facts available are listed in :numref:`facts-on-of-utilization-health-care`"
-msgstr ""
+msgstr "Ce groupe de faits concerne l'utilisation des soins de santé par les assurés selon les demandes soumises et non rejetées. Les données disponibles sont répertoriées dans :numref:`facts-on-of-use-health-care`"
 
-#: ../../ar_manual/facts.rst:341
+
 msgid "`Facts on of utilization health care`"
-msgstr ""
+msgstr "`Faits sur l'utilisation des soins de santé`"
 
-#: ../../ar_manual/facts.rst:354
+
 msgid "Admissions and visits and hospital days"
-msgstr ""
+msgstr "Admissions et visites et journées d'hospitalisation"
 
-#: ../../ar_manual/facts.rst:355 ../../ar_manual/facts.rst:356
+
 msgid "Number of hospital admissions"
-msgstr ""
+msgstr "Nombre d'admissions à l'hôpital"
 
-#: ../../ar_manual/facts.rst:358 ../../ar_manual/facts.rst:401
-#: ../../ar_manual/facts.rst:456 ../../ar_manual/facts.rst:510
-#: ../../ar_manual/facts.rst:600 ../../ar_manual/facts.rst:654
-#: ../../ar_manual/facts.rst:708 ../../ar_manual/facts.rst:744
-#: ../../ar_manual/facts.rst:780
+
 msgid "Age at the time of provision health care"
-msgstr ""
+msgstr "Âge au moment de la prestation des soins de santé"
 
-#: ../../ar_manual/facts.rst:369 ../../ar_manual/facts.rst:412
-#: ../../ar_manual/facts.rst:467 ../../ar_manual/facts.rst:521
-#: ../../ar_manual/facts.rst:557 ../../ar_manual/facts.rst:611
-#: ../../ar_manual/facts.rst:665 ../../ar_manual/facts.rst:719
-#: ../../ar_manual/facts.rst:755 ../../ar_manual/facts.rst:791
+
 msgid "Disease"
-msgstr ""
+msgstr "Maladie"
 
-#: ../../ar_manual/facts.rst:373
+
 msgid "Number of hospital days"
-msgstr ""
+msgstr "Nombre de jours d'hospitalisation"
 
-#: ../../ar_manual/facts.rst:375 ../../ar_manual/facts.rst:418
-#: ../../ar_manual/facts.rst:473 ../../ar_manual/facts.rst:617
-#: ../../ar_manual/facts.rst:671
+
 msgid "Care category"
-msgstr ""
+msgstr "Catégorie de soins"
 
-#: ../../ar_manual/facts.rst:379
+
 msgid "Average length of stay"
-msgstr ""
+msgstr "Durée moyenne de séjour"
 
-#: ../../ar_manual/facts.rst:380
+
 msgid "= Number of hospital days / Number of hospital admissions"
-msgstr ""
+msgstr "= Nombre de jours d'hospitalisation / Nombre d'hospitalisations"
 
-#: ../../ar_manual/facts.rst:382
+
 msgid "In case two or more insurance products covered a hospital admission / visit, it is accounted to each of them"
-msgstr ""
+msgstr "Dans le cas où deux ou plusieurs produits d'assurance couvraient une admission / visite à l'hôpital, ils sont comptabilisés pour chacun d'eux"
 
-#: ../../ar_manual/facts.rst:385
+
 msgid "Number of out-patient visits"
-msgstr ""
+msgstr "Nombre de consultations externes"
 
-#: ../../ar_manual/facts.rst:388 ../../ar_manual/facts.rst:437
-#: ../../ar_manual/facts.rst:492 ../../ar_manual/facts.rst:636
-#: ../../ar_manual/facts.rst:690
+
 msgid "Providers which claimed health care"
-msgstr ""
+msgstr "Prestataires qui ont réclamé des soins de santé"
 
-#: ../../ar_manual/facts.rst:394 ../../ar_manual/facts.rst:449
-#: ../../ar_manual/facts.rst:504 ../../ar_manual/facts.rst:540
-#: ../../ar_manual/facts.rst:648 ../../ar_manual/facts.rst:702
-#: ../../ar_manual/facts.rst:738 ../../ar_manual/facts.rst:774
-#: ../../ar_manual/facts.rst:804
+
 msgid "Hospital admissions are associated with time periods according to dates of discharge. Time period of provision of health care"
-msgstr ""
+msgstr "Les admissions à l'hôpital sont associées à des périodes selon les dates de sortie. Période de prestation des soins de santé"
 
-#: ../../ar_manual/facts.rst:396
+
 msgid "Utilization of services"
-msgstr ""
+msgstr "Utilisation des services"
 
-#: ../../ar_manual/facts.rst:397
+
 msgid "Services utilized"
-msgstr ""
+msgstr "Services utilisés"
 
-#: ../../ar_manual/facts.rst
+
 msgid "Number of utilized services according to submitted claims."
-msgstr ""
+msgstr "Nombre de services utilisés selon les réclamations soumises."
 
-#: ../../ar_manual/facts.rst
+
 msgid "If a service was provided during one visit / hospital stay, the service is counted according to the number of its provision"
-msgstr ""
+msgstr "Si un service a été fourni pendant une visite / un séjour à l'hôpital, le service est compté en fonction du numéro de sa prestation"
 
-#: ../../ar_manual/facts.rst:424 ../../ar_manual/facts.rst:479
-#: ../../ar_manual/facts.rst:623 ../../ar_manual/facts.rst:677
+
 msgid "Care type"
-msgstr ""
+msgstr "Type de soins"
 
-#: ../../ar_manual/facts.rst:442 ../../ar_manual/facts.rst:533
-#: ../../ar_manual/facts.rst:641 ../../ar_manual/facts.rst:731
+
 msgid "Services"
-msgstr ""
+msgstr "Prestations de service"
 
-#: ../../ar_manual/facts.rst:451
+
 msgid "Utilization of medical items"
-msgstr ""
+msgstr "Utilisation d'articles médicaux"
 
-#: ../../ar_manual/facts.rst:452
+
 msgid "Items utilized"
-msgstr ""
+msgstr "Articles utilisés"
 
-#: ../../ar_manual/facts.rst
+
 msgid "Number of utilized medical items according to submitted claims"
-msgstr ""
+msgstr "Nombre d'articles médicaux utilisés selon les demandes soumises"
 
-#: ../../ar_manual/facts.rst
+
 msgid "If a medical item was provided during one visit / hospital stay, the medical item is counted according to the number of its provision"
-msgstr ""
+msgstr "Si un article médical a été fourni pendant une visite / un séjour à l'hôpital, l'article médical est compté selon le numéro de sa fourniture"
 
-#: ../../ar_manual/facts.rst:497 ../../ar_manual/facts.rst:569
-#: ../../ar_manual/facts.rst:695 ../../ar_manual/facts.rst:767
+
 msgid "Items"
-msgstr ""
+msgstr "Articles"
 
-#: ../../ar_manual/facts.rst:506 ../../ar_manual/facts.rst:507
+
 msgid "Average utilization of services per insuree"
-msgstr ""
+msgstr "Utilisation moyenne des services par assuré"
 
-#: ../../ar_manual/facts.rst:508
+
 msgid "= Services utilized / Current insurees"
-msgstr ""
+msgstr "= Services utilisés / Assurés actuels"
 
-#: ../../ar_manual/facts.rst:542 ../../ar_manual/facts.rst:543
+
 msgid "Average utilization of medical items per insuree"
-msgstr ""
+msgstr "Utilisation moyenne d'articles médicaux par assuré"
 
-#: ../../ar_manual/facts.rst:544
+
 msgid "= Items utilized / Current insurees"
-msgstr ""
+msgstr "= Articles utilisés / Assurés actuels"
 
-#: ../../ar_manual/facts.rst:579
+
 msgid "Facts on expenditures for health care"
-msgstr ""
+msgstr "Faits sur les dépenses de santé"
 
-#: ../../ar_manual/facts.rst:581
+
 msgid "This group of facts relates to expenditures for health care actually paid to health care providers. Facts available are listed in :numref:`facts_expenditures_health_care`"
-msgstr ""
+msgstr "Ce groupe de faits se rapporte aux dépenses de soins de santé réellement payées aux fournisseurs de soins de santé. Les données disponibles sont répertoriées dans :numref:`facts_expenditures_health_care`"
 
-#: ../../ar_manual/facts.rst:583
+
 msgid "`Facts on expenditures for health care`"
-msgstr ""
+msgstr "`Faits sur les dépenses de santé`"
 
-#: ../../ar_manual/facts.rst:596
+
 msgid "expenditures for services"
-msgstr ""
+msgstr "dépenses de services"
 
-#: ../../ar_manual/facts.rst:597
+
 msgid "Service expenditures"
-msgstr ""
+msgstr "Dépenses de service"
 
-#: ../../ar_manual/facts.rst:598
+
 msgid "Expenditures for services actually remunerated to health facilities"
-msgstr ""
+msgstr "Dépenses pour les services réellement rémunérés aux établissements de santé"
 
-#: ../../ar_manual/facts.rst:650
+
 msgid "expenditures for medical items"
-msgstr ""
+msgstr "dépenses pour articles médicaux"
 
-#: ../../ar_manual/facts.rst:651
+
 msgid "Item expenditures"
-msgstr ""
+msgstr "Dépenses d'articles"
 
-#: ../../ar_manual/facts.rst:652
+
 msgid "expenditures for medical items actually remunerated to health facilities"
-msgstr ""
+msgstr "dépenses pour les articles médicaux réellement rémunérés aux établissements de santé"
 
-#: ../../ar_manual/facts.rst:704 ../../ar_manual/facts.rst:705
+
 msgid "Average expenditures for services per insuree"
-msgstr ""
+msgstr "Dépenses moyennes de services par assuré"
 
-#: ../../ar_manual/facts.rst:706
+
 msgid "= Service expenditures/ Current insurees"
-msgstr ""
+msgstr "= Dépenses de services / Assurés actuels"
 
-#: ../../ar_manual/facts.rst:740 ../../ar_manual/facts.rst:741
+
 msgid "Average expenditures for medical items per insuree"
-msgstr ""
+msgstr "Dépenses moyennes pour les articles médicaux par assuré"
 
-#: ../../ar_manual/facts.rst:742
+
 msgid "= Item expenditures/ Number of inhabitants"
-msgstr ""
+msgstr "= Dépenses article / Nombre d'habitants"
 
-#: ../../ar_manual/facts.rst:776
+
 msgid "Average expenditures for health care per insuree"
-msgstr ""
+msgstr "Dépenses moyennes de soins de santé par assuré"
 
-#: ../../ar_manual/facts.rst:777
+
 msgid "Average expenditures per insuree"
-msgstr ""
+msgstr "Dépenses moyennes par assuré"
 
-#: ../../ar_manual/facts.rst:778
+
 msgid "= Average expenditures of services per insuree + Average expenditures for medical items per insuree"
-msgstr ""
+msgstr "= Dépenses moyennes de services par assuré + Dépenses moyennes d'articles médicaux par assuré"
 
-#: ../../ar_manual/facts.rst:807
+
 msgid "Facts on feedbacks"
-msgstr ""
+msgstr "Faits sur les rétroactions"
 
-#: ../../ar_manual/facts.rst:809
+
 msgid "This group of facts relates to evaluation of request for feedbacks on provided health care that are issued by medical officers during processing of claims. Facts available are listed in :numref:`fact_feedback`"
-msgstr ""
+msgstr "Ce groupe de faits se rapporte à l'évaluation des demandes de rétroaction sur les soins de santé fournis qui sont émises par les médecins-conseils lors du traitement des demandes. Les faits disponibles sont répertoriés dans :numref:`fact_feedback`"
 
-#: ../../ar_manual/facts.rst:811
+
 msgid "`Facts on feedbacks`"
-msgstr ""
+msgstr "`Faits sur les retours`"
 
-#: ../../ar_manual/facts.rst:824
+
 msgid "Feedback details"
-msgstr ""
+msgstr "Détails des commentaires"
 
-#: ../../ar_manual/facts.rst:825
+
 msgid "Feedbacks sent"
-msgstr ""
+msgstr "Commentaires envoyés"
 
-#: ../../ar_manual/facts.rst:826
+
 msgid "Number of requests for feedbacks sent in a time period"
-msgstr ""
+msgstr "Nombre de demandes de rétroaction envoyées au cours d'une période"
 
-#: ../../ar_manual/facts.rst:828 ../../ar_manual/facts.rst:858
+
 msgid "Insurance products that covered claims initiating requests for feedbacks"
-msgstr ""
+msgstr "Produits d'assurance couvrant les sinistres initiant des demandes de rétroaction"
 
-#: ../../ar_manual/facts.rst:831
+
 msgid "Feedbacks responded"
-msgstr ""
+msgstr "Les commentaires ont répondu"
 
-#: ../../ar_manual/facts.rst:832
+
 msgid "Number of feedbacks received in a time period"
-msgstr ""
+msgstr "Nombre de commentaires reçus au cours d'une période"
 
-#: ../../ar_manual/facts.rst:834 ../../ar_manual/facts.rst:864
+
 msgid "Providers that submitted claims initiating requests for feedbacks"
-msgstr ""
+msgstr "Fournisseurs ayant soumis des réclamations à l'origine de demandes de rétroaction"
 
-#: ../../ar_manual/facts.rst:837
+
 msgid "Overall assessment"
-msgstr ""
+msgstr "Évaluation globale"
 
-#: ../../ar_manual/facts.rst:838
+
 msgid "Sum of all assessment overall assessment marks in responded feedbacks"
-msgstr ""
+msgstr "Somme de toutes les notes d'évaluation globale de l'évaluation dans les commentaires"
 
-#: ../../ar_manual/facts.rst:840
+
 msgid "Period of sending / rec eiving feedbacks"
-msgstr ""
+msgstr "Période d'envoi / réception des retours"
 
-#: ../../ar_manual/facts.rst:843
+
 msgid "Feedback return share"
-msgstr ""
+msgstr "Partager retour de rétroaction"
 
-#: ../../ar_manual/facts.rst:844
+
 msgid "= Feedbacks responded/ Feedbacks sent"
-msgstr ""
+msgstr "= Feedbacks répondu / Feedbacks envoyés"
 
-#: ../../ar_manual/facts.rst:849
+
 msgid "Average overall assessment"
-msgstr ""
+msgstr "Évaluation globale moyenne"
 
-#: ../../ar_manual/facts.rst:850
+
 msgid "= Overall assessment/ Feedbacks responded"
-msgstr ""
+msgstr "= Évaluation globale / Feedbacks répondu"
 
-#: ../../ar_manual/facts.rst:854
+
 msgid "Feedback answers"
-msgstr ""
+msgstr "Réponses de rétroaction"
 
-#: ../../ar_manual/facts.rst:855
+
 msgid "Answers Yes"
-msgstr ""
+msgstr "Réponses Oui"
 
-#: ../../ar_manual/facts.rst:856
+
 msgid "Count of all Yes answers"
-msgstr ""
+msgstr "Nombre de réponses Oui"
 
-#: ../../ar_manual/facts.rst:861
+
 msgid "Share of Answers Yes"
-msgstr ""
+msgstr "Part des réponses Oui"
 
-#: ../../ar_manual/facts.rst:862
+
 msgid "= Answers Yes/ Feedbacks responded"
-msgstr ""
+msgstr "= Réponses Oui / Réponses répondues"
 
-#: ../../ar_manual/facts.rst:869
+
 msgid "Questions"
-msgstr ""
+msgstr "Des questions"
 
-#: ../../ar_manual/facts.rst:876
+
 msgid "Period of sending / receiving feedbacks"
-msgstr ""
-
+msgstr "Période d'envoi / réception des retours"

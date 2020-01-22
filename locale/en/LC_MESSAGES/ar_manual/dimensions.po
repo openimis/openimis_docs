@@ -1,325 +1,239 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2019, openIMIS team
-# This file is distributed under the same license as the openIMIS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
-
 msgid ""
 msgstr "" 
 "Project-Id-Version: openIMIS \n" 
 "Report-Msgid-Bugs-To: \n" 
-"POT-Creation-Date: 2020-01-09 08:50+0100\n" 
+"POT-Creation-Date: 2019-08-16 15:21+0200\n" 
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n" 
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n" 
 "Language-Team: LANGUAGE <LL@li.org>\n" 
 "MIME-Version: 1.0\n" 
-"Content-Type: text/plain; charset=utf-8\n" 
-"Content-Transfer-Encoding: 8bit\n" 
-"Generated-By: Babel 2.6.0\n"
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n"
 
-#: ../../ar_manual/dimensions.rst:4
 msgid "Dimensions"
-msgstr ""
+msgstr "Dimensions"
 
-#: ../../ar_manual/dimensions.rst:6
 msgid "Dimensions represent our point of view on facts. Each dimension has several values (points). The points are used for qualification of our view on the facts. AR-IMIS provides values of facts corresponding to specified points across one or more dimensions. The points may be organized in hierarchies. Lower levels of a hierarchy allow looking at a fact according to more specific points. For example, the most important *Time* dimension has at the lowest level calendar months. The calendar months are grouped into quarters and quarters into calendar years. So, we can get a value of a fact corresponding to a specific month. Going one level up in the dimension *Time*, we can get can get a value of the fact corresponding to a specific quarter and going even up we can get a value of the fact corresponding to a specific calendar year. If we don’t specify any point in a dimension, it means we are interested in a value of a fact for all points together in the given dimension."
-msgstr ""
+msgstr "Dimensions represent our point of view on facts. Each dimension has several values (points). The points are used for qualification of our view on the facts. AR-IMIS provides values of facts corresponding to specified points across one or more dimensions. The points may be organized in hierarchies. Lower levels of a hierarchy allow looking at a fact according to more specific points. For example, the most important *Time* dimension has at the lowest level calendar months. The calendar months are grouped into quarters and quarters into calendar years. So, we can get a value of a fact corresponding to a specific month. Going one level up in the dimension *Time*, we can get can get a value of the fact corresponding to a specific quarter and going even up we can get a value of the fact corresponding to a specific calendar year. If we don’t specify any point in a dimension, it means we are interested in a value of a fact for all points together in the given dimension."
 
-#: ../../ar_manual/dimensions.rst:9
 msgid "AR-IMIS defines several dimensions. Their meaning is dependent on the context of a fact for which they are used. For example, for the fact *Number of submitted claims* the *Time* dimension means in AR-IMIS a period in which claimed health care was provided. It could have also other interpretations, for example, it may be a period in which claims were submitted. Exact interpretation of each dimension is indicated with description of each fact provided below."
-msgstr ""
+msgstr "AR-IMIS defines several dimensions. Their meaning is dependent on the context of a fact for which they are used. For example, for the fact *Number of submitted claims* the *Time* dimension means in AR-IMIS a period in which claimed health care was provided. It could have also other interpretations, for example, it may be a period in which claims were submitted. Exact interpretation of each dimension is indicated with description of each fact provided below."
 
-#: ../../ar_manual/dimensions.rst:12
 msgid "The points of a dimension are either fixed, e.g. the points *Sex* are *Male / Female / Undefined* for the dimension, or are obtained from registers in the operational part of IMIS. For example, the points for the dimension *Services* are obtained from the current status of the register of services in IMIS."
-msgstr ""
+msgstr "The points of a dimension are either fixed, e.g. the points *Sex* are *Male / Female / Undefined* for the dimension, or are obtained from registers in the operational part of IMIS. For example, the points for the dimension *Services* are obtained from the current status of the register of services in IMIS."
 
-#: ../../ar_manual/dimensions.rst:15
 msgid "The following table shows dimensions used across AR-IMIS. For each dimension its name, names of attributes used for referencing of their points, source for their points, and their meaning."
-msgstr ""
+msgstr "The following table shows dimensions used across AR-IMIS. For each dimension its name, names of attributes used for referencing of their points, source for their points, and their meaning."
 
-#: ../../ar_manual/dimensions.rst:41
 msgid "`Overview of dimensions`"
-msgstr ""
+msgstr "`Overview of dimensions`"
 
-#: ../../ar_manual/dimensions.rst:47
 msgid "**Name**"
-msgstr ""
+msgstr "**Name**"
 
-#: ../../ar_manual/dimensions.rst:48
 msgid "**Names of hierarchy / attributes**"
-msgstr ""
+msgstr "**Names of hierarchy / attributes**"
 
-#: ../../ar_manual/dimensions.rst:49
 msgid "**Source of data**"
-msgstr ""
+msgstr "**Source of data**"
 
-#: ../../ar_manual/dimensions.rst:50
 msgid "**Points**"
-msgstr ""
+msgstr "**Points**"
 
-#: ../../ar_manual/dimensions.rst:52
 msgid "**Time**"
-msgstr ""
+msgstr "**Time**"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Month"
-msgstr ""
+msgstr "* Month"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Quarter"
-msgstr ""
+msgstr "* Quarter"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Year"
-msgstr ""
+msgstr "* Year"
 
-#: ../../ar_manual/dimensions.rst:56 ../../ar_manual/dimensions.rst:61
-#: ../../ar_manual/dimensions.rst:66 ../../ar_manual/dimensions.rst:130
-#: ../../ar_manual/dimensions.rst:135 ../../ar_manual/dimensions.rst:140
 msgid "generated by openIMIS"
-msgstr ""
+msgstr "generated by openIMIS"
 
-#: ../../ar_manual/dimensions.rst:57
 msgid "Hierarchy: Years ->Quarters ->Months"
-msgstr ""
+msgstr "Hierarchy: Years ->Quarters ->Months"
 
-#: ../../ar_manual/dimensions.rst:59
 msgid "**Age**"
-msgstr ""
+msgstr "**Age**"
 
-#: ../../ar_manual/dimensions.rst:60
 msgid "Age Range"
-msgstr ""
+msgstr "Age Range"
 
-#: ../../ar_manual/dimensions.rst:62
 msgid "below1, 80+ ..."
-msgstr ""
+msgstr "below1, 80+ ..."
 
-#: ../../ar_manual/dimensions.rst:64
 msgid "**Gender**"
-msgstr ""
+msgstr "**Gender**"
 
-#: ../../ar_manual/dimensions.rst:65
 msgid "Gender Name"
-msgstr ""
+msgstr "Gender Name"
 
-#: ../../ar_manual/dimensions.rst:67
 msgid "Male Unknown"
-msgstr ""
+msgstr "Male Unknown"
 
-#: ../../ar_manual/dimensions.rst:69
 msgid "**Regions**"
-msgstr ""
+msgstr "**Regions**"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Region"
-msgstr ""
+msgstr "* Region"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* District"
-msgstr ""
+msgstr "* District"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Ward"
-msgstr ""
+msgstr "* Ward"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Village"
-msgstr ""
+msgstr "* Village"
 
-#: ../../ar_manual/dimensions.rst:74
 msgid "|lk_loc_reg|"
-msgstr ""
+msgstr "|lk_loc_reg|"
 
-#: ../../ar_manual/dimensions.rst:75
 msgid "Hierarchy: Regions->Districts ->Wards ->Villages"
-msgstr ""
+msgstr "Hierarchy: Regions->Districts ->Wards ->Villages"
 
-#: ../../ar_manual/dimensions.rst:77
 msgid "**Products**"
-msgstr ""
+msgstr "**Products**"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Product Name"
-msgstr ""
+msgstr "* Product Name"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Product Code"
-msgstr ""
+msgstr "* Product Code"
 
-#: ../../ar_manual/dimensions.rst:82
 msgid "|lk_ins_reg|"
-msgstr ""
+msgstr "|lk_ins_reg|"
 
-#: ../../ar_manual/dimensions.rst:83
 msgid "Hierarchy: Regions ->Districts ->Products"
-msgstr ""
+msgstr "Hierarchy: Regions ->Districts ->Products"
 
-#: ../../ar_manual/dimensions.rst:85
 msgid "**Payers**"
-msgstr ""
+msgstr "**Payers**"
 
-#: ../../ar_manual/dimensions.rst:86
 msgid "Payer Name"
-msgstr ""
+msgstr "Payer Name"
 
-#: ../../ar_manual/dimensions.rst:87
 msgid "|lk_pay_reg|"
-msgstr ""
+msgstr "|lk_pay_reg|"
 
-#: ../../ar_manual/dimensions.rst:88
 msgid "Families Payers (the list of)"
-msgstr ""
+msgstr "Families Payers (the list of)"
 
-#: ../../ar_manual/dimensions.rst:91
 msgid "**Officers**"
-msgstr ""
+msgstr "**Officers**"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Last Name"
-msgstr ""
+msgstr "* Last Name"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Other name"
-msgstr ""
+msgstr "* Other name"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Assistant Code"
-msgstr ""
+msgstr "* Assistant Code"
 
-#: ../../ar_manual/dimensions.rst:97
 msgid "|lk_off_reg|"
-msgstr ""
+msgstr "|lk_off_reg|"
 
-#: ../../ar_manual/dimensions.rst:98
 msgid "Hierarchy: Regions ->Districts ->Enrolment Officers"
-msgstr ""
+msgstr "Hierarchy: Regions ->Districts ->Enrolment Officers"
 
-#: ../../ar_manual/dimensions.rst:100
 msgid "**Services**"
-msgstr ""
+msgstr "**Services**"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Service Code"
-msgstr ""
+msgstr "* Service Code"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Service Name"
-msgstr ""
+msgstr "* Service Name"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Service Category"
-msgstr ""
+msgstr "* Service Category"
 
-#: ../../ar_manual/dimensions.rst:104
 msgid "|lk_ser_reg|"
-msgstr ""
+msgstr "|lk_ser_reg|"
 
-#: ../../ar_manual/dimensions.rst:105
 msgid "Hierarchy: (Curative Preventive) ->Services"
-msgstr ""
+msgstr "Hierarchy: (Curative Preventive) ->Services"
 
-#: ../../ar_manual/dimensions.rst:107
 msgid "**Items**"
-msgstr ""
+msgstr "**Items**"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Item Code"
-msgstr ""
+msgstr "* Item Code"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Item Name"
-msgstr ""
+msgstr "* Item Name"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Item Category"
-msgstr ""
+msgstr "* Item Category"
 
-#: ../../ar_manual/dimensions.rst:111
 msgid "|lk_itm_reg|"
-msgstr ""
+msgstr "|lk_itm_reg|"
 
-#: ../../ar_manual/dimensions.rst:112
 msgid "Hierarchy: (Drugs Prostheses) ->Items"
-msgstr ""
+msgstr "Hierarchy: (Drugs Prostheses) ->Items"
 
-#: ../../ar_manual/dimensions.rst:114
 msgid "**Diseases**"
-msgstr ""
+msgstr "**Diseases**"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Disease Code"
-msgstr ""
+msgstr "* Disease Code"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Disease Name"
-msgstr ""
+msgstr "* Disease Name"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Disease Category"
-msgstr ""
+msgstr "* Disease Category"
 
-#: ../../ar_manual/dimensions.rst:118
 msgid "|lk_dia_reg|"
-msgstr ""
+msgstr "|lk_dia_reg|"
 
-#: ../../ar_manual/dimensions.rst:121
 msgid "**Providers**"
-msgstr ""
+msgstr "**Providers**"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Provider Code"
-msgstr ""
+msgstr "* Provider Code"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Provider Name"
-msgstr ""
+msgstr "* Provider Name"
 
-#: ../../ar_manual/dimensions.rst
 msgid "* Provider Category"
-msgstr ""
+msgstr "* Provider Category"
 
-#: ../../ar_manual/dimensions.rst:125
 msgid "|lk_hfa_reg|"
-msgstr ""
+msgstr "|lk_hfa_reg|"
 
-#: ../../ar_manual/dimensions.rst:126
 msgid "Hierarchy: Regions ->Districts ->(Dispensary Health Centre Hospital) ->Health facility"
-msgstr ""
+msgstr "Hierarchy: Regions ->Districts ->(Dispensary Health Centre Hospital) ->Health facility"
 
-#: ../../ar_manual/dimensions.rst:128
 msgid "**Care Category**"
-msgstr ""
+msgstr "**Care Category**"
 
-#: ../../ar_manual/dimensions.rst:129
 msgid "Category Care"
-msgstr ""
+msgstr "Category Care"
 
-#: ../../ar_manual/dimensions.rst:131
 msgid "Emergency Other Referral Unknown"
-msgstr ""
+msgstr "Emergency Other Referral Unknown"
 
-#: ../../ar_manual/dimensions.rst:133
 msgid "**Care Type**"
-msgstr ""
+msgstr "**Care Type**"
 
-#: ../../ar_manual/dimensions.rst:134
 msgid "Care Type"
-msgstr ""
+msgstr "Care Type"
 
-#: ../../ar_manual/dimensions.rst:136
 msgid "In-patient Out-patient Unknown"
-msgstr ""
+msgstr "In-patient Out-patient Unknown"
 
-#: ../../ar_manual/dimensions.rst:138
 msgid "**Questions**"
-msgstr ""
+msgstr "**Questions**"
 
-#: ../../ar_manual/dimensions.rst:139
 msgid "Question"
-msgstr ""
+msgstr "Question"
 
-#: ../../ar_manual/dimensions.rst:141
 msgid "Care Rendered Drug Prescribed Drug Received Payment Aske Unknown"
-msgstr ""
-
+msgstr "Care Rendered Drug Prescribed Drug Received Payment Aske Unknown"

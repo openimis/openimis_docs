@@ -1,95 +1,85 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2019, openIMIS team
-# This file is distributed under the same license as the openIMIS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
-
 msgid ""
 msgstr "" 
-"Project-Id-Version: openIMIS \n" 
-"Report-Msgid-Bugs-To: \n" 
-"POT-Creation-Date: 2020-01-09 08:50+0100\n" 
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n" 
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n" 
-"Language-Team: LANGUAGE <LL@li.org>\n" 
 "MIME-Version: 1.0\n" 
-"Content-Type: text/plain; charset=utf-8\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
 "Content-Transfer-Encoding: 8bit\n" 
-"Generated-By: Babel 2.6.0\n"
+"X-Generator: lokalise.com\n" 
+"Project-Id-Version: openIMIS docs\n" 
+"PO-Revision-Date: 2020-01-09 10:45\n" 
+"Last-Translator: lokalise.com\n" 
+"Language-Team: lokalise.com\n\n" 
+"Language: fr\n"
 
-#: ../../ar_manual/access_data.rst:3
+
 msgid "How access data from the Data Warehouse"
-msgstr ""
+msgstr "Comment accéder aux données de l'entrepôt de données"
 
-#: ../../ar_manual/access_data.rst:5
 msgid "Data from the Data Warehouse can be accessed by means of an Excel file. As access to the Data Warehouse is protected, a user has to get from an administrator of AR-MIS URL of the Data Warehouse for remote access, a userid and a password. A userid may allow access to all data in the Data Warehouse or only to a subset of data corresponding to a specific region, to selected regions, to a specific district or to selected districts."
-msgstr ""
+msgstr "Les données de l'Entrepôt de Données peuvent être accessibles que par le biais d'un fichier Excel. Comme l'accès à l'Entrepôt de Données est protégée, un utilisateur d'accéder à partir d'un administrateur de l'AR-MIS l'URL de l'Entrepôt de Données pour l'accès à distance, un nom d'utilisateur et un mot de passe. Un nom d'utilisateur permettant l'accès à toutes les données dans l'Entrepôt de Données ou seulement à un sous-ensemble de données correspondant à une région spécifique, pour les régions sélectionnées, à un quartier ou à des districts choisis."
 
-#: ../../ar_manual/access_data.rst:8
+
 msgid "The procedure of accessing of data is as follows (:ref:`image274`)"
-msgstr ""
+msgstr "La procédure d'accès aux données est la suivante (:ref:`image274`)"
 
-#: ../../ar_manual/access_data.rst:14
+
 msgid "`Accessing the Data Warehouse`"
-msgstr ""
+msgstr "`Accès à l'entrepôt de données`"
 
-#: ../../ar_manual/access_data.rst:16
+
 msgid "Open an Excel file"
-msgstr ""
+msgstr "Ouvrez un fichier Excel"
 
-#: ../../ar_manual/access_data.rst:18
+
 msgid "Click on the menu item **Data**"
-msgstr ""
+msgstr "Cliquez sur l'élément de menu **Données**"
 
-#: ../../ar_manual/access_data.rst:20
+
 msgid "Click on the sub-menu **From Other Sources**"
-msgstr ""
+msgstr "Cliquez sur le sous-menu **À partir d'autres sources**"
 
-#: ../../ar_manual/access_data.rst:22
+
 msgid "Click on the sub-menu **From Analysis Services**"
-msgstr ""
+msgstr "Cliquez sur le sous-menu**Depuis Analysis Services**"
 
-#: ../../ar_manual/access_data.rst:24
+
 msgid "A dialog box appears for specification of logon data:"
-msgstr ""
+msgstr "Une boîte de dialogue apparaît pour la spécification des données de connexion:"
 
-#: ../../ar_manual/access_data.rst:26
+
 msgid "Enter URL of the Data Warehouse into the field **Server Name**"
-msgstr ""
+msgstr "Entrez l'URL de l'entrepôt de données dans le champ**Nom du serveur**"
 
-#: ../../ar_manual/access_data.rst:28
+
 msgid "Select the option **Use the following user name and password**"
-msgstr ""
+msgstr "Sélectionnez l'option **Utilisez le nom d'utilisateur et le mot de passe suivants**"
 
-#: ../../ar_manual/access_data.rst:30
+
 msgid "Enter your userid into the field **User Name**"
-msgstr ""
+msgstr "Entrez votre ID utilisateur dans le champ **Nom d'utilisateur**"
 
-#: ../../ar_manual/access_data.rst:32
+
 msgid "Enter your password into the field **Password**"
-msgstr ""
+msgstr "Entrez votre mot de passe dans le champ**Mot de passe**"
 
-#: ../../ar_manual/access_data.rst:34
+
 msgid "Click on **Finish**"
-msgstr ""
+msgstr "Cliquez sur **Terminer**"
 
-#: ../../ar_manual/access_data.rst:36
+
 msgid "A box appears (**Select Database and Tables**) with the list of available cubes. Select one and click on **Finish**"
-msgstr ""
+msgstr "Une boîte apparaît (**Sélectionner la base de données et les tables**) avec la liste des cubes disponibles. Sélectionnez-en un et cliquez sur **Terminer**"
 
-#: ../../ar_manual/access_data.rst:38
+
 msgid "A box appears (**Save Data Connection File and Finish**).Check the box **Save passport in file** and click on **Finish**."
-msgstr ""
+msgstr "Une boîte apparaît (**Enregistrer le fichier de connexion de données et terminer**). Cochez la case**Enregistrer le passeport dans le fichier** et cliquez sur **Terminer**."
 
-#: ../../ar_manual/access_data.rst:40
+
 msgid "A box appears (**Import Data**). Select whether cube should be accessed by a pivot table and / or chart and specify a placement of the pivot table. Click on **OK**."
-msgstr ""
+msgstr "Une boîte apparaît (**Importer des données**). Sélectionnez si le cube doit être accessible par un tableau croisé dynamique et / ou un graphique et spécifiez un emplacement pour le tableau croisé dynamique. Cliquez sur **OK**."
 
-#: ../../ar_manual/access_data.rst:42
 msgid "An area for the pivot table appears in the sheet with the **Pivot Table Field** area on the right (:ref:`image275`). Click on facts to be displayed and click or drag dimensions to appropriate sectors of the pivot table in the **Pivot Table Field** area."
-msgstr ""
+msgstr "Une zone pour le tableau croisé dynamique s'affiche dans la feuille avec l' **Champ de Tableau croisé dynamique** de la zone sur la droite (:ref:`image275`). Cliquez sur les faits à afficher, puis cliquez ou faites glisser les dimensions pour les secteurs appropriés de la table pivot dans l' **Champ de Tableau croisé dynamique** de la zone."
 
-#: ../../ar_manual/access_data.rst:48
+
 msgid "`Pivot Table in Excel`"
-msgstr ""
-
+msgstr "`Tableau croisé dynamique dans Excel`"

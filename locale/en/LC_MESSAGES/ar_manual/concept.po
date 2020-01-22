@@ -1,55 +1,38 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2019, openIMIS team
-# This file is distributed under the same license as the openIMIS package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
-
 msgid ""
 msgstr "" 
 "Project-Id-Version: openIMIS \n" 
 "Report-Msgid-Bugs-To: \n" 
-"POT-Creation-Date: 2020-01-09 08:50+0100\n" 
+"POT-Creation-Date: 2019-08-16 15:21+0200\n" 
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n" 
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n" 
 "Language-Team: LANGUAGE <LL@li.org>\n" 
 "MIME-Version: 1.0\n" 
-"Content-Type: text/plain; charset=utf-8\n" 
-"Content-Transfer-Encoding: 8bit\n" 
-"Generated-By: Babel 2.6.0\n"
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n"
 
-#: ../../ar_manual/concept.rst:2
 msgid "Analytic and reporting user manual"
-msgstr ""
+msgstr "Analytic and reporting user manual"
 
-#: ../../ar_manual/concept.rst:4
 msgid "The Analytic and Reporting component of the Insurance Management Information System (AR-IMIS) provides managerial data for management of health insurance schemes supported by IMIS, allows easy and speedy analysis of these data with the objective to reveal causes of different phenomena encountered in supported health insurance schemes. Provided data allow also monitoring of developments within supported health insurance schemes and identification of potential errors in operational data."
-msgstr ""
+msgstr "The Analytic and Reporting component of the Insurance Management Information System (AR-IMIS) provides managerial data for management of health insurance schemes supported by IMIS, allows easy and speedy analysis of these data with the objective to reveal causes of different phenomena encountered in supported health insurance schemes. Provided data allow also monitoring of developments within supported health insurance schemes and identification of potential errors in operational data."
 
-#: ../../ar_manual/concept.rst:8
 msgid "Concept of AR-IMIS"
-msgstr ""
+msgstr "Concept of AR-IMIS"
 
-#: ../../ar_manual/concept.rst:10
 msgid "The concept of AR-IMIS is based on populating of the Data Warehouse with aggregate data from the operational database of IMIS. This populating is done automatically and regularly (usually once a week) from the operational database by Extract, Transformation and Loading process (ETL). Within this process data from the operational database are aggregated and stored in the Data Warehouse in conformance with multidimensional data model (:ref:`image271`)."
-msgstr ""
+msgstr "The concept of AR-IMIS is based on populating of the Data Warehouse with aggregate data from the operational database of IMIS. This populating is done automatically and regularly (usually once a week) from the operational database by Extract, Transformation and Loading process (ETL). Within this process data from the operational database are aggregated and stored in the Data Warehouse in conformance with multidimensional data model (:ref:`image271`)."
 
-#: ../../ar_manual/concept.rst:16
 msgid "`Concept of AR-IMIS`"
-msgstr ""
+msgstr "`Concept of AR-IMIS`"
 
-#: ../../ar_manual/concept.rst:18
 msgid "This model is suitable for analysis of data. Questions like “What is the number of newly covered insurees by an insurance product at during a calendar period and who were of an age, a gender, lived in a location and were cared for by a Enrolment officer? Data in the multidimensional Data Warehouse are presented by a suitable front-end tool. Currently AR-IMIS uses MS Excel as the front-end presentation tool. An Excel file is remotely connected to the Data Warehouse and data are stored in the Excel file in the form of so called pivot tables. The multidimensional model is based on the notion of facts and dimensions. The facts (indicators) are what we are interested in. For example, a fact may number of insured persons, number of active policies, number of submitted claims etc. Facts can be looked at from different angles-for example from the point of view of age and gender of insured persons, from the point of view of time period etc. These angles (points of view) are captured by the notion of dimensions that are used for qualification of facts (:ref:`image272`)."
-msgstr ""
+msgstr "This model is suitable for analysis of data. Questions like “What is the number of newly covered insurees by an insurance product at during a calendar period and who were of an age, a gender, lived in a location and were cared for by a Enrolment officer? Data in the multidimensional Data Warehouse are presented by a suitable front-end tool. Currently AR-IMIS uses MS Excel as the front-end presentation tool. An Excel file is remotely connected to the Data Warehouse and data are stored in the Excel file in the form of so called pivot tables. The multidimensional model is based on the notion of facts and dimensions. The facts (indicators) are what we are interested in. For example, a fact may number of insured persons, number of active policies, number of submitted claims etc. Facts can be looked at from different angles-for example from the point of view of age and gender of insured persons, from the point of view of time period etc. These angles (points of view) are captured by the notion of dimensions that are used for qualification of facts (:ref:`image272`)."
 
-#: ../../ar_manual/concept.rst:24
 msgid "`Facts and dimensions`"
-msgstr ""
+msgstr "`Facts and dimensions`"
 
-#: ../../ar_manual/concept.rst:26
 msgid "A dimension is composed from points that represent specific values in the dimension for which we want to look at facts-for example *November* 2015 may be one point in the Time dimension. Points of a dimension may be organized in hierarchies. Higher levels of hierarchies represent more aggregate views. Going to the lower levels by so called *drill down* operation we can analyze facts in more detail-for example we may drill down from calendar years to quarters of corresponding calendar years and further to months. We can go in an opposite direction and look at facts from more aggregate points of view (*drill up*).For example from looking at the amount of collected contributions in calendar months we can look at the same indicator according to quarters of a year or according to calendar years."
-msgstr ""
+msgstr "A dimension is composed from points that represent specific values in the dimension for which we want to look at facts-for example *November* 2015 may be one point in the Time dimension. Points of a dimension may be organized in hierarchies. Higher levels of hierarchies represent more aggregate views. Going to the lower levels by so called *drill down* operation we can analyze facts in more detail-for example we may drill down from calendar years to quarters of corresponding calendar years and further to months. We can go in an opposite direction and look at facts from more aggregate points of view (*drill up*).For example from looking at the amount of collected contributions in calendar months we can look at the same indicator according to quarters of a year or according to calendar years."
 
-#: ../../ar_manual/concept.rst:29
 msgid "Facts with related meaning and the identical set of qualifying dimension are represented in the multidimensional model of the Data Warehouse as so called cubes. We can do other operations on cubes as for example *slicing* when we select one or several points in one dimension and look at the rest of cube or dicing when we select on or several points in two or more dimensions. All such operations allow analysis of data in the Data Warehouse in an easy and comprehensive way."
-msgstr ""
-
+msgstr "Facts with related meaning and the identical set of qualifying dimension are represented in the multidimensional model of the Data Warehouse as so called cubes. We can do other operations on cubes as for example *slicing* when we select one or several points in one dimension and look at the rest of cube or dicing when we select on or several points in two or more dimensions. All such operations allow analysis of data in the Data Warehouse in an easy and comprehensive way."

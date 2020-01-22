@@ -118,7 +118,7 @@ msgstr "`` Administrateur des réclamations ``"
 #: ../../user_manual/claims/hf_claims.rst:59
 
 msgid "Select the ``Claim Administrator`` from the list of claim administrators by clicking on the arrow on the right of the selector, to select claims submitted by a specific claim administrator. *Note: The list will only be filled with the claim administrators belonging to the health facility selected.*"
-msgstr "Sélectionnez `` Administrateur de réclamations `` dans la liste des administrateurs de réclamations en cliquant sur la flèche à droite du sélecteur, pour sélectionner les réclamations soumises par un administrateur de réclamation spécifique. *Remarque: La liste ne sera remplie qu'avec les administrateurs de demandes d'indemnisation appartenant à l'établissement de santé sélectionné.*"
+msgstr "Sélectionnez ``Administrateur de réclamations`` dans la liste des administrateurs de réclamations en cliquant sur la flèche à droite du sélecteur, pour sélectionner les réclamations soumises par un administrateur de réclamation spécifique. *Remarque: La liste ne sera remplie qu'avec les administrateurs de demandes d'indemnisation appartenant à l'établissement de santé sélectionné.*"
 
 #: ../../user_manual/claims/hf_claims.rst:61
 #: ../../user_manual/claims/hf_claims.rst:311
@@ -140,7 +140,7 @@ msgstr "`` Numéro d'assurance ``"
 #: ../../user_manual/claims/hf_claims.rst:67
 
 msgid "Type in the beginning of; or the full ``Insurance Number``, to search for claims, on behalf of insurees with the insurance number which starts with or match completely the typed text."
-msgstr "Tapez au début de; ou le `` Numéro d'assurance `` complet, pour rechercher des réclamations, au nom des assurés avec le numéro d'assurance qui commence ou correspond complètement au texte tapé."
+msgstr "Tapez au début de; ou le ``Numéro d'assurance`` complet, pour rechercher des réclamations, au nom des assurés avec le numéro d'assurance qui commence ou correspond complètement au texte tapé."
 
 #: ../../user_manual/claims/hf_claims.rst:69
 #: ../../user_manual/claims/hf_claims.rst:268
@@ -151,7 +151,7 @@ msgstr "`` Réclamation n ° ``"
 #: ../../user_manual/claims/hf_claims.rst:71
 
 msgid "Type in the beginning of; or the full ``Claim No.``, to search for claims with the specific claim identification which starts with or match completely the typed text."
-msgstr "Tapez au début de; ou le `` numéro de revendication `` complet, pour rechercher des Réclamations avec l'identification de revendication spécifique qui commence ou correspond complètement au texte tapé."
+msgstr "Tapez au début de; ou le ``numéro de revendication`` complet, pour rechercher des Réclamations avec l'identification de revendication spécifique qui commence ou correspond complètement au texte tapé."
 
 #: ../../user_manual/claims/hf_claims.rst:73
 
@@ -161,7 +161,7 @@ msgstr "`` Vérifier l'état ``"
 #: ../../user_manual/claims/hf_claims.rst:75
 
 msgid "Select the ``Review Status`` from the list of options for review status by clicking on the arrow on the right of the selector, to select claims with specific review status."
-msgstr "Sélectionnez le `` Statut de révision `` dans la liste des options pour le statut de révision en cliquant sur la flèche à droite du sélecteur, pour sélectionner les Réclamations avec un statut de révision spécifique."
+msgstr "Sélectionnez le ``Statut de révision`` dans la liste des options pour le statut de révision en cliquant sur la flèche à droite du sélecteur, pour sélectionner les Réclamations avec un statut de révision spécifique."
 
 #: ../../user_manual/claims/hf_claims.rst:77
 
@@ -171,7 +171,7 @@ msgstr "`` Statut de rétroaction ``"
 #: ../../user_manual/claims/hf_claims.rst:79
 
 msgid "Select the ``Feedback Status`` from the list of options for feedback status by clicking on the arrow on the right of the selector, to select claims with specific feedback status."
-msgstr "Sélectionnez le `` Statut de rétroaction `` dans la liste des options pour le statut de rétroaction en cliquant sur la flèche à droite du sélecteur, pour sélectionner les Réclamations avec un statut de rétroaction spécifique."
+msgstr "Sélectionnez le ``Statut de rétroaction`` dans la liste des options pour le statut de rétroaction en cliquant sur la flèche à droite du sélecteur, pour sélectionner les Réclamations avec un statut de rétroaction spécifique."
 
 #: ../../user_manual/claims/hf_claims.rst:81
 
@@ -181,7 +181,7 @@ msgstr "`` Statut de réclamation ``"
 #: ../../user_manual/claims/hf_claims.rst:83
 
 msgid "Select the ``Claim Status`` from the list of options for claim status by clicking on the arrow on the right of the selector, to select claims with specific claim status."
-msgstr "Sélectionnez le `` Statut de réclamation `` dans la liste des options pour le statut de réclamation en cliquant sur la flèche à droite du sélecteur, pour sélectionner les réclamations avec un statut de réclamation spécifique."
+msgstr "Sélectionnez le ``Statut de réclamation`` dans la liste des options pour le statut de réclamation en cliquant sur la flèche à droite du sélecteur, pour sélectionner les réclamations avec un statut de réclamation spécifique."
 
 #: ../../user_manual/claims/hf_claims.rst:85
 #: ../../user_manual/claims/hf_claims.rst:272

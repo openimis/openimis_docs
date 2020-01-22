@@ -67,7 +67,7 @@ msgstr "** Panneau de boutons **"
 
 
 msgid "It has four buttons, ``Add``, ``Edit``, ``Delete`` and ``Move`` for actions on the locations and the ``Cancel`` button for re-directing to the :ref:`Home Page <home_page>`\\."
-msgstr "Il a quatre boutons, ``Ajouter``, ``Modifier``, ``Supprimer``et `` Déplacer`` pour les actions sur les emplacements et le bouton ``Annuler`` pour rediriger vers :ref:`Page d'accueil <home_page>` \\."
+msgstr "Il a quatre boutons, ``Ajouter``, ``Modifier``, ``Supprimer`` et ``Déplacer`` pour les actions sur les emplacements et le bouton ``Annuler`` pour rediriger vers :ref:`Page d'accueil <home_page>` \\."
 
 
 msgid "`Action Buttons - Locations Page`"

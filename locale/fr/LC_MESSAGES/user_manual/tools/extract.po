@@ -46,7 +46,7 @@ msgstr "`Navigation openIMIS Extracts`"
 
 
 msgid "Clicking on the sub menu ``IMIS Extracts`` re-directs the current user to the ``IMIS Extracts Page.``"
-msgstr "Cliquer sur le sous-menu ``Extraits IMIS`` redirige l'utilisateur actuel vers la `` Page Extraits IMIS``."
+msgstr "Cliquer sur le sous-menu ``Extraits IMIS`` redirige l'utilisateur actuel vers la ``Page Extraits IMIS``."
 
 msgid "This page opens in two different modes depending on the type of openIMIS installation: openIMIS Central (live server) or openIMIS offline (installed on local network in a health facility or an office of the scheme administration)."
 msgstr "Cette page s'ouvre dans deux modes différents selon le type de openIMIS installation: openIMIS Central (serveur) ou openIMIS en mode hors connexion (installé sur un réseau local dans un établissement de santé ou d'un office du schéma d'administration)."
@@ -165,7 +165,7 @@ msgstr "`Image 183`"
 
 
 msgid "Full extract ``(Download F)``"
-msgstr "Extrait complet `` (Télécharger F) ``"
+msgstr "Extrait complet``(Télécharger F)``"
 
 msgid "The Full extract will always contain all information in the database. These extracts are only generated in case the ``Full extract`` and the ``With Insuree`` checkbox are checked as shown below."
 msgstr "L'extrait Complet contient toujours toutes les informations dans la base de données. Ces extraits ne sont générés que dans le cas où la `extraire` et le `Avec le preneur d'assurance la case à cocher` sont cochées comme indiqué ci-dessous."
@@ -179,7 +179,7 @@ msgstr "En cliquant sur le bouton `Créer`, en cas de `extrait Complet` est coch
 
 
 msgid "Empty Extract ``(Download E)``"
-msgstr "Extrait vide `` (Télécharger E) ``"
+msgstr "Extrait vide``(Télécharger E)``"
 
 msgid "Empty extracts will only contain the data from registers and no data on insurees and their policies/photos. If a full set of register data should be included in the extract, the checkbox ``Full extract`` has to be checked as shown below."
 msgstr "Vide extraits ne contiennent que les données tirées des registres et des pas de données sur les assurés et leurs politiques/des photos. Si un ensemble complet de données du registre devrait être inclus dans l'extrait, la case à cocher `extrait Complet` doit être cochée comme indiqué ci-dessous."

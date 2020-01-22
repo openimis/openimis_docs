@@ -32,7 +32,7 @@ msgstr "La navigation"
 
 
 msgid "All functionality for use with the administration of processing of batches can be found under the main menu ``Claims``, sub menu ``Batch Run`` (:numref:`batch_run_menu`)."
-msgstr "Toutes les fonctionnalités à utiliser pour l'administration du traitement des lots se trouvent dans le menu principal ``Réclamations``, sous-menu `` Batch Run`` (:numref:`batch_run_menu`)."
+msgstr "Toutes les fonctionnalités à utiliser pour l'administration du traitement des lots se trouvent dans le menu principal ``Réclamations``, sous-menu ``Batch Run`` (:numref:`batch_run_menu`)."
 
 
 msgid "`Navigation Batch Run`"
@@ -40,7 +40,7 @@ msgstr "`Navigation Batch Run`"
 
 
 msgid "Clicking on the sub menu ``Batch Run`` re-directs the current user to the :ref:`Batch Run Control Page  <batch-run-control-page>`."
-msgstr "Un clic sur le sous-menu `` Batch Run`` redirige l'utilisateur actuel vers :ref:`Batch Run Control Page <batch-run-control-page>`."
+msgstr "Un clic sur le sous-menu ``Batch Run`` redirige l'utilisateur actuel vers :ref:`Batch Run Control Page <batch-run-control-page>`."
 
 
 msgid "Batch Run Control Page"

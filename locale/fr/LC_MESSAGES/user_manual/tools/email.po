@@ -35,7 +35,7 @@ msgid "`Navigation Email Settings`"
 msgstr "`Paramètres de messagerie de navigation`"
 
 msgid "Clicking on the sub menu ``Email Settigns`` re-directs the current user to the `Email settings Page. <#image-277-email-settings-page>`__"
-msgstr "Un clic sur le sous-menu ``Email Settigns`` redirige l'utilisateur actuel vers la page `` Paramètres de messagerie``. <#image-277-email-settings-page>`__"
+msgstr "Un clic sur le sous-menu ``Email Settigns`` redirige l'utilisateur actuel vers la page ``Paramètres de messagerie``. <#image-277-email-settings-page>`__"
 
 
 msgid "Email settings page"
