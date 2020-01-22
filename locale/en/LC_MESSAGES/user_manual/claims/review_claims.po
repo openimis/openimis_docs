@@ -163,7 +163,7 @@ msgstr "``Visit Date From``"
 
 #: ../../user_manual/claims/review_claims.rst:93
 msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date From`` which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
-msgstr "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date From`` which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup."
+msgstr "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date From`` which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
 
 #: ../../user_manual/claims/review_claims.rst:95
 #: ../../user_manual/claims/review_claims.rst:342
@@ -189,7 +189,7 @@ msgstr "``Claim Date To``"
 
 #: ../../user_manual/claims/review_claims.rst:105
 msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date To`` which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
-msgstr "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date To`` which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup."
+msgstr "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date To`` which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
 
 #: ../../user_manual/claims/review_claims.rst:107
 #: ../../user_manual/claims/review_claims.rst:519
@@ -440,7 +440,7 @@ msgstr "**Read-only information of the current claim**"
 
 #: ../../user_manual/claims/review_claims.rst:286
 msgid "``HF``"
-msgstr "``HF`"
+msgstr "``HF``"
 
 #: ../../user_manual/claims/review_claims.rst:288
 #: ../../user_manual/claims/review_claims.rst:501
@@ -531,7 +531,7 @@ msgstr "The full name of the patient on whom the claim is made"
 #: ../../user_manual/claims/review_claims.rst:334
 #: ../../user_manual/claims/review_claims.rst:507
 msgid "``Date Claimed``"
-msgstr "``Date Claimed`"
+msgstr "``Date Claimed``"
 
 #: ../../user_manual/claims/review_claims.rst:336
 #: ../../user_manual/claims/review_claims.rst:509
@@ -541,7 +541,7 @@ msgstr "The date on which the claim was prepared by the claiming health facility
 #: ../../user_manual/claims/review_claims.rst:338
 #: ../../user_manual/claims/review_claims.rst:511
 msgid "``Visits Date From``"
-msgstr "``Visits Date From`"
+msgstr "``Visits Date From``"
 
 #: ../../user_manual/claims/review_claims.rst:340
 #: ../../user_manual/claims/review_claims.rst:513
@@ -938,7 +938,7 @@ msgstr "Select an enrolment officer from the list of enrolment officers, by clic
 
 #: ../../user_manual/claims/review_claims.rst:557
 msgid "``Care Rendered``"
-msgstr "``Care Rendered`"
+msgstr "``Care Rendered``"
 
 #: ../../user_manual/claims/review_claims.rst:559
 #: ../../user_manual/claims/review_claims.rst:563

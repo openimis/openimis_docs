@@ -131,7 +131,7 @@ msgstr "Un clic sur le ``bouton de sélection de date`` fera apparaître un sél
 
 
 msgid "At anytime during the use of the pop-up, the user can see the date of **today**."
-msgstr "À tout moment pendant l'utilisation de la fenêtre contextuelle, l'utilisateur peut voir la date de ** aujourd'hui **."
+msgstr "À tout moment pendant l'utilisation de la fenêtre contextuelle, l'utilisateur peut voir la date de  **aujourd'hui** ."
 
 
 msgid "Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box."

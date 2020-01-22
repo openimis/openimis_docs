@@ -163,7 +163,7 @@ msgstr "``Date de visite du``"
 
 #: ../../user_manual/claims/review_claims.rst:93
 msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date From`` which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
-msgstr "Tapez une date; ou utilisez le sélecteur de date (:numref:`cal_picker`), pour rechercher des Réclamations avec une ``Date de visite à partir de`` qui est sur ou est supérieure à la date tapée / sélectionnée. *Remarque. Pour effacer la zone de saisie de la date; utilisez le bouton ``Effacer`` dans la fenêtre contextuelle du sélecteur de date.*"
+msgstr "Tapez une date; ou utilisez le sélecteur de date (:numref:`cal_picker`), pour rechercher des Réclamations avec une ``Date de visite à partir de`` qui est sur ou est supérieure à la date tapée/sélectionnée. *Remarque. Pour effacer la zone de saisie de la date; utilisez le bouton ``Effacer`` dans la fenêtre contextuelle du sélecteur de date.*"
 
 #: ../../user_manual/claims/review_claims.rst:95
 #: ../../user_manual/claims/review_claims.rst:342
@@ -214,7 +214,7 @@ msgstr "``Sélectionner``"
 
 #: ../../user_manual/claims/review_claims.rst:119
 msgid "A selection dropdown box to select between **Review Select** and **Feedback Select** to filter only claims whose review status is **Idle** or feedback status is **Idle** respectively from among claims currently in the Result Panel."
-msgstr "Une liste déroulante de sélection pour choisir entre**Review Select** et**Feedback Select** pour filtrer uniquement les Réclamations dont le statut de la revue est **Idle** ou le statut de la rétroaction est **Idle** respectivement parmi les Réclamations actuellement dans le résultat Panneau."
+msgstr "Une liste déroulante de sélection pour choisir entre**Review Select** et **Feedback Select** pour filtrer uniquement les Réclamations dont le statut de la revue est **Idle** ou le statut de la rétroaction est **Idle** respectivement parmi les Réclamations actuellement dans le résultat Panneau."
 
 #: ../../user_manual/claims/review_claims.rst:121
 msgid "``Random``"
@@ -374,7 +374,7 @@ msgstr "``Ignorer les commentaires``:"
 
 #: ../../user_manual/claims/review_claims.rst:244
 msgid "set the feedback status of the selected claims to **Not Selected**"
-msgstr "définissez le statut de rétroaction des Réclamations sélectionnées sur ** Non sélectionné **"
+msgstr "définissez le statut de rétroaction des Réclamations sélectionnées sur**Non sélectionné**"
 
 #: ../../user_manual/claims/review_claims.rst:246
 msgid "``Select For Review``:"
@@ -648,7 +648,7 @@ msgstr "``statut``"
 
 #: ../../user_manual/claims/review_claims.rst:392
 msgid "Select either the status in the claim **Passed** or **Rejected** for the corresponding medical service or item respectively."
-msgstr "Sélectionnez le statut dans la demande ** Réussi**ou** Rejeté ** pour le service médical ou l'article correspondant, respectivement."
+msgstr "Sélectionnez le statut dans la demande **Réussi** ou **Rejeté** pour le service médical ou l'article correspondant, respectivement."
 
 #: ../../user_manual/claims/review_claims.rst:394
 msgid "``rejection reason``"
@@ -656,7 +656,7 @@ msgstr "``motif de rejet``"
 
 #: ../../user_manual/claims/review_claims.rst:396
 msgid "The last column of each of the two grids, headed with character  '**R**', gives rejection reason number for each of the claimed services or claimed items in the claim services grid or the claim items grid respectively. Rejection reasons are as follows:"
-msgstr "La dernière colonne de chacune des deux grilles, intitulée `** R **`, indique le numéro du motif de rejet pour chacun des services ou éléments revendiqués dans la grille des services de réclamation ou la grille des éléments de réclamation respectivement. Les motifs de rejet sont les suivants:"
+msgstr "La dernière colonne de chacune des deux grilles, intitulée `**R**`, indique le numéro du motif de rejet pour chacun des services ou éléments revendiqués dans la grille des services de réclamation ou la grille des éléments de réclamation respectivement. Les motifs de rejet sont les suivants:"
 
 #: ../../user_manual/claims/review_claims.rst:398
 msgid "The rejection description is displayed on the screen when the mouse pointer is above the given line (:numref:`rejection_desc_img`)"

@@ -55,7 +55,7 @@ msgstr "La page Trouver une famille est la première étape du processus de rech
 
 
 msgid "**Search Panel**"
-msgstr "** Panneau de recherche **"
+msgstr "**Panneau de recherche**"
 
 
 msgid "The search panel allows a user to select specific criteria to minimise the search results. The following search options are available which can be used alone or in combination with each other."
@@ -118,7 +118,7 @@ msgstr "En cliquant sur le ``bouton de sélection de date``, un sélecteur de ca
 
 
 msgid "At anytime during the use of the pop-up, the user can see the date of **today**."
-msgstr "À tout moment pendant l'utilisation de la fenêtre contextuelle, l'utilisateur peut voir la date de ** aujourd'hui **."
+msgstr "À tout moment pendant l'utilisation de la fenêtre contextuelle, l'utilisateur peut voir la date de  **aujourd'hui** ."
 
 
 msgid "Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box."
@@ -267,7 +267,7 @@ msgstr "`Sélecteur de page - Panneau de résultats`"
 
 
 msgid "**Button Panel**"
-msgstr "** Panneau de boutons **"
+msgstr "**Panneau de boutons**"
 
 
 msgid "The ``Cancel`` button re-directs to the :ref:`Home Page <home_page>`."
@@ -275,7 +275,7 @@ msgstr "Le bouton ``Annuler`` redirige vers :ref:`Page d'accueil <home_page>`."
 
 
 msgid "**Information Panel**"
-msgstr "** Panneau d'information **"
+msgstr "**Panneau d'information**"
 
 
 msgid "The Information Panel is used to display messages back to the user. Messages will occur once a family/group has been added, updated or deleted or if there was an error at any time during the process of these actions."
@@ -333,7 +333,7 @@ msgstr "Le ``signe croix rouge`` sert à supprimer une famille / un groupe."
 
 
 msgid "**Insurees Panel**"
-msgstr "** Panel des assurés **"
+msgstr "**Panel des assurés**"
 
 msgid "The Insurees Panel displays a list of the insurees within the family/group. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image115`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the insuree record for editing or detailed viewing."
 msgstr "Les Assurés Panneau affiche une liste des assurés au sein de la famille/groupe. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image115`). La gauche dossier contient un lien, qui, si vous cliquez dessus, re-dirige l'utilisateur vers le preneur d'assurance record pour l'édition ou de l'affichage détaillé."
@@ -364,7 +364,7 @@ msgstr "Le ``signe croix rouge`` sert à supprimer un assuré."
 
 
 msgid "**Policies Panel**"
-msgstr "** Panneau des politiques **"
+msgstr "**Panneau des politiques**"
 
 msgid "The Policies Panel displays a list of the policies held by the family/group. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image117`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the policy for editing or detailed viewing. By default the first policy is selected and therefore in the Contribution Panel, only the contributions paid on that policy will be displayed in the Contribution Panel By selecting another policy in the list, the Contribution Panel, will refresh with the contributions paid on the newly selected policy."
 msgstr "Les Politiques Panneau affiche une liste des politiques détenus par la famille/groupe. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image117`). La gauche dossier contient un lien, qui, si vous cliquez dessus, re-dirige l'utilisateur de la politique de l'édition ou de l'affichage détaillé. Par défaut, la première politique est sélectionné et que, par conséquent, dans la Contribution de bord, seules les cotisations sur cette politique sera affichée dans la Contribution Panneau En sélectionnant une autre stratégie dans la liste, la Contribution du Panneau, permettra d'actualiser les cotisations versées sur la nouvelle politique."
@@ -407,7 +407,7 @@ msgstr "Le ``signe R bleu`` sert à renouveler une politique via la `Page politi
 
 
 msgid "**Contributions Panel**"
-msgstr "** Comité des contributions **"
+msgstr "**Comité des contributions**"
 
 msgid "The ``Contribution Panel`` displays a list of contributions paid on the policy currently selected in the ``Policies Panel``. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image120`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the contribution for editing or detailed viewing."
 msgstr "La `Contribution Panneau` affiche une liste des cotisations versées sur la politique actuellement sélectionné dans le volet de Politiques`. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image120`) La plus à gauche enregistrement contient un lien, qui, si vous cliquez dessus, re-dirige l'utilisateur de la contribution pour l'édition ou de l'affichage détaillé."
@@ -677,7 +677,7 @@ msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton
 
 
 msgid "**Mandatory data**"
-msgstr "** Données obligatoires **"
+msgstr "**Données obligatoires**"
 
 
 msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk)."

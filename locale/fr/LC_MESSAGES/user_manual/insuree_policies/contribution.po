@@ -59,7 +59,7 @@ msgstr "La ``page de recherche de cotisation`` est la première étape du proces
 
 
 msgid "**Search Panel**"
-msgstr "** Panneau de recherche **"
+msgstr "**Panneau de recherche**"
 
 
 msgid "The Search Panel allows a user to select specific criteria to minimise the search results. In the case of contributions the following search options are available which can be used alone or in combination with each other."
@@ -107,7 +107,7 @@ msgstr "Cliquer sur le ``bouton de sélection de date`` fera apparaître un sél
 
 
 msgid "At anytime during the use of the pop-up, the user can see the date of **today**."
-msgstr "À tout moment pendant l'utilisation de la fenêtre contextuelle, l'utilisateur peut voir la date de ** aujourd'hui **."
+msgstr "À tout moment pendant l'utilisation de la fenêtre contextuelle, l'utilisateur peut voir la date de **aujourd'hui**."
 
 
 msgid "Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box."
@@ -221,7 +221,7 @@ msgstr "`Sélecteur de page - Panneau de résultats`"
 
 
 msgid "**Button Panel**"
-msgstr "** Panneau de boutons **"
+msgstr "**Panneau de boutons**"
 
 
 msgid "The ``Cancel`` button re-directs to the :ref:`Home Page <home_page>`."
@@ -229,7 +229,7 @@ msgstr "Le bouton ``Annuler`` redirige vers :ref:`Page d'accueil <home_page>`."
 
 
 msgid "**Information Panel**"
-msgstr "** Panneau d'information **"
+msgstr "**Panneau d'information**"
 
 
 msgid "The Information Panel is used to display messages back to the user. Messages will occur once a contribution has been added, updated or deleted or if there was an error at any time during the process of these actions."
@@ -325,7 +325,7 @@ msgstr "L'utilisateur sera alors redirigé vers la `Page de présentation de la 
 
 
 msgid "**Mandatory data**"
-msgstr "** Données obligatoires **"
+msgstr "**Données obligatoires**"
 
 
 msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk)."

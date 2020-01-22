@@ -127,11 +127,11 @@ msgstr "Cliquer sur le ``bouton de sélection de date`` fera apparaître un sél
 
 #: ../../user_manual/insuree_policies/policy.rst:73
 msgid "At anytime during the use of the pop-up, the user can see the date of **today**."
-msgstr "À tout moment pendant l'utilisation de la fenêtre contextuelle, l'utilisateur peut voir la date de ** aujourd'hui **."
+msgstr "À tout moment pendant l'utilisation de la fenêtre contextuelle, l'utilisateur peut voir la date de  **aujourd'hui** ."
 
 #: ../../user_manual/insuree_policies/policy.rst:74
 msgid "Clicking on **today** will close the pop-up and display the today’s date in the corresponding date entry box."
-msgstr "Cliquez sur ** aujourd'hui ** pour fermer la fenêtre contextuelle et afficher la date du jour dans la zone de saisie de date correspondante."
+msgstr "Cliquez sur **aujourd'hui** pour fermer la fenêtre contextuelle et afficher la date du jour dans la zone de saisie de date correspondante."
 
 #: ../../user_manual/insuree_policies/policy.rst:75
 msgid "Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box."
@@ -205,7 +205,7 @@ msgstr "**Inactif** (Données de politique entrées mais politique non encore ac
 
 #: ../../user_manual/insuree_policies/policy.rst:113
 msgid "**Active** (Policy partially or fully paid and made active)"
-msgstr "** Actif ** (Police partiellement ou entièrement payée et rendue active)"
+msgstr "**Actif** (Police partiellement ou entièrement payée et rendue active)"
 
 #: ../../user_manual/insuree_policies/policy.rst:114
 msgid "**Suspended** (Policy was not fully paid for within the grace period)"
@@ -213,7 +213,7 @@ msgstr "**Suspendu** (La police n'a pas été entièrement payée dans le délai
 
 #: ../../user_manual/insuree_policies/policy.rst:115
 msgid "**Expired** (Policy is not active anymore as the insurance period elapsed)"
-msgstr "** Expiré ** (La police n'est plus active car la période d'assurance s'est écoulée)"
+msgstr "**Expiré** (La police n'est plus active car la période d'assurance s'est écoulée)"
 
 #: ../../user_manual/insuree_policies/policy.rst:117
 msgid "``Balance``"
