@@ -10,10 +10,10 @@ msgstr ""
 "Language-Team: lokalise.com\n\n" 
 "Language: fr\n"
 
-#, fuzzy
+
 msgid "User documentation"
 msgstr "Documentation utilisateur"
 
-#, fuzzy
+
 msgid "openIMIS documentation"
 msgstr "documentation openIMIS"

@@ -10,7 +10,7 @@ msgstr ""
 "Language-Team: lokalise.com\n\n" 
 "Language: fr\n"
 
-#, fuzzy
+
 msgid "Administration of registers"
 msgstr "Administration des registres"
 

@@ -13,7 +13,7 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 
 
-#, fuzzy
+
 msgid "Utilities"
 msgstr "Utilitaires"
 
@@ -23,21 +23,20 @@ msgstr "L'accès à la `Utilitaires` est limité aux utilisateurs avec le rôle 
 
 
 msgid "The ``Utilities`` is the place for database administration. By having access to this page, it is possible to backup and restore the openIMIS operational database and also to execute SQL Scripts (patches provided for maintenance or update of the database). At the top of the page, the current “Backend” version is displayed for reference."
-msgstr "Les `Utilities` est le lieu de l'administration de base de données. En ayant accès à cette page, il est possible de sauvegarder et de restaurer les openIMIS base de données opérationnelle et également exécuter des Scripts SQL (correctifs fournis pour la maintenance ou la mise à jour de la base de données). En haut de la page, la “Backend” afficher la version" 
-" de référence."
+msgstr "Les `Utilities` est le lieu de l'administration de base de données. En ayant accès à cette page, il est possible de sauvegarder et de restaurer les openIMIS base de données opérationnelle et également exécuter des Scripts SQL (correctifs fournis pour la maintenance ou la mise à jour de la base de données). En haut de la page, la “Backend” afficher la version de référence."
 
 
-#, fuzzy
+
 msgid "Navigation"
 msgstr "La navigation"
 
 
-#, fuzzy
+
 msgid "All functionality for use with the administration of utilities can be found under the main menu ``Tools``, sub menu ``Utilities``"
 msgstr "Toutes les fonctionnalités à utiliser avec l'administration des utilitaires se trouvent dans le menu principal ``Outils``, sous-menu `` Utilitaires ''"
 
 
-#, fuzzy
+
 msgid "`Navigation Utilities`"
 msgstr "`Utilitaires de navigation`"
 
@@ -46,12 +45,12 @@ msgid "Clicking on the sub menu ``Utilities`` re-directs the current user to the
 msgstr "Cliquer sur le sous-menu ``Utilitaires`` redirige l'utilisateur actuel vers la `Page Utilitaires. <#image-6.75-utilities-page>`__"
 
 
-#, fuzzy
+
 msgid "`Utilities Page`"
 msgstr "`Page Utilitaires`"
 
 
-#, fuzzy
+
 msgid "Backup"
 msgstr "Sauvegarde"
 
@@ -61,12 +60,12 @@ msgstr "L'utilitaire de sauvegarde se trouve dans le panneau supérieur de la `P
 
 
 
-#, fuzzy
+
 msgid "`Backup is in progress`"
 msgstr "`La sauvegarde est en cours`"
 
 
-#, fuzzy
+
 msgid "Restore"
 msgstr "Restaurer"
 
@@ -75,12 +74,12 @@ msgid "Restore utility can be found in the second panel of the `Utilities Page <
 msgstr "L'utilitaire de restauration se trouve dans le deuxième panneau de la `Page Utilitaires <#Utilities> ` _. L'utilisateur devra mettre le chemin du fichier de sauvegarde à restaurer. Une fois le chemin d'accès entré, l'utilisateur peut simplement cliquer sur le bouton ``Restaurer`` pour démarrer le processus et une barre de progression apparaîtra à l'écran. Les utilisateurs sont priés d'être patients pendant que le système exécute la tâche."
 
 
-#, fuzzy
+
 msgid "Execute script"
 msgstr "Exécuter le script"
 
 
-#, fuzzy
+
 msgid "Execute script can be found in the third panel of the `Utilities Page <#Utilities>`_. User will have to choose the script by clicking on the browse button. User will have to select the file only with the \".isf\" extension. After the file has been chosen, user can just click on the ``Execute`` button to run the script. Users are requested to be patient while the system is executing the script. After the script is executed successfully, backed version will be updated to the latest version. If user will try to run the lower or the equal version's script then system will prompt the user with the appropriate message."
 msgstr "Le script d'exécution se trouve dans le troisième panneau de la `Page Utilitaires <#Utilities> ` _. L'utilisateur devra choisir le script en cliquant sur le bouton Parcourir. L'utilisateur devra sélectionner le fichier uniquement avec l'extension `.isf`. Une fois le fichier choisi, l'utilisateur peut simplement cliquer sur le bouton ``Exécuter`` pour exécuter le script. Les utilisateurs sont priés d'être patients pendant que le système exécute le script. Une fois le script exécuté avec succès, la version sauvegardée sera mise à jour vers la dernière version. Si l'utilisateur essaie d'exécuter le script de la version inférieure ou égale, le système invite l'utilisateur avec le message approprié."
 

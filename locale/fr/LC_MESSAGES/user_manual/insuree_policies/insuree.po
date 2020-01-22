@@ -10,530 +10,530 @@ msgstr ""
 "Language-Team: lokalise.com\n\n" 
 "Language: fr\n"
 
-#, fuzzy
+
 msgid "Insuree"
 msgstr "Assuré"
 
-#, fuzzy
+
 msgid "Find Insuree"
 msgstr "Trouver l'assuré"
 
-#, fuzzy
+
 msgid "Access to the Find Insuree Page is restricted to users with the system roles of Accountant, Clerk and Health Facility Receptionist or with a role including an access to Insurees and Families/Insuree/Search."
 msgstr "L'accès à la page Trouver un assuré est limité aux utilisateurs ayant les rôles système de comptable, de commis et de réceptionniste d'établissement de santé ou avec un rôle incluant un accès aux assurés et aux familles / assuré / recherche."
 
-#, fuzzy
+
 msgid "Pre-conditions"
 msgstr "Conditions préalables"
 
-#, fuzzy
+
 msgid "Need to enquire on, or edit an insuree, and the family/group, policies and contributions associated."
 msgstr "Vous devez vous renseigner ou modifier un assuré, ainsi que la famille / le groupe, les politiques et les contributions associées."
 
-#, fuzzy
+
 msgid "Navigation"
 msgstr "La navigation"
 
-#, fuzzy
+
 msgid "All functionality for use with the administration of insurees can be found under the main menu ``Insurees and Policies``, sub menu ``Insurees``."
 msgstr "Toutes les fonctionnalités destinées à l'administration des assurés se trouvent dans le menu principal ``Assurés et polices``, sous-menu `` Assurés``."
 
-#, fuzzy
+
 msgid "`Navigation Insurees`"
 msgstr "`Assurés de navigation`"
 
-#, fuzzy
+
 msgid "Clicking on the sub menu ``Insurees`` re-directs the current user to the Find Insuree Page."
 msgstr "Un clic sur le sous-menu ``Assurés`` redirige l'utilisateur actuel vers la page Rechercher un assuré."
 
-#, fuzzy
+
 msgid "Find Insuree Page"
 msgstr "Page Rechercher un assuré"
 
-#, fuzzy
+
 msgid "`Find Insuree Page`"
 msgstr "`Rechercher la page de l'assuré`"
 
 msgid "The ``Find Insuree Page`` is the first step in the process of finding an insuree and thereafter accessing the family/group overview of insurees, policies and contributions. This initial page can be used to search for specific Insurees or groups of insurees based on specific criteria. The panel is divided into four panels (:numref:`image96`)"
 msgstr "Le preneur d'assurance Page` est la première étape dans le processus de recherche d'un preneur d'assurance et par la suite accéder à la famille/groupe vue d'ensemble des assurés, des politiques et des contributions. Cette première page peut être utilisée pour rechercher des Assurés ou des groupes d'assurés en fonction de critères spécifiques. Le panneau est divisé en quatre panneaux (:numref:`image96`)"
 
-#, fuzzy
+
 msgid "**Search Panel**"
 msgstr "** Panneau de recherche **"
 
-#, fuzzy
+
 msgid "The Search Panel allows a user to select specific criteria to minimise the search results. In the case of insurees the following search options are available, which can be used alone or in combination with each other."
 msgstr "Le panneau de recherche permet à un utilisateur de sélectionner des critères spécifiques pour minimiser les résultats de la recherche. Dans le cas des assurés, les options de recherche suivantes sont disponibles, qui peuvent être utilisées seules ou en combinaison les unes avec les autres."
 
-#, fuzzy
+
 msgid "``Last Name``"
 msgstr "``Nom de famille``"
 
-#, fuzzy
+
 msgid "Type in the beginning of; or the full ``Last name``; to search for insurees with a ``Last name``, which starts with or matches completely, the typed text."
 msgstr "Tapez au début de; ou le ``Nom de famille`` complet; pour rechercher des assurés avec un `` Nom de famille``, qui commence ou correspond complètement au texte tapé."
 
-#, fuzzy
+
 msgid "``Other Names``"
 msgstr "``Autres noms``"
 
-#, fuzzy
+
 msgid "Type in the beginning of; or the full ``Other Names`` to search for insurees with ``Other Names`` which starts with or matches completely, the typed text."
 msgstr "Tapez au début de; ou le ``Autres noms`` complet pour rechercher des assurés avec `` Autres noms`` qui commence ou correspond complètement au texte tapé."
 
-#, fuzzy
+
 msgid "``Insurance Number``"
 msgstr "``Numéro d'assurance``"
 
-#, fuzzy
+
 msgid "Type in the beginning of; or the full ``Insurance Number`` to search for insurees with the ``Insurance Number``, which starts with or matches completely, the typed text."
 msgstr "Tapez au début de; ou le ``Numéro d'assurance`` complet pour rechercher des assurés avec le `` Numéro d'assurance``, qui commence ou correspond complètement au texte tapé."
 
-#, fuzzy
+
 msgid "``Marital Status``"
 msgstr "``État matrimonial``"
 
-#, fuzzy
+
 msgid "Select the ``Marital Status``; from the list of marital status by clicking on the arrow on the right of the selector, to select insurees of a specific marital status."
 msgstr "Sélectionnez le ``État matrimonial``; dans la liste de l'état matrimonial en cliquant sur la flèche à droite du sélecteur, pour sélectionner les assurés d'un état matrimonial spécifique."
 
-#, fuzzy
+
 msgid "``Phone Number``"
 msgstr "``Numéro de téléphone``"
 
-#, fuzzy
+
 msgid "Type in the beginning of; or the full ``Phone Number`` to search for insurees with a ``Phone Number``, which starts with or matches completely, the typed number."
 msgstr "Tapez au début de; ou le ``Numéro de téléphone`` complet pour rechercher des assurés avec un `` Numéro de téléphone``, qui commence ou correspond complètement au numéro tapé."
 
-#, fuzzy
+
 msgid "``Birth Date From``"
 msgstr "``Date de naissance du``"
 
-#, fuzzy
-msgid "Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for insurees who have the same or later birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
-msgstr "Tapez une date; ou utilisez le bouton de sélection de date pour saisir la ``date de naissance du`` pour rechercher des assurés qui ont la même date de naissance ou une date ultérieure. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace. *"
 
-#, fuzzy
+msgid "Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for insurees who have the same or later birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Tapez une date; ou utilisez le bouton de sélection de date pour saisir la ``date de naissance du`` pour rechercher des assurés qui ont la même date de naissance ou une date ultérieure. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace.*"
+
+
 msgid "``Birth Date To``"
 msgstr "``Date de naissance à``"
 
-#, fuzzy
-msgid "Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for insurees who have the same or earlier birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
-msgstr "Tapez une date; ou utilisez le bouton de sélection de date pour saisir la ``date de naissance jusqu'à`` pour rechercher des assurés qui ont la même date de naissance ou une date antérieure. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace. *"
 
-#, fuzzy
+msgid "Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for insurees who have the same or earlier birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Tapez une date; ou utilisez le bouton de sélection de date pour saisir la ``date de naissance jusqu'à`` pour rechercher des assurés qui ont la même date de naissance ou une date antérieure. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace.*"
+
+
 msgid "``Date Selector Button``"
 msgstr "``Bouton de sélection de date``"
 
-#, fuzzy
+
 msgid "Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image97`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted."
 msgstr "Un clic sur le ``bouton de sélection de date`` fera apparaître un sélecteur de calendrier facile à utiliser (:numref:`image97`) par défaut, le calendrier affichera le mois en cours, ou le mois de la date actuellement sélectionnée, avec le jour en surbrillance."
 
-#, fuzzy
+
 msgid "At anytime during the use of the pop-up, the user can see the date of **today**."
 msgstr "À tout moment pendant l'utilisation de la fenêtre contextuelle, l'utilisateur peut voir la date de ** aujourd'hui **."
 
-#, fuzzy
+
 msgid "Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box."
 msgstr "Cliquez sur * aujourd'hui * pour fermer la fenêtre contextuelle et afficher la date du jour dans la zone de saisie de date correspondante."
 
-#, fuzzy
+
 msgid "Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box."
 msgstr "Cliquez sur n'importe quel jour du mois pour fermer la fenêtre contextuelle et afficher la date sélectionnée dans la zone de saisie de date correspondante."
 
-#, fuzzy
+
 msgid "Clicking on the arrow to the left displays the previous month."
 msgstr "Cliquer sur la flèche à gauche affiche le mois précédent."
 
-#, fuzzy
+
 msgid "Clicking on the arrow on the right will displays the following month."
 msgstr "Cliquer sur la flèche à droite affichera le mois suivant."
 
-#, fuzzy
+
 msgid "Clicking on the month will display all the months for the year."
 msgstr "Cliquer sur le mois affichera tous les mois de l'année."
 
-#, fuzzy
+
 msgid "Clicking on the year will display a year selector."
 msgstr "Cliquer sur l'année affichera un sélecteur d'année."
 
-#, fuzzy
+
 msgid "|logo27|"
 msgstr "|logo27|"
 
-#, fuzzy
+
 msgid "|logo28|"
 msgstr "|logo28|"
 
-#, fuzzy
+
 msgid "|logo29|"
 msgstr "|logo29|"
 
-#, fuzzy
+
 msgid "`Calendar Selector - Search Panel`"
 msgstr "`Sélecteur de calendrier - Panneau de recherche`"
 
-#, fuzzy
+
 msgid "``Gender``"
 msgstr "``Sexe``"
 
-#, fuzzy
+
 msgid "Select the ``Gender``; from the list of genders by clicking on the arrow on the right of the selector, to select insurees of a specific gender."
 msgstr "Sélectionnez le ``Sexe``; dans la liste des genres en cliquant sur la flèche à droite du sélecteur, pour sélectionner les assurés d'un sexe spécifique."
 
-#, fuzzy
+
 msgid "``Region``"
 msgstr "`` Région``"
 
-#, fuzzy
-msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select insurees from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*"
-msgstr "Sélectionnez la ``Région``; dans la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner les assurés d'une région spécifique. * Remarque: La liste ne sera remplie qu'avec les régions affectées à l'utilisateur actuellement connecté. S'il ne s'agit que d'une seule, la région sera automatiquement sélectionnée. *"
 
-#, fuzzy
+msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select insurees from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*"
+msgstr "Sélectionnez la ``Région``; dans la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner les assurés d'une région spécifique. *Remarque: La liste ne sera remplie qu'avec les régions affectées à l'utilisateur actuellement connecté. S'il ne s'agit que d'une seule, la région sera automatiquement sélectionnée.*"
+
+
 msgid "``District``"
 msgstr "`` Quartier``"
 
-#, fuzzy
-msgid "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select insurees from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*"
-msgstr "Sélectionnez le ``District``; dans la liste des districts en cliquant sur la flèche à droite du sélecteur pour sélectionner les assurés d'un district spécifique. * Remarque: La liste ne sera remplie qu'avec les districts appartenant à la région sélectionnée et attribués à l'utilisateur actuellement connecté. S'il ne s'agit que d'un seul, le district sera automatiquement sélectionné. *"
 
-#, fuzzy
+msgid "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select insurees from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*"
+msgstr "Sélectionnez le ``District``; dans la liste des districts en cliquant sur la flèche à droite du sélecteur pour sélectionner les assurés d'un district spécifique. *Remarque: La liste ne sera remplie qu'avec les districts appartenant à la région sélectionnée et attribués à l'utilisateur actuellement connecté. S'il ne s'agit que d'un seul, le district sera automatiquement sélectionné.*"
+
+
 msgid "``Municipality``"
 msgstr "``Municipalité``"
 
-#, fuzzy
-msgid "Select the ``Municipality``; from the list of wards by clicking on the arrow on the right of the selector to select insurees from a specific municipality. *Note: The list will only be filled with the wards in the selected district above.*"
-msgstr "Sélectionnez la ``Municipalité``; dans la liste des quartiers en cliquant sur la flèche à droite du sélecteur pour sélectionner les assurés d'une commune en particulier. * Remarque: La liste ne sera remplie qu'avec les quartiers du district sélectionné ci-dessus. *"
 
-#, fuzzy
+msgid "Select the ``Municipality``; from the list of wards by clicking on the arrow on the right of the selector to select insurees from a specific municipality. *Note: The list will only be filled with the wards in the selected district above.*"
+msgstr "Sélectionnez la ``Municipalité``; dans la liste des quartiers en cliquant sur la flèche à droite du sélecteur pour sélectionner les assurés d'une commune en particulier. *Remarque: La liste ne sera remplie qu'avec les quartiers du district sélectionné ci-dessus.*"
+
+
 msgid "``Village``"
 msgstr "``Village``"
 
-#, fuzzy
-msgid "Select the ``Village``; from the list of villages by clicking on the arrow on the right of the selector to select insurees from a specific village. *Note: The list will only be filled with the villages in the selected municipality above.*"
-msgstr "Sélectionnez le ``Village``; dans la liste des villages en cliquant sur la flèche à droite du sélecteur pour sélectionner les assurés d'un village spécifique. * Remarque: La liste ne sera remplie qu'avec les villages de la commune sélectionnée ci-dessus. *"
 
-#, fuzzy
+msgid "Select the ``Village``; from the list of villages by clicking on the arrow on the right of the selector to select insurees from a specific village. *Note: The list will only be filled with the villages in the selected municipality above.*"
+msgstr "Sélectionnez le ``Village``; dans la liste des villages en cliquant sur la flèche à droite du sélecteur pour sélectionner les assurés d'un village spécifique. *Remarque: La liste ne sera remplie qu'avec les villages de la commune sélectionnée ci-dessus.*"
+
+
 msgid "``Photo Assigned``"
 msgstr "``Photo attribuée``"
 
-#, fuzzy
+
 msgid "Select whether all insurees are searched [**All**] or only insurees with a photo assigned [**Yes**] or only insurees with no photo assigned [**No**]."
 msgstr "Sélectionnez si tous les assurés sont recherchés [** Tous **] ou uniquement les assurés auxquels une photo a été affectée [** Oui **] ou uniquement les assurés sans photo attribuée [** Non **]."
 
-#, fuzzy
+
 msgid "``Historical``"
 msgstr "``Historique``"
 
-#, fuzzy
+
 msgid "Click on Historical to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image98`)"
 msgstr "Cliquez sur Historique pour voir les enregistrements historiques correspondant aux critères sélectionnés. Les enregistrements historiques sont affichés dans le résultat avec une ligne au milieu du texte (barré) pour les définir clairement à partir des enregistrements actuels (:numref:`image98`)"
 
-#, fuzzy
+
 msgid "`Historical records - Result Panel`"
 msgstr "`Dossiers historiques - Panneau de résultats`"
 
-#, fuzzy
+
 msgid "``Search Button``"
 msgstr "``Bouton de recherche``"
 
-#, fuzzy
+
 msgid "Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel."
 msgstr "Une fois les critères saisis, utilisez le bouton de recherche pour filtrer les enregistrements, les résultats apparaîtront dans le panneau de résultats."
 
-#, fuzzy
+
 msgid "**Result Panel**"
-msgstr "** Panneau de résultats **"
+msgstr "**Panneau de résultats**"
 
 msgid "The result panel displays a list of all Insurees found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image99`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Family Overview Page <#family-overview-page.>`__ of the insuree’s family, or the `Insuree Page <#insuree-page>`__ if it is a historical record for viewing purposes."
 msgstr "Le panneau de résultats affiche une liste de tous les assurés trouvés, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est surligné en bleu clair, tandis que le survol des enregistrements change la surbrillance en jaune (:numref:`image99`). L'enregistrement le plus à gauche contient un lien hypertexte qui, s'il est cliqué, redirige l'utilisateur vers la `Page de présentation de la famille <#family-overview-page.>`__ de la famille de l'assuré, ou la` Page de l'assuré <#insuree-page>`__ s'il s'agit d'un enregistrement historique à des fins de visualisation."
 
-#, fuzzy
+
 msgid "`Selected record (blue), hovered records (yellow) - Result Panel`"
 msgstr "`Enregistrement sélectionné (bleu), enregistrements survolés (jaune) - Panneau de résultats`"
 
-#, fuzzy
+
 msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image100`)"
 msgstr "Un maximum de 15 enregistrements sont affichés en même temps, d'autres enregistrements peuvent être consultés en parcourant les pages à l'aide du sélecteur de page en bas du panneau de résultat (:numref:`image100`)"
 
-#, fuzzy
+
 msgid "`Page selector- Result Panel`"
 msgstr "`Sélecteur de page - Panneau de résultats`"
 
-#, fuzzy
+
 msgid "**Button Panel**"
 msgstr "** Panneau de boutons **"
 
-#, fuzzy
+
 msgid "The ``CLAIMS`` button directs to the  Claims Control Pages for the selected insure. The  Claims Control Pages is populated by the insurance number of the selected insuree. The CLAIMS button is available only if the user has a role that includes access to Claims/Claim/Search."
 msgstr "Le bouton ``RÉCLAMATION`` renvoie aux pages de contrôle des réclamations de l'assuré sélectionné. Les pages de contrôle des sinistres sont remplies par le numéro d'assurance de l'assuré sélectionné. Le bouton RÉCLAMATIONS n'est disponible que si l'utilisateur a un rôle qui comprend l'accès aux réclamations / réclamation / recherche."
 
 msgid "The ``CLAIMS REVIEWED`` button directs to the Claims Overview Page for the selected insure. The  Claims Overview Page is populated by the insurance number of the selected insuree. The CLAIMS REVIEWED button is available only if the user has a role that includes access to Claims/Claim/Review."
 msgstr "Les `DEMANDES EXAMINÉES` bouton de lien direct vers la Page de Présentation des Réclamations pour l'assurer. Les Réclamations Aperçu de la Page est remplie par l'assurance numéro de la preneur d'assurance. Les DEMANDES EXAMINÉES bouton est disponible uniquement si l'utilisateur a un rôle qui inclut l'accès aux Demandes/Demande/Révision."
 
-#, fuzzy
+
 msgid "The ``Cancel`` button re-directs to the ``Home Page``."
 msgstr "Le bouton ``Annuler``redirige vers la `` page d'accueil``."
 
-#, fuzzy
+
 msgid "**Information Panel**"
 msgstr "** Panneau d'information **"
 
-#, fuzzy
+
 msgid "The Information Panel is used to display messages back to the user. Messages will occur once a insuree has been added, updated or deleted or if there was an error at any time during the process of these actions."
 msgstr "Le panneau d'informations est utilisé pour afficher les messages à l'utilisateur. Des messages s'afficheront une fois qu'un assuré a été ajouté, mis à jour ou supprimé ou s'il y a eu une erreur à tout moment au cours du processus de ces actions."
 
-#, fuzzy
+
 msgid "Insuree Page"
 msgstr "Page de l'assuré"
 
-#, fuzzy
+
 msgid "**Data Entry**"
 msgstr "**La saisie des données**"
 
-#, fuzzy
+
 msgid "`Insuree Page`"
 msgstr "`Page de l'assuré`"
 
-#, fuzzy
+
 msgid "``Relationship``"
 msgstr "``Relation``"
 
-#, fuzzy
+
 msgid "Select from the list of available relationships of the insuree to the head of family/group."
 msgstr "Sélectionnez dans la liste des relations disponibles de l'assuré avec le chef de famille / groupe."
 
-#, fuzzy
+
 msgid "Enter the insurance number for the insuree. Mandatory."
 msgstr "Entrez le numéro d'assurance de l'assuré. Obligatoire."
 
-#, fuzzy
+
 msgid "``Last name``"
 msgstr "``Nom de famille``"
 
-#, fuzzy
+
 msgid "Enter the last name (surname) for the insuree. Mandatory, 100 characters maximum."
 msgstr "Entrez le nom de famille de l'assuré. Obligatoire, 100 caractères maximum."
 
-#, fuzzy
+
 msgid "Enter other names of the insuree. Mandatory, 100 characters maximum."
 msgstr "Entrez d'autres noms de l'assuré. Obligatoire, 100 caractères maximum."
 
-#, fuzzy
+
 msgid "``Birth Date``"
 msgstr "``Date de naissance``"
 
-#, fuzzy
-msgid "Enter the date of birth for the insuree. *Note: You can also use the button next to the birth date field to select a date to be entered.*"
-msgstr "Entrez la date de naissance de l'assuré. * Remarque: Vous pouvez également utiliser le bouton à côté du champ de date de naissance pour sélectionner une date à saisir. *"
 
-#, fuzzy
+msgid "Enter the date of birth for the insuree. *Note: You can also use the button next to the birth date field to select a date to be entered.*"
+msgstr "Entrez la date de naissance de l'assuré. *Remarque: Vous pouvez également utiliser le bouton à côté du champ de date de naissance pour sélectionner une date à saisir.*"
+
+
 msgid "Select from the list of available genders the gender of the insuree. Mandatory."
 msgstr "Sélectionnez dans la liste des genres disponibles le sexe de l'assuré. Obligatoire."
 
-#, fuzzy
+
 msgid "Select from the list of available options for the marital status of the insuree."
 msgstr "Sélectionnez dans la liste des options disponibles pour l'état matrimonial de l'assuré."
 
-#, fuzzy
+
 msgid "``Beneficiary Card``"
 msgstr "``Carte Bénéficiaire``"
 
-#, fuzzy
+
 msgid "Select from the list of options whether or not the card was issued to the insure."
 msgstr "Sélectionnez dans la liste des options si la carte a été délivrée à l'assuré."
 
-#, fuzzy
+
 msgid "``Current Region``"
 msgstr "``Région actuelle``"
 
-#, fuzzy
+
 msgid "Select from the list of available regions the region, in which the insuree temporarily stays."
 msgstr "Sélectionnez dans la liste des régions disponibles la région dans laquelle l'assuré séjourne temporairement."
 
-#, fuzzy
+
 msgid "``Current District``"
 msgstr "``District actuel``"
 
-#, fuzzy
-msgid "Select from the list of available districts the district, in which the insuree temporarily stays. *Note: The list will only be filled with the districts belonging to the selected region*"
-msgstr "Sélectionnez dans la liste des districts disponibles le district dans lequel l'assuré séjourne temporairement. * Remarque: La liste ne sera remplie qu'avec les quartiers appartenant à la région sélectionnée *"
 
-#, fuzzy
+msgid "Select from the list of available districts the district, in which the insuree temporarily stays. *Note: The list will only be filled with the districts belonging to the selected region*"
+msgstr "Sélectionnez dans la liste des districts disponibles le district dans lequel l'assuré séjourne temporairement. *Remarque: La liste ne sera remplie qu'avec les quartiers appartenant à la région sélectionnée*"
+
+
 msgid "``Current Municipality``"
 msgstr "``Municipalité actuelle``"
 
-#, fuzzy
-msgid "Select from the list of available municipalities the municipality, in which the insuree temporarily stays. *Note: The list will only be filled with the municipalities belonging to the selected district.*"
-msgstr "Sélectionnez dans la liste des communes disponibles la commune dans laquelle l'assuré séjourne temporairement. * Remarque: La liste ne sera remplie qu'avec les communes appartenant au district sélectionné. *"
 
-#, fuzzy
+msgid "Select from the list of available municipalities the municipality, in which the insuree temporarily stays. *Note: The list will only be filled with the municipalities belonging to the selected district.*"
+msgstr "Sélectionnez dans la liste des communes disponibles la commune dans laquelle l'assuré séjourne temporairement. *Remarque: La liste ne sera remplie qu'avec les communes appartenant au district sélectionné.*"
+
+
 msgid "``Current Village``"
 msgstr "``Village actuel``"
 
-#, fuzzy
-msgid "Select from the list of available villages the village, in which the insuree temporarily stays. *Note: The list will only be filled with the villages belonging to the selected municipality.*"
-msgstr "Sélectionnez dans la liste des villages disponibles le village dans lequel l'assuré séjourne temporairement. * Remarque: La liste ne sera remplie qu'avec les villages appartenant à la commune sélectionnée. *"
 
-#, fuzzy
+msgid "Select from the list of available villages the village, in which the insuree temporarily stays. *Note: The list will only be filled with the villages belonging to the selected municipality.*"
+msgstr "Sélectionnez dans la liste des villages disponibles le village dans lequel l'assuré séjourne temporairement. *Remarque: La liste ne sera remplie qu'avec les villages appartenant à la commune sélectionnée.*"
+
+
 msgid "``Current Address Details.``"
 msgstr "``Détails de l'adresse actuelle``."
 
-#, fuzzy
+
 msgid "Enter details of the temporal address of the insuree."
 msgstr "Entrez les détails de l'adresse temporelle de l'assuré."
 
-#, fuzzy
+
 msgid "``Profession``"
 msgstr "``Profession``"
 
-#, fuzzy
+
 msgid "Select from the list of available professions the profession of the insuree."
 msgstr "Sélectionnez dans la liste des professions disponibles la profession de l'assuré."
 
-#, fuzzy
+
 msgid "``Education``"
 msgstr "``Éducation``"
 
-#, fuzzy
+
 msgid "Select from the list of available educations the education of the insuree."
 msgstr "Sélectionnez dans la liste des formations disponibles la formation de l'assuré."
 
-#, fuzzy
+
 msgid "Enter the phone number for the insuree."
 msgstr "Entrez le numéro de téléphone de l'assuré."
 
-#, fuzzy
+
 msgid "``Email``"
 msgstr "`` Courriel``"
 
-#, fuzzy
+
 msgid "Enter the e-mail address of the insuree."
 msgstr "Saisissez l'adresse e-mail de l'assuré."
 
-#, fuzzy
+
 msgid "``Identification Type``"
 msgstr "``Type d'identification``"
 
-#, fuzzy
+
 msgid "Select the type of the identification document of the insuree."
 msgstr "Sélectionnez le type de pièce d'identité de l'assuré."
 
-#, fuzzy
+
 msgid "``Identification No.``"
 msgstr "``Numéro d'identification``"
 
-#, fuzzy
+
 msgid "Enter alphanumeric identification of the document of the insuree."
 msgstr "Saisissez l'identification alphanumérique du document de l'assuré."
 
-#, fuzzy
+
 msgid "``Region of FSP``"
 msgstr "``Région du FSP``"
 
-#, fuzzy
+
 msgid "Select from the list of available regions the region, in which the chosen primary health facility (First Service Point) of the insuree is located."
 msgstr "Sélectionnez dans la liste des régions disponibles la région dans laquelle se situe l'établissement de santé primaire choisi (First Service Point) de l'assuré."
 
-#, fuzzy
+
 msgid "``District of FSP``"
 msgstr "`` District de FSP``"
 
-#, fuzzy
-msgid "Select from the list of available districts the district, in which the chosen primary health facility (First Service Point) of the insuree is located. *Note: The list will only be filled with the districts belonging to the selected region.*"
-msgstr "Sélectionnez dans la liste des districts disponibles le district dans lequel se trouve l'établissement de santé primaire choisi (First Service Point) de l'assuré. * Remarque: La liste ne sera remplie qu'avec les districts appartenant à la région sélectionnée. *"
 
-#, fuzzy
+msgid "Select from the list of available districts the district, in which the chosen primary health facility (First Service Point) of the insuree is located. *Note: The list will only be filled with the districts belonging to the selected region.*"
+msgstr "Sélectionnez dans la liste des districts disponibles le district dans lequel se trouve l'établissement de santé primaire choisi (First Service Point) de l'assuré. *Remarque: La liste ne sera remplie qu'avec les districts appartenant à la région sélectionnée.*"
+
+
 msgid "``Level of FSP``"
 msgstr "``Niveau de FSP``"
 
-#, fuzzy
+
 msgid "Select the level of the chosen primary health facility (First Service Point) of the insuree."
 msgstr "Sélectionnez le niveau de l'établissement de santé primaire choisi (premier point de service) de l'assuré."
 
-#, fuzzy
+
 msgid "``First Service Point``"
 msgstr "``Premier point de service``"
 
-#, fuzzy
-msgid "Select from the list of available health facilities the chosen primary health facility (First Service Point) of the insuree. *Note: The list will only be filled with the health facilities belonging to the selected district which are of the selected level.*"
-msgstr "Sélectionner dans la liste des formations sanitaires disponibles la structure de santé primaire choisie (First Service Point) de l'assuré. * Remarque: La liste ne sera remplie qu'avec les formations sanitaires appartenant au district sélectionné qui sont du niveau sélectionné. *"
 
-#, fuzzy
+msgid "Select from the list of available health facilities the chosen primary health facility (First Service Point) of the insuree. *Note: The list will only be filled with the health facilities belonging to the selected district which are of the selected level.*"
+msgstr "Sélectionner dans la liste des formations sanitaires disponibles la structure de santé primaire choisie (First Service Point) de l'assuré. *Remarque: La liste ne sera remplie qu'avec les formations sanitaires appartenant au district sélectionné qui sont du niveau sélectionné.*"
+
+
 msgid "``Browse``"
 msgstr "`` Parcourir``"
 
-#, fuzzy
+
 msgid "Browse to get the photo for the insuree related to his/her insurance number."
 msgstr "Parcourez pour obtenir la photo de l'assuré liée à son numéro d'assurance."
 
 msgid "*Note: There is an automated service in the openIMIS Server which will run on configured time basis repeatedly and assign related photos to insurees without photos if any exist in the openIMIS database. So after a user has input insuree's insurance number and no photo is displayed, there is no need to browse for the photo as that process will be done automatically by the service if the service is configured.*"
 msgstr "*Note: Il y a un service automatisé dans le openIMIS Serveur qui sera exécuté sur le temps configuré de base à plusieurs reprises et attribuer des photos pour les assurés sans photos s'il en existe, dans le openIMIS base de données. Donc, après qu'un utilisateur a l'entrée du preneur d'assurance, le numéro d'assurance et aucune photo n'est affichée, il n'est pas nécessaire de parcourir pour la photo en tant que processus sera fait automatiquement par le service si le service est configuré.*"
 
-#, fuzzy
+
 msgid "**Saving**"
 msgstr "**Sauvegarder**"
 
-#, fuzzy
+
 msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Family Overview Page <#family-overview-page.>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the insuree has been saved will appear on the Information Panel."
 msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton ``Sauvegarder`` sauvegardera l'enregistrement. L'utilisateur sera redirigé vers la `Page de présentation de la famille <#family-overview-page.> page de présentation de la <#family-overview-page.>`__, avec l'enregistrement nouvellement enregistré affiché et sélectionné dans le panneau de résultats. Un message confirmant que l'assuré a été enregistré apparaîtra sur le panneau d'information."
 
-#, fuzzy
+
 msgid "**Mandatory data**"
 msgstr "** Données obligatoires **"
 
-#, fuzzy
+
 msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk)"
 msgstr "Si les données obligatoires ne sont pas saisies au moment où l'utilisateur clique sur le bouton ``Enregistrer``, un message apparaîtra dans le panneau d'informations et le champ de données prendra le focus (par un astérisque)"
 
-#, fuzzy
+
 msgid "**Cancel**"
 msgstr "**Annuler**"
 
-#, fuzzy
+
 msgid "By clicking on the ``Cancel`` button, the user will be re-directed to the `Family Overview Page <#family-overview-page.>`__."
 msgstr "En cliquant sur le bouton ``Annuler``, l'utilisateur sera redirigé vers la `Page de présentation de la famille <#family-overview-page.> page de présentation de la <#family-overview-page.>`__."
 
-#, fuzzy
+
 msgid "Adding an Insuree"
 msgstr "Ajout d'un assuré"
 
-#, fuzzy
+
 msgid "Click on the Green Plus Sign to re-direct to the `Insuree Page <#insuree-page>`__\\."
 msgstr "Cliquez sur le signe Green Plus pour rediriger vers la `page de l'assuré <#insuree-page>`__ \\."
 
-#, fuzzy
+
 msgid "When the page opens all entry fields are empty. See the `Insuree Page <#insuree-page>`__ for information on the data entry and mandatory fields."
 msgstr "Lorsque la page s'ouvre, tous les champs de saisie sont vides. Voir la `Page de l'assuré <#insuree-page>`__ pour plus d'informations sur la saisie des données et les champs obligatoires."
 
-#, fuzzy
+
 msgid "Editing an Insuree"
 msgstr "Modification d'un assuré"
 
-#, fuzzy
+
 msgid "Click on the Yellow Pencil Sign to re-direct to the `Insuree Page <#insuree-page>`__\\."
 msgstr "Cliquez sur le signe du crayon jaune pour rediriger vers la `page de l'assuré <#insuree-page>`__ \\."
 
-#, fuzzy
+
 msgid "The page will open with the current information loaded into the data entry fields. See the Insuree Page for information on the data entry and mandatory fields."
 msgstr "La page s'ouvrira avec les informations actuelles chargées dans les champs de saisie de données. Voir la page de l'assuré pour plus d'informations sur la saisie des données et les champs obligatoires."
 
-#, fuzzy
+
 msgid "Deleting an Insuree"
 msgstr "Suppression d'un assuré"
 
-#, fuzzy
+
 msgid "Click on the Red Cross Sign to delete the currently selected record."
 msgstr "Cliquez sur le signe Croix-Rouge pour supprimer l'enregistrement actuellement sélectionné."
 
-#, fuzzy
+
 msgid "Before deleting a confirmation popup (:numref:`image127`) is displayed, which requires the user to confirm if the action should really becarried out?"
 msgstr "Avant de supprimer une fenêtre de confirmation (:numref:`image127`) s'affiche, ce qui oblige l'utilisateur à confirmer si l'action doit vraiment être exécutée?"
 
-#, fuzzy
+
 msgid "`Delete confirmation- Button Panel`"
 msgstr "`Supprimer la confirmation - Panneau de boutons`"
 
-#, fuzzy
+
 msgid "When an insuree is deleted, all records retaining to the deleted insuree will still be available by selecting historical records."
 msgstr "Lorsqu'un assuré est supprimé, tous les enregistrements conservant l'assuré supprimé seront toujours disponibles en sélectionnant les enregistrements historiques."

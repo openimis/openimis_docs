@@ -10,68 +10,68 @@ msgstr ""
 "Language-Team: lokalise.com\n\n" 
 "Language: fr\n"
 
-#, fuzzy
+
 msgid "Insuree Enquiry"
 msgstr "Enquête de l'assuré"
 
 msgid "This functionality is available to all system roles or with a role including an access to Insurees and Families/Insuree/Enquiry. The function Insuree Enquiry can be accessed at any time, after login. On the top right hand of the main menu, there is a search feature, allowing the user to enter an Insurance Number for a “quick enquiry”."
 msgstr "Cette fonctionnalité est disponible pour tous les rôles de système ou avec un rôle notamment un accès pour les Assurés et les Familles/preneur d'assurance/Enquête. La fonction preneur d'assurance d'Enquête peut être consulté à tout moment, après la connexion. En haut à droite du menu principal, il ya une fonction de recherche, permettant à l'utilisateur d'entrer un Numéro d'Assurance pour un rapide “enquête”."
 
-#, fuzzy
+
 msgid "`Insuree Enquiry Field`"
 msgstr "`Champ d'enquête de l'assuré`"
 
 msgid "By typing in a valid insurance­­­­­­­ number and pressing the enter key or clicking on the green search button, a pop-up will appear (:numref:`image87`), providing a photo of the insuree and information about the current policy or policies covering of the insuree."
 msgstr "En tapant dans une assurance en cours de validité numéro et en appuyant sur la touche entrée ou en cliquant sur la recherche vert bouton, une fenêtre pop-up apparaîtra (:numref:`image87`, en apportant une photo du preneur d'assurance et des informations sur la politique ou les politiques de couverture du preneur d'assurance."
 
-#, fuzzy
+
 msgid "The Information includes the following:"
 msgstr "Les informations comprennent les éléments suivants:"
 
-#, fuzzy
+
 msgid "The photo of the insuree"
 msgstr "La photo de l'assuré"
 
-#, fuzzy
+
 msgid "The name, date of birth and gender of the insuree"
 msgstr "Le nom, la date de naissance et le sexe de l'assuré"
 
-#, fuzzy
+
 msgid "The (insurance) product code, product name and expiry date of a policy"
 msgstr "Le code produit (assurance), le nom du produit et la date d'expiration d'une police"
 
-#, fuzzy
+
 msgid "The status (I for Idle, A for Active, S for Suspended and E for Expired) of the policy at the time of inquiring"
 msgstr "Le statut (I pour inactif, A pour actif, S pour suspendu et E pour expiré) de la politique au moment de la demande"
 
-#, fuzzy
+
 msgid "The deductible amount remaining for the insuree to pay before the policy is claimable, for hospitals and non-hospitals"
 msgstr "Le montant déductible restant à payer par l'assuré avant que la police ne soit remboursable, pour les hôpitaux et les non-hôpitaux"
 
-#, fuzzy
+
 msgid "The ceiling amount claimable by a health facility on behalf of the insuree for both hospitals and non-hospitals."
 msgstr "Montant plafond réclamable par un établissement de santé au nom de l'assuré pour les hôpitaux et les non-hôpitaux."
 
-#, fuzzy
+
 msgid "Age of the insuree"
 msgstr "Âge de l'assuré"
 
-#, fuzzy
+
 msgid "First Service Point (FSP) of the insuree"
 msgstr "Premier point de service (FSP) de l'assuré"
 
-#, fuzzy
+
 msgid "Region of FSP"
 msgstr "Région du FSP"
 
-#, fuzzy
+
 msgid "District of FSP"
 msgstr "District de FSP"
 
-#, fuzzy
+
 msgid "Level of FSP"
 msgstr "Niveau de FSP"
 
-#, fuzzy
+
 msgid "`Image - Insuree Enquiry Results`"
 msgstr "`Image - Résultats de l'enquête de l'assuré`"

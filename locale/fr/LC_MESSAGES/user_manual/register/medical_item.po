@@ -10,265 +10,265 @@ msgstr ""
 "Language-Team: lokalise.com\n\n" 
 "Language: fr\n"
 
-#, fuzzy
+
 msgid "Medical Items Administration"
 msgstr "Administration des articles médicaux"
 
 msgid "The register of Medical Items contains all medical items (drugs, prostheses) that can be included in packages of benefits of insurance products within the health insurance scheme and are remunerated by the scheme administration. Administration of the register of medical items is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Medical Items."
 msgstr "Le registre d'Articles Médicaux, contient tous les articles médicaux (médicaments, prothèses) qui peuvent être inclus dans les packages de prestations de produits d'assurance dans le régime d'assurance santé et sont rémunérés par le régime de l'administration. L'Administration du registre d'articles médicaux est limité aux utilisateurs avec le rôle de système de Régime d'Administrateur ou avec un rôle, y compris un accès à l'Administration/des Articles Médicaux."
 
-#, fuzzy
+
 msgid "Pre-conditions"
 msgstr "Conditions préalables"
 
-#, fuzzy
+
 msgid "A medical item may only be added or thereafter edited or deleted, after the approval of the management of the scheme administration."
 msgstr "Un article médical ne peut être ajouté ou modifié ou supprimé par la suite qu'après approbation de la direction de l'administration du régime."
 
-#, fuzzy
+
 msgid "Navigation"
 msgstr "La navigation"
 
-#, fuzzy
+
 msgid "All functionality for use with the administration of medical items can be found under the main menu ``Administration``, sub menu ``Medical Items``"
 msgstr "Toutes les fonctionnalités à utiliser avec l'administration des articles médicaux se trouvent dans le menu principal ``Administration``, sous-menu ``Articles médicaux``"
 
-#, fuzzy
+
 msgid "`Navigation Medical Items`"
 msgstr "`Articles médicaux de navigation`"
 
-#, fuzzy
+
 msgid "Clicking on the sub menu ``Medical Items`` re-directs the current user to the `Medical Items Control Page <#medical-items-control-page>`__\\."
 msgstr "Un clic sur le sous-menu ``Articles médicaux`` redirige l'utilisateur actuel vers la `Page de contrôle des articles médicaux <#medical-items-control-page>`__ \\."
 
-#, fuzzy
+
 msgid "`Medical Items Control Page`"
 msgstr "`Page de contrôle des articles médicaux`"
 
-#, fuzzy
+
 msgid "Medical Items Control Page"
 msgstr "Page de contrôle des articles médicaux"
 
-#, fuzzy
+
 msgid "The ``Medical Items Control Page`` is the central point for all medical item administration. By having access to this page, it is possible to add, edit, delete and search. The panel is divided into four panels (:numref:`image30`)"
 msgstr "La ``page de contrôle des articles médicaux`` est le point central pour toute l'administration d'articles médicaux. En ayant accès à cette page, il est possible d'ajouter, de modifier, de supprimer et de rechercher. Le panneau est divisé en quatre panneaux (:numref:`image30`)"
 
-#, fuzzy
+
 msgid "**Search Panel**"
 msgstr "** Panneau de recherche **"
 
 msgid "The search panel allows a user to select specific criteria to minimise the search results. In the case of medical items the following search options are available which can be used alone or in combination with each other."
 msgstr "Le panneau de recherche permet à un utilisateur de sélectionner des critères spécifiques afin de minimiser les résultats de la recherche. Dans le cas d'articles médicaux, les options de recherche suivantes sont disponibles qui peuvent être utilisés seuls ou en combinaison les uns avec les autres."
 
-#, fuzzy
+
 msgid "``Code``"
 msgstr "`` Code``"
 
-#, fuzzy
+
 msgid "Type in the beginning of; or the full ``Code``; to search for medical items with a ``Code``, which starts with or matches completely, the typed text."
 msgstr "Tapez au début de; ou le ``Code`` complet; pour rechercher des articles médicaux avec un ``Code``, qui commence ou correspond complètement au texte tapé."
 
-#, fuzzy
+
 msgid "``Name``"
 msgstr "``Nom``"
 
-#, fuzzy
+
 msgid "Type in the beginning of; or the full ``Name`` to search for medical items with a ``Name``, which starts with or matches completely, the typed text."
 msgstr "Tapez au début de; ou le ``Nom`` complet pour rechercher des articles médicaux avec un ``Nom``, qui commence par ou correspond complètement au texte tapé."
 
-#, fuzzy
+
 msgid "``Type``"
 msgstr "``Type``"
 
-#, fuzzy
+
 msgid "Select the ``Type``; from the list of types (Drugs, Medical Prostheses) by clicking on the arrow on the right of the selector, to select medical items of a specific type."
 msgstr "Sélectionnez le ``Type``; dans la liste des types (Médicaments, Prothèses Médicales) en cliquant sur la flèche à droite du sélecteur, pour sélectionner les articles médicaux d'un type spécifique."
 
-#, fuzzy
+
 msgid "``Package``"
 msgstr "``Forfait``"
 
-#, fuzzy
+
 msgid "Type in the beginning of; or the full ``Package``; to search for medical items with a ``Package``, which starts with or matches completely, the typed text."
 msgstr "Tapez au début de; ou le ``Package`` complet; pour rechercher des articles médicaux avec un ``Package``, qui commence ou correspond complètement au texte tapé."
 
-#, fuzzy
+
 msgid "``Historical``"
 msgstr "``Historique``"
 
 msgid "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image31`)."
 msgstr "Cliquez sur `Historique` pour voir l'historique des enregistrements correspondant aux critères sélectionnés. Les documents historiques sont affichés dans le résultat avec une ligne au milieu du texte (barré) de définir clairement de dossiers en cours (:numref:`image31`)."
 
-#, fuzzy
+
 msgid "`Historical records - Result Panel`"
 msgstr "`Dossiers historiques - Panneau de résultats`"
 
-#, fuzzy
+
 msgid "``Search button``"
 msgstr "``Bouton de recherche``"
 
-#, fuzzy
+
 msgid "Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel."
 msgstr "Une fois les critères saisis, utilisez le bouton de recherche pour filtrer les enregistrements, les résultats apparaîtront dans le panneau de résultats."
 
-#, fuzzy
+
 msgid "**Result Panel**"
-msgstr "** Panneau de résultats **"
+msgstr "**Panneau de résultats**"
 
 msgid "The result panel displays a list of all medical items found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image32`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
 msgstr "Le résultat s'affiche sur le panneau une liste de tous les objets trouvés, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image32`). La gauche dossier contient un lien, qui, si vous cliquez dessus, re-dirige l'utilisateur vers le record actuel pour obtenir la visualisation si c'est un record historique ou de la modification si c'est l'enregistrement en cours."
 
-#, fuzzy
+
 msgid "`Selected record (blue), hovered records (yellow) - Result Panel`"
 msgstr "`Enregistrement sélectionné (bleu), enregistrements survolés (jaune) - Panneau de résultats`"
 
-#, fuzzy
+
 msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image33`)"
 msgstr "Un maximum de 15 enregistrements sont affichés en même temps, d'autres enregistrements peuvent être consultés en parcourant les pages à l'aide du sélecteur de page en bas du panneau de résultat (:numref:`image33`)"
 
-#, fuzzy
+
 msgid "`Page selector- Result Panel`"
 msgstr "`Sélecteur de page - Panneau de résultats`"
 
-#, fuzzy
+
 msgid "**Button Panel**"
 msgstr "** Panneau de boutons **"
 
 msgid "With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button."
 msgstr "À l'exception du bouton ``Annuler``, qui redirige vers :ref:`Page d'accueil <home_page>`, le panneau de boutons (les boutons ``Modifier``et ``Supprimer``) est utilisé conjointement avec l'enregistrement actuellement sélectionné (surligné en bleu). L'utilisateur doit d'abord sélectionner un enregistrement en cliquant sur n'importe quelle position de l'enregistrement à l'exception du lien hypertexte le plus à gauche, puis cliquez sur le bouton."
 
-#, fuzzy
+
 msgid "**Information Panel**"
 msgstr "** Panneau d'information **"
 
-#, fuzzy
+
 msgid "The Information Panel is used to display messages back to the user. Messages will occur once a medical item has been added, updated or deleted or if there was an error at any time during the process of these actions."
 msgstr "Le panneau d'informations est utilisé pour afficher les messages à l'utilisateur. Des messages s'afficheront une fois qu'un article médical a été ajouté, mis à jour ou supprimé ou s'il y a eu une erreur à tout moment au cours du processus de ces actions."
 
-#, fuzzy
+
 msgid "Medical Item Page"
 msgstr "Page d'articles médicaux"
 
-#, fuzzy
+
 msgid "**Data Entry**"
 msgstr "**La saisie des données**"
 
-#, fuzzy
+
 msgid "`Medical Item Page`"
 msgstr "`Page d'articles médicaux`"
 
-#, fuzzy
+
 msgid "Enter the code for the medical item. Mandatory, 6 characters."
 msgstr "Entrez le code de l'article médical. Obligatoire, 6 caractères."
 
-#, fuzzy
+
 msgid "Enter the name of the medical item. Mandatory, 100 characters maximum."
 msgstr "Entrez le nom de l'article médical. Obligatoire, 100 caractères maximum."
 
-#, fuzzy
+
 msgid "Choose one from the options available, the type of the medical item. Mandatory."
 msgstr "Choisissez l'une des options disponibles, le type de l'article médical. Obligatoire."
 
-#, fuzzy
+
 msgid "Enter the package (Indication of type and volume of package in a suitable coding system) for the medical item. Mandatory, 255 characters maximum."
 msgstr "Saisissez l'emballage (indication du type et du volume de l'emballage dans un système de codage approprié) pour l'article médical. Obligatoire, 255 caractères maximum."
 
-#, fuzzy
+
 msgid "``Price``"
 msgstr "`` Prix``"
 
-#, fuzzy
+
 msgid "Enter the price (a general price that can be overloaded in pricelists). Full general price including potential cost sharing of an insuree) for the medical item. Mandatory."
 msgstr "Entrez le prix (un prix général qui peut être surchargé dans les listes de prix). Prix général complet, y compris le partage éventuel des coûts d'un assuré) pour l'article médical. Obligatoire."
 
-#, fuzzy
+
 msgid "``Care Type``"
 msgstr "``Type de soins``"
 
-#, fuzzy
+
 msgid "Choose one from the options available, the limitation of provision of the medical item within the specific type of health care (In-patient, Out-patient or Both). Mandatory."
 msgstr "Choisissez l'une des options disponibles, la limitation de la fourniture de l'article médical dans le type spécifique de soins de santé (hospitalier, ambulatoire ou les deux). Obligatoire."
 
-#, fuzzy
+
 msgid "``Frequency``"
 msgstr "``Fréquence``"
 
-#, fuzzy
-msgid "Enter the limitation of frequency of provision in a number of days within which a medical item cannot be provided to a patient not more than once. If the frequency is zero, there is no limitation. *Note: By default the frequency is 0.*"
-msgstr "Entrez la limitation de la fréquence de fourniture dans un certain nombre de jours pendant lesquels un article médical ne peut pas être fourni à un patient pas plus d'une fois. Si la fréquence est nulle, il n'y a pas de limitation. * Remarque: Par défaut, la fréquence est 0. *"
 
-#, fuzzy
+msgid "Enter the limitation of frequency of provision in a number of days within which a medical item cannot be provided to a patient not more than once. If the frequency is zero, there is no limitation. *Note: By default the frequency is 0.*"
+msgstr "Entrez la limitation de la fréquence de fourniture dans un certain nombre de jours pendant lesquels un article médical ne peut pas être fourni à un patient pas plus d'une fois. Si la fréquence est nulle, il n'y a pas de limitation. *Remarque: Par défaut, la fréquence est 0.*"
+
+
 msgid "``Patient``"
 msgstr "``Patient``"
 
-#, fuzzy
-msgid "Choose one or a combination of the options available, to specify which patient type the medical item may be provided to. *Note: By default all patients’ options are checked (selected).*"
-msgstr "Choisissez une ou une combinaison des options disponibles pour spécifier à quel type de patient l'article médical peut être fourni. * Remarque: Par défaut, toutes les options des patients sont cochées (sélectionnées). *"
 
-#, fuzzy
+msgid "Choose one or a combination of the options available, to specify which patient type the medical item may be provided to. *Note: By default all patients’ options are checked (selected).*"
+msgstr "Choisissez une ou une combinaison des options disponibles pour spécifier à quel type de patient l'article médical peut être fourni. *Remarque: Par défaut, toutes les options des patients sont cochées (sélectionnées).*"
+
+
 msgid "**Saving**"
 msgstr "**Sauvegarder**"
 
-#, fuzzy
+
 msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Medical Items Control Page <#medical-items-control-page>`__, with the newly saved record displayed and selected in the Result Panel. A message confirming that the medical item has been saved will appear on the Information Panel."
 msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton ``Sauvegarder`` sauvegardera l'enregistrement. L'utilisateur sera redirigé vers la `Page de contrôle des articles médicaux <#medical-items-control-page>`__, avec l'enregistrement nouvellement enregistré affiché et sélectionné dans le panneau de résultats. Un message confirmant que l'article médical a été enregistré apparaîtra sur le panneau d'information."
 
-#, fuzzy
+
 msgid "**Mandatory data**"
 msgstr "** Données obligatoires **"
 
-#, fuzzy
+
 msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk on the right of the corresponding data field)."
 msgstr "Si les données obligatoires ne sont pas saisies au moment où l'utilisateur clique sur le bouton ``Enregistrer``, un message apparaîtra dans le panneau d'informations et le champ de données prendra le focus (par un astérisque à droite du champ de données correspondant) ."
 
-#, fuzzy
+
 msgid "**Cancel**"
 msgstr "**Annuler**"
 
-#, fuzzy
+
 msgid "By clicking on the ``Cancel`` button, the user will be re-directed to the `Medical Items Control Page. <#medical-items-control-page>`__"
 msgstr "En cliquant sur le bouton ``Annuler``, l'utilisateur sera redirigé vers la page de contrôle des articles médicaux. <#medical-items-control-page>`__"
 
-#, fuzzy
+
 msgid "Adding a Medical Item"
 msgstr "Ajout d'un article médical"
 
-#, fuzzy
+
 msgid "Click on the ``Add`` button to re-direct to the `Medical Item Page <#medical-item-page>`__\\ ."
 msgstr "Cliquez sur le bouton ``Ajouter`` pour rediriger vers la `Page d'articles médicaux <#medical-item-page>`__ \\."
 
-#, fuzzy
+
 msgid "When the page opens all entry fields are empty. See the `Medical Item Page <#medical-item-page>`__ for information on the data entry and mandatory fields."
 msgstr "Lorsque la page s'ouvre, tous les champs de saisie sont vides. Reportez-vous à la `Page d'articles médicaux <#medical-item-page> ``__ pour obtenir des informations sur la saisie des données et les champs obligatoires."
 
-#, fuzzy
+
 msgid "Editing a Medical Item"
 msgstr "Modification d'un article médical"
 
-#, fuzzy
+
 msgid "Click on the ``Edit`` button to re-direct to the `Medical Item Page <#medical-item-page>`__\\ ."
 msgstr "Cliquez sur le bouton ``Modifier`` pour rediriger vers la `Page d'articles médicaux <#medical-item-page>`__ \\."
 
-#, fuzzy
+
 msgid "The page will open with the current information loaded into the data entry fields. See the `Medical Item Page <#medical-item-page>`__ for information on the data entry and mandatory fields."
 msgstr "La page s'ouvrira avec les informations actuelles chargées dans les champs de saisie de données. Reportez-vous à la `Page d'articles médicaux <#medical-item-page> ``__ pour obtenir des informations sur la saisie des données et les champs obligatoires."
 
-#, fuzzy
+
 msgid "Deleting a Medical Item"
 msgstr "Suppression d'un article médical"
 
-#, fuzzy
+
 msgid "Click on the ``Delete`` button to delete the currently selected record"
 msgstr "Cliquez sur le bouton ``Supprimer`` pour supprimer l'enregistrement actuellement sélectionné"
 
-#, fuzzy
+
 msgid "Before deleting a confirmation popup (:numref:`image35`) is displayed, which requires the user to confirm if the action should really be carried out?"
 msgstr "Avant de supprimer une fenêtre de confirmation (:numref:`image35`) s'affiche, ce qui oblige l'utilisateur à confirmer si l'action doit vraiment être effectuée?"
 
-#, fuzzy
+
 msgid "`Delete confirmation- Button Panel`"
 msgstr "`Supprimer la confirmation - Panneau de boutons`"
 
-#, fuzzy
+
 msgid "When the medical item is deleted, all records retaining to the deleted medical item will still be available by selecting historical records."
 msgstr "Lorsque l'article médical est supprimé, tous les enregistrements conservant l'article médical supprimé seront toujours disponibles en sélectionnant les enregistrements historiques."

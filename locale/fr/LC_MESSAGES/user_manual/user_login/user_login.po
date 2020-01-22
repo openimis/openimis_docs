@@ -10,6 +10,6 @@ msgstr ""
 "Language-Team: lokalise.com\n\n" 
 "Language: fr\n"
 
-#, fuzzy
+
 msgid "Users and logins"
 msgstr "Utilisateurs et identifiants"

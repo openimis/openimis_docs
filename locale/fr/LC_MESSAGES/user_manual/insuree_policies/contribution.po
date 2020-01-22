@@ -10,371 +10,371 @@ msgstr ""
 "Language-Team: lokalise.com\n\n" 
 "Language: fr\n"
 
-#, fuzzy
+
 msgid "Contribution"
 msgstr "Contribution"
 
-#, fuzzy
+
 msgid "Find Contribution"
 msgstr "Rechercher une contribution"
 
-#, fuzzy
+
 msgid "Access to the Find Contribution Page is restricted to users with the system roles of Accountant or Clerk or with a role including an access to Insurees and Families/Contribution/Search."
 msgstr "L'accès à la page Rechercher une contribution est limité aux utilisateurs ayant les rôles système de comptable ou de commis ou avec un rôle comprenant un accès aux assurés et aux familles / contribution / recherche."
 
-#, fuzzy
+
 msgid "Pre-conditions"
 msgstr "Conditions préalables"
 
-#, fuzzy
+
 msgid "Need to enquire on, or edit a contribution, or the family/group, insurees and policies associated."
 msgstr "Vous devez vous renseigner ou modifier une contribution, ou la famille / le groupe, les assurés et les polices associés."
 
-#, fuzzy
+
 msgid "Navigation"
 msgstr "La navigation"
 
-#, fuzzy
+
 msgid "Find Contribution can be found under the main menu ``Insurees and Policies``, sub menu ``Contributions``"
 msgstr "Trouver la contribution se trouve dans le menu principal ``Assurés et polices``, sous-menu ``Contributions``"
 
-#, fuzzy
+
 msgid "`Navigation Contributions`"
 msgstr "`Contributions à la navigation`"
 
-#, fuzzy
+
 msgid "Clicking on the sub menu ``Contributions`` re-directs the current user to the `Find Contribution Page <#_Image_4.22_(Find>`__\\."
 msgstr "Cliquer sur le sous-menu ``Contributions`` redirige l'utilisateur actuel vers la `Rechercher la page de contribution <#_Image_4.22_(Find>`__ \\."
 
-#, fuzzy
+
 msgid "Find Contribution Page"
 msgstr "Page Rechercher une contribution"
 
-#, fuzzy
+
 msgid "`Image - 108 Find Contribution Page`"
 msgstr "`Image - 108 Rechercher la page de contribution`"
 
 msgid "The ``Find Contribution Page`` is the first step in the process of finding a contribution and thereafter accessing the `Family Overview Page <#family-overview>`__ of insures, policies and contributions. This initial page can be used to search for specific contributions or groups of contributions based on specific criteria. The page is divided into four panels (:numref:`image108`)."
 msgstr "La ``page de recherche de cotisation`` est la première étape du processus de recherche d'une cotisation, puis l'accès à la `` page de présentation de la famille <#family-overview> `` des assurances, des polices et des cotisations. Cette page initiale peut être utilisée pour rechercher des contributions spécifiques ou des groupes de contributions en fonction de critères spécifiques. La page est divisée en quatre panneaux (:numref:`image108`)."
 
-#, fuzzy
+
 msgid "**Search Panel**"
 msgstr "** Panneau de recherche **"
 
-#, fuzzy
+
 msgid "The Search Panel allows a user to select specific criteria to minimise the search results. In the case of contributions the following search options are available which can be used alone or in combination with each other."
 msgstr "Le panneau de recherche permet à un utilisateur de sélectionner des critères spécifiques pour minimiser les résultats de la recherche. Dans le cas des contributions, les options de recherche suivantes sont disponibles et peuvent être utilisées seules ou en combinaison les unes avec les autres."
 
-#, fuzzy
+
 msgid "``Payer``"
 msgstr "``Payeur``"
 
-#, fuzzy
+
 msgid "Select the ``Payer``; from the list of payers by clicking on the arrow on the right of the selector, to select contributions related to a specific payer."
 msgstr "Sélectionnez le ``Payeur``; dans la liste des payeurs en cliquant sur la flèche à droite du sélecteur, pour sélectionner les contributions liées à un payeur spécifique."
 
-#, fuzzy
+
 msgid "``Payment Type``"
 msgstr "``Type de paiement``"
 
-#, fuzzy
+
 msgid "Select the ``Payment Type``; from the list of types by clicking on the arrow on the right of the selector, to select contributions related to a specific payment type."
 msgstr "Sélectionnez le ``Type de paiement``; dans la liste des types en cliquant sur la flèche à droite du sélecteur, pour sélectionner les contributions liées à un type de paiement spécifique."
 
-#, fuzzy
+
 msgid "``Payment Date From``"
 msgstr "``Date de paiement du``"
 
-#, fuzzy
-msgid "Type in a date; or use the Date Selector Button, to enter the ``Payment Date From`` to search for contributions with a ``Payment Date`` equal or later than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
-msgstr "Tapez une date; ou utilisez le bouton de sélection de date pour saisir la ``date de paiement du`` pour rechercher des contributions avec une `` date de paiement`` égale ou ultérieure à la date spécifiée. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace. *"
 
-#, fuzzy
+msgid "Type in a date; or use the Date Selector Button, to enter the ``Payment Date From`` to search for contributions with a ``Payment Date`` equal or later than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Tapez une date; ou utilisez le bouton de sélection de date pour saisir la ``date de paiement du`` pour rechercher des contributions avec une `` date de paiement`` égale ou ultérieure à la date spécifiée. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace.*"
+
+
 msgid "``Payment Date To``"
 msgstr "``Date de paiement à``"
 
-#, fuzzy
-msgid "Type in a date; or use the Date Selector Button, to enter the ``Payment Date To`` to search for contributions with a ``Payment Date`` equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
-msgstr "Tapez une date; ou utilisez le bouton de sélection de date pour saisir la ``date de paiement jusqu'à`` pour rechercher des contributions avec une `` date de paiement`` égale ou antérieure à la date spécifiée. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace. *"
 
-#, fuzzy
+msgid "Type in a date; or use the Date Selector Button, to enter the ``Payment Date To`` to search for contributions with a ``Payment Date`` equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Tapez une date; ou utilisez le bouton de sélection de date pour saisir la ``date de paiement jusqu'à`` pour rechercher des contributions avec une `` date de paiement`` égale ou antérieure à la date spécifiée. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace.*"
+
+
 msgid "``Date Selector Button``"
 msgstr "``Bouton de sélection de date``"
 
-#, fuzzy
+
 msgid "Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image109`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted."
 msgstr "Cliquer sur le ``bouton de sélection de date`` fera apparaître un sélecteur de calendrier facile à utiliser (:numref:`image109`); par défaut, le calendrier affichera le mois en cours ou le mois de la date actuellement sélectionnée, le jour en cours étant mis en surbrillance."
 
-#, fuzzy
+
 msgid "At anytime during the use of the pop-up, the user can see the date of **today**."
 msgstr "À tout moment pendant l'utilisation de la fenêtre contextuelle, l'utilisateur peut voir la date de ** aujourd'hui **."
 
-#, fuzzy
+
 msgid "Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box."
 msgstr "Cliquez sur * aujourd'hui * pour fermer la fenêtre contextuelle et afficher la date du jour dans la zone de saisie de date correspondante."
 
-#, fuzzy
+
 msgid "Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box."
 msgstr "Cliquez sur n'importe quel jour du mois pour fermer la fenêtre contextuelle et afficher la date sélectionnée dans la zone de saisie de date correspondante."
 
-#, fuzzy
+
 msgid "Clicking on the arrow to the left displays the previous month."
 msgstr "Cliquer sur la flèche à gauche affiche le mois précédent."
 
-#, fuzzy
+
 msgid "Clicking on the arrow on the right will displays the following month."
 msgstr "Cliquer sur la flèche à droite affichera le mois suivant."
 
-#, fuzzy
+
 msgid "Clicking on the month will display all the months for the year."
 msgstr "Cliquer sur le mois affichera tous les mois de l'année."
 
-#, fuzzy
+
 msgid "Clicking on the year will display a year selector."
 msgstr "Cliquer sur l'année affichera un sélecteur d'année."
 
-#, fuzzy
+
 msgid "|logo33|"
 msgstr "|logo33|"
 
-#, fuzzy
+
 msgid "|logo34|"
 msgstr "|logo34|"
 
-#, fuzzy
+
 msgid "|logo35|"
 msgstr "|logo35|"
 
-#, fuzzy
+
 msgid "`Calendar Selector - Search Panel`"
 msgstr "`Sélecteur de calendrier - Panneau de recherche`"
 
-#, fuzzy
+
 msgid "``Contribution Category``"
 msgstr "``Catégorie de contribution``"
 
-#, fuzzy
-msgid "Select the ``Contribution Category`` that match with the type of contribution paid, by default there is *Contribution and Others* and *photo fee*. this enable to add fees that won't be counted as contribution payment"
-msgstr "Sélectionnez la ``Catégorie de contribution`` qui correspond au type de contribution payée, par défaut il y a * Contribution et autres * et * frais de photo *. cela permet d'ajouter des frais qui ne seront pas comptés comme paiement de contribution"
 
-#, fuzzy
+msgid "Select the ``Contribution Category`` that match with the type of contribution paid, by default there is *Contribution and Others* and *photo fee*. this enable to add fees that won't be counted as contribution payment"
+msgstr "Sélectionnez la ``Catégorie de contribution`` qui correspond au type de contribution payée, par défaut il y a *Contribution et autres* et *frais de photo*. cela permet d'ajouter des frais qui ne seront pas comptés comme paiement de contribution"
+
+
 msgid "``Contribution Paid``"
 msgstr "``Contribution payée``"
 
-#, fuzzy
+
 msgid "Type in the ``Contribution Paid`` to search for contributions with the paid amount, greater or equal to the typed amount."
 msgstr "Tapez ``Contribution payée`` pour rechercher des contributions avec le montant payé, supérieur ou égal au montant tapé."
 
-#, fuzzy
+
 msgid "``Region``"
 msgstr "`` Région``"
 
-#, fuzzy
-msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select contributions for policies from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*"
-msgstr "Sélectionnez la ``Région``; dans la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner les contributions pour les politiques d'une région spécifique. * Remarque: La liste ne sera remplie qu'avec les régions affectées à l'utilisateur actuellement connecté. S'il ne s'agit que d'une seule, la région sera automatiquement sélectionnée. *"
 
-#, fuzzy
+msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select contributions for policies from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*"
+msgstr "Sélectionnez la ``Région``; dans la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner les contributions pour les politiques d'une région spécifique. *Remarque: La liste ne sera remplie qu'avec les régions affectées à l'utilisateur actuellement connecté. S'il ne s'agit que d'une seule, la région sera automatiquement sélectionnée.*"
+
+
 msgid "``District``"
 msgstr "`` Quartier``"
 
 msgid "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select contributions paid for policies from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*"
 msgstr "Sélectionnez le `Quartier`; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur pour sélectionner les contributions versées pour les politiques à partir d'un district particulier. *Remarque: La liste ne sera rempli avec les districts appartenant à la région sélectionnée et assigné à l'utilisateur connecté. Si ce n'est qu'un, le quartier sera automatiquement sélectionné.*"
 
-#, fuzzy
+
 msgid "``Historical``"
 msgstr "``Historique``"
 
-#, fuzzy
+
 msgid "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image110`)."
 msgstr "Cliquez sur ``Historique`` pour voir les enregistrements historiques correspondant aux critères sélectionnés. Les enregistrements historiques sont affichés dans le résultat avec une ligne au milieu du texte (barré) pour les définir clairement à partir des enregistrements actuels (:numref:`image110`)."
 
-#, fuzzy
+
 msgid "`Historical records - Result Panel`"
 msgstr "`Dossiers historiques - Panneau de résultats`"
 
-#, fuzzy
+
 msgid "``Search Button``"
 msgstr "``Bouton de recherche``"
 
-#, fuzzy
+
 msgid "Once the criteria have been entered, use the ``Search`` button to filter the records, the results will appear in the Result Panel."
 msgstr "Une fois les critères saisis, utilisez le bouton ``Rechercher`` pour filtrer les enregistrements, les résultats apparaîtront dans le panneau de résultats."
 
-#, fuzzy
+
 msgid "**Result Panel**"
-msgstr "** Panneau de résultats **"
+msgstr "**Panneau de résultats**"
 
 msgid "The result panel displays a list of all contributions found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image111`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
 msgstr "Le résultat s'affiche sur le panneau une liste de toutes les contributions trouvé, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image111`) La plus à gauche enregistrement contient un lien, qui, si vous cliquez dessus, re-dirige l'utilisateur vers le record actuel pour obtenir la visualisation si c'est un record historique ou de la modification si c'est l'enregistrement en cours."
 
-#, fuzzy
+
 msgid "`Image 111 Selected record (blue), hovered records (yellow) - Result Pane`"
 msgstr "`Image 111 Enregistrement sélectionné (bleu), enregistrements en survol (jaune) - Volet de résultat`"
 
-#, fuzzy
+
 msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image112`)."
 msgstr "Un maximum de 15 enregistrements sont affichés en même temps, d'autres enregistrements peuvent être consultés en parcourant les pages à l'aide du sélecteur de page en bas du panneau de résultats (:numref:`image112`)."
 
-#, fuzzy
+
 msgid "`Page selector- Result Panel`"
 msgstr "`Sélecteur de page - Panneau de résultats`"
 
-#, fuzzy
+
 msgid "**Button Panel**"
 msgstr "** Panneau de boutons **"
 
-#, fuzzy
+
 msgid "The ``Cancel`` button re-directs to the :ref:`Home Page <home_page>`."
 msgstr "Le bouton ``Annuler`` redirige vers :ref:`Page d'accueil <home_page>`."
 
-#, fuzzy
+
 msgid "**Information Panel**"
 msgstr "** Panneau d'information **"
 
-#, fuzzy
+
 msgid "The Information Panel is used to display messages back to the user. Messages will occur once a contribution has been added, updated or deleted or if there was an error at any time during the process of these actions."
 msgstr "Le panneau d'informations est utilisé pour afficher les messages à l'utilisateur. Des messages s'afficheront une fois qu'une contribution a été ajoutée, mise à jour ou supprimée ou s'il y a eu une erreur à tout moment au cours du processus de ces actions."
 
-#, fuzzy
+
 msgid "Contribution Page"
 msgstr "Page de contribution"
 
-#, fuzzy
+
 msgid "**Data Entry**"
 msgstr "**La saisie des données**"
 
-#, fuzzy
+
 msgid "`Contribution Page`"
 msgstr "`Page de contribution`"
 
-#, fuzzy
+
 msgid "Select from the list of available (institutional) payers the payer of the contribution (if the contribution is not paid by the family/group itself)."
 msgstr "Sélectionnez dans la liste des payeurs (institutionnels) disponibles le payeur de la cotisation (si la cotisation n'est pas payée par la famille / le groupe lui-même)."
 
-#, fuzzy
+
 msgid "Enter the paid amount for the contribution. Mandatory."
 msgstr "Entrez le montant payé pour la contribution. Obligatoire."
 
-#, fuzzy
+
 msgid "``Receipt No.``"
 msgstr "``No de reçu``"
 
-#, fuzzy
+
 msgid "Enter the receipt identification for the contribution. Receipt identification has to be unique within all policies of the insurance product. Mandatory."
 msgstr "Saisissez l'identifiant du reçu pour la contribution. L'identification du reçu doit être unique dans toutes les polices du produit d'assurance. Obligatoire."
 
-#, fuzzy
+
 msgid "``Payment Date``"
 msgstr "``Date de paiement``"
 
-#, fuzzy
-msgid "Enter the date of payment for the contribution. Mandatory. *Note: You can also use the button next to the date of payment field to select a date to be entered.*"
-msgstr "Saisissez la date de paiement de la cotisation. Obligatoire. * Remarque: Vous pouvez également utiliser le bouton à côté du champ de date de paiement pour sélectionner une date à saisir. *"
 
-#, fuzzy
+msgid "Enter the date of payment for the contribution. Mandatory. *Note: You can also use the button next to the date of payment field to select a date to be entered.*"
+msgstr "Saisissez la date de paiement de la cotisation. Obligatoire. *Remarque: Vous pouvez également utiliser le bouton à côté du champ de date de paiement pour sélectionner une date à saisir.*"
+
+
 msgid "Select from the list of available types of payment the payment type of the contribution. Mandatory."
 msgstr "Sélectionnez dans la liste des types de paiement disponibles le type de paiement de la contribution. Obligatoire."
 
-#, fuzzy
+
 msgid "**Saving**"
 msgstr "**Sauvegarder**"
 
-#, fuzzy
+
 msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. Depending on the contribution paid, the following messages will appear."
 msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton ``Sauvegarder`` sauvegardera l'enregistrement. Selon la contribution versée, les messages suivants apparaîtront."
 
-#, fuzzy
+
 msgid "If the Contribution paid matches the price of the policy:"
 msgstr "Si la contribution payée correspond au prix de la police:"
 
-#, fuzzy
+
 msgid "`Image 131`"
 msgstr "`Image 131`"
 
-#, fuzzy
+
 msgid "If the contribution paid is lower than the price of the policy:"
 msgstr "Si la cotisation versée est inférieure au prix de la police:"
 
-#, fuzzy
+
 msgid "`Image 132`"
 msgstr "`Image 132`"
 
-#, fuzzy
+
 msgid "Followed by:"
 msgstr "Suivi par:"
 
-#, fuzzy
+
 msgid "`Image 133`"
 msgstr "`Image 133`"
 
-#, fuzzy
-msgid "If you choose **Yes**, the policy will be (enforced) set as **Active**. If you choose No, it will remain **Idle**."
-msgstr "Si vous choisissez ** Oui **, la politique sera (appliquée) définie comme ** Actif **. Si vous choisissez Non, il restera ** Inactif **."
 
-#, fuzzy
+msgid "If you choose **Yes**, the policy will be (enforced) set as **Active**. If you choose No, it will remain **Idle**."
+msgstr "Si vous choisissez**Oui**, la politique sera (appliquée) définie comme**Actif**. Si vous choisissez Non, il restera **Inactif**."
+
+
 msgid "If the contribution is higher than the price of the policy:"
 msgstr "Si la cotisation est supérieure au prix de la police:"
 
-#, fuzzy
+
 msgid "`Image 134`"
 msgstr "`Image 134`"
 
-#, fuzzy
+
 msgid "The user will then be re-directed back to the `Family Overview Page <#family-overview-page.>`__\\ , with the newly saved record displayed and selected in the result panel. A message confirming that the contribution has been saved will appear on the Information Panel."
 msgstr "L'utilisateur sera alors redirigé vers la `Page de présentation de la famille <#family-overview-page.> page de présentation de la <#family-overview-page.>`__ \\, avec l'enregistrement nouvellement enregistré affiché et sélectionné dans le panneau de résultats. Un message confirmant que la contribution a été enregistrée apparaîtra sur le panneau d'information."
 
-#, fuzzy
+
 msgid "**Mandatory data**"
 msgstr "** Données obligatoires **"
 
-#, fuzzy
+
 msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk)."
 msgstr "Si les données obligatoires ne sont pas saisies au moment où l'utilisateur clique sur le bouton ``Enregistrer``, un message apparaîtra dans le panneau d'informations et le champ de données prendra le focus (par un astérisque)."
 
-#, fuzzy
+
 msgid "**Cancel**"
 msgstr "**Annuler**"
 
-#, fuzzy
+
 msgid "By clicking on the ``Cancel`` button, the user will be re-directed to the `Family Overview Page <\\l>`__ ."
 msgstr "En cliquant sur le bouton ``Annuler``, l'utilisateur sera redirigé vers la `Page de présentation de la famille <\\l>`__."
 
-#, fuzzy
+
 msgid "Adding a Contribution"
 msgstr "Ajout d'une contribution"
 
-#, fuzzy
+
 msgid "Click on the ``Green Plus Sign`` to re-direct to the `Contribution Page. <#contribution-page>`__"
 msgstr "Cliquez sur le `` Green Plus Sign`` pour rediriger vers la `Contribution Page. <#contribution-page>`__"
 
-#, fuzzy
+
 msgid "When the page opens all entry fields are empty. See the `Contribution Page <#contribution-page>`__ for information on the data entry and mandatory fields."
 msgstr "Lorsque la page s'ouvre, tous les champs de saisie sont vides. Voir la `Page de contribution <#contribution-page>`__ pour plus d'informations sur la saisie des données et les champs obligatoires."
 
-#, fuzzy
+
 msgid "Editing a Contribution"
 msgstr "Modification d'une contribution"
 
-#, fuzzy
+
 msgid "Click on the ``Yellow Pencil`` Sign to re-direct to the `Contribution Page <#contribution-page>`__. The `Contribution Page <#contribution-page>`__ will open with the current information loaded into the data entry fields. See the `Contribution Page <#contribution-page>`__ for information on the data entry and mandatory fields."
 msgstr "Cliquez sur le signe ``Crayon jaune`` pour rediriger vers la `Page de contribution <#contribution-page>`__. La `Contribution Page <#contribution-page>`__ s'ouvrira avec les informations actuelles chargées dans les champs de saisie des données. Voir la `Page de contribution <#contribution-page>`__ pour plus d'informations sur la saisie des données et les champs obligatoires."
 
-#, fuzzy
+
 msgid "Deleting a Contribution"
 msgstr "Suppression d'une contribution"
 
-#, fuzzy
+
 msgid "Click on the Red Cross Sign button to delete the currently selected record."
 msgstr "Cliquez sur le bouton Croix-Rouge pour supprimer l'enregistrement actuellement sélectionné."
 
-#, fuzzy
+
 msgid "Before deleting a confirmation popup (:numref:`image135`) is displayed, which requires the user to confirm if the action should really be carried out?"
 msgstr "Avant de supprimer une fenêtre de confirmation (:numref:`image135`) s'affiche, ce qui oblige l'utilisateur à confirmer si l'action doit vraiment être effectuée?"
 
-#, fuzzy
+
 msgid "`Delete confirmation- Button Panel`"
 msgstr "`Supprimer la confirmation - Panneau de boutons`"
 
-#, fuzzy
+
 msgid "When a contribution is deleted, all records retaining to the deleted contribution will still be available by selecting historical records."
 msgstr "Lorsqu'une contribution est supprimée, tous les enregistrements conservant la contribution supprimée seront toujours disponibles en sélectionnant les enregistrements historiques."

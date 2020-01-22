@@ -10,10 +10,10 @@ msgstr ""
 "Language-Team: lokalise.com\n\n" 
 "Language: fr\n"
 
-#, fuzzy
+
 msgid "Offline mode"
 msgstr "Mode hors-ligne"
 
-#, fuzzy
+
 msgid "IMIS system can be used in offline mode, which makes it possible for usage by health facilities (HF) and scheme administration offices with low/no internet connectivity."
 msgstr "Le système IMIS peut être utilisé en mode hors ligne, ce qui permet son utilisation par les établissements de santé (HF) et les bureaux d'administration du système avec une connectivité Internet faible / nulle."

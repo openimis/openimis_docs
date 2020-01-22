@@ -10,21 +10,21 @@ msgstr ""
 "Language-Team: lokalise.com\n\n" 
 "Language: fr\n"
 
-#, fuzzy
+
 msgid "Login"
 msgstr "S'identifier"
 
 msgid "To access the software, Users must have a valid User Name and Password, provided by the “IMIS Administrator”. In the browser address bar type the URL of the openIMIS instance to request the start page. Login page will appear (:numref:`image1`)."
 msgstr "Pour accéder au logiciel, les Utilisateurs doivent avoir un Nom d'Utilisateur valide et Mot de passe, fournis par le “IMIS Administrateur”. Dans la barre d'adresse du navigateur, entrez l'URL du openIMIS instance pour demander la page de démarrage. Page de connexion s'affiche (:numref:`image1`)."
 
-#, fuzzy
+
 msgid "`User Login`"
 msgstr "`Connexion utilisateur`"
 
 msgid "Use the provided Login Name and Password, and click on the button Login. If successful, the system will re-direct to the Home Page (:numref:`home_page`)."
 msgstr "Utiliser le Nom de Connexion et Mot de passe, et cliquez sur le bouton de Connexion. En cas de succès, le système sera redirigé vers la Page d'Accueil (:numref:`home_page`)."
 
-#, fuzzy
+
 msgid "`Home Page`"
 msgstr "`Page d'accueil`"
 
