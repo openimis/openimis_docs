@@ -55,7 +55,7 @@ msgstr "Le Lot de Contrôle d'Exécution de la Page est le point central pour le
 
 
 msgid "**Batch Processing Panel**"
-msgstr "** Panneau de traitement par lots **"
+msgstr "**Panneau de traitement par lots**"
 
 
 msgid "The batch processing panel allows a user to process batches based on the following criteria:"
@@ -128,7 +128,7 @@ msgstr "`Bouton de traitement par lots`"
 
 
 msgid "**Filter Panel for the relative price index per product and period**"
-msgstr "** Panneau de filtre pour l'indice de prix relatif par produit et par période **"
+msgstr "**Panneau de filtre pour l'indice de prix relatif par produit et par période**"
 
 msgid "The filter panel allows a user to filter the of indexes for relative pricing per period, product and zone (results of running of batches). In case the product doesn't have any distribution configured then no relative price index are calculated by running the batch meaning no record will be added to the below list."
 msgstr "Le panneau de filtre permet à l'utilisateur de filtrer les des indices de prix relatifs par période, le produit et la zone (résultats de l'exécution des lots). Dans le cas où le produit n'ait pas de distribution configuré, aucun parent de l'indice des prix sont calculés par l'exécution du lot, pas d'enregistrement sera ajouté à la liste ci-dessous."
@@ -194,7 +194,7 @@ msgstr "`Bouton de filtre d'exécution par lots`"
 
 
 msgid "**Display Panel for the relative price index per product and period**"
-msgstr "** Panneau d'affichage pour l'indice de prix relatif par produit et par période **"
+msgstr "**Panneau d'affichage pour l'indice de prix relatif par produit et par période**"
 
 
 msgid "The Display Panel is used to display results of running of batches after the filter or processing."
@@ -202,7 +202,7 @@ msgstr "Le panneau d'affichage est utilisé pour afficher les résultats de l'ex
 
 
 msgid "**Filter for Accounts Panel**"
-msgstr "** Filtre pour le panneau des comptes **"
+msgstr "**Filtre pour le panneau des comptes**"
 
 
 msgid "The Filter for Accounts Panel is used in filtering of batch protocols for an accounting system based on the following criteria:"
@@ -277,7 +277,7 @@ msgstr "`Bouton d'aperçu du rapport comptable`"
 
 
 msgid "**Button Panel**"
-msgstr "** Panneau de boutons **"
+msgstr "**Panneau de boutons**"
 
 
 msgid "This panel contains control button."
@@ -293,7 +293,7 @@ msgstr "En cliquant sur le bouton de retour (:numref:`mat_back`), l'utilisateur 
 
 
 msgid "**Information Panel**"
-msgstr "** Panneau d'information **"
+msgstr "**Panneau d'information**"
 
 
 msgid "The Information Panel is used to display messages back to the user. Messages will occur once a batch has been processed, filtered or if there was an error at any time during the process of these actions."

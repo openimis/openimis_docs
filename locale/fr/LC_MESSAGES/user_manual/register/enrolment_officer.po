@@ -55,7 +55,7 @@ msgstr "La page de contrôle des agents d'inscription est le point central de to
 
 
 msgid "**Search Panel**"
-msgstr "** Panneau de recherche **"
+msgstr "**Panneau de recherche**"
 
 
 msgid "The search panel allows a user to select specific criteria to minimise the search results. In the case of officers the following search options are available which can be used alone or in combination with each other."
@@ -225,7 +225,7 @@ msgstr "`Sélecteur de page - Panneau de résultats`"
 
 
 msgid "**Button Panel**"
-msgstr "** Panneau de boutons **"
+msgstr "**Panneau de boutons**"
 
 
 msgid "With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete`` is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button."
@@ -233,7 +233,7 @@ msgstr "À l'exception du bouton ``Annuler``, qui redirige vers :ref:`Page d'acc
 
 
 msgid "**Information Panel**"
-msgstr "** Panneau d'information **"
+msgstr "**Panneau d'information**"
 
 
 msgid "The Information Panel is used to display messages back to the user. Messages will occur once an officer has been added, updated or deleted or if there was an error at any time during the process of these actions."
@@ -393,7 +393,7 @@ msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton
 
 
 msgid "**Mandatory data**"
-msgstr "** Données obligatoires **"
+msgstr "**Données obligatoires**"
 
 
 msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk on the right of the corresponding data field)."

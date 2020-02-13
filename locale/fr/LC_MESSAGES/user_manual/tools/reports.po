@@ -47,7 +47,7 @@ msgstr "La page Rapports est divisée en quatre panneaux (:numref:`image204`)."
 
 
 msgid "**Select Criteria**"
-msgstr "** Sélectionnez les critères **"
+msgstr "**Sélectionnez les critères**"
 
 msgid "The Select Criteria panel or the filter panel allows a user to select specific criteria determining the scope of data included in the report. The criteria (:numref:`image205` – :numref:`image222`) will change depending on the selected type of the report."
 msgstr "Les Critères de sélection du panneau ou le panneau de filtre permet à un utilisateur de sélectionner des critères de détermination de la portée de données inclus dans le rapport. Les critères (:numref:`image205` – :numref:`image222`) va changer en fonction du type de rapport."
@@ -418,7 +418,7 @@ msgstr "`Sélecteur de calendrier - Panneau de recherche`"
 
 
 msgid "**Report Type Selector**"
-msgstr "** Sélecteur de type de rapport **"
+msgstr "**Sélecteur de type de rapport**"
 
 msgid "This panel contains a list of available report types. A user can select to create a desired report by clicking on the report type list item (:numref:`image224`) and narrow the report using the criteria being shown on the panel above, and then click the ``preview`` button to create the report. Available report types are:"
 msgstr "Ce panneau contient une liste des types de rapport. Un utilisateur peut choisir de créer un rapport de votre choix en cliquant sur le type de rapport de l'élément de liste (:numref:`image224`) et étroit le rapport en utilisant les critères indiqués sur le panneau ci-dessus, puis cliquez sur le bouton `aperçu` pour créer le rapport. Types de rapport sont:"
@@ -497,7 +497,7 @@ msgstr "`Sélecteur de type de rapport`"
 
 
 msgid "**Button Panel**"
-msgstr "** Panneau de boutons **"
+msgstr "**Panneau de boutons**"
 
 
 msgid "``Preview button``"
@@ -515,7 +515,7 @@ msgstr "En cliquant sur ce bouton, l'utilisateur actuel sera <home_page> vers :r
 
 
 msgid "**Information Panel**"
-msgstr "** Panneau d'information **"
+msgstr "**Panneau d'information**"
 
 msgid "The Information Panel is used to display messages back to the user. Messages will occur if there was an error at any time during the processing of the reports."
 msgstr "Le Panneau d'Information est utilisé pour afficher des messages à l'utilisateur. Les Messages se produire si il y a une erreur à tout moment au cours du traitement des rapports."
@@ -533,7 +533,7 @@ msgstr "Voici les types de rapports tels qu'ils peuvent être vus sur la page du
 
 
 msgid "**primary operational indicators  - policies report**"
-msgstr "** principaux indicateurs opérationnels - rapport sur les politiques **"
+msgstr "**principaux indicateurs opérationnels - rapport sur les politiques**"
 
 msgid "The report provides aggregate data relating to policies and insurees according to insurance products. The report can be run by users with the system role Manager or with a role including an access to Tools/Reports/Primary Operational Indicators-policies. The table below will provide an overview on   primary indicators of the report."
 msgstr "Le rapport fournit des données agrégées relatives aux politiques et aux assurés selon les produits d'assurance. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système de Gestionnaire ou d'un rôle, y compris un accès à des Outils/Rapports/Primaire Indicateurs Opérationnels-politiques. Le tableau ci-dessous vous donnera un aperçu sur les principaux indicateurs du rapport."
@@ -548,7 +548,7 @@ msgstr "**Code**"
 
 
 msgid "**Primary indicators**"
-msgstr "** Indicateurs primaires **"
+msgstr "**Indicateurs primaires**"
 
 
 msgid "**Dimension**"
@@ -672,7 +672,7 @@ msgstr "`Aperçu - Indicateurs opérationnels principaux - Rapport sur les polit
 
 
 msgid "**primary operational indicators  - claims report**"
-msgstr "** principaux indicateurs opérationnels - rapport de sinistres **"
+msgstr "**principaux indicateurs opérationnels - rapport de sinistres**"
 
 msgid "The report provides aggregate data relating to policies and insurees according to insurance products. The report can be run by users with the system role Manager or with a role including an access to Tools/Reports/Primary Operational Indicators-claims. The table below will provide an overview on   primary indicators of the report."
 msgstr "Le rapport fournit des données agrégées relatives aux politiques et aux assurés selon les produits d'assurance. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système de Gestionnaire ou d'un rôle, y compris un accès à des Outils/Rapports/Primaire Indicateurs Opérationnels-Réclamations. Le tableau ci-dessous vous donnera un aperçu sur les principaux indicateurs du rapport."
@@ -725,7 +725,7 @@ msgstr "`Aperçu - Indicateurs opérationnels principaux - Rapport sur les récl
 
 
 msgid "**derived operational indicators report**"
-msgstr "** rapport sur les indicateurs opérationnels dérivés **"
+msgstr "**rapport sur les indicateurs opérationnels dérivés**"
 
 msgid "The report provides operational indicators derived from primary operational indicators. The report can be run by users with the system role Manager or with a role including an access to Tools/Reports/Derived Operational Indicators. The table below will provide an overview on the actual derived indicators provided by the report."
 msgstr "Le rapport fournit des indicateurs opérationnels le fruit des indicateurs opérationnels. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système de Gestionnaire ou d'un rôle, y compris un accès à des Outils/Rapports/Dérivé des Indicateurs Opérationnels. Le tableau ci-dessous fournissent un aperçu des indicateurs dérivés fournis par le rapport."
@@ -858,7 +858,7 @@ msgstr "`Aperçu - Rapport sur les indicateurs opérationnels dérivés`"
 
 
 msgid "**Contribution collection report**"
-msgstr "** Rapport de collecte des contributions **"
+msgstr "**Rapport de collecte des contributions**"
 
 msgid "The report lists all actual payments of contributions according to insurance products in the defined period. The report can be used as input to an accounting system. The report can be run by users with the the system role Accountant or with a role including an access to Tools/Reports/Contribution Collection. Payments are assigned to the specified period according to the actual date of payment. (:numref:`image228`)"
 msgstr "Le rapport dresse la liste de tous les paiements des contributions en vertu de produits d'assurance dans la période définie. Le rapport peut être utilisé comme entrée pour un système de comptabilité. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système Comptable ou à un rôle, y compris un accès à des Outils/Rapports/perception de la Contribution. Les paiements sont attribués à la période spécifiée en fonction de la date effective de paiement. (:numref:`image228`)"
@@ -869,7 +869,7 @@ msgstr "`Aperçu - Rapport de collecte des contributions`"
 
 
 msgid "**product sales report**"
-msgstr "** rapport de vente de produit **"
+msgstr "**rapport de vente de produit**"
 
 msgid "The report provides overview of selling of policies according to insurance products in terms of calculated contributions (not necessarily actually paid). The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Product Sales. Policies are assigned to the specified period according to their effective days. (:numref:`image229`)"
 msgstr "Le rapport fournit un aperçu de la vente des politiques en fonction des produits d'assurance en termes de calculé les contributions (pas nécessairement réellement payé). Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système Comptable ou à un rôle, y compris un accès à des Outils/Rapports/Ventes de Produits. Les politiques sont attribués à la période spécifiée en fonction de l'efficacité de leur jours. (:numref:`image229`)"
@@ -880,7 +880,7 @@ msgstr "`Aperçu - Rapport sur les ventes de produits`"
 
 
 msgid "**Contribution distribution report**"
-msgstr "** Rapport de distribution des contributions **"
+msgstr "**Rapport de distribution des contributions**"
 
 msgid "The report provides proportional amount of actually paid contributions allocated by openIMIS to specific months according to insurance products. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Contribution Distribution. This report shows the information about the **Total collection**, **Allocated amount** and **Not allocated** amount for contributions in the specified period."
 msgstr "Le rapport fournit une quantité proportionnelle de réellement versé des contributions allouées par openIMIS à certains mois selon les produits d'assurance. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système Comptable ou à un rôle, y compris un accès à des Outils/Rapports/Contribution de Distribution. Ce rapport présente les informations sur l' **le Total de la collecte**, **montant Alloué** et **Non alloué** montant des contributions à la période spécifiée."
@@ -894,7 +894,7 @@ msgstr "`Aperçu - Rapport de distribution des contributions`"
 
 
 msgid "**user activity report**"
-msgstr "** rapport d'activité des utilisateurs **"
+msgstr "**rapport d'activité des utilisateurs**"
 
 msgid "The report shows activities of users according to types of activities and types of entities to which the activities relate. The report can be run by users with system role IMIS Administrator or with a role including an access to Tools/Reports/User Activity.  (:numref:`image231`)"
 msgstr "Le rapport montre que les activités des utilisateurs en fonction des types d'activités et les types d'entités dont les activités se rapportent. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système IMIS Administrateur ou avec un rôle, y compris un accès à des Outils/Rapports/l'Activité de l'Utilisateur. (:numref:`image231`)"
@@ -905,7 +905,7 @@ msgstr "`Aperçu - Rapport d'activité de l'utilisateur`"
 
 
 msgid "**enrolment performance indicator report**"
-msgstr "** rapport d'indicateur de performance d'inscription **"
+msgstr "**rapport d'indicateur de performance d'inscription**"
 
 msgid "The report provides overview of activity of enrolment officers. The report can be run by users with the system role Manager or with a role including an access to Tools/Reports/Enrolment Performance Indicator. (:numref:`image232`)"
 msgstr "Le rapport fournit un aperçu de l'activité des agents d'inscription. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système de Gestionnaire ou d'un rôle, y compris un accès à des Outils/Rapports/d'Inscription à l'Indicateur de Performance. (:numref:`image232`)"
@@ -916,7 +916,7 @@ msgstr "`Aperçu - Rapport sur les indicateurs de performance des inscriptions`"
 
 
 msgid "**status of registers report**"
-msgstr "** rapport sur l'état des registres **"
+msgstr "**rapport sur l'état des registres**"
 
 msgid "The report provides an overview of the number of items in registers according to districts. The report can be run by users with the system role Scheme Administrator or with a role including an access to Tools/Reports/Status of Registers.(:numref:`image233`)"
 msgstr "Le rapport donne un aperçu du nombre d'articles dans les registres selon les districts. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système de Régime d'Administrateur ou avec un rôle, y compris un accès à des Outils/Rapports/État des Registres.(:numref:`image233`)"
@@ -927,7 +927,7 @@ msgstr "`Aperçu - Rapport sur l'état des registres`"
 
 
 msgid "**insurees without photos**"
-msgstr "** assurés sans photos **"
+msgstr "**assurés sans photos**"
 
 msgid "The report lists all insurees according to enrolment officers that have not assigned a photo. The report can be run by users with thesystem role Accountant or with a role including an access to Tools/Reports/Insurees without Photos.  (:numref:`image234`)"
 msgstr "Le rapport répertorie tous les assurés selon les agents d'inscription qui n'ont pas attribué une photo. Le rapport peut être exécuté que par des utilisateurs ayant thesystem a le rôle d'un Comptable ou à un rôle, y compris un accès à des Outils/Rapports/les Assurés sans Photos. (:numref:`image234`)"
@@ -938,7 +938,7 @@ msgstr "`Aperçu - Assurés sans photos`"
 
 
 msgid "**matching funds**"
-msgstr "** fonds de contrepartie **"
+msgstr "**fonds de contrepartie**"
 
 msgid "The report lists all families/groups according to insurance products and (institutional) payers that paid contributions in the specified period. This report is useful for claiming of subsidies for running of health insurance schemes. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Matching Funds.  (:numref:`image235`)"
 msgstr "Le rapport répertorie toutes les familles/groupes en fonction des produits d'assurance et (institutionnel) contribuables qui ont payé des cotisations dans le délai imparti. Ce rapport est utile pour la demande de subventions pour l'exécution des programmes d'assurance santé. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système Comptable ou à un rôle, y compris un accès à des Outils/Rapports/Fonds de contrepartie. (:numref:`image235`)"
@@ -949,7 +949,7 @@ msgstr "`Aperçu - Fonds correspondants`"
 
 
 msgid "**claim overview**"
-msgstr "** aperçu des réclamations **"
+msgstr "**aperçu des réclamations**"
 
 msgid "The report provides detailed data about results of processing of claims in openIMIS according to insurance products and health facilities. The report can be used as a tool for communication between a health insurance scheme and its contractual health facilities. The report can be run by users with the rsystem role Accountant or with a role including an access to Tools/Reports/Claim Overview. Claims are assigned to the specified period according to date of provision of health care (in case of in-patient care according to the date of discharge).  (:numref:`image236`)"
 msgstr "Le rapport fournit des données détaillées sur les résultats de traitement des réclamations dans les openIMIS selon les produits d'assurance et des établissements de santé. Le rapport peut être utilisé comme un outil de communication entre un régime d'assurance santé et contractuel des établissements de santé. Le rapport peut être exécuté par les utilisateurs avec le rsystem rôle d'un Comptable ou à un rôle, y compris un accès à des Outils/Rapports/de la Demande Présentation. Les Réclamations sont attribués à la période spécifiée en fonction de la date de la prestation des soins de santé (dans le cas des soins aux patients en fonction de la date de la libération). (:numref:`image236`)"
@@ -960,7 +960,7 @@ msgstr "`Image 236 Preview - Aperçu de la revendication`"
 
 
 msgid "**payment category overview**"
-msgstr "** Aperçu des catégories de paiement **"
+msgstr "**Aperçu des catégories de paiement**"
 
 msgid "The report provides split of total contributions according to their categories. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Payment Category Overview.  Contributions are assigned to the specified period according to actual payment date. (:numref:`image237`)"
 msgstr "Le rapport fournit split du total des contributions en fonction de leurs catégories. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système Comptable ou à un rôle, y compris un accès à des Outils/Rapports/Paiement Aperçu Catégorie. Les cotisations sont affectées à la période spécifiée à la date de paiement. (:numref:`image237`)"
@@ -971,7 +971,7 @@ msgstr "`Aperçu - Aperçu des catégories de paiement`"
 
 
 msgid "**Families and Insurees Overview report**"
-msgstr "** Rapport de présentation des familles et des assurés **"
+msgstr "**Rapport de présentation des familles et des assurés**"
 
 msgid "The report provides an overview of enrolled families/groups and their members in specified location within the specified period. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Families and Insurees Overview.  (:numref:`image238`)"
 msgstr "Le rapport fournit une vue d'ensemble des inscrits familles/groupes et de leurs membres dans l'emplacement spécifié dans la période spécifiée. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système Comptable ou à un rôle, y compris un accès à des Outils/Rapports/les Familles et les Assurés vue d'ensemble. (:numref:`image238`)"
@@ -982,7 +982,7 @@ msgstr "`Aperçu - Rapport de présentation des familles et des assurés`"
 
 
 msgid "**Percentage of Referrals report**"
-msgstr "** Rapport sur le pourcentage de renvois **"
+msgstr "**Rapport sur le pourcentage de renvois**"
 
 msgid "The report lists all primary health care facilities (the category is Dispensary and Health Centre) in the selected district and for each such health facilities provides the following indicators:"
 msgstr "Le rapport dresse la liste de tous les établissements de soins primaires (la catégorie est Dispensaire et Centre de Santé), dans le district et pour chacun de ces établissements de santé fournit les indicateurs suivants:"
@@ -1007,7 +1007,7 @@ msgstr "`Aperçu - Rapport de pourcentage de présentation des références`"
 
 
 msgid "**Pending Insurees report**"
-msgstr "** Rapport des assurés en attente **"
+msgstr "**Rapport des assurés en attente**"
 
 msgid "The report lists all insurees whose photos have been sent to openIMIS but who has no record in openIMIS yet. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Pending Insurees.   (:numref:`image240`)"
 msgstr "Le rapport répertorie tous les assurés dont les photos ont été envoyées à openIMIS mais qui n'a pas de dossier dans openIMIS encore. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système Comptable ou à un rôle, y compris un accès à des Outils/Rapports/en attendant les Assurés. (:numref:`image240`)"
@@ -1018,7 +1018,7 @@ msgstr "`Aperçu - Rapport des assurés en attente`"
 
 
 msgid "**Renewals report**"
-msgstr "** Rapport de renouvellement **"
+msgstr "**Rapport de renouvellement**"
 
 msgid "The report lists all renewed policies in given period for given insurance product and optionally for given enrolment officer. The families that have at least one payment of contributions in given period of time are included in the report. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Renewals. Below is an example of the report (:numref:`image241`)"
 msgstr "Le rapport dresse la liste de toutes les nouvelles politiques en période donnée pour les produits d'assurance et éventuellement pour les inscriptions agent. Les familles qui ont au moins un paiement de cotisations en période donnée sont inclus dans le rapport. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système Comptable ou à un rôle, y compris un accès à des Outils/Rapports/Renouvellements. Ci-dessous un exemple de rapport (:numref:`image241`)"
@@ -1029,7 +1029,7 @@ msgstr "`Aperçu - Rapport sur les renouvellements`"
 
 
 msgid "**Capitation Payment Report**"
-msgstr "** Rapport de paiement par capitation **"
+msgstr "**Rapport de paiement par capitation**"
 
 msgid "The report lists capitation payments for all health facilities specified in the `capitation formula <#capitation-payment>`__ for specified month and for given insurance product. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Capitation Payment.  (:numref:`image242`)"
 msgstr "Le rapport répertorie les paiements par capitation pour tous les établissements de santé spécifiés dans la `formule de capitation <#capitation-payment>`__ pour le mois spécifié et pour le produit d'assurance donné. Le rapport peut être exécuté par des utilisateurs avec le rôle système Comptable ou avec un rôle comprenant un accès à Outils / Rapports / Paiement de capitation. (:numref:`image242`)"

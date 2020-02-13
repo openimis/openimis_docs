@@ -54,7 +54,7 @@ msgstr "Le `Produit de Contrôle de la Page` est le point central pour l'adminis
 
 
 msgid "**Search Panel**"
-msgstr "** Panneau de recherche **"
+msgstr "**Panneau de recherche**"
 
 
 msgid "The search panel allows a user to select specific criteria to minimise the search results. In the case of Products the following search options are available, which can be used alone, or in combination with each other."
@@ -191,14 +191,14 @@ msgstr "`Sélecteur de page - Panneau de résultats`"
 
 
 msgid "**Button Panel**"
-msgstr "** Panneau de boutons **"
+msgstr "**Panneau de boutons**"
 
 msgid "With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, and the Add button which re-directs to the product page, the button panel (the buttons ``Edit`` and ``Duplicate`` ) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button."
 msgstr "À l'exception du bouton ``Annuler``, qui redirige vers :ref:`Page d'accueil <home_page>`, et le bouton Ajouter qui redirige vers la page du produit, le panneau de boutons (les boutons ``Modifier `` et ``Dupliquer``) est utilisé conjointement avec l'enregistrement actuellement sélectionné (surligné en bleu). L'utilisateur doit d'abord sélectionner un enregistrement en cliquant sur n'importe quelle position de l'enregistrement à l'exception du lien hypertexte le plus à gauche, puis cliquez sur le bouton."
 
 
 msgid "**Information Panel**"
-msgstr "** Panneau d'information **"
+msgstr "**Panneau d'information**"
 
 msgid "The Information Panel is used to display messages back to the user. Messages will occur once a product has been added, updated or deleted or if there was an error at any time during the process of these actions."
 msgstr "Le Panneau d'Information est utilisé pour afficher des messages à l'utilisateur. Les Messages se fera une fois qu'un produit a été ajouté, mis à jour ou supprimés, ou si il y a une erreur à tout moment pendant le déroulement de ces actions."
@@ -275,7 +275,7 @@ msgstr "Sélectionnez dans la liste de produits, une référence au produit qui 
 
 
 msgid "**Policy Amount, threshold and ceilings**"
-msgstr "** Montant de la police, seuil et plafonds **"
+msgstr "**Montant de la police, seuil et plafonds**"
 
 
 msgid "``Lump Sum``"
@@ -422,7 +422,7 @@ msgstr "Entrer à l'assemblée des frais pour chaque membre d'un ménage/groupe.
 
 
 msgid "**Covered Medical sercices**"
-msgstr "** Services médicaux couverts **"
+msgstr "**Services médicaux couverts**"
 
 
 msgid "Select from the list of available medical services (from the register of Medical Services) the medical services covered within the insurance product, by either clicking on the ``Check All`` box at the top of the list of medical services, or by selectively clicking on the check box to the left of the medical service."
@@ -626,7 +626,7 @@ msgstr "Saisissez le code de compte du produit d'assurance utilisé dans le logi
 
 
 msgid "**policy lenght and start**"
-msgstr "** durée et début de la police **"
+msgstr "**durée et début de la police**"
 
 
 msgid "``Recurrence``"
@@ -656,7 +656,7 @@ msgstr "Si une ou plusieurs dates de début (jour et mois) d'un cycle sont spéc
 
 
 msgid "**Deductibles and Ceiling**"
-msgstr "** Franchises et plafond **"
+msgstr "**Franchises et plafond**"
 
 msgid "Specify whether Hospital and Non-Hospital care should be determined according to the type of health facility (select [Hospital]) that provided health care or according to the type of health care (select [In-patient]) acquired from a claim. In the first case all health care provided in hospitals (defined in the field ``HF Level`` in the register of Health Facilities) is accounted for ``Hospital Ceilings/Deductibles`` and for calculation of relative prices for the ``Hospital`` part. It means that if clamed health care was provided out-patient in a hospital, it is considered for calculation of ceilings/deductibles and for calculation of relative prices as hospital care. In the second case only in-patient care (determined from a claim when a patient spent at least one night in a health facility) is accounted for ``Hospital Ceilings/Deductibles`` and for calculation of relative prices for hospital part. Other health care including out-patient care provided in hospitals is accounted for ``Non hospital Ceilings/Deductibles`` and also such health care is used for calculation of relative prices for non-hospital part. Mandatory."
 msgstr "Spécifier si Hospitaliers et Non Hospitaliers de soins doit être déterminée selon le type d'établissement de santé (sélectionnez [de l'Hôpital]) qui a fourni des soins de santé ou selon le type de soins de santé (sélectionnez [du patient]) acquis à partir d'une réclamation. Dans le premier cas, tous les soins de santé fournis dans les hôpitaux (défini dans le champ `HF Level` dans le registre des Établissements de Santé) est comptabilisée pour `Hôpital Plafonds/Franchises` et pour le calcul des prix relatifs, à `l'Hôpital` de la partie. Cela signifie que si clamed de soins de santé a été donné par un patient dans un hôpital, il est considéré pour le calcul des plafonds/franchises et pour le calcul des prix relatifs, en tant que soins à l'hôpital. Dans le second cas que dans les soins aux malades (déterminé à partir d'une réclamation lorsqu'un patient a passé au moins une nuit dans un établissement de santé) est comptabilisée pour `Hôpital Plafonds/Franchises` et pour le calcul des prix relatifs, à l'hôpital de la partie. D'autres soins de santé, y compris les soins fournis aux patients dans les hôpitaux est comptabilisée pour `Non à l'hôpital Plafonds/Franchises` et aussi les soins de santé est utilisé pour le calcul des prix relatifs pour les non-hôpital de la partie. Obligatoire."
@@ -744,7 +744,7 @@ msgstr "`Remarque. Il est possible de spécifier qu'une seule des plafonds suiva
 
 
 msgid "**Health fund management**"
-msgstr "** Gestion de fonds de santé **"
+msgstr "**Gestion de fonds de santé**"
 
 
 msgid "``distribution Period``"
@@ -775,7 +775,7 @@ msgstr "`Périodes de distribution (mensuelles - trimestrielles - annuelles) - P
 
 
 msgid "**Capitation Payment**"
-msgstr "** Paiement par capitation **"
+msgstr "**Paiement par capitation**"
 
 
 msgid "The section allows definition of parameters of a capitation formula used for remuneration of selected levels of health facilities within the insurance product. The report `Capitation Payment` is used for calculation of the amount of capitation payment for individual health facilities. The parameters of the capitation formula are the following:"
@@ -985,7 +985,7 @@ msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton
 
 
 msgid "**Mandatory data**"
-msgstr "** Données obligatoires **"
+msgstr "**Données obligatoires**"
 
 msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk on the right of the corresponding data field)."
 msgstr "S'il est obligatoire de données n'est pas entré au moment où l'utilisateur clique sur le bouton `Enregistrer`, un message s'affiche dans le Panneau d'Information, et le champ de données de prendre le focus (par un astérisque sur la droite du champ de données correspondant)."

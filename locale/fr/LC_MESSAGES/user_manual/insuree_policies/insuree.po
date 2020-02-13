@@ -59,7 +59,7 @@ msgstr "Le preneur d'assurance Page` est la première étape dans le processus d
 
 
 msgid "**Search Panel**"
-msgstr "** Panneau de recherche **"
+msgstr "**Panneau de recherche**"
 
 
 msgid "The Search Panel allows a user to select specific criteria to minimise the search results. In the case of insurees the following search options are available, which can be used alone or in combination with each other."
@@ -262,7 +262,7 @@ msgstr "`Sélecteur de page - Panneau de résultats`"
 
 
 msgid "**Button Panel**"
-msgstr "** Panneau de boutons **"
+msgstr "**Panneau de boutons**"
 
 
 msgid "The ``CLAIMS`` button directs to the  Claims Control Pages for the selected insure. The  Claims Control Pages is populated by the insurance number of the selected insuree. The CLAIMS button is available only if the user has a role that includes access to Claims/Claim/Search."
@@ -277,7 +277,7 @@ msgstr "Le bouton ``Annuler`` redirige vers la ``page d'accueil``."
 
 
 msgid "**Information Panel**"
-msgstr "** Panneau d'information **"
+msgstr "**Panneau d'information**"
 
 
 msgid "The Information Panel is used to display messages back to the user. Messages will occur once a insuree has been added, updated or deleted or if there was an error at any time during the process of these actions."
@@ -480,7 +480,7 @@ msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton
 
 
 msgid "**Mandatory data**"
-msgstr "** Données obligatoires **"
+msgstr "**Données obligatoires**"
 
 
 msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk)"

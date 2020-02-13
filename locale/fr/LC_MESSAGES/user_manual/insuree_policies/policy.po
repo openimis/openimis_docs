@@ -54,7 +54,7 @@ msgstr "La ``page de recherche de police`` est la première étape du processus 
 
 #: ../../user_manual/insuree_policies/policy.rst:37
 msgid "**Search Panel**"
-msgstr "** Panneau de recherche **"
+msgstr "**Panneau de recherche**"
 
 #: ../../user_manual/insuree_policies/policy.rst:39
 msgid "The Search Panel allows a user to select specific criteria to minimise the search results. In the case of policies the following search options are available which can be used alone or in combination with each other."
@@ -301,7 +301,7 @@ msgstr "`Sélecteur de page - Panneau de résultats`"
 
 #: ../../user_manual/insuree_policies/policy.rst:171
 msgid "**Button Panel**"
-msgstr "** Panneau de boutons **"
+msgstr "**Panneau de boutons**"
 
 #: ../../user_manual/insuree_policies/policy.rst:173
 msgid "The ``Cancel`` button re-directs to the :ref:`Home Page <home_page>`."
@@ -309,7 +309,7 @@ msgstr "Le bouton ``Annuler`` redirige vers :ref:`Page d'accueil <home_page>`."
 
 #: ../../user_manual/insuree_policies/policy.rst:175
 msgid "**Information Panel**"
-msgstr "** Panneau d'information **"
+msgstr "**Panneau d'information**"
 
 #: ../../user_manual/insuree_policies/policy.rst:177
 msgid "The Information Panel is used to display messages back to the user. Messages will occur once a policy has been added, updated or deleted or if there was an error at any time during the process of these actions."
@@ -377,7 +377,7 @@ msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton
 
 #: ../../user_manual/insuree_policies/policy.rst:218
 msgid "**Mandatory data**"
-msgstr "** Données obligatoires **"
+msgstr "**Données obligatoires**"
 
 #: ../../user_manual/insuree_policies/policy.rst:220
 msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk)."

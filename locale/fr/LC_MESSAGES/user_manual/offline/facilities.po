@@ -35,7 +35,7 @@ msgstr "`Entrez Scheme Office ID - Connexion administrateur de schéma hors lign
 
 
 msgid "**Information bar**"
-msgstr "** Barre d'information **"
+msgstr "**Barre d'information**"
 
 msgid "Throughout the application, an information bar at the bottom of each page will have a different background colour to that of online openIMIS and on the its right end, there will be shown heath facility code and health facility name / Scheme Office ID submitted (:numref:`image253`), (:numref:`image254`)."
 msgstr "Tout au long de l'application, une barre d'information en bas de chaque page aura une autre couleur d'arrière-plan pour que de en ligne openIMIS et sur la à son extrémité droite, il n'y aura montré heath code de fonction et de la santé au nom de l'établissement / Régime de Bureau ID soumis (:numref:`image253`), (:numref:`image254`)."
@@ -50,7 +50,7 @@ msgstr "`Barre d'information - Établissement de santé, openIMIS hors ligne`"
 
 
 msgid "**Menu Access**"
-msgstr "** Accès au menu **"
+msgstr "**Accès au menu**"
 
 
 msgid "For all users with roles other than HF Administrator and Offline Scheme Administrator , will have the menus available to them as per normal roles' rights in online openIMIS version. Menu access in the offline version is different in following scenarios:"
@@ -220,7 +220,7 @@ msgstr "`Page Utilisateurs - Administrateur du système hors ligne, openIMIS hor
 
 
 msgid "**data access**"
-msgstr "** accès aux données **"
+msgstr "**accès aux données**"
 
 
 msgid "Search / Find"

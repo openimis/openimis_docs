@@ -53,7 +53,7 @@ msgstr "Administration des utilisateurs profil s(rôles) n'est inclus dans aucun
 
 
 msgid "**Pre-conditions**"
-msgstr "** Conditions préalables **"
+msgstr "**Conditions préalables**"
 
 msgid "A new user profile may only be added or thereafter edited, after an approval of the management of the scheme administration. It can be accomplished at the beginning only by the Admin user. The Admin user can define a new user profile incorporating also adding, editing  or deleting of  user profiles and create new users  with this profile. In this way, rights to the register of user profiles can be delegated to other users besides the Admin user."
 msgstr "Un nouveau profil d'utilisateur ne peut être ajouté ou par la suite édité, après une approbation de la gestion du régime de l'administration. Il peut être accompli au début uniquement par l'utilisateur Admin. L'Administrateur peut définir un nouveau profil d'utilisateur, intégrant également l'ajout, la modification ou la suppression de profils d'utilisateur et de créer de nouveaux utilisateurs avec ce profil. De cette façon, les droits d'inscription au registre des profils d'utilisateurs peuvent être déléguées à d'autres utilisateurs en plus de l'utilisateur Admin."
@@ -67,7 +67,7 @@ msgstr "Toutes les fonctionnalités pour une utilisation avec l'administration d
 
 
 msgid "**Search Panel**"
-msgstr "** Panneau de recherche **"
+msgstr "**Panneau de recherche**"
 
 msgid "The search panel allows a user to select specific criteria to minimise the search results. The following search options are available which can be used alone or in combination with each other."
 msgstr "Le panneau de recherche permet à un utilisateur de sélectionner des critères spécifiques afin de minimiser les résultats de la recherche. Les options de recherche suivantes sont disponibles qui peuvent être utilisés seuls ou en combinaison les uns avec les autres."
@@ -129,7 +129,7 @@ msgstr "Un maximum de 15 enregistrements sont affichés en même temps, d'autres
 
 
 msgid "**Button Panel**"
-msgstr "** Panneau de boutons **"
+msgstr "**Panneau de boutons**"
 
 
 msgid "The ``Add`` button will `add a new role/profile <#adding-a-user-role-profile>`__ (not available if ``Historical`` was checked)"
@@ -151,7 +151,7 @@ msgstr "Le bouton ``Annuler`` redirige vers :ref:`Page d'accueil <home_page>`."
 
 
 msgid "**Information Panel**"
-msgstr "** Panneau d'information **"
+msgstr "**Panneau d'information**"
 
 msgid "The Information Panel is used to display messages back to the user. Messages will occur once a user role/profile has been added, updated or deleted or if there was an error at any time during the process of these actions."
 msgstr "Le Panneau d'Information est utilisé pour afficher des messages à l'utilisateur. Les Messages se produire une fois un rôle d'utilisateur/profil a été ajouté, mis à jour ou supprimés, ou si il y a une erreur à tout moment pendant le déroulement de ces actions."
@@ -166,7 +166,7 @@ msgstr "`Image - Rôle utilisateur / page de profil`"
 
 
 msgid "**Data Entry - Role details**"
-msgstr "** Entrée de données - Détails du rôle **"
+msgstr "**Entrée de données - Détails du rôle**"
 
 msgid "Enter the name of the role/profile, this name will be used as reference in the `User roles/profiels control page <#user-roles-profiles-control-page>`__ and `Users page <#user-page>`__"
 msgstr "Entrez le nom du rôle / profil, ce nom sera utilisé comme référence dans la `page de contrôle des rôles / profils <#user-roles-profiles-control-page>`__ et `page des utilisateurs <#user-page>`__"
@@ -189,7 +189,7 @@ msgstr "Si coché, le profil utilisateur est bloqué"
 
 
 msgid "**Data Entry - Rights details**"
-msgstr "** Saisie de données - Détails des droits **"
+msgstr "**Saisie de données - Détails des droits**"
 
 
 msgid "``Insurees and Policies``"
@@ -548,7 +548,7 @@ msgstr "En cliquant sur le bouton ``Annuler``, l'utilisateur sera redirigé vers
 
 
 msgid "**Mandatory data**"
-msgstr "** Données obligatoires **"
+msgstr "**Données obligatoires**"
 
 msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data fields will take the focus (by an asterisk on the right of the corresponding data field)."
 msgstr "S'il est obligatoire de données n'est pas entré au moment où l'utilisateur clique sur le bouton `Enregistrer`, un message s'affiche dans le Panneau d'Information, et les champs de données va prendre le focus (par un astérisque sur la droite du champ de données correspondant)."
@@ -631,7 +631,7 @@ msgstr "**Responsabilités**"
 
 
 msgid "**Available functionality**"
-msgstr "** Fonctionnalité disponible **"
+msgstr "**Fonctionnalité disponible**"
 
 
 msgid "Enrolment Officer"

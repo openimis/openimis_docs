@@ -55,7 +55,7 @@ msgstr "Les Emplacements de la page est le point central pour tous les sites de 
 
 
 msgid "**Locations Panel**"
-msgstr "** Panneau d'emplacements **"
+msgstr "**Panneau d'emplacements**"
 
 
 msgid "This is the working panel and is divided into four vertical panels of ``Regions, Districts, Municipalities`` and ``Villages.``"
@@ -63,7 +63,7 @@ msgstr "Ceci est le panneau de travail et est divisé en quatre panneaux vertica
 
 
 msgid "**Button Panel**"
-msgstr "** Panneau de boutons **"
+msgstr "**Panneau de boutons**"
 
 
 msgid "It has four buttons, ``Add``, ``Edit``, ``Delete`` and ``Move`` for actions on the locations and the ``Cancel`` button for re-directing to the :ref:`Home Page <home_page>`\\."
@@ -75,7 +75,7 @@ msgstr "`Boutons d'action - Page Emplacements`"
 
 
 msgid "**Information Panel**"
-msgstr "** Panneau d'information **"
+msgstr "**Panneau d'information**"
 
 
 msgid "The Information Panel is used to display messages back to the user. Messages will occur once a region, district or municipality or village has been added, updated, moved or deleted or if there was an error at any time during the process of these actions."
@@ -140,7 +140,7 @@ msgstr "La ``page de localisation des déplacements`` est divisée en six pannea
 
 
 msgid "**Locations Panels  (A ,B,C,D)**"
-msgstr "** Panneaux d'emplacements (A, B, C, D) **"
+msgstr "**Panneaux d'emplacements (A, B, C, D)**"
 
 msgid "The pair of A and B panels is used for moving of a village to another municipality. The pair of B and C panels is used for moving of a municipality to another district. The pair C and D is used for moving a district to another region."
 msgstr "La paire de A et B des panneaux est utilisé pour déplacer d'un village à l'autre municipalité. La paire de B et C par des panneaux est utilisé pour le déplacement d'une municipalité à l'autre district. La paire de C et D est utilisé pour le déplacement d'un district à l'autre de la région."

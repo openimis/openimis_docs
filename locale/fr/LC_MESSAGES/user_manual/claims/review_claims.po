@@ -48,7 +48,7 @@ msgstr "La page Aperçu des réclamations est le point central de toute administ
 
 #: ../../user_manual/claims/review_claims.rst:39
 msgid "**Search Panel**"
-msgstr "** Panneau de recherche **"
+msgstr "**Panneau de recherche**"
 
 #: ../../user_manual/claims/review_claims.rst:41
 msgid "The search panel allows a user to select specific criteria to minimise the search results. In the case of claims the following search options are available, which can be used alone, or in combination with each other."
@@ -202,7 +202,7 @@ msgstr "Sélectionnez le type de visite ambulatoire ou d'admission hospitalière
 
 #: ../../user_manual/claims/review_claims.rst:113
 msgid "**Claim Selection Update Panel**"
-msgstr "** Panneau de mise à jour de la sélection des réclamations **"
+msgstr "**Panneau de mise à jour de la sélection des réclamations**"
 
 #: ../../user_manual/claims/review_claims.rst:115
 msgid "This panel is basically for functionality of updating multiple claims which are currently loaded in the Result Panel at once basing on the claim filter criteria available on this panel. The update on the claims is basically changing **Feedback Status** and **Review Status** of a claim from **Idle** to **Selected for Feedback** or **Selected for Review** respectively. The filters in this panel work on the claims which are currently loaded on the result panel. The combination of filters is either ``Select`` and either ``Random`` or ``Value`` combination of ``Value`` and ``Variance``."
@@ -238,7 +238,7 @@ msgstr "``variance``"
 
 #: ../../user_manual/claims/review_claims.rst:133
 msgid "Enable to set a variance arround the ``Value`` specified **Percentage Variance = [(Claim Value \\ Filter Value) – 1] \\* 100**"
-msgstr "Activer pour définir une variance autour de la ``valeur`` spécifiée ** Variation en pourcentage = [(Valeur de revendication \\ Valeur de filtre) - 1] \\ * 100 **"
+msgstr "Activer pour définir une variance autour de la ``valeur`` spécifiée ** Variation en pourcentage = [(Valeur de revendication \\ Valeur de filtre) - 1] \\ * 100**"
 
 #: ../../user_manual/claims/review_claims.rst:136
 msgid "``filter button``"
@@ -310,7 +310,7 @@ msgstr "Un clic sur ce bouton (:numref:`review_feedback_but`) redirige un utilis
 
 #: ../../user_manual/claims/review_claims.rst:186
 msgid "**Actions Menu**"
-msgstr "** Menu Actions **"
+msgstr "**Menu Actions**"
 
 #: ../../user_manual/claims/review_claims.rst:188
 msgid "The Action menu is used in conjunction with the current selected record (highlighted with light grey). The user should first select a record by clicking on any position of the record or by clicking on ``Select All`` (:numref:`review_select_all`)"
@@ -410,7 +410,7 @@ msgstr "cela signifie que la valorisation se fera par rapport au cieling et à l
 
 #: ../../user_manual/claims/review_claims.rst:263
 msgid "**Information Panel**"
-msgstr "** Panneau d'information **"
+msgstr "**Panneau d'information**"
 
 #: ../../user_manual/claims/review_claims.rst:265
 msgid "The Information Panel is used to display messages back to the user. Messages will occur once a claim has been reviewed, updated, feedback added on claim or if there was an error at any time during the process of these actions."
@@ -604,7 +604,7 @@ msgstr "L'état de la réclamation est indiqué tout en bas à droite après les
 
 #: ../../user_manual/claims/review_claims.rst:370
 msgid "**Editable information of the current claim**"
-msgstr "** Informations modifiables de la réclamation actuelle **"
+msgstr "**Informations modifiables de la réclamation actuelle**"
 
 #: ../../user_manual/claims/review_claims.rst:372
 msgid "``Adjustment``"
@@ -616,7 +616,7 @@ msgstr "Entrez un texte résumant les ajustements de la réclamation effectués 
 
 #: ../../user_manual/claims/review_claims.rst:376
 msgid "**Services and Items data entry grids.**"
-msgstr "** Grilles de saisie des données sur les services et les articles. **"
+msgstr "**Grilles de saisie des données sur les services et les articles.**"
 
 #: ../../user_manual/claims/review_claims.rst:378
 msgid "``Approved Quantity (app.qty)``"
@@ -841,7 +841,7 @@ msgstr "Dépassement du nombre maximum de contacts prénatals"
 
 #: ../../user_manual/claims/review_claims.rst:470
 msgid "**Saving / Reviewing**"
-msgstr "** Enregistrement / révision **"
+msgstr "**Enregistrement / révision**"
 
 #: ../../user_manual/claims/review_claims.rst:472
 msgid "Once appropriate data is entered, clicking on the ``Save`` button (:numref:`mat_save`) will save the claim review and set the reivew status to ``deliver``; a message confirming that the claim has been saved will appear on the Information Panel."
@@ -849,7 +849,7 @@ msgstr "Une fois les données appropriées saisies, cliquer sur le bouton ``Enre
 
 #: ../../user_manual/claims/review_claims.rst:474
 msgid "**data entry validation**"
-msgstr "** validation de la saisie des données **"
+msgstr "**validation de la saisie des données**"
 
 #: ../../user_manual/claims/review_claims.rst:476
 msgid "If inappropriate data is entered at the time the user clicks the ``Save`` button, an error message will appear in the Information Panel, and the data field will take the focus."

@@ -19,14 +19,14 @@ msgstr "La fonctionnalité dans le menu `Réclamations` permet de compléter le 
 
 
 msgid "**claim entry and submission**"
-msgstr "** entrée et soumission de réclamation **"
+msgstr "**entrée et soumission de réclamation**"
 
 msgid "When it is submitted and it successfully passes at least some automatic checks, the claim goes to the status **Checked**. If the claim doesn’t pass automatic checking it goes to the status **Rejected** and its processing ends. The claim in the status **Checked** may be reviewed from medical point of view and/or a feedback on it can be collected from the patient."
 msgstr "Lorsqu'il est soumis et il réussit au moins certains des contrôles automatiques, la demande passe à l'état **Cochée**. Si la demande ne passe pas de vérification automatique, il va à l'état **Rejeté** et son traitement se termine. La revendication du statut de **Cochée** peuvent être examinés au point de vue médical et/ou un retour sur elle peut être recueillie à partir du patient."
 
 
 msgid "**claim review: scrutinisation and feedback**"
-msgstr "** examen des réclamations: examen minutieux et rétroaction **"
+msgstr "**examen des réclamations: examen minutieux et rétroaction**"
 
 
 msgid "Medical reviewing and feedback acquiring can be by-passed. Ones such (manual) scrutiny of the claim is at the end, the claim may be pushed to the status **Processed**."
@@ -44,7 +44,7 @@ msgstr "Si il y a au moins un service médical ou le médical point avec des pri
 
 
 msgid "**claims values based on stage**"
-msgstr "** valeurs des réclamations basées sur l'étape **"
+msgstr "**valeurs des réclamations basées sur l'étape**"
 
 msgid "Different values (prices) of a claim are associated with each stage of processing of claims. When a claim is entered the value of the claim based on nominal prices of claimed medical services/items is designated as **Claimed Value**. **Claimed Value** is associated with the state **Entered**. The value of the claim after automatic checking of claims during submission of the claim and after manual interventions of medical officers is designated as **Approved Value**. **Approved Value** is associated with the state **Checked**. The value of the claim after corrections based on all cost sharing rules of covering insurance products is designated as **Adjusted Value**. **Adjusted Value** is associated with the state **Processed**. The final value of the claim taking into account actual value of relative prices is designated as **Paid Value**. **Paid Value** is associated with the state **Valuated**."
 msgstr "Des valeurs différentes (les prix) d'une demande qui sont associées à chaque étape de traitement des réclamations. Lorsqu'une réclamation est entré la valeur de la demande basée sur les prix nominaux des revendiquée services médicaux/articles est désigné comme **Valeur Revendiquée**. **Valeur revendiquée** est associé avec l'etat **Conclusion**. La valeur de la demande, après vérification automatique des demandes au cours de la présentation de la demande et après les interventions manuelles de personnel médical est désigné comme **Approuvé Valeur**. **Approuvé Valeur** est associé avec l'etat **Cochée**. La valeur de la créance après corrections basées sur toutes les règles de partage des coûts de la couverture des produits d'assurance est désigné comme **Ajusté de la Valeur**. **Ajusté de la Valeur** est associé avec l'etat **Traité**. La valeur finale de la demande en tenant compte de la valeur réelle des prix relatifs, il est désigné comme **Valeur Payée**. **Valeur payée** est associé avec l'etat **Stock**."

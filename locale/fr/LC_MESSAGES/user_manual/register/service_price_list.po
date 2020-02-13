@@ -52,7 +52,7 @@ msgstr "La `Liste des Prix des Services Médicaux de la Page de Contrôle` est l
 
 
 msgid "**Search Panel**"
-msgstr "** Panneau de recherche **"
+msgstr "**Panneau de recherche**"
 
 msgid "The search panel allows a user to select specific criteria to minimise the search results. In the case of price lists for medical services the following search options are available which can be used alone or in combination with each other."
 msgstr "Le panneau de recherche permet à un utilisateur de sélectionner des critères spécifiques afin de minimiser les résultats de la recherche. Dans le cas de listes de prix pour les services médicaux, les options de recherche suivantes sont disponibles qui peuvent être utilisés seuls ou en combinaison les uns avec les autres."
@@ -175,14 +175,14 @@ msgstr "`Sélecteur de page - Panneau de résultats`"
 
 
 msgid "**Button Panel**"
-msgstr "** Panneau de boutons **"
+msgstr "**Panneau de boutons**"
 
 msgid "With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the Button Panel (the buttons ``Edit`` and ``Duplicate`` ) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button."
 msgstr "À l'exception du bouton ``Annuler``, qui redirige vers :ref:`Page d'accueil <home_page>`, le panneau de boutons (les boutons ``Modifier`` et ``Dupliquer``) est utilisé conjointement avec l'enregistrement en cours sélectionné (en bleu). L'utilisateur doit d'abord sélectionner un enregistrement en cliquant sur n'importe quelle position de l'enregistrement à l'exception du lien hypertexte le plus à gauche, puis cliquez sur le bouton."
 
 
 msgid "**Information Panel**"
-msgstr "** Panneau d'information **"
+msgstr "**Panneau d'information**"
 
 msgid "The Information Panel is used to display messages back to the user. Messages will occur once a price list of medical services has been added, updated or deleted or if there was an error at any time during the process of these actions."
 msgstr "Le Panneau d'Information est utilisé pour afficher des messages à l'utilisateur. Les Messages se fera une fois qu'une liste de prix des services médicaux a été ajouté, mis à jour ou supprimés, ou si il y a une erreur à tout moment pendant le déroulement de ces actions."
@@ -228,7 +228,7 @@ msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton
 
 
 msgid "**Mandatory Data**"
-msgstr "** Données obligatoires **"
+msgstr "**Données obligatoires**"
 
 msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk on the right of the corresponding data field)."
 msgstr "S'il est obligatoire de données n'est pas entré au moment où l'utilisateur clique sur le bouton `Enregistrer`, un message s'affiche dans le Panneau d'Information, et le champ de données de prendre le focus (par un astérisque sur la droite du champ de données correspondant)."

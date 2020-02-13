@@ -56,7 +56,7 @@ msgstr "La ``Page de contrôle des administrateurs de réclamations`` est le poi
 
 
 msgid "**Search Panel**"
-msgstr "** Panneau de recherche **"
+msgstr "**Panneau de recherche**"
 
 
 msgid "The search panel allows a user to select specific criteria to minimise the search results. In the case of claim administrators the following search options are available which can be used alone or in combination with each other."
@@ -217,14 +217,14 @@ msgstr "`Sélecteur de page - Panneau de résultats`"
 
 
 msgid "**Button Panel**"
-msgstr "** Panneau de boutons **"
+msgstr "**Panneau de boutons**"
 
 msgid "With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button."
 msgstr "À l'exception du bouton ``Annuler``, qui redirige vers :ref:`Page d'accueil <home_page>`, le panneau de boutons (les boutons ``Modifier`` 'et ``Supprimer``) est utilisé conjointement avec l'enregistrement actuellement sélectionné (surligné en bleu). L'utilisateur doit d'abord sélectionner un enregistrement en cliquant sur n'importe quelle position de l'enregistrement à l'exception du lien hypertexte le plus à gauche, puis cliquez sur le bouton."
 
 
 msgid "**Information Panel**"
-msgstr "** Panneau d'information **"
+msgstr "**Panneau d'information**"
 
 
 msgid "The Information Panel is used to display messages back to the user. Messages will occur once an officer has been added, updated or deleted or if there was an error at any time during the process of these actions."
@@ -307,7 +307,7 @@ msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton
 
 
 msgid "**Mandatory data**"
-msgstr "** Données obligatoires **"
+msgstr "**Données obligatoires**"
 
 
 msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk on the right side of the corresponding field)."

@@ -37,7 +37,7 @@ msgstr "**Nom**"
 
 
 msgid "**Names of hierarchy / attributes**"
-msgstr "** Noms de hiérarchie / attributs **"
+msgstr "**Noms de hiérarchie / attributs**"
 
 
 msgid "**Source of data**"
@@ -277,7 +277,7 @@ msgstr "Hiérarchie: Régions -> Districts -> (Dispensary Health Center Hospital
 
 
 msgid "**Care Category**"
-msgstr "** Catégorie de soins **"
+msgstr "**Catégorie de soins**"
 
 
 msgid "Category Care"
@@ -289,7 +289,7 @@ msgstr "Urgence Autre référence inconnue"
 
 
 msgid "**Care Type**"
-msgstr "** Type de soins **"
+msgstr "**Type de soins**"
 
 
 msgid "Care Type"

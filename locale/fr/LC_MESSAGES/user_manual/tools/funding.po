@@ -111,7 +111,7 @@ msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton
 
 
 msgid "**Mandatory data**"
-msgstr "** Données obligatoires **"
+msgstr "**Données obligatoires**"
 
 msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk on the right side of the corresponding field). The user will be re-directed to the :ref:`Home Page <home_page>`."
 msgstr "Si les données obligatoires ne sont pas saisies au moment où l'utilisateur clique sur le bouton ``Enregistrer``, un message apparaîtra dans le panneau d'informations et le champ de données prendra le focus (par un astérisque à droite du champ correspondant) . L'utilisateur sera <home_page> vers :ref:`Home Page <home_page>`."

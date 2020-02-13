@@ -63,7 +63,7 @@ msgstr "Le Contrôle des Demandes de la Page est le point central pour tous les 
 #: ../../user_manual/claims/hf_claims.rst:37
 
 msgid "**Search Panel**"
-msgstr "** Panneau de recherche **"
+msgstr "**Panneau de recherche**"
 
 #: ../../user_manual/claims/hf_claims.rst:39
 msgid "The search panel allows a user to select specific criteria to minimise the search results. In the case of claims the following search options are available which can be used alone or in combination with each other."
@@ -416,7 +416,7 @@ msgstr "`Confirmation de suppression - Page de contrôle des réclamations`"
 #: ../../user_manual/claims/hf_claims.rst:232
 
 msgid "**Information Panel**"
-msgstr "** Panneau d'information **"
+msgstr "**Panneau d'information**"
 
 #: ../../user_manual/claims/hf_claims.rst:234
 
@@ -688,7 +688,7 @@ msgstr "`Confirmation de mise à jour`"
 #: ../../user_manual/claims/hf_claims.rst:393
 
 msgid "**Mandatory data**"
-msgstr "** Données obligatoires **"
+msgstr "**Données obligatoires**"
 
 #: ../../user_manual/claims/hf_claims.rst:395
 
@@ -698,7 +698,7 @@ msgstr "Si les données obligatoires ne sont pas saisies au moment où l'utilisa
 #: ../../user_manual/claims/hf_claims.rst:397
 
 msgid "**Printing of a claim**"
-msgstr "** Impression d'une réclamation **"
+msgstr "**Impression d'une réclamation**"
 
 #: ../../user_manual/claims/hf_claims.rst:399
 
@@ -708,7 +708,7 @@ msgstr "En cliquant sur le bouton ``Imprimer`` (:numref:`mat_print`), l'utilisat
 #: ../../user_manual/claims/hf_claims.rst:401
 
 msgid "**Creating of a new claim**"
-msgstr "** Création d'une nouvelle réclamation **"
+msgstr "**Création d'une nouvelle réclamation**"
 
 #: ../../user_manual/claims/hf_claims.rst:403
 

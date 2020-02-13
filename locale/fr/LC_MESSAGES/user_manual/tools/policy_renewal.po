@@ -46,7 +46,7 @@ msgstr "En ayant accès à cette page, il est possible d'afficher un aperçu du 
 
 
 msgid "**Select Criteria Panel**"
-msgstr "** Sélectionner un panneau de critères **"
+msgstr "**Sélectionner un panneau de critères**"
 
 msgid "The Select Criteria Panel or the filter panel allows a user to select specific criteria to minimise the report on policy renewals."
 msgstr "Les Critères de sélection du Panneau ou le panneau de filtre permet à un utilisateur de sélectionner des critères spécifiques afin de minimiser le rapport sur la politique de renouvellement."
@@ -137,7 +137,7 @@ msgstr "Sélectionnez le ``journal activé`` dans la liste déroulante * en cliq
 
 
 msgid "**Button Panel**"
-msgstr "** Panneau de boutons **"
+msgstr "**Panneau de boutons**"
 
 msgid "``Cancel:`` Re-directs to the :ref:`Home Page <home_page>`"
 msgstr "`` Annuler: `` <home_page> vers :ref:`Page d'accueil <home_page>`"
@@ -151,7 +151,7 @@ msgstr "`Mise à jour:` Cliquez sur ce bouton pour mettre à jour manuellement l
 
 
 msgid "**Information Panel**"
-msgstr "** Panneau d'information **"
+msgstr "**Panneau d'information**"
 
 
 msgid "The Information Panel is used to display messages back to the user. Messages will occur once a user has updated the policy status or if there was an error at any time during the process of these actions."
@@ -255,7 +255,7 @@ msgstr "En cliquant sur le bouton ``Envoyer un SMS``, l'utilisateur envoie réel
 
 
 msgid "**Buttons Panel**"
-msgstr "** Panneau de boutons **"
+msgstr "**Panneau de boutons**"
 
 
 msgid "``Preview``"
