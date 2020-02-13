@@ -694,7 +694,7 @@ msgid "Accountant"
 msgstr "Comptable"
 
 msgid "Transfers data on collected Contributions to an external accounting system. Calculates claim amounts per health facility, runs openIMIS operational reports and presents claims decision overview to management of a health insurance administrator. Processes approved claims to health facility sub-accounts."
-msgstr "Les transferts de données recueillies sur les Contributions à un système comptable externe. Calcule les montants d'indemnisation par l'établissement de santé, pistes de openIMIS rapports opérationnels et présente des demandes de décision aperçu de la gestion de l'assurance-santé de l'administrateur. Processus de demandes approuvées à l'établissement de santé sous-comptes."
+msgstr "Les transferts de données recueillies sur les Contributions à un système comptable externe. Calcule les montants d'indemnisation par l'établissement de santé, pistes de openIMIS rapports opérationnels et présente des réclamations de décision aperçu de la gestion de l'assurance-santé de l'administrateur. Processus de demandes approuvées à l'établissement de santé sous-comptes."
 
 
 msgid "* Transfer of data on Contributions to accounting system"
@@ -745,7 +745,7 @@ msgstr "* `Examen d'une réclamation <#policy-renewals>`__"
 
 
 msgid "* `Authorize a claim for payment <#claim-page>`__"
-msgstr "* `Autoriser une demande de paiement <#claim-page>`__"
+msgstr "* `Autoriser une réclamation de paiement <#claim-page>`__"
 
 
 msgid "Scheme"
@@ -760,7 +760,7 @@ msgid "Administers registers (all except the register of users)"
 msgstr "Administre les registres (tous sauf le registre des utilisateurs)"
 
 msgid "* `Administer registers <#administration-of-registers>`__ ( `Officers, Payers, Health Facilities <#health-facilities-administration>`__, , `Medical Services, Medical Items, Medical Item Price Lists, Medical Services Price List <#medical-service-price-lists-administration>`__, `Products <#claim-administrators-administration>`__)"
-msgstr "* `Administrer les registres <#administration-of-registers>`__ (`Officiers, payeurs, établissements de santé <#health-facilities-administration>`__,, `Services médicaux, articles médicaux, listes de prix d'articles médicaux, liste de prix des services médicaux <#medical-service-price-lists-administration>`__,` Products <#claim-administrators-administration>`__)"
+msgstr "* `Administrer les registres <#administration-of-registers>`__ (`Officiers, payeurs, établissements de santé <#health-facilities-administration>`__,, `Services médicaux, produit médicaux, listes de prix de produit médicaux, liste de prix des services médicaux <#medical-service-price-lists-administration>`__,` Products <#claim-administrators-administration>`__)"
 
 
 msgid "* `Extract Creation for Off-line Health Facilities <#imis-extracts-online-mode>`__"

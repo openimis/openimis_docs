@@ -34,7 +34,7 @@ msgstr "La navigation"
 #: ../../user_manual/claims/hf_claims.rst:14
 
 msgid "All functionality for use with the administration of health facility claims can be found under the main menu ``Claims``, sub menu ``Health Facility Claims``."
-msgstr "Toutes les fonctionnalités destinées à l'administration des demandes de règlement des établissements de santé se trouvent dans le menu principal ``Réclamations``, sous-menu ``Réclamations des établissements de santé``."
+msgstr "Toutes les fonctionnalités destinées à l'administration des réclamations de règlement des établissements de santé se trouvent dans le menu principal ``Réclamations``, sous-menu ``Réclamations des établissements de santé``."
 
 #: ../../user_manual/claims/hf_claims.rst:20
 
@@ -96,7 +96,7 @@ msgstr "``Code HF``"
 #: ../../user_manual/claims/hf_claims.rst:51
 
 msgid "Select the ``HF Code`` (Health Facility Code) from the list of codes of health facilities by clicking on the arrow on the right of the selector, to select claims from a specific health facility. *Note: The list will only be filled with the health facilities belonging to the selected district and assigned to the current logged in user.*"
-msgstr "Sélectionnez le ``Code HF`` (Code de l'établissement de santé) dans la liste des codes des établissements de santé en cliquant sur la flèche à droite du sélecteur, pour sélectionner les demandes d'un établissement de santé spécifique. *Remarque: La liste ne sera remplie qu'avec les formations sanitaires appartenant au district sélectionné et affectée à l'utilisateur actuellement connecté.*"
+msgstr "Sélectionnez le ``Code HF`` (Code de l'établissement de santé) dans la liste des codes des établissements de santé en cliquant sur la flèche à droite du sélecteur, pour sélectionner les réclamations d'un établissement de santé spécifique. *Remarque: La liste ne sera remplie qu'avec les formations sanitaires appartenant au district sélectionné et affectée à l'utilisateur actuellement connecté.*"
 
 #: ../../user_manual/claims/hf_claims.rst:53
 #: ../../user_manual/claims/hf_claims.rst:254
@@ -129,7 +129,7 @@ msgstr "``Type de visite``"
 #: ../../user_manual/claims/hf_claims.rst:63
 
 msgid "Select the ``Visit Type`` from the list of visit types (or hospital stays) by clicking on the arrow on the right of the selector, to select claims with specified visit type."
-msgstr "Sélectionnez le ``Type de visite`` dans la liste des types de visites (ou séjours hospitaliers) en cliquant sur la flèche à droite du sélecteur, pour sélectionner les demandes avec le type de visite spécifié."
+msgstr "Sélectionnez le ``Type de visite`` dans la liste des types de visites (ou séjours hospitaliers) en cliquant sur la flèche à droite du sélecteur, pour sélectionner les réclamations avec le type de visite spécifié."
 
 #: ../../user_manual/claims/hf_claims.rst:65
 #: ../../user_manual/claims/hf_claims.rst:258
@@ -297,7 +297,7 @@ msgstr "**Panneau de résultats**"
 
 #: ../../user_manual/claims/hf_claims.rst:142
 msgid "The Result Panel displays a list of all claims found, matching the selected criteria in the search panel. The currently selected record is highlighted with light grey. (:numref:`image139`). Double click on the line re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
-msgstr "Le Résultat s'affiche sur le Panneau une liste de toutes les demandes, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec un gris clair. (:numref:`image139`). Double-cliquez sur la ligne re-dirige l'utilisateur vers le record actuel pour obtenir la visualisation si c'est un record historique ou de la modification si c'est l'enregistrement en cours."
+msgstr "Le Résultat s'affiche sur le Panneau une liste de toutes les réclamations, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec un gris clair. (:numref:`image139`). Double-cliquez sur la ligne re-dirige l'utilisateur vers le record actuel pour obtenir la visualisation si c'est un record historique ou de la modification si c'est l'enregistrement en cours."
 
 #: ../../user_manual/claims/hf_claims.rst:148
 
@@ -531,7 +531,7 @@ msgstr "`` Date réclamée ``"
 #: ../../user_manual/claims/hf_claims.rst:305
 
 msgid "Enter the date when the claim was prepared by the health facility."
-msgstr "Entrez la date à laquelle la demande a été préparée par l'établissement de santé."
+msgstr "Entrez la date à laquelle la réclamation a été préparée par l'établissement de santé."
 
 #: ../../user_manual/claims/hf_claims.rst:307
 
@@ -560,7 +560,7 @@ msgstr "``code service``"
 
 #: ../../user_manual/claims/hf_claims.rst:319
 msgid "When entering the service code, a dropdown suggestion box for the available services with the service code or service name matching your typed text will be shown. Available medical services in the dropdown suggestion box are taken over from the pricelist of medical services associated with the claiming health facility. The desired service can then be selected from the dropdown suggestion box by clicking on it using mouse or selecting it using up and down arrows, then pressing Enter key fill the service code text field, together with quantity and value field in the same row."
-msgstr "Lorsque vous entrez le code de service, une liste déroulante dans la boîte à suggestions pour les services offerts avec le code de service ou nom de service correspondant à votre texte saisi sera affiché. Disponible à des services médicaux dans la liste déroulante de la boîte à suggestions sont prises en charge à partir de la liste de prix des services médicaux associés à la demande de l'établissement de santé. Le service souhaité peut être sélectionné à partir de la liste déroulante de la boîte à suggestions en cliquant sur l'aide de la souris ou en le sélectionnant à l'aide de flèches haut et bas, puis en appuyant sur la touche Enter remplir le code de service de champ de texte, avec la quantité et la valeur du champ dans la même ligne."
+msgstr "Lorsque vous entrez le code de service, une liste déroulante dans la boîte à suggestions pour les services offerts avec le code de service ou nom de service correspondant à votre texte saisi sera affiché. Disponible à des services médicaux dans la liste déroulante de la boîte à suggestions sont prises en charge à partir de la liste de prix des services médicaux associés à la réclamation de l'établissement de santé. Le service souhaité peut être sélectionné à partir de la liste déroulante de la boîte à suggestions en cliquant sur l'aide de la souris ou en le sélectionnant à l'aide de flèches haut et bas, puis en appuyant sur la touche Enter remplir le code de service de champ de texte, avec la quantité et la valeur du champ dans la même ligne."
 
 #: ../../user_manual/claims/hf_claims.rst:321
 
@@ -618,7 +618,7 @@ msgstr "``code article``"
 
 #: ../../user_manual/claims/hf_claims.rst:345
 msgid "When entering the item code, a dropdown suggestion box for the available items with the item code or item name matching your typed text will be shown. Available medical items in the dropdown suggestion box are taken over from the pricelist of medical items associated with the claiming health facility. The desired item can then be selected from the dropdown suggestion box by clicking on it using mouse or selecting it using up and down arrows, then pressing Enter key to fill the item code text field, together with quantity and value field in the same row."
-msgstr "Lors de la saisie du code d'article, une liste déroulante dans la boîte à suggestions pour les articles disponibles avec le code d'article ou le nom de l'élément correspondant à votre texte saisi sera affiché. Médicaux mis à disposition des éléments dans la liste déroulante de la boîte à suggestions sont prises en charge à partir de la liste des prix des articles médicaux associés à la demande de l'établissement de santé. L'élément souhaité peut être sélectionné à partir de la liste déroulante de la boîte à suggestions en cliquant sur l'aide de la souris ou en le sélectionnant à l'aide de flèches haut et bas, puis en appuyant sur la touche Enter pour remplir le code article de champ de texte, avec la quantité et la valeur du champ dans la même ligne."
+msgstr "Lors de la saisie du code d'article, une liste déroulante dans la boîte à suggestions pour les produit médicaux disponibles avec le code d'article ou le nom de l'élément correspondant à votre texte saisi sera affiché. Médicaux mis à disposition des éléments dans la liste déroulante de la boîte à suggestions sont prises en charge à partir de la liste des prix des produit médicaux associés à la réclamation de l'établissement de santé. L'élément souhaité peut être sélectionné à partir de la liste déroulante de la boîte à suggestions en cliquant sur l'aide de la souris ou en le sélectionnant à l'aide de flèches haut et bas, puis en appuyant sur la touche Enter pour remplir le code article de champ de texte, avec la quantité et la valeur du champ dans la même ligne."
 
 #: ../../user_manual/claims/hf_claims.rst:348
 
@@ -638,7 +638,7 @@ msgstr "Ce champ peut être rempli manuellement en entrant un nombre ou automati
 #: ../../user_manual/claims/hf_claims.rst:362
 
 msgid "This field can be filled manually by entering a number in it or automatically is filled when the item code above is filled, through dropdown suggestion box. Automatically filled prices are taken over from the pricelist of medical items associated with the claiming health facility."
-msgstr "Ce champ peut être rempli manuellement en entrant un nombre ou est automatiquement rempli lorsque le code de l'article ci-dessus est rempli, via la liste déroulante. Les prix remplis automatiquement sont repris de la liste de prix des articles médicaux associés à l'établissement de santé demandeur."
+msgstr "Ce champ peut être rempli manuellement en entrant un nombre ou est automatiquement rempli lorsque le code de l'article ci-dessus est rempli, via la liste déroulante. Les prix remplis automatiquement sont repris de la liste de prix des produit médicaux associés à l'établissement de santé demandeur."
 
 #: ../../user_manual/claims/hf_claims.rst:366
 

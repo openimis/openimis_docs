@@ -198,7 +198,7 @@ msgstr "``Type de visite``"
 
 #: ../../user_manual/claims/review_claims.rst:109
 msgid "Select type of out-patient visit or in-patient admission from the list of types of visit to search for claims made on specific visit/admission type."
-msgstr "Sélectionnez le type de visite ambulatoire ou d'admission hospitalière dans la liste des types de visite pour rechercher les demandes de remboursement concernant un type de visite / d'admission spécifique."
+msgstr "Sélectionnez le type de visite ambulatoire ou d'admission hospitalière dans la liste des types de visite pour rechercher les réclamations de remboursement concernant un type de visite / d'admission spécifique."
 
 #: ../../user_manual/claims/review_claims.rst:113
 msgid "**Claim Selection Update Panel**"
@@ -206,7 +206,7 @@ msgstr "**Panneau de mise à jour de la sélection des réclamations**"
 
 #: ../../user_manual/claims/review_claims.rst:115
 msgid "This panel is basically for functionality of updating multiple claims which are currently loaded in the Result Panel at once basing on the claim filter criteria available on this panel. The update on the claims is basically changing **Feedback Status** and **Review Status** of a claim from **Idle** to **Selected for Feedback** or **Selected for Review** respectively. The filters in this panel work on the claims which are currently loaded on the result panel. The combination of filters is either ``Select`` and either ``Random`` or ``Value`` combination of ``Value`` and ``Variance``."
-msgstr "Ce panneau est essentiellement pour la fonctionnalité de mise à jour de plusieurs Réclamations, qui sont actuellement chargés dans le Résultat du Panneau à la fois en se basant sur la demande des critères de filtre disponibles sur ce panneau. La mise à jour sur les Réclamations est fondamentalement changer **les Commentaires d'État** et **le Statut de l'évaluation** d'une réclamation de **Ralenti** à **Sélectionné pour le Feedback** ou **Sélectionné pour Examen** respectivement. Les filtres dans ce groupe de travail sur les Réclamations qui sont actuellement chargé sur le résultat du panneau. La combinaison de filtres est soit `Sélectionner` et `Aléatoire` ou `Valeur` de la combinaison de `Valeur` et de `Variance`."
+msgstr "Ce panneau est essentiellement pour la fonctionnalité de mise à jour de plusieurs Réclamations, qui sont actuellement chargés dans le Résultat du Panneau à la fois en se basant sur la réclamation des critères de filtre disponibles sur ce panneau. La mise à jour sur les Réclamations est fondamentalement changer **les Commentaires d'État** et **le Statut de l'évaluation** d'une réclamation de **Ralenti** à **Sélectionné pour le Feedback** ou **Sélectionné pour Examen** respectivement. Les filtres dans ce groupe de travail sur les Réclamations qui sont actuellement chargé sur le résultat du panneau. La combinaison de filtres est soit `Sélectionner` et `Aléatoire` ou `Valeur` de la combinaison de `Valeur` et de `Variance`."
 
 #: ../../user_manual/claims/review_claims.rst:117
 msgid "``Select``"
@@ -286,7 +286,7 @@ msgstr "Par défaut, 10 enregistrements peuvent être affichés en même temps d
 
 #: ../../user_manual/claims/review_claims.rst:170
 msgid "The Feedback and Review Status Columns in each row contain a drop down list with options for claim feedback status and claim review status. A user can change the claim feedback and review status to **Idle** to **Not Selected** or **Selected** or **Bypass**. the change will take effect directly in an asynchronous mode, a notification will indicate the result of the update (:numref:`review_selected_not`)"
-msgstr "La Rétroaction et de Révision de Statut de Colonnes dans chaque ligne contient une liste déroulante avec des options de demande de rétroaction d'état et d'examen des demandes de statut. Un utilisateur peut modifier la demande de la rétroaction et le statut de l'évaluation **Ralenti** à **Pas Sélectionné** ou **Sélectionné** ou **Bypass**. la modification prendra effet directement en mode asynchrone, un avis doit indiquer le résultat de la mise à jour (:numref:`review_selected_not`)"
+msgstr "La Rétroaction et de Révision de Statut de Colonnes dans chaque ligne contient une liste déroulante avec des options de demande de rétroaction d'état et d'examen des réclamations de statut. Un utilisateur peut modifier la réclamation de la rétroaction et le statut de l'évaluation **Ralenti** à **Pas Sélectionné** ou **Sélectionné** ou **Bypass**. la modification prendra effet directement en mode asynchrone, un avis doit indiquer le résultat de la mise à jour (:numref:`review_selected_not`)"
 
 #: ../../user_manual/claims/review_claims.rst:176
 msgid "`Selection of claim for feedback/review notification`"
@@ -431,7 +431,7 @@ msgstr "`Page d'examen des réclamations`"
 
 #: ../../user_manual/claims/review_claims.rst:281
 msgid "``Claim Review Page`` will show read-only information of the current claim selected for review, on the top section of the page, on some of the grid columns of the claim services grid and claim items grid and on the bottom of all the grids. As well, the page has input boxes where a user with the system role Medical Officer or with a role including an access to Claims/Claim/Review can enter new relevant values for review of the current claim."
-msgstr "`Demande d'Examen Page` affiche des informations en lecture seule de la demande actuelle sélectionnés aux fins d'examen, sur la partie supérieure de la page, sur certaines des colonnes de la grille de la demande de services de grille et de réclamer des éléments de la grille et sur le bas de toutes les grilles. Ainsi, la page d'entrée des boîtes où un utilisateur avec le rôle de système de médecin ou avec un rôle, y compris un accès aux Demandes/Demande/Révision pouvez entrer de nouvelles valeurs pertinentes pour l'examen de la demande actuelle."
+msgstr "`Demande d'Examen Page` affiche des informations en lecture seule de la réclamation actuelle sélectionnés aux fins d'examen, sur la partie supérieure de la page, sur certaines des colonnes de la grille de la réclamation de services de grille et de réclamer des éléments de la grille et sur le bas de toutes les grilles. Ainsi, la page d'entrée des boîtes où un utilisateur avec le rôle de système de médecin ou avec un rôle, y compris un accès aux Demandes/Demande/Révision pouvez entrer de nouvelles valeurs pertinentes pour l'examen de la réclamation actuelle."
 
 #: ../../user_manual/claims/review_claims.rst:284
 #, fuzzy
@@ -445,7 +445,7 @@ msgstr "`` HF``"
 #: ../../user_manual/claims/review_claims.rst:288
 #: ../../user_manual/claims/review_claims.rst:501
 msgid "The health facility code and name which the claim belongs to."
-msgstr "Le code et le nom de l'établissement de santé auquel appartient la demande."
+msgstr "Le code et le nom de l'établissement de santé auquel appartient la réclamation."
 
 #: ../../user_manual/claims/review_claims.rst:290
 msgid "``Main Dg.``"
@@ -501,7 +501,7 @@ msgstr "``Date traitée``"
 
 #: ../../user_manual/claims/review_claims.rst:316
 msgid "The date on which the claim was processed (sent to the state **Processed**)."
-msgstr "La date à laquelle la demande a été traitée (envoyée à l'État ** traitée**)."
+msgstr "La date à laquelle la réclamation a été traitée (envoyée à l'État ** traitée**)."
 
 #: ../../user_manual/claims/review_claims.rst:320
 msgid "The administrator's code, who was responsible for submission of the current claim."
@@ -518,7 +518,7 @@ msgstr "Le numéro d'assurance du patient."
 #: ../../user_manual/claims/review_claims.rst:328
 #: ../../user_manual/claims/review_claims.rst:525
 msgid "The unique identification of the claim within the claiming health facility."
-msgstr "L'identification unique de la demande dans l'établissement de santé demandeur."
+msgstr "L'identification unique de la réclamation dans l'établissement de santé demandeur."
 
 #: ../../user_manual/claims/review_claims.rst:330
 msgid "``Patient Name``"
@@ -536,7 +536,7 @@ msgstr "``Date réclamée``"
 #: ../../user_manual/claims/review_claims.rst:336
 #: ../../user_manual/claims/review_claims.rst:509
 msgid "The date on which the claim was prepared by the claiming health facility."
-msgstr "La date à laquelle la demande a été préparée par l'établissement de santé demandeur."
+msgstr "La date à laquelle la réclamation a été préparée par l'établissement de santé demandeur."
 
 #: ../../user_manual/claims/review_claims.rst:338
 #: ../../user_manual/claims/review_claims.rst:511
@@ -546,12 +546,12 @@ msgstr "``Les visites datent du``"
 #: ../../user_manual/claims/review_claims.rst:340
 #: ../../user_manual/claims/review_claims.rst:513
 msgid "The date on which the patient visited (or was admitted by) the health facility for treatment on which the claim is basing on."
-msgstr "La date à laquelle le patient a visité (ou a été admis par) l'établissement de santé pour le traitement sur lequel la demande se fonde."
+msgstr "La date à laquelle le patient a visité (ou a été admis par) l'établissement de santé pour le traitement sur lequel la réclamation se fonde."
 
 #: ../../user_manual/claims/review_claims.rst:344
 #: ../../user_manual/claims/review_claims.rst:517
 msgid "The date on which the patient was discharged from the health facility for treatment on which the claim is basing on."
-msgstr "La date à laquelle le patient est sorti de l'établissement de santé pour un traitement sur lequel la demande se fonde."
+msgstr "La date à laquelle le patient est sorti de l'établissement de santé pour un traitement sur lequel la réclamation se fonde."
 
 #: ../../user_manual/claims/review_claims.rst:346
 #: ../../user_manual/claims/review_claims.rst:527
@@ -568,7 +568,7 @@ msgstr "``Réclamé``"
 
 #: ../../user_manual/claims/review_claims.rst:352
 msgid "The sum of prices of all claimed services and items at the moment of submission of the claim."
-msgstr "La somme des prix de tous les services et articles réclamés au moment de la soumission de la réclamation."
+msgstr "La somme des prix de tous les services et produit médicaux réclamés au moment de la soumission de la réclamation."
 
 #: ../../user_manual/claims/review_claims.rst:354
 msgid "``approved``"
@@ -616,7 +616,7 @@ msgstr "Entrez un texte résumant les ajustements de la réclamation effectués 
 
 #: ../../user_manual/claims/review_claims.rst:376
 msgid "**Services and Items data entry grids.**"
-msgstr "**Grilles de saisie des données sur les services et les articles.**"
+msgstr "**Grilles de saisie des données sur les services et les produit médicaux.**"
 
 #: ../../user_manual/claims/review_claims.rst:378
 msgid "``Approved Quantity (app.qty)``"
@@ -648,7 +648,7 @@ msgstr "``statut``"
 
 #: ../../user_manual/claims/review_claims.rst:392
 msgid "Select either the status in the claim **Passed** or **Rejected** for the corresponding medical service or item respectively."
-msgstr "Sélectionnez le statut dans la demande **Réussi** ou **Rejeté** pour le service médical ou l'article correspondant, respectivement."
+msgstr "Sélectionnez le statut dans la réclamation **Réussi** ou **Rejeté** pour le service médical ou l'article correspondant, respectivement."
 
 #: ../../user_manual/claims/review_claims.rst:394
 msgid "``rejection reason``"
@@ -696,7 +696,7 @@ msgstr "1"
 
 #: ../../user_manual/claims/review_claims.rst:413
 msgid "Item/Service not in the registers of medical items/services"
-msgstr "Article / service ne figurant pas dans les registres d'articles / services médicaux"
+msgstr "Article / service ne figurant pas dans les registres de produit médicaux / services médicaux"
 
 #: ../../user_manual/claims/review_claims.rst:416
 msgid "2"
@@ -817,7 +817,7 @@ msgstr "16"
 
 #: ../../user_manual/claims/review_claims.rst:458
 msgid "Maximum number of provisions of item/service exceeded"
-msgstr "Dépassement du nombre maximal d'articles / service"
+msgstr "Dépassement du nombre maximal de produit médicaux / service"
 
 #: ../../user_manual/claims/review_claims.rst:461
 msgid "17"
@@ -894,7 +894,7 @@ msgstr "Nom et numéro d'assurance du patient / bénéficiaire"
 
 #: ../../user_manual/claims/review_claims.rst:521
 msgid "Type of visit covered by the claim (emergency, referal, other)"
-msgstr "Type de visite couverte par la demande (urgence, référence, autre)"
+msgstr "Type de visite couverte par la réclamation (urgence, référence, autre)"
 
 #: ../../user_manual/claims/review_claims.rst:529
 msgid "Identification of a guarantee letter for prior approval of provision of claimed health care."

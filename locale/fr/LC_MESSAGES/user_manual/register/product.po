@@ -473,7 +473,7 @@ msgid "``Limit``"
 msgstr "``Limite``"
 
 msgid "Indicates the type of limitation of coverage for the medical service. This may be adjusted per medical service, select between Co-Insurance [C] and Fixed amount [F]. Co-insurance means coverage of a specific percentage of the price of the medical service by policies of the insurance product. Fixed amount means coverage up the specified limit. C is the default value. Limit O is used for claims having the type of visit Other, Limit R is used for claims having the type of visit Referral and Limit E is used for claims having the type of visit Emergency."
-msgstr "Indique le type de limitation de la couverture pour le service médical. Cela peut être ajustée par le service médical, sélectionnez entre les Co-Assurance [C] et le montant Fixe [F]. Co-assurance, la couverture d'un certain pourcentage du prix du service de santé par des politiques du produit d'assurance. Fixe le montant moyen de la couverture jusqu'à la limite spécifiée. C est la valeur par défaut. Limite O est utilisé pour les demandes ayant le type de visiter d'Autres, la Limite de R est utilisé pour les demandes ayant le type de la visite de l'Aiguillage et de la Limite de E est utilisé pour les demandes ayant le type de visiter d'Urgence."
+msgstr "Indique le type de limitation de la couverture pour le service médical. Cela peut être ajustée par le service médical, sélectionnez entre les Co-Assurance [C] et le montant Fixe [F]. Co-assurance, la couverture d'un certain pourcentage du prix du service de santé par des politiques du produit d'assurance. Fixe le montant moyen de la couverture jusqu'à la limite spécifiée. C est la valeur par défaut. Limite O est utilisé pour les réclamations ayant le type de visiter d'Autres, la Limite de R est utilisé pour les réclamations ayant le type de la visite de l'Aiguillage et de la Limite de E est utilisé pour les réclamations ayant le type de visiter d'Urgence."
 
 
 msgid "``Origin``"
@@ -544,11 +544,11 @@ msgstr "Il indique si le service médical est exclu de la comparaison avec les p
 
 
 msgid "Select from the list of available medical items (from the register of Medical Items) the medical items covered within the product; by either clicking on the Check All box at the top of the list of medical items, or by selectively clicking on the check box to the left of the medical item."
-msgstr "Sélectionnez dans la liste des articles médicaux disponibles (dans le registre des articles médicaux) les articles médicaux couverts dans le produit; soit en cliquant sur la case Tout cocher en haut de la liste des articles médicaux, soit en cliquant de manière sélective sur la case à cocher à gauche de l'article médical."
+msgstr "Sélectionnez dans la liste des produit médicaux disponibles (dans le registre des produit médicaux) les produit médicaux couverts dans le produit; soit en cliquant sur la case Tout cocher en haut de la liste des produit médicaux, soit en cliquant de manière sélective sur la case à cocher à gauche de l'article médical."
 
 
 msgid "``medical items grid``"
-msgstr "``grille d'articles médicaux``"
+msgstr "``grille de produit médicaux``"
 
 
 msgid "`Medical Items - Product`"
@@ -575,7 +575,7 @@ msgid "Displays the packaging of the medical Item"
 msgstr "Affiche l'emballage de l'article médical"
 
 msgid "Indicates the type of limitation of coverage for the medical item. This may be adjusted per medical item, select between Co-Insurance [C] and Fixed amount [F]. Co-insurance means coverage of a specific percentage of the price of the medical item by policies of the insurance product. Fixed amount means coverage up the specified limit. C is the default value. Limit O is used for claims having the type of visit Other, Limit R is used for claims having the type of visit Referral and Limit E is used for claims having the type of visit Emergency."
-msgstr "Indique le type de limitation de la couverture pour le médical point. Cela peut être ajustée selon médical de l'élément, sélectionnez entre les Co-Assurance [C] et le montant Fixe [F]. Co-assurance, la couverture d'un certain pourcentage du prix de l'médical point par des politiques du produit d'assurance. Fixe le montant moyen de la couverture jusqu'à la limite spécifiée. C est la valeur par défaut. Limite O est utilisé pour les demandes ayant le type de visiter d'Autres, la Limite de R est utilisé pour les demandes ayant le type de la visite de l'Aiguillage et de la Limite de E est utilisé pour les demandes ayant le type de visiter d'Urgence."
+msgstr "Indique le type de limitation de la couverture pour le médical point. Cela peut être ajustée selon médical de l'élément, sélectionnez entre les Co-Assurance [C] et le montant Fixe [F]. Co-assurance, la couverture d'un certain pourcentage du prix de l'médical point par des politiques du produit d'assurance. Fixe le montant moyen de la couverture jusqu'à la limite spécifiée. C est la valeur par défaut. Limite O est utilisé pour les réclamations ayant le type de visiter d'Autres, la Limite de R est utilisé pour les réclamations ayant le type de la visite de l'Aiguillage et de la Limite de E est utilisé pour les réclamations ayant le type de visiter d'Urgence."
 
 msgid "It indicates where the price for remuneration of the item, comes from: This may be adjusted per medical item, the options are: [P] Price taken from the price list of a claiming health facility, [O] Price taken from a claim and [R] Relative price, the nominal value of which is taken from the price list and the actual value of which is determined backwards according to available funds and the volume of claimed services and medical items in a period. [R] is the default value."
 msgstr "Il indique où le prix de la rémunération de l'élément, vient d': Cela peut être ajustée selon médical élément, les options sont: [P] Prix pris à partir de la liste de prix d'un prétendant établissement de santé, [O] Prix pris à partir d'une réclamation et [R] Relative des prix, la valeur nominale de ce qui est pris à partir de la liste des prix et de la valeur réelle de ce qui est déterminé en arrière en fonction des fonds disponibles et le volume de revendication de services et de produits médicaux au cours de la période. [R] est la valeur par défaut."
@@ -705,7 +705,7 @@ msgstr "Nombre maximum de dommages pris en charge par un preneur d'assurance au 
 
 
 msgid "If at least one service of the category *Surgery* is given in the claim it is of category *Surgery*"
-msgstr "Si au moins un service de la catégorie *Chirurgie* est fourni dans la demande, il appartient à la catégorie *Chirurgie*"
+msgstr "Si au moins un service de la catégorie *Chirurgie* est fourni dans la réclamation, il appartient à la catégorie *Chirurgie*"
 
 
 msgid "otherwise"
@@ -717,15 +717,15 @@ msgstr "si au moins un service de la catégorie *Livraison* est fourni dans la r
 
 
 msgid "if at least one service of the category *Antenatal care* is given in the claim it is of category *Antenatal care*"
-msgstr "si au moins un service de la catégorie *Soins prénatals* est fourni dans la demande, il appartient à la catégorie *Soins prénatals*"
+msgstr "si au moins un service de la catégorie *Soins prénatals* est fourni dans la réclamation, il appartient à la catégorie *Soins prénatals*"
 
 
 msgid "if the claim is a hospital one the claim it is of category *Hospitalization*"
-msgstr "si la demande est de nature hospitalière, la demande appartient à la catégorie *Hospitalisation*"
+msgstr "si la réclamation est de nature hospitalière, la réclamation appartient à la catégorie *Hospitalisation*"
 
 
 msgid "if at least one service of the category *Consultation* is given in the claim it is of category *Consultation*"
-msgstr "si au moins un service de la catégorie *Consultation* est fourni dans la demande, il appartient à la catégorie *Consultation*"
+msgstr "si au moins un service de la catégorie *Consultation* est fourni dans la réclamation, il appartient à la catégorie *Consultation*"
 
 
 msgid "the claim is of the category *Visit*"

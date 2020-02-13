@@ -12,17 +12,17 @@ msgstr ""
 
 
 msgid "Medical Item Price Lists Administration"
-msgstr "Administration des listes de prix des articles médicaux"
+msgstr "Administration des listes de prix des produit médicaux"
 
 msgid "Pricelists of medical items are tools for specification which medical items and at which prices can be invoiced by contractual health facilities to the scheme administration. Administration of pricelists of medical items is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Pricelists-Medical Items."
-msgstr "Les listes de prix des articles médicaux sont des outils pour la spécification d'articles médicaux et à laquelle les prix peuvent être facturés par contractuels des établissements de santé pour le régime de l'administration. Administration des listes de prix des articles médicaux est limité aux utilisateurs avec le rôle de système de Régime d'Administrateur ou avec un rôle, y compris un accès à l'Administration/les listes de prix-Articles Médicaux."
+msgstr "Les listes de prix des produit médicaux sont des outils pour la spécification de produit médicaux et à laquelle les prix peuvent être facturés par contractuels des établissements de santé pour le régime de l'administration. Administration des listes de prix des produit médicaux est limité aux utilisateurs avec le rôle de système de Régime d'Administrateur ou avec un rôle, y compris un accès à l'Administration/les listes de prix-Articles Médicaux."
 
 
 msgid "Pre-conditions"
 msgstr "Conditions préalables"
 
 msgid "A price list of medical items may only be added, after an agreement with a health facility or a group of health facilities on specific prices. Editing of the price list may occur only after an approval of the management of the scheme administration. Deletion of a price list of medical items normally will occur when a price list becomes obsolete."
-msgstr "Une liste de prix des articles médicaux ne peut être ajouté, après un accord avec un établissement de santé ou d'un groupe d'établissements de santé sur les prix. L'édition de la liste des prix peut se produire qu'après une approbation de la gestion du régime de l'administration. Suppression d'une liste de prix des articles médicaux normalement se produire lorsqu'une liste de prix devient obsolète."
+msgstr "Une liste de prix des produit médicaux ne peut être ajouté, après un accord avec un établissement de santé ou d'un groupe d'établissements de santé sur les prix. L'édition de la liste des prix peut se produire qu'après une approbation de la gestion du régime de l'administration. Suppression d'une liste de prix des produit médicaux normalement se produire lorsqu'une liste de prix devient obsolète."
 
 
 msgid "Navigation"
@@ -30,23 +30,23 @@ msgstr "La navigation"
 
 
 msgid "All functionality for use with the administration of medical items price lists can be found under the main menu ``Administration``, sub menu ``Price Lists``, sub menu ``Medical Items.``"
-msgstr "Toutes les fonctionnalités destinées à l'administration des listes de prix des articles médicaux se trouvent dans le menu principal ``Administration``, sous-menu ``Listes de prix``, sous-menu ``Articles médicaux``."
+msgstr "Toutes les fonctionnalités destinées à l'administration des listes de prix des produit médicaux se trouvent dans le menu principal ``Administration``, sous-menu ``Listes de prix``, sous-menu ``Articles médicaux``."
 
 
 msgid "`Navigation Price Lists Medical Items`"
-msgstr "`Navigation des listes de prix des articles médicaux`"
+msgstr "`Navigation des listes de prix des produit médicaux`"
 
 
 msgid "Clicking on the sub menu ``Medical Items`` re-directs the current user to the `Price List Medical Items Control Page <#price-list-medical-items-control-page>`__\\ ."
-msgstr "En cliquant sur le sous-menu ``Articles médicaux``, l'utilisateur actuel est redirigé vers la `Page de contrôle des articles médicaux de la liste des prix <#price-list-medical-items-control-page>`__ \\."
+msgstr "En cliquant sur le sous-menu ``Articles médicaux``, l'utilisateur actuel est redirigé vers la `Page de contrôle des produit médicaux de la liste des prix <#price-list-medical-items-control-page>`__ \\."
 
 
 msgid "`Price List Medical Items Control Page`"
-msgstr "`Page de contrôle des articles médicaux de liste de prix`"
+msgstr "`Page de contrôle des produit médicaux de liste de prix`"
 
 
 msgid "Price List Medical Items Control Page"
-msgstr "Page de contrôle des articles médicaux"
+msgstr "Page de contrôle des produit médicaux"
 
 msgid "The ``Price List Medical Items Control Page`` is the central point for all medical item price list administration. By having access to this panel, it is possible to add, edit, delete and search. The panel is divided into four panels (:numref:`image48`)."
 msgstr "La `Liste des Prix des Articles Médicaux de Contrôle de la Page` est le point central pour tous les médecins de l'élément de liste de prix de l'administration. En ayant accès à ce panneau, il est possible d'ajouter, modifier, supprimer et rechercher. Le panneau est divisé en quatre panneaux (:numref:`image48`)."
@@ -57,7 +57,7 @@ msgstr "**Panneau de recherche**"
 
 
 msgid "The search panel allows a user to select specific criteria to minimise the search results. In the case of price lists for medical items the following search options are available which can be used alone or in combination with each other."
-msgstr "Le panneau de recherche permet à un utilisateur de sélectionner des critères spécifiques pour minimiser les résultats de la recherche. Dans le cas des listes de prix pour les articles médicaux, les options de recherche suivantes sont disponibles et peuvent être utilisées seules ou en combinaison les unes avec les autres."
+msgstr "Le panneau de recherche permet à un utilisateur de sélectionner des critères spécifiques pour minimiser les résultats de la recherche. Dans le cas des listes de prix pour les produit médicaux, les options de recherche suivantes sont disponibles et peuvent être utilisées seules ou en combinaison les unes avec les autres."
 
 
 msgid "``Name``"
@@ -65,7 +65,7 @@ msgstr "``Nom``"
 
 
 msgid "Type in the beginning of; or the full ``Name``; to search for price lists medical items with a Name, which starts with or matches completely, the typed text."
-msgstr "Tapez au début de; ou le ``Nom`` complet; pour rechercher des listes de prix d'articles médicaux avec un nom, qui commence par ou correspond complètement au texte tapé."
+msgstr "Tapez au début de; ou le ``Nom`` complet; pour rechercher des listes de prix de produit médicaux avec un nom, qui commence par ou correspond complètement au texte tapé."
 
 
 msgid "``Date``"
@@ -73,7 +73,7 @@ msgstr "``Date``"
 
 
 msgid "Type in the full ``Date`` to search for price lists of medical items with a creation Date which matches completely, the typed date. *Note: You can also use the button next to the date field to select a date.*"
-msgstr "Tapez la ``Date`` complète pour rechercher des listes de prix d'articles médicaux avec une Date de création qui correspond complètement, la date tapée. *Remarque: vous pouvez également utiliser le bouton à côté du champ de date pour sélectionner une date.*"
+msgstr "Tapez la ``Date`` complète pour rechercher des listes de prix de produit médicaux avec une Date de création qui correspond complètement, la date tapée. *Remarque: vous pouvez également utiliser le bouton à côté du champ de date pour sélectionner une date.*"
 
 
 msgid "``Date Selector Button``"
@@ -127,14 +127,14 @@ msgid "``Region``"
 msgstr "`` Région``"
 
 msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select price lists of medical items from a specific region. The option **National** means that the price list is common for all regions. *Note: The list will only be filled with the regions assigned to the current logged in user and with the option National. All nationwide pricelists and all regional pricelists relating to the selected region will be found. If no district is selected the also all district pricelists for districts belonging to the selected region will be found.*"
-msgstr "Sélectionnez la `Région`; à partir de la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner les listes de prix des articles médicaux, d'une région spécifique. L'option **National** signifie que la liste de prix est commun pour toutes les régions. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté et avec l'option Nationale. Toutes les listes de prix à l'échelle nationale et toutes les listes de prix relatives à la zone sélectionnée sera trouvé. Si aucun district est sélectionné, la aussi tous les districts de listes de prix pour les districts appartenant à la région sélectionnée sera trouvée.*"
+msgstr "Sélectionnez la `Région`; à partir de la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner les listes de prix des produit médicaux, d'une région spécifique. L'option **National** signifie que la liste de prix est commun pour toutes les régions. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté et avec l'option Nationale. Toutes les listes de prix à l'échelle nationale et toutes les listes de prix relatives à la zone sélectionnée sera trouvé. Si aucun district est sélectionné, la aussi tous les districts de listes de prix pour les districts appartenant à la région sélectionnée sera trouvée.*"
 
 
 msgid "``District``"
 msgstr "`` Quartier``"
 
 msgid "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select price lists medical items from a specific district. *Note: The list will be only filled with the districts belonging to the selected region and assigned to the currently logged in user. All nationwide pricelists, all regional pricelists relating to the selected region and all district pricelists for the selected district will be found.*"
-msgstr "Sélectionnez le `Quartier`; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur pour sélectionner les listes de prix des articles médicaux à partir d'un district particulier. *Remarque: La liste sera remplie uniquement avec les districts appartenant à la région sélectionnée et affecté à l'utilisateur actuellement connecté. Toutes les listes de prix à l'échelle nationale, toutes les listes de prix relatives à la région sélectionnée et tous les districts de listes de prix pour le quartier sera trouvé.*"
+msgstr "Sélectionnez le `Quartier`; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur pour sélectionner les listes de prix des produit médicaux à partir d'un district particulier. *Remarque: La liste sera remplie uniquement avec les districts appartenant à la région sélectionnée et affecté à l'utilisateur actuellement connecté. Toutes les listes de prix à l'échelle nationale, toutes les listes de prix relatives à la région sélectionnée et tous les districts de listes de prix pour le quartier sera trouvé.*"
 
 
 msgid "``Historical``"
@@ -160,7 +160,7 @@ msgid "**Result Panel**"
 msgstr "**Panneau de résultats**"
 
 msgid "The Result Panel displays a list of all price lists of medical items found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image48`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
-msgstr "Le Résultat s'affiche sur le Panneau une liste de toutes les listes de prix des articles médicaux trouvé, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image48`). La gauche dossier contient un lien, qui, si vous cliquez dessus, re-dirige l'utilisateur vers le record actuel pour obtenir la visualisation si c'est un record historique ou de la modification si c'est l'enregistrement en cours."
+msgstr "Le Résultat s'affiche sur le Panneau une liste de toutes les listes de prix des produit médicaux trouvé, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image48`). La gauche dossier contient un lien, qui, si vous cliquez dessus, re-dirige l'utilisateur vers le record actuel pour obtenir la visualisation si c'est un record historique ou de la modification si c'est l'enregistrement en cours."
 
 
 msgid "`Selected record (blue), hovered records (yellow) - Result Panel`"
@@ -191,7 +191,7 @@ msgstr "Le panneau d'informations est utilisé pour afficher les messages à l'u
 
 
 msgid "Price List Medical Item Page"
-msgstr "Liste des prix Page d'articles médicaux"
+msgstr "Liste des prix Page de produit médicaux"
 
 
 msgid "**Data entry**"
@@ -199,35 +199,35 @@ msgstr "**La saisie des données**"
 
 
 msgid "`Price List Medical Item Page`"
-msgstr "`Page de liste des prix d'articles médicaux`"
+msgstr "`Page de liste des prix de produit médicaux`"
 
 
 msgid "Enter the name for the price list of medical items. Mandatory, 100 characters maximum."
-msgstr "Entrez le nom de la liste de prix des articles médicaux. Obligatoire, 100 caractères maximum."
+msgstr "Entrez le nom de la liste de prix des produit médicaux. Obligatoire, 100 caractères maximum."
 
 
 msgid "Enter the creation date for the price list of medical items. *Note: You can also use the button next to the date field to select a date to be entered.*"
-msgstr "Saisissez la date de création de la liste de prix des articles médicaux. *Remarque: Vous pouvez également utiliser le bouton à côté du champ de date pour sélectionner une date à saisir.*"
+msgstr "Saisissez la date de création de la liste de prix des produit médicaux. *Remarque: Vous pouvez également utiliser le bouton à côté du champ de date pour sélectionner une date à saisir.*"
 
 msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to enter the region in which the price list of medical items is to be used. The district **National** means that the price list is common for all regions. *Note: The list will only be filled with the regions assigned to the current logged in user and with the option National.* Mandatory."
-msgstr "Sélectionnez la `Région`; à partir de la liste des régions en cliquant sur la flèche à droite du sélecteur d'entrée de la région dans laquelle le prix de liste d'articles médicaux doit être utilisé. Le district **National** signifie que la liste de prix est commun pour toutes les régions. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté et avec l'option Nationale.* Obligatoire."
+msgstr "Sélectionnez la `Région`; à partir de la liste des régions en cliquant sur la flèche à droite du sélecteur d'entrée de la région dans laquelle le prix de liste de produit médicaux doit être utilisé. Le district **National** signifie que la liste de prix est commun pour toutes les régions. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté et avec l'option Nationale.* Obligatoire."
 
 msgid "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to enter the district in which the price list of medical items is to be used. *Note: The list will be only filled with the districts belonging to the selected region and currently logged in user.* It is not mandatory to enter a district, not selecting a district will mean the price list of medical items is used in all districts of the region or nationwide if the region National is selected ."
-msgstr "Sélectionnez le `Quartier`; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur d'entrée de l'arrondissement dans lequel la liste de prix des articles médicaux doit être utilisé. *Remarque: La liste sera remplie uniquement avec les districts appartenant à la région sélectionnée et de l'utilisateur actuellement connecté.* Il n'est pas obligatoire d'entrer un arrondissement, pas de la sélection d'un district sera le prix de liste d'articles médicaux est utilisé dans tous les districts de la région ou à l'échelle nationale si la région Nationale est sélectionné ."
+msgstr "Sélectionnez le `Quartier`; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur d'entrée de l'arrondissement dans lequel la liste de prix des produit médicaux doit être utilisé. *Remarque: La liste sera remplie uniquement avec les districts appartenant à la région sélectionnée et de l'utilisateur actuellement connecté.* Il n'est pas obligatoire d'entrer un arrondissement, pas de la sélection d'un district sera le prix de liste de produit médicaux est utilisé dans tous les districts de la région ou à l'échelle nationale si la région Nationale est sélectionné ."
 
 
 msgid "``Medical Items``"
 msgstr "``Articles médicaux``"
 
 msgid "Select from the list of available medical items the medical items which the price list medical item contains, by either clicking on the ``check all box`` at the top of the list of medical items, or by selectively clicking on the ``check box`` to the left of the medical item. The list shows the medical items displaying the code, name, type and price for reference. There is also an extra column, Overrule, which can be used to overrule the pre-set price. By clicking once on the row desired item in the overrule column, a new price can be entered for the individual item. This occurs when price agreed between a health facility or group of health facilities and the health insurance administration differs from the common price in the register of medical items."
-msgstr "Sélectionnez dans la liste d'articles médicaux, les articles médicaux, dont la liste des prix médicaux élément contient, soit en cliquant sur le `case à case` en haut de la liste d'articles médicaux, ou de manière sélective la cliquant sur sur la `case à cocher` à gauche de la médicale de l'élément. La liste affiche les articles médicaux, en affichant le code, le nom, le type et le prix de référence. Il y a également une colonne supplémentaire, Infirmer, qui peut être utilisé pour écraser les prix. En cliquant une fois sur la ligne de l'élément souhaité dans le contredire colonne, un nouveau prix peut être saisi pour l'élément individuel. Cela se produit lorsque le prix convenu entre un établissement de santé ou d'un groupe d'établissements de santé et d'assurance-santé de l'administration diffère de la commune de prix dans le registre d'articles médicaux."
+msgstr "Sélectionnez dans la liste de produit médicaux, les produit médicaux, dont la liste des prix médicaux élément contient, soit en cliquant sur le `case à case` en haut de la liste de produit médicaux, ou de manière sélective la cliquant sur sur la `case à cocher` à gauche de la médicale de l'élément. La liste affiche les produit médicaux, en affichant le code, le nom, le type et le prix de référence. Il y a également une colonne supplémentaire, Infirmer, qui peut être utilisé pour écraser les prix. En cliquant une fois sur la ligne de l'élément souhaité dans le contredire colonne, un nouveau prix peut être saisi pour l'élément individuel. Cela se produit lorsque le prix convenu entre un établissement de santé ou d'un groupe d'établissements de santé et d'assurance-santé de l'administration diffère de la commune de prix dans le registre de produit médicaux."
 
 
 msgid "**Saving**"
 msgstr "**Sauvegarder**"
 
 msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Price list Medical Items Control Page <#medical-items-control-page>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the price list of medical items has been saved will appear on the Information Panel."
-msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton ``Sauvegarder`` sauvegardera l'enregistrement. L'utilisateur sera redirigé vers la `Liste de prix Page de contrôle des articles médicaux <#medical-items-control-page>`__, avec le nouvel enregistrement enregistré affiché et sélectionné dans le panneau de résultats. Un message confirmant que la liste de prix des articles médicaux a été enregistrée apparaîtra sur le panneau d'informations."
+msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton ``Sauvegarder`` sauvegardera l'enregistrement. L'utilisateur sera redirigé vers la `Liste de prix Page de contrôle des produit médicaux <#medical-items-control-page>`__, avec le nouvel enregistrement enregistré affiché et sélectionné dans le panneau de résultats. Un message confirmant que la liste de prix des produit médicaux a été enregistrée apparaîtra sur le panneau d'informations."
 
 
 msgid "**Mandatory data**"
@@ -242,50 +242,50 @@ msgstr "**Annuler**"
 
 
 msgid "By clicking on the ``Cancel`` button, the user will be re-directed to the `Price List Medical Items Control Page <#medical-items-control-page>`__.\`
-msgstr "En cliquant sur le bouton ``Annuler``, l'utilisateur sera redirigé vers la `Liste de contrôle des articles médicaux de la liste de prix <#medical-items-control-page>`__. \`
+msgstr "En cliquant sur le bouton ``Annuler``, l'utilisateur sera redirigé vers la `Liste de contrôle des produit médicaux de la liste de prix <#medical-items-control-page>`__. \`
 
 
 msgid "Adding a Price List of Medical Items"
-msgstr "Ajout d'une liste de prix d'articles médicaux"
+msgstr "Ajout d'une liste de prix de produit médicaux"
 
 
 msgid "Click on the Add button to re-direct to the `Price List Medical Item Page <#price-list-medical-item-page>`__.\`
-msgstr "Cliquez sur le bouton Ajouter pour rediriger vers la page `Liste des prix des articles médicaux <#price-list-medical-item-page>`__. \`
+msgstr "Cliquez sur le bouton Ajouter pour rediriger vers la page `Liste des prix des produit médicaux <#price-list-medical-item-page>`__. \`
 
 
 msgid "When the page opens all entry fields are empty. See the `Price List Medical Item Page <#price-list-medical-item-page>`__ for information on the data entry and mandatory fields.\`
-msgstr "Lorsque la page s'ouvre, tous les champs de saisie sont vides. Reportez-vous à la page de liste d'articles médicaux <#price-list-medical-item-page>`__ pour plus d'informations sur la saisie des données et les champs obligatoires. \`
+msgstr "Lorsque la page s'ouvre, tous les champs de saisie sont vides. Reportez-vous à la page de liste de produit médicaux <#price-list-medical-item-page>`__ pour plus d'informations sur la saisie des données et les champs obligatoires. \`
 
 
 msgid "Editing a Price List of Medical Items"
-msgstr "Modification d'une liste de prix d'articles médicaux"
+msgstr "Modification d'une liste de prix de produit médicaux"
 
 
 msgid "Click on the Edit button to re-direct to the `Price List Medical Item Page <#price-list-medical-item-page>`__\\."
-msgstr "Cliquez sur le bouton Modifier pour rediriger vers la `page de liste d'articles médicaux <#price-list-medical-item-page>`__ \\."
+msgstr "Cliquez sur le bouton Modifier pour rediriger vers la `page de liste de produit médicaux <#price-list-medical-item-page>`__ \\."
 
 
 msgid "The page will open with the current information loaded into the data entry fields. See the `Price List Medical Item Page <#price-list-medical-item-page>`__ for information on the data entry and mandatory fields."
-msgstr "La page s'ouvrira avec les informations actuelles chargées dans les champs de saisie de données. Reportez-vous à la page de liste d'articles médicaux <#price-list-medical-item-page>`__ pour obtenir des informations sur la saisie des données et les champs obligatoires."
+msgstr "La page s'ouvrira avec les informations actuelles chargées dans les champs de saisie de données. Reportez-vous à la page de liste de produit médicaux <#price-list-medical-item-page>`__ pour obtenir des informations sur la saisie des données et les champs obligatoires."
 
 
 msgid "Duplicating a Price List of Medical Items"
-msgstr "Duplication d'une liste de prix d'articles médicaux"
+msgstr "Duplication d'une liste de prix de produit médicaux"
 
 
 msgid "Click on the Duplicate button to re-direct to the `Price List Medical Item Page <#price-list-medical-item-page>`__\\."
-msgstr "Cliquez sur le bouton Dupliquer pour rediriger vers la page `Liste des prix des articles médicaux <#price-list-medical-item-page>`__ \\."
+msgstr "Cliquez sur le bouton Dupliquer pour rediriger vers la page `Liste des prix des produit médicaux <#price-list-medical-item-page>`__ \\."
 
 msgid "The page will open with all the current information for the selected price list, (except for the price list name which should be unique), loaded into the data entry fields. See the `Price List Medical Item Page <#price-list-medical-item-page>`__ for information on the data entry and mandatory fields. To save the record, enter a unique code before clicking on ``Save``."
-msgstr "La page s'ouvrira avec toutes les informations actuelles pour la liste de prix sélectionnée, (à l'exception du nom de la liste de prix qui devrait être unique), chargées dans les champs de saisie de données. Reportez-vous à la page de liste d'articles médicaux <#price-list-medical-item-page>`__ pour obtenir des informations sur la saisie des données et les champs obligatoires. Pour sauvegarder l'enregistrement, entrez un code unique avant de cliquer sur ``Enregistrer``."
+msgstr "La page s'ouvrira avec toutes les informations actuelles pour la liste de prix sélectionnée, (à l'exception du nom de la liste de prix qui devrait être unique), chargées dans les champs de saisie de données. Reportez-vous à la page de liste de produit médicaux <#price-list-medical-item-page>`__ pour obtenir des informations sur la saisie des données et les champs obligatoires. Pour sauvegarder l'enregistrement, entrez un code unique avant de cliquer sur ``Enregistrer``."
 
 
 msgid "Deleting a Price List of Medical Items"
-msgstr "Suppression d'une liste de prix d'articles médicaux"
+msgstr "Suppression d'une liste de prix de produit médicaux"
 
 
 msgid "Click on the ``Delete`` button to delete the currently selected record\\; the user is re-directed to the `Price List Medical Items Control Page <#medical-items-control-page>`__\\."
-msgstr "Cliquez sur le bouton ``Supprimer`` pour supprimer l'enregistrement actuellement sélectionné \\; l'utilisateur est redirigé vers la `Liste de contrôle des articles médicaux de la liste des prix <#medical-items-control-page>`__ \\."
+msgstr "Cliquez sur le bouton ``Supprimer`` pour supprimer l'enregistrement actuellement sélectionné \\; l'utilisateur est redirigé vers la `Liste de contrôle des produit médicaux de la liste des prix <#medical-items-control-page>`__ \\."
 
 
 msgid "Before deleting a confirmation popup (:numref:`image51`) is displayed, which requires the user to confirm if the action should really be carried out?"
@@ -297,4 +297,4 @@ msgstr "`Supprimer la confirmation - Panneau de boutons`"
 
 
 msgid "When a price list of medical items is deleted, all records retaining to the deleted price list of medical items will still be available by selecting historical records."
-msgstr "Lorsqu'une liste de prix d'articles médicaux est supprimée, tous les enregistrements conservant la liste de prix supprimée d'articles médicaux seront toujours disponibles en sélectionnant les enregistrements historiques."
+msgstr "Lorsqu'une liste de prix de produit médicaux est supprimée, tous les enregistrements conservant la liste de prix supprimée de produit médicaux seront toujours disponibles en sélectionnant les enregistrements historiques."

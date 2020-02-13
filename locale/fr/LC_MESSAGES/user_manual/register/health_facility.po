@@ -270,10 +270,10 @@ msgstr "Sélectionnez les établissements de santé des listes de prix (pour les
 
 
 msgid "``Price Lists (Medical Items)``"
-msgstr "``Listes de prix (articles médicaux)``"
+msgstr "``Listes de prix (produit médicaux)``"
 
 msgid "Select the health facilities price lists (medical items) from the list by clicking on the arrow on the right hand side of the lookup. The pricelist contains the list of medical items and their prices agreed between the health facility (or corresponding group of health facilities) and the scheme administration which can be invoiced by the health facility and remunerated by the scheme administration. *Note: The list will only be filled with the pricelists associated with the previously selected district, regional and nationwide pricelists assigned to the current logged in user.*"
-msgstr "Sélectionnez les établissements de santé des listes de prix (articles médicaux) à partir de la liste en cliquant sur la flèche sur le côté droit de la recherche. La liste contient la liste des articles et leurs prix convenu entre l'établissement de santé (ou groupe d'établissements de santé) et le schéma d'administration qui peuvent être facturés par l'établissement de santé et rémunérées par le régime d'administration. *Remarque: La liste ne sera rempli avec les listes de prix associées à celles déjà sélectionnées pour le quartier, régionale et nationale les listes de prix assigné à l'utilisateur connecté.*"
+msgstr "Sélectionnez les établissements de santé des listes de prix (produit médicaux) à partir de la liste en cliquant sur la flèche sur le côté droit de la recherche. La liste contient la liste des produit médicaux et leurs prix convenu entre l'établissement de santé (ou groupe d'établissements de santé) et le schéma d'administration qui peuvent être facturés par l'établissement de santé et rémunérées par le régime d'administration. *Remarque: La liste ne sera rempli avec les listes de prix associées à celles déjà sélectionnées pour le quartier, régionale et nationale les listes de prix assigné à l'utilisateur connecté.*"
 
 
 msgid "``Account Code``"

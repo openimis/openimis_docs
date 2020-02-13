@@ -42,7 +42,7 @@ msgstr "Le code produit (assurance), le nom du produit et la date d'expiration d
 
 
 msgid "The status (I for Idle, A for Active, S for Suspended and E for Expired) of the policy at the time of inquiring"
-msgstr "Le statut (I pour inactif, A pour actif, S pour suspendu et E pour expiré) de la politique au moment de la demande"
+msgstr "Le statut (I pour inactif, A pour actif, S pour suspendu et E pour expiré) de la politique au moment de la réclamation"
 
 
 msgid "The deductible amount remaining for the insuree to pay before the policy is claimable, for hospitals and non-hospitals"

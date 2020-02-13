@@ -292,7 +292,7 @@ msgid "``Claim Status``"
 msgstr "``Statut de réclamation``"
 
 msgid "Select the claim status from the drop down list by clicking on the right arrow. By selecting any of the options a user can filter the report on a particular claim status. This filter is not mandatory, leave it blank to preview the report on all the claim statuses."
-msgstr "Sélectionnez l'état de la revendication à partir de la liste déroulante en cliquant sur la flèche de droite. En sélectionnant l'une des options, les utilisateurs peuvent filtrer le rapport sur une demande de statut. Ce filtre n'est pas obligatoire, laissez le champ vide pour afficher un aperçu du rapport sur l'ensemble de la revendication statuts."
+msgstr "Sélectionnez l'état de la revendication à partir de la liste déroulante en cliquant sur la flèche de droite. En sélectionnant l'une des options, les utilisateurs peuvent filtrer le rapport sur une réclamation de statut. Ce filtre n'est pas obligatoire, laissez le champ vide pour afficher un aperçu du rapport sur l'ensemble de la revendication statuts."
 
 
 msgid "``Sorting``"
@@ -331,7 +331,7 @@ msgstr "``AFFICHAGE DU STATUT``"
 
 
 msgid "Select the status of posting of requests for control numbers. This filter is not mandatory. *Note: This filter is available only for Control Number Assignment.*"
-msgstr "Sélectionnez l'état de publication des demandes de numéros de contrôle. Ce filtre n'est pas obligatoire. *Remarque: ce filtre est disponible uniquement pour l'attribution des numéros de contrôle.*"
+msgstr "Sélectionnez l'état de publication des réclamations de numéros de contrôle. Ce filtre n'est pas obligatoire. *Remarque: ce filtre est disponible uniquement pour l'attribution des numéros de contrôle.*"
 
 
 msgid "``ASSIGNMENT  STATUS``"
@@ -339,7 +339,7 @@ msgstr "``STATUT DE CESSION``"
 
 
 msgid "Select the status of results of requests for control number. This filter is not mandatory. *Note: This filter is available only Control Number Assignment Report.*"
-msgstr "Sélectionnez l'état des résultats des demandes de numéro de contrôle. Ce filtre n'est pas obligatoire. *Remarque: ce filtre n'est disponible que dans le rapport d'attribution de numéro de contrôle.*"
+msgstr "Sélectionnez l'état des résultats des réclamations de numéro de contrôle. Ce filtre n'est pas obligatoire. *Remarque: ce filtre n'est disponible que dans le rapport d'attribution de numéro de contrôle.*"
 
 
 msgid "``INSURANCE   NUMBER``"
@@ -717,7 +717,7 @@ msgid "Number of rejected claims"
 msgstr "Nombre de demandes rejetées"
 
 msgid "The number of claims for given insurance product that emerged during a respective period and were rejected (Start dateof a claim is within the respective period and the Status approval ofthe claim is Rejected)"
-msgstr "Le nombre de demandes pour les produits d'assurance qui a émergé au cours d'une période et ont été rejetées (Démarrer dateof une réclamation est à l'intérieur de la période et de l'approbation du Statut de la demande d'asile est Rejetée)"
+msgstr "Le nombre de demandes pour les produits d'assurance qui a émergé au cours d'une période et ont été rejetées (Démarrer dateof une réclamation est à l'intérieur de la période et de l'approbation du Statut de la réclamation d'asile est Rejetée)"
 
 
 msgid "`Preview – Primary Operational Indicators - Claims Report`"
@@ -783,7 +783,7 @@ msgid "Promptness of claims settlement"
 msgstr "Rapidité du règlement des réclamations"
 
 msgid "It is the average (date of sending to payment- Date of submission of the claim) for all claims relating to given insurance product and emerging in a respective period Date of sending of payment is not in the structure of Claim, it has to be retrieved from a journal-can be?)"
-msgstr "C'est la moyenne (date de l'envoi de paiement - Date de présentation de la demande) pour toutes les demandes relatives à des produits d'assurance et émergents dans une période Date de l'envoi du paiement n'est pas dans la structure de la Demande, il doit être récupéré à partir d'un journal peut être?)"
+msgstr "C'est la moyenne (date de l'envoi de paiement - Date de présentation de la réclamation) pour toutes les réclamations relatives à des produits d'assurance et émergents dans une période Date de l'envoi du paiement n'est pas dans la structure de la Demande, il doit être récupéré à partir d'un journal peut être?)"
 
 
 msgid "D5"
@@ -919,7 +919,7 @@ msgid "**status of registers report**"
 msgstr "**rapport sur l'état des registres**"
 
 msgid "The report provides an overview of the number of items in registers according to districts. The report can be run by users with the system role Scheme Administrator or with a role including an access to Tools/Reports/Status of Registers.(:numref:`image233`)"
-msgstr "Le rapport donne un aperçu du nombre d'articles dans les registres selon les districts. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système de Régime d'Administrateur ou avec un rôle, y compris un accès à des Outils/Rapports/État des Registres.(:numref:`image233`)"
+msgstr "Le rapport donne un aperçu du nombre de produit médicaux dans les registres selon les districts. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système de Régime d'Administrateur ou avec un rôle, y compris un accès à des Outils/Rapports/État des Registres.(:numref:`image233`)"
 
 
 msgid "`Preview – Status of Registers Report`"
@@ -941,7 +941,7 @@ msgid "**matching funds**"
 msgstr "**fonds de contrepartie**"
 
 msgid "The report lists all families/groups according to insurance products and (institutional) payers that paid contributions in the specified period. This report is useful for claiming of subsidies for running of health insurance schemes. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Matching Funds.  (:numref:`image235`)"
-msgstr "Le rapport répertorie toutes les familles/groupes en fonction des produits d'assurance et (institutionnel) contribuables qui ont payé des cotisations dans le délai imparti. Ce rapport est utile pour la demande de subventions pour l'exécution des programmes d'assurance santé. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système Comptable ou à un rôle, y compris un accès à des Outils/Rapports/Fonds de contrepartie. (:numref:`image235`)"
+msgstr "Le rapport répertorie toutes les familles/groupes en fonction des produits d'assurance et (institutionnel) contribuables qui ont payé des cotisations dans le délai imparti. Ce rapport est utile pour la réclamation de subventions pour l'exécution des programmes d'assurance santé. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système Comptable ou à un rôle, y compris un accès à des Outils/Rapports/Fonds de contrepartie. (:numref:`image235`)"
 
 
 msgid "`Preview –Matching Funds`"

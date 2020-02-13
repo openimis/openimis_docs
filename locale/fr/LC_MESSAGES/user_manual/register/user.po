@@ -235,7 +235,7 @@ msgid "Enter the e-mail address for the user. 50 characters maximum."
 msgstr "Saisissez l'adresse e-mail de l'utilisateur. 50 caractères maximum."
 
 msgid "Enter the Login name for the user. This is an alias used for logging into the application; a minimum of 6 and a maximum of 25 characters should be used for the login. Each Login Name should be unique. Mandatory."
-msgstr "Entrez le nom de Connexion de l'utilisateur. C'est un alias utilisé pour la connexion à la demande, un minimum de 6 et un maximum de 25 caractères doit être utilisé pour la connexion. Chaque Nom de Connexion doit être unique. Obligatoire."
+msgstr "Entrez le nom de Connexion de l'utilisateur. C'est un alias utilisé pour la connexion à la réclamation, un minimum de 6 et un maximum de 25 caractères doit être utilisé pour la connexion. Chaque Nom de Connexion doit être unique. Obligatoire."
 
 
 msgid "``Password``"

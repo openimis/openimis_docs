@@ -358,7 +358,7 @@ msgstr "Montant moyen rejeté"
 
 
 msgid "=Amount rejected / Rejected claims"
-msgstr "= Montant des demandes rejetées / rejetées"
+msgstr "= Montant des réclamations rejetées / rejetées"
 
 
 msgid "Claim details products"
@@ -426,7 +426,7 @@ msgstr "Faits sur l'utilisation des soins de santé"
 
 
 msgid "This group of facts relates to utilization of health care by insures according to submitted and not rejected claims. Facts available are listed in :numref:`facts-on-of-utilization-health-care`"
-msgstr "Ce groupe de faits concerne l'utilisation des soins de santé par les assurés selon les demandes soumises et non rejetées. Les données disponibles sont répertoriées dans :numref:`facts-on-of-use-health-care`"
+msgstr "Ce groupe de faits concerne l'utilisation des soins de santé par les assurés selon les réclamations soumises et non rejetées. Les données disponibles sont répertoriées dans :numref:`facts-on-of-use-health-care`"
 
 
 msgid "`Facts on of utilization health care`"
@@ -506,7 +506,7 @@ msgstr "Prestations de service"
 
 
 msgid "Utilization of medical items"
-msgstr "Utilisation d'articles médicaux"
+msgstr "Utilisation de produit médicaux"
 
 
 msgid "Items utilized"
@@ -514,7 +514,7 @@ msgstr "Articles utilisés"
 
 
 msgid "Number of utilized medical items according to submitted claims"
-msgstr "Nombre d'articles médicaux utilisés selon les demandes soumises"
+msgstr "Nombre de produit médicaux utilisés selon les réclamations soumises"
 
 
 msgid "If a medical item was provided during one visit / hospital stay, the medical item is counted according to the number of its provision"
@@ -534,7 +534,7 @@ msgstr "= Services utilisés / Assurés actuels"
 
 
 msgid "Average utilization of medical items per insuree"
-msgstr "Utilisation moyenne d'articles médicaux par assuré"
+msgstr "Utilisation moyenne de produit médicaux par assuré"
 
 
 msgid "= Items utilized / Current insurees"
@@ -566,7 +566,7 @@ msgstr "Dépenses pour les services réellement rémunérés aux établissements
 
 
 msgid "expenditures for medical items"
-msgstr "dépenses pour articles médicaux"
+msgstr "dépenses pour produit médicaux"
 
 
 msgid "Item expenditures"
@@ -574,7 +574,7 @@ msgstr "Dépenses d'articles"
 
 
 msgid "expenditures for medical items actually remunerated to health facilities"
-msgstr "dépenses pour les articles médicaux réellement rémunérés aux établissements de santé"
+msgstr "dépenses pour les produit médicaux réellement rémunérés aux établissements de santé"
 
 
 msgid "Average expenditures for services per insuree"
@@ -586,7 +586,7 @@ msgstr "= Dépenses de services / Assurés actuels"
 
 
 msgid "Average expenditures for medical items per insuree"
-msgstr "Dépenses moyennes pour les articles médicaux par assuré"
+msgstr "Dépenses moyennes pour les produit médicaux par assuré"
 
 
 msgid "= Item expenditures/ Number of inhabitants"
@@ -602,7 +602,7 @@ msgstr "Dépenses moyennes par assuré"
 
 
 msgid "= Average expenditures of services per insuree + Average expenditures for medical items per insuree"
-msgstr "= Dépenses moyennes de services par assuré + Dépenses moyennes d'articles médicaux par assuré"
+msgstr "= Dépenses moyennes de services par assuré + Dépenses moyennes de produit médicaux par assuré"
 
 
 msgid "Facts on feedbacks"
@@ -610,7 +610,7 @@ msgstr "Faits sur les rétroactions"
 
 
 msgid "This group of facts relates to evaluation of request for feedbacks on provided health care that are issued by medical officers during processing of claims. Facts available are listed in :numref:`fact_feedback`"
-msgstr "Ce groupe de faits se rapporte à l'évaluation des demandes de rétroaction sur les soins de santé fournis qui sont émises par les médecins-conseils lors du traitement des demandes. Les faits disponibles sont répertoriés dans :numref:`fact_feedback`"
+msgstr "Ce groupe de faits se rapporte à l'évaluation des réclamations de rétroaction sur les soins de santé fournis qui sont émises par les médecins-conseils lors du traitement des réclamations. Les faits disponibles sont répertoriés dans :numref:`fact_feedback`"
 
 
 msgid "`Facts on feedbacks`"
@@ -630,7 +630,7 @@ msgstr "Nombre de demandes de rétroaction envoyées au cours d'une période"
 
 
 msgid "Insurance products that covered claims initiating requests for feedbacks"
-msgstr "Produits d'assurance couvrant les sinistres initiant des demandes de rétroaction"
+msgstr "Produits d'assurance couvrant les sinistres initiant des réclamations de rétroaction"
 
 
 msgid "Feedbacks responded"

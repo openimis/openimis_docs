@@ -66,7 +66,7 @@ msgid "``Region``"
 msgstr "`` Région``"
 
 msgid "Select the ``Region`` from the list of regions by clicking on the arrow on the right of the selector to select a region. *Note: The list will only be filled with the regions assigned to the current logged in user and the option National*.  The option ``National`` will process all the claim for the period specified in ``Month`` and ``Year``"
-msgstr "Sélectionnez la `Région` de la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner une région. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté et l'option Nationale*. L'option `National` va traiter tous les la demande pour la période spécifiée dans le `Mois` et `Année`"
+msgstr "Sélectionnez la `Région` de la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner une région. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté et l'option Nationale*. L'option `National` va traiter tous les la réclamation pour la période spécifiée dans le `Mois` et `Année`"
 
 
 msgid "``District``"
@@ -97,19 +97,19 @@ msgstr "Le Mois à la fin du trimestre traite la réclamation de l'assuré ayant
 
 
 msgid "March     --> Process the claim for first quatrer"
-msgstr "Mars --> Traiter la demande du premier trimestre"
+msgstr "Mars --> Traiter la réclamation du premier trimestre"
 
 
 msgid "June      --> Process the claim for second quatrer"
-msgstr "Juin --> Traiter la demande de deuxième trimestre"
+msgstr "Juin --> Traiter la réclamation de deuxième trimestre"
 
 
 msgid "September --> Process the claim for Third quatrer"
-msgstr "Septembre --> Traiter la demande de troisième trimestre"
+msgstr "Septembre --> Traiter la réclamation de troisième trimestre"
 
 
 msgid "December  --> Process the claim for Fourth quatrer"
-msgstr "Décembre --> Traiter la demande de quatrième trimestre"
+msgstr "Décembre --> Traiter la réclamation de quatrième trimestre"
 
 
 msgid "December process the claim for insuree having a product with Yearly distribution (:ref:`Product Page <product_distribution>`)"
@@ -120,7 +120,7 @@ msgid "``Process``"
 msgstr "``Processus``"
 
 msgid "Once criteria are chosen, clicking on this button (:numref:`batch_run_process`), the claims will be processed based on the selected criteria. If the option ``National`` was used in the field ``Region``, the batch will run only for nationwide insurance products. If a region is selected in the field ``Region`` and no district is selected, the batch will run only for regional insurance products for the selected region. If a district is selected in the field ``District`` the batch is run only for district insurance products for the selected district."
-msgstr "Une fois les critères sont choisis, en cliquant sur ce bouton (:numref:`batch_run_process`), les demandes seront traitées en fonction des critères sélectionnés. Si l'option `National` a été utilisé dans le domaine de la `Région`, le lot sera exécuté uniquement pour les produits d'assurance à l'échelle nationale. Si une région est sélectionnée dans le champ `Région` et pas de quartier est sélectionné, le lot sera exécutée que pour les régionales de produits d'assurance pour la région sélectionnée. Si un quartier est sélectionné dans le champ `District` le lot est exécuté uniquement pour le district de produits d'assurance pour le district."
+msgstr "Une fois les critères sont choisis, en cliquant sur ce bouton (:numref:`batch_run_process`), les réclamations seront traitées en fonction des critères sélectionnés. Si l'option `National` a été utilisé dans le domaine de la `Région`, le lot sera exécuté uniquement pour les produits d'assurance à l'échelle nationale. Si une région est sélectionnée dans le champ `Région` et pas de quartier est sélectionné, le lot sera exécutée que pour les régionales de produits d'assurance pour la région sélectionnée. Si un quartier est sélectionné dans le champ `District` le lot est exécuté uniquement pour le district de produits d'assurance pour le district."
 
 
 msgid "`Batch Run Process Button`"

@@ -16,7 +16,7 @@ msgstr "Administration des administrateurs de Réclamations"
 
 
 msgid "The register contains employees of contractual health facilities responsible for preparation and/or submission of claims. Administration of the register of claim administrators is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Claim Administrators."
-msgstr "Le registre contient les employés des établissements de santé contractuels chargés de la préparation et / ou de la soumission des demandes de règlement. L'administration du registre des administrateurs de Réclamations est réservée aux utilisateurs ayant le rôle d'administrateur système ou un rôle comprenant un accès aux administrateurs d'administration / de revendication."
+msgstr "Le registre contient les employés des établissements de santé contractuels chargés de la préparation et / ou de la soumission des réclamations de règlement. L'administration du registre des administrateurs de Réclamations est réservée aux utilisateurs ayant le rôle d'administrateur système ou un rôle comprenant un accès aux administrateurs d'administration / de revendication."
 
 
 msgid "Pre-conditions"
@@ -24,7 +24,7 @@ msgstr "Conditions préalables"
 
 
 msgid "A claim administrator may be added after the agreement of a contractual health facility and the management of the scheme administration. Entry of a claim administrator in the register of claim administrators doesn’t mean that the claim administrator can login to IMIS. He/she has to be entered also in the register of users. It is facilitated by the ability to create the entry of a claim administrator into the register of claim administrators and the register of users simultaneously."
-msgstr "Un administrateur des demandes d'indemnisation peut être ajouté après l'accord d'un établissement de santé contractuel et la gestion de l'administration du régime. L'inscription d'un administrateur de Réclamations dans le registre des administrateurs de Réclamations ne signifie pas que l'administrateur de Réclamations peut se connecter à IMIS. Il doit également être inscrit dans le registre des utilisateurs. Il est facilité par la possibilité de créer simultanément l'entrée d'un administrateur de Réclamations dans le registre des administrateurs de Réclamations et le registre des utilisateurs."
+msgstr "Un administrateur des réclamations d'indemnisation peut être ajouté après l'accord d'un établissement de santé contractuel et la gestion de l'administration du régime. L'inscription d'un administrateur de Réclamations dans le registre des administrateurs de Réclamations ne signifie pas que l'administrateur de Réclamations peut se connecter à IMIS. Il doit également être inscrit dans le registre des utilisateurs. Il est facilité par la possibilité de créer simultanément l'entrée d'un administrateur de Réclamations dans le registre des administrateurs de Réclamations et le registre des utilisateurs."
 
 
 msgid "Navigation"
@@ -158,7 +158,7 @@ msgstr "``Code HF``"
 
 
 msgid "Select ``HF Code`` (a health facility code); from the list of health facility codes by clicking on the arrow on the right of the selector to select claim administrators from a specific health facility. *Note: The list will only be filled with the health facilities from districts which are assigned to the current logged in user.*"
-msgstr "Sélectionnez ``Code HF`` (un code d'établissement de santé); dans la liste des codes d'établissements de santé en cliquant sur la flèche à droite du sélecteur pour sélectionner les administrateurs des demandes de règlement d'un établissement de santé spécifique. *Remarque: La liste ne sera remplie qu'avec les formations sanitaires des districts qui sont affectées à l'utilisateur actuellement connecté.*"
+msgstr "Sélectionnez ``Code HF`` (un code d'établissement de santé); dans la liste des codes d'établissements de santé en cliquant sur la flèche à droite du sélecteur pour sélectionner les administrateurs des réclamations de règlement d'un établissement de santé spécifique. *Remarque: La liste ne sera remplie qu'avec les formations sanitaires des districts qui sont affectées à l'utilisateur actuellement connecté.*"
 
 
 msgid "``Phone Number``"

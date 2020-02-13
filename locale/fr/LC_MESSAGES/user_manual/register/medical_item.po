@@ -12,10 +12,10 @@ msgstr ""
 
 
 msgid "Medical Items Administration"
-msgstr "Administration des articles médicaux"
+msgstr "Administration des produit médicaux"
 
 msgid "The register of Medical Items contains all medical items (drugs, prostheses) that can be included in packages of benefits of insurance products within the health insurance scheme and are remunerated by the scheme administration. Administration of the register of medical items is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Medical Items."
-msgstr "Le registre d'Articles Médicaux, contient tous les articles médicaux (médicaments, prothèses) qui peuvent être inclus dans les packages de prestations de produits d'assurance dans le régime d'assurance santé et sont rémunérés par le régime de l'administration. L'Administration du registre d'articles médicaux est limité aux utilisateurs avec le rôle de système de Régime d'Administrateur ou avec un rôle, y compris un accès à l'Administration/des Articles Médicaux."
+msgstr "Le registre d'Articles Médicaux, contient tous les produit médicaux (médicaments, prothèses) qui peuvent être inclus dans les packages de prestations de produits d'assurance dans le régime d'assurance santé et sont rémunérés par le régime de l'administration. L'Administration du registre de produit médicaux est limité aux utilisateurs avec le rôle de système de Régime d'Administrateur ou avec un rôle, y compris un accès à l'Administration/des Articles Médicaux."
 
 
 msgid "Pre-conditions"
@@ -31,7 +31,7 @@ msgstr "La navigation"
 
 
 msgid "All functionality for use with the administration of medical items can be found under the main menu ``Administration``, sub menu ``Medical Items``"
-msgstr "Toutes les fonctionnalités à utiliser avec l'administration des articles médicaux se trouvent dans le menu principal ``Administration``, sous-menu ``Articles médicaux``"
+msgstr "Toutes les fonctionnalités à utiliser avec l'administration des produit médicaux se trouvent dans le menu principal ``Administration``, sous-menu ``Articles médicaux``"
 
 
 msgid "`Navigation Medical Items`"
@@ -39,26 +39,26 @@ msgstr "`Articles médicaux de navigation`"
 
 
 msgid "Clicking on the sub menu ``Medical Items`` re-directs the current user to the `Medical Items Control Page <#medical-items-control-page>`__\\."
-msgstr "Un clic sur le sous-menu ``Articles médicaux`` redirige l'utilisateur actuel vers la `Page de contrôle des articles médicaux <#medical-items-control-page>`__ \\."
+msgstr "Un clic sur le sous-menu ``Articles médicaux`` redirige l'utilisateur actuel vers la `Page de contrôle des produit médicaux <#medical-items-control-page>`__ \\."
 
 
 msgid "`Medical Items Control Page`"
-msgstr "`Page de contrôle des articles médicaux`"
+msgstr "`Page de contrôle des produit médicaux`"
 
 
 msgid "Medical Items Control Page"
-msgstr "Page de contrôle des articles médicaux"
+msgstr "Page de contrôle des produit médicaux"
 
 
 msgid "The ``Medical Items Control Page`` is the central point for all medical item administration. By having access to this page, it is possible to add, edit, delete and search. The panel is divided into four panels (:numref:`image30`)"
-msgstr "La ``page de contrôle des articles médicaux`` est le point central pour toute l'administration d'articles médicaux. En ayant accès à cette page, il est possible d'ajouter, de modifier, de supprimer et de rechercher. Le panneau est divisé en quatre panneaux (:numref:`image30`)"
+msgstr "La ``page de contrôle des produit médicaux`` est le point central pour toute l'administration de produit médicaux. En ayant accès à cette page, il est possible d'ajouter, de modifier, de supprimer et de rechercher. Le panneau est divisé en quatre panneaux (:numref:`image30`)"
 
 
 msgid "**Search Panel**"
 msgstr "**Panneau de recherche**"
 
 msgid "The search panel allows a user to select specific criteria to minimise the search results. In the case of medical items the following search options are available which can be used alone or in combination with each other."
-msgstr "Le panneau de recherche permet à un utilisateur de sélectionner des critères spécifiques afin de minimiser les résultats de la recherche. Dans le cas d'articles médicaux, les options de recherche suivantes sont disponibles qui peuvent être utilisés seuls ou en combinaison les uns avec les autres."
+msgstr "Le panneau de recherche permet à un utilisateur de sélectionner des critères spécifiques afin de minimiser les résultats de la recherche. Dans le cas de produit médicaux, les options de recherche suivantes sont disponibles qui peuvent être utilisés seuls ou en combinaison les uns avec les autres."
 
 
 msgid "``Code``"
@@ -66,7 +66,7 @@ msgstr "`` Code``"
 
 
 msgid "Type in the beginning of; or the full ``Code``; to search for medical items with a ``Code``, which starts with or matches completely, the typed text."
-msgstr "Tapez au début de; ou le ``Code`` complet; pour rechercher des articles médicaux avec un ``Code``, qui commence ou correspond complètement au texte tapé."
+msgstr "Tapez au début de; ou le ``Code`` complet; pour rechercher des produit médicaux avec un ``Code``, qui commence ou correspond complètement au texte tapé."
 
 
 msgid "``Name``"
@@ -74,7 +74,7 @@ msgstr "``Nom``"
 
 
 msgid "Type in the beginning of; or the full ``Name`` to search for medical items with a ``Name``, which starts with or matches completely, the typed text."
-msgstr "Tapez au début de; ou le ``Nom`` complet pour rechercher des articles médicaux avec un ``Nom``, qui commence par ou correspond complètement au texte tapé."
+msgstr "Tapez au début de; ou le ``Nom`` complet pour rechercher des produit médicaux avec un ``Nom``, qui commence par ou correspond complètement au texte tapé."
 
 
 msgid "``Type``"
@@ -82,7 +82,7 @@ msgstr "``Type``"
 
 
 msgid "Select the ``Type``; from the list of types (Drugs, Medical Prostheses) by clicking on the arrow on the right of the selector, to select medical items of a specific type."
-msgstr "Sélectionnez le ``Type``; dans la liste des types (Médicaments, Prothèses Médicales) en cliquant sur la flèche à droite du sélecteur, pour sélectionner les articles médicaux d'un type spécifique."
+msgstr "Sélectionnez le ``Type``; dans la liste des types (Médicaments, Prothèses Médicales) en cliquant sur la flèche à droite du sélecteur, pour sélectionner les produit médicaux d'un type spécifique."
 
 
 msgid "``Package``"
@@ -90,7 +90,7 @@ msgstr "``Forfait``"
 
 
 msgid "Type in the beginning of; or the full ``Package``; to search for medical items with a ``Package``, which starts with or matches completely, the typed text."
-msgstr "Tapez au début de; ou le ``Package`` complet; pour rechercher des articles médicaux avec un ``Package``, qui commence ou correspond complètement au texte tapé."
+msgstr "Tapez au début de; ou le ``Package`` complet; pour rechercher des produit médicaux avec un ``Package``, qui commence ou correspond complètement au texte tapé."
 
 
 msgid "``Historical``"
@@ -147,7 +147,7 @@ msgstr "Le panneau d'informations est utilisé pour afficher les messages à l'u
 
 
 msgid "Medical Item Page"
-msgstr "Page d'articles médicaux"
+msgstr "Page de produit médicaux"
 
 
 msgid "**Data Entry**"
@@ -155,7 +155,7 @@ msgstr "**La saisie des données**"
 
 
 msgid "`Medical Item Page`"
-msgstr "`Page d'articles médicaux`"
+msgstr "`Page de produit médicaux`"
 
 
 msgid "Enter the code for the medical item. Mandatory, 6 characters."
@@ -211,7 +211,7 @@ msgstr "**Sauvegarder**"
 
 
 msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Medical Items Control Page <#medical-items-control-page>`__, with the newly saved record displayed and selected in the Result Panel. A message confirming that the medical item has been saved will appear on the Information Panel."
-msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton ``Sauvegarder`` sauvegardera l'enregistrement. L'utilisateur sera redirigé vers la `Page de contrôle des articles médicaux <#medical-items-control-page>`__, avec l'enregistrement nouvellement enregistré affiché et sélectionné dans le panneau de résultats. Un message confirmant que l'article médical a été enregistré apparaîtra sur le panneau d'information."
+msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton ``Sauvegarder`` sauvegardera l'enregistrement. L'utilisateur sera redirigé vers la `Page de contrôle des produit médicaux <#medical-items-control-page>`__, avec l'enregistrement nouvellement enregistré affiché et sélectionné dans le panneau de résultats. Un message confirmant que l'article médical a été enregistré apparaîtra sur le panneau d'information."
 
 
 msgid "**Mandatory data**"
@@ -227,7 +227,7 @@ msgstr "**Annuler**"
 
 
 msgid "By clicking on the ``Cancel`` button, the user will be re-directed to the `Medical Items Control Page. <#medical-items-control-page>`__"
-msgstr "En cliquant sur le bouton ``Annuler``, l'utilisateur sera redirigé vers la page de contrôle des articles médicaux. <#medical-items-control-page>`__"
+msgstr "En cliquant sur le bouton ``Annuler``, l'utilisateur sera redirigé vers la page de contrôle des produit médicaux. <#medical-items-control-page>`__"
 
 
 msgid "Adding a Medical Item"
@@ -235,11 +235,11 @@ msgstr "Ajout d'un article médical"
 
 
 msgid "Click on the ``Add`` button to re-direct to the `Medical Item Page <#medical-item-page>`__\\ ."
-msgstr "Cliquez sur le bouton ``Ajouter`` pour rediriger vers la `Page d'articles médicaux <#medical-item-page>`__ \\."
+msgstr "Cliquez sur le bouton ``Ajouter`` pour rediriger vers la `Page de produit médicaux <#medical-item-page>`__ \\."
 
 
 msgid "When the page opens all entry fields are empty. See the `Medical Item Page <#medical-item-page>`__ for information on the data entry and mandatory fields."
-msgstr "Lorsque la page s'ouvre, tous les champs de saisie sont vides. Reportez-vous à la `Page d'articles médicaux <#medical-item-page> ``__ pour obtenir des informations sur la saisie des données et les champs obligatoires."
+msgstr "Lorsque la page s'ouvre, tous les champs de saisie sont vides. Reportez-vous à la `Page de produit médicaux <#medical-item-page> ``__ pour obtenir des informations sur la saisie des données et les champs obligatoires."
 
 
 msgid "Editing a Medical Item"
@@ -247,11 +247,11 @@ msgstr "Modification d'un article médical"
 
 
 msgid "Click on the ``Edit`` button to re-direct to the `Medical Item Page <#medical-item-page>`__\\ ."
-msgstr "Cliquez sur le bouton ``Modifier`` pour rediriger vers la `Page d'articles médicaux <#medical-item-page>`__ \\."
+msgstr "Cliquez sur le bouton ``Modifier`` pour rediriger vers la `Page de produit médicaux <#medical-item-page>`__ \\."
 
 
 msgid "The page will open with the current information loaded into the data entry fields. See the `Medical Item Page <#medical-item-page>`__ for information on the data entry and mandatory fields."
-msgstr "La page s'ouvrira avec les informations actuelles chargées dans les champs de saisie de données. Reportez-vous à la `Page d'articles médicaux <#medical-item-page> ``__ pour obtenir des informations sur la saisie des données et les champs obligatoires."
+msgstr "La page s'ouvrira avec les informations actuelles chargées dans les champs de saisie de données. Reportez-vous à la `Page de produit médicaux <#medical-item-page> ``__ pour obtenir des informations sur la saisie des données et les champs obligatoires."
 
 
 msgid "Deleting a Medical Item"
