@@ -1,0 +1,366 @@
+msgid ""
+msgstr "" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n" 
+"X-Generator: lokalise.com\n" 
+"Project-Id-Version: openIMIS docs\n" 
+"PO-Revision-Date: 2020-01-09 10:45\n" 
+"Last-Translator: lokalise.com\n" 
+"Language-Team: lokalise.com\n\n" 
+"Language: fr\n"
+
+
+msgid "Claim Administrators Administration"
+msgstr "Administration des administrateurs de Réclamations"
+
+
+msgid "The register contains employees of contractual health facilities responsible for preparation and/or submission of claims. Administration of the register of claim administrators is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Claim Administrators."
+msgstr "Le registre contient les employés des établissements de santé contractuels chargés de la préparation et / ou de la soumission des réclamations de règlement. L'administration du registre des administrateurs de Réclamations est réservée aux utilisateurs ayant le rôle d'administrateur système ou un rôle comprenant un accès aux administrateurs d'administration / de revendication."
+
+
+msgid "Pre-conditions"
+msgstr "Conditions préalables"
+
+
+msgid "A claim administrator may be added after the agreement of a contractual health facility and the management of the scheme administration. Entry of a claim administrator in the register of claim administrators doesn’t mean that the claim administrator can login to IMIS. He/she has to be entered also in the register of users. It is facilitated by the ability to create the entry of a claim administrator into the register of claim administrators and the register of users simultaneously."
+msgstr "Un administrateur des réclamations d'indemnisation peut être ajouté après l'accord d'un établissement de santé contractuel et la gestion de l'administration du régime. L'inscription d'un administrateur de Réclamations dans le registre des administrateurs de Réclamations ne signifie pas que l'administrateur de Réclamations peut se connecter à IMIS. Il doit également être inscrit dans le registre des utilisateurs. Il est facilité par la possibilité de créer simultanément l'entrée d'un administrateur de Réclamations dans le registre des administrateurs de Réclamations et le registre des utilisateurs."
+
+
+msgid "Navigation"
+msgstr "La navigation"
+
+
+msgid "All functionality for use with the administration of claim administrators can be found under the main menu ``Administration``, submenu ``Claim Administrators``."
+msgstr "Toutes les fonctionnalités à utiliser avec l'administration des administrateurs de réclamations se trouvent dans le menu principal ``Administration``, sous-menu ``Administrateurs de réclamations``."
+
+
+msgid "`Navigation Claim Administrators`"
+msgstr "`Administrateurs de Réclamations de navigation`"
+
+
+msgid "Clicking on the sub menu ``Claim Administrators`` re-directs the current user to the `Claim Administrators Control Page. <#claim-administrators-control-page>`__"
+msgstr "Un clic sur le sous-menu ``Administrateurs des réclamations`` redirige l'utilisateur actuel vers la page de contrôle des administrateurs des réclamations. <#claim-administrators-control-page>`__"
+
+
+msgid "`Claim Administrators Control Page`"
+msgstr "`Revendiquer la page de contrôle des administrateurs`"
+
+
+msgid "Claim Administrators Control Page"
+msgstr "Page de contrôle des administrateurs de Réclamations"
+
+
+msgid "The ``Claim Administrators Control Page`` is the central point for the administration of all claim administrators. By having access to this panel, it is possible to add, edit, delete and search claim administrators. The panel is divided into four panels (:numref:`image68`)."
+msgstr "La ``Page de contrôle des administrateurs de réclamations`` est le point central pour l'administration de tous les administrateurs de réclamations. En ayant accès à ce panneau, il est possible d'ajouter, de modifier, de supprimer et de rechercher des administrateurs de Réclamations. Le panneau est divisé en quatre panneaux (:numref:`image68`)."
+
+
+msgid "**Search Panel**"
+msgstr "**Panneau de recherche**"
+
+
+msgid "The search panel allows a user to select specific criteria to minimise the search results. In the case of claim administrators the following search options are available which can be used alone or in combination with each other."
+msgstr "Le panneau de recherche permet à un utilisateur de sélectionner des critères spécifiques pour minimiser les résultats de la recherche. Dans le cas des administrateurs de Réclamations, les options de recherche suivantes sont disponibles et peuvent être utilisées seules ou en combinaison les unes avec les autres."
+
+
+msgid "``Last Name``"
+msgstr "``Nom de famille``"
+
+
+msgid "Type in the beginning of; or the full ``Last name``; to search for claim administrator with a ``Last name``, which starts with or matches completely, the typed text."
+msgstr "Tapez au début de; ou le ``Nom de famille`` complet; pour rechercher l'administrateur de Réclamations avec un ``Nom de famille``, qui commence ou correspond complètement au texte tapé."
+
+
+msgid "``Code``"
+msgstr "`` Code``"
+
+
+msgid "Type in the beginning of; or the full ``Code`` to search for claim administrator with a ``Code``, which starts with or matches completely, the typed text."
+msgstr "Tapez au début de; ou le ``Code`` complet pour rechercher l'administrateur de Réclamations avec un ``Code``, qui commence ou correspond complètement au texte tapé."
+
+
+msgid "``Other Names``"
+msgstr "``Autres noms``"
+
+
+msgid "Type in the beginning of; or the full ``Other Names`` to search for claim administrator with ``Other Names`` which starts with or matches completely, the typed text."
+msgstr "Tapez au début de; ou le nom complet ``Autres noms`` pour rechercher l'administrateur de Réclamations avec ``Autres noms`` qui commence ou correspond complètement au texte tapé."
+
+
+msgid "``Birth Date From``"
+msgstr "``Date de naissance du``"
+
+msgid "Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for claim administrators having the same or later birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Saisissez une date; ou utilisez le Sélecteur de Date de Bouton de, pour entrer dans la `Date de Naissance ` à Partir de` à la recherche pour réclamer les administrateurs ayant la même ou plus tard, date de naissance. *Remarque. Pour effacer la date d'entrée de la boîte; utilisation de la souris pour sélectionner la date et appuyez sur la touche espace.*"
+
+
+msgid "``Birth Date To``"
+msgstr "``Date de naissance à``"
+
+msgid "Type in a date; or use the Date Selector Button, to enter the Birth Date To to search for claim administrators having the same or earlier birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Saisissez une date; ou utilisez le Sélecteur de Date Bouton pour entrer la Date de Naissance À de recherche pour réclamer les administrateurs ayant la même ou plus tôt date de naissance. *Remarque. Pour effacer la date d'entrée de la boîte; utilisation de la souris pour sélectionner la date et appuyez sur la touche espace.*"
+
+
+msgid "``Date Selector Button``"
+msgstr "``Bouton de sélection de date``"
+
+
+msgid "Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image69`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted."
+msgstr "Cliquer sur le ``bouton de sélection de date`` fera apparaître un sélecteur de calendrier facile à utiliser (:numref:`image69`); par défaut, le calendrier affichera le mois en cours ou le mois de la date actuellement sélectionnée, le jour en cours étant mis en surbrillance."
+
+
+msgid "At any time during the use of the pop-up, the user can see the date of *today*."
+msgstr "À tout moment pendant l'utilisation du pop-up, l'utilisateur peut voir la date de * today *."
+
+
+msgid "Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box."
+msgstr "Cliquez sur * aujourd'hui * pour fermer la fenêtre contextuelle et afficher la date du jour dans la zone de saisie de date correspondante."
+
+
+msgid "Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box."
+msgstr "Cliquez sur n'importe quel jour du mois pour fermer la fenêtre contextuelle et afficher la date sélectionnée dans la zone de saisie de date correspondante."
+
+
+msgid "Clicking on the arrow to the left displays the previous month."
+msgstr "Cliquer sur la flèche à gauche affiche le mois précédent."
+
+
+msgid "Clicking on the arrow on the right will displays the following month."
+msgstr "Cliquer sur la flèche à droite affichera le mois suivant."
+
+
+msgid "Clicking on the month will display all the months for the year."
+msgstr "Cliquer sur le mois affichera tous les mois de l'année."
+
+
+msgid "Clicking on the year will display a year selector."
+msgstr "Cliquer sur l'année affichera un sélecteur d'année."
+
+
+msgid "|logo21|"
+msgstr "|logo21|"
+
+
+msgid "|logo22|"
+msgstr "|logo22|"
+
+
+msgid "|logo23|"
+msgstr "|logo23|"
+
+
+msgid "`Calendar Selector - Search Panel`"
+msgstr "`Sélecteur de calendrier - Panneau de recherche`"
+
+
+msgid "``HF Code``"
+msgstr "``Code HF``"
+
+
+msgid "Select ``HF Code`` (a health facility code); from the list of health facility codes by clicking on the arrow on the right of the selector to select claim administrators from a specific health facility. *Note: The list will only be filled with the health facilities from districts which are assigned to the current logged in user.*"
+msgstr "Sélectionnez ``Code HF`` (un code d'établissement de santé); dans la liste des codes d'établissements de santé en cliquant sur la flèche à droite du sélecteur pour sélectionner les administrateurs des réclamations de règlement d'un établissement de santé spécifique. *Remarque: La liste ne sera remplie qu'avec les formations sanitaires des districts qui sont affectées à l'utilisateur actuellement connecté.*"
+
+
+msgid "``Phone Number``"
+msgstr "``Numéro de téléphone``"
+
+
+msgid "Type in the beginning of; or the full ``Phone Number`` to search for claim administrators with a ``Phone Number``, which starts with or matches completely, the typed number."
+msgstr "Tapez au début de; ou le ``Numéro de téléphone`` complet pour rechercher les administrateurs de réclamations avec un ``Numéro de téléphone``, qui commence ou correspond complètement au numéro tapé."
+
+
+msgid "``Email``"
+msgstr "`` Courriel``"
+
+
+msgid "Type in the beginning of; or the full ``email`` to search for claim administrators with an e-mail\\ , which starts with or matches completely, the typed text."
+msgstr "Tapez au début de; ou ``l'e-mail`` complet pour rechercher les administrateurs de Réclamations avec un e-mail \\, qui commence ou correspond complètement au texte tapé."
+
+
+msgid "``Historical``"
+msgstr "``Historique``"
+
+
+msgid "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image Insuree Enquiry Results <insuree_card_img>`)."
+msgstr "Cliquez sur ``Historique`` pour voir les enregistrements historiques correspondant aux critères sélectionnés. Les enregistrements historiques sont affichés dans le résultat avec une ligne au milieu du texte (barré) pour les définir clairement à partir des enregistrements actuels (:ref:`Image Insuree Inquiry Results <insuree_card_img>`)."
+
+
+msgid "`Historical records - Result Panel`"
+msgstr "`Dossiers historiques - Panneau de résultats`"
+
+
+msgid "``Search Button``"
+msgstr "``Bouton de recherche``"
+
+
+msgid "Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel."
+msgstr "Une fois les critères saisis, utilisez le bouton de recherche pour filtrer les enregistrements, les résultats apparaîtront dans le panneau de résultats."
+
+
+msgid "**Result Panel**"
+msgstr "**Panneau de résultats**"
+
+msgid "The Result Panel displays a list of all claim administrators found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image71`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
+msgstr "Le Résultat Panneau affiche une liste de tous revendication administrateurs trouvé, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image71`). La gauche dossier contient un lien, qui, si vous cliquez dessus, re-dirige l'utilisateur vers le record actuel pour obtenir la visualisation si c'est un record historique ou de la modification si c'est l'enregistrement en cours."
+
+
+msgid "`Selected record (blue), hovered records (yellow) - Result Panel`"
+msgstr "`Enregistrement sélectionné (bleu), enregistrements survolés (jaune) - Panneau de résultats`"
+
+
+msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image72`)"
+msgstr "Un maximum de 15 enregistrements sont affichés en même temps, d'autres enregistrements peuvent être consultés en parcourant les pages à l'aide du sélecteur de page en bas du panneau de résultat (:numref:`image72`)"
+
+
+msgid "`Page selector- Result Panel`"
+msgstr "`Sélecteur de page - Panneau de résultats`"
+
+
+msgid "**Button Panel**"
+msgstr "**Panneau de boutons**"
+
+msgid "With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button."
+msgstr "À l'exception du bouton ``Annuler``, qui redirige vers :ref:`Page d'accueil <home_page>`, le panneau de boutons (les boutons ``Modifier`` 'et ``Supprimer``) est utilisé conjointement avec l'enregistrement actuellement sélectionné (surligné en bleu). L'utilisateur doit d'abord sélectionner un enregistrement en cliquant sur n'importe quelle position de l'enregistrement à l'exception du lien hypertexte le plus à gauche, puis cliquez sur le bouton."
+
+
+msgid "**Information Panel**"
+msgstr "**Panneau d'information**"
+
+
+msgid "The Information Panel is used to display messages back to the user. Messages will occur once an officer has been added, updated or deleted or if there was an error at any time during the process of these actions."
+msgstr "Le panneau d'informations est utilisé pour afficher les messages à l'utilisateur. Les messages s'afficheront une fois qu'un agent aura été ajouté, mis à jour ou supprimé ou s'il y a eu une erreur à tout moment au cours du processus de ces actions."
+
+
+msgid "Claim Administrator Page"
+msgstr "Page Administrateur de réclamation"
+
+
+msgid "**Data Entry**"
+msgstr "**La saisie des données**"
+
+
+msgid "`Claim Administrator Page`"
+msgstr "`Page Administrateur de réclamation`"
+
+
+msgid "``claim administrator details``"
+msgstr "``réclamer les détails de l'administrateur``"
+
+
+msgid "Enter the code for the claim administrator. Mandatory, 8 characters maximum."
+msgstr "Entrez le code de l'administrateur des réclamations. Obligatoire, 8 caractères maximum."
+
+
+msgid "``Last name``"
+msgstr "``Nom de famille``"
+
+
+msgid "Enter the last name (surname) for the claim administrator. Mandatory, 100 characters maximum."
+msgstr "Entrez le nom de famille (nom de famille) de l'administrateur des réclamations. Obligatoire, 100 caractères maximum."
+
+
+msgid "Enter other names of the claim administrator. Mandatory, 100 characters maximum."
+msgstr "Entrez d'autres noms de l'administrateur de la revendication. Obligatoire, 100 caractères maximum."
+
+
+msgid "``Date of Birth``"
+msgstr "``Date de naissance``"
+
+
+msgid "Enter the date of birth for the claim administrator. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Entrez la date de naissance de l'administrateur des réclamations. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace.*"
+
+
+msgid "Enter the phone number for the claim administrator. 50 characters maximum."
+msgstr "Saisissez le numéro de téléphone de l'administrateur des réclamations. 50 caractères maximum."
+
+
+msgid "Enter the e-mail for the claim administrator. 50 characters maximum."
+msgstr "Saisissez l'adresse e-mail de l'administrateur des réclamations. 50 caractères maximum."
+
+
+msgid "Select from the list of available health facilities the health facility which the claim administrator will have access to and will act for. Mandatory."
+msgstr "Sélectionnez dans la liste des établissements de santé disponibles l'établissement de santé auquel l'administrateur des réclamations aura accès et pour lequel il agira. Obligatoire."
+
+
+msgid "``Include Login``"
+msgstr "``Inclure la connexion``"
+
+
+msgid "Enable the claim administrator to use openIMIS web by creating web credentials (claim administrators primary interface is the claim application running on android device that doesn't require openIMIS user), the change must be saved to be taken into account."
+msgstr "Autoriser l'administrateur de Réclamations à utiliser openIMIS Web en créant des informations d'identification Web (l'interface principale des administrateurs de Réclamations est l'application de revendication s'exécutant sur un appareil Android qui ne nécessite pas d'utilisateur openIMIS), la modification doit être enregistrée pour être prise en compte."
+
+
+msgid "`Image - Claim Administrator Login`"
+msgstr "`Image - Login Administrateur de la revendication`"
+
+
+msgid "Once the login is created, it will be visible in the `User Control Page <#user-control-page>`__"
+msgstr "Une fois la connexion créée, elle sera visible dans la `Page de contrôle utilisateur <#user-control-page> page de contrôle <#user-control-page>`__"
+
+
+msgid "**Saving**"
+msgstr "**Sauvegarder**"
+
+msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Claim Administrators Control Page <#claim-administrators-control-page>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the claim administrator has been saved will appear on the Information Panel."
+msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton ``Sauvegarder`` sauvegardera l'enregistrement. L'utilisateur sera redirigé vers la `page de contrôle des administrateurs de Réclamations <#claim-administrators-control-page>`__, avec l'enregistrement nouvellement enregistré affiché et sélectionné dans le panneau de résultats. Un message confirmant que l'administrateur de la réclamation a été enregistré apparaîtra sur le panneau d'informations."
+
+
+msgid "**Mandatory data**"
+msgstr "**Données obligatoires**"
+
+
+msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk on the right side of the corresponding field)."
+msgstr "Si les données obligatoires ne sont pas saisies au moment où l'utilisateur clique sur le bouton ``Enregistrer``, un message apparaîtra dans le panneau d'informations et le champ de données prendra le focus (par un astérisque à droite du champ correspondant) ."
+
+
+msgid "**Cancel**"
+msgstr "**Annuler**"
+
+
+msgid "By clicking on the Cancel button, the user will be re-directed to the `Claim Administrators Control Page <#claim-administrators-control-page>`__."
+msgstr "En cliquant sur le bouton Annuler, l'utilisateur sera redirigé vers la `page de contrôle des administrateurs de réclamation <#claim-administrators-control-page> page <#claim-administrators-control-page>`__."
+
+
+msgid "Adding a Claim Administrator"
+msgstr "Ajout d'un administrateur de Réclamations"
+
+
+msgid "Click on the ``Add`` button to re-direct to the `Claim Administrator Page <#claim-administrator-page>`__\\ ."
+msgstr "Cliquez sur le bouton ``Ajouter`` pour rediriger vers la `page Administrateur de réclamation <#claim-administrator-page>`__ \\."
+
+
+msgid "When the page opens all entry fields are empty. See the `Claim Administrator Page <#claim-administrator-page>`__ for information on the data entry and mandatory fields"
+msgstr "Lorsque la page s'ouvre, tous les champs de saisie sont vides. Reportez-vous à la page `Administrateur des réclamations <#claim-administrator-page> ``__ pour obtenir des informations sur la saisie des données et les champs obligatoires."
+
+
+msgid "Editing a Claim Administrator"
+msgstr "Modification d'un administrateur de Réclamations"
+
+
+msgid "Click on the ``Edit`` button to re-direct to the `Claim Administrator Page <#claim-administrator-page>`__\\ .."
+msgstr "Cliquez sur le bouton ``Modifier`` pour rediriger vers la `page Administrateur des réclamations <#claim-administrator-page>`__ \\ .."
+
+
+msgid "The page will open with the current information loaded into the data entry fields. See the `Claim Administrator Page <#claim-administrator-page>`__ for information on the data entry and mandatory fields"
+msgstr "La page s'ouvrira avec les informations actuelles chargées dans les champs de saisie de données. Reportez-vous à la page `Administrateur des réclamations <#claim-administrator-page> ``__ pour obtenir des informations sur la saisie des données et les champs obligatoires."
+
+
+msgid "Deleting a Claim Administrator"
+msgstr "Suppression d'un administrateur de Réclamations"
+
+
+msgid "Click on the ``Delete`` button to delete the currently selected record"
+msgstr "Cliquez sur le bouton ``Supprimer`` pour supprimer l'enregistrement actuellement sélectionné"
+
+
+msgid "Before deleting a confirmation popup (:numref:`image74`) is displayed, which requires the user to confirm if the action should really be carried out."
+msgstr "Avant de supprimer une fenêtre de confirmation (:numref:`image74`) s'affiche, ce qui oblige l'utilisateur à confirmer si l'action doit vraiment être effectuée."
+
+
+msgid "`Delete confirmation- Button Panel`"
+msgstr "`Supprimer la confirmation - Panneau de boutons`"
+
+
+msgid "When a claim administrator is deleted, all records retaining to the deleted claim administrator will still be available by selecting historical records."
+msgstr "Lorsqu'un administrateur de réclamation est supprimé, tous les enregistrements conservés par l'administrateur de réclamation supprimé seront toujours disponibles en sélectionnant les enregistrements historiques."

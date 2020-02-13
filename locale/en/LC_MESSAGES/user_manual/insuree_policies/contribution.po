@@ -1,0 +1,290 @@
+msgid ""
+msgstr "" 
+"Project-Id-Version: openIMIS \n" 
+"Report-Msgid-Bugs-To: \n" 
+"POT-Creation-Date: 2019-08-16 15:21+0200\n" 
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n" 
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n" 
+"Language-Team: LANGUAGE <LL@li.org>\n" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Contribution"
+msgstr "Contribution"
+
+msgid "Find Contribution"
+msgstr "Find Contribution"
+
+msgid "Access to the Find Contribution Page is restricted to users with the system roles of Accountant or Clerk or with a role including an access to Insurees and Families/Contribution/Search."
+msgstr "Access to the Find Contribution Page is restricted to users with the system roles of Accountant or Clerk or with a role including an access to Insurees and Families/Contribution/Search."
+
+msgid "Pre-conditions"
+msgstr "Pre-conditions"
+
+msgid "Need to enquire on, or edit a contribution, or the family/group, insurees and policies associated."
+msgstr "Need to enquire on, or edit a contribution, or the family/group, insurees and policies associated."
+
+msgid "Navigation"
+msgstr "Navigation"
+
+msgid "Find Contribution can be found under the main menu ``Insurees and Policies``, sub menu ``Contributions``"
+msgstr "Find Contribution can be found under the main menu ``Insurees and Policies``, sub menu ``Contributions``"
+
+msgid "`Navigation Contributions`"
+msgstr "`Navigation Contributions`"
+
+msgid "Clicking on the sub menu ``Contributions`` re-directs the current user to the `Find Contribution Page <#_Image_4.22_(Find>`__\\."
+msgstr "Clicking on the sub menu ``Contributions`` re-directs the current user to the `Find Contribution Page <#_Image_4.22_(Find>`__\\."
+
+msgid "Find Contribution Page"
+msgstr "Find Contribution Page"
+
+msgid "`Image - 108 Find Contribution Page`"
+msgstr "`Image - 108 Find Contribution Page`"
+
+msgid "The ``Find Contribution Page`` is the first step in the process of finding a contribution and thereafter accessing the `Family Overview Page <#family-overview>`__ of insures, policies and contributions. This initial page can be used to search for specific contributions or groups of contributions based on specific criteria. The page is divided into four panels (:numref:`image108`)."
+msgstr "The ``Find Contribution Page`` is the first step in the process of finding a contribution and thereafter accessing the `Family Overview Page <#family-overview>`__ of insures, policies and contributions. This initial page can be used to search for specific contributions or groups of contributions based on specific criteria. The page is divided into four panels (:numref:`image108`)."
+
+msgid "**Search Panel**"
+msgstr "**Search Panel**"
+
+msgid "The Search Panel allows a user to select specific criteria to minimise the search results. In the case of contributions the following search options are available which can be used alone or in combination with each other."
+msgstr "The Search Panel allows a user to select specific criteria to minimise the search results. In the case of contributions the following search options are available which can be used alone or in combination with each other."
+
+msgid "``Payer``"
+msgstr "``Payer``"
+
+msgid "Select the ``Payer``; from the list of payers by clicking on the arrow on the right of the selector, to select contributions related to a specific payer."
+msgstr "Select the ``Payer``; from the list of payers by clicking on the arrow on the right of the selector, to select contributions related to a specific payer."
+
+msgid "``Payment Type``"
+msgstr "``Payment Type``"
+
+msgid "Select the ``Payment Type``; from the list of types by clicking on the arrow on the right of the selector, to select contributions related to a specific payment type."
+msgstr "Select the ``Payment Type``; from the list of types by clicking on the arrow on the right of the selector, to select contributions related to a specific payment type."
+
+msgid "``Payment Date From``"
+msgstr "``Payment Date From``"
+
+msgid "Type in a date; or use the Date Selector Button, to enter the ``Payment Date From`` to search for contributions with a ``Payment Date`` equal or later than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Type in a date; or use the Date Selector Button, to enter the ``Payment Date From`` to search for contributions with a ``Payment Date`` equal or later than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+
+msgid "``Payment Date To``"
+msgstr "``Payment Date To``"
+
+msgid "Type in a date; or use the Date Selector Button, to enter the ``Payment Date To`` to search for contributions with a ``Payment Date`` equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Type in a date; or use the Date Selector Button, to enter the ``Payment Date To`` to search for contributions with a ``Payment Date`` equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+
+msgid "``Date Selector Button``"
+msgstr "``Date Selector Button``"
+
+msgid "Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image109`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted."
+msgstr "Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image109`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted."
+
+msgid "At anytime during the use of the pop-up, the user can see the date of **today**."
+msgstr "At anytime during the use of the pop-up, the user can see the date of **today**."
+
+msgid "Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box."
+msgstr "Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box."
+
+msgid "Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box."
+msgstr "Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box."
+
+msgid "Clicking on the arrow to the left displays the previous month."
+msgstr "Clicking on the arrow to the left displays the previous month."
+
+msgid "Clicking on the arrow on the right will displays the following month."
+msgstr "Clicking on the arrow on the right will displays the following month."
+
+msgid "Clicking on the month will display all the months for the year."
+msgstr "Clicking on the month will display all the months for the year."
+
+msgid "Clicking on the year will display a year selector."
+msgstr "Clicking on the year will display a year selector."
+
+msgid "|logo33|"
+msgstr "|logo33|"
+
+msgid "|logo34|"
+msgstr "|logo34|"
+
+msgid "|logo35|"
+msgstr "|logo35|"
+
+msgid "`Calendar Selector - Search Panel`"
+msgstr "`Calendar Selector - Search Panel`"
+
+msgid "``Contribution Category``"
+msgstr "``Contribution Category``"
+
+msgid "Select the ``Contribution Category`` that match with the type of contribution paid, by default there is *Contribution and Others* and *photo fee*. this enable to add fees that won't be counted as contribution payment"
+msgstr "Select the ``Contribution Category`` that match with the type of contribution paid, by default there is *Contribution and Others* and *photo fee*. this enable to add fees that won't be counted as contribution payment"
+
+msgid "``Contribution Paid``"
+msgstr "``Contribution Paid``"
+
+msgid "Type in the ``Contribution Paid`` to search for contributions with the paid amount, greater or equal to the typed amount."
+msgstr "Type in the ``Contribution Paid`` to search for contributions with the paid amount, greater or equal to the typed amount."
+
+msgid "``Region``"
+msgstr "``Region``"
+
+msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select contributions for policies from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*"
+msgstr "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select contributions for policies from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*"
+
+msgid "``District``"
+msgstr "``District``"
+
+msgid "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select contributions paid for policies from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*"
+msgstr "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select contributions paid for policies from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*"
+
+msgid "``Historical``"
+msgstr "``Historical``"
+
+msgid "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image110`)."
+msgstr "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image110`)."
+
+msgid "`Historical records - Result Panel`"
+msgstr "`Historical records - Result Panel`"
+
+msgid "``Search Button``"
+msgstr "``Search Button``"
+
+msgid "Once the criteria have been entered, use the ``Search`` button to filter the records, the results will appear in the Result Panel."
+msgstr "Once the criteria have been entered, use the ``Search`` button to filter the records, the results will appear in the Result Panel."
+
+msgid "**Result Panel**"
+msgstr "**Result Panel**"
+
+msgid "The result panel displays a list of all contributions found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image111`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
+msgstr "The result panel displays a list of all contributions found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image111`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
+
+msgid "`Image 111 Selected record (blue), hovered records (yellow) - Result Pane`"
+msgstr "`Image 111 Selected record (blue), hovered records (yellow) - Result Pane`"
+
+msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image112`)."
+msgstr "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image112`)."
+
+msgid "`Page selector- Result Panel`"
+msgstr "`Page selector- Result Panel`"
+
+msgid "**Button Panel**"
+msgstr "**Button Panel**"
+
+msgid "The ``Cancel`` button re-directs to the :ref:`Home Page <home_page>`."
+msgstr "The ``Cancel`` button re-directs to the :ref:`Home Page <home_page>`."
+
+msgid "**Information Panel**"
+msgstr "**Information Panel**"
+
+msgid "The Information Panel is used to display messages back to the user. Messages will occur once a contribution has been added, updated or deleted or if there was an error at any time during the process of these actions."
+msgstr "The Information Panel is used to display messages back to the user. Messages will occur once a contribution has been added, updated or deleted or if there was an error at any time during the process of these actions."
+
+msgid "Contribution Page"
+msgstr "Contribution Page"
+
+msgid "**Data Entry**"
+msgstr "**Data Entry**"
+
+msgid "`Contribution Page`"
+msgstr "`Contribution Page`"
+
+msgid "Select from the list of available (institutional) payers the payer of the contribution (if the contribution is not paid by the family/group itself)."
+msgstr "Select from the list of available (institutional) payers the payer of the contribution (if the contribution is not paid by the family/group itself)."
+
+msgid "Enter the paid amount for the contribution. Mandatory."
+msgstr "Enter the paid amount for the contribution. Mandatory."
+
+msgid "``Receipt No.``"
+msgstr "``Receipt No.``"
+
+msgid "Enter the receipt identification for the contribution. Receipt identification has to be unique within all policies of the insurance product. Mandatory."
+msgstr "Enter the receipt identification for the contribution. Receipt identification has to be unique within all policies of the insurance product. Mandatory."
+
+msgid "``Payment Date``"
+msgstr "``Payment Date``"
+
+msgid "Enter the date of payment for the contribution. Mandatory. *Note: You can also use the button next to the date of payment field to select a date to be entered.*"
+msgstr "Enter the date of payment for the contribution. Mandatory. *Note: You can also use the button next to the date of payment field to select a date to be entered.*"
+
+msgid "Select from the list of available types of payment the payment type of the contribution. Mandatory."
+msgstr "Select from the list of available types of payment the payment type of the contribution. Mandatory."
+
+msgid "**Saving**"
+msgstr "**Saving**"
+
+msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. Depending on the contribution paid, the following messages will appear."
+msgstr "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. Depending on the contribution paid, the following messages will appear."
+
+msgid "If the Contribution paid matches the price of the policy:"
+msgstr "If the Contribution paid matches the price of the policy:"
+
+msgid "`Image 131`"
+msgstr "`Image 131`"
+
+msgid "If the contribution paid is lower than the price of the policy:"
+msgstr "If the contribution paid is lower than the price of the policy:"
+
+msgid "`Image 132`"
+msgstr "`Image 132`"
+
+msgid "Followed by:"
+msgstr "Followed by:"
+
+msgid "`Image 133`"
+msgstr "`Image 133`"
+
+msgid "If you choose **Yes**, the policy will be (enforced) set as **Active**. If you choose No, it will remain **Idle**."
+msgstr "If you choose **Yes**, the policy will be (enforced) set as **Active**. If you choose No, it will remain **Idle**."
+
+msgid "If the contribution is higher than the price of the policy:"
+msgstr "If the contribution is higher than the price of the policy:"
+
+msgid "`Image 134`"
+msgstr "`Image 134`"
+
+msgid "The user will then be re-directed back to the `Family Overview Page <#family-overview-page.>`__\\ , with the newly saved record displayed and selected in the result panel. A message confirming that the contribution has been saved will appear on the Information Panel."
+msgstr "The user will then be re-directed back to the `Family Overview Page <#family-overview-page.>`__\\ , with the newly saved record displayed and selected in the result panel. A message confirming that the contribution has been saved will appear on the Information Panel."
+
+msgid "**Mandatory data**"
+msgstr "**Mandatory data**"
+
+msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk)."
+msgstr "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk)."
+
+msgid "**Cancel**"
+msgstr "**Cancel**"
+
+msgid "By clicking on the ``Cancel`` button, the user will be re-directed to the `Family Overview Page <\\l>`__ ."
+msgstr "By clicking on the ``Cancel`` button, the user will be re-directed to the `Family Overview Page <\\l>`__ ."
+
+msgid "Adding a Contribution"
+msgstr "Adding a Contribution"
+
+msgid "Click on the ``Green Plus Sign`` to re-direct to the `Contribution Page. <#contribution-page>`__"
+msgstr "Click on the ``Green Plus Sign`` to re-direct to the `Contribution Page. <#contribution-page>`__"
+
+msgid "When the page opens all entry fields are empty. See the `Contribution Page <#contribution-page>`__ for information on the data entry and mandatory fields."
+msgstr "When the page opens all entry fields are empty. See the `Contribution Page <#contribution-page>`__ for information on the data entry and mandatory fields."
+
+msgid "Editing a Contribution"
+msgstr "Editing a Contribution"
+
+msgid "Click on the ``Yellow Pencil`` Sign to re-direct to the `Contribution Page <#contribution-page>`__. The `Contribution Page <#contribution-page>`__ will open with the current information loaded into the data entry fields. See the `Contribution Page <#contribution-page>`__ for information on the data entry and mandatory fields."
+msgstr "Click on the ``Yellow Pencil`` Sign to re-direct to the `Contribution Page <#contribution-page>`__. The `Contribution Page <#contribution-page>`__ will open with the current information loaded into the data entry fields. See the `Contribution Page <#contribution-page>`__ for information on the data entry and mandatory fields."
+
+msgid "Deleting a Contribution"
+msgstr "Deleting a Contribution"
+
+msgid "Click on the Red Cross Sign button to delete the currently selected record."
+msgstr "Click on the Red Cross Sign button to delete the currently selected record."
+
+msgid "Before deleting a confirmation popup (:numref:`image135`) is displayed, which requires the user to confirm if the action should really be carried out?"
+msgstr "Before deleting a confirmation popup (:numref:`image135`) is displayed, which requires the user to confirm if the action should really be carried out?"
+
+msgid "`Delete confirmation- Button Panel`"
+msgstr "`Delete confirmation- Button Panel`"
+
+msgid "When a contribution is deleted, all records retaining to the deleted contribution will still be available by selecting historical records."
+msgstr "When a contribution is deleted, all records retaining to the deleted contribution will still be available by selecting historical records."

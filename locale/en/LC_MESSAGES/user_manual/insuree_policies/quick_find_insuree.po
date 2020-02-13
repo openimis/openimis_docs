@@ -1,0 +1,62 @@
+msgid ""
+msgstr "" 
+"Project-Id-Version: openIMIS \n" 
+"Report-Msgid-Bugs-To: \n" 
+"POT-Creation-Date: 2019-08-16 15:21+0200\n" 
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n" 
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n" 
+"Language-Team: LANGUAGE <LL@li.org>\n" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Insuree Enquiry"
+msgstr "Insuree Enquiry"
+
+msgid "This functionality is available to all system roles or with a role including an access to Insurees and Families/Insuree/Enquiry. The function Insuree Enquiry can be accessed at any time, after login. On the top right hand of the main menu, there is a search feature, allowing the user to enter an Insurance Number for a “quick enquiry”."
+msgstr "This functionality is available to all system roles or with a role including an access to Insurees and Families/Insuree/Enquiry. The function Insuree Enquiry can be accessed at any time, after login. On the top right hand of the main menu, there is a search feature, allowing the user to enter an Insurance Number for a “quick enquiry”."
+
+msgid "`Insuree Enquiry Field`"
+msgstr "`Insuree Enquiry Field`"
+
+msgid "By typing in a valid insurance­­­­­­­ number and pressing the enter key or clicking on the green search button, a pop-up will appear (:numref:`image87`), providing a photo of the insuree and information about the current policy or policies covering of the insuree."
+msgstr "By typing in a valid insurance­­­­­­­ number and pressing the enter key or clicking on the green search button, a pop-up will appear (:numref:`image87`), providing a photo of the insuree and information about the current policy or policies covering of the insuree."
+
+msgid "The Information includes the following:"
+msgstr "The Information includes the following:"
+
+msgid "The photo of the insuree"
+msgstr "The photo of the insuree"
+
+msgid "The name, date of birth and gender of the insuree"
+msgstr "The name, date of birth and gender of the insuree"
+
+msgid "The (insurance) product code, product name and expiry date of a policy"
+msgstr "The (insurance) product code, product name and expiry date of a policy"
+
+msgid "The status (I for Idle, A for Active, S for Suspended and E for Expired) of the policy at the time of inquiring"
+msgstr "The status (I for Idle, A for Active, S for Suspended and E for Expired) of the policy at the time of inquiring"
+
+msgid "The deductible amount remaining for the insuree to pay before the policy is claimable, for hospitals and non-hospitals"
+msgstr "The deductible amount remaining for the insuree to pay before the policy is claimable, for hospitals and non-hospitals"
+
+msgid "The ceiling amount claimable by a health facility on behalf of the insuree for both hospitals and non-hospitals."
+msgstr "The ceiling amount claimable by a health facility on behalf of the insuree for both hospitals and non-hospitals."
+
+msgid "Age of the insuree"
+msgstr "Age of the insuree"
+
+msgid "First Service Point (FSP) of the insuree"
+msgstr "First Service Point (FSP) of the insuree"
+
+msgid "Region of FSP"
+msgstr "Region of FSP"
+
+msgid "District of FSP"
+msgstr "District of FSP"
+
+msgid "Level of FSP"
+msgstr "Level of FSP"
+
+msgid "`Image - Insuree Enquiry Results`"
+msgstr "`Image - Insuree Enquiry Results`"

@@ -1,0 +1,452 @@
+msgid ""
+msgstr "" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n" 
+"X-Generator: lokalise.com\n" 
+"Project-Id-Version: openIMIS docs\n" 
+"PO-Revision-Date: 2020-01-09 10:45\n" 
+"Last-Translator: lokalise.com\n" 
+"Language-Team: lokalise.com\n\n" 
+"Language: fr\n"
+
+
+msgid "Enrolment Officers Administration"
+msgstr "Administration des agents d'inscription"
+
+
+msgid "Enrolment Officers administration is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Enrolment Officers."
+msgstr "L'administration des agents d'inscription est réservée aux utilisateurs ayant le rôle système d'administrateur de schéma ou un rôle comprenant un accès aux agents d'administration / d'inscription."
+
+
+msgid "Pre-conditions"
+msgstr "Conditions préalables"
+
+msgid "An enrolment officer may only be added after the approval of the management of the scheme administration with engaging of a new enrolment officer. Editing may be done on all fields; however, approval of the management of the scheme administration is usually required for a substitution of an enrolment officer. Deletion will normally occur when an enrolment officer leaves his post within the scheme administration. Entry of an enrolment officer in the register of enrolment officers doesn’t mean that the enrolment officer can login to IMIS. He/she has to be entered also in the register of users. It is facilitated by the ability to create the entry of an enrolment officer into the register of enrolment officers and the register of users simultaneously."
+msgstr "Un agent d'inscription ne peuvent être ajoutés qu'après l'approbation de la gestion du régime d'administration avec l'engagement d'une nouvelle demande d'inscription officier. L'édition peut se faire sur tous les domaines; toutefois, l'approbation de la gestion du régime, l'administration est normalement requis pour un remplacement d'un agent d'inscription. La suppression du normalement se produire lorsqu'une inscription officier quitte son poste au sein du schéma d'administration. L'entrée d'un agent d'inscription dans le registre des agents d'inscription ne signifie pas que le taux de scolarisation agent peut se connecter à l'IMIS. Il/elle doit être inscrite également dans le registre d'utilisateurs. Il est facilité par la possibilité de créer l'entrée d'un agent d'inscription dans le registre des agents d'inscription et le registre d'utilisateurs simultanément."
+
+
+msgid "Navigation"
+msgstr "La navigation"
+
+
+msgid "All functionality for use with the administration of enrolment officers can be found under the main menu ``Administration``, sub menu ``Enrolment Officers``."
+msgstr "Toutes les fonctionnalités à utiliser avec l'administration des agents d'inscription se trouvent dans le menu principal ``Administration``, sous-menu ``Agents d'inscription``."
+
+
+msgid "`Navigation Enrolment Officers`"
+msgstr "`Officiers d'inscription à la navigation`"
+
+
+msgid "Clicking on the sub menu ``Enrolment Officers`` re-directs the current user to the `Enrolment Officers Control Page. <#enrolment-officers-control-page>`__."
+msgstr "Un clic sur le sous-menu ``Officiers d'inscription`` redirige l'utilisateur actuel vers la page de contrôle des officiers d'inscription. <#enrolment-officers-control-page>`__."
+
+
+msgid "`Enrolment Officers Control Page`"
+msgstr "`Page de contrôle des agents d'inscription`"
+
+
+msgid "Enrolment Officers Control Page"
+msgstr "Page de contrôle des agents d'inscription"
+
+
+msgid "The Enrolment Officers Control Page is the central point for all Enrolment Officer administration. By having access to this page, it is possible to add, edit, delete and search. The page is divided into four panels (:numref:`image60`)."
+msgstr "La page de contrôle des agents d'inscription est le point central de toute l'administration des agents d'inscription. En ayant accès à cette page, il est possible d'ajouter, de modifier, de supprimer et de rechercher. La page est divisée en quatre panneaux (:numref:`image60`)."
+
+
+msgid "**Search Panel**"
+msgstr "**Panneau de recherche**"
+
+
+msgid "The search panel allows a user to select specific criteria to minimise the search results. In the case of officers the following search options are available which can be used alone or in combination with each other."
+msgstr "Le panneau de recherche permet à un utilisateur de sélectionner des critères spécifiques pour minimiser les résultats de la recherche. Dans le cas des officiers, les options de recherche suivantes sont disponibles et peuvent être utilisées seules ou en combinaison les unes avec les autres."
+
+
+msgid "``Last Name``"
+msgstr "``Nom de famille``"
+
+
+msgid "Type in the beginning of; or the full ``Last name``; to search for officers with a ``Last name``, that starts with or matches completely, the typed text."
+msgstr "Tapez au début de; ou le ``Nom de famille`` complet; pour rechercher des officiers avec un ``Nom de famille``, qui commence par ou correspond complètement au texte tapé."
+
+
+msgid "``Code``"
+msgstr "`` Code``"
+
+
+msgid "Type in the beginning of; or the full ``Code`` to search for officers with a ``Code``, that starts with or matches completely, the typed text."
+msgstr "Tapez au début de; ou le ``Code`` complet pour rechercher des officiers avec un ``Code``, qui commence ou correspond complètement au texte tapé."
+
+
+msgid "``Other Names``"
+msgstr "``Autres noms``"
+
+
+msgid "Type in the beginning of; or the full ``Other Names`` to search for officers with ``other names``, that starts with or matches completely, the typed text."
+msgstr "Tapez au début de; ou le ``Autres noms`` complet pour rechercher des officiers avec ``d'autres noms``, qui commence ou correspond complètement au texte tapé."
+
+
+msgid "``Birth Date From``"
+msgstr "``Date de naissance du``"
+
+
+msgid "Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for officers having the same or later birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Tapez une date; ou utilisez le bouton de sélection de date pour saisir la ``date de naissance du`` afin de rechercher des officiers ayant la même date de naissance ou une date ultérieure. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace.*"
+
+
+msgid "``Birth Date To``"
+msgstr "``Date de naissance à``"
+
+
+msgid "Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for officers having the same or earlier birth date. *Note: To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Tapez une date; ou utilisez le bouton de sélection de date pour entrer la ``date de naissance à`` pour rechercher des officiers ayant la même date de naissance ou une date antérieure. *Remarque: pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace.*"
+
+
+msgid "``Date Selector button``"
+msgstr "``Bouton de sélection de date``"
+
+
+msgid "Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image61`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted."
+msgstr "Cliquer sur le ``bouton de sélection de date`` fera apparaître un sélecteur de calendrier facile à utiliser (:numref:`image61`); par défaut, le calendrier affichera le mois en cours ou le mois de la date actuellement sélectionnée, le jour en cours étant mis en surbrillance."
+
+
+msgid "At anytime during the use of the pop-up, the user can see the date of *today*."
+msgstr "À tout moment pendant l'utilisation de la fenêtre contextuelle, l'utilisateur peut voir la date du * aujourd'hui *."
+
+
+msgid "Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box."
+msgstr "Cliquez sur * aujourd'hui * pour fermer la fenêtre contextuelle et afficher la date du jour dans la zone de saisie de date correspondante."
+
+
+msgid "Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box."
+msgstr "Cliquez sur n'importe quel jour du mois pour fermer la fenêtre contextuelle et afficher la date sélectionnée dans la zone de saisie de date correspondante."
+
+
+msgid "Clicking on the arrow to the left displays the previous month."
+msgstr "Cliquer sur la flèche à gauche affiche le mois précédent."
+
+
+msgid "Clicking on the arrow on the right will displays the following month."
+msgstr "Cliquer sur la flèche à droite affichera le mois suivant."
+
+
+msgid "Clicking on the month will display all the months for the year."
+msgstr "Cliquer sur le mois affichera tous les mois de l'année."
+
+
+msgid "Clicking on the year will display a year selector."
+msgstr "Cliquer sur l'année affichera un sélecteur d'année."
+
+
+msgid "|logo18|"
+msgstr "|logo18|"
+
+
+msgid "|logo19|"
+msgstr "|logo19|"
+
+
+msgid "|logo20|"
+msgstr "|logo20|"
+
+
+msgid "`Calendar Selector - Search Panel`"
+msgstr "`Sélecteur de calendrier - Panneau de recherche`"
+
+
+msgid "``Region``"
+msgstr "`` Région``"
+
+msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select enrolment officers acting in a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user.*"
+msgstr "Sélectionnez la `Région`; à partir de la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner l'inscription des agents intervenant dans une région spécifique. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté.*"
+
+
+msgid "``District``"
+msgstr "`` Quartier``"
+
+
+msgid "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select enrolment officers acting in a specific district. *Note: The list will be only filled with the districts belonging to the selected region and assigned to the current logged in user.*"
+msgstr "Sélectionnez le ``District``; dans la liste des districts en cliquant sur la flèche à droite du sélecteur pour sélectionner les agents d'inscription agissant dans un district spécifique. *Remarque: La liste ne sera remplie qu'avec les districts appartenant à la région sélectionnée et attribuée à l'utilisateur actuellement connecté.*"
+
+
+msgid "``Phone Number``"
+msgstr "``Numéro de téléphone``"
+
+
+msgid "Type in the beginning of; or the full ``Phone Number`` to search for enrolment officers with a Phone Number, that starts with or matches completely, the typed number."
+msgstr "Tapez au début de; ou le ``Numéro de téléphone`` complet pour rechercher les agents d'inscription avec un numéro de téléphone, qui commence par ou correspond complètement au numéro tapé."
+
+
+msgid "``Email``"
+msgstr "`` Courriel``"
+
+
+msgid "Type in the beginning of; or the full ``Email`` to search for enrolment officers with the ``Email``, which starts with or matches completely, the typed text."
+msgstr "Tapez au début de; ou le ``Email`` complet pour rechercher les agents d'inscription avec le ``Email``, qui commence ou correspond complètement au texte tapé."
+
+
+msgid "``Historical``"
+msgstr "``Historique``"
+
+
+msgid "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image62`)."
+msgstr "Cliquez sur ``Historique`` pour voir les enregistrements historiques correspondant aux critères sélectionnés. Les enregistrements historiques sont affichés dans le résultat avec une ligne au milieu du texte (barré) pour les définir clairement à partir des enregistrements actuels (:numref:`image62`)."
+
+
+msgid "`Historical records - Result Panel`"
+msgstr "`Dossiers historiques - Panneau de résultats`"
+
+
+msgid "``Search Button``"
+msgstr "``Bouton de recherche``"
+
+
+msgid "Once the criteria have been entered, use the ``search button`` to filter the records, the results will appear in the result panel."
+msgstr "Une fois les critères saisis, utilisez le ``bouton de recherche`` pour filtrer les enregistrements, les résultats apparaîtront dans le panneau de résultats."
+
+
+msgid "**Result Panel**"
+msgstr "**Panneau de résultats**"
+
+
+msgid "`Image 63  - Selected record (blue), hovered records (yellow) - Result Panel`"
+msgstr "`Image 63 - Enregistrement sélectionné (bleu), enregistrements en survol (jaune) - Panneau de résultats`"
+
+msgid "The result panel displays a list of all officers found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image63`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
+msgstr "Le résultat panneau affiche une liste de tous les agents ont trouvé, correspondant aux Critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image63`). La gauche dossier contient un lien, qui, si vous cliquez dessus, re-dirige l'utilisateur vers le record actuel pour obtenir la visualisation si c'est un record historique ou de la modification si c'est l'enregistrement en cours."
+
+
+msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image64`)"
+msgstr "Un maximum de 15 enregistrements sont affichés en même temps, d'autres enregistrements peuvent être consultés en parcourant les pages à l'aide du sélecteur de page en bas du panneau de résultat (:numref:`image64`)"
+
+
+msgid "`Page selector- Result Panel`"
+msgstr "`Sélecteur de page - Panneau de résultats`"
+
+
+msgid "**Button Panel**"
+msgstr "**Panneau de boutons**"
+
+
+msgid "With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete`` is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button."
+msgstr "À l'exception du bouton ``Annuler``, qui redirige vers :ref:`Page d'accueil <home_page>`, le panneau de boutons (les boutons ``Modifier`` et ``Supprimer`` est utilisé en conjonction avec l'enregistrement actuellement sélectionné (surligné en bleu). L'utilisateur doit d'abord sélectionner un enregistrement en cliquant sur n'importe quelle position de l'enregistrement à l'exception du lien hypertexte le plus à gauche, puis sur le bouton."
+
+
+msgid "**Information Panel**"
+msgstr "**Panneau d'information**"
+
+
+msgid "The Information Panel is used to display messages back to the user. Messages will occur once an officer has been added, updated or deleted or if there was an error at any time during the process of these actions."
+msgstr "Le panneau d'informations est utilisé pour afficher les messages à l'utilisateur. Les messages s'afficheront une fois qu'un agent aura été ajouté, mis à jour ou supprimé ou s'il y a eu une erreur à tout moment au cours du processus de ces actions."
+
+
+msgid "Enrolment Officer Page"
+msgstr "Page de l'agent d'inscription"
+
+
+msgid "**Data Entry**"
+msgstr "**La saisie des données**"
+
+
+msgid "`Image - Enrolment Officer Page`"
+msgstr "`Image - Page de l'agent d'inscription`"
+
+
+msgid "``Enrolment Officers Details``"
+msgstr "``Détails des agents d'inscription``"
+
+
+msgid "Enter the code for the enrolment officer. Mandatory, 8 characters maximum."
+msgstr "Entrez le code de l'agent d'inscription. Obligatoire, 8 caractères maximum."
+
+
+msgid "Enter the last name (surname) for the enrolment officer. Mandatory, 100 characters maximum."
+msgstr "Entrez le nom de famille (nom de famille) de l'agent d'inscription. Obligatoire, 100 caractères maximum."
+
+
+msgid "Enter other names of the enrolment officer. Mandatory, 100 characters maximum."
+msgstr "Entrez d'autres noms de l'agent d'inscription. Obligatoire, 100 caractères maximum."
+
+
+msgid "``Date of Birth``"
+msgstr "``Date de naissance``"
+
+
+msgid "Enter the date of birth for the enrolment officer. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Saisissez la date de naissance de l'agent d'inscription. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace.*"
+
+
+msgid "Enter the phone number for the enrolment officer. 50 characters maximum."
+msgstr "Entrez le numéro de téléphone de l'agent d'inscription. 50 caractères maximum."
+
+
+msgid "Enter the e-mail address for the enrolment officer. 50 characters maximum."
+msgstr "Saisissez l'adresse e-mail du responsable de l'inscription. 50 caractères maximum."
+
+
+msgid "``Permanent Address Details``"
+msgstr "``Détails de l'adresse permanente``"
+
+
+msgid "Enter details of the place of living of the enrolment officer."
+msgstr "Entrez les détails du lieu de vie de l'agent d'inscription."
+
+
+msgid "Select from the list of available regions the region to a district in which the enrolment officer will act. Mandatory"
+msgstr "Sélectionnez dans la liste des régions disponibles la région à un district dans lequel l'agent d'inscription agira. Obligatoire"
+
+
+msgid "Select from the list of available districts the district in which the enrolment officer will act. *Note: The list will be only filled with the districts belonging to the selected region.* Mandatory ."
+msgstr "Sélectionnez dans la liste des districts disponibles le district dans lequel l'agent d'inscription agira. *Remarque: La liste ne sera remplie qu'avec les districts appartenant à la région sélectionnée.* Obligatoire."
+
+
+msgid "``Substitution``"
+msgstr "``Remplacement``"
+
+msgid "Select from the list of available enrolment officers the enrolment officer which will substitute the current enrolment officer Substitution means that all prompts to renewals/feedback will be directed to the substituting enrolment officer. *Note: The list contains enrolment officers who already exist in the system and who have at least on location common with the enrolment officer to be substituted.*"
+msgstr "Sélectionnez à partir de la liste des agents d'inscription l'inscription officier qui va remplacer l'actuel inscription officier de Substitution signifie que tous les invites pour les renouvellements/commentaires seront transmis à la substitution d'inscription officier. *Remarque: La liste contient des agents d'inscription qui existent déjà dans le système et qui ont au moins sur l'emplacement de commun avec l'inscription officier pour être remplacé.*"
+
+
+msgid "``Works To``"
+msgstr "``Fonctionne pour``"
+
+
+msgid "Enter the date which the substituted enrolment officer will work up to. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Entrez la date à laquelle l'agent d'inscription suppléant travaillera. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace.*"
+
+
+msgid "``Communicate``"
+msgstr "``Communiquer``"
+
+
+msgid "Check the box ``Communicate`` if the enrolment officer should receive SMS messages alerting him/her about a need of renewing policies of families/groups he/she is assigned to."
+msgstr "Cochez la case ``Communiquer`` si l'agent d'inscription doit recevoir des SMS l'avertissant de la nécessité de renouveler les politiques des familles / groupes auxquels il est affecté."
+
+
+msgid "``Municipalities``"
+msgstr "``Municipalités``"
+
+msgid "Select from the list of available municipalities the municipality(s) which the enrolment officer is acting in, by either clicking on the ``Check All`` box at the top of the list of municipalities, or by selectively clicking on the ``Check box`` to the left of the municipality. Mandatory (at least one municipality must be selected."
+msgstr "Sélectionnez à partir de la liste des municipalités de la municipalité(s) dont le taux de scolarisation agent agit dans le cadre, soit en cliquant sur `Vérifier Tout` en haut de la liste des communes, ou de manière sélective la cliquant sur sur la `case à cocher` à gauche de la municipalité. Obligatoire (au moins une municipalité doit être sélectionné."
+
+
+msgid "``Villages``"
+msgstr "``Villages``"
+
+msgid "Select from the list of available villages the village(s) which the enrolment officer is acting in, by either clicking on the ``Check All`` box at the top of the list of villages, or by selectively clicking on the ``Check box`` to the left of the village. Villages are pre-selected based on the selected municipality. The pre-selection can be modified. Mandatory (at least one village must be selected."
+msgstr "Sélectionnez à partir de la liste des villages le village(s) dont le taux de scolarisation agent agit dans le cadre, soit en cliquant sur `Vérifier Tout` en haut de la liste des villages, ou de manière sélective la cliquant sur sur la `case à cocher` à la gauche du village. Les Villages sont pré-sélectionnés en fonction de la sélection de la municipalité. La pré-sélection peut être modifiée. Obligatoire (au moins un village doit être sélectionné."
+
+
+msgid "``village Officer Details``"
+msgstr "``Détails d'officier de village``"
+
+
+msgid "Enter the code for the Village Executive officer. 25 characters maximum."
+msgstr "Entrez le code de l'agent exécutif du village. 25 caractères maximum."
+
+
+msgid "``Last name``"
+msgstr "``Nom de famille``"
+
+
+msgid "Enter the last name (surname) for the Village Executive officer. 100 characters maximum."
+msgstr "Entrez le nom (nom de famille) de l'agent exécutif du village. 100 caractères maximum."
+
+
+msgid "Enter other names of the Village Executive officer. 100 characters maximum."
+msgstr "Entrez les autres noms de l'agent exécutif du village. 100 caractères maximum."
+
+
+msgid "Enter the phone number for the Village Executive officer. 25 characters maximum."
+msgstr "Entrez le numéro de téléphone de l'agent exécutif du village. 25 caractères maximum."
+
+
+msgid "Enter the e-mail address for the Village Executive officer. 50 characters maximum."
+msgstr "Saisissez l'adresse e-mail du responsable du village. 50 caractères maximum."
+
+
+msgid "Enter the date of birth for the Village Executive officer. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Entrez la date de naissance de l'agent exécutif du village. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace.*"
+
+
+msgid "``Include Login``"
+msgstr "``Inclure la connexion``"
+
+
+msgid "Enable the enrolment officer to use openIMIS web by creating web credentials (enrolment officers primary interface is the enrolment application running on android device that doesn't require openIMIS user), the change must be saved to be taken into account."
+msgstr "Autoriser l'agent d'inscription à utiliser openIMIS Web en créant des informations d'identification Web (l'interface principale des agents d'inscription est l'application d'inscription exécutée sur un appareil Android qui ne nécessite pas d'utilisateur openIMIS), la modification doit être enregistrée pour être prise en compte."
+
+
+msgid "`Image - Enrolment Officer Login`"
+msgstr "`Image - Connexion de l'agent d'inscription`"
+
+
+msgid "Once the login is created, it will be visible in the `User Control Page <#user-control-page>`__"
+msgstr "Une fois la connexion créée, elle sera visible dans la `Page de contrôle utilisateur <#user-control-page> page de contrôle <#user-control-page>`__"
+
+
+msgid "**Saving**"
+msgstr "**Sauvegarder**"
+
+msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Enrolment Officers Control Page <#enrolment-officers-control-page>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the officer has been saved will appear on the Information Panel."
+msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton ``Sauvegarder`` sauvegardera l'enregistrement. L'utilisateur sera redirigé vers la `page de contrôle des agents d'inscription <#enrolment-officers-control-page>`__, avec l'enregistrement nouvellement enregistré affiché et sélectionné dans le panneau de résultats. Un message confirmant que l'agent a été sauvé apparaîtra sur le panneau d'information."
+
+
+msgid "**Mandatory data**"
+msgstr "**Données obligatoires**"
+
+
+msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk on the right of the corresponding data field)."
+msgstr "Si les données obligatoires ne sont pas saisies au moment où l'utilisateur clique sur le bouton ``Enregistrer``, un message apparaîtra dans le panneau d'informations et le champ de données prendra le focus (par un astérisque à droite du champ de données correspondant) ."
+
+
+msgid "**Cancel**"
+msgstr "**Annuler**"
+
+
+msgid "By clicking on the ``Cancel`` button, the user will be re-directed to the `Enrolment Officers Control Page <#enrolment-officers-control-page>`__."
+msgstr "En cliquant sur le bouton ``Annuler``, l'utilisateur sera redirigé vers la `Page de contrôle des agents d'inscription <#enrolment-officers-control-page>`__."
+
+
+msgid "Adding an Enrolment Officer"
+msgstr "Ajout d'un agent d'inscription"
+
+
+msgid "Click on the ``Add`` button to re-direct to the `Enrolment Officer Page <#enrolment-officer-page>`__\\ ."
+msgstr "Cliquez sur le bouton ``Ajouter`` pour rediriger vers la `page de l'agent d'inscription <#enrolment-officer-page> page de l'agent d' <#enrolment-officer-page>`__ \\."
+
+
+msgid "When the page opens all entry fields are empty. See the `Enrolment Officer Page <#enrolment-officer-page>`__ for information on the data entry and mandatory fields"
+msgstr "Lorsque la page s'ouvre, tous les champs de saisie sont vides. Reportez-vous à la page `Officier d'inscription <#enrolment-officer-page> ``__ pour plus d'informations sur la saisie des données et les champs obligatoires."
+
+
+msgid "Editing an Enrolment Officer"
+msgstr "Modification d'un agent d'inscription"
+
+
+msgid "Click on the ``Edit`` button to re-direct to the `Enrolment Officer Page <#enrolment-officer-page>`__\\ ."
+msgstr "Cliquez sur le bouton ``Modifier`` pour rediriger vers la `page de l'agent d'inscription <#enrolment-officer-page> page de l'agent d' <#enrolment-officer-page>`__ \\."
+
+
+msgid "The page will open with the current information loaded into the data entry fields. See the `Enrolment Officer Page <#enrolment-officer-page>`__ for information on the data entry and manditory fields."
+msgstr "La page s'ouvrira avec les informations actuelles chargées dans les champs de saisie de données. Reportez-vous à la `Page de l'agent d'inscription <#enrolment-officer-page> d'inscription <#enrolment-officer-page>`__ pour obtenir des informations sur les champs de saisie des données et les champs obligatoires."
+
+
+msgid "Deleting an Enrolment Officer"
+msgstr "Suppression d'un agent d'inscription"
+
+
+msgid "Click on the ``Delete`` button to delete the currently selected record."
+msgstr "Cliquez sur le bouton ``Supprimer`` pour supprimer l'enregistrement actuellement sélectionné."
+
+
+msgid "Before deleting a confirmation popup (:numref:`image66`) is displayed, which requires the user to confirm if the action should really be carried out?"
+msgstr "Avant de supprimer une fenêtre de confirmation (:numref:`image66`) s'affiche, ce qui oblige l'utilisateur à confirmer si l'action doit vraiment être effectuée?"
+
+
+msgid "`Delete confirmation- Button Panel`"
+msgstr "`Supprimer la confirmation - Panneau de boutons`"
+
+
+msgid "When an officer is deleted, all records retaining to the deleted officer will still be available by selecting historical records."
+msgstr "Lorsqu'un agent est supprimé, tous les enregistrements conservés par l'agent supprimé seront toujours disponibles en sélectionnant les enregistrements historiques."

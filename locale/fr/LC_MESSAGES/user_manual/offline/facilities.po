@@ -1,0 +1,247 @@
+msgid ""
+msgstr "" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n" 
+"X-Generator: lokalise.com\n" 
+"Project-Id-Version: openIMIS docs\n" 
+"PO-Revision-Date: 2020-01-09 10:45\n" 
+"Last-Translator: lokalise.com\n" 
+"Language-Team: lokalise.com\n\n" 
+"Language: fr\n"
+
+
+msgid "Offline Facilities"
+msgstr "Installations hors ligne"
+
+
+msgid "Facilities available while offline and online in IMIS, are similar with some few differences. The following are the feature wise differences found while using openIMIS in offline mode."
+msgstr "Les installations disponibles hors ligne et en ligne dans IMIS sont similaires avec quelques différences. Voici les différences de fonctionnalités trouvées lors de l'utilisation d'openIMIS en mode hors ligne."
+
+
+msgid "**Login**"
+msgstr "**S'identifier**"
+
+msgid "If a user who is logging in is having user role HF Administrator or offline Scheme Administrator and if Heath Facility ID/Scheme Office ID is not set yet, just after clicking login button on the login screen/page, the user will be prompted to enter Health Facility/Scheme Office ID (:numref:`image251`), (:numref:`image252`), only once for that very first time of logging in."
+msgstr "Si un utilisateur qui se connecte à l'est d'avoir le rôle utilisateur HF Administrateur ou hors ligne à l'Administrateur du programme et si Heath ID d'Installation/Régime de Bureau ID n'est pas encore fixé, juste après avoir cliqué bouton de connexion sur l'écran de connexion/page, l'utilisateur sera invité à entrer en Établissement de Santé/Régime de Bureau ID (:numref:`image251`), (:numref:`image252`), une seule fois pour que les tout premiers temps de l'exploitation forestière dans."
+
+
+msgid "`Enter HF ID - HF Administrator Login, openIMIS offline`"
+msgstr "`Entrez HF ID - Connexion administrateur HF, openIMIS hors ligne`"
+
+
+msgid "`Enter Scheme Office ID - offline Scheme Administrator Login, openIMIS offline`"
+msgstr "`Entrez Scheme Office ID - Connexion administrateur de schéma hors ligne, openIMIS hors ligne`"
+
+
+msgid "**Information bar**"
+msgstr "**Barre d'information**"
+
+msgid "Throughout the application, an information bar at the bottom of each page will have a different background colour to that of online openIMIS and on the its right end, there will be shown heath facility code and health facility name / Scheme Office ID submitted (:numref:`image253`), (:numref:`image254`)."
+msgstr "Tout au long de l'application, une barre d'information en bas de chaque page aura une autre couleur d'arrière-plan pour que de en ligne openIMIS et sur la à son extrémité droite, il n'y aura montré heath code de fonction et de la santé au nom de l'établissement / Régime de Bureau ID soumis (:numref:`image253`), (:numref:`image254`)."
+
+
+msgid "`Information Bar – Scheme Office, openIMIS offline`"
+msgstr "`Barre d'informations - Scheme Office, openIMIS hors ligne`"
+
+
+msgid "`Information Bar - Health Facility, openIMIS offline`"
+msgstr "`Barre d'information - Établissement de santé, openIMIS hors ligne`"
+
+
+msgid "**Menu Access**"
+msgstr "**Accès au menu**"
+
+
+msgid "For all users with roles other than HF Administrator and Offline Scheme Administrator , will have the menus available to them as per normal roles' rights in online openIMIS version. Menu access in the offline version is different in following scenarios:"
+msgstr "Pour tous les utilisateurs avec des rôles autres que HF Administrator et Offline Scheme Administrator, les menus seront disponibles selon les droits des rôles normaux dans la version en ligne openIMIS. L'accès au menu dans la version hors ligne est différent dans les scénarios suivants:"
+
+
+msgid "User with roles HF Administrator and Offline Scheme Administrator can access only ``Users``, ``IMIS Extracts`` and ``Utilities`` menus, while all other users with different roles can access menus just as they would do in the online openIMIS version."
+msgstr "L'utilisateur avec des rôles Administrateur HF et Administrateur de schéma hors ligne ne peut accéder qu'aux menus ``Utilisateurs``, ``Extraits IMIS`` et ``Utilitaires``, tandis que tous les autres utilisateurs avec des rôles différents peuvent accéder aux menus comme ils le feraient en ligne version openIMIS."
+
+
+msgid "``Extracts``"
+msgstr "``Extraits``"
+
+
+msgid "Extracts Menu leads an offline user to Extracts control panel. Using this panel, an offline user with rights to this panel can import data from online openIMIS to the local offline IMIS, and can also download claims and enrolments prior to upload them to the online IMIS. This panel is divided into five sections (:numref:`image255`), (:numref:`image256`) If an offline user is HF Administrator, section C will contain facility to ``Download Claims``. If an offline user is Offline Scheme Administrator, section C will contain facility to ``Download Enrolments``"
+msgstr "Le menu Extracts mène un utilisateur hors ligne au panneau de configuration Extracts. À l'aide de ce panneau, un utilisateur hors ligne ayant des droits sur ce panneau peut importer des données d'OpenIMIS en ligne vers l'IMIS local hors ligne, et peut également télécharger des Réclamations et des inscriptions avant de les télécharger sur l'IMIS en ligne. Ce panneau est divisé en cinq sections (:numref:`image255`), (: numref:` image256`) Si un utilisateur hors ligne est administrateur HF, la section C contiendra la possibilité de ``Télécharger les Réclamations``. Si un utilisateur hors ligne est Administrateur du système hors ligne, la section C contiendra la possibilité de ``Télécharger les inscriptions``"
+
+
+msgid "`Extracts Control Page, HF Administrator, openIMIS offline`"
+msgstr "`Extrait la page de contrôle, administrateur HF, openIMIS hors ligne`"
+
+
+msgid "`Extracts Control Page, Offline Scheme Administrator, openIMIS offline`"
+msgstr "`Extrait la page de contrôle, administrateur de schéma hors ligne, openIMIS hors ligne`"
+
+
+msgid "``section a - import extract``"
+msgstr "``section a - importation d'extrait``"
+
+
+msgid "This section has a facility to enable synchronization of online openIMIS data with that offline openIMIS data. When online data in a zipped file is obtained (downloaded extraction) from online openIMIS to user local computer, user will use this section to put that data into offline IMIS."
+msgstr "Cette section a une fonction pour permettre la synchronisation des données openIMIS en ligne avec ces données openIMIS hors ligne. Lorsque des données en ligne dans un fichier compressé sont obtenues (extraction téléchargée) d'OpenIMIS en ligne vers l'ordinateur local de l'utilisateur, l'utilisateur utilisera cette section pour mettre ces données dans IMIS hors ligne."
+
+
+msgid "User has to select a file from a local computer by clicking the 'select file' button on the left side of the section, and in the popup window which appears (:numref:`image256`) user can navigate to the required file and select the file."
+msgstr "L'utilisateur doit sélectionner un fichier à partir d'un ordinateur local en cliquant sur le bouton `sélectionner un fichier` sur le côté gauche de la section, et dans la fenêtre contextuelle qui apparaît (:numref:`image256`), l'utilisateur peut naviguer jusqu'au fichier requis et sélectionner le fichier."
+
+
+msgid "`Select File Popup Window, Import Extracts, openIMIS offline`"
+msgstr "`Sélectionner la fenêtre contextuelle du fichier, importer les extraits, ouvrirIMIS hors ligne`"
+
+
+msgid "After clicking the upload button on the very end of right hand side in this section, data in the file will be imported to the offline openIMIS and confirmation will be given as popup messages (:numref:`image257`), (:numref:`image258`)."
+msgstr "Après avoir cliqué sur le bouton de téléchargement à l'extrémité de la partie droite de cette section, les données du fichier seront importées vers l'openIMIS hors ligne et une confirmation sera donnée sous forme de messages contextuels (:numref:`image257`), (: numref:` image258`)."
+
+
+msgid "`Popup Window, Import Extracts, HF Administrator, openIMIS offline`"
+msgstr "`Fenêtre contextuelle, Importer des extraits, Administrateur HF, openIMIS hors ligne`"
+
+
+msgid "`Popup Window, Import Extracts, Offline Scheme Administrator, openIMIS offline`"
+msgstr "`Fenêtre contextuelle, Importer des extraits, Administrateur de schéma hors ligne, openIMIS hors ligne`"
+
+
+msgid "User cannot import an extract whose sequence number is same as last one imported; if done so, a popup message (:numref:`image260`) will be shown."
+msgstr "L'utilisateur ne peut pas importer un extrait dont le numéro de séquence est le même que le dernier importé; si c'est le cas, un message contextuel (:numref:`image260`) sera affiché."
+
+
+msgid "`Popup Window, Wrong sequence of an extract file, openIMIS offline`"
+msgstr "`Fenêtre contextuelle, séquence incorrecte d'un fichier d'extraction, openIMIS hors ligne`"
+
+
+msgid "``section b - import photos``"
+msgstr "``section b - importer des photos``"
+
+
+msgid "Just as the section name implies, this is a section with facility to enable a user synchronize insurees’ photos in online IMIS, with insurees’ photos in offline IMIS. When online insurees’ photos in a zipped file is obtained from online openIMIS to user local computer, user will use this section to put those photos into offline IMIS."
+msgstr "Tout comme le nom de la section l'indique, il s'agit d'une section qui permet à un utilisateur de synchroniser les photos des assurés dans le SIG en ligne, avec les photos des assurés dans le SIG hors ligne. Lorsque les photos des assurés en ligne dans un fichier compressé sont obtenues à partir d'OpenIMIS en ligne vers l'ordinateur local de l'utilisateur, l'utilisateur utilisera cette section pour mettre ces photos dans IMIS hors ligne."
+
+
+msgid "User has to select a file from a local computer by clicking the 'select file' button on the left side of the section, and in the popup window which appears (:numref:`image261`), user can navigate to the required file and select the file."
+msgstr "L'utilisateur doit sélectionner un fichier à partir d'un ordinateur local en cliquant sur le bouton `sélectionner un fichier` sur le côté gauche de la section, et dans la fenêtre contextuelle qui apparaît (:numref:`image261`), l'utilisateur peut naviguer jusqu'au fichier requis et sélectionnez le fichier."
+
+
+msgid "`Select File Popup Window, Import Photos, openIMIS offline`"
+msgstr "`Sélectionner la fenêtre contextuelle du fichier, importer des photos, ouvrirIMIS hors ligne`"
+
+
+msgid "After clicking the upload button on the very end of right hand side in this section, data in the file will be imported to the offline openIMIS and confirmation will be given as popup messages (:numref:`image261`)."
+msgstr "Après avoir cliqué sur le bouton de téléchargement à l'extrémité de la partie droite de cette section, les données du fichier seront importées vers l'openIMIS hors ligne et une confirmation sera donnée sous forme de messages contextuels (:numref:`image261`)."
+
+
+msgid "`Popup Window, Import Photos, openIMIS offline`"
+msgstr "`Fenêtre contextuelle, importer des photos, openIMIS hors ligne`"
+
+
+msgid "If importation of photo is not done due to some reason, the above popup message will not be shown, instead system will issue proper popup message to notify a user what went wrong and what is to be done."
+msgstr "Si l'importation de photo n'est pas effectuée pour une raison quelconque, le message contextuel ci-dessus ne sera pas affiché, mais le système émettra un message contextuel approprié pour informer un utilisateur de ce qui s'est mal passé et de ce qui doit être fait."
+
+
+msgid "``section c - download claim xmls``"
+msgstr "``section c - télécharger la réclamation xmls``"
+
+msgid "This section has facility to enable offline HF Administrator download to a zipped file all offline claims. By clicking the download button on the right hand side, the user initiate download process and all offline claims will be downloaded to a default downloads folder in user's local computer or a prompt of 'where to save file' will be displayed by browser'. User can navigate through folder in his/her local computer to find the file downloaded. If no new claims found, a message will be displayed."
+msgstr "Cette section a de la facilité pour activer le mode hors connexion HF Administrateur de téléchargement d'un fichier compressé en mode hors connexion tout les réclamations. En cliquant sur le bouton `télécharger` sur le côté droit, l'utilisateur initier le processus de téléchargement et le tout en mode hors connexion réclamations sera téléchargé dans un dossier de téléchargement par défaut de l'utilisateur de l'ordinateur local ou d'une invite de `où enregistrer le fichier` sera affiché par le navigateur`. L'utilisateur peut naviguer à travers les dossiers de son ordinateur pour trouver le fichier téléchargé. Si pas de nouvelles réclamations, un message sera affiché."
+
+
+msgid "``download enrolment xmls``"
+msgstr "``télécharger l'inscription xmls``"
+
+msgid "This section has facility to enable Offline Scheme Administrator download to a zipped file all offline enrollments of families, insurees, policies and contributions. By clicking the download button on the right hand side, the user initiate download process. If no enrolment found, a popup message box (:numref:`image262`) will appear, notifying the user. Otherwise enrollments will be downloaded in a zipped file and a confirmation popup message (:numref:`image264`) will appear"
+msgstr "Cette section a de la facilité pour activer le mode Hors connexion Administrateur du programme à télécharger un fichier zippé tous hors ligne les inscriptions des familles, des assurés, des politiques et des contributions. En cliquant sur le bouton `télécharger` sur le côté droit, l'utilisateur initier le processus de téléchargement. Si aucune inscription trouvée, un message pop-up box (:numref:`image262`) apparaît, la notification de l'utilisateur. Sinon, les inscriptions seront téléchargés dans un fichier zippé et un popup de confirmation de message (:numref:`image264`) apparaîtra"
+
+
+msgid "`Popup Window, Download Enrolments, openIMIS offline`"
+msgstr "`Fenêtre contextuelle, téléchargement des inscriptions, openIMIS hors ligne`"
+
+
+msgid "``section d - buttons``"
+msgstr "``section d - boutons``"
+
+
+msgid "This section has a cancel button, which when clicked will take the current user to the Home page."
+msgstr "Cette section a un bouton d'annulation qui, lorsque vous cliquez dessus, amènera l'utilisateur actuel à la page d'accueil."
+
+
+msgid "``section e - information bar``"
+msgstr "``section e - barre d'informations``"
+
+
+msgid "Information bar at the bottom will show different notification messages in blue color depending on the actions of the user. Such actions and messages may be:"
+msgstr "La barre d'informations en bas affichera différents messages de notification de couleur bleue en fonction des actions de l'utilisateur. Ces actions et messages peuvent être:"
+
+
+msgid "No Previous Extract Found"
+msgstr "Aucun extrait précédent trouvé"
+
+
+msgid "This message is seen at the first time when using the system and no any extract has been imported into the offline IMIS"
+msgstr "Ce message apparaît lors de la première utilisation du système et aucun extrait n'a été importé dans l'IMIS hors ligne"
+
+
+msgid "`openIMIS Extracts, Information Bar, openIMIS offline`"
+msgstr "`Extraits openIMIS, barre d'informations, openIMIS hors ligne`"
+
+
+msgid "Last Extract Sequence: <Sequence Number>"
+msgstr "Dernière séquence d'extraction: <Sequence Number>"
+
+
+msgid "This message is seen, after a single / series of extract importation have been made to the offline openIMIS and that much times will be shown as a sequence number at the end of the message. This enables proper tracking of right extracts to import and use."
+msgstr "Ce message apparaît après qu'une seule / série d'importations d'extrait a été effectuée vers openIMIS hors ligne et que de nombreuses fois seront affichées sous forme de numéro de séquence à la fin du message. Cela permet un suivi approprié des bons extraits à importer et à utiliser."
+
+
+msgid "No claims Found"
+msgstr "Aucune réclamation trouvée"
+
+
+msgid "When HF offline openIMIS user is downloading offline claims and no new offline claims is found, this message is displayed."
+msgstr "Lorsque l'utilisateur openFIS hors ligne HF télécharge des Réclamations hors ligne et qu'aucune nouvelle revendication hors ligne n'est trouvée, ce message s'affiche."
+
+
+msgid "**User**"
+msgstr "**Utilisateur**"
+
+
+msgid "Users with role HF Administrator, can create only users with roles: **Receptionist, Claim Administrator** and **HF Administrator** (:numref:`image268`). User with role 'offline NSHIP Administrator', can create only user with role: **Clerk** (:numref:`image269`)."
+msgstr "Les utilisateurs avec le rôle Administrateur HF peuvent créer uniquement des utilisateurs avec des rôles: **Réceptionniste, Administrateur des réclamations** et **Administrateur HF** (:numref:`image268`). L'utilisateur avec le rôle 'Administrateur NSHIP hors ligne', peut créer uniquement un utilisateur avec le rôle: **Commis** (:numref:`image269`)."
+
+
+msgid "`Users Page - HF Administrator, openIMIS offline`"
+msgstr "`Page Utilisateurs - Administrateur HF, openIMIS hors ligne`"
+
+
+msgid "`Users Page - Offline Scheme Administrator, openIMIS offline`"
+msgstr "`Page Utilisateurs - Administrateur du système hors ligne, openIMIS hors ligne`"
+
+
+msgid "**data access**"
+msgstr "**accès aux données**"
+
+
+msgid "Search / Find"
+msgstr "Recherche / Recherche"
+
+
+msgid "In all pages in ``Insurees`` and ``Policies`` menus with search / find acility, there will be an extra search criteria (:numref:`image270`) to enable search for offline data only. This feature is available if a user is in Offline IMIS."
+msgstr "Dans toutes les pages des menus ``Assurés`` et ``Politiques`` avec fonction de recherche / recherche, il y aura un critère de recherche supplémentaire (:numref:`image270`) pour permettre la recherche de données hors ligne uniquement. Cette fonctionnalité est disponible si un utilisateur est dans IMIS hors ligne."
+
+
+msgid "`Search Criteria - offline only data, openIMIS offline`"
+msgstr "`Critères de recherche - données hors ligne uniquement, openIMIS hors ligne`"
+
+
+msgid "Create / Edit"
+msgstr "Créer / modifier"
+
+
+msgid "Only families, insurees, policies and contributions created/edited while offline, will be available for further manipulation. An online data is available for viewing purposes."
+msgstr "Seuls les familles, les assurés, les polices et les contributions créées / modifiées hors ligne seront disponibles pour une manipulation ultérieure. Une donnée en ligne est disponible à des fins de visualisation."
+
+
+msgid "For an offline user with a right to open ``Insurees`` and ``Policies`` menus, he/she can access all data but can manipulate only that data which was created offline. The rest of the data will be available in read-only mode"
+msgstr "Pour un utilisateur hors ligne ayant le droit d'ouvrir les menus ``Assurés`` et ``Politiques``, il / elle peut accéder à toutes les données mais ne peut manipuler que les données qui ont été créées hors ligne. Le reste des données sera disponible en mode lecture seule"

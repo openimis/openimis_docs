@@ -38,3 +38,11 @@ pdflatex.exe .\_build\latex\openIMIS.tex
 * for HTML
 
 | sphinx-build -b html .\ .\_build\html\
+
+# Translation
+
+./make gettext
+
+Drag and drop the files and folders from _build/gettext to lokalise project openIMIS doc
+
+Do the translations

@@ -1,0 +1,20 @@
+msgid ""
+msgstr "" 
+"Project-Id-Version: openIMIS \n" 
+"Report-Msgid-Bugs-To: \n" 
+"POT-Creation-Date: 2019-08-16 15:21+0200\n" 
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n" 
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n" 
+"Language-Team: LANGUAGE <LL@li.org>\n" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Group/family, Insurees and Policies"
+msgstr "Group/family, Insurees and Policies"
+
+msgid "In openIMIS the policies are assigned to group only, if a policy need to be assigned to an individual then a group of one must be created."
+msgstr "In openIMIS the policies are assigned to group only, if a policy need to be assigned to an individual then a group of one must be created."
+
+msgid "Because of this approach, the `Family Overview Page <#family-overview-page>`__ is the starting point to manage, insuree (add, edit), policies(add, edit, renew ...) and contribution"
+msgstr "Because of this approach, the `Family Overview Page <#family-overview-page>`__ is the starting point to manage, insuree (add, edit), policies(add, edit, renew ...) and contribution"

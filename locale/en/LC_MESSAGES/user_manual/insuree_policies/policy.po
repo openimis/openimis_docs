@@ -1,0 +1,435 @@
+
+msgid ""
+msgstr "Project-Id-Version: openIMIS \nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2020-01-22 10:20+0100\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\nLanguage-Team: LANGUAGE <LL@li.org>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nGenerated-By: Babel 2.6.0\n"
+
+#: ../../user_manual/insuree_policies/policy.rst:4
+msgid "Policy"
+msgstr "Policy"
+
+#: ../../user_manual/insuree_policies/policy.rst:7
+msgid "Find Policy"
+msgstr "Find Policy"
+
+#: ../../user_manual/insuree_policies/policy.rst:9
+msgid "Access to the ``Find Policy Page`` is restricted to users with the role system roles of Accountant, Clerk or Health Facility Receptionist or with a role including an access to Insurees and Families/Policy/Search."
+msgstr "Access to the ``Find Policy Page`` is restricted to users with the role system roles of Accountant, Clerk or Health Facility Receptionist or with a role including an access to Insurees and Families/Policy/Search."
+
+#: ../../user_manual/insuree_policies/policy.rst:11
+msgid "Pre-conditions"
+msgstr "Pre-conditions"
+
+#: ../../user_manual/insuree_policies/policy.rst:13
+msgid "Need to enquire on, or edit a policy, and the family/group, insurees and contributions associated."
+msgstr "Need to enquire on, or edit a policy, and the family/group, insurees and contributions associated."
+
+#: ../../user_manual/insuree_policies/policy.rst:15
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../../user_manual/insuree_policies/policy.rst:17
+msgid "Find Policy Page can be found under the main menu ``Insurees and Policies``, sub menu ``Policies``."
+msgstr "Find Policy Page can be found under the main menu ``Insurees and Policies``, sub menu ``Policies``."
+
+#: ../../user_manual/insuree_policies/policy.rst:23
+msgid "`Navigation Policies`"
+msgstr "`Navigation Policies`"
+
+#: ../../user_manual/insuree_policies/policy.rst:25
+msgid "Clicking on the sub menu ``Policies`` re-directs the current user to the ``find policy page.``"
+msgstr "Clicking on the sub menu ``Policies`` re-directs the current user to the ``find policy page.``"
+
+#: ../../user_manual/insuree_policies/policy.rst:27
+msgid "Find Policy Page"
+msgstr "Find Policy Page"
+
+#: ../../user_manual/insuree_policies/policy.rst:33
+msgid "`Find Policy Page`"
+msgstr "`Find Policy Page`"
+
+#: ../../user_manual/insuree_policies/policy.rst:35
+msgid "The ``Find Policy Page`` is the first step in the process of finding a policy and thereafter accessing the `Family Overview Page <#family-overview-page.>`__ of insurees, policies and contributions. This initial page can be used to search for specific policies or groups of policies based on specific criteria. The panel is divided into four panels (:numref:`image102`)"
+msgstr "The ``Find Policy Page`` is the first step in the process of finding a policy and thereafter accessing the `Family Overview Page <#family-overview-page.>`__ of insurees, policies and contributions. This initial page can be used to search for specific policies or groups of policies based on specific criteria. The panel is divided into four panels (:numref:`image102`)"
+
+#: ../../user_manual/insuree_policies/policy.rst:37
+msgid "**Search Panel**"
+msgstr "**Search Panel**"
+
+#: ../../user_manual/insuree_policies/policy.rst:39
+msgid "The Search Panel allows a user to select specific criteria to minimise the search results. In the case of policies the following search options are available which can be used alone or in combination with each other."
+msgstr "The Search Panel allows a user to select specific criteria to minimise the search results. In the case of policies the following search options are available which can be used alone or in combination with each other."
+
+#: ../../user_manual/insuree_policies/policy.rst:41
+msgid "``Enrolment Date From``"
+msgstr "``Enrolment Date From``"
+
+#: ../../user_manual/insuree_policies/policy.rst:43
+msgid "Type in a date; or use the Date Selector Button, to enter the ``Enrolment Date From`` to search for policies with an ``Enrolment Date`` equal or later than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Type in a date; or use the Date Selector Button, to enter the ``Enrolment Date From`` to search for policies with an ``Enrolment Date`` equal or later than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+
+#: ../../user_manual/insuree_policies/policy.rst:45
+msgid "``Enrolment Date To``"
+msgstr "``Enrolment Date To``"
+
+#: ../../user_manual/insuree_policies/policy.rst:47
+msgid "Type in a date; or use the Date Selector Button, to enter the ``Enrolment Date to`` to search for policies with an ``Enrolment Date`` equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Type in a date; or use the Date Selector Button, to enter the ``Enrolment Date to`` to search for policies with an ``Enrolment Date`` equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+
+#: ../../user_manual/insuree_policies/policy.rst:49
+msgid "``Effective Date From``"
+msgstr "``Effective Date From``"
+
+#: ../../user_manual/insuree_policies/policy.rst:51
+msgid "Type in a date; or use the Date Selector Button, to enter the ``Effective Date From`` to search for policies with an ``Effective Date`` equal or later than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Type in a date; or use the Date Selector Button, to enter the ``Effective Date From`` to search for policies with an ``Effective Date`` equal or later than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+
+#: ../../user_manual/insuree_policies/policy.rst:53
+msgid "``Effective Date To``"
+msgstr "``Effective Date To``"
+
+#: ../../user_manual/insuree_policies/policy.rst:55
+#, fuzzy
+msgid "Type in a date; or use the Date Selector Button, to enter the ^^Effective Date To'' to search for policies with an ^^Effective Date^^ equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Type in a date; or use the Date Selector Button, to enter the ``Effective Date To`` to search for policies with an ``Effective Date To`` equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+
+#: ../../user_manual/insuree_policies/policy.rst:57
+msgid "``Start Date From``"
+msgstr "``Start Date From``"
+
+#: ../../user_manual/insuree_policies/policy.rst:59
+msgid "Type in a date; or use the Date Selector Button, to enter the ``Start Date From`` to search for policies with a ``Start Date`` equal or later than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Type in a date; or use the Date Selector Button, to enter the ``Start Date From`` to search for policies with a ``Start Date`` equal or later than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+
+#: ../../user_manual/insuree_policies/policy.rst:61
+msgid "``Start Date To``"
+msgstr "``Start Date To``"
+
+#: ../../user_manual/insuree_policies/policy.rst:63
+msgid "Type in a date; or use the Date Selector Button, to enter the ``Start Date to`` to search for policies with a ``Start Date`` equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Type in a date; or use the Date Selector Button, to enter the ``Start Date to`` to search for policies with a ``Start Date`` equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+
+#: ../../user_manual/insuree_policies/policy.rst:65
+msgid "``Expiry Date From``"
+msgstr "``Expiry Date From``"
+
+#: ../../user_manual/insuree_policies/policy.rst:67
+msgid "Type in a date; or use the Date Selector Button, to enter the ``Expiry Date From`` to search for policies with an ``Expiry Date`` equal or later then the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Type in a date; or use the Date Selector Button, to enter the ``Expiry Date From`` to search for policies with an ``Expiry Date`` equal or later then the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+
+#: ../../user_manual/insuree_policies/policy.rst:69
+msgid "``Date Selector Button``"
+msgstr "``Date Selector Button``"
+
+#: ../../user_manual/insuree_policies/policy.rst:71
+msgid "Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image103`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted."
+msgstr "Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image103`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted."
+
+#: ../../user_manual/insuree_policies/policy.rst:73
+msgid "At anytime during the use of the pop-up, the user can see the date of **today**."
+msgstr "At anytime during the use of the pop-up, the user can see the date of **today**."
+
+#: ../../user_manual/insuree_policies/policy.rst:74
+msgid "Clicking on **today** will close the pop-up and display the today’s date in the corresponding date entry box."
+msgstr "Clicking on **today** will close the pop-up and display the today’s date in the corresponding date entry box."
+
+#: ../../user_manual/insuree_policies/policy.rst:75
+msgid "Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box."
+msgstr "Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box."
+
+#: ../../user_manual/insuree_policies/policy.rst:76
+msgid "Clicking on the arrow to the left displays the previous month."
+msgstr "Clicking on the arrow to the left displays the previous month."
+
+#: ../../user_manual/insuree_policies/policy.rst:77
+msgid "Clicking on the arrow on the right will displays the following month."
+msgstr "Clicking on the arrow on the right will displays the following month."
+
+#: ../../user_manual/insuree_policies/policy.rst:78
+msgid "Clicking on the month will display all the months for the year."
+msgstr "Clicking on the month will display all the months for the year."
+
+#: ../../user_manual/insuree_policies/policy.rst:79
+msgid "Clicking on the year will display a year selector."
+msgstr "Clicking on the year will display a year selector."
+
+#: ../../user_manual/insuree_policies/policy.rst:93
+msgid "|logo30|"
+msgstr "|logo30|"
+
+#: ../../user_manual/insuree_policies/policy.rst:93
+msgid "|logo31|"
+msgstr "|logo31|"
+
+#: ../../user_manual/insuree_policies/policy.rst:93
+msgid "|logo32|"
+msgstr "|logo32|"
+
+#: ../../user_manual/insuree_policies/policy.rst:96
+msgid "`Calendar Selector - Search Panel`"
+msgstr "`Calendar Selector - Search Panel`"
+
+#: ../../user_manual/insuree_policies/policy.rst:98
+#: ../../user_manual/insuree_policies/policy.rst:210
+msgid "``Enrolment Officer``"
+msgstr "``Enrolment Officer``"
+
+#: ../../user_manual/insuree_policies/policy.rst:100
+msgid "Select the ``Enrolment Officer``; from the list of enrolment officers by clicking on the arrow on the right of the selector, to select policies related to a specific enrolment officer."
+msgstr "Select the ``Enrolment Officer``; from the list of enrolment officers by clicking on the arrow on the right of the selector, to select policies related to a specific enrolment officer."
+
+#: ../../user_manual/insuree_policies/policy.rst:102
+#: ../../user_manual/insuree_policies/policy.rst:194
+msgid "``Product``"
+msgstr "``Product``"
+
+#: ../../user_manual/insuree_policies/policy.rst:104
+msgid "Select the ``Product``; from the list of products by clicking on the arrow on the right of the selector, to select policies for a specific product."
+msgstr "Select the ``Product``; from the list of products by clicking on the arrow on the right of the selector, to select policies for a specific product."
+
+#: ../../user_manual/insuree_policies/policy.rst:106
+msgid "``Policy Status``"
+msgstr "``Policy Status``"
+
+#: ../../user_manual/insuree_policies/policy.rst:108
+msgid "Select the ``Policy Status``; from the list of policy statuses by clicking on the arrow on the right of the selector, to select policies for a specific policy status."
+msgstr "Select the ``Policy Status``; from the list of policy statuses by clicking on the arrow on the right of the selector, to select policies for a specific policy status."
+
+#: ../../user_manual/insuree_policies/policy.rst:110
+msgid "A policy can have the following statuses:"
+msgstr "A policy can have the following statuses:"
+
+#: ../../user_manual/insuree_policies/policy.rst:112
+msgid "**Idle** (Policy data entered but policy not yet activated)"
+msgstr "**Idle** (Policy data entered but policy not yet activated)"
+
+#: ../../user_manual/insuree_policies/policy.rst:113
+msgid "**Active** (Policy partially or fully paid and made active)"
+msgstr "**Active** (Policy partially or fully paid and made active)"
+
+#: ../../user_manual/insuree_policies/policy.rst:114
+msgid "**Suspended** (Policy was not fully paid for within the grace period)"
+msgstr "**Suspended** (Policy was not fully paid for within the grace period)"
+
+#: ../../user_manual/insuree_policies/policy.rst:115
+msgid "**Expired** (Policy is not active anymore as the insurance period elapsed)"
+msgstr "**Expired** (Policy is not active anymore as the insurance period elapsed)"
+
+#: ../../user_manual/insuree_policies/policy.rst:117
+msgid "``Balance``"
+msgstr "``Balance``"
+
+#: ../../user_manual/insuree_policies/policy.rst:119
+msgid "Types in a positive ``Balance`` to search for policies with a balance equal or greater than the typed amount. For example if 0 (zero) is entered, all policies with a balance, will be displayed. If 1,000 is entered, then only policies with a balance equal to or greater than 1,000 will be displayed."
+msgstr "Types in a positive ``Balance`` to search for policies with a balance equal or greater than the typed amount. For example if 0 (zero) is entered, all policies with a balance, will be displayed. If 1,000 is entered, then only policies with a balance equal to or greater than 1,000 will be displayed."
+
+#: ../../user_manual/insuree_policies/policy.rst:121
+msgid "The balance is the difference between the policy value and total of contributions paid. For the policy"
+msgstr "The balance is the difference between the policy value and total of contributions paid. For the policy"
+
+#: ../../user_manual/insuree_policies/policy.rst:123
+msgid "``Region``"
+msgstr "``Region``"
+
+#: ../../user_manual/insuree_policies/policy.rst:125
+msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select policies from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*"
+msgstr "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select policies from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*"
+
+#: ../../user_manual/insuree_policies/policy.rst:127
+msgid "``District``"
+msgstr "``District``"
+
+#: ../../user_manual/insuree_policies/policy.rst:129
+msgid "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select policies for families/groups residing in a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*"
+msgstr "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select policies for families/groups residing in a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*"
+
+#: ../../user_manual/insuree_policies/policy.rst:131
+msgid "``Policy Type``"
+msgstr "``Policy Type``"
+
+#: ../../user_manual/insuree_policies/policy.rst:133
+msgid "Select whether new policies [New Policy] or renewed policies [Renewal] should be searched for."
+msgstr "Select whether new policies [New Policy] or renewed policies [Renewal] should be searched for."
+
+#: ../../user_manual/insuree_policies/policy.rst:135
+msgid "``Inactive Insurees``"
+msgstr "``Inactive Insurees``"
+
+#: ../../user_manual/insuree_policies/policy.rst:137
+msgid "Check the box to select only policies for families/groups with insurees which are non-active (not covered) despite the policy of their family/group is active. The reason may be addition of a new insuree (member) to the family/group with an active policy without adequate payment of additional contributions or because the maximum number of members in the family/group exceeds the maximum number determined by the insurance product of the policy."
+msgstr "Check the box to select only policies for families/groups with insurees which are non-active (not covered) despite the policy of their family/group is active. The reason may be addition of a new insuree (member) to the family/group with an active policy without adequate payment of additional contributions or because the maximum number of members in the family/group exceeds the maximum number determined by the insurance product of the policy."
+
+#: ../../user_manual/insuree_policies/policy.rst:139
+msgid "``Historical``"
+msgstr "``Historical``"
+
+#: ../../user_manual/insuree_policies/policy.rst:141
+msgid "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image104`)"
+msgstr "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image104`)"
+
+#: ../../user_manual/insuree_policies/policy.rst:147
+msgid "`Historical records - Result Panel`"
+msgstr "`Historical records - Result Panel`"
+
+#: ../../user_manual/insuree_policies/policy.rst:149
+msgid "``Search button``"
+msgstr "``Search button``"
+
+#: ../../user_manual/insuree_policies/policy.rst:151
+msgid "Once the criteria have been entered, use the ``Search`` button to filter the records, the results will appear in the Result Panel."
+msgstr "Once the criteria have been entered, use the ``Search`` button to filter the records, the results will appear in the Result Panel."
+
+#: ../../user_manual/insuree_policies/policy.rst:153
+msgid "**Result Panel**"
+msgstr "**Result Panel**"
+
+#: ../../user_manual/insuree_policies/policy.rst:155
+msgid "The Result Panel displays a list of all policies found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image105`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
+msgstr "The Result Panel displays a list of all policies found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image105`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
+
+#: ../../user_manual/insuree_policies/policy.rst:161
+msgid "`Selected record (blue), hovered records (yellow) - Result Panel`"
+msgstr "`Selected record (blue), hovered records (yellow) - Result Panel`"
+
+#: ../../user_manual/insuree_policies/policy.rst:163
+msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image106`)"
+msgstr "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image106`)"
+
+#: ../../user_manual/insuree_policies/policy.rst:169
+msgid "`Page selector- Result Panel`"
+msgstr "`Page selector- Result Panel`"
+
+#: ../../user_manual/insuree_policies/policy.rst:171
+msgid "**Button Panel**"
+msgstr "**Button Panel**"
+
+#: ../../user_manual/insuree_policies/policy.rst:173
+msgid "The ``Cancel`` button re-directs to the :ref:`Home Page <home_page>`."
+msgstr "The ``Cancel`` button re-directs to the :ref:`Home Page <home_page>`."
+
+#: ../../user_manual/insuree_policies/policy.rst:175
+msgid "**Information Panel**"
+msgstr "**Information Panel**"
+
+#: ../../user_manual/insuree_policies/policy.rst:177
+msgid "The Information Panel is used to display messages back to the user. Messages will occur once a policy has been added, updated or deleted or if there was an error at any time during the process of these actions."
+msgstr "The Information Panel is used to display messages back to the user. Messages will occur once a policy has been added, updated or deleted or if there was an error at any time during the process of these actions."
+
+#: ../../user_manual/insuree_policies/policy.rst:180
+msgid "Policy Page"
+msgstr "Policy Page"
+
+#: ../../user_manual/insuree_policies/policy.rst:182
+msgid "**Data Entry**"
+msgstr "**Data Entry**"
+
+#: ../../user_manual/insuree_policies/policy.rst:188
+msgid "`Policy Page`"
+msgstr "`Policy Page`"
+
+#: ../../user_manual/insuree_policies/policy.rst:190
+msgid "``Enrolment Date``"
+msgstr "``Enrolment Date``"
+
+#: ../../user_manual/insuree_policies/policy.rst:192
+msgid "Enter the enrolment date for the policy. Mandatory. *Note: You can also use the button next to the enrolment date field to select a date to be entered.*"
+msgstr "Enter the enrolment date for the policy. Mandatory. *Note: You can also use the button next to the enrolment date field to select a date to be entered.*"
+
+#: ../../user_manual/insuree_policies/policy.rst:196
+msgid "Select from the list of available products the product of the policy. Mandatory."
+msgstr "Select from the list of available products the product of the policy. Mandatory."
+
+#: ../../user_manual/insuree_policies/policy.rst:198
+msgid "``Effective Date``"
+msgstr "``Effective Date``"
+
+#: ../../user_manual/insuree_policies/policy.rst:200
+msgid "The effective date for the policy is calculated automatically later on. The effective date is the maximum of the start date and the date when the last contribution was paid or when the user enforced activation of the policy."
+msgstr "The effective date for the policy is calculated automatically later on. The effective date is the maximum of the start date and the date when the last contribution was paid or when the user enforced activation of the policy."
+
+#: ../../user_manual/insuree_policies/policy.rst:202
+msgid "``Start Date``"
+msgstr "``Start Date``"
+
+#: ../../user_manual/insuree_policies/policy.rst:204
+msgid "The start date for the policy is calculated automatically. Either it is the enrolment date plus the administration period of the insurance product associated with the policy for free enrolment (without cycles) or it is a cycle start date determined according to enrolment date and the administration period for enrolment in fixed cycles. The start date may be modified by the user."
+msgstr "The start date for the policy is calculated automatically. Either it is the enrolment date plus the administration period of the insurance product associated with the policy for free enrolment (without cycles) or it is a cycle start date determined according to enrolment date and the administration period for enrolment in fixed cycles. The start date may be modified by the user."
+
+#: ../../user_manual/insuree_policies/policy.rst:206
+msgid "``Expiry Date``"
+msgstr "``Expiry Date``"
+
+#: ../../user_manual/insuree_policies/policy.rst:208
+msgid "The expiry date for the policy is calculated automatically. When entering a new policy, the expiry date is the start date plus the insurance period of the insurance product associated with the policy for free enrolment or the cycle start date plus the insurance period for enrolment in fixed cycles."
+msgstr "The expiry date for the policy is calculated automatically. When entering a new policy, the expiry date is the start date plus the insurance period of the insurance product associated with the policy for free enrolment or the cycle start date plus the insurance period for enrolment in fixed cycles."
+
+#: ../../user_manual/insuree_policies/policy.rst:212
+msgid "Select from the list of available enrolment officers the enrolment officer related to the policy. Mandatory"
+msgstr "Select from the list of available enrolment officers the enrolment officer related to the policy. Mandatory"
+
+#: ../../user_manual/insuree_policies/policy.rst:214
+msgid "**Saving**"
+msgstr "**Saving**"
+
+#: ../../user_manual/insuree_policies/policy.rst:216
+msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Family Overview Page, <#family-overview-page.>`__ with the newly saved record displayed and selected in the result panel. A message confirming that the policy has been saved will appear on the Information Panel."
+msgstr "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Family Overview Page, <#family-overview-page.>`__ with the newly saved record displayed and selected in the result panel. A message confirming that the policy has been saved will appear on the Information Panel."
+
+#: ../../user_manual/insuree_policies/policy.rst:218
+msgid "**Mandatory data**"
+msgstr "**Mandatory data**"
+
+#: ../../user_manual/insuree_policies/policy.rst:220
+msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk)."
+msgstr "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk)."
+
+#: ../../user_manual/insuree_policies/policy.rst:222
+msgid "**Cancel**"
+msgstr "**Cancel**"
+
+#: ../../user_manual/insuree_policies/policy.rst:224
+msgid "By clicking on the ``Cancel`` button, the user will be re-directed to the `Family Overview Page <#family-overview-page.>`__."
+msgstr "By clicking on the ``Cancel`` button, the user will be re-directed to the `Family Overview Page <#family-overview-page.>`__."
+
+#: ../../user_manual/insuree_policies/policy.rst:227
+msgid "Adding a Policy"
+msgstr "Adding a Policy"
+
+#: ../../user_manual/insuree_policies/policy.rst:229
+msgid "Click on the ``Green Plus Sign`` to re-direct to the `Policy Page <#policy-page>`__\\ ."
+msgstr "Click on the ``Green Plus Sign`` to re-direct to the `Policy Page <#policy-page>`__\\ ."
+
+#: ../../user_manual/insuree_policies/policy.rst:231
+msgid "When the page opens all entry fields are empty. See the `Policy Page <#policy-page>`__ for information on the data entry and mandatory fields."
+msgstr "When the page opens all entry fields are empty. See the `Policy Page <#policy-page>`__ for information on the data entry and mandatory fields."
+
+#: ../../user_manual/insuree_policies/policy.rst:234
+msgid "Editing a Policy"
+msgstr "Editing a Policy"
+
+#: ../../user_manual/insuree_policies/policy.rst:236
+msgid "Click on the ``Yellow Pencil Sign`` to re-direct to the `Policy Page <#policy-page>`__\\ ."
+msgstr "Click on the ``Yellow Pencil Sign`` to re-direct to the `Policy Page <#policy-page>`__\\ ."
+
+#: ../../user_manual/insuree_policies/policy.rst:238
+msgid "The page will open with the current information loaded into the data entry fields. See the `Policy Page <#policy-page>`__ for information on the data entry and mandatory fields."
+msgstr "The page will open with the current information loaded into the data entry fields. See the `Policy Page <#policy-page>`__ for information on the data entry and mandatory fields."
+
+#: ../../user_manual/insuree_policies/policy.rst:241
+msgid "Deleting a Policy"
+msgstr "Deleting a Policy"
+
+#: ../../user_manual/insuree_policies/policy.rst:243
+msgid "Click on the ``Red Cross Sign`` to delete the currently selected policy."
+msgstr "Click on the ``Red Cross Sign`` to delete the currently selected policy."
+
+#: ../../user_manual/insuree_policies/policy.rst:245
+msgid "Before deleting of a policy, all contributions of the policy should be deleted. Before deleting a confirmation popup (:numref:`image129`) is displayed, which requires the user to confirm if the action should really be carried out?"
+msgstr "Before deleting of a policy, all contributions of the policy should be deleted. Before deleting a confirmation popup (:numref:`image129`) is displayed, which requires the user to confirm if the action should really be carried out?"
+
+#: ../../user_manual/insuree_policies/policy.rst:251
+msgid "`Delete confirmation- Button Panel`"
+msgstr "`Delete confirmation- Button Panel`"
+
+#: ../../user_manual/insuree_policies/policy.rst:253
+msgid "When a policy is deleted, all records retaining to the deleted policy will still be available by selecting historical records."
+msgstr "When a policy is deleted, all records retaining to the deleted policy will still be available by selecting historical records."
+

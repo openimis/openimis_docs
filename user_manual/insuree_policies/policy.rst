@@ -52,7 +52,7 @@ Find Policy Page
 
     * ``Effective Date To``
 
-      Type in a date; or use the Date Selector Button, to enter the ^^Effective Date To'' to search for policies with an ^^Effective Date^^ equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
+      Type in a date; or use the Date Selector Button, to enter the ``Effective Date To`` to search for policies with an ``Effective Date To`` equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
     * ``Start Date From``
 

@@ -1,0 +1,218 @@
+msgid ""
+msgstr "" 
+"Project-Id-Version: openIMIS \n" 
+"Report-Msgid-Bugs-To: \n" 
+"POT-Creation-Date: 2019-08-16 15:21+0200\n" 
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n" 
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n" 
+"Language-Team: LANGUAGE <LL@li.org>\n" 
+"MIME-Version: 1.0\n" 
+"Content-Type: text/plain; charset=UTF-8\n" 
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Payers Administration"
+msgstr "Payers Administration"
+
+msgid "The register of payers contains all institutional payers that can pay contributions on behalf of policy holders (e.g. private organizations, local authorities, cooperatives etc.). Payer administration is restricted to users with the role of Scheme Administrator."
+msgstr "The register of payers contains all institutional payers that can pay contributions on behalf of policy holders (e.g. private organizations, local authorities, cooperatives etc.). Payer administration is restricted to users with the role of Scheme Administrator."
+
+msgid "Pre-conditions"
+msgstr "Pre-conditions"
+
+msgid "A payer may only be added or thereafter edited or deleted, after the approval of the management of the scheme administration."
+msgstr "A payer may only be added or thereafter edited or deleted, after the approval of the management of the scheme administration."
+
+msgid "Navigation"
+msgstr "Navigation"
+
+msgid "`Navigation Payers`"
+msgstr "`Navigation Payers`"
+
+msgid "All functionality for use with the administration of payers can be found under the main menu ``Administration``, sub menu ``Payers.``"
+msgstr "All functionality for use with the administration of payers can be found under the main menu ``Administration``, sub menu ``Payers.``"
+
+msgid "`Payers Control Page`"
+msgstr "`Payers Control Page`"
+
+msgid "Clicking on the sub menu ``Payers`` re-directs the current user to the `Payer Control Page <#payer-control-page>`__\\."
+msgstr "Clicking on the sub menu ``Payers`` re-directs the current user to the `Payer Control Page <#payer-control-page>`__\\."
+
+msgid "Payer Control Page"
+msgstr "Payer Control Page"
+
+msgid "The Payer control Page is the central point for all payer administration. By having access to this page, it is possible to add, edit, delete and search (institutional) payers. The page is divided into four panels (:numref:`image76`)."
+msgstr "The Payer control Page is the central point for all payer administration. By having access to this page, it is possible to add, edit, delete and search (institutional) payers. The page is divided into four panels (:numref:`image76`)."
+
+msgid "**Search Panel**"
+msgstr "**Search Panel**"
+
+msgid "The search panel allows a user to select specific criteria to minimise the search results. In the case of payers the following search options are available which can be used alone or in combination with each other."
+msgstr "The search panel allows a user to select specific criteria to minimise the search results. In the case of payers the following search options are available which can be used alone or in combination with each other."
+
+msgid "``Name``"
+msgstr "``Name``"
+
+msgid "Type in the beginning of; or the full ``name``; to search for payers with a ``name``, that starts with or matches completely, the typed text."
+msgstr "Type in the beginning of; or the full ``name``; to search for payers with a ``name``, that starts with or matches completely, the typed text."
+
+msgid "``Email``"
+msgstr "``Email``"
+
+msgid "Type in the beginning of; or the full ``Email`` to search for payers with an ``Email``, that starts with or matches completely, the typed text."
+msgstr "Type in the beginning of; or the full ``Email`` to search for payers with an ``Email``, that starts with or matches completely, the typed text."
+
+msgid "``Region``"
+msgstr "``Region``"
+
+msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select payers from a specific region. The option **National** means that the payer is common for all regions. *Note: The list will only be filled with the regions assigned to the current logged in user and with the option National. All nationwide payers and all regional payers relating to the selected region will be found. If no district is selected then also all district payers for districts belonging to the selected region will be found.*"
+msgstr "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select payers from a specific region. The option **National** means that the payer is common for all regions. *Note: The list will only be filled with the regions assigned to the current logged in user and with the option National. All nationwide payers and all regional payers relating to the selected region will be found. If no district is selected then also all district payers for districts belonging to the selected region will be found.*"
+
+msgid "``District``"
+msgstr "``District``"
+
+msgid "Select the ``district``; from the list of districts by clicking on the arrow on the right of the selector to select payers from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the currently logged in user. If this is only one then the district will be automatically selected*"
+msgstr "Select the ``district``; from the list of districts by clicking on the arrow on the right of the selector to select payers from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the currently logged in user. If this is only one then the district will be automatically selected*"
+
+msgid "``Phone Number``"
+msgstr "``Phone Number``"
+
+msgid "Type in the beginning of; or the full ``Phone Number`` to search for payers with a ``Phone Number``, that starts with or matches completely, the typed number."
+msgstr "Type in the beginning of; or the full ``Phone Number`` to search for payers with a ``Phone Number``, that starts with or matches completely, the typed number."
+
+msgid "``Type``"
+msgstr "``Type``"
+
+msgid "Select the ``Type``; from the list of types of payers by clicking on the arrow on the right of the selector to select payers of specific type."
+msgstr "Select the ``Type``; from the list of types of payers by clicking on the arrow on the right of the selector to select payers of specific type."
+
+msgid "``Historical``"
+msgstr "``Historical``"
+
+msgid "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image77`)."
+msgstr "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image77`)."
+
+msgid "`Historical records - Result Panel`"
+msgstr "`Historical records - Result Panel`"
+
+msgid "``Search Button``"
+msgstr "``Search Button``"
+
+msgid "Once the criteria have been entered, use the search button to filter the records, the results will appear in the result panel."
+msgstr "Once the criteria have been entered, use the search button to filter the records, the results will appear in the result panel."
+
+msgid "**Result Panel**"
+msgstr "**Result Panel**"
+
+msgid "`Selected record (blue), hovered records (yellow) - Result Panel`"
+msgstr "`Selected record (blue), hovered records (yellow) - Result Panel`"
+
+msgid "The result panel displays a list of all payers found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image78`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
+msgstr "The result panel displays a list of all payers found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image78`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
+
+msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image79`)."
+msgstr "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image79`)."
+
+msgid "`Page selector- Result Panel`"
+msgstr "`Page selector- Result Panel`"
+
+msgid "**Button Panel**"
+msgstr "**Button Panel**"
+
+msgid "With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button."
+msgstr "With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button."
+
+msgid "**Information Panel**"
+msgstr "**Information Panel**"
+
+msgid "The Information Panel is used to display messages back to the user. Messages will occur once a payer has been added, updated or deleted or if there was an error at any time during the process of these actions."
+msgstr "The Information Panel is used to display messages back to the user. Messages will occur once a payer has been added, updated or deleted or if there was an error at any time during the process of these actions."
+
+msgid "Payer Page"
+msgstr "Payer Page"
+
+msgid "**Data Entry**"
+msgstr "**Data Entry**"
+
+msgid "`Payer Page`"
+msgstr "`Payer Page`"
+
+msgid "Select the type of the payer from the list by clicking on the arrow on the right hand side of the lookup. Mandatory."
+msgstr "Select the type of the payer from the list by clicking on the arrow on the right hand side of the lookup. Mandatory."
+
+msgid "Enter the name for the payer. Mandatory, 100 characters maximum."
+msgstr "Enter the name for the payer. Mandatory, 100 characters maximum."
+
+msgid "``Address``"
+msgstr "``Address``"
+
+msgid "Enter address of the payer. Mandatory, 100 characters maximum."
+msgstr "Enter address of the payer. Mandatory, 100 characters maximum."
+
+msgid "Enter the phone number for the payer. 50 characters maximum."
+msgstr "Enter the phone number for the payer. 50 characters maximum."
+
+msgid "``Fax``"
+msgstr "``Fax``"
+
+msgid "Enter the fax number for the payer. 50 characters maximum."
+msgstr "Enter the fax number for the payer. 50 characters maximum."
+
+msgid "Enter the email for the payer. 50 characters maximum."
+msgstr "Enter the email for the payer. 50 characters maximum."
+
+msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to enter the region to which the payer belongs. The region **National** means that the payer is common for all regions. *Note: The list will only be filled with the regions assigned to the current logged in user and with the option National.* Mandatory."
+msgstr "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to enter the region to which the payer belongs. The region **National** means that the payer is common for all regions. *Note: The list will only be filled with the regions assigned to the current logged in user and with the option National.* Mandatory."
+
+msgid "Select the ``district`` to which the payer belongs, from the list by clicking on the arrow on the right hand side of the lookup. *Note: The list will only be filled with the districts assigned to the selected region and currently logged in user. If this is only one then the district will be automatically selected.* It is not mandatory to enter a district. Not selecting a district will mean the payer operates in all districts of the region or nationwide if the region National is selected."
+msgstr "Select the ``district`` to which the payer belongs, from the list by clicking on the arrow on the right hand side of the lookup. *Note: The list will only be filled with the districts assigned to the selected region and currently logged in user. If this is only one then the district will be automatically selected.* It is not mandatory to enter a district. Not selecting a district will mean the payer operates in all districts of the region or nationwide if the region National is selected."
+
+msgid "**Saving**"
+msgstr "**Saving**"
+
+msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Payer Control Page <#payer-control-page>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the payer has been saved will appear on the Information Panel."
+msgstr "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Payer Control Page <#payer-control-page>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the payer has been saved will appear on the Information Panel."
+
+msgid "**Mandatory data**"
+msgstr "**Mandatory data**"
+
+msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk on the right of the corresponding data field)."
+msgstr "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk on the right of the corresponding data field)."
+
+msgid "**Cancel**"
+msgstr "**Cancel**"
+
+msgid "By clicking on the ``Cancel`` button, the user will be re-directed to the `Payer Control Page <#payer-control-page>`__."
+msgstr "By clicking on the ``Cancel`` button, the user will be re-directed to the `Payer Control Page <#payer-control-page>`__."
+
+msgid "Adding a Payer"
+msgstr "Adding a Payer"
+
+msgid "Click on the ``Add`` button to re-direct to the `Payer Page <#payer-page>`__\\ ."
+msgstr "Click on the ``Add`` button to re-direct to the `Payer Page <#payer-page>`__\\ ."
+
+msgid "When the page opens all entry fields are empty. See the `Payer Page <#payer-page>`__ for information on the data entry and mandatory fields."
+msgstr "When the page opens all entry fields are empty. See the `Payer Page <#payer-page>`__ for information on the data entry and mandatory fields."
+
+msgid "Editing a Payer"
+msgstr "Editing a Payer"
+
+msgid "Click on the ``Edit`` button to re-direct to the `Payer Page <#payer-page>`__\\ ."
+msgstr "Click on the ``Edit`` button to re-direct to the `Payer Page <#payer-page>`__\\ ."
+
+msgid "The page will open with the current information loaded into the data entry fields. See the `Payer Page <#payer-page>`__ for information on the data entry and mandatory fields."
+msgstr "The page will open with the current information loaded into the data entry fields. See the `Payer Page <#payer-page>`__ for information on the data entry and mandatory fields."
+
+msgid "Deleting a Payer"
+msgstr "Deleting a Payer"
+
+msgid "Click on the Delete button to delete the currently selected record."
+msgstr "Click on the Delete button to delete the currently selected record."
+
+msgid "Before deleting a confirmation popup (:numref:`image81`) is displayed, which requires the user to confirm if the action should really be carried out?"
+msgstr "Before deleting a confirmation popup (:numref:`image81`) is displayed, which requires the user to confirm if the action should really be carried out?"
+
+msgid "`Delete confirmation- Button Panel`"
+msgstr "`Delete confirmation- Button Panel`"
+
+msgid "When a payer is deleted, all records retaining to the deleted payer will still be available by selecting historical records."
+msgstr "When a payer is deleted, all records retaining to the deleted payer will still be available by selecting historical records."
