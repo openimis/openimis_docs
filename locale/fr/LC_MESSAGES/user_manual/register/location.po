@@ -58,8 +58,8 @@ msgid "**Locations Panel**"
 msgstr "**Panneau des lieux**"
 
 
-msgid "This is the working panel and is divided into four vertical panels of ``Regions, Districts, Municipalities`` and ``Villages.``"
-msgstr "Ceci est le panneau de travail et est divisé en quatre panneaux verticaux de ``régions, districts, municipalités`` et ``villages``."
+msgid "This is the working panel and is divided into four vertical panels of ``Regions``, ``Districts``, ``Municipalities`` and ``Villages.``"
+msgstr "Ceci est le panneau de travail et est divisé en quatre panneaux verticaux de ``régions``, ``districts``, ``municipalités`` et ``villages``."
 
 
 msgid "**Button Panel**"
@@ -90,8 +90,8 @@ msgstr "Le panneau d'informations est utilisé pour afficher les messages à l'u
 msgid "Adding a Region, District, Municipality, Village"
 msgstr "Ajout d'une région, d'un district, d'une municipalité, d'un village"
 
-msgid "Focusing on the appropriate level of locations by clicking on the black or the empty bar on the top of the appropriate panel and clicking on the ``Add`` button will open up in the top of the screen an empty entry box. Here one could enter the new code (**Code**) and name (**Name**) of a region, district, municipality or village. For villages, the number of male inhabitants (**M**), female inhabitants (**F**), inhabitants with the unspecified gender (**O**) and the number of families (**Fam.**) can be specified. On clicking the ``Save`` button the new record will be saved."
-msgstr "En se concentrant sur le niveau approprié des lieux en cliquant sur le noir ou le vide de la barre sur le haut de la fenêtre appropriée et en cliquant sur le bouton `Ajouter` sera ouverte dans le haut de l'écran une zone de saisie vide. Ici, on pourrait entrer dans le nouveau code (**Code**) et le nom (**Nom**) d'une région, d'un district, d'une municipalité ou d'un village. Pour les villages, le nombre d'habitants de sexe masculin (**M**), les habitants (**F**), les habitants à l'une quelconque des sexes (**O**) et le nombre de familles (**Fam.**) peut être spécifié. En cliquant sur le bouton `Enregistrer`, le nouvel enregistrement sera sauvegardé."
+msgid "Focusing on the appropriate level of locations by clicking on the ``Add`` button will open up a modal entry box. Here one could enter the new code (**Code**) and name (**Name**) of a region, district, municipality or village. For villages, the number of male inhabitants (**M**), female inhabitants (**F**), inhabitants with the unspecified gender (**O**) and the number of families (**Fam.**) can be specified. On clicking the ``Save`` button the new record will be saved."
+msgstr "En se allant sur le niveau approprié des lieux et en cliquant sur le noir ou le vide de la barre sur le haut de la sur le bouton `Ajouter` , une fenêtre modale sera ouverteavec les zones de saisie vide. Ici, on pourrait entrer dans le nouveau code (**Code**) et le nom (**Nom**) d'une région, d'un district, d'une municipalité ou d'un village. Pour les villages, le nombre d'habitants de sexe masculin (**M**), les habitants (**F**), les habitants à l'une quelconque des sexes (**O**) et le nombre de familles (**Fam.**) peut être spécifié. En cliquant sur le bouton `Enregistrer`, le nouvel enregistrement sera sauvegardé."
 
 
 msgid "Editing a Region, District, Municipality, Village"
@@ -124,35 +124,26 @@ msgstr "Lorsqu'une région, un district, une municipalité ou un village est sup
 msgid "Moving a District, Municipality, Village"
 msgstr "Déplacement d'un district, d'une municipalité ou d'un village"
 
-msgid "Moving of a location is needed when the administrative division of the territory, on which a health insurance scheme is active, changes. Clicking on the ``Move`` button will re-direct to the Move Location Page (:numref:`image86`)."
-msgstr "Le déplacement d'un endroit est nécessaire lors de la division administrative du territoire, sur lequel un régime d'assurance maladie est active, les changements. En cliquant sur le bouton `Déplacer` re-diriger vers le Déplacer lieux de la Page (:numref:`image86`)."
+msgid "Moving of a location is needed when the administrative division of the territory, on which a health insurance scheme is active, changes. Clicking on the ``Move`` button will open the move location box (:numref:`location_move`)."
+msgstr "Le déplacement d'un lieu est nécessaire lors de la division administrative du territoire, sur lequel un régime d'assurance maladie est active, les changements. En cliquant sur le bouton ``Déplacer``  Ouvre la fenêtre de déplacement des lieux (:numref:`location_move`)."
 
 
 msgid "`Move Location Page`"
 msgstr "`Déplacer la page de localisation`"
 
 
-msgid "The ``Move Location Page`` is divided into six panels."
-msgstr "La ``page de localisation des déplacements`` est divisée en six panneaux."
+
+msgid "**Move Location box**"
+msgstr "**Fenêtre de déplacement des lieux**"
+
+msgid "The move location box is composed of three sections, the first display the name of the location to be moved. The second display the name of the current parent when the third enable the selection of the future parents."
+msgstr "La fenêtre de déplacement des lieux est composée de trois sections, la première affiche le nom du lieu à déplacer. La deuxième affiche le nom du parent actuel lorsque la troisième permet de sélectionner les futurs parents."
+
+msgid "For moving a location, select the new parents (village, municipality, district), the fields will appear when needed, for example the municipality drop-down list will be displayed only if the district is selected. The level of the location can be changed by choosing the lower (resp. higher) parent having a different level from the current parent; be aware that the lowest location is the village, therefore if a municipality is moved to village level then the villages under the moved municipality will remain villages but will be moved under the municipality chosen the new parent of the to-be moved municipality."
+msgstr "Pour un déménagement, sélectionnez les nouveaux parents (village, municipalité, district), les champs apparaîtront si nécessaire, par exemple la liste déroulante de la municipalité ne sera affichée que si le district est sélectionné. Le niveau du lieu peut être modifié en choisissant le parent inférieur (resp. supérieur) ayant un niveau différent de celui du parent actuel ; sachez que la localisation la plus basse est le village, par conséquent si une municipalité est déplacée au niveau du village, les villages sous la municipalité déplacée resteront des villages mais seront déplacés sous la municipalité choisie comme le nouveau parent de la municipalité à déplacer."
 
 
-msgid "**Locations Panels  (A ,B,C,D)**"
-msgstr "**Panneaux d'Lieux (A, B, C, D)**"
 
-msgid "The pair of A and B panels is used for moving of a village to another municipality. The pair of B and C panels is used for moving of a municipality to another district. The pair C and D is used for moving a district to another region."
-msgstr "La paire de A et B des panneaux est utilisé pour déplacer d'un village à l'autre municipalité. La paire de B et C par des panneaux est utilisé pour le déplacement d'une municipalité à l'autre district. La paire de C et D est utilisé pour le déplacement d'un district à l'autre de la région."
+msgid "The Move will be effective once the ``Move`` button is clicked."
+msgstr "Le déplacement réel d'un lieux dans un nouvel lieux parent se fait en cliquant sur le bouton "Déplacer"."
 
-msgid "For moving a location, select a location (village, municipality, district) in two adjacent panels by selecting of higher level locations in the fields ``Region, District, Municipality`` and clicking on the selected location (village, municipality, district) in a panel and on a new parent location in the next panel."
-msgstr "Pour déplacer un lieux, sélectionnez un lieux (un village, une municipalité, d'un district) de deux panneaux adjacents en sélectionnant un niveau plus élevé d'Lieux dans les champs `de la Région, District, Municipalité`, et en cliquant sur le lieux sélectionné (village, commune, quartier) dans un panneau et sur un nouveau parent lieux dans le panneau suivant."
-
-
-msgid "Actual moving of a location into a new parent locations is done by clicking on the green arrow between the two corresponding location panels."
-msgstr "Le déplacement réel d'un lieux dans un nouvel lieux parent se fait en cliquant sur la flèche verte entre les deux panneaux d'lieux correspondants."
-
-
-msgid "It has only the ``Cancel`` button for re-directing to the `Location Page <#locations-page>`__."
-msgstr "Il n'a que le bouton ``Annuler`` pour rediriger vers la `Page de localisation <#locations-page>`__."
-
-
-msgid "The Information Panel is used to display messages back to the user. Messages will occur once a district, municipality or village has been moved or if there was an error at any time during the process of this action."
-msgstr "Le panneau d'informations est utilisé pour afficher les messages à l'utilisateur. Des messages s'afficheront une fois qu'un district, une municipalité ou un village aura été déplacé ou s'il y a eu une erreur à tout moment au cours du processus de cette action."

@@ -257,7 +257,7 @@ msgstr "``Assurés inactifs``"
 
 #: ../../user_manual/insuree_policies/policy.rst:137
 msgid "Check the box to select only policies for families/groups with insurees which are non-active (not covered) despite the policy of their family/group is active. The reason may be addition of a new insuree (member) to the family/group with an active policy without adequate payment of additional contributions or because the maximum number of members in the family/group exceeds the maximum number determined by the insurance product of the policy."
-msgstr "Cochez la case pour sélectionner uniquement les stratégies pour les familles/groupes avec les assurés qui sont des non-actifs (non couverts) en dépit de la police de leur famille et/ou groupe est actif. La raison en est peut-être l'ajout d'un nouveau preneur d'assurance (membre), pour la famille/groupe avec une police active sans paiement de cotisations supplémentaires ou parce que le nombre maximum de membres dans la famille, le groupe dépasse le nombre maximal déterminé par le panier de soins de la police."
+msgstr "Cochez la case pour sélectionner uniquement les stratégies pour les familles/groupes avec les assurés qui sont des non-actifs (non couverts) en dépit de la police de leur famille et/ou groupe est actif. La raison en est peut-être l'ajout d'un nouveau preneur d'assurance (membre), pour la famille/groupe avec une police active sans paiement de cotisations supplémentaires ou parce que le nombre maximum de membres dans la famille, le groupe dépasse le nombre maximal déterminé par le paquet de bénéfices de la police."
 
 #: ../../user_manual/insuree_policies/policy.rst:139
 msgid "``Historical``"
@@ -353,7 +353,7 @@ msgstr "``Date de début``"
 
 #: ../../user_manual/insuree_policies/policy.rst:204
 msgid "The start date for the policy is calculated automatically. Either it is the enrolment date plus the administration period of the insurance product associated with the policy for free enrolment (without cycles) or it is a cycle start date determined according to enrolment date and the administration period for enrolment in fixed cycles. The start date may be modified by the user."
-msgstr "La date de début de la police est calculé automatiquement. Soit c'est la date d'inscription en plus de la période d'administration des paniers de soins liés à la police de libre-inscription (sans cycles) ou c'est une date du début du cycle déterminé selon la date d'inscription et la période d'administration pour l'inscription dans les cycles fixes. La date de début peut être modifiée par l'utilisateur."
+msgstr "La date de début de la police est calculé automatiquement. Soit c'est la date d'inscription en plus de la période d'administration des paquets de bénéfices liés à la police de libre-inscription (sans cycles) ou c'est une date du début du cycle déterminé selon la date d'inscription et la période d'administration pour l'inscription dans les cycles fixes. La date de début peut être modifiée par l'utilisateur."
 
 #: ../../user_manual/insuree_policies/policy.rst:206
 msgid "``Expiry Date``"
@@ -361,7 +361,7 @@ msgstr "``Date d'expiration``"
 
 #: ../../user_manual/insuree_policies/policy.rst:208
 msgid "The expiry date for the policy is calculated automatically. When entering a new policy, the expiry date is the start date plus the insurance period of the insurance product associated with the policy for free enrolment or the cycle start date plus the insurance period for enrolment in fixed cycles."
-msgstr "La date d'expiration de la police est calculée automatiquement. Lors de la souscription d'une nouvelle police, la date d'expiration est la date de début plus la période d'assurance du panier de soins associé à la police pour la souscription gratuite ou la date de début de cycle plus la période d'assurance pour la souscription en cycles fixes."
+msgstr "La date d'expiration de la police est calculée automatiquement. Lors de la souscription d'une nouvelle police, la date d'expiration est la date de début plus la période d'assurance du paquet de bénéfices associé à la police pour la souscription gratuite ou la date de début de cycle plus la période d'assurance pour la souscription en cycles fixes."
 
 #: ../../user_manual/insuree_policies/policy.rst:212
 msgid "Select from the list of available enrolment officers the enrolment officer related to the policy. Mandatory"

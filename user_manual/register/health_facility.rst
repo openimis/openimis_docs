@@ -19,15 +19,15 @@ Navigation
 
   All functionality for use with the administration of health facilities can be found under the main menu ``Administration``, sub menu ``Health Facilities.``
 
-  Clicking on the sub menu ``Health Facilities`` re-directs the current user to the `Health Facilities Control Page <#health-facilities-control-page>`__\.
+  Clicking on the sub menu ``Health Facilities`` re-directs the current user to the `Health Facilities Control Page <#health-facilities-control-page>`__.
 
-  .. _hf_page:
+  .. _hf_search:
   .. figure:: /img/user_manual/hf.page.png
     :align: center
 
     `Health Facilities Control Page`
 
-Health Facilities Control PAGE
+Health Facilities Control Page
 """"""""""""""""""""""""""""""
 
   The ``Health Facilities Control Page`` is the central point for all health facilities administration. By having access to this page, it is possible to add, edit, delete and search. The page is divided into four panels (:numref:`hf_page`)
@@ -78,9 +78,9 @@ Health Facilities Control PAGE
 
     * ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image17`)
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`hf_list_historic`)
 
-      .. _image17:
+      .. _hf_list_historic:
       .. figure:: /img/user_manual/hf.list_historic.png
         :align: center
 
@@ -92,15 +92,15 @@ Health Facilities Control PAGE
 
  #. **Result Panel**
 
-    The result panel displays a list of all health facilities found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image18`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+    The result panel displays a list of all health facilities found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`hf_list_select`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
-      .. _image18:
+      .. _hf_list_select:
       .. figure:: /img/user_manual/hf.list_select.png
         :align: center
 
         `Selected record (blue), hovered records (yellow) - Result Panel`
 
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image19`)
+    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`mat_record_per_page`)
 
 
  #. **Button Panel**
@@ -116,7 +116,7 @@ Health Facility Page
 
  #. **Data Entry**
 
-    .. _image20:
+    .. _hf_page:
     .. figure:: /img/user_manual/hf.page.png
       :align: center
 
@@ -208,7 +208,7 @@ Adding a Health Facility
 Editing a Health Facility
 """""""""""""""""""""""""
 
-  Click on the ``Edit`` button to re-direct to the `Health Facility Page <#health-facility-page>`__\ .
+  Double click on the line to be re-directed to the `Health Facility Page <#health-facility-page>`__ .
 
   The page will open with the current information loaded into the data entry fields. See the `Health Facility Page <#health-facility-page>`__ for information on the data entry and mandatory fields
 
@@ -217,9 +217,9 @@ Deleting a Health Facility
 
   Click on the ``Delete`` button to delete the currently selected record.
 
-  Before deleting a confirmation popup (:numref:`image21`) is displayed, which requires the user to confirm if the action should really be carried out?
+  Before deleting a confirmation popup (:numref:`hf_delete_conf`) is displayed, which requires the user to confirm if the action should really be carried out?
 
-    .. _image21:
+    .. _hf_delete_conf:
     .. figure:: /img/user_manual/hf.delete_conf.png
       :align: center
 

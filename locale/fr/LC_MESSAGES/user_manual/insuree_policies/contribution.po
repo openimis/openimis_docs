@@ -261,7 +261,7 @@ msgstr "``No de reçu``"
 
 
 msgid "Enter the receipt identification for the contribution. Receipt identification has to be unique within all policies of the insurance product. Mandatory."
-msgstr "Saisissez l'identifiant du reçu pour la contribution. L'identification du reçu doit être unique dans toutes les polices du panier de soins. Obligatoire."
+msgstr "Saisissez l'identifiant du reçu pour la contribution. L'identification du reçu doit être unique dans toutes les polices du paquet de bénéfices. Obligatoire."
 
 
 msgid "``Payment Date``"

@@ -46,8 +46,8 @@ msgstr "The Locations page is the central point for all locations administration
 msgid "**Locations Panel**"
 msgstr "**Locations Panel**"
 
-msgid "This is the working panel and is divided into four vertical panels of ``Regions, Districts, Municipalities`` and ``Villages.``"
-msgstr "This is the working panel and is divided into four vertical panels of ``Regions, Districts, Municipalities`` and ``Villages.``"
+msgid "This is the working panel and is divided into four vertical panels of ``Regions``, ``Districts``, ``Municipalities`` and ``Villages.``"
+msgstr "This is the working panel and is divided into four vertical panels of ``Regions``, ``Districts``, ``Municipalities`` and ``Villages.``"
 
 msgid "**Button Panel**"
 msgstr "**Button Panel**"
@@ -74,8 +74,8 @@ msgstr "The Information Panel is used to display messages back to the user. Mess
 msgid "Adding a Region, District, Municipality, Village"
 msgstr "Adding a Region, District, Municipality, Village"
 
-msgid "Focusing on the appropriate level of locations by clicking on the black or the empty bar on the top of the appropriate panel and clicking on the ``Add`` button will open up in the top of the screen an empty entry box. Here one could enter the new code (**Code**) and name (**Name**) of a region, district, municipality or village. For villages, the number of male inhabitants (**M**), female inhabitants (**F**), inhabitants with the unspecified gender (**O**) and the number of families (**Fam.**) can be specified. On clicking the ``Save`` button the new record will be saved."
-msgstr "Focusing on the appropriate level of locations by clicking on the black or the empty bar on the top of the appropriate panel and clicking on the ``Add`` button will open up in the top of the screen an empty entry box. Here one could enter the new code (**Code**) and name (**Name**) of a region, district, municipality or village. For villages, the number of male inhabitants (**M**), female inhabitants (**F**), inhabitants with the unspecified gender (**O**) and the number of families (**Fam.**) can be specified. On clicking the ``Save`` button the new record will be saved."
+msgid "Focusing on the appropriate level of locations by clicking on the ``Add`` button will open up a modal entry box. Here one could enter the new code (**Code**) and name (**Name**) of a region, district, municipality or village. For villages, the number of male inhabitants (**M**), female inhabitants (**F**), inhabitants with the unspecified gender (**O**) and the number of families (**Fam.**) can be specified. On clicking the ``Save`` button the new record will be saved."
+msgstr "Focusing on the appropriate level of locations by clicking on the ``Add`` button will open up a modal entry box. Here one could enter the new code (**Code**) and name (**Name**) of a region, district, municipality or village. For villages, the number of male inhabitants (**M**), female inhabitants (**F**), inhabitants with the unspecified gender (**O**) and the number of families (**Fam.**) can be specified. On clicking the ``Save`` button the new record will be saved."
 
 msgid "Editing a Region, District, Municipality, Village"
 msgstr "Editing a Region, District, Municipality, Village"
@@ -101,29 +101,22 @@ msgstr "When a region, district, municipality or village is deleted, all records
 msgid "Moving a District, Municipality, Village"
 msgstr "Moving a District, Municipality, Village"
 
-msgid "Moving of a location is needed when the administrative division of the territory, on which a health insurance scheme is active, changes. Clicking on the ``Move`` button will re-direct to the Move Location Page (:numref:`image86`)."
-msgstr "Moving of a location is needed when the administrative division of the territory, on which a health insurance scheme is active, changes. Clicking on the ``Move`` button will re-direct to the Move Location Page (:numref:`image86`)."
+msgid "Moving of a location is needed when the administrative division of the territory, on which a health insurance scheme is active, changes. Clicking on the ``Move`` button will open the move location box (:numref:`location_move`)."
+msgstr "Moving of a location is needed when the administrative division of the territory, on which a health insurance scheme is active, changes. Clicking on the ``Move`` button will open the move location box (:numref:`location_move`)."
 
 msgid "`Move Location Page`"
 msgstr "`Move Location Page`"
 
-msgid "The ``Move Location Page`` is divided into six panels."
-msgstr "The ``Move Location Page`` is divided into six panels."
 
-msgid "**Locations Panels  (A ,B,C,D)**"
-msgstr "**Locations Panels  (A ,B,C,D)**"
+msgid "**Move Location box**"
+msgstr "**Move Location box**"
 
-msgid "The pair of A and B panels is used for moving of a village to another municipality. The pair of B and C panels is used for moving of a municipality to another district. The pair C and D is used for moving a district to another region."
-msgstr "The pair of A and B panels is used for moving of a village to another municipality. The pair of B and C panels is used for moving of a municipality to another district. The pair C and D is used for moving a district to another region."
+msgid "The move location box is composed of three sections, the first display the name of the location to be moved. The second display the name of the current parent when the third enable the selection of the future parents."
+msgstr "The move location box is composed of three sections, the first display the name of the location to be moved. The second display the name of the current parent when the third enable the selection of the future parents."
 
-msgid "For moving a location, select a location (village, municipality, district) in two adjacent panels by selecting of higher level locations in the fields ``Region, District, Municipality`` and clicking on the selected location (village, municipality, district) in a panel and on a new parent location in the next panel."
-msgstr "For moving a location, select a location (village, municipality, district) in two adjacent panels by selecting of higher level locations in the fields ``Region, District, Municipality`` and clicking on the selected location (village, municipality, district) in a panel and on a new parent location in the next panel."
+msgid "For moving a location, select the new parents (village, municipality, district), the fields will appear when needed, for example the municipality drop-down list will be displayed only if the district is selected. The level of the location can be changed by choosing the lower (resp. higher) parent having a different level from the current parent; be aware that the lowest location is the village, therefore if a municipality is moved to village level then the villages under the moved municipality will remain villages but will be moved under the municipality chosen the new parent of the to-be moved municipality."
+msgstr "For moving a location, select the new parents (village, municipality, district), the fields will appear when needed, for example the municipality drop-down list will be displayed only if the district is selected. The level of the location can be changed by choosing the lower (resp. higher) parent having a different level from the current parent; be aware that the lowest location is the village, therefore if a municipality is moved to village level then the villages under the moved municipality will remain villages but will be moved under the municipality chosen the new parent of the to-be moved municipality."
 
-msgid "Actual moving of a location into a new parent locations is done by clicking on the green arrow between the two corresponding location panels."
-msgstr "Actual moving of a location into a new parent locations is done by clicking on the green arrow between the two corresponding location panels."
+msgid "The Move will be effective once the ``Move`` button is clicked.."
+msgstr "The Move will be effective once the ``Move`` button is clicked."
 
-msgid "It has only the ``Cancel`` button for re-directing to the `Location Page <#locations-page>`__."
-msgstr "It has only the ``Cancel`` button for re-directing to the `Location Page <#locations-page>`__."
-
-msgid "The Information Panel is used to display messages back to the user. Messages will occur once a district, municipality or village has been moved or if there was an error at any time during the process of this action."
-msgstr "The Information Panel is used to display messages back to the user. Messages will occur once a district, municipality or village has been moved or if there was an error at any time during the process of this action."

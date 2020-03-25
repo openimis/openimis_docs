@@ -68,7 +68,7 @@ msgstr "``Produit``"
 
 
 msgid "Select an insurance product from the list of insurance products purchased in the selected district (including national insurance products) for which the funding is designated."
-msgstr "Sélectionnez un panier de soins dans la liste des paniers de soins achetés dans le district sélectionné (y compris les paniers de soins nationaux) pour lesquels le financement est désigné."
+msgstr "Sélectionnez un paquet de bénéfices dans la liste des paquets de bénéfices achetés dans le district sélectionné (y compris les paquets de bénéfices nationaux) pour lesquels le financement est désigné."
 
 
 msgid "``Payer``"

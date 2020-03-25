@@ -15,7 +15,7 @@ msgid "Medical Items Administration"
 msgstr "Administration des produit médicaux"
 
 msgid "The register of Medical Items contains all medical items (drugs, prostheses) that can be included in packages of benefits of insurance products within the health insurance scheme and are remunerated by the scheme administration. Administration of the register of medical items is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Medical Items."
-msgstr "Le registre d'Produit médicaux, contient tous les produit médicaux (médicaments, prothèses) qui peuvent être inclus dans les packages de prestations de paniers de soins dans le régime d'assurance santé et sont rémunérés par le régime de l'administration. L'Administration du registre de produit médicaux est limité aux utilisateurs avec le rôle de système de Régime d'Administrateur ou avec un rôle, y compris un accès à l'Administration/des Produit médicaux."
+msgstr "Le registre d'Produit médicaux, contient tous les produit médicaux (médicaments, prothèses) qui peuvent être inclus dans les packages de prestations de paquets de bénéfices dans le régime d'assurance santé et sont rémunérés par le régime de l'administration. L'Administration du registre de produit médicaux est limité aux utilisateurs avec le rôle de système de Régime d'Administrateur ou avec un rôle, y compris un accès à l'Administration/des Produit médicaux."
 
 
 msgid "Pre-conditions"

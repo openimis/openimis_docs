@@ -130,7 +130,7 @@ msgstr "Des produits"
 
 
 msgid "An insurance product covering an insuree"
-msgstr "Un panier de soins couvrant un assuré"
+msgstr "Un paquet de bénéfices couvrant un assuré"
 
 
 msgid "Period of enrolment of insurees for new insurees Period of effective day and later of their policies for current insurees"
@@ -182,7 +182,7 @@ msgstr "Nombre de polices vendues au cours d'une période"
 
 
 msgid "An insurance product of a policy"
-msgstr "Un panier de soins d'une police"
+msgstr "Un paquet de bénéfices d'une police"
 
 
 msgid "Period of enrolment date for sold policies Period of expiry date for expired policies Period of renewal date(when renewing was done)  for renewed policies Period of effective day and later for current policies"
@@ -250,7 +250,7 @@ msgstr "Recouvrement des contributions d'un contributeur institutionnel ou des f
 
 
 msgid "Collection of contributions within an insurance product"
-msgstr "Recouvrement des cotisations au sein d'un panier de soins"
+msgstr "Recouvrement des cotisations au sein d'un paquet de bénéfices"
 
 
 msgid "Period of payment date of contributions"
@@ -270,7 +270,7 @@ msgstr "Montant des contributions collectées réparties proportionnellement pou
 
 
 msgid "Allocation of contributions within an insurance product"
-msgstr "Répartition des contributions au sein d'un panier de soins"
+msgstr "Répartition des contributions au sein d'un paquet de bénéfices"
 
 
 msgid "Period of allocation of contributions"
@@ -466,7 +466,7 @@ msgstr "= Nombre de jours d'hospitalisation / Nombre d'hospitalisations"
 
 
 msgid "In case two or more insurance products covered a hospital admission / visit, it is accounted to each of them"
-msgstr "Dans le cas où deux ou plusieurs paniers de soins couvraient une admission / visite à l'hôpital, ils sont comptabilisés pour chacun d'eux"
+msgstr "Dans le cas où deux ou plusieurs paquets de bénéfices couvraient une admission / visite à l'hôpital, ils sont comptabilisés pour chacun d'eux"
 
 
 msgid "Number of out-patient visits"

@@ -73,7 +73,7 @@ msgid "``District``"
 msgstr "``Quartier``"
 
 msgid "Select the ``district`` from the list of districts by clicking on the arrow on the right of the selector to select a district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is the only one then the district will be automatically selected. If no district is selected then the processing is done only for insurance product defined for the selected region.*"
-msgstr "Sélectionnez le `quartier` de la liste des districts, en cliquant sur la flèche à droite du sélecteur pour sélectionner une zone. *Remarque: La liste ne sera rempli avec les districts appartenant à la région sélectionnée et assigné à l'utilisateur connecté. Si c'est le seul alors le quartier sera automatiquement sélectionné. Si aucun district est sélectionnée, alors le traitement est effectué uniquement pour les paniers de soins définies pour la région sélectionnée.*"
+msgstr "Sélectionnez le `quartier` de la liste des districts, en cliquant sur la flèche à droite du sélecteur pour sélectionner une zone. *Remarque: La liste ne sera rempli avec les districts appartenant à la région sélectionnée et assigné à l'utilisateur connecté. Si c'est le seul alors le quartier sera automatiquement sélectionné. Si aucun district est sélectionnée, alors le traitement est effectué uniquement pour les paquets de bénéfices définies pour la région sélectionnée.*"
 
 
 msgid "``Year``"
@@ -120,7 +120,7 @@ msgid "``Process``"
 msgstr "``Processus``"
 
 msgid "Once criteria are chosen, clicking on this button (:numref:`batch_run_process`), the claims will be processed based on the selected criteria. If the option ``National`` was used in the field ``Region``, the batch will run only for nationwide insurance products. If a region is selected in the field ``Region`` and no district is selected, the batch will run only for regional insurance products for the selected region. If a district is selected in the field ``District`` the batch is run only for district insurance products for the selected district."
-msgstr "Une fois les critères sont choisis, en cliquant sur ce bouton (:numref:`batch_run_process`), les prestations seront traitées en fonction des critères sélectionnés. Si l'option `National` a été utilisé dans le domaine de la `Région`, le lot sera exécuté uniquement pour les paniers de soins à l'échelle nationale. Si une région est sélectionnée dans le champ `Région` et pas de quartier est sélectionné, le lot sera exécutée que pour les régionales de paniers de soins pour la région sélectionnée. Si un quartier est sélectionné dans le champ `District` le lot est exécuté uniquement pour le district de paniers de soins pour le district."
+msgstr "Une fois les critères sont choisis, en cliquant sur ce bouton (:numref:`batch_run_process`), les prestations seront traitées en fonction des critères sélectionnés. Si l'option `National` a été utilisé dans le domaine de la `Région`, le lot sera exécuté uniquement pour les paquets de bénéfices à l'échelle nationale. Si une région est sélectionnée dans le champ `Région` et pas de quartier est sélectionné, le lot sera exécutée que pour les régionales de paquets de bénéfices pour la région sélectionnée. Si un quartier est sélectionné dans le champ `District` le lot est exécuté uniquement pour le district de paquets de bénéfices pour le district."
 
 
 msgid "`Batch Run Process Button`"
