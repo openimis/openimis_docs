@@ -24,7 +24,7 @@ sys.path.insert(0, abspath(join(dirname(__file__))))
 
 project = u'openIMIS'
 subproject= u'User manual'
-copyright = u'2019, openIMIS team'
+copyright = u'2020, openIMIS team'
 author = u'openIMIS team'
 html_logo = 'img/logo.png'
 html_favicon = 'img/favicon.ico'
@@ -129,7 +129,7 @@ latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
     'papersize': 'a4paper',
-    'release':"1.3",
+    'release':"1.4.1",
     # Sonny, Lenny, Glenn, Conny, Rejne, Bjarne and Bjornstrup
     # 'fncychap': '\\usepackage[Lenny]{fncychap}',
     'fontpkg': '\\usepackage{amsmath,amsfonts,amssymb,amsthm}',
