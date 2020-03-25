@@ -1,5 +1,3 @@
-
-
 Claim Administrators Administration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -62,7 +60,7 @@ Claim Administrators Control Page
 
       Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image69`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
-      - At any time during the use of the pop-up, the user can see the date of *today*.
+      - At any time during the use of the pop-up, the user can see the date of *today* .
       - Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
       - Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box.
       - Clicking on the arrow to the left displays the previous month.

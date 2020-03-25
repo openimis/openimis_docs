@@ -128,13 +128,13 @@ msgid "**Result Panel**"
 msgstr "**Result Panel**"
 
 msgid "The result panel displays a list of all health facilities found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image18`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
-msgstr "The result panel displays a list of all health facilities found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image18`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
+msgstr "The result panel displays a list of all health facilities found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light grey(:numref:`image18`). The rightmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
 
 msgid "`Selected record (blue), hovered records (yellow) - Result Panel`"
 msgstr "`Selected record (blue), hovered records (yellow) - Result Panel`"
 
 msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image19`)"
-msgstr "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image19`)"
+msgstr "A maximum of 10 records are displayed at one time( can be changed:numref:`mat_page_browser`), further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`mat_record_per_page`)"
 
 msgid "`Page selector- Result Panel`"
 msgstr "`Page selector- Result Panel`"

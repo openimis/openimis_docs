@@ -31,7 +31,7 @@ msgstr "Toutes les fonctionnalités à utiliser avec l'administration des rôles
 
 
 msgid "`Image - Navigation User Roles/profiles`"
-msgstr "`Image - Rôles / profils utilisateur de navigation`"
+msgstr "`Navigation: Image - Rôles / profils utilisateur`"
 
 
 msgid "Clicking on the sub menu ``Users`` re-directs the current user to the `User roles/profiles control page <#user-roles-profiles-control-page>`__\\ ."
@@ -81,7 +81,7 @@ msgstr "Lorsque l'ensemble de la recherche affiche les rôles avec un nom qui co
 
 
 msgid "``System``"
-msgstr "`` Système``"
+msgstr "``Système``"
 
 
 msgid "The system user profiles match the previous roles for compatibility reasons. When set to `TRUE` the search will display the default roles, when set to `FALSE` the search will display only the custom roles"
@@ -213,7 +213,7 @@ msgstr "Assuré"
 
 
 msgid "Policy"
-msgstr "Politique"
+msgstr "Police"
 
 
 msgid "Contribution"
@@ -225,7 +225,7 @@ msgstr "Rôles spécifiques à l'entreprise"
 
 
 msgid "Renew policy"
-msgstr "Renouveler la politique"
+msgstr "Renouveler la police"
 
 
 msgid "Enquire insuree"
@@ -233,15 +233,15 @@ msgstr "Renseignez-vous sur l'assuré"
 
 
 msgid "``Claims``"
-msgstr "``Réclamations``"
+msgstr "``Prestations``"
 
 
 msgid "list of the right available for the `Claims` module:"
-msgstr "liste des droits disponibles pour le module `Réclamations`:"
+msgstr "liste des droits disponibles pour le module `Prestations`:"
 
 
 msgid "Claims"
-msgstr "Réclamations"
+msgstr "Prestations"
 
 
 msgid "Business specific roles:"
@@ -249,7 +249,7 @@ msgstr "Rôles spécifiques à l'entreprise:"
 
 
 msgid "Claims:"
-msgstr "Réclamations:"
+msgstr "Prestations:"
 
 
 msgid "Print"
@@ -277,7 +277,7 @@ msgstr "Processus"
 
 
 msgid "Claim Batch:"
-msgstr "Lot de réclamation:"
+msgstr "Lot de prestation:"
 
 
 msgid "Filter"
@@ -309,7 +309,7 @@ msgstr "Listes de prix - Services médicaux"
 
 
 msgid "Pricelists – Medical Items"
-msgstr "Listes de prix - Articles médicaux"
+msgstr "Listes de prix - Produit médicaux"
 
 
 msgid "Medical Services"
@@ -317,7 +317,7 @@ msgstr "Services médicaux"
 
 
 msgid "Medical Items"
-msgstr "Articles médicaux"
+msgstr "Produit médicaux"
 
 
 msgid "Enrolment Officers"
@@ -325,7 +325,7 @@ msgstr "Agents d'inscription"
 
 
 msgid "Claim Administrators"
-msgstr "Administrateurs de Réclamations"
+msgstr "Administrateurs de prestations"
 
 
 msgid "Users"
@@ -337,11 +337,11 @@ msgstr "Rôles / profils utilisateur"
 
 
 msgid "Payers"
-msgstr "Payeurs"
+msgstr "Contributeurs"
 
 
 msgid "Locations"
-msgstr "Emplacements"
+msgstr "Lieux"
 
 
 msgid "Duplicate Products"
@@ -353,7 +353,7 @@ msgstr "Liste de prix en double - Services médicaux"
 
 
 msgid "Duplicate Pricelists – Medical Items"
-msgstr "Liste de prix en double - Articles médicaux"
+msgstr "Liste de prix en double - Produit médicaux"
 
 
 msgid "Duplicate User roles/profiles"
@@ -361,11 +361,11 @@ msgstr "Rôles / profils utilisateur en double"
 
 
 msgid "Move Locations"
-msgstr "Déplacer des emplacements"
+msgstr "Déplacer des Lieux"
 
 
 msgid "``Tools``"
-msgstr "`` Outils``"
+msgstr "``Outils``"
 
 
 msgid "list of the business rights available for the `Tools` module"
@@ -417,7 +417,7 @@ msgstr "Créer un extrait hors ligne"
 
 
 msgid "Upload Claims"
-msgstr "Importer des réclamations"
+msgstr "Importer des prestations"
 
 
 msgid "Upload Enrolments"
@@ -433,7 +433,7 @@ msgstr "Rapport d'exécution"
 
 
 msgid "Primary Operational Indicators-policies"
-msgstr "Indicateurs opérationnels principaux - politiques"
+msgstr "Indicateurs opérationnels principaux - polices"
 
 
 msgid "Primary Operational Indicators-claims"
@@ -481,7 +481,7 @@ msgstr "Fonds de contrepartie"
 
 
 msgid "Claim Overview"
-msgstr "Aperçu de la réclamation"
+msgstr "Aperçu de la prestation"
 
 
 msgid "Percentage of Referrals"
@@ -533,14 +533,14 @@ msgstr "**Boutons**"
 
 
 msgid "``Save``"
-msgstr "`` Enregistrer``"
+msgstr "``Enregistrer``"
 
 msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `User Control Page <#user-control-page>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the user has been saved will appear on the Information Panel."
 msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton ``Sauvegarder`` sauvegardera l'enregistrement. L'utilisateur sera redirigé vers la `page de contrôle utilisateur <#user-control-page> page de contrôle <#user-control-page>`__, avec l'enregistrement nouvellement enregistré affiché et sélectionné dans le panneau de résultats. Un message confirmant que l'utilisateur a été enregistré apparaîtra sur le panneau d'informations."
 
 
 msgid "``Cancel``"
-msgstr "`` Annuler``"
+msgstr "``Annuler``"
 
 
 msgid "By clicking on the ``Cancel`` button, the user will be re-directed to the `User roles/profiles control page. <#user-roles-profiles-control-page>`__"
@@ -639,7 +639,7 @@ msgstr "Agent d'inscription"
 
 
 msgid "He/she enrols insurees and submits enrolment forms to a health insurance administration; handles policy modifications; collects feedback from scheme patients and submits to the health insurance administration."
-msgstr "Il / elle inscrit les assurés et soumet les formulaires d'adhésion à une administration d'assurance maladie; gère les modifications de politique; recueille les commentaires des patients du régime et les soumet à l'administration de l'assurance maladie."
+msgstr "Il / elle inscrit les assurés et soumet les formulaires d'adhésion à une administration d'assurance maladie; gère les modifications de police; recueille les commentaires des patients du régime et les soumet à l'administration de l'assurance maladie."
 
 
 msgid "* Capture a photo of an Insuree."
@@ -694,7 +694,7 @@ msgid "Accountant"
 msgstr "Comptable"
 
 msgid "Transfers data on collected Contributions to an external accounting system. Calculates claim amounts per health facility, runs openIMIS operational reports and presents claims decision overview to management of a health insurance administrator. Processes approved claims to health facility sub-accounts."
-msgstr "Les transferts de données recueillies sur les Contributions à un système comptable externe. Calcule les montants d'indemnisation par l'établissement de santé, pistes de openIMIS rapports opérationnels et présente des réclamations de décision aperçu de la gestion de l'assurance-santé de l'administrateur. Processus de demandes approuvées à l'établissement de santé sous-comptes."
+msgstr "Les transferts de données recueillies sur les Contributions à un système comptable externe. Calcule les montants d'indemnisation par l'établissement de santé, pistes d'openIMIS rapports opérationnels et présente des prestations de décision aperçu de la gestion de l'assurance-santé de l'administrateur. Processus de demandes approuvées à l'établissement de santé sous-comptes."
 
 
 msgid "* Transfer of data on Contributions to accounting system"
@@ -702,7 +702,7 @@ msgstr "* Transfert de données sur les contributions au système comptable"
 
 
 msgid "* Valuation of a claim"
-msgstr "* Évaluation d'une réclamation"
+msgstr "* Évaluation d'une prestation"
 
 
 msgid "* Transfer of a batch of claims for payment"
@@ -714,18 +714,18 @@ msgstr "Employé de bureau"
 
 
 msgid "Enters and modifies data on families, insurees, policies and contributions. Enters data on claims if the claims are submitted in a paper form."
-msgstr "Entre et modifie les données sur les familles, les assurés, les polices et les cotisations. Entre les données sur les réclamations si les réclamations sont soumises sous forme papier."
+msgstr "Entre et modifie les données sur les familles, les assurés, les polices et les cotisations. Entre les données sur les prestations si les prestations sont soumises sous forme papier."
 
 msgid "* `Creation/ Search/ Modification/ Deletion/ Modification <#family-group-page>`__ of a `household/group <#family-overview-page>`__, an `Insuree <#insuree-page>`_, a `Policy <#policy-page>`__ or a `Contribution <#contribution-page>`__."
 msgstr "* `Création / Recherche / Modification / Suppression / Modification <#family-group-page>`__ d'une `maison / groupe <#family-overview-page>`__, une `Assuré <#insuree-page> ` _, une `Policy <#policy-page>`__ ou une `Contribution <#contribution-page>`__."
 
 
 msgid "* `Renewal of a policy <#policy-renewals>`__"
-msgstr "* `Renouvellement d'une politique <#policy-renewals>`__"
+msgstr "* `Renouvellement d'une police <#policy-renewals>`__"
 
 
 msgid "* `Entry of a claim <#claim-page>`__"
-msgstr "* `Entrée d'une réclamation <#claim-page>`__"
+msgstr "* `Entrée d'une prestation <#claim-page>`__"
 
 
 msgid "Medical Officer"
@@ -733,19 +733,19 @@ msgstr "Médecin"
 
 
 msgid "Provides technical advice on claims verification from a medical standpoint."
-msgstr "Fournit des conseils techniques sur la vérification des réclamations d'un point de vue médical."
+msgstr "Fournit des conseils techniques sur la vérification des prestations d'un point de vue médical."
 
 
 msgid "* Checking of a claim for plausibility"
-msgstr "* Vérification d'une réclamation pour plausibilité"
+msgstr "* Vérification d'une prestation pour plausibilité"
 
 
 msgid "* `Review of a claim <#policy-renewals>`__"
-msgstr "* `Examen d'une réclamation <#policy-renewals>`__"
+msgstr "* `Examen d'une prestation <#policy-renewals>`__"
 
 
 msgid "* `Authorize a claim for payment <#claim-page>`__"
-msgstr "* `Autoriser une réclamation de paiement <#claim-page>`__"
+msgstr "* `Autoriser une prestation de paiement <#claim-page>`__"
 
 
 msgid "Scheme"
@@ -760,7 +760,7 @@ msgid "Administers registers (all except the register of users)"
 msgstr "Administre les registres (tous sauf le registre des utilisateurs)"
 
 msgid "* `Administer registers <#administration-of-registers>`__ ( `Officers, Payers, Health Facilities <#health-facilities-administration>`__, , `Medical Services, Medical Items, Medical Item Price Lists, Medical Services Price List <#medical-service-price-lists-administration>`__, `Products <#claim-administrators-administration>`__)"
-msgstr "* `Administrer les registres <#administration-of-registers>`__ (`Officiers, payeurs, établissements de santé <#health-facilities-administration>`__,, `Services médicaux, produit médicaux, listes de prix de produit médicaux, liste de prix des services médicaux <#medical-service-price-lists-administration>`__,` Products <#claim-administrators-administration>`__)"
+msgstr "* `Administrer les registres <#administration-of-registers>`__ (`Officiers, contributeurs, établissements de santé <#health-facilities-administration>`__,, `Services médicaux, produit médicaux, listes de prix de produit médicaux, liste de prix des soins  <#medical-service-price-lists-administration>`__,` Products <#claim-administrators-administration>`__)"
 
 
 msgid "* `Extract Creation for Off-line Health Facilities <#imis-extracts-online-mode>`__"
@@ -792,7 +792,7 @@ msgstr "Réceptionniste"
 
 
 msgid "Verifies membership and issues to a patient a claim form."
-msgstr "Vérifie l'adhésion et délivre au patient un formulaire de réclamation."
+msgstr "Vérifie l'adhésion et délivre au patient un formulaire de prestation."
 
 
 msgid "* Inquiring on a Household/group, `Insuree <#find-insuree>`__ and `Policy <#find-policy>`__"
@@ -804,15 +804,15 @@ msgstr "Prétendre"
 
 
 msgid "Pools claim forms of a health facility, enters and submits claims."
-msgstr "Les pools réclament les formulaires d'un établissement de santé, saisissent et soumettent les réclamations."
+msgstr "Les pools réclament les formulaires d'un établissement de santé, saisissent et soumettent les prestations."
 
 
 msgid "* Opening of a batch of claims"
-msgstr "* Ouverture d'un lot de réclamations"
+msgstr "* Ouverture d'un lot de prestations"
 
 
 msgid "* Entry of a claim"
-msgstr "* Entrée d'une réclamation"
+msgstr "* Entrée d'une prestation"
 
 
 msgid "HF"

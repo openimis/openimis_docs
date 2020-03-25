@@ -31,7 +31,7 @@ msgstr "Toutes les fonctionnalités à utiliser avec l'administration des rappor
 
 
 msgid "`Navigation Reports`"
-msgstr "`Rapports de navigation`"
+msgstr "`Navigation: Rapports`"
 
 
 msgid "Clicking on the sub menu ``Reports`` re-directs the current user to the Reports Page (:numref:`image204`)."
@@ -54,19 +54,19 @@ msgstr "Les Critères de sélection du panneau ou le panneau de filtre permet à
 
 
 msgid "Primary Operational Indicators - Policies Report."
-msgstr "Indicateurs opérationnels principaux - Rapport sur les politiques."
+msgstr "Indicateurs opérationnels principaux - Rapport sur les polices."
 
 
 msgid "`Primary Operational Indicators - Policies Report Criteria`"
-msgstr "`Indicateurs opérationnels principaux - Critères de rapport sur les politiques`"
+msgstr "`Indicateurs opérationnels principaux - Critères de rapport sur les polices`"
 
 
 msgid "Primary Operational Indicators - Claims Report."
-msgstr "Indicateurs opérationnels principaux - Rapport sur les réclamations."
+msgstr "Indicateurs opérationnels principaux - Rapport sur les prestations."
 
 
 msgid "`Primary Operational Indicators - Claims Report Criteria`"
-msgstr "`Indicateurs opérationnels principaux - Critères de déclaration des réclamations`"
+msgstr "`Indicateurs opérationnels principaux - Critères de déclaration des prestations`"
 
 
 msgid "Derived Operational Indicators Report."
@@ -150,11 +150,11 @@ msgstr "`Critères de rapport des fonds de contrepartie`"
 
 
 msgid "Claim Overview Report."
-msgstr "Rapport de synthèse des réclamations."
+msgstr "Rapport de synthèse des prestations."
 
 
 msgid "`Claim Overview Report Criteria`"
-msgstr "`Critères de rapport de présentation de la réclamation`"
+msgstr "`Critères de rapport de présentation de la prestation`"
 
 
 msgid "Percentage of Referrals Report."
@@ -205,14 +205,14 @@ msgid "``Date From``"
 msgstr "``Date de``"
 
 msgid "Type in a date; or use the Date Selector Button, to enter the beginning of a period, in which policies have their enrolment, effective, expire or renewal days, contributions were paid or in claimed health care was provided. If used with a report, it is mandatory. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
-msgstr "Saisissez une date; ou utilisez le Sélecteur de Date de Bouton de, pour entrer dans le début d'une période, dans laquelle les politiques ont leur inscription, efficace, d'expiration ou de renouvellement de jours, les cotisations ont été versées ou dans réclamé des soins de santé a été fourni. Si utilisé avec un rapport, il est obligatoire. *Remarque. Pour effacer la date d'entrée de la boîte; utilisation de la souris pour sélectionner la date et appuyez sur la touche espace.*"
+msgstr "Saisissez une date; ou utilisez le Sélecteur de Date de Bouton de, pour entrer dans le début d'une période, dans laquelle les polices ont leur inscription, efficace, d'expiration ou de renouvellement de jours, les cotisations ont été versées ou dans réclamé des soins de santé a été fourni. Si utilisé avec un rapport, il est obligatoire. *Remarque. Pour effacer la date d'entrée de la boîte; utilisation de la souris pour sélectionner la date et appuyez sur la touche espace.*"
 
 
 msgid "``Date To``"
 msgstr "``Date à``"
 
 msgid "Type in a date; or use the Date Selector Button, to enter the end of a period, in which policies have their enrolment, effective, expire or renewal days or in which claimed health care was provided. If used with a report, it is mandatory. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
-msgstr "Saisissez une date; ou utilisez le Sélecteur de Date de Bouton de, pour entrer dans la fin d'une période, dans laquelle les politiques ont leur inscription, efficace, d'expiration ou de renouvellement des jours ou des dans le qui revendique de soins de santé ont été fournis. Si utilisé avec un rapport, il est obligatoire. *Remarque. Pour effacer la date d'entrée de la boîte; utilisation de la souris pour sélectionner la date et appuyez sur la touche espace.*"
+msgstr "Saisissez une date; ou utilisez le Sélecteur de Date de Bouton de, pour entrer dans la fin d'une période, dans laquelle les polices ont leur inscription, efficace, d'expiration ou de renouvellement des jours ou des dans le qui revendique de soins de santé ont été fournis. Si utilisé avec un rapport, il est obligatoire. *Remarque. Pour effacer la date d'entrée de la boîte; utilisation de la souris pour sélectionner la date et appuyez sur la touche espace.*"
 
 
 msgid "``Payment Type``"
@@ -223,21 +223,21 @@ msgstr "Sélectionnez le `Type de Paiement`, dans la liste déroulante en cliqua
 
 
 msgid "``Region``"
-msgstr "`` Région``"
+msgstr "``Région``"
 
 msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select a region, data of which should be included for the report. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*"
 msgstr "Sélectionnez la `Région`; à partir de la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner une région, les données qui devraient être inclus pour le rapport. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté. Si ce n'est qu'un alors la région sera automatiquement sélectionné.*"
 
 
 msgid "``District``"
-msgstr "`` Quartier``"
+msgstr "``Quartier``"
 
 msgid "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select a district, data of which should be included for the report. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*"
 msgstr "Sélectionnez le `Quartier`; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur pour sélectionner un district, des données qui devraient être inclus pour le rapport. *Remarque: La liste ne sera rempli avec les districts appartenant à la région sélectionnée et assigné à l'utilisateur connecté. Si ce n'est qu'un, le quartier sera automatiquement sélectionné.*"
 
 
 msgid "``Product``"
-msgstr "`` Produit``"
+msgstr "``Produit``"
 
 msgid "Select the ``Product``; from the list of products by clicking on the arrow on the right of the selector to include in the report data for the specific product. *Note: The list will only be filled with the products belong to the districts assigned to the current logged in user. If this is only one then the product will be automatically selected.*"
 msgstr "Sélectionnez le `Produit`; à partir de la liste des produits en cliquant sur la flèche à droite du sélecteur à inclure dans le rapport les données pour le produit spécifique. *Remarque: La liste ne sera rempli avec les produits appartiennent aux quartiers assigné à l'utilisateur connecté. Si ce n'est que le produit sera automatiquement sélectionné.*"
@@ -260,7 +260,7 @@ msgstr "Sélectionnez ``l'année`` dans la liste des années en cliquant sur la 
 
 
 msgid "``Quarter``"
-msgstr "`` Quartier``"
+msgstr "``Quartier``"
 
 
 msgid "Select the ``quarter`` from the list of quarters by clicking on the arrow on the right of the selector to include in the report data relating to that quarter selected."
@@ -282,17 +282,17 @@ msgstr "Sélectionnez la scolarisation officier; à partir de la liste des agent
 
 
 msgid "``Payer``"
-msgstr "``Payeur``"
+msgstr "``Contributeur``"
 
 msgid "Select the payer from the drop down list by clicking on the right arrow. By selecting any of the options a user can filter the report on a particular payer. This filter is not mandatory; leave it blank to preview the report on all the payers."
 msgstr "Sélectionnez le donneur d'ordre à partir de la liste déroulante en cliquant sur la flèche de droite. En sélectionnant l'une des options, les utilisateurs peuvent filtrer le rapport sur un donneur d'ordre. Ce filtre n'est pas obligatoire; laissez ce champ vide pour afficher un aperçu du rapport sur tous les contribuables."
 
 
 msgid "``Claim Status``"
-msgstr "``Statut de réclamation``"
+msgstr "``Statut de prestation``"
 
 msgid "Select the claim status from the drop down list by clicking on the right arrow. By selecting any of the options a user can filter the report on a particular claim status. This filter is not mandatory, leave it blank to preview the report on all the claim statuses."
-msgstr "Sélectionnez l'état de la revendication à partir de la liste déroulante en cliquant sur la flèche de droite. En sélectionnant l'une des options, les utilisateurs peuvent filtrer le rapport sur une réclamation de statut. Ce filtre n'est pas obligatoire, laissez le champ vide pour afficher un aperçu du rapport sur l'ensemble de la revendication statuts."
+msgstr "Sélectionnez l'état de la prestation à partir de la liste déroulante en cliquant sur la flèche de droite. En sélectionnant l'une des options, les utilisateurs peuvent filtrer le rapport sur une prestation de statut. Ce filtre n'est pas obligatoire, laissez le champ vide pour afficher un aperçu du rapport sur l'ensemble de la prestation statuts."
 
 
 msgid "``Sorting``"
@@ -304,7 +304,7 @@ msgstr "Sélectionnez le mode de tri des enregistrements dans le rapport dans la
 
 
 msgid "``Previous``"
-msgstr "`` Précédent``"
+msgstr "``Précédent``"
 
 msgid "Select the previous reports from the drop down list by clicking on the right arrow. By selecting any of the options a user can fetch a report which was produced before. *Note: This filter is available only for Matching Funds Report.*"
 msgstr "Sélectionnez les précédents rapports à partir de la liste déroulante en cliquant sur la flèche de droite. En sélectionnant l'une des options de l'utilisateur peut chercher un rapport qui a été produit avant. *Remarque: Ce filtre est disponible uniquement pour les Fonds de contrepartie Rapport.*"
@@ -331,7 +331,7 @@ msgstr "``AFFICHAGE DU STATUT``"
 
 
 msgid "Select the status of posting of requests for control numbers. This filter is not mandatory. *Note: This filter is available only for Control Number Assignment.*"
-msgstr "Sélectionnez l'état de publication des réclamations de numéros de contrôle. Ce filtre n'est pas obligatoire. *Remarque: ce filtre est disponible uniquement pour l'attribution des numéros de contrôle.*"
+msgstr "Sélectionnez l'état de publication des prestations de numéros de contrôle. Ce filtre n'est pas obligatoire. *Remarque: ce filtre est disponible uniquement pour l'attribution des numéros de contrôle.*"
 
 
 msgid "``ASSIGNMENT  STATUS``"
@@ -339,7 +339,7 @@ msgstr "``STATUT DE CESSION``"
 
 
 msgid "Select the status of results of requests for control number. This filter is not mandatory. *Note: This filter is available only Control Number Assignment Report.*"
-msgstr "Sélectionnez l'état des résultats des réclamations de numéro de contrôle. Ce filtre n'est pas obligatoire. *Remarque: ce filtre n'est disponible que dans le rapport d'attribution de numéro de contrôle.*"
+msgstr "Sélectionnez l'état des résultats des prestations de numéro de contrôle. Ce filtre n'est pas obligatoire. *Remarque: ce filtre n'est disponible que dans le rapport d'attribution de numéro de contrôle.*"
 
 
 msgid "``INSURANCE   NUMBER``"
@@ -347,11 +347,11 @@ msgstr "``NUMÉRO D'ASSURANCE``"
 
 
 msgid "Enter the insurance number of an insuree. This filter is not mandatory. Note: This filter is available only Claim History Report."
-msgstr "Entrez le numéro d'assurance d'un assuré. Ce filtre n'est pas obligatoire. Remarque: ce filtre n'est disponible que dans le rapport sur l'historique des réclamations."
+msgstr "Entrez le numéro d'assurance d'un assuré. Ce filtre n'est pas obligatoire. Remarque: ce filtre n'est disponible que dans le rapport sur l'historique des prestations."
 
 
 msgid "``MODE``"
-msgstr "`` MODE``"
+msgstr "``MODE``"
 
 
 msgid "Select the mode (Prescribed Contributions, Actually Paid Contributions) of calculation of commissions. This filter is mandatory. Note: This filter is available only Overview of Commissions."
@@ -449,7 +449,7 @@ msgstr "Fonds de contrepartie."
 
 
 msgid "Claim Overview."
-msgstr "Aperçu de la réclamation."
+msgstr "Aperçu de la prestation."
 
 
 msgid "Payment Category Overview."
@@ -489,7 +489,7 @@ msgstr "Aperçu des commissions"
 
 
 msgid "Claim History"
-msgstr "Historique des réclamations"
+msgstr "Historique des prestations"
 
 
 msgid "`Report Type Selector`"
@@ -533,14 +533,14 @@ msgstr "Voici les types de rapports tels qu'ils peuvent être vus sur la page du
 
 
 msgid "**primary operational indicators  - policies report**"
-msgstr "**principaux indicateurs opérationnels - rapport sur les politiques**"
+msgstr "**principaux indicateurs opérationnels - rapport sur les polices**"
 
 msgid "The report provides aggregate data relating to policies and insurees according to insurance products. The report can be run by users with the system role Manager or with a role including an access to Tools/Reports/Primary Operational Indicators-policies. The table below will provide an overview on   primary indicators of the report."
-msgstr "Le rapport fournit des données agrégées relatives aux politiques et aux assurés selon les produits d'assurance. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système de Gestionnaire ou d'un rôle, y compris un accès à des Outils/Rapports/Primaire Indicateurs Opérationnels-politiques. Le tableau ci-dessous vous donnera un aperçu sur les principaux indicateurs du rapport."
+msgstr "Le rapport fournit des données agrégées relatives aux polices et aux assurés selon les paniers de soins. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système de Gestionnaire ou d'un rôle, y compris un accès à des Outils/Rapports/Primaire Indicateurs Opérationnels-polices. Le tableau ci-dessous vous donnera un aperçu sur les principaux indicateurs du rapport."
 
 
 msgid "Table  Overview of Policies indicators"
-msgstr "Tableau Aperçu des indicateurs de politiques"
+msgstr "Tableau Aperçu des indicateurs de polices"
 
 
 msgid "**Code**"
@@ -564,14 +564,14 @@ msgstr "P1"
 
 
 msgid "Number of policies"
-msgstr "Nombre de politiques"
+msgstr "Nombre de polices"
 
 
 msgid "Time, Insurance product"
-msgstr "Temps, produit d'assurance"
+msgstr "Temps, panier de soins"
 
 msgid "The number of policies of given insurance product on the last day of a respective period (Status of the policy is Active, the last day of period is within <Effective date, Expiry day>)"
-msgstr "Le nombre de polices du produit d'assurance donné le dernier jour d'une période respective (le statut de la police est Actif, le dernier jour de la période se situe dans <Effective date, Expiry day> )"
+msgstr "Le nombre de polices du panier de soins donné le dernier jour d'une période respective (le statut de la police est Actif, le dernier jour de la période se situe dans <Effective date, Expiry day> )"
 
 
 msgid "P2"
@@ -579,10 +579,10 @@ msgstr "P2"
 
 
 msgid "Number of new policies"
-msgstr "Nombre de nouvelles politiques"
+msgstr "Nombre de nouvelles polices"
 
 msgid "The number of new policies of given insurance product during a respective period (Enrolment date is within the respective period, there is ``no`` preceding policy with the same (or before converted) insurance product forgiven policy)"
-msgstr "Le nombre de nouvelles politiques de produit d'assurance donné au cours d'une période (date d'adhésion est à l'intérieur de la même période, il n'y a `pas de` précédent politique avec les mêmes (ou avant la conversion) produit d'assurance pardonné à politique)"
+msgstr "Le nombre de nouvelles polices de panier de soins donné au cours d'une période (date d'adhésion est à l'intérieur de la même période, il n'y a `pas de` précédent police avec les mêmes (ou avant la conversion) panier de soins pardonné à police)"
 
 
 msgid "P3"
@@ -590,10 +590,10 @@ msgstr "P3"
 
 
 msgid "Number of suspended policies"
-msgstr "Nombre de politiques suspendues"
+msgstr "Nombre de polices suspendues"
 
 msgid "The number of policies for given insurance product that were suspended during a respective period (Status of the policy is Suspended, suspension took place within the respective period)"
-msgstr "Le nombre de politiques pour les produits d'assurance qui ont été suspendus pendant une période (État de la politique est Suspendue, la suspension a eu lieu au cours de la période)"
+msgstr "Le nombre de polices pour les paniers de soins qui ont été suspendus pendant une période (État de la police est Suspendue, la suspension a eu lieu au cours de la période)"
 
 
 msgid "P4"
@@ -601,10 +601,10 @@ msgstr "P4"
 
 
 msgid "Number of expired policies"
-msgstr "Nombre de politiques expirées"
+msgstr "Nombre de polices expirées"
 
 msgid "The number of policies for given insurance product that expired during a respective period (Status of the policy is Expired,expiration took place within the respective period)"
-msgstr "Le nombre de politiques pour les produits d'assurance qui est venu à échéance au cours d'une période (État de la politique de l'Expiration,la date de péremption a eu lieu au cours de la période)"
+msgstr "Le nombre de polices pour les paniers de soins qui est venu à échéance au cours d'une période (État de la police de l'Expiration,la date de péremption a eu lieu au cours de la période)"
 
 
 msgid "P5"
@@ -615,7 +615,7 @@ msgid "Number of renewals"
 msgstr "Nombre de renouvellements"
 
 msgid "The number of policies that were renewed forgiven insurance product (or a converte done) during a respective period ( Enrolment date is within the respective period, there is a preceding policy with the same (or before converted) product forgiven"
-msgstr "Le nombre de politiques qui ont été renouvelés pardonné produit d'assurance (ou une converte fait) au cours d'une période ( date d'adhésion est à l'intérieur de la même période, il y a un précédent politique avec les mêmes (ou avant la conversion) produit pardonné"
+msgstr "Le nombre de polices qui ont été renouvelés pardonné panier de soins (ou une converte fait) au cours d'une période ( date d'adhésion est à l'intérieur de la même période, il y a un précédent police avec les mêmes (ou avant la conversion) produit pardonné"
 
 
 msgid "P6"
@@ -626,7 +626,7 @@ msgid "Number of insurees"
 msgstr "Nombre d'assurés"
 
 msgid "The number of insurees covered by policies of given insurance product on the last day of a respective period (An insuree belongs to a family with an active coverage on the last day of the respective period-see P1 )"
-msgstr "Le nombre d'assurés couverts par les politiques de produit d'assurance donné, le dernier jour d'une période (Un preneur d'assurance appartient à une famille avec un actif de couverture le dernier jour de la période-voir P1 )"
+msgstr "Le nombre d'assurés couverts par les polices de panier de soins donné, le dernier jour d'une période (Un preneur d'assurance appartient à une famille avec un actif de couverture le dernier jour de la période-voir P1 )"
 
 
 msgid "P7"
@@ -637,7 +637,7 @@ msgid "Number of newly insured insurees"
 msgstr "Nombre d'assurés nouvellement assurés"
 
 msgid "The number of insurees covered by new policies of given insurance product during a respective period (An insuree belongs to a family with newly acquired policy during the respective period-see P2 )"
-msgstr "Le nombre d'assurés couverts par de nouvelles politiques de produit d'assurance donné au cours d'une période (Un preneur d'assurance appartient à une famille ayant nouvellement acquis de la politique au cours de la même période-voir P2 )"
+msgstr "Le nombre d'assurés couverts par de nouvelles polices de panier de soins donné au cours d'une période (Un preneur d'assurance appartient à une famille ayant nouvellement acquis de la police au cours de la même période-voir P2 )"
 
 
 msgid "P8"
@@ -649,7 +649,7 @@ msgstr "Contributions nouvellement collectées"
 
 
 msgid "Amount of acquired Contributions (for policies of given insurance product) during a respective period ( Date of payment of a Contribution is within the respective period)"
-msgstr "Montant des contributions acquises (pour les polices du produit d'assurance donné) au cours d'une période respective (la date de paiement d'une contribution est comprise dans la période respective)"
+msgstr "Montant des contributions acquises (pour les polices du panier de soins donné) au cours d'une période respective (la date de paiement d'une contribution est comprise dans la période respective)"
 
 
 msgid "P9"
@@ -660,7 +660,7 @@ msgid "Available Contributions"
 msgstr "Contributions disponibles"
 
 msgid "Amount of Contributions that should be allocated for policies of given insurance product for a respective period provided a uniform distribution throughout the insurance period takes place. (If the respective period overlaps with <Effective date, Expiry day> of a policy then a proportional part of corresponding Contributions relating to the respective period is included in available Contributions)"
-msgstr "Montant des contributions qui devraient être allouées aux polices du produit d'assurance donné pour une période respective à condition qu'une répartition uniforme tout au long de la période d'assurance ait lieu. (Si la période respective chevauche avec <Effective date, Expiry day> d'une police, alors une partie proportionnelle des Contributions correspondantes relatives à la période respective est incluse dans les Contributions disponibles)"
+msgstr "Montant des contributions qui devraient être allouées aux polices du panier de soins donné pour une période respective à condition qu'une répartition uniforme tout au long de la période d'assurance ait lieu. (Si la période respective chevauche avec <Effective date, Expiry day> d'une police, alors une partie proportionnelle des Contributions correspondantes relatives à la période respective est incluse dans les Contributions disponibles)"
 
 
 msgid "Below is an example of the report:"
@@ -668,14 +668,14 @@ msgstr "Voici un exemple du rapport:"
 
 
 msgid "`Preview – Primary Operational Indicators - Policies Report`"
-msgstr "`Aperçu - Indicateurs opérationnels principaux - Rapport sur les politiques`"
+msgstr "`Aperçu - Indicateurs opérationnels principaux - Rapport sur les polices`"
 
 
 msgid "**primary operational indicators  - claims report**"
 msgstr "**principaux indicateurs opérationnels - rapport de sinistres**"
 
 msgid "The report provides aggregate data relating to policies and insurees according to insurance products. The report can be run by users with the system role Manager or with a role including an access to Tools/Reports/Primary Operational Indicators-claims. The table below will provide an overview on   primary indicators of the report."
-msgstr "Le rapport fournit des données agrégées relatives aux politiques et aux assurés selon les produits d'assurance. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système de Gestionnaire ou d'un rôle, y compris un accès à des Outils/Rapports/Primaire Indicateurs Opérationnels-Réclamations. Le tableau ci-dessous vous donnera un aperçu sur les principaux indicateurs du rapport."
+msgstr "Le rapport fournit des données agrégées relatives aux polices et aux assurés selon les paniers de soins. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système de Gestionnaire ou d'un rôle, y compris un accès à des Outils/Rapports/Primaire Indicateurs Opérationnels-Prestations. Le tableau ci-dessous vous donnera un aperçu sur les principaux indicateurs du rapport."
 
 
 msgid "Table Overview of operational indicators"
@@ -687,14 +687,14 @@ msgstr "P10"
 
 
 msgid "Number of claims"
-msgstr "Nombre de réclamations"
+msgstr "Nombre de prestations"
 
 
 msgid "Time, Health facility, Insurance product"
 msgstr "Temps, Établissement de santé, Produit d'assurance"
 
 msgid "The number of claims for given insurance product that emerged during a respective period (Start dateof a claim is within the respective period)"
-msgstr "Le nombre de demandes pour les produits d'assurance qui a émergé au cours d'une même période (Début dateof une réclamation est à l'intérieur de la période)"
+msgstr "Le nombre de demandes pour les paniers de soins qui a émergé au cours d'une même période (Début dateof une prestation est à l'intérieur de la période)"
 
 
 msgid "P11"
@@ -706,7 +706,7 @@ msgstr "Montant rémunéré"
 
 
 msgid "Amount remuneratedfor claims for given insurance product that emerged during a respective period (Start dateof a claim is within the respective period)"
-msgstr "Montant rémunéré pour les réclamations pour un produit d'assurance donné qui sont apparues au cours d'une période respective (la date de début d'une réclamation se situe dans la période respective)"
+msgstr "Montant rémunéré pour les prestations pour un panier de soins donné qui sont apparues au cours d'une période respective (la date de début d'une prestation se situe dans la période respective)"
 
 
 msgid "P12"
@@ -717,11 +717,11 @@ msgid "Number of rejected claims"
 msgstr "Nombre de demandes rejetées"
 
 msgid "The number of claims for given insurance product that emerged during a respective period and were rejected (Start dateof a claim is within the respective period and the Status approval ofthe claim is Rejected)"
-msgstr "Le nombre de demandes pour les produits d'assurance qui a émergé au cours d'une période et ont été rejetées (Démarrer dateof une réclamation est à l'intérieur de la période et de l'approbation du Statut de la réclamation d'asile est Rejetée)"
+msgstr "Le nombre de demandes pour les paniers de soins qui a émergé au cours d'une période et ont été rejetées (Démarrer dateof une prestation est à l'intérieur de la période et de l'approbation du Statut de la prestation d'asile est Rejetée)"
 
 
 msgid "`Preview – Primary Operational Indicators - Claims Report`"
-msgstr "`Aperçu - Indicateurs opérationnels principaux - Rapport sur les réclamations`"
+msgstr "`Aperçu - Indicateurs opérationnels principaux - Rapport sur les prestations`"
 
 
 msgid "**derived operational indicators report**"
@@ -780,10 +780,10 @@ msgstr "D4"
 
 
 msgid "Promptness of claims settlement"
-msgstr "Rapidité du règlement des réclamations"
+msgstr "Rapidité du règlement des prestations"
 
 msgid "It is the average (date of sending to payment- Date of submission of the claim) for all claims relating to given insurance product and emerging in a respective period Date of sending of payment is not in the structure of Claim, it has to be retrieved from a journal-can be?)"
-msgstr "C'est la moyenne (date de l'envoi de paiement - Date de présentation de la réclamation) pour toutes les réclamations relatives à des produits d'assurance et émergents dans une période Date de l'envoi du paiement n'est pas dans la structure de la Demande, il doit être récupéré à partir d'un journal peut être?)"
+msgstr "C'est la moyenne (date de l'envoi de paiement - Date de présentation de la prestation) pour toutes les prestations relatives à des paniers de soins et émergents dans une période Date de l'envoi du paiement n'est pas dans la structure de la Demande, il doit être récupéré à partir d'un journal peut être?)"
 
 
 msgid "D5"
@@ -803,7 +803,7 @@ msgstr "D6"
 
 
 msgid "Number of claims per insuree"
-msgstr "Nombre de réclamations par assuré"
+msgstr "Nombre de prestations par assuré"
 
 
 msgid "It is the ratio P10/P6"
@@ -843,7 +843,7 @@ msgstr "D9"
 
 
 msgid "Feedback response ratio"
-msgstr "Rapport de réponse de rétroaction"
+msgstr "Rapport de réponse de retour"
 
 
 msgid "Time, District, Health facility"
@@ -861,7 +861,7 @@ msgid "**Contribution collection report**"
 msgstr "**Rapport de collecte des contributions**"
 
 msgid "The report lists all actual payments of contributions according to insurance products in the defined period. The report can be used as input to an accounting system. The report can be run by users with the the system role Accountant or with a role including an access to Tools/Reports/Contribution Collection. Payments are assigned to the specified period according to the actual date of payment. (:numref:`image228`)"
-msgstr "Le rapport dresse la liste de tous les paiements des contributions en vertu de produits d'assurance dans la période définie. Le rapport peut être utilisé comme entrée pour un système de comptabilité. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système Comptable ou à un rôle, y compris un accès à des Outils/Rapports/perception de la Contribution. Les paiements sont attribués à la période spécifiée en fonction de la date effective de paiement. (:numref:`image228`)"
+msgstr "Le rapport dresse la liste de tous les paiements des contributions en vertu de paniers de soins dans la période définie. Le rapport peut être utilisé comme entrée pour un système de comptabilité. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système Comptable ou à un rôle, y compris un accès à des Outils/Rapports/perception de la Contribution. Les paiements sont attribués à la période spécifiée en fonction de la date effective de paiement. (:numref:`image228`)"
 
 
 msgid "`Preview – Contribution Collection Report`"
@@ -872,7 +872,7 @@ msgid "**product sales report**"
 msgstr "**rapport de vente de produit**"
 
 msgid "The report provides overview of selling of policies according to insurance products in terms of calculated contributions (not necessarily actually paid). The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Product Sales. Policies are assigned to the specified period according to their effective days. (:numref:`image229`)"
-msgstr "Le rapport fournit un aperçu de la vente des politiques en fonction des produits d'assurance en termes de calculé les contributions (pas nécessairement réellement payé). Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système Comptable ou à un rôle, y compris un accès à des Outils/Rapports/Ventes de Produits. Les politiques sont attribués à la période spécifiée en fonction de l'efficacité de leur jours. (:numref:`image229`)"
+msgstr "Le rapport fournit un aperçu de la vente des polices en fonction des paniers de soins en termes de calculé les contributions (pas nécessairement réellement payé). Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système Comptable ou à un rôle, y compris un accès à des Outils/Rapports/Ventes de Produits. Les polices sont attribués à la période spécifiée en fonction de l'efficacité de leur jours. (:numref:`image229`)"
 
 
 msgid "`Preview – Product Sales Report`"
@@ -883,7 +883,7 @@ msgid "**Contribution distribution report**"
 msgstr "**Rapport de distribution des contributions**"
 
 msgid "The report provides proportional amount of actually paid contributions allocated by openIMIS to specific months according to insurance products. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Contribution Distribution. This report shows the information about the **Total collection**, **Allocated amount** and **Not allocated** amount for contributions in the specified period."
-msgstr "Le rapport fournit une quantité proportionnelle de réellement versé des contributions allouées par openIMIS à certains mois selon les produits d'assurance. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système Comptable ou à un rôle, y compris un accès à des Outils/Rapports/Contribution de Distribution. Ce rapport présente les informations sur l' **le Total de la collecte**, **montant Alloué** et **Non alloué** montant des contributions à la période spécifiée."
+msgstr "Le rapport fournit une quantité proportionnelle de réellement versé des contributions allouées par openIMIS à certains mois selon les paniers de soins. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système Comptable ou à un rôle, y compris un accès à des Outils/Rapports/Contribution de Distribution. Ce rapport présente les informations sur l' **le Total de la collecte**, **montant Alloué** et **Non alloué** montant des contributions à la période spécifiée."
 
 msgid "**Allocated** amount is the proportionally calculated amounts of contributions paid covering the month. **Not Allocated** amount is the amount collected for contributions that have a start date in the future (after the month in question). (:numref:`image230`)"
 msgstr "**Attribuées** montant est calculé au prorata des montants des cotisations payées pour le mois. **Non Alloué** montant est le montant perçu pour les contributions, qui ont une date de début dans le futur (après le mois en question). (:numref:`image230`)"
@@ -941,7 +941,7 @@ msgid "**matching funds**"
 msgstr "**fonds de contrepartie**"
 
 msgid "The report lists all families/groups according to insurance products and (institutional) payers that paid contributions in the specified period. This report is useful for claiming of subsidies for running of health insurance schemes. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Matching Funds.  (:numref:`image235`)"
-msgstr "Le rapport répertorie toutes les familles/groupes en fonction des produits d'assurance et (institutionnel) contribuables qui ont payé des cotisations dans le délai imparti. Ce rapport est utile pour la réclamation de subventions pour l'exécution des programmes d'assurance santé. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système Comptable ou à un rôle, y compris un accès à des Outils/Rapports/Fonds de contrepartie. (:numref:`image235`)"
+msgstr "Le rapport répertorie toutes les familles/groupes en fonction des paniers de soins et (institutionnel) contribuables qui ont payé des cotisations dans le délai imparti. Ce rapport est utile pour la prestation de subventions pour l'exécution des programmes d'assurance santé. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système Comptable ou à un rôle, y compris un accès à des Outils/Rapports/Fonds de contrepartie. (:numref:`image235`)"
 
 
 msgid "`Preview –Matching Funds`"
@@ -949,14 +949,14 @@ msgstr "`Aperçu - Fonds correspondants`"
 
 
 msgid "**claim overview**"
-msgstr "**aperçu des réclamations**"
+msgstr "**aperçu des prestations**"
 
 msgid "The report provides detailed data about results of processing of claims in openIMIS according to insurance products and health facilities. The report can be used as a tool for communication between a health insurance scheme and its contractual health facilities. The report can be run by users with the rsystem role Accountant or with a role including an access to Tools/Reports/Claim Overview. Claims are assigned to the specified period according to date of provision of health care (in case of in-patient care according to the date of discharge).  (:numref:`image236`)"
-msgstr "Le rapport fournit des données détaillées sur les résultats de traitement des réclamations dans les openIMIS selon les produits d'assurance et des établissements de santé. Le rapport peut être utilisé comme un outil de communication entre un régime d'assurance santé et contractuel des établissements de santé. Le rapport peut être exécuté par les utilisateurs avec le rsystem rôle d'un Comptable ou à un rôle, y compris un accès à des Outils/Rapports/de la Demande Présentation. Les Réclamations sont attribués à la période spécifiée en fonction de la date de la prestation des soins de santé (dans le cas des soins aux patients en fonction de la date de la libération). (:numref:`image236`)"
+msgstr "Le rapport fournit des données détaillées sur les résultats de traitement des prestations dans les openIMIS selon les paniers de soins et des établissements de santé. Le rapport peut être utilisé comme un outil de communication entre un régime d'assurance santé et contractuel des établissements de santé. Le rapport peut être exécuté par les utilisateurs avec le rsystem rôle d'un Comptable ou à un rôle, y compris un accès à des Outils/Rapports/de la Demande Présentation. Les prestations sont attribués à la période spécifiée en fonction de la date de la prestation  (dans le cas des soins aux patients en fonction de la date de la libération). (:numref:`image236`)"
 
 
 msgid "`Image 236 Preview – Claim Overview`"
-msgstr "`Image 236 Preview - Aperçu de la revendication`"
+msgstr "`Image 236 Preview - Aperçu de la prestation`"
 
 
 msgid "**payment category overview**"
@@ -974,7 +974,7 @@ msgid "**Families and Insurees Overview report**"
 msgstr "**Rapport de présentation des familles et des assurés**"
 
 msgid "The report provides an overview of enrolled families/groups and their members in specified location within the specified period. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Families and Insurees Overview.  (:numref:`image238`)"
-msgstr "Le rapport fournit une vue d'ensemble des inscrits familles/groupes et de leurs membres dans l'emplacement spécifié dans la période spécifiée. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système Comptable ou à un rôle, y compris un accès à des Outils/Rapports/les Familles et les Assurés vue d'ensemble. (:numref:`image238`)"
+msgstr "Le rapport fournit une vue d'ensemble des inscrits familles/groupes et de leurs membres dans le lieux spécifié dans la période spécifiée. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système Comptable ou à un rôle, y compris un accès à des Outils/Rapports/les Familles et les Assurés vue d'ensemble. (:numref:`image238`)"
 
 
 msgid "`Preview – Families and Insurees Overview Report`"
@@ -992,10 +992,10 @@ msgid "The number of visits (claims) of the primary health care facility in the 
 msgstr "Le nombre de visites (demandes) de l'établissement de soins de santé primaires au cours de la période sélectionnée."
 
 msgid "The number of out-patient visits that have Visit Type equal to Referral in all other health facilities (irrespective of the district) for insurees with the First Service Point in the respective primary health care facility."
-msgstr "Le nombre de visites de patients qui ont Visite Type est égal à la Référence dans tous les autres établissements de santé (quel que soit le quartier) pour les assurés avec le Premier Point de Service dans le primaire, établissement de soins de santé."
+msgstr "Le nombre de visites de patients qui ont Visite Type est égal à la Référence dans tous les autres établissements de santé (quel que soit le quartier) pour les assurés avec le Premier Point de soin dans le primaire, établissement de soins de santé."
 
 msgid "The number of in-patient stays that have Visit Type equal to Referral in all health facilities-hospitals (irrespective of the district) for insurees with the First Service Point in the respective primary health care facility."
-msgstr "Le nombre de séjours qui ont Visite Type est égal à la Référence dans tous les établissements de santé-hôpitaux (quel que soit le quartier) pour les assurés avec le Premier Point de Service dans le primaire, établissement de soins de santé."
+msgstr "Le nombre de séjours qui ont Visite Type est égal à la Référence dans tous les établissements de santé-hôpitaux (quel que soit le quartier) pour les assurés avec le Premier Point de soin dans le primaire, établissement de soins de santé."
 
 
 msgid "The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Percentage of Referrals. (:numref:`image239`)"
@@ -1021,7 +1021,7 @@ msgid "**Renewals report**"
 msgstr "**Rapport de renouvellement**"
 
 msgid "The report lists all renewed policies in given period for given insurance product and optionally for given enrolment officer. The families that have at least one payment of contributions in given period of time are included in the report. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Renewals. Below is an example of the report (:numref:`image241`)"
-msgstr "Le rapport dresse la liste de toutes les nouvelles politiques en période donnée pour les produits d'assurance et éventuellement pour les inscriptions agent. Les familles qui ont au moins un paiement de cotisations en période donnée sont inclus dans le rapport. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système Comptable ou à un rôle, y compris un accès à des Outils/Rapports/Renouvellements. Ci-dessous un exemple de rapport (:numref:`image241`)"
+msgstr "Le rapport dresse la liste de toutes les nouvelles polices en période donnée pour les paniers de soins et éventuellement pour les inscriptions agent. Les familles qui ont au moins un paiement de cotisations en période donnée sont inclus dans le rapport. Le rapport peut être exécuté que par des utilisateurs ayant le rôle de système Comptable ou à un rôle, y compris un accès à des Outils/Rapports/Renouvellements. Ci-dessous un exemple de rapport (:numref:`image241`)"
 
 
 msgid "`Preview – Renewals Report`"
@@ -1032,7 +1032,7 @@ msgid "**Capitation Payment Report**"
 msgstr "**Rapport de paiement par capitation**"
 
 msgid "The report lists capitation payments for all health facilities specified in the `capitation formula <#capitation-payment>`__ for specified month and for given insurance product. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Capitation Payment.  (:numref:`image242`)"
-msgstr "Le rapport répertorie les paiements par capitation pour tous les établissements de santé spécifiés dans la `formule de capitation <#capitation-payment>`__ pour le mois spécifié et pour le produit d'assurance donné. Le rapport peut être exécuté par des utilisateurs avec le rôle système Comptable ou avec un rôle comprenant un accès à Outils / Rapports / Paiement de capitation. (:numref:`image242`)"
+msgstr "Le rapport répertorie les paiements par capitation pour tous les établissements de santé spécifiés dans la `formule de capitation <#capitation-payment>`__ pour le mois spécifié et pour le panier de soins donné. Le rapport peut être exécuté par des utilisateurs avec le rôle système Comptable ou avec un rôle comprenant un accès à Outils / Rapports / Paiement de capitation. (:numref:`image242`)"
 
 
 msgid "`Preview –Capitation Payment Report`"

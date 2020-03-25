@@ -16,8 +16,8 @@ msgstr "Groupe / famille, assurés et polices"
 
 
 msgid "In openIMIS the policies are assigned to group only, if a policy need to be assigned to an individual then a group of one must be created."
-msgstr "Dans openIMIS, les politiques sont affectées au groupe uniquement, si une politique doit être affectée à un individu, alors un groupe doit être créé."
+msgstr "Dans openIMIS, les polices sont affectées au groupe uniquement, si une police doit être affectée à un individu, alors un groupe doit être créé."
 
 
 msgid "Because of this approach, the `Family Overview Page <#family-overview-page>`__ is the starting point to manage, insuree (add, edit), policies(add, edit, renew ...) and contribution"
-msgstr "En raison de cette approche, la `page de présentation de la famille <#family-overview-page>`__ est le point de départ pour gérer, assurer (ajouter, modifier), les politiques (ajouter, modifier, renouveler ...) et la contribution"
+msgstr "En raison de cette approche, la `page de présentation de la famille <#family-overview-page>`__ est le point de départ pour gérer, assurer (ajouter, modifier), les polices (ajouter, modifier, renouveler ...) et la contribution"

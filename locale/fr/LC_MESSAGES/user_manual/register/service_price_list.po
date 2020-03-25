@@ -12,17 +12,17 @@ msgstr ""
 
 
 msgid "Medical Service Price Lists Administration"
-msgstr "Administration des listes de prix des services médicaux"
+msgstr "Administration des listes de prix des soins "
 
 msgid "Price lists of medical services are tools for specification which medical services and at which prices can be invoiced by contractual health facilities to the scheme administration. Administration of price lists of medical services is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Pricelists-Medical Services."
-msgstr "Les listes de prix des services médicaux sont des outils pour la spécification de services médicaux et à laquelle les prix peuvent être facturés par contractuels des établissements de santé pour le régime de l'administration. Administration des listes de prix des services médicaux est limité aux utilisateurs avec le rôle de système de Régime d'Administrateur ou avec un rôle, y compris un accès à l'Administration/les listes de prix-Services Médicaux."
+msgstr "Les listes de prix des soins  sont des outils pour la spécification des soins  et à laquelle les prix peuvent être facturés par contractuels des établissements de santé pour le régime de l'administration. Administration des listes de prix des soins  est limité aux utilisateurs avec le rôle de système de Régime d'Administrateur ou avec un rôle, y compris un accès à l'Administration/les listes de prix-Services Médicaux."
 
 
 msgid "Pre-conditions"
 msgstr "Conditions préalables"
 
 msgid "A price list of medical services may only be added, after an agreement with a health facility or a group of health facilities on specific prices. Editing of the price list may occur only after an approval of the management of the scheme administration. Deletion of a price list of medical services normally will occur when a price list becomes obsolete."
-msgstr "Une liste de prix des services médicaux ne peut être ajouté, après un accord avec un établissement de santé ou d'un groupe d'établissements de santé sur les prix. L'édition de la liste des prix peut se produire qu'après une approbation de la gestion du régime de l'administration. Suppression d'une liste de prix des services médicaux normalement se produire lorsqu'une liste de prix devient obsolète."
+msgstr "Une liste de prix des soins  ne peut être ajouté, après un accord avec un établissement de santé ou d'un groupe d'établissements de santé sur les prix. L'édition de la liste des prix peut se produire qu'après une approbation de la gestion du régime de l'administration. Suppression d'une liste de prix des soins  normalement se produire lorsqu'une liste de prix devient obsolète."
 
 
 msgid "Navigation"
@@ -30,25 +30,25 @@ msgstr "La navigation"
 
 
 msgid "All functionality for use with the administration of price lists medical services can be found under the main menu ``Administration``, sub menu ``Price Lists`` and sub menu ``Medical Services``"
-msgstr "Toutes les fonctionnalités destinées à l'administration des listes de prix des services médicaux se trouvent dans le menu principal ``Administration``, sous-menu ``Listes de prix`` et sous-menu ``Services médicaux``"
+msgstr "Toutes les fonctionnalités destinées à l'administration des listes de prix des soins  se trouvent dans le menu principal ``Administration``, sous-menu ``Listes de prix`` et sous-menu ``Services médicaux``"
 
 
 msgid "`Navigation Medical Services Price Lists`"
-msgstr "`Listes de prix des services médicaux de navigation`"
+msgstr "`Navigation: Listes de prix des soins `"
 
 msgid "Clicking on the sub menu ``Medical Services`` re-directs the current user to the `Price List Medical Services Control Panel. <#price-list-medical-services-control-page>`__"
-msgstr "Un clic sur le sous-menu ``Services médicaux`` redirige l'utilisateur actuel vers le ``Tableau de contrôle des services médicaux de la liste de prix``. <#price-list-medical-services-control-page>`__"
+msgstr "Un clic sur le sous-menu ``Services médicaux`` redirige l'utilisateur actuel vers le ``Tableau de contrôle des soins  de la liste de prix``. <#price-list-medical-services-control-page>`__"
 
 
 msgid "`Price List Medical Service Control Panel`"
-msgstr "`Liste de prix du panneau de contrôle des services médicaux`"
+msgstr "`Liste de prix du panneau de contrôle des soins `"
 
 
 msgid "Price List Medical Services Control Page"
-msgstr "Page de contrôle des services médicaux"
+msgstr "Page de contrôle des soins "
 
 msgid "The ``Price List Medical Services Control Page`` is the central point for administration of all price lists of medical service. By having access to this panel, it is possible to add, edit, delete and search. The panel is divided into four panels (:numref:`image36`)"
-msgstr "La `Liste des Prix des Services Médicaux de la Page de Contrôle` est le point central pour l'administration de toutes les listes de prix des services médicaux. En ayant accès à ce panneau, il est possible d'ajouter, modifier, supprimer et rechercher. Le panneau est divisé en quatre panneaux (:numref:`image36`)"
+msgstr "La `Liste des Prix des Services Médicaux de la Page de Contrôle` est le point central pour l'administration de toutes les listes de prix des soins . En ayant accès à ce panneau, il est possible d'ajouter, modifier, supprimer et rechercher. Le panneau est divisé en quatre panneaux (:numref:`image36`)"
 
 
 msgid "**Search Panel**"
@@ -62,14 +62,14 @@ msgid "``Name``"
 msgstr "``Nom``"
 
 msgid "Type in the beginning of; or the full ``Name``; to search for price lists medical services with a ``Name``, which starts with or matches completely, the typed text."
-msgstr "Tapez le début de l'; ou le `Nom`; à la recherche pour les listes de prix des services médicaux avec un `Nom`, qui commence avec ou correspond tout à fait, le texte tapé."
+msgstr "Tapez le début de l'; ou le `Nom`; à la recherche pour les listes de prix des soins  avec un `Nom`, qui commence avec ou correspond tout à fait, le texte tapé."
 
 
 msgid "``Date``"
 msgstr "``Date``"
 
 msgid "Type in the full ``Date`` to search for price lists of medical services with a creation ``Date`` which matches completely, the typed date. *Note: You can also use the button next to the date field to select a date.*"
-msgstr "Saisir la `Date` à la recherche pour les listes de prix des services médicaux avec une création `Date`, ce qui correspond tout à fait, la date saisie. *Remarque: Vous pouvez également utiliser le bouton à côté du champ de date pour sélectionner une date.*"
+msgstr "Saisir la `Date` à la recherche pour les listes de prix des soins  avec une création `Date`, ce qui correspond tout à fait, la date saisie. *Remarque: Vous pouvez également utiliser le bouton à côté du champ de date pour sélectionner une date.*"
 
 
 msgid "``Date Selector Button``"
@@ -124,17 +124,17 @@ msgstr "`Sélecteur de calendrier - Panneau de recherche`"
 
 
 msgid "``Region``"
-msgstr "`` Région``"
+msgstr "``Région``"
 
 msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select price lists of medical services from a specific region. The option **National** means that the price list is common for all regions. *Note: The list will only be filled with the regions assigned to the current logged in user and with the option National. All nationwide pricelists and all regional pricelists relating to the selected region will be found. If no district is selected then also all district pricelists for districts belonging to the selected region and assigned to the currently logged in user will be found.*"
-msgstr "Sélectionnez la `Région`; à partir de la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner les listes de prix des services médicaux d'une région spécifique. L'option **National** signifie que la liste de prix est commun pour toutes les régions. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté et avec l'option Nationale. Toutes les listes de prix à l'échelle nationale et toutes les listes de prix relatives à la zone sélectionnée sera trouvé. Si aucun district est sélectionné puis aussi tous les districts de listes de prix pour les districts appartenant à la région sélectionnée et affecté à l'utilisateur actuellement connecté sera trouvée.*"
+msgstr "Sélectionnez la `Région`; à partir de la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner les listes de prix des soins  d'une région spécifique. L'option **National** signifie que la liste de prix est commun pour toutes les régions. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté et avec l'option Nationale. Toutes les listes de prix à l'échelle nationale et toutes les listes de prix relatives à la zone sélectionnée sera trouvé. Si aucun district est sélectionné puis aussi tous les districts de listes de prix pour les districts appartenant à la région sélectionnée et affecté à l'utilisateur actuellement connecté sera trouvée.*"
 
 
 msgid "``District``"
-msgstr "`` Quartier``"
+msgstr "``Quartier``"
 
 msgid "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select price lists of medical services from a specific district. *Note: The list will be only filled with the districts belonging to the selected region. All nationwide pricelists, all regional pricelists relating to the selected region and all district pricelists for the selected district will be found.*"
-msgstr "Sélectionnez le `Quartier`; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur pour sélectionner les listes de prix des services médicaux à partir d'un district particulier. *Remarque: La liste sera remplie uniquement avec les districts appartenant à la région sélectionnée. Toutes les listes de prix à l'échelle nationale, toutes les listes de prix relatives à la région sélectionnée et tous les districts de listes de prix pour le quartier sera trouvé.*"
+msgstr "Sélectionnez le `Quartier`; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur pour sélectionner les listes de prix des soins  à partir d'un district particulier. *Remarque: La liste sera remplie uniquement avec les districts appartenant à la région sélectionnée. Toutes les listes de prix à l'échelle nationale, toutes les listes de prix relatives à la région sélectionnée et tous les districts de listes de prix pour le quartier sera trouvé.*"
 
 
 msgid "``Historical``"
@@ -160,7 +160,7 @@ msgid "**Result Panel**"
 msgstr "**Panneau de résultats**"
 
 msgid "The Result Panel displays a list of all price lists of medical services found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image40`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
-msgstr "Le Résultat s'affiche sur le Panneau une liste de toutes les listes de prix des services médicaux trouvé, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image40`). La gauche dossier contient un lien, qui, si vous cliquez dessus, re-dirige l'utilisateur vers le record actuel pour obtenir la visualisation si c'est un record historique ou de la modification si c'est l'enregistrement en cours."
+msgstr "Le Résultat s'affiche sur le Panneau une liste de toutes les listes de prix des soins  trouvé, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image40`). La colunne de gauche contient un lien qui re-dirige vers la page de visualisation dans le cas d'une ligne historique ou vers la page de modification dans le cas des lignes encore valident."
 
 
 msgid "`Selected record (blue), hovered records (yellow) - Result Panel`"
@@ -185,11 +185,11 @@ msgid "**Information Panel**"
 msgstr "**Panneau d'information**"
 
 msgid "The Information Panel is used to display messages back to the user. Messages will occur once a price list of medical services has been added, updated or deleted or if there was an error at any time during the process of these actions."
-msgstr "Le Panneau d'Information est utilisé pour afficher des messages à l'utilisateur. Les Messages se fera une fois qu'une liste de prix des services médicaux a été ajouté, mis à jour ou supprimés, ou si il y a une erreur à tout moment pendant le déroulement de ces actions."
+msgstr "Le Panneau d'Information est utilisé pour afficher des messages à l'utilisateur. Les Messages se fera une fois qu'une liste de prix des soins  a été ajouté, mis à jour ou supprimés, ou si il y a une erreur à tout moment pendant le déroulement de ces actions."
 
 
 msgid "Price List Medical Services Page"
-msgstr "Page des tarifs des services médicaux"
+msgstr "Page des tarifs des soins "
 
 
 msgid "**Data Entry**"
@@ -197,34 +197,34 @@ msgstr "**La saisie des données**"
 
 
 msgid "`Price List Medical Service Page`"
-msgstr "`Liste de prix page des services médicaux`"
+msgstr "`Liste de prix page des soins `"
 
 
 msgid "Enter the name for the price list of medical services. Mandatory, 100 characters maximum."
-msgstr "Entrez le nom de la liste de prix des services médicaux. Obligatoire, 100 caractères maximum."
+msgstr "Entrez le nom de la liste de prix des soins . Obligatoire, 100 caractères maximum."
 
 msgid "Enter the creation date for the price list of medical services. *Note: You can also use the button next to the date field to select a date to be entered.*"
-msgstr "Entrez la date de création de la liste de prix des services médicaux. *Remarque: Vous pouvez également utiliser le bouton à côté du champ de date pour sélectionner une date à être entré.*"
+msgstr "Entrez la date de création de la liste de prix des soins . *Remarque: Vous pouvez également utiliser le bouton à côté du champ de date pour sélectionner une date à être entré.*"
 
 msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to enter the region in which the price list of medical services is to be used. The region **National** means that the price list is common for all regions. *The list will only be filled with the regions assigned to the current logged in user and with the option National.* Mandatory."
-msgstr "Sélectionnez la `Région`; à partir de la liste des régions en cliquant sur la flèche à droite du sélecteur d'entrée de la région dans laquelle la liste de prix des services médicaux est à être utilisé. La région **National** signifie que la liste de prix est commun pour toutes les régions. *La liste ne sera rempli avec les régions assigné à l'utilisateur connecté et avec l'option Nationale.* Obligatoire."
+msgstr "Sélectionnez la `Région`; à partir de la liste des régions en cliquant sur la flèche à droite du sélecteur d'entrée de la région dans laquelle la liste de prix des soins  est à être utilisé. La région **National** signifie que la liste de prix est commun pour toutes les régions. *La liste ne sera rempli avec les régions assigné à l'utilisateur connecté et avec l'option Nationale.* Obligatoire."
 
 msgid "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to enter the district in which the price list of medical services is to be used. *Note: The list will be only filled with the districts belonging to the selected region and currently logged in user.* It is not mandatory to enter a district, not selecting a district will mean the price list of medical services is used in all districts of the region or nationwide if the region National is selected."
-msgstr "Sélectionnez le `Quartier`; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur d'entrée de l'arrondissement dans lequel la liste de prix des services médicaux est à être utilisé. *Remarque: La liste sera remplie uniquement avec les districts appartenant à la région sélectionnée et de l'utilisateur actuellement connecté.* Il n'est pas obligatoire d'entrer un arrondissement, pas de la sélection d'un district signifie que la liste de prix des services médicaux est utilisé dans tous les districts de la région ou à l'échelle nationale si la région Nationale est sélectionné."
+msgstr "Sélectionnez le `Quartier`; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur d'entrée de l'arrondissement dans lequel la liste de prix des soins  est à être utilisé. *Remarque: La liste sera remplie uniquement avec les districts appartenant à la région sélectionnée et de l'utilisateur actuellement connecté.* Il n'est pas obligatoire d'entrer un arrondissement, pas de la sélection d'un district signifie que la liste de prix des soins  est utilisé dans tous les districts de la région ou à l'échelle nationale si la région Nationale est sélectionné."
 
 
 msgid "``Medical Services``"
 msgstr "``Services médicaux``"
 
 msgid "Select from the list of available medical services the medical services which the price list of medical service should contain, by either clicking on the ``check all`` box at the top of the list of medical services, or by selectively clicking on the ``check box`` to the left of a medical service. The list shows the medical services displaying the code, name, type and price for reference. There is also an extra column, Overrule, which can be used to overrule the pre-set price. By clicking once on the row desired item in the overrule column, a new price can be entered for the individual service. This occurs when price agreed between a health facility or group of health facilities and the health insurance administration differs from the common price in the register of medical services."
-msgstr "Sélectionnez à partir de la liste des services médicaux les services médicaux dont la liste de prix des services médicaux doit contenir, soit en cliquant sur `vérifier tout` en haut de la liste des services médicaux, ou de manière sélective la cliquant sur sur la `case à cocher` à la gauche d'un service médical. La liste affiche les services médicaux d'afficher le code, le nom, le type et le prix de référence. Il y a également une colonne supplémentaire, Infirmer, qui peut être utilisé pour écraser les prix. En cliquant une fois sur la ligne de l'élément souhaité dans le contredire colonne, un nouveau prix peut être saisi pour le service. Cela se produit lorsque le prix convenu entre un établissement de santé ou d'un groupe d'établissements de santé et d'assurance-santé de l'administration diffère de la commune de prix dans le registre de services médicaux."
+msgstr "Sélectionnez à partir de la liste des soins  les services médicaux dont la liste de prix des soins  doit contenir, soit en cliquant sur `vérifier tout` en haut de la liste des soins , ou de manière sélective la cliquant sur sur la `case à cocher` à la gauche d'un service médical. La liste affiche les services médicaux d'afficher le code, le nom, le type et le prix de référence. Il y a également une colonne supplémentaire, Infirmer, qui peut être utilisé pour écraser les prix. En cliquant une fois sur la ligne de l'élément souhaité dans le contredire colonne, un nouveau prix peut être saisi pour le service. Cela se produit lorsque le prix convenu entre un établissement de santé ou d'un groupe d'établissements de santé et d'assurance-santé de l'administration diffère de la commune de prix dans le registre des soins ."
 
 
 msgid "**Saving**"
 msgstr "**Sauvegarder**"
 
 msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Price List Medical Services Control Page <#price-list-medical-services-control-page>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the price list medical service has been saved will appear on the Information Panel."
-msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton ``Sauvegarder`` sauvegardera l'enregistrement. L'utilisateur sera redirigé vers la `page de contrôle des services médicaux de la liste de prix <#price-list-medical-services-control-page> pages de contrôle des services médicaux <#price-list-medical-services-control-page>`__, avec le nouvel enregistrement enregistré affiché et sélectionné dans le panneau de résultats. Un message confirmant que la liste de prix des services médicaux a été enregistrée apparaîtra sur le panneau d'informations."
+msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton ``Sauvegarder`` sauvegardera l'enregistrement. L'utilisateur sera redirigé vers la `page de contrôle des soins  de la liste de prix <#price-list-medical-services-control-page> pages de contrôle des soins  <#price-list-medical-services-control-page>`__, avec le nouvel enregistrement enregistré affiché et sélectionné dans le panneau de résultats. Un message confirmant que la liste de prix des soins  a été enregistrée apparaîtra sur le panneau d'informations."
 
 
 msgid "**Mandatory Data**"
@@ -243,7 +243,7 @@ msgstr "En cliquant sur le bouton ``Annuler``, l'utilisateur sera redirigé vers
 
 
 msgid "Adding a Price List of Medical Services"
-msgstr "Ajout d'une liste de prix des services médicaux"
+msgstr "Ajout d'une liste de prix des soins "
 
 
 msgid "Click on the ``Add`` button to re-direct to the `Price List Medical Services Page <#price-list-medical-services-page>`__\\."
@@ -251,11 +251,11 @@ msgstr "Cliquez sur le bouton ``Ajouter`` pour rediriger vers la `page des <#pri
 
 
 msgid "When the page opens all entry fields are empty. See the `Price List Medical Services Page <#price-list-medical-services-page>`__ for information on the data entry and mandatory fields."
-msgstr "Lorsque la page s'ouvre, tous les champs de saisie sont vides. Consultez la page ``Liste des prix des services médicaux <#price-list-medical-services-page>`` __ pour obtenir des informations sur la saisie des données et les champs obligatoires."
+msgstr "Lorsque la page s'ouvre, tous les champs de saisie sont vides. Consultez la page ``Liste des prix des soins  <#price-list-medical-services-page>`` __ pour obtenir des informations sur la saisie des données et les champs obligatoires."
 
 
 msgid "Editing a Price List of Medical Services"
-msgstr "Modification d'une liste de prix des services médicaux"
+msgstr "Modification d'une liste de prix des soins "
 
 
 msgid "Click on the ``Edit`` button to re-direct to the `Price List Medical Services Page <#price-list-medical-services-page>`__\\."
@@ -263,22 +263,22 @@ msgstr "Cliquez sur le bouton ``Modifier`` pour rediriger vers la `page des <#pr
 
 
 msgid "The page will open with the current information loaded into the data entry fields. See the `Price List Medical Services Page <#price-list-medical-services-page>`__ for information on the data entry and mandatory fields."
-msgstr "La page s'ouvrira avec les informations actuelles chargées dans les champs de saisie de données. Consultez la page ``Liste des prix des services médicaux <#price-list-medical-services-page>`` __ pour obtenir des informations sur la saisie des données et les champs obligatoires."
+msgstr "La page s'ouvrira avec les informations actuelles chargées dans les champs de saisie de données. Consultez la page ``Liste des prix des soins  <#price-list-medical-services-page>`` __ pour obtenir des informations sur la saisie des données et les champs obligatoires."
 
 
 msgid "Duplicating a Price List of Medical Services"
-msgstr "Duplication d'une liste de prix des services médicaux"
+msgstr "Duplication d'une liste de prix des soins "
 
 
 msgid "Click on the ``Duplicate`` button to re-direct to the `Price List Medical Services Page <#price-list-medical-services-page>`__\\."
 msgstr "Cliquez sur le bouton ``Dupliquer`` pour rediriger vers la `page des <#price-list-medical-services-page> services médicaux <#price-list-medical-services-page>`__ \\."
 
 msgid "The page will open with all the current information for the selected pricelist, (except for the pricelist name which should be unique), loaded into the data entry fields. See the `Price List Medical Services Page <#price-list-medical-services-page>`__ for information on the data entry and mandatory fields. To save the record, enter a unique code before clicking on save."
-msgstr "La page s'ouvrira avec toutes les informations actuelles pour la liste de prix sélectionnée, (à l'exception du nom de liste de prix qui devrait être unique), chargé dans les champs de saisie de données. Consultez la page ``Liste des prix des services médicaux <#price-list-medical-services-page>`` __ pour obtenir des informations sur la saisie des données et les champs obligatoires. Pour sauvegarder l'enregistrement, entrez un code unique avant de cliquer sur enregistrer."
+msgstr "La page s'ouvrira avec toutes les informations actuelles pour la liste de prix sélectionnée, (à l'exception du nom de liste de prix qui devrait être unique), chargé dans les champs de saisie de données. Consultez la page ``Liste des prix des soins  <#price-list-medical-services-page>`` __ pour obtenir des informations sur la saisie des données et les champs obligatoires. Pour sauvegarder l'enregistrement, entrez un code unique avant de cliquer sur enregistrer."
 
 
 msgid "Deleting a Price List of Medical Services"
-msgstr "Suppression d'une liste de prix des services médicaux"
+msgstr "Suppression d'une liste de prix des soins "
 
 
 msgid "Click on the ``Delete`` button to delete the currently selected record."
@@ -294,4 +294,4 @@ msgstr "`Supprimer la confirmation - Panneau de boutons`"
 
 
 msgid "When a price list medical service is deleted, all records retaining to the deleted price list medical service will still be available by selecting historical records."
-msgstr "Lorsqu'un service médical de liste de prix est supprimé, tous les enregistrements conservant le service médical de liste de prix supprimé seront toujours disponibles en sélectionnant les enregistrements historiques."
+msgstr "Lorsqu'un service médical de liste de prix est supprimé, tous les enregistrements conservant le soin  de liste de prix supprimé seront toujours disponibles en sélectionnant les enregistrements historiques."

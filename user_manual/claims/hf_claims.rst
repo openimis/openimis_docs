@@ -92,19 +92,19 @@ Claims Control Page
 
     * ``Visit Date From``
 
-      Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date From`` date which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.* ``Visit Date From`` should be the day of admission for in-patient care or the visit date in case of out-patient care.
+      Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date From`` date which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup*. ``Visit Date From`` should be the day of admission for in-patient care or the visit date in case of out-patient care.
 
     * ``Visit Date To``
 
-      Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date From`` date which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.* ``Visit Date To`` should be the day of discharge for in-patient care or the visit date in case of out-patient care.
+      Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date From`` date which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup*. ``Visit Date To`` should be the day of discharge for in-patient care or the visit date in case of out-patient care.
 
     * ``Claim Date From``
 
-      Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date`` date which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*
+      Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date`` date which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup**
 
     * ``Claim Date To``
 
-      Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date`` date which is on or is less than the date typed/selected. Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
+      Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date`` date which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key*.
 
 
 

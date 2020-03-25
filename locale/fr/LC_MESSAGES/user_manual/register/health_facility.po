@@ -16,14 +16,14 @@ msgstr "Administration des établissements de santé"
 
 
 msgid "The register of health facilities contains all health facilities contracted and/or eligible for submitting of claims by/to the health insurance scheme. Health Facility administration is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Health Facilities."
-msgstr "Le registre des établissements de santé contient tous les établissements de santé sous contrat et / ou éligibles pour soumettre des réclamations par / au régime d'assurance maladie. L'administration des établissements de santé est réservée aux utilisateurs ayant le rôle d'administrateur de système ou un rôle comprenant un accès à l'administration / aux établissements de santé."
+msgstr "Le registre des établissements de santé contient tous les établissements de santé sous contrat et / ou éligibles pour soumettre des prestations par / au régime d'assurance maladie. L'administration des établissements de santé est réservée aux utilisateurs ayant le rôle d'administrateur de système ou un rôle comprenant un accès à l'administration / aux établissements de santé."
 
 
 msgid "Pre-conditions"
 msgstr "Conditions préalables"
 
 msgid "A health facility may only be added if the management of the scheme administration contracts it or if eligibility of submitting of claims can be derived from the legislation. It may thereafter be edited; however, approval of the management of the scheme administration is required for a change of the pricelists associated with the health facility. Deletion of a health facility normally will occur when a Health Facility stops its activity or the contract with the health facility with the scheme administration is cancelled."
-msgstr "Un établissement de santé ne peut être ajouté si la gestion du régime des contrats de l'administration ou si les conditions d'admissibilité de la soumission de réclamations peuvent être dérivées de la législation. Il peut par la suite être modifié; toutefois, l'approbation de la gestion du régime d'administration est requise pour une modification des listes de prix associés à l'établissement de santé. La suppression d'un établissement de santé, normalement, lorsqu'un Établissement de Santé qui cesse son activité ou d'un contrat avec l'établissement de santé avec le régime de l'administration est annulée."
+msgstr "Un établissement de santé ne peut être ajouté si la gestion du régime des contrats de l'administration ou si les conditions d'admissibilité de la soumission de prestations peuvent être dérivées de la législation. Il peut par la suite être modifié; toutefois, l'approbation de la gestion du régime d'administration est requise pour une modification des listes de prix associés à l'établissement de santé. La suppression d'un établissement de santé, normalement, lorsqu'un Établissement de Santé qui cesse son activité ou d'un contrat avec l'établissement de santé avec le régime de l'administration est annulée."
 
 
 msgid "Navigation"
@@ -31,7 +31,7 @@ msgstr "La navigation"
 
 
 msgid "`Navigation Health Facilities`"
-msgstr "`Installations sanitaires de navigation`"
+msgstr "`Navigation: Installations sanitaires`"
 
 
 msgid "All functionality for use with the administration of health facilities can be found under the main menu ``Administration``, sub menu ``Health Facilities.``"
@@ -47,7 +47,7 @@ msgstr "`Page de contrôle des établissements de santé`"
 
 
 msgid "Health Facilities Control PAGE"
-msgstr "PAGE Contrôle des établissements de santé"
+msgstr "Page Contrôle des établissements de santé"
 
 
 msgid "The ``Health Facilities Control Page`` is the central point for all health facilities administration. By having access to this page, it is possible to add, edit, delete and search. The page is divided into four panels (:numref:`image16`)"
@@ -63,7 +63,7 @@ msgstr "Le panneau de recherche permet à un utilisateur de sélectionner des cr
 
 
 msgid "``Code``"
-msgstr "`` Code``"
+msgstr "``Code``"
 
 
 msgid "Type in the beginning of; or the full ``Code``; to search for health facilities with a ``Code``, which starts with or matches completely, the typed text."
@@ -79,7 +79,7 @@ msgstr "Tapez au début de; ou le ``Nom`` complet; pour rechercher des établiss
 
 
 msgid "``Fax``"
-msgstr "`` Fax``"
+msgstr "``Fax``"
 
 
 msgid "Type in the beginning of; or the full ``Fax`` to search for health facilities with a ``Fax``, which starts with or matches completely, the typed number."
@@ -87,11 +87,11 @@ msgstr "Tapez au début de; ou le ``Fax`` complet pour rechercher les établisse
 
 
 msgid "``Level``"
-msgstr "`` Niveau``"
+msgstr "``Niveau``"
 
 
 msgid "Select the ``Level``; from the list of levels of health facilities (Dispensary, Health Centre, Hospital) by clicking on the arrow on the right of the selector, to select health facilities of a specific level of service."
-msgstr "Sélectionnez le ``Niveau``; à partir de la liste des niveaux des formations sanitaires (Dispensaire, Centre de Santé, Hôpital) en cliquant sur la flèche à droite du sélecteur, pour sélectionner les formations sanitaires d'un niveau de service spécifique."
+msgstr "Sélectionnez le ``Niveau``; à partir de la liste des niveaux des formations sanitaires (Dispensaire, Centre de Santé, Hôpital) en cliquant sur la flèche à droite du sélecteur, pour sélectionner les formations sanitaires d'un niveau de soin spécifique."
 
 
 msgid "``Phone Number``"
@@ -103,7 +103,7 @@ msgstr "Tapez au début de; ou le ``Numéro de téléphone`` complet pour recher
 
 
 msgid "``Email``"
-msgstr "`` Courriel``"
+msgstr "``Courriel``"
 
 
 msgid "Type in the beginning of; or the full ``Email`` to search for health facilities with an ``Email`` which starts with or matches completely, the typed text."
@@ -118,14 +118,14 @@ msgstr "Sélectionnez la `Forme Juridique`; à partir de la liste des formes jur
 
 
 msgid "``Region``"
-msgstr "`` Région``"
+msgstr "``Région``"
 
 msgid "Select the ``Region``; from the list of districts by clicking on the arrow on the right of the selector to select health facilities from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then this region will be automatically selected.*"
 msgstr "Sélectionnez la `Région`; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur pour sélectionner les établissements de santé d'une région spécifique. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté. Si ce n'est qu'un, alors cette région sera automatiquement sélectionné.*"
 
 
 msgid "``District``"
-msgstr "`` Quartier``"
+msgstr "``Quartier``"
 
 msgid "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select health facilities from a specific district. *Note: The list will only be filled with the districts that belong to the selected region and that are assigned to the current logged in user. If this is only one then the district will be automatically selected.*"
 msgstr "Sélectionnez le `Quartier`; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur pour sélectionner les établissements de santé d'un district particulier. *Remarque: La liste ne sera rempli avec les districts qui appartiennent à la région et qui sont assigné à l'utilisateur connecté. Si ce n'est qu'un, le quartier sera automatiquement sélectionné.*"
@@ -162,15 +162,15 @@ msgid "**Result Panel**"
 msgstr "**Panneau de résultats**"
 
 msgid "The result panel displays a list of all health facilities found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image18`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
-msgstr "Le résultat s'affiche sur le panneau une liste de tous les établissements de santé constaté, correspondant aux Critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image18`). La gauche dossier contient un lien, qui, si vous cliquez dessus, re-dirige l'utilisateur vers le record actuel pour obtenir la visualisation si c'est un record historique ou de la modification si c'est l'enregistrement en cours."
+msgstr "Le résultat s'affiche sur le panneau une liste de tous les établissements de santé constaté, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en évidence (gris), (:numref:`image18`). La colunne de gauche contient un lien qui re-dirige vers la page de visualisation dans le cas d'une ligne historique ou vers la page de modification dans le cas des lignes encore valident."
 
 
 msgid "`Selected record (blue), hovered records (yellow) - Result Panel`"
-msgstr "`Enregistrement sélectionné (bleu), enregistrements survolés (jaune) - Panneau de résultats`"
+msgstr "`Enregistrement sélectionné (gris) - Panneau de résultats`"
 
 
 msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image19`)"
-msgstr "Un maximum de 15 enregistrements sont affichés en même temps, d'autres enregistrements peuvent être consultés en parcourant les pages à l'aide du sélecteur de page en bas du panneau de résultat (:numref:`image19`)"
+msgstr "Un maximum de 10 lignes sont affichés en même temps ( peut être modifier:numref:`mat_record_per_page`), d'autres enregistrements peuvent être consultés en parcourant les pages à l'aide du sélecteur de page en bas du panneau de résultat (:numref:`mat_page_browser`)"
 
 
 msgid "`Page selector- Result Panel`"
@@ -266,7 +266,7 @@ msgid "``Price Lists (Medical Services)``"
 msgstr "``Listes de prix (services médicaux)``"
 
 msgid "Select the health facilities price lists (for medical services) from the list by clicking on the arrow on the right hand side of the lookup. The pricelist contains the list of medical services and their prices agreed between the health facility (or corresponding group of health facilities) and the scheme administration which can be invoiced by the health facility and remunerated by the scheme administration. *Note: The list will only be filled with the pricelists associated with the previously selected district, regional and nationwide pricelists assigned to the current logged in user.*"
-msgstr "Sélectionnez les établissements de santé des listes de prix (pour les services médicaux de la liste en cliquant sur la flèche sur le côté droit de la recherche. La liste contient la liste des services médicaux et de leur prix convenu entre l'établissement de santé (ou groupe d'établissements de santé) et le schéma d'administration qui peuvent être facturés par l'établissement de santé et rémunérées par le régime d'administration. *Remarque: La liste ne sera rempli avec les listes de prix associées à celles déjà sélectionnées pour le quartier, régionale et nationale les listes de prix assigné à l'utilisateur connecté.*"
+msgstr "Sélectionnez les établissements de santé des listes de prix (pour les services médicaux de la liste en cliquant sur la flèche sur le côté droit de la recherche. La liste contient la liste des soins  et de leur prix convenu entre l'établissement de santé (ou groupe d'établissements de santé) et le schéma d'administration qui peuvent être facturés par l'établissement de santé et rémunérées par le régime d'administration. *Remarque: La liste ne sera rempli avec les listes de prix associées à celles déjà sélectionnées pour le quartier, régionale et nationale les listes de prix assigné à l'utilisateur connecté.*"
 
 
 msgid "``Price Lists (Medical Items)``"
@@ -289,7 +289,7 @@ msgstr "``Région, district, municipalité, village, grille de captage``"
 
 
 msgid "Check the locations that define the catchment area of the health facility. Specify the percentage of the population of a village that belong to the catchment area in the catchment column. Default is 100%."
-msgstr "Vérifiez les emplacements qui définissent la zone de chalandise de l'établissement de santé. Spécifiez le pourcentage de la population d'un village appartenant à la zone de chalandise dans la colonne de chalandise. La valeur par défaut est 100%."
+msgstr "Vérifiez les Lieux qui définissent la zone de chalandise de l'établissement de santé. Spécifiez le pourcentage de la population d'un village appartenant à la zone de chalandise dans la colonne de chalandise. La valeur par défaut est 100%."
 
 
 msgid "**Saving**"

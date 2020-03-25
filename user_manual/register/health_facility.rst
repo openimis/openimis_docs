@@ -1,5 +1,3 @@
-
-
 Health Facilities Administration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -13,8 +11,8 @@ Pre-conditions
 Navigation
 """"""""""
 
-  .. _image15:
-  .. figure:: /img/user_manual/image19.png
+  .. _hf_menu:
+  .. figure:: /img/user_manual/hf.menu.png
     :align: center
 
     `Navigation Health Facilities`
@@ -23,8 +21,8 @@ Navigation
 
   Clicking on the sub menu ``Health Facilities`` re-directs the current user to the `Health Facilities Control Page <#health-facilities-control-page>`__\.
 
-  .. _image16:
-  .. figure:: /img/user_manual/image20.png
+  .. _hf_page:
+  .. figure:: /img/user_manual/hf.page.png
     :align: center
 
     `Health Facilities Control Page`
@@ -32,7 +30,7 @@ Navigation
 Health Facilities Control PAGE
 """"""""""""""""""""""""""""""
 
-  The ``Health Facilities Control Page`` is the central point for all health facilities administration. By having access to this page, it is possible to add, edit, delete and search. The page is divided into four panels (:numref:`image16`)
+  The ``Health Facilities Control Page`` is the central point for all health facilities administration. By having access to this page, it is possible to add, edit, delete and search. The page is divided into four panels (:numref:`hf_page`)
 
  #. **Search Panel**
 
@@ -83,7 +81,7 @@ Health Facilities Control PAGE
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image17`)
 
       .. _image17:
-      .. figure:: /img/user_manual/image21.png
+      .. figure:: /img/user_manual/hf.list_historic.png
         :align: center
 
         `Historical Records - Result Panel`
@@ -97,18 +95,13 @@ Health Facilities Control PAGE
     The result panel displays a list of all health facilities found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image18`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
       .. _image18:
-      .. figure:: /img/user_manual/image22.png
+      .. figure:: /img/user_manual/hf.list_select.png
         :align: center
 
         `Selected record (blue), hovered records (yellow) - Result Panel`
 
     A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image19`)
 
-      .. _image19:
-      .. figure:: /img/user_manual/image11.png
-        :align: center
-
-        `Page selector- Result Panel`
 
  #. **Button Panel**
 
@@ -124,7 +117,7 @@ Health Facility Page
  #. **Data Entry**
 
     .. _image20:
-    .. figure:: /img/user_manual/image23.png
+    .. figure:: /img/user_manual/hf.page.png
       :align: center
 
       `Health Facility Page`
@@ -227,7 +220,7 @@ Deleting a Health Facility
   Before deleting a confirmation popup (:numref:`image21`) is displayed, which requires the user to confirm if the action should really be carried out?
 
     .. _image21:
-    .. figure:: /img/user_manual/image24.png
+    .. figure:: /img/user_manual/hf.delete_conf.png
       :align: center
 
       `Delete confirmation- Button Panel`

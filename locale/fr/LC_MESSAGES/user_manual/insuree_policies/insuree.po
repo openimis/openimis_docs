@@ -28,7 +28,7 @@ msgstr "Conditions préalables"
 
 
 msgid "Need to enquire on, or edit an insuree, and the family/group, policies and contributions associated."
-msgstr "Vous devez vous renseigner ou modifier un assuré, ainsi que la famille / le groupe, les politiques et les contributions associées."
+msgstr "Vous devez vous renseigner ou modifier un assuré, ainsi que la famille / le groupe, les polices et les contributions associées."
 
 
 msgid "Navigation"
@@ -40,7 +40,7 @@ msgstr "Toutes les fonctionnalités destinées à l'administration des assurés 
 
 
 msgid "`Navigation Insurees`"
-msgstr "`Assurés de navigation`"
+msgstr "`Navigation: Assurés`"
 
 
 msgid "Clicking on the sub menu ``Insurees`` re-directs the current user to the Find Insuree Page."
@@ -55,7 +55,7 @@ msgid "`Find Insuree Page`"
 msgstr "`Rechercher la page de l'assuré`"
 
 msgid "The ``Find Insuree Page`` is the first step in the process of finding an insuree and thereafter accessing the family/group overview of insurees, policies and contributions. This initial page can be used to search for specific Insurees or groups of insurees based on specific criteria. The panel is divided into four panels (:numref:`image96`)"
-msgstr "Le preneur d'assurance Page` est la première étape dans le processus de recherche d'un preneur d'assurance et par la suite accéder à la famille/groupe vue d'ensemble des assurés, des politiques et des contributions. Cette première page peut être utilisée pour rechercher des Assurés ou des groupes d'assurés en fonction de critères spécifiques. Le panneau est divisé en quatre panneaux (:numref:`image96`)"
+msgstr "Le preneur d'assurance Page` est la première étape dans le processus de recherche d'un preneur d'assurance et par la suite accéder à la famille/groupe vue d'ensemble des assurés, des polices et des contributions. Cette première page peut être utilisée pour rechercher des Assurés ou des groupes d'assurés en fonction de critères spécifiques. Le panneau est divisé en quatre panneaux (:numref:`image96`)"
 
 
 msgid "**Search Panel**"
@@ -183,7 +183,7 @@ msgstr "Sélectionnez le ``Sexe``; dans la liste des genres en cliquant sur la f
 
 
 msgid "``Region``"
-msgstr "`` Région``"
+msgstr "``Région``"
 
 
 msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select insurees from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*"
@@ -191,7 +191,7 @@ msgstr "Sélectionnez la ``Région``; dans la liste des régions en cliquant sur
 
 
 msgid "``District``"
-msgstr "`` Quartier``"
+msgstr "``Quartier``"
 
 
 msgid "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select insurees from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*"
@@ -266,10 +266,10 @@ msgstr "**Panneau de boutons**"
 
 
 msgid "The ``CLAIMS`` button directs to the  Claims Control Pages for the selected insure. The  Claims Control Pages is populated by the insurance number of the selected insuree. The CLAIMS button is available only if the user has a role that includes access to Claims/Claim/Search."
-msgstr "Le bouton ``RÉCLAMATION`` renvoie aux pages de contrôle des réclamations de l'assuré sélectionné. Les pages de contrôle des sinistres sont remplies par le numéro d'assurance de l'assuré sélectionné. Le bouton RÉCLAMATIONS n'est disponible que si l'utilisateur a un rôle qui comprend l'accès aux réclamations / réclamation / recherche."
+msgstr "Le bouton ``RÉCLAMATION`` renvoie aux pages de contrôle des prestations de l'assuré sélectionné. Les pages de contrôle des sinistres sont remplies par le numéro d'assurance de l'assuré sélectionné. Le bouton RÉCLAMATIONS n'est disponible que si l'utilisateur a un rôle qui comprend l'accès aux prestations / prestation / recherche."
 
 msgid "The ``CLAIMS REVIEWED`` button directs to the Claims Overview Page for the selected insure. The  Claims Overview Page is populated by the insurance number of the selected insuree. The CLAIMS REVIEWED button is available only if the user has a role that includes access to Claims/Claim/Review."
-msgstr "Les `DEMANDES EXAMINÉES` bouton de lien direct vers la Page de Présentation des Réclamations pour l'assurer. Les Réclamations Aperçu de la Page est remplie par l'assurance numéro de la preneur d'assurance. Les DEMANDES EXAMINÉES bouton est disponible uniquement si l'utilisateur a un rôle qui inclut l'accès aux Demandes/Demande/Révision."
+msgstr "Les `DEMANDES EXAMINÉES` bouton de lien direct vers la Page de Présentation des prestations pour l'assurer. Les prestations Aperçu de la Page est remplie par l'assurance numéro de la preneur d'assurance. Les DEMANDES EXAMINÉES bouton est disponible uniquement si l'utilisateur a un rôle qui inclut l'accès aux Demandes/Demande/Révision."
 
 
 msgid "The ``Cancel`` button re-directs to the ``Home Page``."
@@ -405,7 +405,7 @@ msgstr "Entrez le numéro de téléphone de l'assuré."
 
 
 msgid "``Email``"
-msgstr "`` Courriel``"
+msgstr "``Courriel``"
 
 
 msgid "Enter the e-mail address of the insuree."
@@ -437,7 +437,7 @@ msgstr "Sélectionnez dans la liste des régions disponibles la région dans laq
 
 
 msgid "``District of FSP``"
-msgstr "`` District de FSP``"
+msgstr "``District de FSP``"
 
 
 msgid "Select from the list of available districts the district, in which the chosen primary health facility (First Service Point) of the insuree is located. *Note: The list will only be filled with the districts belonging to the selected region.*"
@@ -449,11 +449,11 @@ msgstr "``Niveau de FSP``"
 
 
 msgid "Select the level of the chosen primary health facility (First Service Point) of the insuree."
-msgstr "Sélectionnez le niveau de l'établissement de santé primaire choisi (premier point de service) de l'assuré."
+msgstr "Sélectionnez le niveau de l'établissement de santé primaire choisi (premier point de soin) de l'assuré."
 
 
 msgid "``First Service Point``"
-msgstr "``Premier point de service``"
+msgstr "``Premier point de soin``"
 
 
 msgid "Select from the list of available health facilities the chosen primary health facility (First Service Point) of the insuree. *Note: The list will only be filled with the health facilities belonging to the selected district which are of the selected level.*"
@@ -461,14 +461,14 @@ msgstr "Sélectionner dans la liste des formations sanitaires disponibles la str
 
 
 msgid "``Browse``"
-msgstr "`` Parcourir``"
+msgstr "``Parcourir``"
 
 
 msgid "Browse to get the photo for the insuree related to his/her insurance number."
 msgstr "Parcourez pour obtenir la photo de l'assuré liée à son numéro d'assurance."
 
 msgid "*Note: There is an automated service in the openIMIS Server which will run on configured time basis repeatedly and assign related photos to insurees without photos if any exist in the openIMIS database. So after a user has input insuree's insurance number and no photo is displayed, there is no need to browse for the photo as that process will be done automatically by the service if the service is configured.*"
-msgstr "*Note: Il y a un service automatisé dans le openIMIS Serveur qui sera exécuté sur le temps configuré de base à plusieurs reprises et attribuer des photos pour les assurés sans photos s'il en existe, dans le openIMIS base de données. Donc, après qu'un utilisateur a l'entrée du preneur d'assurance, le numéro d'assurance et aucune photo n'est affichée, il n'est pas nécessaire de parcourir pour la photo en tant que processus sera fait automatiquement par le service si le service est configuré.*"
+msgstr "*Note: Il y a un service automatisé dans le openIMIS Serveur qui sera exécuté sur le temps configuré de base à plusieurs reprises et attribuer des photos pour les assurés sans photos s'il en existe, dans le openIMIS base de données. Donc, après qu'un utilisateur a l'entrée du preneur d'assurance, le numéro d'assurance et aucune photo n'est affichée, il n'est pas nécessaire de parcourir pour la photo en tant que processus sera fait automatiquement par le soin si le soin est configuré.*"
 
 
 msgid "**Saving**"

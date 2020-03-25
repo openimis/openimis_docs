@@ -66,7 +66,7 @@ msgstr "``Extraits``"
 
 
 msgid "Extracts Menu leads an offline user to Extracts control panel. Using this panel, an offline user with rights to this panel can import data from online openIMIS to the local offline IMIS, and can also download claims and enrolments prior to upload them to the online IMIS. This panel is divided into five sections (:numref:`image255`), (:numref:`image256`) If an offline user is HF Administrator, section C will contain facility to ``Download Claims``. If an offline user is Offline Scheme Administrator, section C will contain facility to ``Download Enrolments``"
-msgstr "Le menu Extracts mène un utilisateur hors ligne au panneau de configuration Extracts. À l'aide de ce panneau, un utilisateur hors ligne ayant des droits sur ce panneau peut importer des données d'OpenIMIS en ligne vers l'IMIS local hors ligne, et peut également télécharger des Réclamations et des inscriptions avant de les télécharger sur l'IMIS en ligne. Ce panneau est divisé en cinq sections (:numref:`image255`), (: numref:` image256`) Si un utilisateur hors ligne est administrateur HF, la section C contiendra la possibilité de ``Télécharger les Réclamations``. Si un utilisateur hors ligne est Administrateur du système hors ligne, la section C contiendra la possibilité de ``Télécharger les inscriptions``"
+msgstr "Le menu Extracts mène un utilisateur hors ligne au panneau de configuration Extracts. À l'aide de ce panneau, un utilisateur hors ligne ayant des droits sur ce panneau peut importer des données d'OpenIMIS en ligne vers l'IMIS local hors ligne, et peut également télécharger des prestations et des inscriptions avant de les télécharger sur l'IMIS en ligne. Ce panneau est divisé en cinq sections (:numref:`image255`), (:numref:` image256`) Si un utilisateur hors ligne est administrateur HF, la section C contiendra la possibilité de ``Télécharger les prestations``. Si un utilisateur hors ligne est Administrateur du système hors ligne, la section C contiendra la possibilité de ``Télécharger les inscriptions``"
 
 
 msgid "`Extracts Control Page, HF Administrator, openIMIS offline`"
@@ -94,7 +94,7 @@ msgstr "`Sélectionner la fenêtre contextuelle du fichier, importer les extrait
 
 
 msgid "After clicking the upload button on the very end of right hand side in this section, data in the file will be imported to the offline openIMIS and confirmation will be given as popup messages (:numref:`image257`), (:numref:`image258`)."
-msgstr "Après avoir cliqué sur le bouton de téléchargement à l'extrémité de la partie droite de cette section, les données du fichier seront importées vers l'openIMIS hors ligne et une confirmation sera donnée sous forme de messages contextuels (:numref:`image257`), (: numref:` image258`)."
+msgstr "Après avoir cliqué sur le bouton de téléchargement à l'extrémité de la partie droite de cette section, les données du fichier seront importées vers l'openIMIS hors ligne et une confirmation sera donnée sous forme de messages contextuels (:numref:`image257`), (:numref:` image258`)."
 
 
 msgid "`Popup Window, Import Extracts, HF Administrator, openIMIS offline`"
@@ -142,17 +142,17 @@ msgstr "Si l'importation de photo n'est pas effectuée pour une raison quelconqu
 
 
 msgid "``section c - download claim xmls``"
-msgstr "``section c - télécharger la réclamation xmls``"
+msgstr "``section c - télécharger la prestation xmls``"
 
 msgid "This section has facility to enable offline HF Administrator download to a zipped file all offline claims. By clicking the download button on the right hand side, the user initiate download process and all offline claims will be downloaded to a default downloads folder in user's local computer or a prompt of 'where to save file' will be displayed by browser'. User can navigate through folder in his/her local computer to find the file downloaded. If no new claims found, a message will be displayed."
-msgstr "Cette section a de la facilité pour activer le mode hors connexion HF Administrateur de téléchargement d'un fichier compressé en mode hors connexion tout les réclamations. En cliquant sur le bouton `télécharger` sur le côté droit, l'utilisateur initier le processus de téléchargement et le tout en mode hors connexion réclamations sera téléchargé dans un dossier de téléchargement par défaut de l'utilisateur de l'ordinateur local ou d'une invite de `où enregistrer le fichier` sera affiché par le navigateur`. L'utilisateur peut naviguer à travers les dossiers de son ordinateur pour trouver le fichier téléchargé. Si pas de nouvelles réclamations, un message sera affiché."
+msgstr "Cette section a de la facilité pour activer le mode hors connexion HF Administrateur de téléchargement d'un fichier compressé en mode hors connexion tout les prestations. En cliquant sur le bouton `télécharger` sur le côté droit, l'utilisateur initier le processus de téléchargement et le tout en mode hors connexion prestations sera téléchargé dans un dossier de téléchargement par défaut de l'utilisateur de l'ordinateur local ou d'une invite de `où enregistrer le fichier` sera affiché par le navigateur`. L'utilisateur peut naviguer à travers les dossiers de son ordinateur pour trouver le fichier téléchargé. Si pas de nouvelles prestations, un message sera affiché."
 
 
 msgid "``download enrolment xmls``"
 msgstr "``télécharger l'inscription xmls``"
 
 msgid "This section has facility to enable Offline Scheme Administrator download to a zipped file all offline enrollments of families, insurees, policies and contributions. By clicking the download button on the right hand side, the user initiate download process. If no enrolment found, a popup message box (:numref:`image262`) will appear, notifying the user. Otherwise enrollments will be downloaded in a zipped file and a confirmation popup message (:numref:`image264`) will appear"
-msgstr "Cette section a de la facilité pour activer le mode Hors connexion Administrateur du programme à télécharger un fichier zippé tous hors ligne les inscriptions des familles, des assurés, des politiques et des contributions. En cliquant sur le bouton `télécharger` sur le côté droit, l'utilisateur initier le processus de téléchargement. Si aucune inscription trouvée, un message pop-up box (:numref:`image262`) apparaît, la notification de l'utilisateur. Sinon, les inscriptions seront téléchargés dans un fichier zippé et un popup de confirmation de message (:numref:`image264`) apparaîtra"
+msgstr "Cette section a de la facilité pour activer le mode Hors connexion Administrateur du programme à télécharger un fichier zippé tous hors ligne les inscriptions des familles, des assurés, des polices et des contributions. En cliquant sur le bouton `télécharger` sur le côté droit, l'utilisateur initier le processus de téléchargement. Si aucune inscription trouvée, un message pop-up box (:numref:`image262`) apparaît, la notification de l'utilisateur. Sinon, les inscriptions seront téléchargés dans un fichier zippé et un popup de confirmation de message (:numref:`image264`) apparaîtra"
 
 
 msgid "`Popup Window, Download Enrolments, openIMIS offline`"
@@ -196,11 +196,11 @@ msgstr "Ce message apparaît après qu'une seule / série d'importations d'extra
 
 
 msgid "No claims Found"
-msgstr "Aucune réclamation trouvée"
+msgstr "Aucune prestation trouvée"
 
 
 msgid "When HF offline openIMIS user is downloading offline claims and no new offline claims is found, this message is displayed."
-msgstr "Lorsque l'utilisateur openFIS hors ligne HF télécharge des Réclamations hors ligne et qu'aucune nouvelle revendication hors ligne n'est trouvée, ce message s'affiche."
+msgstr "Lorsque l'utilisateur openFIS hors ligne HF télécharge des prestations hors ligne et qu'aucune nouvelle prestation hors ligne n'est trouvée, ce message s'affiche."
 
 
 msgid "**User**"
@@ -208,7 +208,7 @@ msgstr "**Utilisateur**"
 
 
 msgid "Users with role HF Administrator, can create only users with roles: **Receptionist, Claim Administrator** and **HF Administrator** (:numref:`image268`). User with role 'offline NSHIP Administrator', can create only user with role: **Clerk** (:numref:`image269`)."
-msgstr "Les utilisateurs avec le rôle Administrateur HF peuvent créer uniquement des utilisateurs avec des rôles: **Réceptionniste, Administrateur des réclamations** et **Administrateur HF** (:numref:`image268`). L'utilisateur avec le rôle 'Administrateur NSHIP hors ligne', peut créer uniquement un utilisateur avec le rôle: **Commis** (:numref:`image269`)."
+msgstr "Les utilisateurs avec le rôle Administrateur HF peuvent créer uniquement des utilisateurs avec des rôles: **Réceptionniste, Administrateur des prestations** et **Administrateur HF** (:numref:`image268`). L'utilisateur avec le rôle 'Administrateur NSHIP hors ligne', peut créer uniquement un utilisateur avec le rôle: **Commis** (:numref:`image269`)."
 
 
 msgid "`Users Page - HF Administrator, openIMIS offline`"
@@ -228,7 +228,7 @@ msgstr "Recherche / Recherche"
 
 
 msgid "In all pages in ``Insurees`` and ``Policies`` menus with search / find acility, there will be an extra search criteria (:numref:`image270`) to enable search for offline data only. This feature is available if a user is in Offline IMIS."
-msgstr "Dans toutes les pages des menus ``Assurés`` et ``Politiques`` avec fonction de recherche / recherche, il y aura un critère de recherche supplémentaire (:numref:`image270`) pour permettre la recherche de données hors ligne uniquement. Cette fonctionnalité est disponible si un utilisateur est dans IMIS hors ligne."
+msgstr "Dans toutes les pages des menus ``Assurés`` et ``Polices`` avec fonction de recherche / recherche, il y aura un critère de recherche supplémentaire (:numref:`image270`) pour permettre la recherche de données hors ligne uniquement. Cette fonctionnalité est disponible si un utilisateur est dans IMIS hors ligne."
 
 
 msgid "`Search Criteria - offline only data, openIMIS offline`"
@@ -244,4 +244,4 @@ msgstr "Seuls les familles, les assurés, les polices et les contributions cré�
 
 
 msgid "For an offline user with a right to open ``Insurees`` and ``Policies`` menus, he/she can access all data but can manipulate only that data which was created offline. The rest of the data will be available in read-only mode"
-msgstr "Pour un utilisateur hors ligne ayant le droit d'ouvrir les menus ``Assurés`` et ``Politiques``, il / elle peut accéder à toutes les données mais ne peut manipuler que les données qui ont été créées hors ligne. Le reste des données sera disponible en mode lecture seule"
+msgstr "Pour un utilisateur hors ligne ayant le droit d'ouvrir les menus ``Assurés`` et ``Polices``, il / elle peut accéder à toutes les données mais ne peut manipuler que les données qui ont été créées hors ligne. Le reste des données sera disponible en mode lecture seule"

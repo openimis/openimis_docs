@@ -75,7 +75,7 @@ msgstr "Une boîte apparaît (**Enregistrer le fichier de connexion de données 
 
 
 msgid "A box appears (**Import Data**). Select whether cube should be accessed by a pivot table and / or chart and specify a placement of the pivot table. Click on **OK**."
-msgstr "Une boîte apparaît (**Importer des données**). Sélectionnez si le cube doit être accessible par un tableau croisé dynamique et / ou un graphique et spécifiez un emplacement pour le tableau croisé dynamique. Cliquez sur **OK**."
+msgstr "Une boîte apparaît (**Importer des données**). Sélectionnez si le cube doit être accessible par un tableau croisé dynamique et / ou un graphique et spécifiez un lieux pour le tableau croisé dynamique. Cliquez sur **OK**."
 
 msgid "An area for the pivot table appears in the sheet with the **Pivot Table Field** area on the right (:ref:`image275`). Click on facts to be displayed and click or drag dimensions to appropriate sectors of the pivot table in the **Pivot Table Field** area."
 msgstr "Une zone pour le tableau croisé dynamique s'affiche dans la feuille avec l' **Champ de Tableau croisé dynamique** de la zone sur la droite (:ref:`image275`). Cliquez sur les faits à afficher, puis cliquez ou faites glisser les dimensions pour les secteurs appropriés de la table pivot dans l' **Champ de Tableau croisé dynamique** de la zone."
