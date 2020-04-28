@@ -4,11 +4,11 @@ msgstr "Project-Id-Version: openIMIS docs\nReport-Msgid-Bugs-To: EMAIL@ADDRESS\n
 
 #: ../../user_manual/insuree_policies/policy.rst:4
 msgid "Policy"
-msgstr "Politique"
+msgstr "Police"
 
 #: ../../user_manual/insuree_policies/policy.rst:7
 msgid "Find Policy"
-msgstr "Trouver la politique"
+msgstr "Trouver la police"
 
 #: ../../user_manual/insuree_policies/policy.rst:9
 msgid "Access to the ``Find Policy Page`` is restricted to users with the role system roles of Accountant, Clerk or Health Facility Receptionist or with a role including an access to Insurees and Families/Policy/Search."
@@ -28,29 +28,29 @@ msgstr "La navigation"
 
 #: ../../user_manual/insuree_policies/policy.rst:17
 msgid "Find Policy Page can be found under the main menu ``Insurees and Policies``, sub menu ``Policies``."
-msgstr "La page Trouver une police se trouve dans le menu principal ``Assurés et polices``, sous-menu ``Politiques``."
+msgstr "La page Trouver une police se trouve dans le menu principal ``Assurés et polices``, sous-menu ``Polices``."
 
 #: ../../user_manual/insuree_policies/policy.rst:23
 msgid "`Navigation Policies`"
-msgstr "`Politiques de navigation`"
+msgstr "`Navigation: Polices`"
 
 #: ../../user_manual/insuree_policies/policy.rst:25
 msgid "Clicking on the sub menu ``Policies`` re-directs the current user to the ``find policy page.``"
 
-msgstr "Un clic sur le sous-menu ``Politiques`` redirige l'utilisateur actuel vers la ``page de recherche de politique``."
+msgstr "Un clic sur le sous-menu ``Polices`` redirige l'utilisateur actuel vers la ``page de recherche de police``."
 
 #: ../../user_manual/insuree_policies/policy.rst:27
 msgid "Find Policy Page"
-msgstr "Page Rechercher une politique"
+msgstr "Page Rechercher une police"
 
 #: ../../user_manual/insuree_policies/policy.rst:33
 msgid "`Find Policy Page`"
-msgstr "`Rechercher une page de politique`"
+msgstr "`Rechercher une page de police`"
 
 #: ../../user_manual/insuree_policies/policy.rst:35
 #, fuzzy
 msgid "The ``Find Policy Page`` is the first step in the process of finding a policy and thereafter accessing the `Family Overview Page <#family-overview-page.>`__ of insurees, policies and contributions. This initial page can be used to search for specific policies or groups of policies based on specific criteria. The panel is divided into four panels (:numref:`image102`)"
-msgstr "La ``page de recherche de police`` est la première étape du processus de recherche d'une police, puis l'accès à la `page de présentation de la famille <#family-overview-page.>`__ Des assurés, des polices et des contributions. Cette page initiale peut être utilisée pour rechercher des politiques spécifiques ou des groupes de politiques en fonction de critères spécifiques. Le panneau est divisé en quatre panneaux (:numref:`image102`)"
+msgstr "La ``page de recherche de police`` est la première étape du processus de recherche d'une police, puis l'accès à la `page de présentation de la famille <#family-overview-page.>`__ Des assurés, des polices et des contributions. Cette page initiale peut être utilisée pour rechercher des polices spécifiques ou des groupes de polices en fonction de critères spécifiques. Le panneau est divisé en quatre panneaux (:numref:`image102`)"
 
 #: ../../user_manual/insuree_policies/policy.rst:37
 msgid "**Search Panel**"
@@ -58,7 +58,7 @@ msgstr "**Panneau de recherche**"
 
 #: ../../user_manual/insuree_policies/policy.rst:39
 msgid "The Search Panel allows a user to select specific criteria to minimise the search results. In the case of policies the following search options are available which can be used alone or in combination with each other."
-msgstr "Le panneau de recherche permet à un utilisateur de sélectionner des critères spécifiques pour minimiser les résultats de la recherche. Dans le cas des politiques, les options de recherche suivantes sont disponibles et peuvent être utilisées seules ou en combinaison les unes avec les autres."
+msgstr "Le panneau de recherche permet à un utilisateur de sélectionner des critères spécifiques pour minimiser les résultats de la recherche. Dans le cas des polices, les options de recherche suivantes sont disponibles et peuvent être utilisées seules ou en combinaison les unes avec les autres."
 
 #: ../../user_manual/insuree_policies/policy.rst:41
 msgid "``Enrolment Date From``"
@@ -91,7 +91,7 @@ msgstr "``Date d'entrée en vigueur à``"
 #: ../../user_manual/insuree_policies/policy.rst:55
 #, fuzzy
 msgid "Type in a date; or use the Date Selector Button, to enter the ^^Effective Date To'' to search for policies with an ^^Effective Date^^ equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
-msgstr "Tapez une date; ou utilisez le bouton de sélection de date pour saisir la date ``effective  à'' pour rechercher des politiques avec une ``date effective`` égale ou antérieure à la date spécifiée. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace.*"
+msgstr "Tapez une date; ou utilisez le bouton de sélection de date pour saisir la date ``effective  à'' pour rechercher des polices avec une ``date effective`` égale ou antérieure à la date spécifiée. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace.*"
 
 #: ../../user_manual/insuree_policies/policy.rst:57
 msgid "``Start Date From``"
@@ -99,7 +99,7 @@ msgstr "``Date de début à partir de``"
 
 #: ../../user_manual/insuree_policies/policy.rst:59
 msgid "Type in a date; or use the Date Selector Button, to enter the ``Start Date From`` to search for policies with a ``Start Date`` equal or later than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
-msgstr "Tapez une date; ou utilisez le bouton de sélection de date pour saisir la ``date de début à partir de`` pour rechercher des politiques avec une `` date de début`` égale ou ultérieure à la date spécifiée. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace.*"
+msgstr "Tapez une date; ou utilisez le bouton de sélection de date pour saisir la ``date de début à partir de`` pour rechercher des polices avec une `` date de début`` égale ou ultérieure à la date spécifiée. *Remarque. Pour effacer la zone de saisie de la date; utilisez la souris pour mettre en surbrillance la date complète, puis appuyez sur la touche espace.*"
 
 #: ../../user_manual/insuree_policies/policy.rst:61
 msgid "``Start Date To``"
@@ -176,24 +176,24 @@ msgstr "``Officier d'inscription``"
 
 #: ../../user_manual/insuree_policies/policy.rst:100
 msgid "Select the ``Enrolment Officer``; from the list of enrolment officers by clicking on the arrow on the right of the selector, to select policies related to a specific enrolment officer."
-msgstr "Sélectionnez le ``Responsable des inscriptions``; dans la liste des agents d'inscription en cliquant sur la flèche à droite du sélecteur, pour sélectionner les politiques liées à un agent d'inscription spécifique."
+msgstr "Sélectionnez le ``Responsable des inscriptions``; dans la liste des agents d'inscription en cliquant sur la flèche à droite du sélecteur, pour sélectionner les polices liées à un agent d'inscription spécifique."
 
 #: ../../user_manual/insuree_policies/policy.rst:102
 #: ../../user_manual/insuree_policies/policy.rst:194
 msgid "``Product``"
-msgstr "`` Produit``"
+msgstr "``Produit``"
 
 #: ../../user_manual/insuree_policies/policy.rst:104
 msgid "Select the ``Product``; from the list of products by clicking on the arrow on the right of the selector, to select policies for a specific product."
-msgstr "Sélectionnez le ``Produit``; dans la liste des produits en cliquant sur la flèche à droite du sélecteur, pour sélectionner des politiques pour un produit spécifique."
+msgstr "Sélectionnez le ``Produit``; dans la liste des produits en cliquant sur la flèche à droite du sélecteur, pour sélectionner des polices pour un produit spécifique."
 
 #: ../../user_manual/insuree_policies/policy.rst:106
 msgid "``Policy Status``"
-msgstr "``Statut de la politique``"
+msgstr "``Statut de la police``"
 
 #: ../../user_manual/insuree_policies/policy.rst:108
 msgid "Select the ``Policy Status``; from the list of policy statuses by clicking on the arrow on the right of the selector, to select policies for a specific policy status."
-msgstr "Sélectionnez le ``Statut de la politique``; dans la liste des statuts de stratégie en cliquant sur la flèche à droite du sélecteur, pour sélectionner des stratégies pour un statut de stratégie spécifique."
+msgstr "Sélectionnez le ``Statut de la police``; dans la liste des statuts de stratégie en cliquant sur la flèche à droite du sélecteur, pour sélectionner des stratégies pour un statut de stratégie spécifique."
 
 #: ../../user_manual/insuree_policies/policy.rst:110
 msgid "A policy can have the following statuses:"
@@ -201,7 +201,7 @@ msgstr "Une stratégie peut avoir les statuts suivants:"
 
 #: ../../user_manual/insuree_policies/policy.rst:112
 msgid "**Idle** (Policy data entered but policy not yet activated)"
-msgstr "**Inactif** (Données de politique entrées mais politique non encore activée)"
+msgstr "**Inactif** (Données de police entrées mais police non encore activée)"
 
 #: ../../user_manual/insuree_policies/policy.rst:113
 msgid "**Active** (Policy partially or fully paid and made active)"
@@ -221,35 +221,35 @@ msgstr "``Équilibre``"
 
 #: ../../user_manual/insuree_policies/policy.rst:119
 msgid "Types in a positive ``Balance`` to search for policies with a balance equal or greater than the typed amount. For example if 0 (zero) is entered, all policies with a balance, will be displayed. If 1,000 is entered, then only policies with a balance equal to or greater than 1,000 will be displayed."
-msgstr "Tapez un ``solde`` positif pour rechercher des polices avec un solde égal ou supérieur au montant saisi. Par exemple, si 0 (zéro) est entré, toutes les politiques avec un solde seront affichées. Si 1 000 est entré, seules les politiques dont le solde est égal ou supérieur à 1 000 seront affichées."
+msgstr "Tapez un ``solde`` positif pour rechercher des polices avec un solde égal ou supérieur au montant saisi. Par exemple, si 0 (zéro) est entré, toutes les polices avec un solde seront affichées. Si 1 000 est entré, seules les polices dont le solde est égal ou supérieur à 1 000 seront affichées."
 
 #: ../../user_manual/insuree_policies/policy.rst:121
 msgid "The balance is the difference between the policy value and total of contributions paid. For the policy"
-msgstr "Le solde est la différence entre la valeur de la police et le total des cotisations versées. Pour la politique"
+msgstr "Le solde est la différence entre la valeur de la police et le total des cotisations versées. Pour la police"
 
 #: ../../user_manual/insuree_policies/policy.rst:123
 msgid "``Region``"
-msgstr "`` Région``"
+msgstr "``Région``"
 
 #: ../../user_manual/insuree_policies/policy.rst:125
 msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select policies from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*"
-msgstr "Sélectionnez la ``Région``; dans la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner les politiques d'une région spécifique. *Remarque: La liste ne sera remplie qu'avec les régions affectées à l'utilisateur actuellement connecté. S'il ne s'agit que d'une seule, la région sera automatiquement sélectionnée.*"
+msgstr "Sélectionnez la ``Région``; dans la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner les polices d'une région spécifique. *Remarque: La liste ne sera remplie qu'avec les régions affectées à l'utilisateur actuellement connecté. S'il ne s'agit que d'une seule, la région sera automatiquement sélectionnée.*"
 
 #: ../../user_manual/insuree_policies/policy.rst:127
 msgid "``District``"
-msgstr "`` Quartier``"
+msgstr "``Quartier``"
 
 #: ../../user_manual/insuree_policies/policy.rst:129
 msgid "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select policies for families/groups residing in a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*"
-msgstr "Sélectionnez le `Quartier`; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur pour sélectionner des politiques pour les familles/groupes résidant dans un district particulier. *Remarque: La liste ne sera rempli avec les districts appartenant à la région sélectionnée et assigné à l'utilisateur connecté. Si ce n'est qu'un, le quartier sera automatiquement sélectionné.*"
+msgstr "Sélectionnez le `Quartier`; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur pour sélectionner des polices pour les familles/groupes résidant dans un district particulier. *Remarque: La liste ne sera rempli avec les districts appartenant à la région sélectionnée et assigné à l'utilisateur connecté. Si ce n'est qu'un, le quartier sera automatiquement sélectionné.*"
 
 #: ../../user_manual/insuree_policies/policy.rst:131
 msgid "``Policy Type``"
-msgstr "``Type de politique``"
+msgstr "``Type de police``"
 
 #: ../../user_manual/insuree_policies/policy.rst:133
 msgid "Select whether new policies [New Policy] or renewed policies [Renewal] should be searched for."
-msgstr "Sélectionnez si les nouvelles politiques [Nouvelle politique] ou les politiques renouvelées [Renouvellement] doivent être recherchées."
+msgstr "Sélectionnez si les nouvelles polices [Nouvelle police] ou les polices renouvelées [Renouvellement] doivent être recherchées."
 
 #: ../../user_manual/insuree_policies/policy.rst:135
 msgid "``Inactive Insurees``"
@@ -257,7 +257,7 @@ msgstr "``Assurés inactifs``"
 
 #: ../../user_manual/insuree_policies/policy.rst:137
 msgid "Check the box to select only policies for families/groups with insurees which are non-active (not covered) despite the policy of their family/group is active. The reason may be addition of a new insuree (member) to the family/group with an active policy without adequate payment of additional contributions or because the maximum number of members in the family/group exceeds the maximum number determined by the insurance product of the policy."
-msgstr "Cochez la case pour sélectionner uniquement les stratégies pour les familles/groupes avec les assurés qui sont des non-actifs (non couverts) en dépit de la politique de leur famille et/ou groupe est actif. La raison en est peut-être l'ajout d'un nouveau preneur d'assurance (membre), pour la famille/groupe avec une politique active sans paiement de cotisations supplémentaires ou parce que le nombre maximum de membres dans la famille, le groupe dépasse le nombre maximal déterminé par le produit d'assurance de la politique."
+msgstr "Cochez la case pour sélectionner uniquement les stratégies pour les familles/groupes avec les assurés qui sont des non-actifs (non couverts) en dépit de la police de leur famille et/ou groupe est actif. La raison en est peut-être l'ajout d'un nouveau preneur d'assurance (membre), pour la famille/groupe avec une police active sans paiement de cotisations supplémentaires ou parce que le nombre maximum de membres dans la famille, le groupe dépasse le nombre maximal déterminé par le paquet de bénéfices de la police."
 
 #: ../../user_manual/insuree_policies/policy.rst:139
 msgid "``Historical``"
@@ -285,7 +285,7 @@ msgstr "**Panneau de résultats**"
 
 #: ../../user_manual/insuree_policies/policy.rst:155
 msgid "The Result Panel displays a list of all policies found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image105`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
-msgstr "Le Résultat s'affiche sur le Panneau une liste de tous les politiques, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image105`). La gauche dossier contient un lien, qui, si vous cliquez dessus, re-dirige l'utilisateur vers le record actuel pour obtenir la visualisation si c'est un record historique ou de la modification si c'est l'enregistrement en cours."
+msgstr "Le Résultat s'affiche sur le Panneau une liste de tous les polices, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image105`). La colunne de gauche contient un lien qui re-dirige vers la page de visualisation dans le cas d'une ligne historique ou vers la page de modification dans le cas des lignes encore valident."
 
 #: ../../user_manual/insuree_policies/policy.rst:161
 msgid "`Selected record (blue), hovered records (yellow) - Result Panel`"
@@ -317,7 +317,7 @@ msgstr "Le panneau d'informations est utilisé pour afficher les messages à l'u
 
 #: ../../user_manual/insuree_policies/policy.rst:180
 msgid "Policy Page"
-msgstr "Page Politique"
+msgstr "Page Police"
 
 #: ../../user_manual/insuree_policies/policy.rst:182
 msgid "**Data Entry**"
@@ -325,7 +325,7 @@ msgstr "**La saisie des données**"
 
 #: ../../user_manual/insuree_policies/policy.rst:188
 msgid "`Policy Page`"
-msgstr "`Page de politique`"
+msgstr "`Page de police`"
 
 #: ../../user_manual/insuree_policies/policy.rst:190
 msgid "``Enrolment Date``"
@@ -337,7 +337,7 @@ msgstr "Saisissez la date d'inscription à la police. Obligatoire. *Remarque: Vo
 
 #: ../../user_manual/insuree_policies/policy.rst:196
 msgid "Select from the list of available products the product of the policy. Mandatory."
-msgstr "Sélectionnez dans la liste des produits disponibles le produit de la politique. Obligatoire."
+msgstr "Sélectionnez dans la liste des produits disponibles le produit de la police. Obligatoire."
 
 #: ../../user_manual/insuree_policies/policy.rst:198
 msgid "``Effective Date``"
@@ -353,7 +353,7 @@ msgstr "``Date de début``"
 
 #: ../../user_manual/insuree_policies/policy.rst:204
 msgid "The start date for the policy is calculated automatically. Either it is the enrolment date plus the administration period of the insurance product associated with the policy for free enrolment (without cycles) or it is a cycle start date determined according to enrolment date and the administration period for enrolment in fixed cycles. The start date may be modified by the user."
-msgstr "La date de début de la politique est calculé automatiquement. Soit c'est la date d'inscription en plus de la période d'administration des produits d'assurance liés à la politique de libre-inscription (sans cycles) ou c'est une date du début du cycle déterminé selon la date d'inscription et la période d'administration pour l'inscription dans les cycles fixes. La date de début peut être modifiée par l'utilisateur."
+msgstr "La date de début de la police est calculé automatiquement. Soit c'est la date d'inscription en plus de la période d'administration des paquets de bénéfices liés à la police de libre-inscription (sans cycles) ou c'est une date du début du cycle déterminé selon la date d'inscription et la période d'administration pour l'inscription dans les cycles fixes. La date de début peut être modifiée par l'utilisateur."
 
 #: ../../user_manual/insuree_policies/policy.rst:206
 msgid "``Expiry Date``"
@@ -361,11 +361,11 @@ msgstr "``Date d'expiration``"
 
 #: ../../user_manual/insuree_policies/policy.rst:208
 msgid "The expiry date for the policy is calculated automatically. When entering a new policy, the expiry date is the start date plus the insurance period of the insurance product associated with the policy for free enrolment or the cycle start date plus the insurance period for enrolment in fixed cycles."
-msgstr "La date d'expiration de la police est calculée automatiquement. Lors de la souscription d'une nouvelle police, la date d'expiration est la date de début plus la période d'assurance du produit d'assurance associé à la police pour la souscription gratuite ou la date de début de cycle plus la période d'assurance pour la souscription en cycles fixes."
+msgstr "La date d'expiration de la police est calculée automatiquement. Lors de la souscription d'une nouvelle police, la date d'expiration est la date de début plus la période d'assurance du paquet de bénéfices associé à la police pour la souscription gratuite ou la date de début de cycle plus la période d'assurance pour la souscription en cycles fixes."
 
 #: ../../user_manual/insuree_policies/policy.rst:212
 msgid "Select from the list of available enrolment officers the enrolment officer related to the policy. Mandatory"
-msgstr "Sélectionnez dans la liste des agents d'inscription disponibles l'agent d'inscription lié à la politique. Obligatoire"
+msgstr "Sélectionnez dans la liste des agents d'inscription disponibles l'agent d'inscription lié à la police. Obligatoire"
 
 #: ../../user_manual/insuree_policies/policy.rst:214
 msgid "**Saving**"
@@ -401,7 +401,7 @@ msgstr "Cliquez sur le ``Green Plus Sign`` pour rediriger vers la `Policy Page <
 
 #: ../../user_manual/insuree_policies/policy.rst:231
 msgid "When the page opens all entry fields are empty. See the `Policy Page <#policy-page>`__ for information on the data entry and mandatory fields."
-msgstr "Lorsque la page s'ouvre, tous les champs de saisie sont vides. Voir la `Page de politique <#policy-page>`__ pour des informations sur la saisie des données et les champs obligatoires."
+msgstr "Lorsque la page s'ouvre, tous les champs de saisie sont vides. Voir la `Page de police <#policy-page>`__ pour des informations sur la saisie des données et les champs obligatoires."
 
 #: ../../user_manual/insuree_policies/policy.rst:234
 msgid "Editing a Policy"
@@ -413,7 +413,7 @@ msgstr "Cliquez sur le ``Yellow Pencil Sign`` pour rediriger vers la `Policy Pag
 
 #: ../../user_manual/insuree_policies/policy.rst:238
 msgid "The page will open with the current information loaded into the data entry fields. See the `Policy Page <#policy-page>`__ for information on the data entry and mandatory fields."
-msgstr "La page s'ouvrira avec les informations actuelles chargées dans les champs de saisie de données. Voir la `Page de politique <#policy-page>`__ pour des informations sur la saisie des données et les champs obligatoires."
+msgstr "La page s'ouvrira avec les informations actuelles chargées dans les champs de saisie de données. Voir la `Page de police <#policy-page>`__ pour des informations sur la saisie des données et les champs obligatoires."
 
 #: ../../user_manual/insuree_policies/policy.rst:241
 msgid "Deleting a Policy"
@@ -421,11 +421,11 @@ msgstr "Suppression d'une stratégie"
 
 #: ../../user_manual/insuree_policies/policy.rst:243
 msgid "Click on the ``Red Cross Sign`` to delete the currently selected policy."
-msgstr "Cliquez sur le ``signe Croix-Rouge`` pour supprimer la politique actuellement sélectionnée."
+msgstr "Cliquez sur le ``signe Croix-Rouge`` pour supprimer la police actuellement sélectionnée."
 
 #: ../../user_manual/insuree_policies/policy.rst:245
 msgid "Before deleting of a policy, all contributions of the policy should be deleted. Before deleting a confirmation popup (:numref:`image129`) is displayed, which requires the user to confirm if the action should really be carried out?"
-msgstr "Avant de supprimer une politique, toutes les contributions de la politique doivent être supprimées. Avant de supprimer une fenêtre de confirmation (:numref:`image129`) s'affiche, ce qui oblige l'utilisateur à confirmer si l'action doit vraiment être effectuée?"
+msgstr "Avant de supprimer une police, toutes les contributions de la police doivent être supprimées. Avant de supprimer une fenêtre de confirmation (:numref:`image129`) s'affiche, ce qui oblige l'utilisateur à confirmer si l'action doit vraiment être effectuée?"
 
 #: ../../user_manual/insuree_policies/policy.rst:251
 msgid "`Delete confirmation- Button Panel`"

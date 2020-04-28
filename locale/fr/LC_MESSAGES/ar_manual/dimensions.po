@@ -18,10 +18,10 @@ msgid "Dimensions represent our point of view on facts. Each dimension has sever
 msgstr "Les Dimensions représentent notre point de vue sur des faits. Chaque dimension a plusieurs valeurs (points). Les points sont utilisés pour la qualification de notre point de vue sur les faits. AR-IMIS fournit des valeurs de faits correspondant aux points spécifiés à travers une ou plusieurs dimensions. Les points peuvent être organisés en hiérarchies. Les niveaux inférieurs de la hiérarchie permettre de regarder une réalité, selon les points plus spécifiques. Par exemple, le plus important *Temps* dimension est au plus bas niveau de calendrier mois. Le mois de calendrier sont regroupés en quartiers et les quartiers dans les années civiles. Ainsi, on peut obtenir une valeur d'un fait correspondant à un mois en particulier. Allant d'un niveau dans la dimension *Temps*, nous pouvons obtenir peut obtenir une valeur de l'effet correspondant à un trimestre donné et il va encore en place, nous pouvons obtenir une valeur de l'effet correspondant à une année civile. Si l'on ne spécifie pas n'importe quel point dans une dimension, cela signifie que nous sommes intéressés à une valeur d'un fait pour tous les points ensemble dans la dimension donnée."
 
 msgid "AR-IMIS defines several dimensions. Their meaning is dependent on the context of a fact for which they are used. For example, for the fact *Number of submitted claims* the *Time* dimension means in AR-IMIS a period in which claimed health care was provided. It could have also other interpretations, for example, it may be a period in which claims were submitted. Exact interpretation of each dimension is indicated with description of each fact provided below."
-msgstr "AR-IMIS définit plusieurs dimensions. Leur signification dépend du contexte d'un fait pour lequel ils sont utilisés. Par exemple, pour le fait *Nombre de demandes de règlement* le *Temps* dimension implique dans l'AR-IMIS une période qui a réclamé des soins de santé a été fourni. Il peut également avoir d'autres interprétations, par exemple, il peut être une période où les réclamations ont été présentées. Interprétation exacte de chaque dimension est indiqué avec la description de chacun des faits présentés ci-dessous."
+msgstr "AR-IMIS définit plusieurs dimensions. Leur signification dépend du contexte d'un fait pour lequel ils sont utilisés. Par exemple, pour le fait *Nombre de demandes de règlement* le *Temps* dimension implique dans l'AR-IMIS une période qui a réclamé des soins de santé a été fourni. Il peut également avoir d'autres interprétations, par exemple, il peut être une période où les prestations ont été présentées. Interprétation exacte de chaque dimension est indiqué avec la description de chacun des faits présentés ci-dessous."
 
 msgid "The points of a dimension are either fixed, e.g. the points *Sex* are *Male / Female / Undefined* for the dimension, or are obtained from registers in the operational part of IMIS. For example, the points for the dimension *Services* are obtained from the current status of the register of services in IMIS."
-msgstr "Les points d'une dimension sont soit fixes, par exemple, les points *Sexe* sont *homme / Femme / Undefined* pour la dimension, ou obtenues à partir des registres dans la partie opérationnelle de l'IMIS. Par exemple, les points de la dimension *Services* sont obtenues à partir de l'état actuel du registre de services dans le SIG."
+msgstr "Les points d'une dimension sont soit fixes, par exemple, les points *Sexe* sont *homme / Femme / Undefined* pour la dimension, ou obtenues à partir des registres dans la partie opérationnelle de l'IMIS. Par exemple, les points de la dimension *Services* sont obtenues à partir de l'état actuel du registre des soins dans le SIG."
 
 
 msgid "The following table shows dimensions used across AR-IMIS. For each dimension its name, names of attributes used for referencing of their points, source for their points, and their meaning."
@@ -145,11 +145,11 @@ msgstr "Hiérarchie: régions -> districts -> produits"
 
 
 msgid "**Payers**"
-msgstr "**Payeurs**"
+msgstr "**Contributeur**"
 
 
 msgid "Payer Name"
-msgstr "Nom du payeur"
+msgstr "Nom du Contributeur"
 
 
 msgid "|lk_pay_reg|"
@@ -157,7 +157,7 @@ msgstr "|lk_pay_reg|"
 
 
 msgid "Families Payers (the list of)"
-msgstr "Familles payeurs (la liste des)"
+msgstr "Familles contributeurs (la liste des)"
 
 
 msgid "**Officers**"
@@ -185,11 +185,11 @@ msgstr "Hiérarchie: régions -> districts -> agents d'inscription"
 
 
 msgid "**Services**"
-msgstr "**Prestations de service**"
+msgstr "**Prestations de soin**"
 
 
 msgid "* Service Code"
-msgstr "* Code de service"
+msgstr "* code de soin"
 
 
 msgid "* Service Name"
@@ -197,7 +197,7 @@ msgstr "* Nom du service"
 
 
 msgid "* Service Category"
-msgstr "* Catégorie de service"
+msgstr "* Catégorie de soin"
 
 
 msgid "|lk_ser_reg|"
@@ -213,11 +213,11 @@ msgstr "**Articles**"
 
 
 msgid "* Item Code"
-msgstr "* Code de l'article"
+msgstr "* Code du produit médical"
 
 
 msgid "* Item Name"
-msgstr "* Nom de l'article"
+msgstr "* Nom du produit médical"
 
 
 msgid "* Item Category"

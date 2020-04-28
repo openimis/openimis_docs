@@ -4,11 +4,11 @@ msgstr "Project-Id-Version: openIMIS docs\nReport-Msgid-Bugs-To: EMAIL@ADDRESS\n
 
 #: ../../user_manual/claims/review_claims.rst:4
 msgid "Review claims"
-msgstr "Examiner les réclamations"
+msgstr "Examiner les prestations"
 
 #: ../../user_manual/claims/review_claims.rst:6
 msgid "The functionality allows reviewing and adjustments of claims from medical point of view. Reviewing of claims is restricted to users with the system role of Medical Officer or with a role including an access to Claims/Claim/Review."
-msgstr "La fonctionnalité permet d'examiner et d'ajuster les réclamations d'un point de vue médical. La révision des réclamations est réservée aux utilisateurs ayant le rôle de médecin-conseil ou ayant un accès aux réclamations / réclamations / révisions."
+msgstr "La fonctionnalité permet d'examiner et d'ajuster les prestations d'un point de vue médical. La révision des prestations est réservée aux utilisateurs ayant le rôle de médecin-conseil ou ayant un accès aux prestations / prestations / révisions."
 
 #: ../../user_manual/claims/review_claims.rst:9
 msgid "Pre-conditions"
@@ -16,7 +16,7 @@ msgstr "Conditions préalables"
 
 #: ../../user_manual/claims/review_claims.rst:11
 msgid "A claim has been already submitted."
-msgstr "Une réclamation a déjà été soumise."
+msgstr "Une prestation a déjà été soumise."
 
 #: ../../user_manual/claims/review_claims.rst:14
 msgid "Navigation"
@@ -24,11 +24,11 @@ msgstr "La navigation"
 
 #: ../../user_manual/claims/review_claims.rst:16
 msgid "All functionality for use with the administration of claim overview can be found under the main menu ``Claims``, sub menu ``Reviews.``"
-msgstr "Toutes les fonctionnalités à utiliser avec l'administration de l'aperçu des réclamations se trouvent dans le menu principal ``Réclamations``, sous-menu ``Avis``."
+msgstr "Toutes les fonctionnalités à utiliser avec l'administration de l'aperçu des prestations se trouvent dans le menu principal ``Prestations``, sous-menu ``Avis``."
 
 #: ../../user_manual/claims/review_claims.rst:22
 msgid "`Navigation Review`"
-msgstr "`Revue de navigation`"
+msgstr "`Navigation: Revue`"
 
 #: ../../user_manual/claims/review_claims.rst:24
 msgid "Clicking on the sub menu ``Review`` re-directs the current user to the :ref:`Claims Overview Page <claims-overview-page>`"
@@ -36,15 +36,15 @@ msgstr "En cliquant sur le sous-menu ``Révision``, l'utilisateur actuel est red
 
 #: ../../user_manual/claims/review_claims.rst:30
 msgid "`Image - Claims Overview Page`"
-msgstr "`Image - Page de présentation des Réclamations`"
+msgstr "`Image - Page de présentation des prestations`"
 
 #: ../../user_manual/claims/review_claims.rst:35
 msgid "Claims Overview Page"
-msgstr "Page Présentation des réclamations"
+msgstr "Page Présentation des prestations"
 
 #: ../../user_manual/claims/review_claims.rst:37
 msgid "The Claims Overview Page is the central point for all claim review administration. By having access to this panel, it is possible to review, feedback, amend and process claims. The panel is divided into five sections (:numref:`claims_review_img`)."
-msgstr "La page Aperçu des réclamations est le point central de toute administration d'examen des réclamations. En ayant accès à ce panneau, il est possible d'examiner, de commenter, de modifier et de traiter les réclamations. Le panneau est divisé en cinq sections (:numref:`claims_review_img`)."
+msgstr "La page Aperçu des prestations est le point central de toute administration d'examen des prestations. En ayant accès à ce panneau, il est possible d'examiner, de commenter, de modifier et de traiter les prestations. Le panneau est divisé en cinq sections (:numref:`claims_review_img`)."
 
 #: ../../user_manual/claims/review_claims.rst:39
 msgid "**Search Panel**"
@@ -52,11 +52,11 @@ msgstr "**Panneau de recherche**"
 
 #: ../../user_manual/claims/review_claims.rst:41
 msgid "The search panel allows a user to select specific criteria to minimise the search results. In the case of claims the following search options are available, which can be used alone, or in combination with each other."
-msgstr "Le panneau de recherche permet à un utilisateur de sélectionner des critères spécifiques pour minimiser les résultats de la recherche. Dans le cas des Réclamations, les options de recherche suivantes sont disponibles, qui peuvent être utilisées seules ou en combinaison les unes avec les autres."
+msgstr "Le panneau de recherche permet à un utilisateur de sélectionner des critères spécifiques pour minimiser les résultats de la recherche. Dans le cas des prestations, les options de recherche suivantes sont disponibles, qui peuvent être utilisées seules ou en combinaison les unes avec les autres."
 
 #: ../../user_manual/claims/review_claims.rst:43
 msgid "``Region``"
-msgstr "`` Région``"
+msgstr "``Région``"
 
 #: ../../user_manual/claims/review_claims.rst:45
 msgid "Select the ``Region``; from the list that appear after typing characters, all region containing the typed text will appear and be selectable underneath the box. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected*"
@@ -64,7 +64,7 @@ msgstr "Sélectionnez la ``Région``; dans la liste qui apparaît après avoir t
 
 #: ../../user_manual/claims/review_claims.rst:47
 msgid "``District``"
-msgstr "`` Quartier``"
+msgstr "``Quartier``"
 
 #: ../../user_manual/claims/review_claims.rst:49
 msgid "Select the ``District``; from the list that appear after typing characters , all district containing the typed text will appear and be selectable underneath the box. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected*"
@@ -90,11 +90,11 @@ msgstr "Tapez au début de; ou le ``Nom HF`` complet, pour rechercher les allég
 #: ../../user_manual/claims/review_claims.rst:318
 #: ../../user_manual/claims/review_claims.rst:543
 msgid "``Claim Administrator``"
-msgstr "``Administrateur des réclamations``"
+msgstr "``Administrateur des prestations``"
 
 #: ../../user_manual/claims/review_claims.rst:61
 msgid "Select the ``claim administrator`` from the list that appear after typing characters , all claim administrator containing the typed text will appear and be selectable underneath the box. *Note: The list will only be filled with the claim administrators belonging to the health facility selected*."
-msgstr "Sélectionnez ``administrateur de Réclamations`` dans la liste qui apparaît après avoir tapé des caractères, tous les administrateurs de Réclamations contenant le texte tapé apparaîtront et pourront être sélectionnés sous la case. *Remarque: La liste ne sera remplie qu'avec les administrateurs de demandes d'indemnisation appartenant à l'établissement de santé sélectionné*."
+msgstr "Sélectionnez ``administrateur de prestations`` dans la liste qui apparaît après avoir tapé des caractères, tous les administrateurs de prestations contenant le texte tapé apparaîtront et pourront être sélectionnés sous la case. *Remarque: La liste ne sera remplie qu'avec les administrateurs de demandes d'indemnisation appartenant à l'établissement de santé sélectionné*."
 
 #: ../../user_manual/claims/review_claims.rst:63
 msgid "``Insurence Number``"
@@ -102,17 +102,17 @@ msgstr "``Numéro d'assurance``"
 
 #: ../../user_manual/claims/review_claims.rst:65
 msgid "Enter the insurance number of the patient. When the field is selected, the search insuree popup(:refnum:'insuree_picker') will be display and will allow the claim administrator to search the insuree based on its insurance number, or/and last name, or/and other(first) name ."
-msgstr "Saisissez le numéro d'assurance du patient. Lorsque le champ est sélectionné, la fenêtre contextuelle de l'assuré de recherche (: refnum: 'insuree_picker') sera affichée et permettra à l'administrateur de réclamation de rechercher l'assuré en fonction de son numéro d'assurance, ou / et de son nom de famille, ou / et autre (en premier) Nom ."
+msgstr "Saisissez le numéro d'assurance du patient. Lorsque le champ est sélectionné, la fenêtre contextuelle de l'assuré de recherche (: refnum: 'insuree_picker') sera affichée et permettra à l'administrateur de prestation de rechercher l'assuré en fonction de son numéro d'assurance, ou / et de son nom de famille, ou / et autre (en premier) Nom ."
 
 #: ../../user_manual/claims/review_claims.rst:67
 #: ../../user_manual/claims/review_claims.rst:326
 #: ../../user_manual/claims/review_claims.rst:523
 msgid "``Claim No.``"
-msgstr "``Réclamation n °``"
+msgstr "``Prestation n °``"
 
 #: ../../user_manual/claims/review_claims.rst:69
 msgid "Type in the beginning of; or the full ``Claim No.``, to search for claims with claim identification which start with or match completely the typed text."
-msgstr "Tapez au début de; ou le ``numéro de réclamation`` complet, pour rechercher des Réclamations avec identification de revendication qui commencent ou correspondent complètement au texte tapé."
+msgstr "Tapez le début ou le ``numéro de prestation`` complet, pour rechercher des prestations avec un ``numéro de prestation` qui commencent ou correspondent complètement au texte tapé."
 
 #: ../../user_manual/claims/review_claims.rst:71
 #: ../../user_manual/claims/review_claims.rst:535
@@ -121,25 +121,25 @@ msgstr "``Vérifier l'état``"
 
 #: ../../user_manual/claims/review_claims.rst:73
 msgid "Select the ``Review Status`` from the list of the options for review status by clicking on the arrow on the right of the selector to select claims with a specific review status."
-msgstr "Sélectionnez le ``Statut de révision`` dans la liste des options pour le statut de révision en cliquant sur la flèche à droite du sélecteur pour sélectionner les Réclamations avec un statut de révision spécifique."
+msgstr "Sélectionnez le ``Statut d'évaluation`` dans la liste des options pour le statut d'évaluation en cliquant sur la flèche à droite du sélecteur pour sélectionner les prestations avec un statut d'évaluation spécifique."
 
 #: ../../user_manual/claims/review_claims.rst:75
 #: ../../user_manual/claims/review_claims.rst:539
 msgid "``Feedback Status``"
-msgstr "``Statut de rétroaction``"
+msgstr "``Statut de retour``"
 
 #: ../../user_manual/claims/review_claims.rst:77
 msgid "Select the ``Feedback Status`` from the list of the options for feedback status by clicking on the arrow on the right of the selector to select claims with a specific feedback status."
-msgstr "Sélectionnez le ``Statut de rétroaction`` dans la liste des options pour le statut de rétroaction en cliquant sur la flèche à droite du sélecteur pour sélectionner les Réclamations avec un statut de rétroaction spécifique."
+msgstr "Sélectionnez le ``Statut de retour`` dans la liste des options pour le statut de retour en cliquant sur la flèche à droite du sélecteur pour sélectionner les prestations avec un statut de retour spécifique."
 
 #: ../../user_manual/claims/review_claims.rst:79
 #: ../../user_manual/claims/review_claims.rst:531
 msgid "``Claim Status``"
-msgstr "``Statut de réclamation``"
+msgstr "``Statut de prestation``"
 
 #: ../../user_manual/claims/review_claims.rst:81
 msgid "Select the ``Claim Status`` from the list of the options for claim status by clicking on the arrow on the right of the selector to select claims with a specific claim status."
-msgstr "Sélectionnez le ``Statut de réclamation`` dans la liste des options pour le statut de réclamation en cliquant sur la flèche à droite du sélecteur pour sélectionner les réclamations avec un statut de réclamation spécifique."
+msgstr "Sélectionnez le ``Statut de prestation`` dans la liste des options pour le statut de prestation en cliquant sur la flèche à droite du sélecteur pour sélectionner les prestations avec un statut de prestation spécifique."
 
 #: ../../user_manual/claims/review_claims.rst:83
 msgid "``Main Dg``"
@@ -147,7 +147,7 @@ msgstr "``Main Dg``"
 
 #: ../../user_manual/claims/review_claims.rst:85
 msgid "Select the ``Main Dg.`` from the list of diagnoses by typing characters, all diagnoses containing the typed text will appear and be selectable underneath the box, to select claims with main diagnosis."
-msgstr "Sélectionnez le ``Dg principal`` dans la liste des diagnostics en tapant des caractères, tous les diagnostics contenant le texte tapé apparaîtront et pourront être sélectionnés sous la boîte, pour sélectionner les Réclamations avec diagnostic principal."
+msgstr "Sélectionnez le ``Dg principal`` dans la liste des diagnostics en tapant des caractères, tous les diagnostics contenant le texte tapé apparaîtront et pourront être sélectionnés sous la boîte, pour sélectionner les prestations avec diagnostic principal."
 
 #: ../../user_manual/claims/review_claims.rst:87
 msgid "``Batch Run``"
@@ -155,7 +155,7 @@ msgstr "``Batch Run``"
 
 #: ../../user_manual/claims/review_claims.rst:89
 msgid "Select the ``Batch Run`` from the list of batch runs by clicking on  the arrow on the right of the selector to select claims included in a specific batch run."
-msgstr "Sélectionnez le ``Batch Run`` dans la liste des lots de lots en cliquant sur la flèche à droite du sélecteur pour sélectionner les réclamations incluses dans un lot spécifique."
+msgstr "Sélectionnez le ``Batch Run`` dans la liste des lots de lots en cliquant sur la flèche à droite du sélecteur pour sélectionner les prestations incluses dans un lot spécifique."
 
 #: ../../user_manual/claims/review_claims.rst:91
 msgid "``Visit Date From``"
@@ -163,33 +163,33 @@ msgstr "``Date de visite du``"
 
 #: ../../user_manual/claims/review_claims.rst:93
 msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date From`` which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
-msgstr "Tapez une date; ou utilisez le sélecteur de date (:numref:`cal_picker`), pour rechercher des Réclamations avec une ``Date de visite à partir de`` qui est sur ou est supérieure à la date tapée/sélectionnée. *Remarque. Pour effacer la zone de saisie de la date; utilisez le bouton ``Effacer`` dans la fenêtre contextuelle du sélecteur de date.*"
+msgstr "Tapez une date; ou utilisez le sélecteur de date (:numref:`cal_picker`), pour rechercher des prestations avec une ``Date de visite à partir de`` qui est sur ou est supérieure à la date tapée/sélectionnée. *Remarque. Pour effacer la zone de saisie de la date; utilisez le bouton ``Effacer`` dans la fenêtre contextuelle du sélecteur de date.*"
 
 #: ../../user_manual/claims/review_claims.rst:95
 #: ../../user_manual/claims/review_claims.rst:342
 #: ../../user_manual/claims/review_claims.rst:515
 msgid "``Visit Date To``"
-msgstr "``Date de visite à``"
+msgstr "``Visit au``"
 
 #: ../../user_manual/claims/review_claims.rst:97
 msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Visit Date To`` which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
-msgstr "Tapez une date; ou utilisez le Sélecteur de date (:numref:`cal_picker`), pour rechercher des Réclamations avec une ``Date de visite à`` qui est sur ou est inférieure à la date tapée / sélectionnée. *Remarque. Pour effacer la zone de saisie de la date; utilisez le bouton ``Effacer`` dans la fenêtre contextuelle du sélecteur de date.*"
+msgstr "Tapez une date; ou utilisez le Sélecteur de date (:numref:`cal_picker`), pour rechercher des prestations avec une ``Date de visite à`` qui est sur ou est inférieure à la date tapée / sélectionnée. *Remarque. Pour effacer la zone de saisie de la date; utilisez le bouton ``Effacer`` dans la fenêtre contextuelle du sélecteur de date.*"
 
 #: ../../user_manual/claims/review_claims.rst:99
 msgid "``Claim Date From``"
-msgstr "``Date de réclamation du``"
+msgstr "``Prestation du``"
 
 #: ../../user_manual/claims/review_claims.rst:101
 msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date From`` which is on or is greater than the  date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
-msgstr "Tapez une date; ou utilisez le sélecteur de date (:numref:`cal_picker`), pour rechercher des Réclamations avec une ``Date de réclamation à partir de`` qui est sur ou est supérieure à la date tapée / sélectionnée. *Remarque. Pour effacer la zone de saisie de la date; utilisez le bouton ``Effacer`` dans la fenêtre contextuelle du sélecteur de date.*"
+msgstr "Tapez une date; ou utilisez le sélecteur de date (:numref:`cal_picker`), pour rechercher des prestations avec une ``Date de prestation à partir de`` qui est sur ou est supérieure à la date tapée / sélectionnée. *Remarque. Pour effacer la zone de saisie de la date; utilisez le bouton ``Effacer`` dans la fenêtre contextuelle du sélecteur de date.*"
 
 #: ../../user_manual/claims/review_claims.rst:103
 msgid "``Claim Date To``"
-msgstr "``Date de réclamation jusqu'à``"
+msgstr "``Prestation au``"
 
 #: ../../user_manual/claims/review_claims.rst:105
 msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`), to search for claims with a ``Claim Date To`` which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
-msgstr "Tapez une date; ou utilisez le sélecteur de date (:numref:`cal_picker`), pour rechercher des Réclamations avec une ``Date de réclamation à`` qui est sur ou est inférieure à la date tapée / sélectionnée. *Remarque. Pour effacer la zone de saisie de la date; utilisez le bouton ``Effacer`` dans la fenêtre contextuelle du sélecteur de date.*"
+msgstr "Tapez une date; ou utilisez le sélecteur de date (:numref:`cal_picker`), pour rechercher des prestations avec une ``Date de prestation à`` qui est sur ou est inférieure à la date tapée / sélectionnée. *Remarque. Pour effacer la zone de saisie de la date; utilisez le bouton ``Effacer`` dans la fenêtre contextuelle du sélecteur de date.*"
 
 #: ../../user_manual/claims/review_claims.rst:107
 #: ../../user_manual/claims/review_claims.rst:519
@@ -198,15 +198,15 @@ msgstr "``Type de visite``"
 
 #: ../../user_manual/claims/review_claims.rst:109
 msgid "Select type of out-patient visit or in-patient admission from the list of types of visit to search for claims made on specific visit/admission type."
-msgstr "Sélectionnez le type de visite ambulatoire ou d'admission hospitalière dans la liste des types de visite pour rechercher les réclamations de remboursement concernant un type de visite / d'admission spécifique."
+msgstr "Sélectionnez le type de visite ambulatoire ou d'admission hospitalière dans la liste des types de visite pour rechercher les prestations de remboursement concernant un type de visite / d'admission spécifique."
 
 #: ../../user_manual/claims/review_claims.rst:113
 msgid "**Claim Selection Update Panel**"
-msgstr "**Panneau de mise à jour de la sélection des réclamations**"
+msgstr "**Panneau de mise à jour de la sélection des prestations**"
 
 #: ../../user_manual/claims/review_claims.rst:115
 msgid "This panel is basically for functionality of updating multiple claims which are currently loaded in the Result Panel at once basing on the claim filter criteria available on this panel. The update on the claims is basically changing **Feedback Status** and **Review Status** of a claim from **Idle** to **Selected for Feedback** or **Selected for Review** respectively. The filters in this panel work on the claims which are currently loaded on the result panel. The combination of filters is either ``Select`` and either ``Random`` or ``Value`` combination of ``Value`` and ``Variance``."
-msgstr "Ce panneau est essentiellement pour la fonctionnalité de mise à jour de plusieurs Réclamations, qui sont actuellement chargés dans le Résultat du Panneau à la fois en se basant sur la réclamation des critères de filtre disponibles sur ce panneau. La mise à jour sur les Réclamations est fondamentalement changer **les Commentaires d'État** et **le Statut de l'évaluation** d'une réclamation de **Ralenti** à **Sélectionné pour le Feedback** ou **Sélectionné pour Examen** respectivement. Les filtres dans ce groupe de travail sur les Réclamations qui sont actuellement chargé sur le résultat du panneau. La combinaison de filtres est soit `Sélectionner` et `Aléatoire` ou `Valeur` de la combinaison de `Valeur` et de `Variance`."
+msgstr "Ce panneau est essentiellement pour la fonctionnalité de mise à jour de plusieurs prestations, qui sont actuellement chargés dans le Résultat du Panneau en se basant sur les critéres de recherche choisi. Les mises à jour sur les prestations sont disponible pour les champs **Statut du retour** et **Statut d'évaluation** d'une prestation ayant la valeur **Sans** pour ces champs. Aprés la modification, les champs passeront à **Sélectionnée pour retour** ou **Sélectionnée pour évaluaiton** respectivement. La combinaison de filtres est soit `Sélectionner` et `Aléatoire` ou `Valeur` de la combinaison de `Valeur` et de `Variance`."
 
 #: ../../user_manual/claims/review_claims.rst:117
 msgid "``Select``"
@@ -214,7 +214,7 @@ msgstr "``Sélectionner``"
 
 #: ../../user_manual/claims/review_claims.rst:119
 msgid "A selection dropdown box to select between **Review Select** and **Feedback Select** to filter only claims whose review status is **Idle** or feedback status is **Idle** respectively from among claims currently in the Result Panel."
-msgstr "Une liste déroulante de sélection pour choisir entre**Review Select** et **Feedback Select** pour filtrer uniquement les Réclamations dont le statut de la revue est **Idle** ou le statut de la rétroaction est **Idle** respectivement parmi les Réclamations actuellement dans le résultat Panneau."
+msgstr "Une liste déroulante de sélection pour choisir entre**Review Select** et **Feedback Select** pour filtrer uniquement les prestations dont le statut de la revue est **Idle** ou le statut de la retour est **Idle** respectivement parmi les prestations actuellement dans le résultat Panneau."
 
 #: ../../user_manual/claims/review_claims.rst:121
 msgid "``Random``"
@@ -222,7 +222,7 @@ msgstr "``Aléatoire``"
 
 #: ../../user_manual/claims/review_claims.rst:123
 msgid "Accept a number which is considered to be a percentage of the claims in the Result Panel. Check the random checkbox and enter a number on the text field next to checkbox. The default is 5%."
-msgstr "Acceptez un nombre qui est considéré comme un pourcentage des réclamations dans le panneau de résultats. Cochez la case aléatoire et entrez un nombre dans le champ de texte à côté de la case à cocher. La valeur par défaut est 5%."
+msgstr "Acceptez un nombre qui est considéré comme un pourcentage des prestations dans le panneau de résultats. Cochez la case aléatoire et entrez un nombre dans le champ de texte à côté de la case à cocher. La valeur par défaut est 5%."
 
 #: ../../user_manual/claims/review_claims.rst:125
 msgid "``Value``"
@@ -230,7 +230,7 @@ msgstr "``Valeur``"
 
 #: ../../user_manual/claims/review_claims.rst:127
 msgid "Accept a number which is considered to be claimed value. This will filter claims from the Result Panel by taking claims whose claimed value is equal or greater than the entered number in the Value text field. Check the value checkbox and enter a number on the text field next to checkbox."
-msgstr "Acceptez un nombre qui est considéré comme une valeur réclamée. Cela filtrera les réclamations du panneau de résultats en prenant les réclamations dont la valeur réclamée est égale ou supérieure au nombre entré dans le champ de texte Valeur. Cochez la case de valeur et entrez un nombre dans le champ de texte à côté de la case à cocher."
+msgstr "Acceptez un nombre qui est considéré comme une valeur réclamée. Cela filtrera les prestations du panneau de résultats en prenant les prestations dont la valeur réclamée est égale ou supérieure au nombre entré dans le champ de texte Valeur. Cochez la case de valeur et entrez un nombre dans le champ de texte à côté de la case à cocher."
 
 #: ../../user_manual/claims/review_claims.rst:129
 msgid "``variance``"
@@ -238,7 +238,7 @@ msgstr "``variance``"
 
 #: ../../user_manual/claims/review_claims.rst:133
 msgid "Enable to set a variance arround the ``Value`` specified **Percentage Variance = [(Claim Value \\ Filter Value) – 1] \\* 100**"
-msgstr "Activer pour définir une variance autour de la ``valeur`` spécifiée ** Variation en pourcentage = [(Valeur de revendication \\ Valeur de filtre) - 1] \\ * 100**"
+msgstr "Activer pour définir une variance autour de la ``valeur`` spécifiée ** Variation en pourcentage = [(Valeur de la presation \\ Valeur de filtre) - 1] \\ * 100**"
 
 #: ../../user_manual/claims/review_claims.rst:136
 msgid "``filter button``"
@@ -246,7 +246,7 @@ msgstr "``bouton filtre``"
 
 #: ../../user_manual/claims/review_claims.rst:138
 msgid "Once desired criteria have been set and after clicking this button(:numref:`filter`), then the claims currently displayed in the result panel which satisfy the criteria, a reduced number of claim will be dispalyed in the result panel"
-msgstr "Une fois que les critères souhaités ont été définis et après avoir cliqué sur ce bouton (:numref:`filter`), puis les Réclamations actuellement affichées dans le panneau de résultats qui répondent aux critères, un nombre réduit de Réclamations sera affiché dans le panneau de résultats"
+msgstr "Une fois que les critères souhaités ont été définis et après avoir cliqué sur ce bouton (:numref:`filter`), puis les prestations actuellement affichées dans le panneau de résultats qui répondent aux critères, un nombre réduit de prestations sera affiché dans le panneau de résultats"
 
 #: ../../user_manual/claims/review_claims.rst:140
 msgid "``bulk updates``"
@@ -266,7 +266,7 @@ msgstr "Une notification sera affichée pour confirmer l'affichage du résultat 
 
 #: ../../user_manual/claims/review_claims.rst:156
 msgid "`Claim Review Action Notification`"
-msgstr "`Notification d'action de révision de réclamation`"
+msgstr "`Notification d'action d'évaluation de prestation`"
 
 #: ../../user_manual/claims/review_claims.rst:158
 msgid "**Result Panel**"
@@ -274,7 +274,7 @@ msgstr "**Panneau de résultats**"
 
 #: ../../user_manual/claims/review_claims.rst:160
 msgid "The Result Panel displays a list of all claims found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`review_result`)."
-msgstr "Le panneau de résultats affiche une liste de toutes les Réclamations trouvées, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est surligné en bleu clair, tandis que le survol des enregistrements change la surbrillance en jaune (:numref:`review_result`)."
+msgstr "Le panneau de résultats affiche une liste de toutes les prestations trouvées, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est surligné en bleu clair, tandis que le survol des enregistrements change la surbrillance en jaune (:numref:`review_result`)."
 
 #: ../../user_manual/claims/review_claims.rst:166
 msgid "`Claim Review Search Result: Selected (light grey), record updated (zebras)`"
@@ -286,11 +286,11 @@ msgstr "Par défaut, 10 enregistrements peuvent être affichés en même temps d
 
 #: ../../user_manual/claims/review_claims.rst:170
 msgid "The Feedback and Review Status Columns in each row contain a drop down list with options for claim feedback status and claim review status. A user can change the claim feedback and review status to **Idle** to **Not Selected** or **Selected** or **Bypass**. the change will take effect directly in an asynchronous mode, a notification will indicate the result of the update (:numref:`review_selected_not`)"
-msgstr "La Rétroaction et de Révision de Statut de Colonnes dans chaque ligne contient une liste déroulante avec des options de demande de rétroaction d'état et d'examen des réclamations de statut. Un utilisateur peut modifier la réclamation de la rétroaction et le statut de l'évaluation **Ralenti** à **Pas Sélectionné** ou **Sélectionné** ou **Bypass**. la modification prendra effet directement en mode asynchrone, un avis doit indiquer le résultat de la mise à jour (:numref:`review_selected_not`)"
+msgstr "La retour et d'évaluation de Statut de Colonnes dans chaque ligne contient une liste déroulante avec des options de demande de retour d'état et d'examen des prestations de statut. Un utilisateur peut modifier la prestation de la retour et le statut d'évaluation **Ralenti** à **Pas Sélectionné** ou **Sélectionné** ou **Bypass**. la modification prendra effet directement en mode asynchrone, un avis doit indiquer le résultat de la mise à jour (:numref:`review_selected_not`)"
 
 #: ../../user_manual/claims/review_claims.rst:176
 msgid "`Selection of claim for feedback/review notification`"
-msgstr "`Sélection de la réclamation pour la rétroaction / notification de révision`"
+msgstr "`Sélection de la prestation pour la retour / notification d'évaluation`"
 
 #: ../../user_manual/claims/review_claims.rst:178
 msgid "``Deliver Review``"
@@ -298,7 +298,7 @@ msgstr "``Livrer un avis``"
 
 #: ../../user_manual/claims/review_claims.rst:180
 msgid "Clicking on this button (:numref:`review_review_but`) re-directs a user to the :ref:`Claim Review Page  <claim-review-page>`, where a claim with review status **Selected for Review** can be reviewed and its current review status changed to **Reviewed.** If the claim is not in the status **Selected for Review** then the claim can be only loaded and shown to the user without any subsequent action."
-msgstr "Un clic sur ce bouton (:numref:`review_review_but`) redirige un utilisateur vers la :ref:`Revendication Page <claim-review-page>`, où une réclamation avec le statut de révision **Sélectionnée pour révision** peut être révisée et son état de révision actuel est passé à **Révisé.** Si la réclamation n'est pas dans le statut **Sélectionnée pour révision**, la réclamation peut uniquement être chargée et affichée à l'utilisateur sans aucune action ultérieure."
+msgstr "Un clic sur ce bouton (:numref:`review_review_but`) redirige un utilisateur vers la :ref:`Page des prestations<claim-review-page>`, où une prestation avec le statut d'évaluation **Sélectionnée pour révision** peut être révisée et son état d'évaluation actuel est passé à **Révisé.** Si la prestation n'est pas dans le statut **Sélectionnée pour révision**, la prestation peut uniquement être chargée et affichée à l'utilisateur sans aucune action ultérieure."
 
 #: ../../user_manual/claims/review_claims.rst:182
 msgid "``Deliver feedback``"
@@ -306,7 +306,7 @@ msgstr "``Fournir des commentaires``"
 
 #: ../../user_manual/claims/review_claims.rst:184
 msgid "Clicking on this button (:numref:`review_feedback_but`) re-directs a user to the :ref:`Claim Feedback Page  <claim-feedback-page>`, where a claim with feedback status **Selected for Feedback** can be feed backed and its current feedback status changed to **Delivered**."
-msgstr "Un clic sur ce bouton (:numref:`review_feedback_but`) redirige un utilisateur vers :ref:`Réclamation Page de commentaires <claim-feedback-page>`, où une réclamation avec un statut de rétroaction **Sélectionnée pour les commentaires** peut être alimenté et son statut de rétroaction actuel est devenu **Livré**."
+msgstr "Un clic sur ce bouton (:numref:`review_feedback_but`) redirige un utilisateur vers :ref:`Page de retour d'information <claim-feedback-page>`, où une prestation avec un statut de retour **Sélectionnée pour les commentaires** peut être alimenté et son statut de retour actuel est devenu **Livré**."
 
 #: ../../user_manual/claims/review_claims.rst:186
 msgid "**Actions Menu**"
@@ -318,7 +318,7 @@ msgstr "Le menu Action est utilisé conjointement avec l'enregistrement actuelle
 
 #: ../../user_manual/claims/review_claims.rst:190
 msgid "claims review actions"
-msgstr "actions d'examen des réclamations"
+msgstr "actions d'examen des prestations"
 
 #: ../../user_manual/claims/review_claims.rst:196
 msgid "`Select all`"
@@ -338,11 +338,11 @@ msgstr "`revoir le menu des actions`"
 
 #: ../../user_manual/claims/review_claims.rst:217
 msgid "`Deliver Feedback Button`"
-msgstr "`Livrer le bouton de rétroaction`"
+msgstr "`Livrer le bouton de retour`"
 
 #: ../../user_manual/claims/review_claims.rst:222
 msgid "`Deliver Review Button`"
-msgstr "`Livrer le bouton de révision`"
+msgstr "`Livrer le bouton d'évaluation`"
 
 #: ../../user_manual/claims/review_claims.rst:227
 msgid "`Page browser`"
@@ -358,7 +358,7 @@ msgstr "``Effacer la sélection``:"
 
 #: ../../user_manual/claims/review_claims.rst:236
 msgid "Unselect the selected claims"
-msgstr "Désélectionnez les Réclamations sélectionnées"
+msgstr "Désélectionnez les prestations sélectionnées"
 
 #: ../../user_manual/claims/review_claims.rst:238
 msgid "``Select For Feedback``:"
@@ -366,7 +366,7 @@ msgstr "``Sélectionner pour les commentaires``:"
 
 #: ../../user_manual/claims/review_claims.rst:240
 msgid "set the feedback status of the selected claims to **Selected**"
-msgstr "définissez le statut de rétroaction des Réclamations sélectionnées sur**Sélectionné**"
+msgstr "définissez le statut de retour des prestations sélectionnées sur**Sélectionné**"
 
 #: ../../user_manual/claims/review_claims.rst:242
 msgid "``Skip feedback``:"
@@ -374,7 +374,7 @@ msgstr "``Ignorer les commentaires``:"
 
 #: ../../user_manual/claims/review_claims.rst:244
 msgid "set the feedback status of the selected claims to **Not Selected**"
-msgstr "définissez le statut de rétroaction des Réclamations sélectionnées sur**Non sélectionné**"
+msgstr "définissez le statut de retour des prestations sélectionnées sur**Non sélectionné**"
 
 #: ../../user_manual/claims/review_claims.rst:246
 msgid "``Select For Review``:"
@@ -382,7 +382,7 @@ msgstr "``Sélectionner pour révision``:"
 
 #: ../../user_manual/claims/review_claims.rst:248
 msgid "set the review status of the selected claims to **Selected**"
-msgstr "définir le statut d'examen des Réclamations sélectionnées sur**Sélectionné**"
+msgstr "définir le statut d'examen des prestations sélectionnées sur**Sélectionné**"
 
 #: ../../user_manual/claims/review_claims.rst:250
 msgid "``Skip Review``:"
@@ -390,7 +390,7 @@ msgstr "``Ignorer la révision``:"
 
 #: ../../user_manual/claims/review_claims.rst:252
 msgid "set the review status of the selected claims to **Not Selected**"
-msgstr "définissez le statut d'examen des Réclamations sélectionnées sur **Non sélectionné**"
+msgstr "définissez le statut d'examen des prestations sélectionnées sur **Non sélectionné**"
 
 #: ../../user_manual/claims/review_claims.rst:254
 msgid "``Process selected``:"
@@ -398,7 +398,7 @@ msgstr "``Processus sélectionné``:"
 
 #: ../../user_manual/claims/review_claims.rst:256
 msgid "Process the selected claim with the status **Checked**, once processed the claims will have the status"
-msgstr "Traiter la réclamation sélectionnée avec le statut**Vérifié**, une fois traitées, les réclamations auront le statut"
+msgstr "Traiter la prestation sélectionnée avec le statut**Vérifié**, une fois traitées, les prestations auront le statut"
 
 #: ../../user_manual/claims/review_claims.rst:258
 msgid "``Processed``:"
@@ -414,11 +414,11 @@ msgstr "**Panneau d'information**"
 
 #: ../../user_manual/claims/review_claims.rst:265
 msgid "The Information Panel is used to display messages back to the user. Messages will occur once a claim has been reviewed, updated, feedback added on claim or if there was an error at any time during the process of these actions."
-msgstr "Le panneau d'informations est utilisé pour afficher les messages à l'utilisateur. Des messages s'afficheront une fois qu'une réclamation aura été examinée, mise à jour, des commentaires ajoutés sur la réclamation ou s'il y a eu une erreur à tout moment au cours du processus de ces actions."
+msgstr "Le panneau d'informations est utilisé pour afficher les messages à l'utilisateur. Des messages s'afficheront une fois qu'une prestation aura été examinée, mise à jour, des commentaires ajoutés sur la prestation ou s'il y a eu une erreur à tout moment au cours du processus de ces actions."
 
 #: ../../user_manual/claims/review_claims.rst:270
 msgid "Claim Review Page"
-msgstr "Page d'examen des réclamations"
+msgstr "Page d'examen des prestations"
 
 #: ../../user_manual/claims/review_claims.rst:272
 #: ../../user_manual/claims/review_claims.rst:489
@@ -427,25 +427,25 @@ msgstr "**La saisie des données**"
 
 #: ../../user_manual/claims/review_claims.rst:278
 msgid "`Claim Review Page`"
-msgstr "`Page d'examen des réclamations`"
+msgstr "`Page d'examen des prestations`"
 
 #: ../../user_manual/claims/review_claims.rst:281
 msgid "``Claim Review Page`` will show read-only information of the current claim selected for review, on the top section of the page, on some of the grid columns of the claim services grid and claim items grid and on the bottom of all the grids. As well, the page has input boxes where a user with the system role Medical Officer or with a role including an access to Claims/Claim/Review can enter new relevant values for review of the current claim."
-msgstr "`Demande d'Examen Page` affiche des informations en lecture seule de la réclamation actuelle sélectionnés aux fins d'examen, sur la partie supérieure de la page, sur certaines des colonnes de la grille de la réclamation de services de grille et de réclamer des éléments de la grille et sur le bas de toutes les grilles. Ainsi, la page d'entrée des boîtes où un utilisateur avec le rôle de système de médecin ou avec un rôle, y compris un accès aux Demandes/Demande/Révision pouvez entrer de nouvelles valeurs pertinentes pour l'examen de la réclamation actuelle."
+msgstr "`Demande d'Examen Page` affiche des informations en lecture seule de la prestation actuelle sélectionnés aux fins d'examen, sur la partie supérieure de la page, sur certaines des colonnes de la grille de la prestation des soins de grille et de réclamer des éléments de la grille et sur le bas de toutes les grilles. Ainsi, la page d'entrée des boîtes où un utilisateur avec le rôle de système de médecin ou avec un rôle, y compris un accès aux Demandes/Demande/Révision pouvez entrer de nouvelles valeurs pertinentes pour l'examen de la prestation actuelle."
 
 #: ../../user_manual/claims/review_claims.rst:284
 #, fuzzy
 msgid "*** Read-only information of the current claim**"
-msgstr "**Informations en lecture seule de la réclamation actuelle**"
+msgstr "**Informations en lecture seule de la prestation actuelle**"
 
 #: ../../user_manual/claims/review_claims.rst:286
 msgid "``HF``"
-msgstr "`` HF``"
+msgstr "``HF``"
 
 #: ../../user_manual/claims/review_claims.rst:288
 #: ../../user_manual/claims/review_claims.rst:501
 msgid "The health facility code and name which the claim belongs to."
-msgstr "Le code et le nom de l'établissement de santé auquel appartient la réclamation."
+msgstr "Le code et le nom de l'établissement de santé auquel appartient la prestation."
 
 #: ../../user_manual/claims/review_claims.rst:290
 msgid "``Main Dg.``"
@@ -457,7 +457,7 @@ msgstr "Le code du diagnostic principal."
 
 #: ../../user_manual/claims/review_claims.rst:294
 msgid "``Sec Dg1``"
-msgstr "`` Sec Dg1``"
+msgstr "``Sec Dg1``"
 
 #: ../../user_manual/claims/review_claims.rst:296
 msgid "The code of the first secondary diagnosis."
@@ -501,11 +501,11 @@ msgstr "``Date traitée``"
 
 #: ../../user_manual/claims/review_claims.rst:316
 msgid "The date on which the claim was processed (sent to the state **Processed**)."
-msgstr "La date à laquelle la réclamation a été traitée (envoyée à l'État ** traitée**)."
+msgstr "La date à laquelle la prestation a été traitée (envoyée à l'État ** traitée**)."
 
 #: ../../user_manual/claims/review_claims.rst:320
 msgid "The administrator's code, who was responsible for submission of the current claim."
-msgstr "Le code de l'administrateur, qui était responsable de la soumission de la réclamation actuelle."
+msgstr "Le code de l'administrateur, qui était responsable de la soumission de la prestation actuelle."
 
 #: ../../user_manual/claims/review_claims.rst:322
 msgid "``Insurance Number``"
@@ -518,7 +518,7 @@ msgstr "Le numéro d'assurance du patient."
 #: ../../user_manual/claims/review_claims.rst:328
 #: ../../user_manual/claims/review_claims.rst:525
 msgid "The unique identification of the claim within the claiming health facility."
-msgstr "L'identification unique de la réclamation dans l'établissement de santé demandeur."
+msgstr "L'identification unique de la prestation dans l'établissement de santé demandeur."
 
 #: ../../user_manual/claims/review_claims.rst:330
 msgid "``Patient Name``"
@@ -526,7 +526,7 @@ msgstr "``Nom du patient``"
 
 #: ../../user_manual/claims/review_claims.rst:332
 msgid "The full name of the patient on whom the claim is made."
-msgstr "Le nom complet du patient sur lequel la réclamation est faite."
+msgstr "Le nom complet du patient sur lequel la prestation est faite."
 
 #: ../../user_manual/claims/review_claims.rst:334
 #: ../../user_manual/claims/review_claims.rst:507
@@ -536,22 +536,22 @@ msgstr "``Date réclamée``"
 #: ../../user_manual/claims/review_claims.rst:336
 #: ../../user_manual/claims/review_claims.rst:509
 msgid "The date on which the claim was prepared by the claiming health facility."
-msgstr "La date à laquelle la réclamation a été préparée par l'établissement de santé demandeur."
+msgstr "La date à laquelle la prestation a été préparée par l'établissement de santé demandeur."
 
 #: ../../user_manual/claims/review_claims.rst:338
 #: ../../user_manual/claims/review_claims.rst:511
 msgid "``Visits Date From``"
-msgstr "``Les visites datent du``"
+msgstr "``Visites du``"
 
 #: ../../user_manual/claims/review_claims.rst:340
 #: ../../user_manual/claims/review_claims.rst:513
 msgid "The date on which the patient visited (or was admitted by) the health facility for treatment on which the claim is basing on."
-msgstr "La date à laquelle le patient a visité (ou a été admis par) l'établissement de santé pour le traitement sur lequel la réclamation se fonde."
+msgstr "La date à laquelle le patient a visité (ou a été admis par) l'établissement de santé pour le traitement sur lequel la prestation se fonde."
 
 #: ../../user_manual/claims/review_claims.rst:344
 #: ../../user_manual/claims/review_claims.rst:517
 msgid "The date on which the patient was discharged from the health facility for treatment on which the claim is basing on."
-msgstr "La date à laquelle le patient est sorti de l'établissement de santé pour un traitement sur lequel la réclamation se fonde."
+msgstr "La date à laquelle le patient est sorti de l'établissement de santé pour un traitement sur lequel la prestation se fonde."
 
 #: ../../user_manual/claims/review_claims.rst:346
 #: ../../user_manual/claims/review_claims.rst:527
@@ -568,7 +568,7 @@ msgstr "``Réclamé``"
 
 #: ../../user_manual/claims/review_claims.rst:352
 msgid "The sum of prices of all claimed services and items at the moment of submission of the claim."
-msgstr "La somme des prix de tous les services et produit médicaux réclamés au moment de la soumission de la réclamation."
+msgstr "La somme des prix de tous les services et produit médicaux réclamés au moment de la soumission de la prestation."
 
 #: ../../user_manual/claims/review_claims.rst:354
 msgid "``approved``"
@@ -576,7 +576,7 @@ msgstr "``approuvé``"
 
 #: ../../user_manual/claims/review_claims.rst:356
 msgid "The value of the claim after automatic checking during its submission and after the corrections of the claim done by a medical officer."
-msgstr "La valeur de la réclamation après vérification automatique lors de sa soumission et après corrections de la réclamation par un médecin."
+msgstr "La valeur de la prestation après vérification automatique lors de sa soumission et après corrections de la prestation par un médecin."
 
 #: ../../user_manual/claims/review_claims.rst:358
 msgid "``Adjusted``"
@@ -584,7 +584,7 @@ msgstr "``Ajusté``"
 
 #: ../../user_manual/claims/review_claims.rst:360
 msgid "The value of the claim after automatic adjustments done according to the conditions of coverage by the patient’s policy."
-msgstr "La valeur de la réclamation après ajustements automatiques effectués selon les conditions de couverture par la police du patient."
+msgstr "La valeur de la prestation après ajustements automatiques effectués selon les conditions de couverture par la police du patient."
 
 #: ../../user_manual/claims/review_claims.rst:362
 msgid "``Explanation``"
@@ -592,19 +592,19 @@ msgstr "``Explication``"
 
 #: ../../user_manual/claims/review_claims.rst:364
 msgid "Explanation to the claim provided by the claiming health facility."
-msgstr "Explication de la réclamation fournie par l'établissement de santé demandeur."
+msgstr "Explication de la prestation fournie par l'établissement de santé demandeur."
 
 #: ../../user_manual/claims/review_claims.rst:366
 msgid "``claim status``"
-msgstr "``statut de réclamation``"
+msgstr "``statut de prestation``"
 
 #: ../../user_manual/claims/review_claims.rst:368
 msgid "Claim status is shown on the very bottom right end side after the two grids. This is status which claim gets after submission."
-msgstr "L'état de la réclamation est indiqué tout en bas à droite après les deux grilles. Il s'agit du statut obtenu après la soumission."
+msgstr "L'état de la prestation est indiqué tout en bas à droite après les deux grilles. Il s'agit du statut obtenu après la soumission."
 
 #: ../../user_manual/claims/review_claims.rst:370
 msgid "**Editable information of the current claim**"
-msgstr "**Informations modifiables de la réclamation actuelle**"
+msgstr "**Informations modifiables de la prestation actuelle**"
 
 #: ../../user_manual/claims/review_claims.rst:372
 msgid "``Adjustment``"
@@ -612,7 +612,7 @@ msgstr "``Réglage``"
 
 #: ../../user_manual/claims/review_claims.rst:374
 msgid "Enter a text summarizing adjustments in claim done by a medical officer."
-msgstr "Entrez un texte résumant les ajustements de la réclamation effectués par un médecin."
+msgstr "Entrez un texte résumant les ajustements de la prestation effectués par un médecin."
 
 #: ../../user_manual/claims/review_claims.rst:376
 msgid "**Services and Items data entry grids.**"
@@ -624,7 +624,7 @@ msgstr "``Quantité approuvée (app.qty)``"
 
 #: ../../user_manual/claims/review_claims.rst:380
 msgid "Enter a number of approved provisions of the corresponding medical service or item."
-msgstr "Entrez un certain nombre de dispositions approuvées du service médical ou de l'article correspondant."
+msgstr "Entrez un certain nombre de dispositions approuvées du soin  ou du produit médical correspondant."
 
 #: ../../user_manual/claims/review_claims.rst:382
 msgid "``Approved Price (app. price)``"
@@ -632,7 +632,7 @@ msgstr "``Prix approuvé (prix app.)``"
 
 #: ../../user_manual/claims/review_claims.rst:384
 msgid "Enter an approved price of the corresponding medical service or item."
-msgstr "Entrez un prix approuvé du service médical ou de l'article correspondant."
+msgstr "Entrez un prix approuvé du soin  ou du produit médical correspondant."
 
 #: ../../user_manual/claims/review_claims.rst:386
 msgid "``justification``"
@@ -640,7 +640,7 @@ msgstr "``justification``"
 
 #: ../../user_manual/claims/review_claims.rst:388
 msgid "Enter justification for the entered corrections of the price and quantity of the medical service or item."
-msgstr "Saisissez la justification des corrections saisies du prix et de la quantité du service médical ou de l'article."
+msgstr "Saisissez la justification des corrections saisies du prix et de la quantité du soin  ou du produit médical."
 
 #: ../../user_manual/claims/review_claims.rst:390
 msgid "``status``"
@@ -648,7 +648,7 @@ msgstr "``statut``"
 
 #: ../../user_manual/claims/review_claims.rst:392
 msgid "Select either the status in the claim **Passed** or **Rejected** for the corresponding medical service or item respectively."
-msgstr "Sélectionnez le statut dans la réclamation **Réussi** ou **Rejeté** pour le service médical ou l'article correspondant, respectivement."
+msgstr "Sélectionnez le statut dans la prestation **Réussi** ou **Rejeté** pour le soin  ou le produit médicalcorrespondant, respectivement."
 
 #: ../../user_manual/claims/review_claims.rst:394
 msgid "``rejection reason``"
@@ -656,7 +656,7 @@ msgstr "``motif de rejet``"
 
 #: ../../user_manual/claims/review_claims.rst:396
 msgid "The last column of each of the two grids, headed with character  '**R**', gives rejection reason number for each of the claimed services or claimed items in the claim services grid or the claim items grid respectively. Rejection reasons are as follows:"
-msgstr "La dernière colonne de chacune des deux grilles, intitulée `**R**`, indique le numéro du motif de rejet pour chacun des services ou éléments revendiqués dans la grille des services de réclamation ou la grille des éléments de réclamation respectivement. Les motifs de rejet sont les suivants:"
+msgstr "La dernière colonne de chacune des deux grilles, intitulée `**R**`, indique le numéro du motif de rejet pour chacun des soins ou éléments revendiqués dans la grille des soins de prestation ou la grille des éléments de prestation respectivement. Les motifs de rejet sont les suivants:"
 
 #: ../../user_manual/claims/review_claims.rst:398
 msgid "The rejection description is displayed on the screen when the mouse pointer is above the given line (:numref:`rejection_desc_img`)"
@@ -684,7 +684,7 @@ msgstr "Rejeté par un médecin"
 
 #: ../../user_manual/claims/review_claims.rst:411
 msgid "0"
-msgstr "dix"
+msgstr "0"
 
 #: ../../user_manual/claims/review_claims.rst:411
 msgid "Accepted"
@@ -712,7 +712,7 @@ msgstr "3"
 
 #: ../../user_manual/claims/review_claims.rst:420
 msgid "Item/Service is not covered by an active policy of the patient"
-msgstr "L'article / le service n'est pas couvert par une politique active du patient"
+msgstr "L'article / le soin n'est pas couvert par une police active du patient"
 
 #: ../../user_manual/claims/review_claims.rst:423
 msgid "4"
@@ -720,7 +720,7 @@ msgstr "4"
 
 #: ../../user_manual/claims/review_claims.rst:423
 msgid "Item/Service doesn’t comply with limitations on patients (men/women, adults/children)"
-msgstr "L'article / le service n'est pas conforme aux limitations imposées aux patients (hommes / femmes, adultes / enfants)"
+msgstr "L'article / le soin n'est pas conforme aux limitations imposées aux patients (hommes / femmes, adultes / enfants)"
 
 #: ../../user_manual/claims/review_claims.rst:427
 msgid "5"
@@ -728,7 +728,7 @@ msgstr "5"
 
 #: ../../user_manual/claims/review_claims.rst:427
 msgid "Item/Service doesn’t comply with frequency constraint"
-msgstr "L'article / le service n'est pas conforme à la contrainte de fréquence"
+msgstr "L'article / le soin n'est pas conforme à la contrainte de fréquence"
 
 #: ../../user_manual/claims/review_claims.rst:430
 msgid "6"
@@ -737,11 +737,11 @@ msgstr "6"
 #: ../../user_manual/claims/review_claims.rst:430
 #: ../../user_manual/claims/review_claims.rst:464
 msgid "N/A"
-msgstr "N / A"
+msgstr "N/A"
 
 #: ../../user_manual/claims/review_claims.rst:432
 msgid "7"
-msgstr "sept"
+msgstr "7"
 
 #: ../../user_manual/claims/review_claims.rst:432
 msgid "Not valid insurance number"
@@ -761,15 +761,15 @@ msgstr "9"
 
 #: ../../user_manual/claims/review_claims.rst:437
 msgid "Target date of provision of health care invalid"
-msgstr "Date cible de prestation des soins de santé invalide"
+msgstr "Date cible de prestation  invalide"
 
 #: ../../user_manual/claims/review_claims.rst:440
 msgid "10"
-msgstr "dix"
+msgstr "10"
 
 #: ../../user_manual/claims/review_claims.rst:440
 msgid "Item/Service doesn’t comply with type of care constraint"
-msgstr "L'article / le service n'est pas conforme au type de contrainte de soins"
+msgstr "L'article / le soin n'est pas conforme au type de contrainte de soins"
 
 #: ../../user_manual/claims/review_claims.rst:443
 msgid "11"
@@ -825,7 +825,7 @@ msgstr "17"
 
 #: ../../user_manual/claims/review_claims.rst:461
 msgid "Item/service cannot be covered within waiting period"
-msgstr "L'article / le service ne peut pas être couvert pendant la période d'attente"
+msgstr "L'article / le soin ne peut pas être couvert pendant la période d'attente"
 
 #: ../../user_manual/claims/review_claims.rst:464
 msgid "18"
@@ -845,7 +845,7 @@ msgstr "**Enregistrement / révision**"
 
 #: ../../user_manual/claims/review_claims.rst:472
 msgid "Once appropriate data is entered, clicking on the ``Save`` button (:numref:`mat_save`) will save the claim review and set the reivew status to ``deliver``; a message confirming that the claim has been saved will appear on the Information Panel."
-msgstr "Une fois les données appropriées saisies, cliquer sur le bouton ``Enregistrer`` (:numref:`mat_save`) enregistrera la revue de la réclamation et définira le statut de reivew sur ``livrer``; un message confirmant que la réclamation a été enregistrée apparaîtra sur le panneau d'informations."
+msgstr "Une fois les données appropriées saisies, cliquer sur le bouton ``Enregistrer`` (:numref:`mat_save`) enregistrera la revue de la prestation et définira le statut de reivew sur ``livrer``; un message confirmant que la prestation a été enregistrée apparaîtra sur le panneau d'informations."
 
 #: ../../user_manual/claims/review_claims.rst:474
 msgid "**data entry validation**"
@@ -866,11 +866,11 @@ msgstr "En cliquant sur le bouton ``retour`` (:numref:`mat_back`), l'utilisateur
 
 #: ../../user_manual/claims/review_claims.rst:485
 msgid "Claim Feedback Page"
-msgstr "Page de commentaires sur les réclamations"
+msgstr "Page de commentaires sur les prestations"
 
 #: ../../user_manual/claims/review_claims.rst:487
 msgid "The Claim Feedback page will show read-only information of the current claim selected for feedback, on the top section of the page it has input boxes where a user with the system role Medical Officer or with a role including an access to Claims/Claim/Feedback can enter feedback on the current claim or where the user can read a feedback delivered by enrolment officers."
-msgstr "La page de commentaires sur les réclamations affichera des informations en lecture seule sur la réclamation actuelle sélectionnée pour les commentaires, dans la section supérieure de la page, elle contient des zones de saisie où un utilisateur avec le rôle de médecin-conseil système ou avec un rôle comprenant un accès aux réclamations / réclamation / Les commentaires peuvent entrer des commentaires sur la revendication actuelle ou où l'utilisateur peut lire les commentaires fournis par les agents d'inscription."
+msgstr "La page de commentaires sur les prestations affichera des informations en lecture seule sur la prestation actuelle sélectionnée pour les commentaires, dans la section supérieure de la page, elle contient des zones de saisie où un utilisateur avec le rôle de médecin-conseil système ou avec un rôle comprenant un accès aux prestations / prestation / Les commentaires peuvent entrer des commentaires sur la prestation actuelle ou où l'utilisateur peut lire les commentaires fournis par les agents d'inscription."
 
 #: ../../user_manual/claims/review_claims.rst:495
 msgid "`Claim Feedback Page`"
@@ -878,7 +878,7 @@ msgstr "`Réclamer la page de commentaires`"
 
 #: ../../user_manual/claims/review_claims.rst:497
 msgid "Read-only data of the feedback includes in the section **Claim** the following:"
-msgstr "Les données en lecture seule des commentaires incluent dans la section **Réclamation** les éléments suivants:"
+msgstr "Les données en lecture seule des commentaires incluent dans la section **Prestation** les éléments suivants:"
 
 #: ../../user_manual/claims/review_claims.rst:499
 msgid "``Health Facility``"
@@ -894,27 +894,27 @@ msgstr "Nom et numéro d'assurance du patient / bénéficiaire"
 
 #: ../../user_manual/claims/review_claims.rst:521
 msgid "Type of visit covered by the claim (emergency, referal, other)"
-msgstr "Type de visite couverte par la réclamation (urgence, référence, autre)"
+msgstr "Type de visite couverte par la prestation (urgence, référence, autre)"
 
 #: ../../user_manual/claims/review_claims.rst:529
 msgid "Identification of a guarantee letter for prior approval of provision of claimed health care."
-msgstr "Identification d'une lettre de garantie pour l'approbation préalable de la prestation des soins de santé demandés."
+msgstr "Identification d'une lettre de garantie pour l'approbation préalable de la prestation  demandés."
 
 #: ../../user_manual/claims/review_claims.rst:533
 msgid "The status of the claim."
-msgstr "Le statut de la réclamation."
+msgstr "Le statut de la prestation."
 
 #: ../../user_manual/claims/review_claims.rst:537
 msgid "The status of the claim with respect to reviewing."
-msgstr "L'état de la réclamation en ce qui concerne l'examen."
+msgstr "L'état de la prestation en ce qui concerne l'examen."
 
 #: ../../user_manual/claims/review_claims.rst:541
 msgid "The status of the claim with respect to feed backing."
-msgstr "Le statut de la réclamation en ce qui concerne le support alimentaire."
+msgstr "Le statut de la prestation en ce qui concerne le support alimentaire."
 
 #: ../../user_manual/claims/review_claims.rst:545
 msgid "The administrator's code and name, who was responsible for submission of the current claim."
-msgstr "Le code et le nom de l'administrateur, qui était responsable de la soumission de la réclamation actuelle."
+msgstr "Le code et le nom de l'administrateur, qui était responsable de la soumission de la prestation actuelle."
 
 #: ../../user_manual/claims/review_claims.rst:547
 msgid "Modifiable data of the feedback included in the section **Feedback** the following"
@@ -973,7 +973,7 @@ msgstr "**Sauvegarder**"
 
 #: ../../user_manual/claims/review_claims.rst:581
 msgid "Once all mandatory data is entered, clicking on the ``Save`` button (:numref:`mat_save`) will save the feedback on current claim. The user will be re-directed back to the :ref:`Claims Overview Page  <claims-overview-page>`\\ ; a message confirming that the feedback has been saved will appear on the Information Panel. If inappropriate data is entered or mandatory data is not entered at the time the user clicks the Save button, an error message will appear in the Information Panel, and the data field will take the focus."
-msgstr "Une fois toutes les données obligatoires saisies, un clic sur le bouton ``Enregistrer`` (:numref:`mat_save`) enregistrera les commentaires sur la réclamation en cours. L'utilisateur sera redirigé vers :ref:`Récapitulatif des <claims-overview-page>` ; un message confirmant que les commentaires ont été enregistrés apparaîtra sur le panneau d'informations. Si des données inappropriées sont saisies ou des données obligatoires ne sont pas entrées au moment où l'utilisateur clique sur le bouton Enregistrer, un message d'erreur apparaît dans le panneau d'informations et le champ de données prend le focus."
+msgstr "Une fois toutes les données obligatoires saisies, un clic sur le bouton ``Enregistrer`` (:numref:`mat_save`) enregistrera les commentaires sur la prestation en cours. L'utilisateur sera redirigé vers :ref:`Récapitulatif des <claims-overview-page>` ; un message confirmant que les commentaires ont été enregistrés apparaîtra sur le panneau d'informations. Si des données inappropriées sont saisies ou des données obligatoires ne sont pas entrées au moment où l'utilisateur clique sur le bouton Enregistrer, un message d'erreur apparaît dans le panneau d'informations et le champ de données prend le focus."
 
 #: ../../user_manual/claims/review_claims.rst:585
 msgid "By clicking on the ``back`` button (:numref:`mat_back`), the user will be re-directed to the :ref:`Claims Overview Page  <claims-overview-page>`\\ ."

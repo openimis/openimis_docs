@@ -1,7 +1,5 @@
-
-
 Enrolment Officers Administration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
   Enrolment Officers administration is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Enrolment Officers.
 

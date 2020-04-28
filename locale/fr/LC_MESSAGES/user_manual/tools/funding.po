@@ -19,7 +19,7 @@ msgid "Access to the ``Funding`` is restricted to the users with the system role
 msgstr "L'accès au ``Financement`` est limité aux utilisateurs ayant le rôle système de Comptable ou avec un rôle incluant un accès aux Outils / Financement."
 
 msgid "The ``Funding`` is the place where funding from external authorities (payers) can be for entered. openIMIS creates internally one fictive family/group (the insurance number of the head of the fictive family/group is 999999999, the name is *Funding* and the other name is *Funding* as well) for the district for which a funding is done. Each entering of a fund results in creation of a fictive policy for the corresponding fictive family/group with paid contribution in the amount of the funding. The fictive policy is active since the date of payment of the corresponding fund. These fictive policies are overpaid as these funds are usually much higher than the contribution rate for a single family/member of the group but it doesn’t matter. External funding corresponds to payment of contributions for many families/members of the group in some period. openIMIS can regard funds as standard contributions and its standard functionality can be used for handling of funds. One distinctive feature of payment of funds by means of the fictive policies is that the payments of funds don’t appear in the reports on matching funds generated for funding authorities. So, there is no danger that offices of the scheme administration would acquire new funds based on funding already acquired."
-msgstr "Le `Financement` est le lieu où le financement à partir de sources externes (payeurs) peut être pour les entrées. openIMIS crée en interne un fictif de la famille/groupe (le numéro d'assurance de la tête de fictif de la famille/groupe est 999999999, le nom est *Financement* et l'autre nom est *Financement* ainsi) pour le district pour lequel un financement est fait. Chaque entrée d'un fonds de résultats dans la création d'un fictif de la politique pour le correspondant fictif de la famille/groupe avec payée de la contribution, le montant du financement. Fictif politique est active depuis la date de paiement du fonds correspondant. Ces fictif politiques sont trop payés, car ces fonds sont généralement beaucoup plus élevés que le taux de cotisation pour une seule famille/membre du groupe, mais il n'a pas d'importance. Le financement externe correspond au versement de contributions pour les familles nombreuses et les membres du groupe dans une certaine période. openIMIS peut égard des fonds à titre de contributions aux normes et ses fonctionnalités standard peut être utilisé pour la gestion des fonds. Un trait distinctif de versement de fonds par des moyens de fictif politiques est que les paiements de fonds n'apparaissent pas dans les rapports sur les fonds de contrepartie générés par les autorités de financement. Donc, il n'y a pas de danger que les bureaux du régime de l'administration permettrait d'acquérir de nouveaux fonds sur la base des financements déjà acquis."
+msgstr "Le `Financement` est le lieu où le financement à partir de sources externes (contributeurs) peut être pour les entrées. openIMIS crée en interne un fictif de la famille/groupe (le numéro d'assurance de la tête de fictif de la famille/groupe est 999999999, le nom est *Financement* et l'autre nom est *Financement* ainsi) pour le district pour lequel un financement est fait. Chaque entrée d'un fonds de résultats dans la création d'un fictif de la police pour le correspondant fictif de la famille/groupe avec payée de la contribution, le montant du financement. Fictif police est active depuis la date de paiement du fonds correspondant. Ces fictif polices sont trop payés, car ces fonds sont généralement beaucoup plus élevés que le taux de cotisation pour une seule famille/membre du groupe, mais il n'a pas d'importance. Le financement externe correspond au versement de contributions pour les familles nombreuses et les membres du groupe dans une certaine période. openIMIS peut égard des fonds à titre de contributions aux normes et ses fonctionnalités standard peut être utilisé pour la gestion des fonds. Un trait distinctif de versement de fonds par des moyens de fictif polices est que les paiements de fonds n'apparaissent pas dans les rapports sur les fonds de contrepartie générés par les autorités de financement. Donc, il n'y a pas de danger que les bureaux du régime de l'administration permettrait d'acquérir de nouveaux fonds sur la base des financements déjà acquis."
 
 
 msgid "Navigation"
@@ -50,33 +50,33 @@ msgstr "`Page de financement`"
 
 
 msgid "``Region``"
-msgstr "`` Région``"
+msgstr "``Région``"
 
 msgid "Select the region from the list of regions for which the funding is designated by clicking on the arrow on the right of the selector. *Note: The list will only be filled with the regions assigned to the current logged in user.*"
 msgstr "Sélectionnez la région à partir de la liste des régions pour lesquelles le financement est désigné en cliquant sur la flèche à droite du sélecteur. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté.*"
 
 
 msgid "``District``"
-msgstr "`` Quartier``"
+msgstr "``Quartier``"
 
 msgid "Select the district from the list of districts for which the funding is designated. by clicking on the arrow on the right of the selector. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user.*"
 msgstr "Sélectionnez le quartier de la liste des districts pour lesquels le financement est désigné. en cliquant sur la flèche à droite du sélecteur. *Remarque: La liste ne sera rempli avec les districts appartenant à la région sélectionnée et assigné à l'utilisateur connecté.*"
 
 
 msgid "``Product``"
-msgstr "`` Produit``"
+msgstr "``Produit``"
 
 
 msgid "Select an insurance product from the list of insurance products purchased in the selected district (including national insurance products) for which the funding is designated."
-msgstr "Sélectionnez un produit d'assurance dans la liste des produits d'assurance achetés dans le district sélectionné (y compris les produits d'assurance nationaux) pour lesquels le financement est désigné."
+msgstr "Sélectionnez un paquet de bénéfices dans la liste des paquets de bénéfices achetés dans le district sélectionné (y compris les paquets de bénéfices nationaux) pour lesquels le financement est désigné."
 
 
 msgid "``Payer``"
-msgstr "``Payeur``"
+msgstr "``Contributeur``"
 
 
 msgid "Select from the list of institutional payers the funding authority/agency."
-msgstr "Sélectionnez dans la liste des payeurs institutionnels l'autorité / l'agence de financement."
+msgstr "Sélectionnez dans la liste des contributeurs institutionnels l'autorité / l'agence de financement."
 
 
 msgid "``Payment Date``"

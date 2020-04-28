@@ -16,7 +16,7 @@ msgstr "Téléchargement / téléchargement des registres sélectionnés"
 
 
 msgid "Access to uploading/downloading of selected registers is restricted to the users with the the system role of IMIS Administrator ( the register of locations) or with a role including an access to Tools/Registers."
-msgstr "L'accès au téléchargement / téléchargement des registres sélectionnés est limité aux utilisateurs avec le rôle système d'Administrateur IMIS (le registre des emplacements) ou avec un rôle comprenant un accès aux Outils / Registres."
+msgstr "L'accès au téléchargement / téléchargement des registres sélectionnés est limité aux utilisateurs avec le rôle système d'Administrateur IMIS (le registre des Lieux) ou avec un rôle comprenant un accès aux Outils / Registres."
 
 
 msgid "Navigation"
@@ -32,7 +32,7 @@ msgstr "`Navigation vers les registres`"
 
 
 msgid "Clicking on the sub menu ``Registers`` re-directs the current user to the `Registers Page`: (:numref:`image166`)"
-msgstr "Cliquer sur le sous-menu ``Registres`` redirige l'utilisateur actuel vers la `Page Registres`: (: numref:` image166`)"
+msgstr "Cliquer sur le sous-menu ``Registres`` redirige l'utilisateur actuel vers la `Page Registres`: (:numref:` image166`)"
 
 
 msgid "Registers page"
@@ -52,7 +52,7 @@ msgstr "Téléchargement de la liste des diagnostics"
 
 
 msgid "``Browse``"
-msgstr "`` Parcourir``"
+msgstr "``Parcourir``"
 
 
 msgid "Select from a file in the XML format serving as a source for uploading of the list of diagnoses. Mandatory."
@@ -68,7 +68,7 @@ msgstr "Sélectionnez la stratégie souhaitée pour le téléchargement de la li
 
 
 msgid "``Insert Only``"
-msgstr "`` Insérer uniquement``"
+msgstr "``Insérer uniquement``"
 
 
 msgid "Uploads only diagnoses that are not yet included in the list of diagnoses"
@@ -172,27 +172,27 @@ msgstr "] >"
 
 
 msgid "Upload of the register of locations"
-msgstr "Téléchargement du registre des emplacements"
+msgstr "Téléchargement du registre des Lieux"
 
 
 msgid "Select from a file in the XML format serving as a source for uploading of the register of locations. Mandatory."
-msgstr "Sélectionnez dans un fichier au format XML servant de source pour le téléchargement du registre des emplacements. Obligatoire."
+msgstr "Sélectionnez dans un fichier au format XML servant de source pour le téléchargement du registre des Lieux. Obligatoire."
 
 
 msgid "Select a desired strategy for uploading of the register of locations. The following options are available:"
-msgstr "Sélectionnez la stratégie souhaitée pour le téléchargement du registre des emplacements. Les options suivantes sont disponibles:"
+msgstr "Sélectionnez la stratégie souhaitée pour le téléchargement du registre des Lieux. Les options suivantes sont disponibles:"
 
 
 msgid "Uploads only locations that are not yet included in the register of locations"
-msgstr "Télécharge uniquement les emplacements qui ne sont pas encore inclus dans le registre des emplacements"
+msgstr "Télécharge uniquement les Lieux qui ne sont pas encore inclus dans le registre des Lieux"
 
 
 msgid "Updates only locations that are already included in the register of locations"
-msgstr "Met à jour uniquement les emplacements déjà inclus dans le registre des emplacements"
+msgstr "Met à jour uniquement les Lieux déjà inclus dans le registre des Lieux"
 
 
 msgid "Uploads locations that are not yet included in the register of locations and updates locations that are already included in the register of locations"
-msgstr "Télécharge des emplacements qui ne sont pas encore inclus dans le registre des emplacements et met à jour les emplacements qui sont déjà inclus dans le registre des emplacements"
+msgstr "Télécharge des Lieux qui ne sont pas encore inclus dans le registre des Lieux et met à jour les Lieux qui sont déjà inclus dans le registre des Lieux"
 
 
 msgid "If checked only diagnostics is provided without real uploading."
@@ -200,15 +200,15 @@ msgstr "Si coché, seuls les diagnostics sont fournis sans véritable téléchar
 
 
 msgid "By clicking on the Upload button, a prompt popup message will appear, require a user to agree or disagree (:ref:`image_upload_locations`). If user agrees the selected file containing locations will be uploaded."
-msgstr "En cliquant sur le bouton Télécharger, un message contextuel apparaîtra, demandant à un utilisateur d'accepter ou de refuser (:ref:`image_upload_locations`). Si l'utilisateur accepte, le fichier sélectionné contenant les emplacements sera téléchargé."
+msgstr "En cliquant sur le bouton Télécharger, un message contextuel apparaîtra, demandant à un utilisateur d'accepter ou de refuser (:ref:`image_upload_locations`). Si l'utilisateur accepte, le fichier sélectionné contenant les Lieux sera téléchargé."
 
 
 msgid "`Upload Locations`"
-msgstr "`Emplacements de téléchargement`"
+msgstr "`Lieux de téléchargement`"
 
 
 msgid "A statistics on the number of inserted/updated locations appears (:ref:`image_upload_locations_statistics`)"
-msgstr "Une statistique sur le nombre d'emplacements insérés / mis à jour apparaît (:ref:`image_upload_locations_statistics`)"
+msgstr "Une statistique sur le nombre d'Lieux insérés / mis à jour apparaît (:ref:`image_upload_locations_statistics`)"
 
 
 msgid "`Upload Locations statistics`"
@@ -220,11 +220,11 @@ msgstr "S'il y a des erreurs, un protocole d'erreur apparaît (:ref:`image_uploa
 
 
 msgid "`Upload Locations error`"
-msgstr "`Erreur de téléchargement des emplacements`"
+msgstr "`Erreur de téléchargement des Lieux`"
 
 
 msgid "*DTD definition of the XML file for uploading/downloading of locations:*"
-msgstr "* Définition DTD du fichier XML pour le chargement / téléchargement des emplacements: *"
+msgstr "* Définition DTD du fichier XML pour le chargement / téléchargement des Lieux: *"
 
 
 msgid "<!DOCTYPE Locations> ["
@@ -340,7 +340,7 @@ msgstr "Télécharge les établissements de santé qui ne sont pas encore inscri
 
 
 msgid "By clicking on the Upload button, a prompt popup message will appear, require a user to agree or disagree: (:ref:`image_upload_facilities`) If user agrees the selected file containing locations will be uploaded."
-msgstr "En cliquant sur le bouton Télécharger, un message contextuel apparaîtra, demandant à un utilisateur d'accepter ou de refuser: (:ref:`image_upload_facilities`) Si l'utilisateur accepte le fichier sélectionné contenant les emplacements sera téléchargé."
+msgstr "En cliquant sur le bouton Télécharger, un message contextuel apparaîtra, demandant à un utilisateur d'accepter ou de refuser: (:ref:`image_upload_facilities`) Si l'utilisateur accepte le fichier sélectionné contenant les Lieux sera téléchargé."
 
 
 msgid "`Upload Health Facilities`"
@@ -464,11 +464,11 @@ msgstr "Téléchargement du registre des lieux"
 
 
 msgid "By clicking on the Download button, a prompt popup message will appear, require a user to specify whether the XML file with downloaded register of locations should be opened or saved or canceled (:ref:`image_download_locations`)"
-msgstr "En cliquant sur le bouton Télécharger, un message contextuel apparaîtra, demandant à un utilisateur de spécifier si le fichier XML avec le registre des emplacements téléchargé doit être ouvert ou enregistré ou annulé (:ref:`image_download_locations`)"
+msgstr "En cliquant sur le bouton Télécharger, un message contextuel apparaîtra, demandant à un utilisateur de spécifier si le fichier XML avec le registre des Lieux téléchargé doit être ouvert ou enregistré ou annulé (:ref:`image_download_locations`)"
 
 
 msgid "`Download locations`"
-msgstr "`Emplacements de téléchargement`"
+msgstr "`Lieux de téléchargement`"
 
 
 msgid "Download of the register of health facilities"
@@ -488,7 +488,7 @@ msgstr "Boutons"
 
 
 msgid "``Cancel``"
-msgstr "`` Annuler``"
+msgstr "``Annuler``"
 
 
 msgid "By clicking on ``Cancel`` button, user will be re-directed to the Home page."

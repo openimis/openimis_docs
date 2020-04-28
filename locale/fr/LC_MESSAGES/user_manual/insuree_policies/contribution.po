@@ -67,11 +67,11 @@ msgstr "Le panneau de recherche permet à un utilisateur de sélectionner des cr
 
 
 msgid "``Payer``"
-msgstr "``Payeur``"
+msgstr "``Contributeur``"
 
 
 msgid "Select the ``Payer``; from the list of payers by clicking on the arrow on the right of the selector, to select contributions related to a specific payer."
-msgstr "Sélectionnez le ``Payeur``; dans la liste des payeurs en cliquant sur la flèche à droite du sélecteur, pour sélectionner les contributions liées à un payeur spécifique."
+msgstr "Sélectionnez le ``Contributeur``; dans la liste des contributeurs en cliquant sur la flèche à droite du sélecteur, pour sélectionner les contributions liées à un contributeur spécifique."
 
 
 msgid "``Payment Type``"
@@ -167,18 +167,18 @@ msgstr "Tapez ``Contribution payée`` pour rechercher des contributions avec le 
 
 
 msgid "``Region``"
-msgstr "`` Région``"
+msgstr "``Région``"
 
 
 msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select contributions for policies from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*"
-msgstr "Sélectionnez la ``Région``; dans la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner les contributions pour les politiques d'une région spécifique. *Remarque: La liste ne sera remplie qu'avec les régions affectées à l'utilisateur actuellement connecté. S'il ne s'agit que d'une seule, la région sera automatiquement sélectionnée.*"
+msgstr "Sélectionnez la ``Région``; dans la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner les contributions pour les polices d'une région spécifique. *Remarque: La liste ne sera remplie qu'avec les régions affectées à l'utilisateur actuellement connecté. S'il ne s'agit que d'une seule, la région sera automatiquement sélectionnée.*"
 
 
 msgid "``District``"
-msgstr "`` Quartier``"
+msgstr "``Quartier``"
 
 msgid "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select contributions paid for policies from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*"
-msgstr "Sélectionnez le `Quartier`; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur pour sélectionner les contributions versées pour les politiques à partir d'un district particulier. *Remarque: La liste ne sera rempli avec les districts appartenant à la région sélectionnée et assigné à l'utilisateur connecté. Si ce n'est qu'un, le quartier sera automatiquement sélectionné.*"
+msgstr "Sélectionnez le `Quartier`; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur pour sélectionner les contributions versées pour les polices à partir d'un district particulier. *Remarque: La liste ne sera rempli avec les districts appartenant à la région sélectionnée et assigné à l'utilisateur connecté. Si ce n'est qu'un, le quartier sera automatiquement sélectionné.*"
 
 
 msgid "``Historical``"
@@ -249,7 +249,7 @@ msgstr "`Page de contribution`"
 
 
 msgid "Select from the list of available (institutional) payers the payer of the contribution (if the contribution is not paid by the family/group itself)."
-msgstr "Sélectionnez dans la liste des payeurs (institutionnels) disponibles le payeur de la cotisation (si la cotisation n'est pas payée par la famille / le groupe lui-même)."
+msgstr "Sélectionnez dans la liste des contributeurs (institutionnels) disponibles le contributeur de la cotisation (si la cotisation n'est pas payée par la famille / le groupe lui-même)."
 
 
 msgid "Enter the paid amount for the contribution. Mandatory."
@@ -261,7 +261,7 @@ msgstr "``No de reçu``"
 
 
 msgid "Enter the receipt identification for the contribution. Receipt identification has to be unique within all policies of the insurance product. Mandatory."
-msgstr "Saisissez l'identifiant du reçu pour la contribution. L'identification du reçu doit être unique dans toutes les polices du produit d'assurance. Obligatoire."
+msgstr "Saisissez l'identifiant du reçu pour la contribution. L'identification du reçu doit être unique dans toutes les polices du paquet de bénéfices. Obligatoire."
 
 
 msgid "``Payment Date``"
@@ -309,7 +309,7 @@ msgstr "`Image 133`"
 
 
 msgid "If you choose **Yes**, the policy will be (enforced) set as **Active**. If you choose No, it will remain **Idle**."
-msgstr "Si vous choisissez**Oui**, la politique sera (appliquée) définie comme**Actif**. Si vous choisissez Non, il restera **Inactif**."
+msgstr "Si vous choisissez**Oui**, la police sera (appliquée) définie comme**Actif**. Si vous choisissez Non, il restera **Inactif**."
 
 
 msgid "If the contribution is higher than the price of the policy:"

@@ -12,11 +12,11 @@ msgstr ""
 
 
 msgid "Locations Administration"
-msgstr "Administration des emplacements"
+msgstr "Administration des Lieux"
 
 
 msgid "Administration of locations is restricted to users with the the system role of IMIS Administrator or with a role including an access to Administration/Locations. The user can see only locations he/she has access to."
-msgstr "L'administration des emplacements est réservée aux utilisateurs avec le rôle système d'Administrateur IMIS ou avec un rôle comprenant un accès à Administration / Emplacements. L'utilisateur ne peut voir que les emplacements auxquels il a accès."
+msgstr "L'administration des Lieux est réservée aux utilisateurs avec le rôle système d'Administrateur IMIS ou avec un rôle comprenant un accès à Administration / Lieux. L'utilisateur ne peut voir que les Lieux auxquels il a accès."
 
 
 msgid "Pre-conditions"
@@ -32,47 +32,52 @@ msgstr "La navigation"
 
 
 msgid "All functionality for use with the administration of locations can be found under the main menu ``Administration``, sub menu ``Locations.``"
-msgstr "Toutes les fonctionnalités à utiliser avec l'administration des emplacements se trouvent dans le menu principal ``Administration``, sous-menu ``Emplacements``."
+msgstr "Toutes les fonctionnalités à utiliser avec l'administration des Lieux se trouvent dans le menu principal ``Administration``, sous-menu ``Lieux``."
 
 
 msgid "`Navigation Locations`"
-msgstr "`Emplacements de navigation`"
+msgstr "`Navigation: Lieux`"
 
 
 msgid "Clicking on the sub menu ``Locations`` re-directs the current user to the `Locations Page. <#locations-page>`__"
-msgstr "Cliquer sur le sous-menu ``Emplacements`` redirige l'utilisateur actuel vers la `Page Emplacements. <#locations-page>`__"
+msgstr "Cliquer sur le sous-menu ``Lieux`` redirige l'utilisateur actuel vers la `Page Lieux. <#locations-page>`__"
 
 
 msgid "`Locations Page`"
-msgstr "`Page Emplacements`"
+msgstr "`Page Lieux`"
 
 
 msgid "Locations Page"
-msgstr "Page Emplacements"
+msgstr "Page Lieux"
 
-msgid "The Locations page is the central point for all locations administration. By having access to this page, it is possible to add, edit, delete and move regions, districts, municipalities and villages. The page is divided into three panels (:numref:`image83`). *Note. Only regions and districts with associated municipalities and villages, belonging to the logged in user will be available to edit or delete. On adding a new region or district, the user will automatically become associated with this region or district.*"
-msgstr "Les Emplacements de la page est le point central pour tous les sites de l'administration. En ayant accès à cette page, il est possible d'ajouter, modifier, supprimer et déplacer des régions, les districts, les communes et les villages. La page est divisée en trois panneaux (:numref:`image83`). *Remarque. Seules les régions et les districts avec les municipalités et les villages, appartenant à l'utilisateur connecté sera disponible à modifier ou à supprimer. Sur l'ajout d'une nouvelle région ou de district, l'utilisateur sera automatiquement associé à cette région ou de district.*"
+msgid "The Locations page is the central point for all locations administration. By having access to this page, it is possible to add, edit, delete and move regions, districts, municipalities and villages. The page is divided into three panels (:numref:`location_search`). *Note. Only regions and districts with associated municipalities and villages, belonging to the logged in user will be available to edit or delete. On adding a new region or district, the user will automatically become associated with this region or district*."
+msgstr "Les Lieux de la page est le point central pour l'administration de tous les lieux. En ayant accès à cette page, il est possible d'ajouter, modifier, supprimer et déplacer des régions, les districts, les communes et les villages. La page est divisée en trois panneaux (:numref:`location_search`). *Remarque. Seules les régions et les districts avec les municipalités et les villages, appartenant à l'utilisateur connecté sera disponible à modifier ou à supprimer. Sur l'ajout d'une nouvelle région ou de district, l'utilisateur sera automatiquement associé à cette région ou de district*."
 
 
 msgid "**Locations Panel**"
-msgstr "**Panneau d'emplacements**"
+msgstr "**Panneau des lieux**"
 
 
-msgid "This is the working panel and is divided into four vertical panels of ``Regions, Districts, Municipalities`` and ``Villages.``"
-msgstr "Ceci est le panneau de travail et est divisé en quatre panneaux verticaux de ``régions, districts, municipalités`` et ``villages``."
+msgid "This is the working panel and is divided into four vertical panels of ``Regions``, ``Districts``, ``Municipalities`` and ``Villages.``"
+msgstr "Ceci est le panneau de travail et est divisé en quatre panneaux verticaux de ``régions``, ``districts``, ``municipalités`` et ``villages``."
 
 
 msgid "**Button Panel**"
 msgstr "**Panneau de boutons**"
 
 
-msgid "It has four buttons, ``Add``, ``Edit``, ``Delete`` and ``Move`` for actions on the locations and the ``Cancel`` button for re-directing to the :ref:`Home Page <home_page>`\\."
-msgstr "Il a quatre boutons, ``Ajouter``, ``Modifier``, ``Supprimer`` et ``Déplacer`` pour les actions sur les emplacements et le bouton ``Annuler`` pour rediriger vers :ref:`Page d'accueil <home_page>` \\."
+msgid "It has three buttons, ``Add`` (:numref:`mat_add`), ``Delete`` (:numref:`mat_delete`) and ``Move`` (:numref:`mat_move`)  for actions on the locations, double click on a location will open the edit modal box."
+msgstr "Il a quatre boutons, ``Ajouter`` (:numref:`mat_add`),  ``Supprimer`` (:numref:`mat_delete`) et ``Déplacer`` (:numref:`mat_move`) pour les actions sur les Lieux, un double click sur un lieu permet d'ouvrir la fenêtre modal de modification."
 
 
-msgid "`Action Buttons - Locations Page`"
-msgstr "`Boutons d'action - Page Emplacements`"
+msgid "`Move`"
+msgstr "`Deplacement`"
 
+msgid "`Refresh`"
+msgstr "`Rafraîchir`"
+
+msgid "`Delete`"
+msgstr "`Supprimer`"
 
 msgid "**Information Panel**"
 msgstr "**Panneau d'information**"
@@ -82,26 +87,18 @@ msgid "The Information Panel is used to display messages back to the user. Messa
 msgstr "Le panneau d'informations est utilisé pour afficher les messages à l'utilisateur. Les messages apparaîtront une fois qu'une région, un district ou une municipalité ou un village aura été ajouté, mis à jour, déplacé ou supprimé ou s'il y a eu une erreur à tout moment au cours du processus de ces actions."
 
 
-msgid "**Cancel**"
-msgstr "**Annuler**"
-
-
-msgid "By clicking on the ``Cancel`` button, the user will be re-directed to the :ref:`Home Page <home_page>`\\ ."
-msgstr "En cliquant sur le bouton ``Annuler``, l'utilisateur sera redirigé vers :ref:`Page d'accueil <home_page>` \\."
-
-
 msgid "Adding a Region, District, Municipality, Village"
 msgstr "Ajout d'une région, d'un district, d'une municipalité, d'un village"
 
-msgid "Focusing on the appropriate level of locations by clicking on the black or the empty bar on the top of the appropriate panel and clicking on the ``Add`` button will open up in the top of the screen an empty entry box. Here one could enter the new code (**Code**) and name (**Name**) of a region, district, municipality or village. For villages, the number of male inhabitants (**M**), female inhabitants (**F**), inhabitants with the unspecified gender (**O**) and the number of families (**Fam.**) can be specified. On clicking the ``Save`` button the new record will be saved."
-msgstr "En se concentrant sur le niveau approprié des lieux en cliquant sur le noir ou le vide de la barre sur le haut de la fenêtre appropriée et en cliquant sur le bouton `Ajouter` sera ouverte dans le haut de l'écran une zone de saisie vide. Ici, on pourrait entrer dans le nouveau code (**Code**) et le nom (**Nom**) d'une région, d'un district, d'une municipalité ou d'un village. Pour les villages, le nombre d'habitants de sexe masculin (**M**), les habitants (**F**), les habitants à l'une quelconque des sexes (**O**) et le nombre de familles (**Fam.**) peut être spécifié. En cliquant sur le bouton `Enregistrer`, le nouvel enregistrement sera sauvegardé."
+msgid "Focusing on the appropriate level of locations by clicking on the ``Add`` button will open up a modal entry box. Here one could enter the new code (**Code**) and name (**Name**) of a region, district, municipality or village. For villages, the number of male inhabitants (**M**), female inhabitants (**F**), inhabitants with the unspecified gender (**O**) and the number of families (**Fam.**) can be specified. On clicking the ``Save`` button the new record will be saved."
+msgstr "En se allant sur le niveau approprié des lieux et en cliquant sur le noir ou le vide de la barre sur le haut de la sur le bouton `Ajouter` , une fenêtre modale sera ouverteavec les zones de saisie vide. Ici, on pourrait entrer dans le nouveau code (**Code**) et le nom (**Nom**) d'une région, d'un district, d'une municipalité ou d'un village. Pour les villages, le nombre d'habitants de sexe masculin (**M**), les habitants (**F**), les habitants à l'une quelconque des sexes (**O**) et le nombre de familles (**Fam.**) peut être spécifié. En cliquant sur le bouton `Enregistrer`, le nouvel enregistrement sera sauvegardé."
 
 
 msgid "Editing a Region, District, Municipality, Village"
 msgstr "Modification d'une région, d'un district, d'une municipalité, d'un village"
 
 msgid "Selecting the location to edit and clicking on the ``Edit`` button will open up in the top of the screen an entry box with the name of the location. Here one could change the name. On clicking the ``Save`` button, the record will be saved."
-msgstr "Le choix de l'emplacement à modifier et cliquer sur le bouton `Modifier` sera ouverte dans le haut de l'écran une zone de saisie avec le nom de l'endroit. Ici, on pourrait changer le nom. En cliquant sur le bouton `Enregistrer`, l'enregistrement sera sauvegardé."
+msgstr "Le choix du lieux à modifier et cliquer sur le bouton `Modifier` sera ouverte dans le haut de l'écran une zone de saisie avec le nom de l'endroit. Ici, on pourrait changer le nom. En cliquant sur le bouton `Enregistrer`, l'enregistrement sera sauvegardé."
 
 
 msgid "Deleting a Region, District, Municipality, Village"
@@ -109,11 +106,11 @@ msgstr "Suppression d'une région, d'un district, d'une municipalité, d'un vill
 
 
 msgid "Select first the location to delete and click the ``Delete`` button. *Note. It is not possible to delete a region, district or municipality with associated districts, municipalities or villages respectively.*"
-msgstr "Sélectionnez d'abord l'emplacement à supprimer et cliquez sur le bouton ``Supprimer``. *Remarque. Il n'est pas possible de supprimer une région, un district ou une municipalité avec des districts, municipalités ou villages associés respectivement.*"
+msgstr "Sélectionnez d'abord le lieux à supprimer et cliquez sur le bouton ``Supprimer``. *Remarque. Il n'est pas possible de supprimer une région, un district ou une municipalité avec des districts, municipalités ou villages associés respectivement.*"
 
 
-msgid "Before deleting a confirmation popup (:numref:`image85`) is displayed, which requires the user to confirm if the action should really be carried out?"
-msgstr "Avant de supprimer une fenêtre de confirmation (:numref:`image85`) s'affiche, ce qui oblige l'utilisateur à confirmer si l'action doit vraiment être effectuée?"
+msgid "Before deleting a confirmation popup (:numref:`location.delete_conf`) is displayed, which requires the user to confirm if the action should really be carried out?"
+msgstr "Avant de supprimer une fenêtre de confirmation (:numref:`location.delete_conf`) s'affiche, ce qui oblige l'utilisateur à confirmer si l'action doit vraiment être effectuée?"
 
 
 msgid "`Delete confirmation – Location Page`"
@@ -127,35 +124,26 @@ msgstr "Lorsqu'une région, un district, une municipalité ou un village est sup
 msgid "Moving a District, Municipality, Village"
 msgstr "Déplacement d'un district, d'une municipalité ou d'un village"
 
-msgid "Moving of a location is needed when the administrative division of the territory, on which a health insurance scheme is active, changes. Clicking on the ``Move`` button will re-direct to the Move Location Page (:numref:`image86`)."
-msgstr "Le déplacement d'un endroit est nécessaire lors de la division administrative du territoire, sur lequel un régime d'assurance maladie est active, les changements. En cliquant sur le bouton `Déplacer` re-diriger vers le Déplacer Emplacement de la Page (:numref:`image86`)."
+msgid "Moving of a location is needed when the administrative division of the territory, on which a health insurance scheme is active, changes. Clicking on the ``Move`` button will open the move location box (:numref:`location_move`)."
+msgstr "Le déplacement d'un lieu est nécessaire lors de la division administrative du territoire, sur lequel un régime d'assurance maladie est active, les changements. En cliquant sur le bouton ``Déplacer``  Ouvre la fenêtre de déplacement des lieux (:numref:`location_move`)."
 
 
 msgid "`Move Location Page`"
 msgstr "`Déplacer la page de localisation`"
 
 
-msgid "The ``Move Location Page`` is divided into six panels."
-msgstr "La ``page de localisation des déplacements`` est divisée en six panneaux."
+
+msgid "**Move Location box**"
+msgstr "**Fenêtre de déplacement des lieux**"
+
+msgid "The move location box is composed of three sections, the first display the name of the location to be moved. The second display the name of the current parent when the third enable the selection of the future parents."
+msgstr "La fenêtre de déplacement des lieux est composée de trois sections, la première affiche le nom du lieu à déplacer. La deuxième affiche le nom du parent actuel lorsque la troisième permet de sélectionner les futurs parents."
+
+msgid "For moving a location, select the new parents (village, municipality, district), the fields will appear when needed, for example the municipality drop-down list will be displayed only if the district is selected. The level of the location can be changed by choosing the lower (resp. higher) parent having a different level from the current parent; be aware that the lowest location is the village, therefore if a municipality is moved to village level then the villages under the moved municipality will remain villages but will be moved under the municipality chosen the new parent of the to-be moved municipality."
+msgstr "Pour un déménagement, sélectionnez les nouveaux parents (village, municipalité, district), les champs apparaîtront si nécessaire, par exemple la liste déroulante de la municipalité ne sera affichée que si le district est sélectionné. Le niveau du lieu peut être modifié en choisissant le parent inférieur (resp. supérieur) ayant un niveau différent de celui du parent actuel ; sachez que la localisation la plus basse est le village, par conséquent si une municipalité est déplacée au niveau du village, les villages sous la municipalité déplacée resteront des villages mais seront déplacés sous la municipalité choisie comme le nouveau parent de la municipalité à déplacer."
 
 
-msgid "**Locations Panels  (A ,B,C,D)**"
-msgstr "**Panneaux d'emplacements (A, B, C, D)**"
 
-msgid "The pair of A and B panels is used for moving of a village to another municipality. The pair of B and C panels is used for moving of a municipality to another district. The pair C and D is used for moving a district to another region."
-msgstr "La paire de A et B des panneaux est utilisé pour déplacer d'un village à l'autre municipalité. La paire de B et C par des panneaux est utilisé pour le déplacement d'une municipalité à l'autre district. La paire de C et D est utilisé pour le déplacement d'un district à l'autre de la région."
+msgid "The Move will be effective once the ``Move`` button is clicked."
+msgstr "Le déplacement réel d'un lieux dans un nouvel lieux parent se fait en cliquant sur le bouton "Déplacer"."
 
-msgid "For moving a location, select a location (village, municipality, district) in two adjacent panels by selecting of higher level locations in the fields ``Region, District, Municipality`` and clicking on the selected location (village, municipality, district) in a panel and on a new parent location in the next panel."
-msgstr "Pour déplacer un emplacement, sélectionnez un emplacement (un village, une municipalité, d'un district) de deux panneaux adjacents en sélectionnant un niveau plus élevé d'emplacements dans les champs `de la Région, District, Municipalité`, et en cliquant sur l'emplacement sélectionné (village, commune, quartier) dans un panneau et sur un nouveau parent emplacement dans le panneau suivant."
-
-
-msgid "Actual moving of a location into a new parent locations is done by clicking on the green arrow between the two corresponding location panels."
-msgstr "Le déplacement réel d'un emplacement dans un nouvel emplacement parent se fait en cliquant sur la flèche verte entre les deux panneaux d'emplacement correspondants."
-
-
-msgid "It has only the ``Cancel`` button for re-directing to the `Location Page <#locations-page>`__."
-msgstr "Il n'a que le bouton ``Annuler`` pour rediriger vers la `Page de localisation <#locations-page>`__."
-
-
-msgid "The Information Panel is used to display messages back to the user. Messages will occur once a district, municipality or village has been moved or if there was an error at any time during the process of this action."
-msgstr "Le panneau d'informations est utilisé pour afficher les messages à l'utilisateur. Des messages s'afficheront une fois qu'un district, une municipalité ou un village aura été déplacé ou s'il y a eu une erreur à tout moment au cours du processus de cette action."

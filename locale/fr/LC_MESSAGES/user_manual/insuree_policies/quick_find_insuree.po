@@ -22,7 +22,7 @@ msgid "`Insuree Enquiry Field`"
 msgstr "`Champ d'enquête de l'assuré`"
 
 msgid "By typing in a valid insurance­­­­­­­ number and pressing the enter key or clicking on the green search button, a pop-up will appear (:numref:`image87`), providing a photo of the insuree and information about the current policy or policies covering of the insuree."
-msgstr "En tapant dans une assurance en cours de validité numéro et en appuyant sur la touche entrée ou en cliquant sur la recherche vert bouton, une fenêtre pop-up apparaîtra (:numref:`image87`, en apportant une photo du preneur d'assurance et des informations sur la politique ou les politiques de couverture du preneur d'assurance."
+msgstr "En tapant dans une assurance en cours de validité numéro et en appuyant sur la touche entrée ou en cliquant sur la recherche vert bouton, une fenêtre pop-up apparaîtra (:numref:`image87`, en apportant une photo du preneur d'assurance et des informations sur la police ou les polices de couverture du preneur d'assurance."
 
 
 msgid "The Information includes the following:"
@@ -42,7 +42,7 @@ msgstr "Le code produit (assurance), le nom du produit et la date d'expiration d
 
 
 msgid "The status (I for Idle, A for Active, S for Suspended and E for Expired) of the policy at the time of inquiring"
-msgstr "Le statut (I pour inactif, A pour actif, S pour suspendu et E pour expiré) de la politique au moment de la réclamation"
+msgstr "Le statut (I pour inactif, A pour actif, S pour suspendu et E pour expiré) de la police au moment de la prestation"
 
 
 msgid "The deductible amount remaining for the insuree to pay before the policy is claimable, for hospitals and non-hospitals"
@@ -58,7 +58,7 @@ msgstr "Âge de l'assuré"
 
 
 msgid "First Service Point (FSP) of the insuree"
-msgstr "Premier point de service (FSP) de l'assuré"
+msgstr "Premier point de soin (FSP) de l'assuré"
 
 
 msgid "Region of FSP"

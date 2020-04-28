@@ -28,7 +28,7 @@ msgstr "Conditions préalables"
 
 
 msgid "Need to enquire on, or edit a family and/or insurees, policies and contributions associated."
-msgstr "Vous devez vous renseigner ou modifier une famille et / ou des assurés, les politiques et les contributions associées."
+msgstr "Vous devez vous renseigner ou modifier une famille et / ou des assurés, les polices et les contributions associées."
 
 
 msgid "Navigation"
@@ -178,7 +178,7 @@ msgstr "Sélectionnez le ``Statut de pauvreté``; dans la liste des personnes ay
 
 
 msgid "``Email``"
-msgstr "`` Courriel``"
+msgstr "``Courriel``"
 
 
 msgid "Type in the beginning of; or the full ``Email`` to search for families/groups, who’s family head/group head ``Email`` starts with or matches completely the typed text."
@@ -202,14 +202,14 @@ msgstr "Tapez au début de; ou le ``numéro de confirmation`` complet pour reche
 
 
 msgid "``Region``"
-msgstr "`` Région``"
+msgstr "``Région``"
 
 msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select families/groups from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*"
 msgstr "Sélectionnez la `Région`; à partir de la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner les familles ou les groupes dans une région spécifique. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté. Si ce n'est qu'un alors la région sera automatiquement sélectionné.*"
 
 
 msgid "``District``"
-msgstr "`` Quartier``"
+msgstr "``Quartier``"
 
 msgid "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select families/groups from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*"
 msgstr "Sélectionnez le `Quartier`; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur pour sélectionner les familles/groupes à partir d'un district particulier. *Remarque: La liste ne sera rempli avec les districts appartenant à la région sélectionnée et assigné à l'utilisateur connecté. Si ce n'est qu'un, le quartier sera automatiquement sélectionné.*"
@@ -306,7 +306,7 @@ msgstr "`Image - Page de présentation de la famille`"
 
 
 msgid "The ``Family Overview Page`` is the central point for all operations with regards to the families/groups, Insurees, policies and contributions associated with it. The page is divided into 6 panels (:ref:`Image Family overview <family_overview_page>`)"
-msgstr "La ``Page d'aperçu de la famille`` est le point central de toutes les opérations en ce qui concerne les familles / groupes, les assurés, les politiques et les contributions qui y sont associées. La page est divisée en 6 panneaux (:ref:`Vue d'ensemble de la famille d'images <family_overview_page>`)"
+msgstr "La ``Page d'aperçu de la famille`` est le point central de toutes les opérations en ce qui concerne les familles / groupes, les assurés, les polices et les contributions qui y sont associées. La page est divisée en 6 panneaux (:ref:`Vue d'ensemble de la famille d'images <family_overview_page>`)"
 
 
 msgid "**Family**  /Group Panel"
@@ -364,10 +364,10 @@ msgstr "Le ``signe croix rouge`` sert à supprimer un assuré."
 
 
 msgid "**Policies Panel**"
-msgstr "**Panneau des politiques**"
+msgstr "**Panneau des polices**"
 
 msgid "The Policies Panel displays a list of the policies held by the family/group. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image117`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the policy for editing or detailed viewing. By default the first policy is selected and therefore in the Contribution Panel, only the contributions paid on that policy will be displayed in the Contribution Panel By selecting another policy in the list, the Contribution Panel, will refresh with the contributions paid on the newly selected policy."
-msgstr "Les Politiques Panneau affiche une liste des politiques détenus par la famille/groupe. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image117`). La gauche dossier contient un lien, qui, si vous cliquez dessus, re-dirige l'utilisateur de la politique de l'édition ou de l'affichage détaillé. Par défaut, la première politique est sélectionné et que, par conséquent, dans la Contribution de bord, seules les cotisations sur cette politique sera affichée dans la Contribution Panneau En sélectionnant une autre stratégie dans la liste, la Contribution du Panneau, permettra d'actualiser les cotisations versées sur la nouvelle politique."
+msgstr "Les Polices Panneau affiche une liste des polices détenus par la famille/groupe. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image117`). La gauche dossier contient un lien, qui, si vous cliquez dessus, re-dirige l'utilisateur de la police de l'édition ou de l'affichage détaillé. Par défaut, la première police est sélectionné et que, par conséquent, dans la Contribution de bord, seules les cotisations sur cette police sera affichée dans la Contribution Panneau En sélectionnant une autre stratégie dans la liste, la Contribution du Panneau, permettra d'actualiser les cotisations versées sur la nouvelle police."
 
 
 msgid "`Selected record (blue), hovered records (yellow) - Policy Panel`"
@@ -375,15 +375,15 @@ msgstr "`Enregistrement sélectionné (bleu), enregistrements survolés (jaune) 
 
 
 msgid "In the fifth **Product** column of Policy data grid, there is a link showing product for the policy on the corresponding row. When the link is clicked; a popup browser window (:ref:image118) will open up showing the details of the product (in read-only mode)."
-msgstr "Dans la cinquième colonne **Produit** de la grille de données de politique, il y a un lien montrant le produit pour la politique sur la ligne correspondante. Lorsque le lien est cliqué; une fenêtre de navigateur contextuelle (:ref: image118) s'ouvrira avec les détails du produit (en mode lecture seule)."
+msgstr "Dans la cinquième colonne **Produit** de la grille de données de police, il y a un lien montrant le produit pour la police sur la ligne correspondante. Lorsque le lien est cliqué; une fenêtre de navigateur contextuelle (:ref: image118) s'ouvrira avec les détails du produit (en mode lecture seule)."
 
 
 msgid "`Product Popup – Policies Panel`"
-msgstr "`Fenêtre contextuelle du produit - panneau Politiques`"
+msgstr "`Fenêtre contextuelle du produit - panneau Polices`"
 
 
 msgid "In the ``Policies Panel``, action buttons allow to add, edit and delete policies."
-msgstr "Dans le ``Panneau des politiques``, les boutons d'action permettent d'ajouter, de modifier et de supprimer des politiques."
+msgstr "Dans le ``Panneau des polices``, les boutons d'action permettent d'ajouter, de modifier et de supprimer des polices."
 
 
 msgid "`Image 119`"
@@ -391,26 +391,26 @@ msgstr "`Image 119`"
 
 
 msgid "The ``green plus sign`` is for adding a new policy via the `Policy Page <#policy-page>`__."
-msgstr "Le ``signe plus vert`` sert à ajouter une nouvelle politique via la `Page politique <#policy-page>`__."
+msgstr "Le ``signe plus vert`` sert à ajouter une nouvelle police via la `Page police <#policy-page>`__."
 
 
 msgid "The ``yellow pencil sign`` is for editing a policy via the `Policy Page <#policy-page>`__."
-msgstr "Le ``signe de crayon jaune`` sert à modifier une politique via la `Page de politique <#policy-page>`__."
+msgstr "Le ``signe de crayon jaune`` sert à modifier une police via la `Page de police <#policy-page>`__."
 
 
 msgid "The ``red cross sign`` is for deleting a policy."
-msgstr "Le ``signe croix rouge`` sert à supprimer une politique."
+msgstr "Le ``signe croix rouge`` sert à supprimer une police."
 
 
 msgid "The ``blue R sign`` is for renewing a policy via the `Policy Page <#policy-page>`__."
-msgstr "Le ``signe R bleu`` sert à renouveler une politique via la `Page politique <#policy-page>`__."
+msgstr "Le ``signe R bleu`` sert à renouveler une police via la `Page police <#policy-page>`__."
 
 
 msgid "**Contributions Panel**"
 msgstr "**Comité des contributions**"
 
 msgid "The ``Contribution Panel`` displays a list of contributions paid on the policy currently selected in the ``Policies Panel``. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image120`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the contribution for editing or detailed viewing."
-msgstr "La `Contribution Panneau` affiche une liste des cotisations versées sur la politique actuellement sélectionné dans le volet de Politiques`. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image120`) La plus à gauche enregistrement contient un lien, qui, si vous cliquez dessus, re-dirige l'utilisateur de la contribution pour l'édition ou de l'affichage détaillé."
+msgstr "La `Contribution Panneau` affiche une liste des cotisations versées sur la police actuellement sélectionné dans le volet de Polices`. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image120`) La plus à gauche enregistrement contient un lien, qui, si vous cliquez dessus, re-dirige l'utilisateur de la contribution pour l'édition ou de l'affichage détaillé."
 
 
 msgid "`Selected record (blue), hovered records (yellow) - Contributions Panel`"
@@ -418,7 +418,7 @@ msgstr "`Enregistrement sélectionné (bleu), enregistrements survolés (jaune) 
 
 
 msgid "In the second **Payer** column of Contributions data grid, there is a link showing (institutional) payer of the contribution on the corresponding row. When the link is clicked; a popup browser window (:numref:`image121`) will open up showing the details of the payer in read-only mode."
-msgstr "Dans la deuxième colonne **Payeur** de la grille de données des contributions, il y a un lien montrant le payeur (institutionnel) de la contribution sur la ligne correspondante. Lorsque le lien est cliqué; une fenêtre de navigateur contextuelle (:numref:`image121`) s'ouvrira et affichera les détails du payeur en mode lecture seule."
+msgstr "Dans la deuxième colonne **Contributeur** de la grille de données des contributions, il y a un lien montrant le contributeur (institutionnel) de la contribution sur la ligne correspondante. Lorsque le lien est cliqué; une fenêtre de navigateur contextuelle (:numref:`image121`) s'ouvrira et affichera les détails du contributeur en mode lecture seule."
 
 
 msgid "`Payer Pop up – Contribution Panel`"
@@ -634,15 +634,15 @@ msgstr "``Région du FSP``"
 
 
 msgid "Select from the list of available regions the region, in which the chosen primary health facility (First Service Point) of the head of family/group is located."
-msgstr "Sélectionnez dans la liste des régions disponibles la région dans laquelle se trouve l'établissement de santé primaire (premier point de service) du chef de famille / groupe choisi."
+msgstr "Sélectionnez dans la liste des régions disponibles la région dans laquelle se trouve l'établissement de santé primaire (premier point de soin) du chef de famille / groupe choisi."
 
 
 msgid "``District of FSP``"
-msgstr "`` District de FSP``"
+msgstr "``District de FSP``"
 
 
 msgid "Select from the list of available districts the district, in which the chosen primary health facility (First Service Point) of the head of family/group is located. *Note: The list will only be filled with the districts belonging to the selected region.*"
-msgstr "Sélectionnez dans la liste des districts disponibles le district dans lequel se trouve l'établissement de santé primaire (premier point de service) du chef de famille / du groupe. *Remarque: La liste ne sera remplie qu'avec les districts appartenant à la région sélectionnée.*"
+msgstr "Sélectionnez dans la liste des districts disponibles le district dans lequel se trouve l'établissement de santé primaire (premier point de soin) du chef de famille / du groupe. *Remarque: La liste ne sera remplie qu'avec les districts appartenant à la région sélectionnée.*"
 
 
 msgid "``Level of FSP``"
@@ -650,11 +650,11 @@ msgstr "``Niveau de FSP``"
 
 
 msgid "Select the level of the chosen primary health facility (First Service Point) of the head of family/group."
-msgstr "Sélectionnez le niveau de l'établissement de santé primaire choisi (premier point de service) du chef de famille / groupe."
+msgstr "Sélectionnez le niveau de l'établissement de santé primaire choisi (premier point de soin) du chef de famille / groupe."
 
 
 msgid "``First Service Point``"
-msgstr "``Premier point de service``"
+msgstr "``Premier point de soin``"
 
 
 msgid "Select from the list of available health facilities the chosen primary health facility (First Service Point) of the head of family/group. *Note: The list will only be filled with the health facilities belonging to the selected district which are of the selected level.*"
@@ -662,7 +662,7 @@ msgstr "Sélectionnez dans la liste des formations sanitaires disponibles la str
 
 
 msgid "``Browse``"
-msgstr "`` Parcourir``"
+msgstr "``Parcourir``"
 
 
 msgid "Browse to get the photo for the head of family/group related to his/her insurance number."
@@ -725,7 +725,7 @@ msgstr "Changer de chef de famille / de groupe"
 
 
 msgid "The head of the Family/Group is the main contact associated with a policy. For various reasons it may be necessary to change the head of a family/group. The new head must be a head of family in another family."
-msgstr "Le chef de famille / groupe est le principal contact associé à une politique. Pour diverses raisons, il peut être nécessaire de changer de chef de famille / de groupe. Le nouveau chef doit être chef de famille dans une autre famille."
+msgstr "Le chef de famille / groupe est le principal contact associé à une police. Pour diverses raisons, il peut être nécessaire de changer de chef de famille / de groupe. Le nouveau chef doit être chef de famille dans une autre famille."
 
 msgid "Enter the insurance number for the new head of family/group, click on check, to confirm that the insurance number is valid and that it really is the person expected. The name will appear to the right of the check button. If all is OK, click on the Change button to complete the change. On a successful change, the user will be re-directed back to the `Family Overview Page <#family-overview-page.>`__\\ ; the new head will be displayed in the Family/Group Information Panel"
 msgstr "Entrez le numéro d'assurance pour le nouveau chef de famille / groupe, cliquez sur vérifier, pour confirmer que le numéro d'assurance est valide et qu'il s'agit bien de la personne attendue. Le nom apparaîtra à droite du bouton de vérification. Si tout est OK, cliquez sur le bouton Modifier pour terminer la modification. En cas de changement réussi, l'utilisateur sera redirigé vers la `page de présentation de la famille <#family-overview-page.> page de présentation de la <#family-overview-page.>`__ \\; la nouvelle tête sera affichée dans le panneau d'informations sur la famille / le groupe"

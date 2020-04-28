@@ -26,7 +26,7 @@ msgstr "ensemble sous-jacent de qualification dimensions. Si le sens d'une dimen
 
 
 msgid "Facts on Enrolment and policies"
-msgstr "Faits sur l'inscription et les politiques"
+msgstr "Faits sur l'inscription et les polices"
 
 
 msgid "This group of facts relates to acquisition of insures and development of coverage by health insurance schemes. Facts available are listed in :numref:`facts_enrolment_policies`"
@@ -34,7 +34,7 @@ msgstr "Ce groupe de faits concerne l'acquisition des assurés et le développem
 
 
 msgid "`Facts on Enrolment and policies`"
-msgstr "`Faits sur l'inscription et les politiques`"
+msgstr "`Faits sur l'inscription et les polices`"
 
 
 msgid "**Cube**"
@@ -110,7 +110,7 @@ msgstr "Agents d'inscription"
 
 
 msgid "An enrolment officer responsible for corresponding policy"
-msgstr "Un agent d'inscription responsable de la politique correspondante"
+msgstr "Un agent d'inscription responsable de la police correspondante"
 
 
 msgid "New acquired insurees"
@@ -130,7 +130,7 @@ msgstr "Des produits"
 
 
 msgid "An insurance product covering an insuree"
-msgstr "Un produit d'assurance couvrant un assuré"
+msgstr "Un paquet de bénéfices couvrant un assuré"
 
 
 msgid "Period of enrolment of insurees for new insurees Period of effective day and later of their policies for current insurees"
@@ -138,15 +138,15 @@ msgstr "Période d'inscription des assurés pour les nouveaux assurés Période 
 
 
 msgid "All types of policies"
-msgstr "Tous les types de politiques"
+msgstr "Tous les types de polices"
 
 
 msgid "Current policies"
-msgstr "Politiques actuelles"
+msgstr "Polices actuelles"
 
 
 msgid "Number of active policies at the end of a time period"
-msgstr "Nombre de politiques actives à la fin d'une période"
+msgstr "Nombre de polices actives à la fin d'une période"
 
 
 msgid "Age of the head of a household at the end of a time period"
@@ -154,7 +154,7 @@ msgstr "Âge du chef de ménage à la fin d'une période"
 
 
 msgid "Expired policies"
-msgstr "Politiques expirées"
+msgstr "Polices expirées"
 
 
 msgid "Number of policies that expired during a time period"
@@ -166,7 +166,7 @@ msgstr "Sexe du chef de ménage"
 
 
 msgid "Renewed policies"
-msgstr "Politiques renouvelées"
+msgstr "Polices renouvelées"
 
 
 msgid "Number of policies that were renewed during a time period"
@@ -174,7 +174,7 @@ msgstr "Nombre de polices renouvelées au cours d'une période"
 
 
 msgid "Sold policies"
-msgstr "Politiques vendues"
+msgstr "Polices vendues"
 
 
 msgid "Number of policies that were sold during a time period"
@@ -182,7 +182,7 @@ msgstr "Nombre de polices vendues au cours d'une période"
 
 
 msgid "An insurance product of a policy"
-msgstr "Un produit d'assurance d'une police"
+msgstr "Un paquet de bénéfices d'une police"
 
 
 msgid "Period of enrolment date for sold policies Period of expiry date for expired policies Period of renewal date(when renewing was done)  for renewed policies Period of effective day and later for current policies"
@@ -238,19 +238,19 @@ msgstr "contributions collectées au cours d'une période donnée"
 
 
 msgid "Collection of contributions from policies of an enrolment officer"
-msgstr "Collecte des contributions des politiques d'un agent d'inscription"
+msgstr "Collecte des contributions des polices d'un agent d'inscription"
 
 
 msgid "Payers"
-msgstr "Payeurs"
+msgstr "Contributeurs"
 
 
 msgid "Collection of contributions from an institution al payer or from families itself"
-msgstr "Recouvrement des contributions d'un payeur institutionnel ou des familles elles-mêmes"
+msgstr "Recouvrement des contributions d'un contributeur institutionnel ou des familles elles-mêmes"
 
 
 msgid "Collection of contributions within an insurance product"
-msgstr "Recouvrement des cotisations au sein d'un produit d'assurance"
+msgstr "Recouvrement des cotisations au sein d'un paquet de bénéfices"
 
 
 msgid "Period of payment date of contributions"
@@ -270,7 +270,7 @@ msgstr "Montant des contributions collectées réparties proportionnellement pou
 
 
 msgid "Allocation of contributions within an insurance product"
-msgstr "Répartition des contributions au sein d'un produit d'assurance"
+msgstr "Répartition des contributions au sein d'un paquet de bénéfices"
 
 
 msgid "Period of allocation of contributions"
@@ -278,11 +278,11 @@ msgstr "Période d'allocation des contributions"
 
 
 msgid "Facts on claims"
-msgstr "Faits sur les réclamations"
+msgstr "Faits sur les prestations"
 
 
 msgid "This group of facts relates to claims forwarded by health care providers to administrators of health insurance schemes. Facts available are listed in :numref:`facts_claims`"
-msgstr "Ce groupe de faits concerne les réclamations transmises par les prestataires de soins de santé aux administrateurs des régimes d'assurance maladie. Les données disponibles sont répertoriées dans :numref:`facts_claims`"
+msgstr "Ce groupe de faits concerne les prestations transmises par les prestataires de soins de santé aux administrateurs des régimes d'assurance maladie. Les données disponibles sont répertoriées dans :numref:`facts_claims`"
 
 
 msgid "`Facts on claims`"
@@ -290,7 +290,7 @@ msgstr "`Faits sur les allégations`"
 
 
 msgid "Claim details"
-msgstr "Détails de la réclamation"
+msgstr "Détails de la prestation"
 
 
 msgid "Amount claimed"
@@ -306,7 +306,7 @@ msgstr "Fournisseurs"
 
 
 msgid "Providers that entered and or submitted claims"
-msgstr "Fournisseurs qui ont introduit et / ou soumis des réclamations"
+msgstr "Fournisseurs qui ont introduit et / ou soumis des prestations"
 
 
 msgid "Amount rejected"
@@ -314,31 +314,31 @@ msgstr "Montant rejeté"
 
 
 msgid "Total amount that was on totally rejected claims"
-msgstr "Montant total des réclamations totalement rejetées"
+msgstr "Montant total des prestations totalement rejetées"
 
 
 msgid "Time period of provision of health care that was invoiced in claims"
-msgstr "Période de prestation des soins de santé facturée en réclamations"
+msgstr "Période de prestation  facturée en prestations"
 
 
 msgid "Entered claims"
-msgstr "Réclamations saisies"
+msgstr "Prestations saisies"
 
 
 msgid "Number of claims entered"
-msgstr "Nombre de réclamations saisies"
+msgstr "Nombre de prestations saisies"
 
 
 msgid "Submitted claims"
-msgstr "Réclamations soumises"
+msgstr "Prestations soumises"
 
 
 msgid "Number of claims submitted"
-msgstr "Nombre de réclamations soumises"
+msgstr "Nombre de prestations soumises"
 
 
 msgid "Rejected claims"
-msgstr "Réclamations rejetées"
+msgstr "Prestations rejetées"
 
 
 msgid "Number of claims totally rejected"
@@ -358,11 +358,11 @@ msgstr "Montant moyen rejeté"
 
 
 msgid "=Amount rejected / Rejected claims"
-msgstr "= Montant des réclamations rejetées / rejetées"
+msgstr "= Montant des prestations rejetées / rejetées"
 
 
 msgid "Claim details products"
-msgstr "Réclamation détails produits"
+msgstr "Prestation détails produits"
 
 
 msgid "Amount adjusted"
@@ -374,7 +374,7 @@ msgstr "Montant ajusté après traitement aux prix nominaux"
 
 
 msgid "Providers that submitted claims"
-msgstr "Fournisseurs ayant soumis des réclamations"
+msgstr "Fournisseurs ayant soumis des prestations"
 
 
 msgid "Amount paid"
@@ -390,19 +390,19 @@ msgstr "Produits pour lesquels les soins de santé déclarés étaient couverts"
 
 
 msgid "Processed claims"
-msgstr "Réclamations traitées"
+msgstr "Prestations traitées"
 
 
 msgid "Number of claims sent for valuation"
-msgstr "Nombre de réclamations envoyées pour évaluation"
+msgstr "Nombre de prestations envoyées pour évaluation"
 
 
 msgid "Paid claims"
-msgstr "Créances payées"
+msgstr "prestations payées"
 
 
 msgid "Number of claims actually valuated"
-msgstr "Nombre de réclamations réellement évaluées"
+msgstr "Nombre de prestations réellement évaluées"
 
 
 msgid "Average amount adjusted"
@@ -410,7 +410,7 @@ msgstr "Montant moyen ajusté"
 
 
 msgid "=Amount adjusted / Pr ocessed claims"
-msgstr "= Montant ajusté / réclamations traitées"
+msgstr "= Montant ajusté / prestations traitées"
 
 
 msgid "Average amount paid"
@@ -418,7 +418,7 @@ msgstr "Montant moyen payé"
 
 
 msgid "=Amount paid/ Valuated claims"
-msgstr "= Montant payé / Réclamations évaluées"
+msgstr "= Montant payé / Prestations évaluées"
 
 
 msgid "Facts on utilization of health care"
@@ -426,7 +426,7 @@ msgstr "Faits sur l'utilisation des soins de santé"
 
 
 msgid "This group of facts relates to utilization of health care by insures according to submitted and not rejected claims. Facts available are listed in :numref:`facts-on-of-utilization-health-care`"
-msgstr "Ce groupe de faits concerne l'utilisation des soins de santé par les assurés selon les réclamations soumises et non rejetées. Les données disponibles sont répertoriées dans :numref:`facts-on-of-use-health-care`"
+msgstr "Ce groupe de faits concerne l'utilisation des soins de santé par les assurés selon les prestations soumises et non rejetées. Les données disponibles sont répertoriées dans :numref:`facts-on-of-use-health-care`"
 
 
 msgid "`Facts on of utilization health care`"
@@ -442,7 +442,7 @@ msgstr "Nombre d'admissions à l'hôpital"
 
 
 msgid "Age at the time of provision health care"
-msgstr "Âge au moment de la prestation des soins de santé"
+msgstr "Âge au moment de la prestation "
 
 
 msgid "Disease"
@@ -466,7 +466,7 @@ msgstr "= Nombre de jours d'hospitalisation / Nombre d'hospitalisations"
 
 
 msgid "In case two or more insurance products covered a hospital admission / visit, it is accounted to each of them"
-msgstr "Dans le cas où deux ou plusieurs produits d'assurance couvraient une admission / visite à l'hôpital, ils sont comptabilisés pour chacun d'eux"
+msgstr "Dans le cas où deux ou plusieurs paquets de bénéfices couvraient une admission / visite à l'hôpital, ils sont comptabilisés pour chacun d'eux"
 
 
 msgid "Number of out-patient visits"
@@ -478,7 +478,7 @@ msgstr "Prestataires qui ont réclamé des soins de santé"
 
 
 msgid "Hospital admissions are associated with time periods according to dates of discharge. Time period of provision of health care"
-msgstr "Les admissions à l'hôpital sont associées à des périodes selon les dates de sortie. Période de prestation des soins de santé"
+msgstr "Les admissions à l'hôpital sont associées à des périodes selon les dates de sortie. Période de prestation "
 
 
 msgid "Utilization of services"
@@ -490,11 +490,11 @@ msgstr "Services utilisés"
 
 
 msgid "Number of utilized services according to submitted claims."
-msgstr "Nombre de services utilisés selon les réclamations soumises."
+msgstr "Nombre des soins utilisés selon les prestations soumises."
 
 
 msgid "If a service was provided during one visit / hospital stay, the service is counted according to the number of its provision"
-msgstr "Si un service a été fourni pendant une visite / un séjour à l'hôpital, le service est compté en fonction du numéro de sa prestation"
+msgstr "Si un service a été fourni pendant une visite / un séjour à l'hôpital, le soin est compté en fonction du numéro de sa prestation"
 
 
 msgid "Care type"
@@ -502,7 +502,7 @@ msgstr "Type de soins"
 
 
 msgid "Services"
-msgstr "Prestations de service"
+msgstr "Prestations de soin"
 
 
 msgid "Utilization of medical items"
@@ -514,11 +514,11 @@ msgstr "Articles utilisés"
 
 
 msgid "Number of utilized medical items according to submitted claims"
-msgstr "Nombre de produit médicaux utilisés selon les réclamations soumises"
+msgstr "Nombre de produit médicaux utilisés selon les prestations soumises"
 
 
 msgid "If a medical item was provided during one visit / hospital stay, the medical item is counted according to the number of its provision"
-msgstr "Si un article médical a été fourni pendant une visite / un séjour à l'hôpital, l'article médical est compté selon le numéro de sa fourniture"
+msgstr "Si un article médical a été fourni pendant une visite / un séjour à l'hôpital, le produit médical est compté selon le numéro de sa fourniture"
 
 
 msgid "Items"
@@ -526,7 +526,7 @@ msgstr "Articles"
 
 
 msgid "Average utilization of services per insuree"
-msgstr "Utilisation moyenne des services par assuré"
+msgstr "Utilisation moyenne des soins par assuré"
 
 
 msgid "= Services utilized / Current insurees"
@@ -554,11 +554,11 @@ msgstr "`Faits sur les dépenses de santé`"
 
 
 msgid "expenditures for services"
-msgstr "dépenses de services"
+msgstr "dépenses de soins"
 
 
 msgid "Service expenditures"
-msgstr "Dépenses de service"
+msgstr "Dépenses de soin"
 
 
 msgid "Expenditures for services actually remunerated to health facilities"
@@ -578,11 +578,11 @@ msgstr "dépenses pour les produit médicaux réellement rémunérés aux établ
 
 
 msgid "Average expenditures for services per insuree"
-msgstr "Dépenses moyennes de services par assuré"
+msgstr "Dépenses moyennes des soins par assuré"
 
 
 msgid "= Service expenditures/ Current insurees"
-msgstr "= Dépenses de services / Assurés actuels"
+msgstr "= Dépenses des soins / Assurés actuels"
 
 
 msgid "Average expenditures for medical items per insuree"
@@ -602,15 +602,15 @@ msgstr "Dépenses moyennes par assuré"
 
 
 msgid "= Average expenditures of services per insuree + Average expenditures for medical items per insuree"
-msgstr "= Dépenses moyennes de services par assuré + Dépenses moyennes de produit médicaux par assuré"
+msgstr "= Dépenses moyennes des soins par assuré + Dépenses moyennes de produit médicaux par assuré"
 
 
 msgid "Facts on feedbacks"
-msgstr "Faits sur les rétroactions"
+msgstr "Faits sur les retours"
 
 
 msgid "This group of facts relates to evaluation of request for feedbacks on provided health care that are issued by medical officers during processing of claims. Facts available are listed in :numref:`fact_feedback`"
-msgstr "Ce groupe de faits se rapporte à l'évaluation des réclamations de rétroaction sur les soins de santé fournis qui sont émises par les médecins-conseils lors du traitement des réclamations. Les faits disponibles sont répertoriés dans :numref:`fact_feedback`"
+msgstr "Ce groupe de faits se rapporte à l'évaluation des prestations de retour sur les soins de santé fournis qui sont émises par les médecins-conseils lors du traitement des prestations. Les faits disponibles sont répertoriés dans :numref:`fact_feedback`"
 
 
 msgid "`Facts on feedbacks`"
@@ -626,11 +626,11 @@ msgstr "Commentaires envoyés"
 
 
 msgid "Number of requests for feedbacks sent in a time period"
-msgstr "Nombre de demandes de rétroaction envoyées au cours d'une période"
+msgstr "Nombre de demandes de retour envoyées au cours d'une période"
 
 
 msgid "Insurance products that covered claims initiating requests for feedbacks"
-msgstr "Produits d'assurance couvrant les sinistres initiant des réclamations de rétroaction"
+msgstr "Produits d'assurance couvrant les sinistres initiant des prestations de retour"
 
 
 msgid "Feedbacks responded"
@@ -642,7 +642,7 @@ msgstr "Nombre de commentaires reçus au cours d'une période"
 
 
 msgid "Providers that submitted claims initiating requests for feedbacks"
-msgstr "Fournisseurs ayant soumis des réclamations à l'origine de demandes de rétroaction"
+msgstr "Fournisseurs ayant soumis des prestations à l'origine de demandes de retour"
 
 
 msgid "Overall assessment"
@@ -650,7 +650,7 @@ msgstr "Évaluation globale"
 
 
 msgid "Sum of all assessment overall assessment marks in responded feedbacks"
-msgstr "Somme de toutes les notes d'évaluation globale de l'évaluation dans les commentaires"
+msgstr "Somme de toutes les notes d'évaluation globale d'évaluation dans les commentaires"
 
 
 msgid "Period of sending / rec eiving feedbacks"
@@ -658,7 +658,7 @@ msgstr "Période d'envoi / réception des retours"
 
 
 msgid "Feedback return share"
-msgstr "Partager retour de rétroaction"
+msgstr "Partager retour de retour"
 
 
 msgid "= Feedbacks responded/ Feedbacks sent"
@@ -674,7 +674,7 @@ msgstr "= Évaluation globale / Feedbacks répondu"
 
 
 msgid "Feedback answers"
-msgstr "Réponses de rétroaction"
+msgstr "Réponses de retour"
 
 
 msgid "Answers Yes"

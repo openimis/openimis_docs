@@ -371,7 +371,7 @@ msgstr "Displays the name of the health facility. The field is read only (taken 
 
 #: ../../user_manual/claims/hf_claims.rst:260
 msgid "Enter the insurance number of the patient. When the field is selected, the search insuree popup(:refnum:'insuree_picker') will be display and will allow the claim administrator to search the insuree based on its insurance number, or/and last name, or/and other(first) name . Mandatory."
-msgstr "Enter the insurance number of the patient. When the field is selected, the search insuree popup(:refnum:'insuree_picker') will be display and will allow the claim administrator to search the insuree based on its insurance number, or/and last name, or/and other(first) name . Mandatory."
+msgstr "Enter the insurance number of the patient. When the field is filled the insuree name will be updated (:refnum:'insuree_picker'). Mandatory."
 
 #: ../../user_manual/claims/hf_claims.rst:266
 msgid "`Search insuree popup`"

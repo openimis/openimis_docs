@@ -1,5 +1,3 @@
-
-
 Locations Administration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -15,16 +13,16 @@ Navigation
 
   All functionality for use with the administration of locations can be found under the main menu ``Administration``, sub menu ``Locations.``
 
-  .. _image82:
-  .. figure:: /img/user_manual/image65.png
+  .. _location_menu:
+  .. figure:: /img/user_manual/location.menu.png
     :align: center
 
     `Navigation Locations`
 
   Clicking on the sub menu ``Locations`` re-directs the current user to the `Locations Page. <#locations-page>`__
 
-  .. _image83:
-  .. figure:: /img/user_manual/image66.png
+  .. _location_search:
+  .. figure:: /img/user_manual/location.search.png
     :align: center
 
     `Locations Page`
@@ -32,34 +30,46 @@ Navigation
 Locations Page
 """"""""""""""
 
-  The Locations page is the central point for all locations administration. By having access to this page, it is possible to add, edit, delete and move regions, districts, municipalities and villages. The page is divided into three panels (:numref:`image83`). *Note. Only regions and districts with associated municipalities and villages, belonging to the logged in user will be available to edit or delete. On adding a new region or district, the user will automatically become associated with this region or district.*
+  The Locations page is the central point for all locations administration. By having access to this page, it is possible to add, edit, delete and move regions, districts, municipalities and villages. The page is divided into three panels (:numref:`location_search`). *Note. Only regions and districts with associated municipalities and villages, belonging to the logged in user will be available to edit or delete. On adding a new region or district, the user will automatically become associated with this region or district*.
+
 
  #. **Locations Panel**
 
-    This is the working panel and is divided into four vertical panels of ``Regions, Districts, Municipalities`` and ``Villages.``
+    This is the working panel and is divided into four vertical panels of ``Regions``, ``Districts``, ``Municipalities`` and ``Villages.``
 
  #. **Button Panel**
 
-    It has four buttons, ``Add``, ``Edit``, ``Delete`` and ``Move`` for actions on the locations and the ``Cancel`` button for re-directing to the :ref:`Home Page <home_page>`\.
+    It has three buttons, ``Add`` (:numref:`mat_add`), ``Delete`` (:numref:`mat_delete`) and ``Move`` (:numref:`mat_move`) for actions on the locations, double click on a location will open the edit modal box.
 
-    .. _image84:
-    .. figure:: /img/user_manual/image67.png
-      :align: center
+      .. _cal_picker:
+      .. list-table:: Material besign button
+        :widths: 1 1 1
 
-      `Action Buttons - Locations Page`
+        * - .. _mat_move:
+            .. figure:: /img/user_manual/mat.move.png
+              :align: center
+
+              'Move'
+          - .. _mat_refresh:
+            .. figure:: /img/user_manual/mat.refresh.png
+              :align: center
+
+              `Refresh`
+          - .. _mat_delete:
+            .. figure:: /img/user_manual/mat.delete.png
+              :align: center
+
+              `Delete`     
 
  #. **Information Panel**
 
     The Information Panel is used to display messages back to the user. Messages will occur once a region, district or municipality or village has been added, updated, moved or deleted or if there was an error at any time during the process of these actions.
 
- #. **Cancel**
-
-    By clicking on the ``Cancel`` button, the user will be re-directed to the :ref:`Home Page <home_page>`\ .
 
 Adding a Region, District, Municipality, Village
 """"""""""""""""""""""""""""""""""""""""""""""""
 
-  Focusing on the appropriate level of locations by clicking on the black or the empty bar on the top of the appropriate panel and clicking on the ``Add`` button will open up in the top of the screen an empty entry box. Here one could enter the new code (**Code**) and name (**Name**) of a region, district, municipality or village. For villages, the number of male inhabitants (**M**), female inhabitants (**F**), inhabitants with the unspecified gender (**O**) and the number of families (**Fam.**) can be specified. On clicking the ``Save`` button the new record will be saved.
+  Focusing on the appropriate level of locations by clicking on the ``Add`` button will open up a modal entry box. Here one could enter the new code (**Code**) and name (**Name**) of a region, district, municipality or village. For villages, the number of male inhabitants (**M**), female inhabitants (**F**), inhabitants with the unspecified gender (**O**) and the number of families (**Fam.**) can be specified. On clicking the ``Save`` button the new record will be saved.
 
 Editing a Region, District, Municipality, Village
 """""""""""""""""""""""""""""""""""""""""""""""""
@@ -71,10 +81,10 @@ Deleting a Region, District, Municipality, Village
 
   Select first the location to delete and click the ``Delete`` button. *Note. It is not possible to delete a region, district or municipality with associated districts, municipalities or villages respectively.*
 
-  Before deleting a confirmation popup (:numref:`image85`) is displayed, which requires the user to confirm if the action should really be carried out?
+  Before deleting a confirmation popup (:numref:`location.delete_conf`) is displayed, which requires the user to confirm if the action should really be carried out?
 
-  .. _image85:
-  .. figure:: /img/user_manual/image24.png
+  .. _location.delete_conf:
+  .. figure:: /img/user_manual/location.delete_conf.png
     :align: center
 
     `Delete confirmation – Location Page`
@@ -84,28 +94,23 @@ Deleting a Region, District, Municipality, Village
 Moving a District, Municipality, Village
 """"""""""""""""""""""""""""""""""""""""
 
-  Moving of a location is needed when the administrative division of the territory, on which a health insurance scheme is active, changes. Clicking on the ``Move`` button will re-direct to the Move Location Page (:numref:`image86`).
+  Moving of a location is needed when the administrative division of the territory, on which a health insurance scheme is active, changes. Clicking on the ``Move`` button will open the move location box (:numref:`location_move`).
 
-  .. _image86:
-  .. figure:: /img/user_manual/image68.png
+  .. _location_move:
+  .. figure:: /img/user_manual/location.move.png
     :align: center
 
     `Move Location Page`
 
-  The ``Move Location Page`` is divided into six panels.
 
- #. **Locations Panels  (A ,B,C,D)**
+ #. **Move Location box**
 
-    The pair of A and B panels is used for moving of a village to another municipality. The pair of B and C panels is used for moving of a municipality to another district. The pair C and D is used for moving a district to another region.
+    The move location box is composed of three sections, the first display the name of the location to be moved. The second display the name of the current parent when the third enable the selection of the future parents.
 
-    For moving a location, select a location (village, municipality, district) in two adjacent panels by selecting of higher level locations in the fields ``Region, District, Municipality`` and clicking on the selected location (village, municipality, district) in a panel and on a new parent location in the next panel.
+    For moving a location, select the new parents (village, municipality, district), the fields will appear when needed, for example the municipality drop-down list will be displayed only if the district is selected. The level of the location can be changed by choosing the lower (resp. higher) parent having a different level from the current parent; be aware that the lowest location is the village, therefore if a municipality is moved to village level then the villages under the moved municipality will remain villages but will be moved under the municipality chosen the new parent of the to-be moved municipality.
 
-    Actual moving of a location into a new parent locations is done by clicking on the green arrow between the two corresponding location panels.
+    The Move will be effective once the ``Move`` button is clicked.
 
- #. **Button Panel**
 
-    It has only the ``Cancel`` button for re-directing to the `Location Page <#locations-page>`__.
 
- #. **Information Panel**
 
-    The Information Panel is used to display messages back to the user. Messages will occur once a district, municipality or village has been moved or if there was an error at any time during the process of this action.

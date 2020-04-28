@@ -12,11 +12,11 @@ msgstr ""
 
 
 msgid "Batch Run"
-msgstr "Batch Run"
+msgstr "Évaluation par lot"
 
 
 msgid "Administration of batches of claims is restricted to users with the system role of Accountant or with a role including an access to Claims/Claim/Batch."
-msgstr "L'administration des lots de réclamations est réservée aux utilisateurs ayant le rôle système de comptable ou un rôle incluant un accès aux réclamations / réclamations / lots."
+msgstr "L'administration des lots de prestations est réservée aux utilisateurs ayant le rôle système de comptable ou un rôle incluant un accès aux prestations / prestations / lots."
 
 
 msgid "Pre-conditions"
@@ -24,7 +24,7 @@ msgstr "Conditions préalables"
 
 
 msgid "A claim has been already processed (:ref:`review_actions`)."
-msgstr "Une réclamation a déjà été traitée (:ref:`review_actions`)."
+msgstr "Une prestation a déjà été traitée (:ref:`review_actions`)."
 
 
 msgid "Navigation"
@@ -32,48 +32,48 @@ msgstr "La navigation"
 
 
 msgid "All functionality for use with the administration of processing of batches can be found under the main menu ``Claims``, sub menu ``Batch Run`` (:numref:`batch_run_menu`)."
-msgstr "Toutes les fonctionnalités à utiliser pour l'administration du traitement des lots se trouvent dans le menu principal ``Réclamations``, sous-menu ``Batch Run`` (:numref:`batch_run_menu`)."
+msgstr "Toutes les fonctionnalités à utiliser pour l'administration du traitement des lots se trouvent dans le menu principal ``Prestations``, sous-menu ``Évaluation par lot`` (:numref:`batch_run_menu`)."
 
 
 msgid "`Navigation Batch Run`"
-msgstr "`Navigation Batch Run`"
+msgstr "`Navigation Évaluation par lot`"
 
 
 msgid "Clicking on the sub menu ``Batch Run`` re-directs the current user to the :ref:`Batch Run Control Page  <batch-run-control-page>`."
-msgstr "Un clic sur le sous-menu ``Batch Run`` redirige l'utilisateur actuel vers :ref:`Batch Run Control Page <batch-run-control-page>`."
+msgstr "Un clic sur le sous-menu ``Évaluation par lot`` redirige l'utilisateur actuel vers :ref:`Page Contrôle des évaluations par lot<batch-run-control-page>`."
 
 
 msgid "Batch Run Control Page"
-msgstr "Page Contrôle de l'exécution par lots"
+msgstr "Page Contrôle des évaluations par lot"
 
 
 msgid "`Batch Run Control Page`"
-msgstr "`Page de contrôle de l'exécution par lots`"
+msgstr "`Page de contrôle des évaluations par lot`"
 
 msgid "The Batch Run Control Page is the central point for batch processing administration. Access to the page is restricted to users with the system role of Accountant or with a role including an access to Claims/Claim/Batch. By having access to this page, it is possible to process batches, filter, and filter for accounts. The panel is divided into six sections (:numref:`batch_run_page`)"
-msgstr "Le Lot de Contrôle d'Exécution de la Page est le point central pour le traitement par lots l'administration. L'accès à la page est restreint aux utilisateurs avec le système de rôle de l'expert-Comptable ou à un rôle, y compris un accès aux Demandes/Demande/Lot. En ayant accès à cette page, il est possible de traiter des lots, de filtre et filtre pour les comptes. Le panneau est divisé en six sections (:numref:`batch_run_page`)"
+msgstr "Page Contrôle des évaluations par lot est le point central pour l'évaluation par lots nécessaire pour la gestion des prix relatifs. L'accès à la page est restreint aux utilisateurs avec le système de rôle de l'expert-Comptable ou à un rôle, y compris un accès aux Demandes/Demande/Lot. En ayant accès à cette page, il est possible de traiter des lots, de filtre et filtre pour les comptes. Le panneau est divisé en six sections (:numref:`batch_run_page`)"
 
 
 msgid "**Batch Processing Panel**"
-msgstr "**Panneau de traitement par lots**"
+msgstr "**Panneau de évaluations par lots**"
 
 
 msgid "The batch processing panel allows a user to process batches based on the following criteria:"
-msgstr "Le panneau de traitement par lots permet à un utilisateur de traiter des lots en fonction des critères suivants:"
+msgstr "Le panneau de évaluations par lots permet à un utilisateur de traiter des lots en fonction des critères suivants:"
 
 
 msgid "``Region``"
-msgstr "`` Région``"
+msgstr "``Région``"
 
 msgid "Select the ``Region`` from the list of regions by clicking on the arrow on the right of the selector to select a region. *Note: The list will only be filled with the regions assigned to the current logged in user and the option National*.  The option ``National`` will process all the claim for the period specified in ``Month`` and ``Year``"
-msgstr "Sélectionnez la `Région` de la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner une région. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté et l'option Nationale*. L'option `National` va traiter tous les la réclamation pour la période spécifiée dans le `Mois` et `Année`"
+msgstr "Sélectionnez la `Région` de la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner une région. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté et l'option Nationale*. L'option `National` va traiter tous les la prestation pour la période spécifiée dans le `Mois` et `Année`"
 
 
 msgid "``District``"
-msgstr "`` Quartier``"
+msgstr "``Quartier``"
 
 msgid "Select the ``district`` from the list of districts by clicking on the arrow on the right of the selector to select a district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is the only one then the district will be automatically selected. If no district is selected then the processing is done only for insurance product defined for the selected region.*"
-msgstr "Sélectionnez le `quartier` de la liste des districts, en cliquant sur la flèche à droite du sélecteur pour sélectionner une zone. *Remarque: La liste ne sera rempli avec les districts appartenant à la région sélectionnée et assigné à l'utilisateur connecté. Si c'est le seul alors le quartier sera automatiquement sélectionné. Si aucun district est sélectionnée, alors le traitement est effectué uniquement pour les produits d'assurance définies pour la région sélectionnée.*"
+msgstr "Sélectionnez le `quartier` de la liste des districts, en cliquant sur la flèche à droite du sélecteur pour sélectionner une zone. *Remarque: La liste ne sera rempli avec les districts appartenant à la région sélectionnée et assigné à l'utilisateur connecté. Si c'est le seul alors le quartier sera automatiquement sélectionné. Si aucun district est sélectionnée, alors le traitement est effectué uniquement pour les paquets de bénéfices définies pour la région sélectionnée.*"
 
 
 msgid "``Year``"
@@ -93,38 +93,38 @@ msgstr "Sélectionnez le ``Mois`` dans la liste des mois en cliquant sur la flè
 
 
 msgid "The Month at the end of the quarter process the claim for insuree having a product with Quaterly distribution (:ref:`Product Page <product_distribution>`):"
-msgstr "Le Mois à la fin du trimestre traite la réclamation de l'assuré ayant un produit avec distribution Quaterly (:ref:`Product Page <product_distribution>`):"
+msgstr "Le Mois à la fin du trimestre traite la prestation de l'assuré ayant un produit avec distribution Quaterly (:ref:`Product Page <product_distribution>`):"
 
 
 msgid "March     --> Process the claim for first quatrer"
-msgstr "Mars --> Traiter la réclamation du premier trimestre"
+msgstr "Mars --> Traiter la prestation du premier trimestre"
 
 
 msgid "June      --> Process the claim for second quatrer"
-msgstr "Juin --> Traiter la réclamation de deuxième trimestre"
+msgstr "Juin --> Traiter la prestation de deuxième trimestre"
 
 
 msgid "September --> Process the claim for Third quatrer"
-msgstr "Septembre --> Traiter la réclamation de troisième trimestre"
+msgstr "Septembre --> Traiter la prestation de troisième trimestre"
 
 
 msgid "December  --> Process the claim for Fourth quatrer"
-msgstr "Décembre --> Traiter la réclamation de quatrième trimestre"
+msgstr "Décembre --> Traiter la prestation de quatrième trimestre"
 
 
 msgid "December process the claim for insuree having a product with Yearly distribution (:ref:`Product Page <product_distribution>`)"
-msgstr "Décembre traite la réclamation de l'assuré ayant un produit avec distribution annuelle (:ref:`Product Page <product_distribution>`)"
+msgstr "Décembre traite la prestation de l'assuré ayant un produit avec distribution annuelle (:ref:`Product Page <product_distribution>`)"
 
 
 msgid "``Process``"
 msgstr "``Processus``"
 
 msgid "Once criteria are chosen, clicking on this button (:numref:`batch_run_process`), the claims will be processed based on the selected criteria. If the option ``National`` was used in the field ``Region``, the batch will run only for nationwide insurance products. If a region is selected in the field ``Region`` and no district is selected, the batch will run only for regional insurance products for the selected region. If a district is selected in the field ``District`` the batch is run only for district insurance products for the selected district."
-msgstr "Une fois les critères sont choisis, en cliquant sur ce bouton (:numref:`batch_run_process`), les réclamations seront traitées en fonction des critères sélectionnés. Si l'option `National` a été utilisé dans le domaine de la `Région`, le lot sera exécuté uniquement pour les produits d'assurance à l'échelle nationale. Si une région est sélectionnée dans le champ `Région` et pas de quartier est sélectionné, le lot sera exécutée que pour les régionales de produits d'assurance pour la région sélectionnée. Si un quartier est sélectionné dans le champ `District` le lot est exécuté uniquement pour le district de produits d'assurance pour le district."
+msgstr "Une fois les critères sont choisis, en cliquant sur ce bouton (:numref:`batch_run_process`), les prestations seront traitées en fonction des critères sélectionnés. Si l'option `National` a été utilisé dans le domaine de la `Région`, le lot sera exécuté uniquement pour les paquets de bénéfices à l'échelle nationale. Si une région est sélectionnée dans le champ `Région` et pas de quartier est sélectionné, le lot sera exécutée que pour les régionales de paquets de bénéfices pour la région sélectionnée. Si un quartier est sélectionné dans le champ `District` le lot est exécuté uniquement pour le district de paquets de bénéfices pour le district."
 
 
 msgid "`Batch Run Process Button`"
-msgstr "`Bouton de traitement par lots`"
+msgstr "`Bouton de évaluations par lots`"
 
 
 msgid "**Filter Panel for the relative price index per product and period**"
@@ -151,7 +151,7 @@ msgstr "Sélectionnez ``l'année``; dans la liste des années disponibles en cli
 
 
 msgid "``Period``"
-msgstr "`` Période``"
+msgstr "``Période``"
 
 
 msgid "Select the ``Period``; from the list of months/quarters by clicking on the arrow on the right of the selector."
@@ -166,7 +166,7 @@ msgstr "Sélectionnez le `Quartier`; dans la liste qui apparaît après la saisi
 
 
 msgid "``Product``"
-msgstr "`` Produit``"
+msgstr "``Produit``"
 
 
 msgid "Select the ``Product``; from the list that appear after typing characters , all product containing the typed text will appear and be selectable underneath the box."
@@ -174,7 +174,7 @@ msgstr "Sélectionnez le ``Produit``; Dans la liste qui apparaît après avoir t
 
 
 msgid "``Category``"
-msgstr "`` Catégorie``"
+msgstr "``Catégorie``"
 
 
 msgid "Select category of health care (**In-patient/hospital, Out-patient/Non-hospital, All**) from the list of categories of health care by clicking on the arrow on the right of the selector."
@@ -190,7 +190,7 @@ msgstr "Une fois les critères choisis, cliquer sur ce bouton de filtre (:numref
 
 
 msgid "`Batch Run filter Button`"
-msgstr "`Bouton de filtre d'exécution par lots`"
+msgstr "`Bouton de filtre de évaluations par lot`"
 
 
 msgid "**Display Panel for the relative price index per product and period**"
@@ -206,7 +206,7 @@ msgstr "**Filtre pour le panneau des comptes**"
 
 
 msgid "The Filter for Accounts Panel is used in filtering of batch protocols for an accounting system based on the following criteria:"
-msgstr "Le panneau Filtre pour les comptes est utilisé pour filtrer les protocoles de traitement par lots pour un système de comptabilité en fonction des critères suivants:"
+msgstr "Le panneau Filtre pour les comptes est utilisé pour filtrer les protocoles de évaluations par lots pour un système de comptabilité en fonction des critères suivants:"
 
 
 msgid "``Group By``"
@@ -222,7 +222,7 @@ msgstr "``Date de début``"
 
 
 msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`) to enter date which is equal or less than claim date. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
-msgstr "Tapez une date; ou utilisez le sélecteur de date (:numref:`cal_picker`) pour saisir une date égale ou inférieure à la date de réclamation. *Remarque. Pour effacer la zone de saisie de la date; utilisez le bouton ``Effacer`` dans la fenêtre contextuelle du sélecteur de date.*"
+msgstr "Tapez une date; ou utilisez le sélecteur de date (:numref:`cal_picker`) pour saisir une date égale ou inférieure à la date de prestation. *Remarque. Pour effacer la zone de saisie de la date; utilisez le bouton ``Effacer`` dans la fenêtre contextuelle du sélecteur de date.*"
 
 
 msgid "``End Date``"
@@ -230,15 +230,15 @@ msgstr "``Date de fin``"
 
 
 msgid "Type in a date; or use the Date Selector (:numref:`cal_picker`) to enter date which is equal or greater than claim date. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup.*"
-msgstr "Tapez une date; ou utilisez le sélecteur de date (:numref:`cal_picker`) pour saisir une date égale ou supérieure à la date de réclamation. *Remarque. Pour effacer la zone de saisie de la date; utilisez le bouton ``Effacer`` dans la fenêtre contextuelle du sélecteur de date.*"
+msgstr "Tapez une date; ou utilisez le sélecteur de date (:numref:`cal_picker`) pour saisir une date égale ou supérieure à la date de prestation. *Remarque. Pour effacer la zone de saisie de la date; utilisez le bouton ``Effacer`` dans la fenêtre contextuelle du sélecteur de date.*"
 
 
 msgid "``Show Claims``"
-msgstr "``Afficher les Réclamations``"
+msgstr "``Afficher les prestations``"
 
 
 msgid "Check this checkbox, if you need to show all claims in detailed way in the protocol."
-msgstr "Cochez cette case si vous devez afficher toutes les Réclamations de manière détaillée dans le protocole."
+msgstr "Cochez cette case si vous devez afficher toutes les prestations de manière détaillée dans le protocole."
 
 
 msgid "``Health facility``"
@@ -261,7 +261,7 @@ msgstr "``Tout montrer``"
 
 
 msgid "Check this checkbox, if you need to show all health facilities in the report although they have no claim included."
-msgstr "Cochez cette case si vous devez afficher tous les établissements de santé dans le rapport, bien qu'ils n'aient aucune réclamation incluse."
+msgstr "Cochez cette case si vous devez afficher tous les établissements de santé dans le rapport, bien qu'ils n'aient aucune prestation incluse."
 
 
 msgid "``Preview``"
@@ -285,7 +285,7 @@ msgstr "Ce panneau contient un bouton de commande."
 
 
 msgid "``Back``"
-msgstr "`` Retour``"
+msgstr "``Retour``"
 
 
 msgid "By clicking on the back button (:numref:`mat_back`), the user will be re-directed to the :ref:`Home Page <home_page>`."

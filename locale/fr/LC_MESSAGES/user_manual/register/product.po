@@ -12,10 +12,10 @@ msgstr ""
 
 
 msgid "Insurance Products Administration"
-msgstr "Administration des produits d'assurance"
+msgstr "Administration des paquets de bénéfices"
 
 msgid "The register of insurance products contains all insurance products in the health insurance scheme. There may be several insurance products available for distribution/selling in a territory, e.g. one basic product and one or several supplemental insurance products. The insurance products may at the different levels. For example that basic insurance product may be at the national level whereas the supplemental insurance products may be at the regional level. Administration of the register of insurance products is restricted to users with the system role of Scheme Administrator or with a role including an access to Administratiom/Products."
-msgstr "Le registre des produits d'assurance contient tous les produits d'assurance dans le régime d'assurance maladie. Il peut y avoir plusieurs produits d'assurance disponibles aux fins de distribution ou de vente dans un territoire, par exemple un produit de base et un ou plusieurs complémentaire de produits d'assurance. Les produits d'assurance peut, à différents niveaux. Par exemple que l'assurance de base, le produit peut être au niveau national alors que l'assurance complémentaire de produits peut être à l'échelle régionale. L'Administration du registre des produits d'assurance est limitée aux utilisateurs avec le rôle de système de Régime d'Administrateur ou avec un rôle, y compris un accès à Administratiom/Produits."
+msgstr "Le registre des paquets de bénéfices contient tous les paquets de bénéfices dans le régime d'assurance maladie. Il peut y avoir plusieurs paquets de bénéfices disponibles aux fins de distribution ou de vente dans un territoire, par exemple un produit de base et un ou plusieurs complémentaire de paquets de bénéfices. Les paquets de bénéfices peut, à différents niveaux. Par exemple que l'assurance de base, le produit peut être au niveau national alors que l'assurance complémentaire de produits peut être à l'échelle régionale. L'Administration du registre des paquets de bénéfices est limitée aux utilisateurs avec le rôle de système de Régime d'Administrateur ou avec un rôle, y compris un accès à Administratiom/Produits."
 
 
 msgid "Pre-conditions"
@@ -23,7 +23,7 @@ msgstr "Conditions préalables"
 
 
 msgid "An insurance product may only be added or thereafter edited, after the approval of the management of the scheme administration."
-msgstr "Un produit d'assurance ne peut être ajouté ou modifié par la suite qu'après approbation de la direction de l'administration du régime."
+msgstr "Un paquet de bénéfices ne peut être ajouté ou modifié par la suite qu'après approbation de la direction de l'administration du régime."
 
 
 msgid "Navigation"
@@ -31,11 +31,11 @@ msgstr "La navigation"
 
 
 msgid "All functionality for use with the administration of insurance products can be found under the main menu ``Administration``, sub menu ``Products``."
-msgstr "Toutes les fonctionnalités destinées à l'administration des produits d'assurance se trouvent dans le menu principal ``Administration``, sous-menu ``Produits``."
+msgstr "Toutes les fonctionnalités destinées à l'administration des paquets de bénéfices se trouvent dans le menu principal ``Administration``, sous-menu ``Produits``."
 
 
 msgid "`Navigation Products`"
-msgstr "`Produits de navigation`"
+msgstr "`Navigation: Produits`"
 
 
 msgid "Product Control Page"
@@ -50,7 +50,7 @@ msgid "`Product Control Page`"
 msgstr "`Page de contrôle des produits`"
 
 msgid "The ``Product Control Page`` is the central point for administration of insurance products. By having access to this page, it is possible to add, edit, duplicate and search. The panel is divided into four panels. (:numref:`image5`)"
-msgstr "Le `Produit de Contrôle de la Page` est le point central pour l'administration de produits d'assurance. En ayant accès à cette page, il est possible d'ajouter, de modifier, de dupliquer et de recherche. Le panneau est divisé en quatre panneaux. (:numref:`image5`)"
+msgstr "Le `Produit de Contrôle de la Page` est le point central pour l'administration de paquets de bénéfices. En ayant accès à cette page, il est possible d'ajouter, de modifier, de dupliquer et de recherche. Le panneau est divisé en quatre panneaux. (:numref:`image5`)"
 
 
 msgid "**Search Panel**"
@@ -139,14 +139,14 @@ msgstr "`Sélecteur de calendrier - Panneau de recherche`"
 
 
 msgid "``Region``"
-msgstr "`` Région``"
+msgstr "``Région``"
 
 msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select products from a specific region. The option **National** means that the found insurance products should be common for all regions. `Note: The list will only be filled with the regions assigned to the current logged in user and with the option National. All nationwide products and all regional products relating to the selected region will be found. If no district is selected then also all district products for districts belonging to the selected region will be found.`"
-msgstr "Sélectionnez la `Région`; à partir de la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner les produits d'une région spécifique. L'option **National** signifie que la trouvé des produits d'assurance doivent être communs à toutes les régions. Note: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté et avec l'option Nationale. Tous les produits à l'échelle nationale et tous les produits régionaux relatifs à la région sélectionnée sera trouvé. Si aucun district est sélectionné puis aussi tous les districts de produits pour les communes appartenant à la zone sélectionnée sera trouvé.`"
+msgstr "Sélectionnez la `Région`; à partir de la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner les produits d'une région spécifique. L'option **National** signifie que la trouvé des paquets de bénéfices doivent être communs à toutes les régions. Note: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté et avec l'option Nationale. Tous les produits à l'échelle nationale et tous les produits régionaux relatifs à la région sélectionnée sera trouvé. Si aucun district est sélectionné puis aussi tous les districts de produits pour les communes appartenant à la zone sélectionnée sera trouvé.`"
 
 
 msgid "``District``"
-msgstr "`` Quartier``"
+msgstr "``Quartier``"
 
 msgid "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select products from a specific district. `Note: The list will be only filled with the districts belonging to the selected region. All nationwide products, all regional products relating to the selected region and all district products for the selected district will be found.`"
 msgstr "Sélectionnez le `Quartier`; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur pour sélectionner les produits à partir d'un district particulier. Note: La liste sera remplie uniquement avec les districts appartenant à la région sélectionnée. Tous les produits à l'échelle nationale, tous les produits régionaux relatifs à la région sélectionnée et tous les districts de produits pour le quartier sera trouvé.`"
@@ -175,7 +175,7 @@ msgid "**Result Panel**"
 msgstr "**Panneau de résultats**"
 
 msgid "The result panel displays a list of all products found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image8`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
-msgstr "Le résultat s'affiche sur le panneau une liste de tous les produits, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image8`). La gauche dossier contient un lien, qui, si vous cliquez dessus, re-dirige l'utilisateur vers le record actuel pour obtenir la visualisation si c'est un record historique ou de la modification si c'est l'enregistrement en cours."
+msgstr "Le résultat s'affiche sur le panneau une liste de tous les produits, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image8`). La colunne de gauche contient un lien qui re-dirige vers la page de visualisation dans le cas d'une ligne historique ou vers la page de modification dans le cas des lignes encore valident."
 
 
 msgid "`Selected record (blue), hovered records (yellow) - Result Panel`"
@@ -236,13 +236,13 @@ msgid "Enter product name for the product. Mandatory, 100 characters maximum."
 msgstr "Entrez le nom du produit pour le produit. Obligatoire, 100 caractères maximum."
 
 msgid "Select the region in which the product will be used, from the list by clicking on the arrow on the right hand side of the lookup. The option National means that the insurance product is nationwide and it is not constraint to a specific region. `Note: The list will only be filled with the regions assigned to the current logged in user and with the option National.` Mandatory."
-msgstr "Sélectionnez la région dans laquelle le produit sera utilisé, à partir de la liste en cliquant sur la flèche sur le côté droit de la recherche. L'option Nationale, signifie que le produit d'assurance à l'échelle nationale et il n'est pas contrainte à une région spécifique. Note: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté et avec l'option Nationale.` Obligatoire."
+msgstr "Sélectionnez la région dans laquelle le produit sera utilisé, à partir de la liste en cliquant sur la flèche sur le côté droit de la recherche. L'option Nationale, signifie que le paquet de bénéfices à l'échelle nationale et il n'est pas contrainte à une région spécifique. Note: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté et avec l'option Nationale.` Obligatoire."
 
 msgid "Select the district in which the product will be used, from the list by clicking on the arrow on the right hand side of the lookup. `Note: The list will only be filled with the districts assigned to the selected region and assigned to the current logged in user. If no district is selected then the product is considered to be either nationwide (the option National is selected in the field Region) or regional associated with the selected region.`"
 msgstr "Sélectionnez le district dans lequel le produit sera utilisé, à partir de la liste en cliquant sur la flèche sur le côté droit de la recherche. Note: La liste ne sera rempli avec les districts affectés à la région sélectionnée et assigné à l'utilisateur connecté. Si aucun district est sélectionné, alors le produit est considéré soit comme à l'échelle nationale (l'option Nationale est sélectionné dans la Région de champ) ou régionaux associés à la région sélectionnée.`"
 
 msgid "Type in the date or use the ``Date Selector Button`` to provide the date for which underwriting for the insurance product can be done from. ``Date From`` determines the earliest date from which underwriting can be done. `Note: To clear the date entry box; use the mouse to highlight the full date and then press the space key.` Mandatory."
-msgstr "Entrez la date ou utilisez le `Sélecteur de Date Bouton` afin de fournir la date à laquelle la souscription pour le produit d'assurance qui peut être fait à partir. `Date De` détermine la date à partir de laquelle la souscription peut être fait. Note: Pour effacer la date d'entrée de la boîte; utilisation de la souris pour sélectionner la date et appuyez sur la touche espace.` Obligatoire."
+msgstr "Entrez la date ou utilisez le `Sélecteur de Date Bouton` afin de fournir la date à laquelle la souscription pour le paquet de bénéfices qui peut être fait à partir. `Date De` détermine la date à partir de laquelle la souscription peut être fait. Note: Pour effacer la date d'entrée de la boîte; utilisation de la souris pour sélectionner la date et appuyez sur la touche espace.` Obligatoire."
 
 msgid "Type in the date or use the Date Selector Button to provide the date until which underwriting can be done to.`Note: To clear the date entry box; use the mouse to highlight the full date and then press the space key.` Mandatory."
 msgstr "Entrez la date ou utilisez le Sélecteur de Date Bouton pour indiquer la date jusqu'à laquelle la souscription peut être fait à.`Remarque: Pour effacer la date d'entrée de la boîte; utilisation de la souris pour sélectionner la date et appuyez sur la touche espace.` Obligatoire."
@@ -322,7 +322,7 @@ msgstr "``Période d'assurance``"
 
 
 msgid "Enter duration of the period in months, in which a policy with the product will be valid. Mandatory."
-msgstr "Entrez la durée de la période en mois, pendant laquelle une politique avec le produit sera valide. Obligatoire."
+msgstr "Entrez la durée de la période en mois, pendant laquelle une police avec le produit sera valide. Obligatoire."
 
 
 msgid "``Administration Period``"
@@ -345,28 +345,28 @@ msgid "``Grace Period Payment``"
 msgstr "``Paiement du délai de grâce``"
 
 msgid "Enter duration of the period in months, in which a policy has a grace period (not fully paid up) before it is suspended. Mandatory, although it is by default and can be left at zero."
-msgstr "Entrez la durée de la période en mois, qu'une politique a une période de grâce (non-paiement) avant qu'il soit suspendu. Obligatoire, même si c'est par défaut et peut être laissé à zéro."
+msgstr "Entrez la durée de la période en mois, qu'une police a une période de grâce (non-paiement) avant qu'il soit suspendu. Obligatoire, même si c'est par défaut et peut être laissé à zéro."
 
 
 msgid "``Grace Period Enrolment``"
 msgstr "``Inscription pour la période de grâce``"
 
 msgid "Enter duration of the period in months after the starting date of a cycle (including this starting date), in which underwriting of a policy will still be associated with this cycle."
-msgstr "Entrez la durée de la période dans le mois après la date de début d'un cycle (y compris cette date de départ), dont la souscription d'une politique seront toujours associés à ce cycle."
+msgstr "Entrez la durée de la période dans le mois après la date de début d'un cycle (y compris cette date de départ), dont la souscription d'une police seront toujours associés à ce cycle."
 
 
 msgid "``Grace Period Renewal``"
 msgstr "``Renouvellement du délai de grâce``"
 
 msgid "Enter duration of the period in months after the starting date of a cycle (including this starting date), in which renewing of a policy will still be associated with this cycle."
-msgstr "Entrez la durée de la période dans le mois après la date de début d'un cycle (y compris cette date de départ), dans lequel le renouvellement d'une politique seront toujours associés à ce cycle."
+msgstr "Entrez la durée de la période dans le mois après la date de début d'un cycle (y compris cette date de départ), dans lequel le renouvellement d'une police seront toujours associés à ce cycle."
 
 
 msgid "``Enrolment Discount percentage``"
 msgstr "``Pourcentage de remise d'inscription``"
 
 msgid "Enter the enrolment discount percentage for the insurance product. The discount percentage is applied on the total contributions calculated for a policy underwritten earlier than ``Enrolment disc. period`` months before the start date of the corresponding cycle."
-msgstr "Entrez le taux de scolarisation pourcentage de remise pour le produit d'assurance. Le pourcentage de remise est appliquée sur le montant total des cotisations calculées pour une police souscrite plus tôt que `l'Inscription d'un disque. période de` mois avant la date de début du cycle correspondante."
+msgstr "Entrez le taux de scolarisation pourcentage de remise pour le paquet de bénéfices. Le pourcentage de remise est appliquée sur le montant total des cotisations calculées pour une police souscrite plus tôt que `l'Inscription d'un disque. période de` mois avant la date de début du cycle correspondante."
 
 
 msgid "``Enrolment Discount Period``"
@@ -374,7 +374,7 @@ msgstr "``Période de remise d'inscription``"
 
 
 msgid "Enter the enrolment discount period of the insurance product in months."
-msgstr "Saisissez la période de réduction de souscription du produit d'assurance en mois."
+msgstr "Saisissez la période de réduction de souscription du paquet de bénéfices en mois."
 
 
 msgid "``Renewal Discount Percentage``"
@@ -382,7 +382,7 @@ msgstr "``Pourcentage de remise de renouvellement``"
 
 
 msgid "Enter the renewal discount percentage for the insurance product. The discount percentage is applied on the total contributions calculated for a policy renewed earlier than ``renewal disc. period`` months before the start date of the corresponding cycle."
-msgstr "Saisissez le pourcentage de remise de renouvellement pour le produit d'assurance. Le pourcentage de réduction est appliqué sur le total des cotisations calculées pour une police renouvelée plus tôt que le ``disque de renouvellement. période`` mois avant la date de début du cycle correspondant."
+msgstr "Saisissez le pourcentage de remise de renouvellement pour le paquet de bénéfices. Le pourcentage de réduction est appliqué sur le total des cotisations calculées pour une police renouvelée plus tôt que le ``disque de renouvellement. période`` mois avant la date de début du cycle correspondant."
 
 
 msgid "``Renewal Discount Period``"
@@ -390,35 +390,35 @@ msgstr "``Période de remise de renouvellement``"
 
 
 msgid "Enter the renewal discount period of the insurance product in months."
-msgstr "Saisissez la période de remise de renouvellement du produit d'assurance en mois."
+msgstr "Saisissez la période de remise de renouvellement du paquet de bénéfices en mois."
 
 
 msgid "``Registration Lump Sum``"
 msgstr "``Inscription forfaitaire``"
 
 msgid "Enter the lump sum (for a household/group) for registration fee to be paid at the first enrolment of the household/group. Registration fee is not paid for renewals of policies."
-msgstr "Entrez le montant forfaitaire (pour un ménage/groupe) pour l'enregistrement, la taxe à payer lors de la première inscription de la famille/groupe. Frais d'inscription n'est pas payé pour le renouvellement des politiques."
+msgstr "Entrez le montant forfaitaire (pour un ménage/groupe) pour l'enregistrement, la taxe à payer lors de la première inscription de la famille/groupe. Frais d'inscription n'est pas payé pour le renouvellement des polices."
 
 
 msgid "``Assembly Lump Sum``"
 msgstr "``Montant forfaitaire de l'assemblage``"
 
 msgid "Enter the lump sum (for a household/group) for additional assembly fee to be paid both at the first enrolment and renewals of policies."
-msgstr "Entrez le montant forfaitaire (pour un ménage/groupe) pour plus d'assemblée, la taxe à payer à la fois lors de la première inscription et de renouvellement des politiques."
+msgstr "Entrez le montant forfaitaire (pour un ménage/groupe) pour plus d'assemblée, la taxe à payer à la fois lors de la première inscription et de renouvellement des polices."
 
 
 msgid "``Registration Fee``"
 msgstr "``Frais d'inscription``"
 
 msgid "Enter the registration fee per member of a household/group. If registration lump sum is non zero, registration fee is not considered. Registration fee is not paid for renewals of policies."
-msgstr "Entrez les frais d'inscription par membre du ménage/de groupe. Si l'inscription forfaitaire est différente de zéro, frais d'inscription n'est pas considérée. Frais d'inscription n'est pas payé pour le renouvellement des politiques."
+msgstr "Entrez les frais d'inscription par membre du ménage/de groupe. Si l'inscription forfaitaire est différente de zéro, frais d'inscription n'est pas considérée. Frais d'inscription n'est pas payé pour le renouvellement des polices."
 
 
 msgid "``Assembly Fee``"
 msgstr "``Frais de montage``"
 
 msgid "Enter the assembly fee per member of a household/group. If assembly lump sum is non zero, assembly fee is not considered. Assembly fee is paid both at the first enrolment and renewals of policies."
-msgstr "Entrer à l'assemblée des frais pour chaque membre d'un ménage/groupe. Si l'assemblée somme forfaitaire est non nul, l'assemblée des frais n'est pas considérée. Assemblée taxe est payée à la fois lors de la première inscription et de renouvellement des politiques."
+msgstr "Entrer à l'assemblée des frais pour chaque membre d'un ménage/groupe. Si l'assemblée somme forfaitaire est non nul, l'assemblée des frais n'est pas considérée. Assemblée taxe est payée à la fois lors de la première inscription et de renouvellement des polices."
 
 
 msgid "**Covered Medical sercices**"
@@ -426,11 +426,11 @@ msgstr "**Services médicaux couverts**"
 
 
 msgid "Select from the list of available medical services (from the register of Medical Services) the medical services covered within the insurance product, by either clicking on the ``Check All`` box at the top of the list of medical services, or by selectively clicking on the check box to the left of the medical service."
-msgstr "Sélectionnez dans la liste des services médicaux disponibles (dans le registre des services médicaux) les services médicaux couverts par le produit d'assurance, soit en cliquant sur la case ``Tout cocher`` en haut de la liste des services médicaux, soit en sélectionnant en cliquant sur la case à cocher à gauche du service médical."
+msgstr "Sélectionnez dans la liste des soins  disponibles (dans le registre des soins ) les services médicaux couverts par le paquet de bénéfices, soit en cliquant sur la case ``Tout cocher`` en haut de la liste des soins , soit en sélectionnant en cliquant sur la case à cocher à gauche du soin ."
 
 
 msgid "``Medical Services Grid``"
-msgstr "``Grille des services médicaux``"
+msgstr "``Grille des soins``"
 
 
 msgid "`Medical Services - Product`"
@@ -438,11 +438,11 @@ msgstr "`Services médicaux - Produit`"
 
 
 msgid "``Code``"
-msgstr "`` Code``"
+msgstr "``Code``"
 
 
 msgid "Displays the code for the medical service"
-msgstr "Affiche le code du service médical"
+msgstr "Affiche le code du soin "
 
 
 msgid "``Name``"
@@ -450,7 +450,7 @@ msgstr "``Nom``"
 
 
 msgid "Displays the name of the medical service"
-msgstr "Affiche le nom du service médical"
+msgstr "Affiche le nom du soin "
 
 
 msgid "``Type``"
@@ -458,43 +458,43 @@ msgstr "``Type``"
 
 
 msgid "Displays the type of the medical service"
-msgstr "Affiche le type de service médical"
+msgstr "Affiche le type de soin "
 
 
 msgid "``Level``"
-msgstr "`` Niveau``"
+msgstr "``Niveau``"
 
 
 msgid "Displays the level of the medical service"
-msgstr "Affiche le niveau du service médical"
+msgstr "Affiche le niveau du soin "
 
 
 msgid "``Limit``"
 msgstr "``Limite``"
 
 msgid "Indicates the type of limitation of coverage for the medical service. This may be adjusted per medical service, select between Co-Insurance [C] and Fixed amount [F]. Co-insurance means coverage of a specific percentage of the price of the medical service by policies of the insurance product. Fixed amount means coverage up the specified limit. C is the default value. Limit O is used for claims having the type of visit Other, Limit R is used for claims having the type of visit Referral and Limit E is used for claims having the type of visit Emergency."
-msgstr "Indique le type de limitation de la couverture pour le service médical. Cela peut être ajustée par le service médical, sélectionnez entre les Co-Assurance [C] et le montant Fixe [F]. Co-assurance, la couverture d'un certain pourcentage du prix du service de santé par des politiques du produit d'assurance. Fixe le montant moyen de la couverture jusqu'à la limite spécifiée. C est la valeur par défaut. Limite O est utilisé pour les réclamations ayant le type de visiter d'Autres, la Limite de R est utilisé pour les réclamations ayant le type de la visite de l'Aiguillage et de la Limite de E est utilisé pour les réclamations ayant le type de visiter d'Urgence."
+msgstr "Indique le type de limitation de la couverture pour le soin . Cela peut être ajustée par le soin , sélectionnez entre les Co-Assurance [C] et le montant Fixe [F]. Co-assurance, la couverture d'un certain pourcentage du prix du soin de santé par des polices du paquet de bénéfices. Fixe le montant moyen de la couverture jusqu'à la limite spécifiée. C est la valeur par défaut. Limite O est utilisé pour les prestations ayant le type de visiter d'Autres, la Limite de R est utilisé pour les prestations ayant le type de la visite de l'Aiguillage et de la Limite de E est utilisé pour les prestations ayant le type de visiter d'Urgence."
 
 
 msgid "``Origin``"
 msgstr "``Origine``"
 
 msgid "Indicates where the price for remuneration of the service comes from. This may be adjusted per service, the options are: [P] Price taken from the price list of a claiming health facility, [O] Price taken from a claim and [R] Relative price, the nominal value of which is taken from the price list and the actual value of which is determined backwards according to available funds and volume of claimed services and medical items in a period. [R] is the default value."
-msgstr "Indique où le prix de la rémunération du service de vient de. Cela peut être ajustée par le service, les options sont: [P] Prix pris à partir de la liste de prix d'un prétendant établissement de santé, [O] Prix pris à partir d'une réclamation et [R] Relative des prix, la valeur nominale de ce qui est pris à partir de la liste des prix et de la valeur réelle de ce qui est déterminé en arrière en fonction des fonds disponibles et le volume de revendication de services et de produits médicaux au cours de la période. [R] est la valeur par défaut."
+msgstr "Indique où le prix de la rémunération du soin de vient de. Cela peut être ajustée par le service, les options sont: [P] Prix pris à partir de la liste de prix d'un prétendant établissement de santé, [O] Prix pris à partir d'une prestation et [R] Relative des prix, la valeur nominale de ce qui est pris à partir de la liste des prix et de la valeur réelle de ce qui est déterminé en arrière en fonction des fonds disponibles et le volume de prestations des soins et de produits médicaux au cours de la période. [R] est la valeur par défaut."
 
 
 msgid "``Adult``"
 msgstr "``Adulte``"
 
 msgid "Indicates the limitation for adults. If the type of limitation is a co-insurance then the value is the percentage of the price covered by policies of the insurance product for adults. If the type of limitation is a fixed limit the value is an amount up to which price of the service is covered for adults by policies of the insurance product. Default is 100%. Adult O is for Other, Adult R is for Referral and Adult E is for Emergency claims according to the type of visit (Visit Type)."
-msgstr "Indique la limitation pour les adultes. Si le type de limitation est une co-assurance, alors la valeur est le pourcentage du prix couvertes par les politiques de la de produits d'assurance pour les adultes. Si le type de limite est une limite fixe la valeur est le montant pour lequel le prix du service est couvert pour les adultes par des politiques du produit d'assurance. Par défaut est de 100%. Adulte O est pour les Autres, Adulte, R est pour la Référence et de l'Adulte E est pour sinistres d'Urgence selon le type de visite (Visite Type)."
+msgstr "Indique la limitation pour les adultes. Si le type de limitation est une co-assurance, alors la valeur est le pourcentage du prix couvertes par les polices de la de paquets de bénéfices pour les adultes. Si le type de limite est une limite fixe la valeur est le montant pour lequel le prix du soin est couvert pour les adultes par des polices du paquet de bénéfices. Par défaut est de 100%. Adulte O est pour les Autres, Adulte, R est pour la Référence et de l'Adulte E est pour sinistres d'Urgence selon le type de visite (Visite Type)."
 
 
 msgid "``Child``"
 msgstr "``Enfant``"
 
 msgid "Indicates the limitation for children. If the type of limitation is a co-insurance then the value is the percentage of the price covered for children by policies of the insurance product. If the type of limitation is a fixed limit the value is an amount up to which price of the service is covered for children by policies of the insurance product. Default is 100%. Child O is for Other, Child R is for Referral and Child E is for Emergency claims according to the type of visit (Visit Type)."
-msgstr "Indique la limitation pour les enfants. Si le type de limitation est une co-assurance, alors la valeur est le pourcentage du prix couverts pour les enfants par des politiques du produit d'assurance. Si le type de limite est une limite fixe la valeur est le montant pour lequel le prix du service est couvert pour les enfants par des politiques du produit d'assurance. Par défaut est de 100%. Enfant O est pour les Autres, l'Enfant R pour l'orientation et de l'Enfant E est pour sinistres d'Urgence selon le type de visite (Visite Type)."
+msgstr "Indique la limitation pour les enfants. Si le type de limitation est une co-assurance, alors la valeur est le pourcentage du prix couverts pour les enfants par des polices du paquet de bénéfices. Si le type de limite est une limite fixe la valeur est le montant pour lequel le prix du soin est couvert pour les enfants par des polices du paquet de bénéfices. Par défaut est de 100%. Enfant O est pour les Autres, l'Enfant R pour l'orientation et de l'Enfant E est pour sinistres d'Urgence selon le type de visite (Visite Type)."
 
 
 msgid "``No Adult``"
@@ -502,7 +502,7 @@ msgstr "``Pas d'adulte``"
 
 
 msgid "It indicates the maximal number of provisions of the medical service during the insurance period for an adult."
-msgstr "Il indique le nombre maximal de prestations du service médical pendant la période d'assurance pour un adulte."
+msgstr "Il indique le nombre maximal de prestations du soin  pendant la période d'assurance pour un adulte."
 
 
 msgid "``No Child``"
@@ -510,7 +510,7 @@ msgstr "``Pas d'enfant``"
 
 
 msgid "It indicates the maximal number of provisions of the medical service during the insurance period for an child."
-msgstr "Il indique le nombre maximal de prestations du service médical pendant la période d'assurance pour un enfant."
+msgstr "Il indique le nombre maximal de prestations du soin  pendant la période d'assurance pour un enfant."
 
 
 msgid "``Waiting Period Adult``"
@@ -533,18 +533,18 @@ msgid "``Ceiling Adult``"
 msgstr "``Plafond Adulte``"
 
 msgid "It indicates whether the medical service is excluded from comparison against ceilings defined in the insurance product for adults. Default is that the medical service is not excluded from comparisons with ceilings. [H] means exclusion only for provision of in-patient care, [N] means exclusion only for out-patient care and [B] means exclusion both for in-patient and out-patient care."
-msgstr "Il indique si le service médical est exclu de la comparaison avec les plafonds définis par le produit d'assurance pour les adultes. Par défaut, c'est que le service médical n'est pas exclue à partir de comparaisons avec des plafonds. [H] signifie l'exclusion uniquement pour la prestation de soins aux patients hospitalisés, [N] signifie l'exclusion uniquement pour les soins ambulatoires et [B] signifie l'exclusion, à la fois pour le patient et des soins ambulatoires."
+msgstr "Il indique si le soin  est exclu de la comparaison avec les plafonds définis par le paquet de bénéfices pour les adultes. Par défaut, c'est que le soin  n'est pas exclue à partir de comparaisons avec des plafonds. [H] signifie l'exclusion uniquement pour les prestations aux patients hospitalisés, [N] signifie l'exclusion uniquement pour les soins ambulatoires et [B] signifie l'exclusion, à la fois pour le patient et des soins ambulatoires."
 
 
 msgid "``Ceiling Child``"
 msgstr "``Enfant au plafond``"
 
 msgid "It indicates whether the medical service is excluded from comparison against ceilings defined in the insurance product for children. Default is that the medical service is not excluded from comparisons with ceilings. [H] means exclusion only for provision of in-patient care, [N] means exclusion only for out-patient care and [B] means exclusion both for in-patient and out-patient care."
-msgstr "Il indique si le service médical est exclu de la comparaison avec les plafonds définis par le produit d'assurance pour les enfants. Par défaut, c'est que le service médical n'est pas exclue à partir de comparaisons avec des plafonds. [H] signifie l'exclusion uniquement pour la prestation de soins aux patients hospitalisés, [N] signifie l'exclusion uniquement pour les soins ambulatoires et [B] signifie l'exclusion, à la fois pour le patient et des soins ambulatoires."
+msgstr "Il indique si le soin  est exclu de la comparaison avec les plafonds définis par le paquet de bénéfices pour les enfants. Par défaut, c'est que le soin  n'est pas exclue à partir de comparaisons avec des plafonds. [H] signifie l'exclusion uniquement pour les prestations aux patients hospitalisés, [N] signifie l'exclusion uniquement pour les soins ambulatoires et [B] signifie l'exclusion, à la fois pour le patient et des soins ambulatoires."
 
 
 msgid "Select from the list of available medical items (from the register of Medical Items) the medical items covered within the product; by either clicking on the Check All box at the top of the list of medical items, or by selectively clicking on the check box to the left of the medical item."
-msgstr "Sélectionnez dans la liste des produit médicaux disponibles (dans le registre des produit médicaux) les produit médicaux couverts dans le produit; soit en cliquant sur la case Tout cocher en haut de la liste des produit médicaux, soit en cliquant de manière sélective sur la case à cocher à gauche de l'article médical."
+msgstr "Sélectionnez dans la liste des produit médicaux disponibles (dans le registre des produit médicaux) les produit médicaux couverts dans le produit; soit en cliquant sur la case Tout cocher en haut de la liste des produit médicaux, soit en cliquant de manière sélective sur la case à cocher à gauche du produit médical."
 
 
 msgid "``medical items grid``"
@@ -552,19 +552,19 @@ msgstr "``grille de produit médicaux``"
 
 
 msgid "`Medical Items - Product`"
-msgstr "`Articles médicaux - Produit`"
+msgstr "`Produit médicaux - Produit`"
 
 
 msgid "Displays the code for the medical item"
-msgstr "Affiche le code de l'article médical"
+msgstr "Affiche le code du produit médical"
 
 
 msgid "Displays the name of the medical item"
-msgstr "Affiche le nom de l'article médical"
+msgstr "Affiche le nom du produit médical"
 
 
 msgid "Displays the type of the medical item"
-msgstr "Affiche le type de l'article médical"
+msgstr "Affiche le type du produit médical"
 
 
 msgid "``Package``"
@@ -572,27 +572,27 @@ msgstr "``Forfait``"
 
 
 msgid "Displays the packaging of the medical Item"
-msgstr "Affiche l'emballage de l'article médical"
+msgstr "Affiche l'emballage du produit médical"
 
 msgid "Indicates the type of limitation of coverage for the medical item. This may be adjusted per medical item, select between Co-Insurance [C] and Fixed amount [F]. Co-insurance means coverage of a specific percentage of the price of the medical item by policies of the insurance product. Fixed amount means coverage up the specified limit. C is the default value. Limit O is used for claims having the type of visit Other, Limit R is used for claims having the type of visit Referral and Limit E is used for claims having the type of visit Emergency."
-msgstr "Indique le type de limitation de la couverture pour le médical point. Cela peut être ajustée selon médical de l'élément, sélectionnez entre les Co-Assurance [C] et le montant Fixe [F]. Co-assurance, la couverture d'un certain pourcentage du prix de l'médical point par des politiques du produit d'assurance. Fixe le montant moyen de la couverture jusqu'à la limite spécifiée. C est la valeur par défaut. Limite O est utilisé pour les réclamations ayant le type de visiter d'Autres, la Limite de R est utilisé pour les réclamations ayant le type de la visite de l'Aiguillage et de la Limite de E est utilisé pour les réclamations ayant le type de visiter d'Urgence."
+msgstr "Indique le type de limitation de la couverture pour le médical point. Cela peut être ajustée selon médical de l'élément, sélectionnez entre les Co-Assurance [C] et le montant Fixe [F]. Co-assurance, la couverture d'un certain pourcentage du prix de l'médical point par des polices du paquet de bénéfices. Fixe le montant moyen de la couverture jusqu'à la limite spécifiée. C est la valeur par défaut. Limite O est utilisé pour les prestations ayant le type de visiter d'Autres, la Limite de R est utilisé pour les prestations ayant le type de la visite de l'Aiguillage et de la Limite de E est utilisé pour les prestations ayant le type de visiter d'Urgence."
 
 msgid "It indicates where the price for remuneration of the item, comes from: This may be adjusted per medical item, the options are: [P] Price taken from the price list of a claiming health facility, [O] Price taken from a claim and [R] Relative price, the nominal value of which is taken from the price list and the actual value of which is determined backwards according to available funds and the volume of claimed services and medical items in a period. [R] is the default value."
-msgstr "Il indique où le prix de la rémunération de l'élément, vient d': Cela peut être ajustée selon médical élément, les options sont: [P] Prix pris à partir de la liste de prix d'un prétendant établissement de santé, [O] Prix pris à partir d'une réclamation et [R] Relative des prix, la valeur nominale de ce qui est pris à partir de la liste des prix et de la valeur réelle de ce qui est déterminé en arrière en fonction des fonds disponibles et le volume de revendication de services et de produits médicaux au cours de la période. [R] est la valeur par défaut."
+msgstr "Il indique où le prix de la rémunération de l'élément, vient d': Cela peut être ajustée selon médical élément, les options sont: [P] Prix pris à partir de la liste de prix d'un prétendant établissement de santé, [O] Prix pris à partir d'une prestation et [R] Relative des prix, la valeur nominale de ce qui est pris à partir de la liste des prix et de la valeur réelle de ce qui est déterminé en arrière en fonction des fonds disponibles et le volume de prestation des soins et de produits médicaux au cours de la période. [R] est la valeur par défaut."
 
 msgid "It indicates the limitation for adults. If the type of limitation is a co-insurance then the value is the percentage of the price covered for adults by policies of the insurance product. If the type of limitation is a fixed limit the value is an amount up to which price of the item is covered for adults by policies of the insurance product. Default is 100%. Adult O is for Other, Adult R is for Referral and Adult E is for Emergency claims according to the type of visit (Visit Type)."
-msgstr "Il indique la limitation pour les adultes. Si le type de limitation est une co-assurance, alors la valeur est le pourcentage du prix couverts pour les adultes par des politiques du produit d'assurance. Si le type de limite est une limite fixe la valeur est le montant pour lequel le prix de l'article est couvert pour les adultes par des politiques du produit d'assurance. Par défaut est de 100%. Adulte O est pour les Autres, Adulte, R est pour la Référence et de l'Adulte E est pour sinistres d'Urgence selon le type de visite (Visite Type)."
+msgstr "Il indique la limitation pour les adultes. Si le type de limitation est une co-assurance, alors la valeur est le pourcentage du prix couverts pour les adultes par des polices du paquet de bénéfices. Si le type de limite est une limite fixe la valeur est le montant pour lequel le prix du produit médical est couvert pour les adultes par des polices du paquet de bénéfices. Par défaut est de 100%. Adulte O est pour les Autres, Adulte, R est pour la Référence et de l'Adulte E est pour sinistres d'Urgence selon le type de visite (Visite Type)."
 
 msgid "It indicates the limitation for children. If the type of limitation is a co-insurance then the value is the percentage of the price covered for children by policies of the insurance product. If the type of limitation is a fixed limit the value is an amount up to which price of the service is covered for children by policies of the insurance product. Default is 100%. Child O is for Other, Child R is for Referral and Child E is for Emergency claims according to the type of visit (Visit Type)."
-msgstr "Il indique la limitation pour les enfants. Si le type de limitation est une co-assurance, alors la valeur est le pourcentage du prix couverts pour les enfants par des politiques du produit d'assurance. Si le type de limite est une limite fixe la valeur est le montant pour lequel le prix du service est couvert pour les enfants par des politiques du produit d'assurance. Par défaut est de 100%. Enfant O est pour les Autres, l'Enfant R pour l'orientation et de l'Enfant E est pour sinistres d'Urgence selon le type de visite (Visite Type)."
+msgstr "Il indique la limitation pour les enfants. Si le type de limitation est une co-assurance, alors la valeur est le pourcentage du prix couverts pour les enfants par des polices du paquet de bénéfices. Si le type de limite est une limite fixe la valeur est le montant pour lequel le prix du soin est couvert pour les enfants par des polices du paquet de bénéfices. Par défaut est de 100%. Enfant O est pour les Autres, l'Enfant R pour l'orientation et de l'Enfant E est pour sinistres d'Urgence selon le type de visite (Visite Type)."
 
 
 msgid "It indicates the maximal number of provisions of the medical item during the insurance period for an adult."
-msgstr "Il indique le nombre maximal de provisions de l'article médical pendant la période d'assurance pour un adulte."
+msgstr "Il indique le nombre maximal de provisions du produit médical pendant la période d'assurance pour un adulte."
 
 
 msgid "It indicates the maximal number of provisions of the medical item during the insurance period for a child."
-msgstr "Il indique le nombre maximal de provisions de l'article médical pendant la période d'assurance pour un enfant."
+msgstr "Il indique le nombre maximal de provisions du produit médical pendant la période d'assurance pour un enfant."
 
 
 msgid "It indicates waiting period in months (after the effective date of a policy) for an adult."
@@ -603,10 +603,10 @@ msgid "It indicates waiting period in months (after effective date of a policy) 
 msgstr "Il indique la période d'attente en mois (après la date d'entrée en vigueur d'une police) pour un enfant."
 
 msgid "It indicates whether the medical item is excluded from comparison against ceilings defined for adults in the insurance product. The default is that the medical item is not excluded from comparisons with ceilings. [H] means exclusion only for provision of in-patient care, [N] means exclusion only for out-patient care and [B] means exclusion both for in-patient and out-patient care."
-msgstr "Il indique si le médecin est exclu de la comparaison avec les plafonds définis pour les adultes dans le produit d'assurance. La valeur par défaut est que le point n'est pas exclue à partir de comparaisons avec des plafonds. [H] signifie l'exclusion uniquement pour la prestation de soins aux patients hospitalisés, [N] signifie l'exclusion uniquement pour les soins ambulatoires et [B] signifie l'exclusion, à la fois pour le patient et des soins ambulatoires."
+msgstr "Il indique si le médecin est exclu de la comparaison avec les plafonds définis pour les adultes dans le paquet de bénéfices. La valeur par défaut est que le point n'est pas exclue à partir de comparaisons avec des plafonds. [H] signifie l'exclusion uniquement pour les prestations aux patients hospitalisés, [N] signifie l'exclusion uniquement pour les soins ambulatoires et [B] signifie l'exclusion, à la fois pour le patient et des soins ambulatoires."
 
 msgid "It indicates whether the medical item is excluded from comparison against ceilings defined for children in the insurance product. The default is that the medical item is not excluded from comparisons with ceilings. [H] means exclusion only for provision of in-patient care, [N] means exclusion only for out-patient care and [B] means exclusion both for in-patient and out-patient care."
-msgstr "Il indique si le médecin est exclu de la comparaison avec les plafonds définis pour les enfants dans le produit d'assurance. La valeur par défaut est que le point n'est pas exclue à partir de comparaisons avec des plafonds. [H] signifie l'exclusion uniquement pour la prestation de soins aux patients hospitalisés, [N] signifie l'exclusion uniquement pour les soins ambulatoires et [B] signifie l'exclusion, à la fois pour le patient et des soins ambulatoires."
+msgstr "Il indique si le médecin est exclu de la comparaison avec les plafonds définis pour les enfants dans le paquet de bénéfices. La valeur par défaut est que le point n'est pas exclue à partir de comparaisons avec des plafonds. [H] signifie l'exclusion uniquement pour les prestations aux patients hospitalisés, [N] signifie l'exclusion uniquement pour les soins ambulatoires et [B] signifie l'exclusion, à la fois pour le patient et des soins ambulatoires."
 
 
 msgid "``Account Code Remuneration``"
@@ -614,7 +614,7 @@ msgstr "``Rémunération du code de compte``"
 
 
 msgid "Enter the account code of the insurance product used in the accounting software for remuneration of the product. 25 characters maximum."
-msgstr "Saisissez le code de compte du produit d'assurance utilisé dans le logiciel de comptabilité pour la rémunération du produit. 25 caractères maximum."
+msgstr "Saisissez le code de compte du paquet de bénéfices utilisé dans le logiciel de comptabilité pour la rémunération du produit. 25 caractères maximum."
 
 
 msgid "``Account Code Contribution``"
@@ -622,7 +622,7 @@ msgstr "``Contribution du code de compte``"
 
 
 msgid "Enter the account code of the insurance product used in the accounting software for paid contributions. 25 characters maximum."
-msgstr "Saisissez le code de compte du produit d'assurance utilisé dans le logiciel de comptabilité pour les cotisations versées. 25 caractères maximum."
+msgstr "Saisissez le code de compte du paquet de bénéfices utilisé dans le logiciel de comptabilité pour les cotisations versées. 25 caractères maximum."
 
 
 msgid "**policy lenght and start**"
@@ -652,60 +652,60 @@ msgid "``Start Cycle 4``"
 msgstr "``Démarrer le cycle 4``"
 
 msgid "If one or more starting dates (a day and a month) of a cycle are specified then the insurance product is considered as the insurance product with fixed enrolment dates. In this case, activation of underwritten and renewed policies is accomplished always on fixed dates during a year. Maximum four cycle dates can be specified."
-msgstr "Si une ou plusieurs dates de début (jour et mois) d'un cycle sont spécifiés, alors le produit d'assurance est considéré comme le produit d'assurance fixe avec l'inscription des dates. Dans ce cas, l'activation de la garantie et les nouvelles politiques est accompli toujours à des dates fixes au cours d'une année. Pour un Maximum de quatre dates du cycle peut être spécifié."
+msgstr "Si une ou plusieurs dates de début (jour et mois) d'un cycle sont spécifiés, alors le paquet de bénéfices est considéré comme le paquet de bénéfices fixe avec l'inscription des dates. Dans ce cas, l'activation de la garantie et les nouvelles polices est accompli toujours à des dates fixes au cours d'une année. Pour un Maximum de quatre dates du cycle peut être spécifié."
 
 
 msgid "**Deductibles and Ceiling**"
 msgstr "**Franchises et plafond**"
 
 msgid "Specify whether Hospital and Non-Hospital care should be determined according to the type of health facility (select [Hospital]) that provided health care or according to the type of health care (select [In-patient]) acquired from a claim. In the first case all health care provided in hospitals (defined in the field ``HF Level`` in the register of Health Facilities) is accounted for ``Hospital Ceilings/Deductibles`` and for calculation of relative prices for the ``Hospital`` part. It means that if clamed health care was provided out-patient in a hospital, it is considered for calculation of ceilings/deductibles and for calculation of relative prices as hospital care. In the second case only in-patient care (determined from a claim when a patient spent at least one night in a health facility) is accounted for ``Hospital Ceilings/Deductibles`` and for calculation of relative prices for hospital part. Other health care including out-patient care provided in hospitals is accounted for ``Non hospital Ceilings/Deductibles`` and also such health care is used for calculation of relative prices for non-hospital part. Mandatory."
-msgstr "Spécifier si Hospitaliers et Non Hospitaliers de soins doit être déterminée selon le type d'établissement de santé (sélectionnez [de l'Hôpital]) qui a fourni des soins de santé ou selon le type de soins de santé (sélectionnez [du patient]) acquis à partir d'une réclamation. Dans le premier cas, tous les soins de santé fournis dans les hôpitaux (défini dans le champ `HF Level` dans le registre des Établissements de Santé) est comptabilisée pour `Hôpital Plafonds/Franchises` et pour le calcul des prix relatifs, à `l'Hôpital` de la partie. Cela signifie que si clamed de soins de santé a été donné par un patient dans un hôpital, il est considéré pour le calcul des plafonds/franchises et pour le calcul des prix relatifs, en tant que soins à l'hôpital. Dans le second cas que dans les soins aux malades (déterminé à partir d'une réclamation lorsqu'un patient a passé au moins une nuit dans un établissement de santé) est comptabilisée pour `Hôpital Plafonds/Franchises` et pour le calcul des prix relatifs, à l'hôpital de la partie. D'autres soins de santé, y compris les soins fournis aux patients dans les hôpitaux est comptabilisée pour `Non à l'hôpital Plafonds/Franchises` et aussi les soins de santé est utilisé pour le calcul des prix relatifs pour les non-hôpital de la partie. Obligatoire."
+msgstr "Spécifier si Hospitaliers et Non Hospitaliers de soins doit être déterminée selon le type d'établissement de santé (sélectionnez [de l'Hôpital]) qui a fourni des soins de santé ou selon le type de soins de santé (sélectionnez [du patient]) acquis à partir d'une prestation. Dans le premier cas, tous les soins de santé fournis dans les hôpitaux (défini dans le champ `HF Level` dans le registre des Établissements de Santé) est comptabilisée pour `Hôpital Plafonds/Franchises` et pour le calcul des prix relatifs, à `l'Hôpital` de la partie. Cela signifie que si clamed de soins de santé a été donné par un patient dans un hôpital, il est considéré pour le calcul des plafonds/franchises et pour le calcul des prix relatifs, en tant que soins à l'hôpital. Dans le second cas que dans les soins aux malades (déterminé à partir d'une prestation lorsqu'un patient a passé au moins une nuit dans un établissement de santé) est comptabilisée pour `Hôpital Plafonds/Franchises` et pour le calcul des prix relatifs, à l'hôpital de la partie. D'autres soins de santé, y compris les soins fournis aux patients dans les hôpitaux est comptabilisée pour `Non à l'hôpital Plafonds/Franchises` et aussi les soins de santé est utilisé pour le calcul des prix relatifs pour les non-hôpital de la partie. Obligatoire."
 
 
 msgid "``Treatment``"
 msgstr "``Traitement``"
 
 msgid "Deductibles and Ceilings for treatments may be entered for general care (``Hospitals and Non-hospitals``) or for hospital care (``Hospitals``) only and/or for non-hospital care (``Non-Hospitals``) only. An amount may be set, indicating the value that a patient should cover within his/her own means, before a policy of the insurance product comes into effect (``Deductibles``) or the ceiling (maximum amount covered) within a policy of the insurance product (``Ceilings``) for a treatment (the treatment is identified health care claimed in one claim)"
-msgstr "Les franchises et les Plafonds pour les traitements peuvent être entrés pour les soins généraux (`les Hôpitaux et les hôpitaux`) ou pour des soins à l'hôpital (`Hôpitaux`) et/ou pour des soins à l'hôpital (`Non-Hôpitaux`) seulement. Un montant peut être fixé, avec indication de la valeur que le patient doit couvrir l'intérieur de son/ses propres moyens, avant une politique de l'assurance-produit d'entrée en vigueur (`Franchise`) ou au plafond (montant maximum couvert) au sein d'une politique de l'assurance produit (`Plafonds`) pour un traitement (le traitement est identifié de soins de santé revendiquée dans une revendication)"
+msgstr "Les franchises et les Plafonds pour les traitements peuvent être entrés pour les soins généraux (`les Hôpitaux et les hôpitaux`) ou pour des soins à l'hôpital (`Hôpitaux`) et/ou pour des soins à l'hôpital (`Non-Hôpitaux`) seulement. Un montant peut être fixé, avec indication de la valeur que le patient doit couvrir l'intérieur de son/ses propres moyens, avant une police de l'assurance-produit d'entrée en vigueur (`Franchise`) ou au plafond (montant maximum couvert) au sein d'une police de l'assurance produit (`Plafonds`) pour un traitement (le traitement est identifié de soins de santé revendiquée dans une prestation)"
 
 
 msgid "``Insuree``"
 msgstr "``Assuré``"
 
 msgid "Deductibles and Ceilings for an insuree may be entered for general care (``Hospitals and Non-hospitals``) or for hospital care (Hospitals) only and/or for non-hospital care (``Non-Hospitals``) only. An amount may be set, indicating the value that an insuree should cover within his/her own means, before a policy of the insurance product comes into effect (``Deductibles``) or the ceiling (maximum amount covered) within a policy of the insurance product (``Ceilings``) for an insuree for the whole insurance period."
-msgstr "Les franchises et les Plafonds pour un preneur d'assurance peut être saisie pour des soins généraux (`les Hôpitaux et les hôpitaux`) ou pour les soins hospitaliers (Hôpitaux) et/ou pour des soins à l'hôpital (`Non-Hôpitaux`) seulement. Un montant peut être fixé, en indiquant la valeur qu'un preneur d'assurance doit couvrir au sein de ses propres moyens, avant une politique de l'assurance-produit d'entrée en vigueur (`Franchise`) ou au plafond (montant maximum couvert) au sein d'une politique de l'assurance produit (`Plafonds`) pour un preneur d'assurance pour l'ensemble de la période d'assurance."
+msgstr "Les franchises et les Plafonds pour un preneur d'assurance peut être saisie pour des soins généraux (`les Hôpitaux et les hôpitaux`) ou pour les soins hospitaliers (Hôpitaux) et/ou pour des soins à l'hôpital (`Non-Hôpitaux`) seulement. Un montant peut être fixé, en indiquant la valeur qu'un preneur d'assurance doit couvrir au sein de ses propres moyens, avant une police de l'assurance-produit d'entrée en vigueur (`Franchise`) ou au plafond (montant maximum couvert) au sein d'une police de l'assurance produit (`Plafonds`) pour un preneur d'assurance pour l'ensemble de la période d'assurance."
 
 
 msgid "``Policy``"
-msgstr "``Politique``"
+msgstr "``Police``"
 
 msgid "Deductibles and Ceilings for a policy may be entered for general care (``Hospitals and Non-hospitals``) or for hospital care (``Hospitals``) only and/or for non-hospital care (Non-Hospitals) only. An amount may be set, indicating the value that policy holders should cover within their own means, before a policy of the insurance product comes into effect (``Deductibles``) or the ceiling (maximum amount covered) for the policy (all members of a family/group) of the insurance product (``Ceilings``) for the whole insurance period."
-msgstr "Les franchises et les Plafonds pour une politique peut être saisie pour des soins généraux (`les Hôpitaux et les hôpitaux`) ou pour des soins à l'hôpital (`Hôpitaux`) et/ou pour des soins à l'hôpital (Non-Hôpitaux) seulement. Un montant peut être fixé, avec indication de la valeur que les titulaires de police d'assurance doit couvrir au sein de leurs propres moyens, à l'avant une politique de l'assurance-produit d'entrée en vigueur (`Franchise`) ou au plafond (montant maximum couvert) de la politique (tous les membres de la famille/groupe), le produit d'assurance (`Plafonds`) pour l'ensemble de la période d'assurance."
+msgstr "Les franchises et les Plafonds pour une police peut être saisie pour des soins généraux (`les Hôpitaux et les hôpitaux`) ou pour des soins à l'hôpital (`Hôpitaux`) et/ou pour des soins à l'hôpital (Non-Hôpitaux) seulement. Un montant peut être fixé, avec indication de la valeur que les titulaires de police d'assurance doit couvrir au sein de leurs propres moyens, à l'avant une police de l'assurance-produit d'entrée en vigueur (`Franchise`) ou au plafond (montant maximum couvert) de la police (tous les membres de la famille/groupe), le paquet de bénéfices (`Plafonds`) pour l'ensemble de la période d'assurance."
 
 
 msgid "``Extra Member Ceiling``"
 msgstr "``Plafond des membres supplémentaires``"
 
 msgid "Additional (extra) ceiling for a policy may be entered for general care (``Hospitals`` and ``Non-hospitals``) or for hospital care (``Hospitals``) only and/or for non-hospital care (``Non-Hospital`` s ) only per a member of a family/group above ``Threshold Members``."
-msgstr "Supplémentaires (en sus) plafond pour une politique peut être saisie pour des soins généraux (les`Hôpitaux` et `Non-hôpitaux`) ou pour des soins à l'hôpital (`Hôpitaux`) et/ou pour des soins à l'hôpital (`hors de l'Hôpital` s ) uniquement par un membre de la famille/groupe au-dessus du `Seuil Membres`."
+msgstr "Supplémentaires (en sus) plafond pour une police peut être saisie pour des soins généraux (les`Hôpitaux` et `Non-hôpitaux`) ou pour des soins à l'hôpital (`Hôpitaux`) et/ou pour des soins à l'hôpital (`hors de l'Hôpital` s ) uniquement par un membre de la famille/groupe au-dessus du `Seuil Membres`."
 
 
 msgid "``Maximum Ceiling``"
 msgstr "``Plafond maximum``"
 
 msgid "Maximal ceiling for a policy may be entered for general care (``Hospitals`` and ``Non-hospitals``) or for hospital care (``Hospitals``) only and/or for non-hospital care (``Non-Hospitals``) only if extra ceilings are applied for members of a family/group above ``Threshold Members``."
-msgstr "Maximale plafond pour une politique peut être saisie pour des soins généraux (les`Hôpitaux` et `Non-hôpitaux`) ou pour des soins à l'hôpital (`Hôpitaux`) et/ou pour des soins à l'hôpital (`Non-Hôpitaux`) que si les plafonds sont appliqués pour les membres de la famille/groupe au-dessus du `Seuil Membres`."
+msgstr "Maximale plafond pour une police peut être saisie pour des soins généraux (les`Hôpitaux` et `Non-hôpitaux`) ou pour des soins à l'hôpital (`Hôpitaux`) et/ou pour des soins à l'hôpital (`Non-Hôpitaux`) que si les plafonds sont appliqués pour les membres de la famille/groupe au-dessus du `Seuil Membres`."
 
 
 msgid "``Number``"
-msgstr "`` Numéro``"
+msgstr "``Numéro``"
 
 msgid "Maximal number of covered claims per an insuree during the whole insurance period according to the category of a claim. The options are claims of the category ``Consultations``, ``Surgery``, ``Delivery`` and ``Antenatal care``. Maximal numbers may be also specified for Hospitalizations (in-patient stays) and (out-patient visits) ``Visits``. The claim category is determined as follows:"
-msgstr "Nombre maximum de dommages pris en charge par un preneur d'assurance au cours de l'ensemble de la période d'assurance en fonction de la catégorie de la réclamation. Les options sont les Réclamations de la catégorie des `Consultations`, `Chirurgie`, `Livraison` et `soins Prénatals`. Le nombre Maximal peut être utilisé aussi pour les Hospitalisations (hospitaliers des séjours) et (hors visites de patients) `Visites`. La revendication d'une catégorie est déterminée comme suit:"
+msgstr "Nombre maximum de dommages pris en charge par un preneur d'assurance au cours de l'ensemble de la période d'assurance en fonction de la catégorie de la prestation. Les options sont les prestations de la catégorie des `Consultations`, `Chirurgie`, `Livraison` et `soins Prénatals`. Le nombre Maximal peut être utilisé aussi pour les Hospitalisations (hospitaliers des séjours) et (hors visites de patients) `Visites`. La prestation d'une catégorie est déterminée comme suit:"
 
 
 msgid "If at least one service of the category *Surgery* is given in the claim it is of category *Surgery*"
-msgstr "Si au moins un service de la catégorie *Chirurgie* est fourni dans la réclamation, il appartient à la catégorie *Chirurgie*"
+msgstr "Si au moins un service de la catégorie *Chirurgie* est fourni dans la prestation, il appartient à la catégorie *Chirurgie*"
 
 
 msgid "otherwise"
@@ -713,23 +713,23 @@ msgstr "autrement"
 
 
 msgid "if at least one service of the category *Delivery* is given in the claim it is of category *Delivery*"
-msgstr "si au moins un service de la catégorie *Livraison* est fourni dans la réclamation, il s'agit de la catégorie *Livraison*"
+msgstr "si au moins un service de la catégorie *Livraison* est fourni dans la prestation, il s'agit de la catégorie *Livraison*"
 
 
 msgid "if at least one service of the category *Antenatal care* is given in the claim it is of category *Antenatal care*"
-msgstr "si au moins un service de la catégorie *Soins prénatals* est fourni dans la réclamation, il appartient à la catégorie *Soins prénatals*"
+msgstr "si au moins un service de la catégorie *Soins prénatals* est fourni dans la prestation, il appartient à la catégorie *Soins prénatals*"
 
 
 msgid "if the claim is a hospital one the claim it is of category *Hospitalization*"
-msgstr "si la réclamation est de nature hospitalière, la réclamation appartient à la catégorie *Hospitalisation*"
+msgstr "si la prestation est de nature hospitalière, la prestation appartient à la catégorie *Hospitalisation*"
 
 
 msgid "if at least one service of the category *Consultation* is given in the claim it is of category *Consultation*"
-msgstr "si au moins un service de la catégorie *Consultation* est fourni dans la réclamation, il appartient à la catégorie *Consultation*"
+msgstr "si au moins un service de la catégorie *Consultation* est fourni dans la prestation, il appartient à la catégorie *Consultation*"
 
 
 msgid "the claim is of the category *Visit*"
-msgstr "la réclamation appartient à la catégorie *Visite*"
+msgstr "la prestation appartient à la catégorie *Visite*"
 
 
 msgid "``Ceiling``"
@@ -737,10 +737,10 @@ msgstr "``Plafond``"
 
 
 msgid "Maximal amount of coverage can be specified for claims according to the category of a claim. The options are claims of the category ``Consultations``, ``Surgery``, ``Delivery``, ``Antenatal care``, Hospitalizations, and ``Visits``. The category of claim is determined according to the procedure described with ``Number``."
-msgstr "Le montant maximal de couverture peut être spécifié pour les réclamations en fonction de la catégorie d'une réclamation. Les options sont des réclamations de la catégorie ``Consultations``, ``Chirurgie``, ``Accouchement``, ``Soins prénatals``, Hospitalisations et ``Visites``. La catégorie de réclamation est déterminée selon la procédure décrite avec ``Numéro``."
+msgstr "Le montant maximal de couverture peut être spécifié pour les prestations en fonction de la catégorie d'une prestation. Les options sont des prestations de la catégorie ``Consultations``, ``Chirurgie``, ``Accouchement``, ``Soins prénatals``, Hospitalisations et ``Visites``. La catégorie de prestation est déterminée selon la procédure décrite avec ``Numéro``."
 
 msgid "`Note. It is possible to specify only one of the following ceilings –per Treatment, per Insuree or per Policy. If ceilings per category of claims are specified together with ceilings per Treatment, per Insuree or per Policy than evaluation of claims may be dependent under special circumstances on the order of claimed medical services/items in a claim.`"
-msgstr "`Remarque. Il est possible de spécifier qu'une seule des plafonds suivants –par Traitement, par preneur d'assurance ou par la Politique. Si des plafonds par catégorie de réclamations sont indiqués avec des plafonds par Traitement, par preneur d'assurance ou par la Politique de l'évaluation des allégations peuvent être dépendante de circonstances particulières, sur l'ordre de réclamation pour des services médicaux ou des éléments dans une revendication.`"
+msgstr "`Remarque. Il est possible de spécifier qu'une seule des plafonds suivants –par Traitement, par preneur d'assurance ou par la Police. Si des plafonds par catégorie de prestations sont indiqués avec des plafonds par Traitement, par preneur d'assurance ou par la Police d'évaluation des allégations peuvent être dépendante de circonstances particulières, sur l'ordre de prestation pour des soins  ou des éléments dans une prestation.`"
 
 
 msgid "**Health fund management**"
@@ -751,7 +751,7 @@ msgid "``distribution Period``"
 msgstr "``Période de distribution``"
 
 msgid "Distribution periods may be entered for general care (``Hospitals`` and ``Non-hospitals``), or for hospital care (``Hospitals``) only and/or for non-hospital care (``Non-Hospitals``) only. Select from the list (**NONE, Monthly, Quarterly, Yearly**), the period that is to be used for calculation of the actual value of relative prices for the insurance product; by clicking on the arrow on the right. The default value is ‘\\ **NONE**\\ ’ which means that relative prices are not calculated for general health care or for hospital care or non-hospital care within the insurance product. By selecting **Monthly, Quarterly** or **Yearly** will cause a pop-up (:numref:`image14`) with the relative periods (1 period for yearly, 4 for quarterly, 12 for monthly). Percentages should be entered to indicate the distribution over the periods as per the product description. Enter to each field an appropriate percentage of paid contributions for policies of the insurance product allocated proportionally to corresponding calendar period. It means, for example, that in case of the distribution **Monthly** we put in each slot percentage of paid contributions of the insurance product that are allocated to the corresponding month and that is to be used for calculation of relative prices."
-msgstr "La Distribution des périodes peuvent être entrés pour les soins généraux (les`Hôpitaux` et `Non-hôpitaux`), ou pour des soins à l'hôpital (`Hôpitaux`) et/ou pour des soins à l'hôpital (`Non-Hôpitaux`) seulement. Sélectionnez dans la liste (**AUCUN, Mensuels, Trimestriels, Annuels**), la période qui est utilisé pour le calcul de la valeur réelle des prix relatifs pour le produit d'assurance; en cliquant sur la flèche à droite. La valeur par défaut est ‘\\ **AUCUN**\\ ’ ce qui signifie que les prix relatifs ne sont pas calculés pour les soins de santé en général ou pour des soins à l'hôpital ou non de soins de l'hôpital au sein du produit d'assurance. En sélectionnant **Mensuel, Trimestriel,** ou **An** sera la cause d'une pop-up (:numref:`image14` avec la relative périodes (1 période à l'année, 4 pour le trimestre, 12 mensuel). Les pourcentages doivent être indiqués pour indiquer la distribution, sur les périodes que par la description du produit. Entrée pour chaque champ un pourcentage approprié des cotisations versées en faveur des politiques du produit d'assurance attribuée proportionnellement à de calendrier correspondant période. Cela signifie, par exemple, que dans le cas de la distribution **Mensuel** nous mettons dans chaque logement pourcentage de cotisation de l'assurance de produits qui sont alloués pour le mois correspondant, et qui doit être utilisé pour le calcul des prix relatifs."
+msgstr "La Distribution des périodes peuvent être entrés pour les soins généraux (les`Hôpitaux` et `Non-hôpitaux`), ou pour des soins à l'hôpital (`Hôpitaux`) et/ou pour des soins à l'hôpital (`Non-Hôpitaux`) seulement. Sélectionnez dans la liste (**AUCUN, Mensuels, Trimestriels, Annuels**), la période qui est utilisé pour le calcul de la valeur réelle des prix relatifs pour le paquet de bénéfices; en cliquant sur la flèche à droite. La valeur par défaut est ‘\\ **AUCUN**\\ ’ ce qui signifie que les prix relatifs ne sont pas calculés pour les soins de santé en général ou pour des soins à l'hôpital ou non de soins de l'hôpital au sein du paquet de bénéfices. En sélectionnant **Mensuel, Trimestriel,** ou **An** sera la cause d'une pop-up (:numref:`image14` avec la relative périodes (1 période à l'année, 4 pour le trimestre, 12 mensuel). Les pourcentages doivent être indiqués pour indiquer la distribution, sur les périodes que par la description du produit. Entrée pour chaque champ un pourcentage approprié des cotisations versées en faveur des polices du paquet de bénéfices attribuée proportionnellement à de calendrier correspondant période. Cela signifie, par exemple, que dans le cas de la distribution **Mensuel** nous mettons dans chaque logement pourcentage de cotisation de l'assurance de produits qui sont alloués pour le mois correspondant, et qui doit être utilisé pour le calcul des prix relatifs."
 
 
 msgid "It is not required to enter a value in each period, zero values are accepted. Once all the percentage values have been entered, click on the button OK to submit the values to the respective grid. Clicking on the button ``Cancel`` will cancel the action closing the popup and cancelling the change in the distribution."
@@ -779,11 +779,11 @@ msgstr "**Paiement par capitation**"
 
 
 msgid "The section allows definition of parameters of a capitation formula used for remuneration of selected levels of health facilities within the insurance product. The report `Capitation Payment` is used for calculation of the amount of capitation payment for individual health facilities. The parameters of the capitation formula are the following:"
-msgstr "La section permet de définir les paramètres d'une formule de capitation utilisée pour la rémunération de certains niveaux d'établissements de santé au sein du produit d'assurance. Le rapport `Paiement par capitation` est utilisé pour calculer le montant du paiement par capitation pour les établissements de santé individuels. Les paramètres de la formule de capitation sont les suivants:"
+msgstr "La section permet de définir les paramètres d'une formule de capitation utilisée pour la rémunération de certains niveaux d'établissements de santé au sein du paquet de bénéfices. Le rapport `Paiement par capitation` est utilisé pour calculer le montant du paiement par capitation pour les établissements de santé individuels. Les paramètres de la formule de capitation sont les suivants:"
 
 
 msgid "``Level 1``"
-msgstr "`` Niveau 1``"
+msgstr "``Niveau 1``"
 
 msgid "The first level of health facilities can be selected that should be included in the calculation of capitation payments. The options are the following levels of a health facility: Dispensary, Health Centre, and Hospital."
 msgstr "Le premier niveau des établissements de santé peuvent être sélectionnés qui doivent être inclus dans le calcul de la capitation des paiements. Les options sont les suivantes niveaux d'un établissement de santé: Dispensaire, Centre de Santé et de l'Hôpital."
@@ -797,7 +797,7 @@ msgstr "Le sous-niveau, le premier niveau des établissements de santé peuvent 
 
 
 msgid "``Level 2``"
-msgstr "`` Niveau 2``"
+msgstr "``Niveau 2``"
 
 msgid "The second level of health facilities can be selected that should be included in the calculation of capitation payments. The options are the following levels of a health facility: ``Dispensary``, ``Health Centre``, and ``Hospital``."
 msgstr "Le deuxième niveau des établissements de santé peuvent être sélectionnés qui doivent être inclus dans le calcul de la capitation des paiements. Les options sont les suivantes niveaux d'un établissement de santé: `Dispensaire`, `Centre de Santé`, et `Hôpital`."
@@ -811,7 +811,7 @@ msgstr "Le sous-niveau du second degré, les établissements de santé peuvent �
 
 
 msgid "``Level 3``"
-msgstr "`` Niveau 3``"
+msgstr "``Niveau 3``"
 
 msgid "The third level of health facilities can be selected that should be included in the calculation of capitation payments. The options are the following levels of a health facility: ``Dispensary``, ``Health Centre``, and ``Hospital``."
 msgstr "Le troisième niveau des établissements de santé peuvent être sélectionnés qui doivent être inclus dans le calcul de la capitation des paiements. Les options sont les suivantes niveaux d'un établissement de santé: `Dispensaire`, `Centre de Santé`, et `Hôpital`."
@@ -825,7 +825,7 @@ msgstr "Le sous-niveau du troisième niveau des établissements de santé peuven
 
 
 msgid "``Level 4``"
-msgstr "`` Niveau 4``"
+msgstr "``Niveau 4``"
 
 msgid "The fourth level of health facilities can be selected that should be included in the calculation of capitation payments. The options are the following levels of a health facility: ``Dispensary``, ``Health Centre``, and ``Hospital``."
 msgstr "Le quatrième niveau des établissements de santé peuvent être sélectionnés qui doivent être inclus dans le calcul de la capitation des paiements. Les options sont les suivantes niveaux d'un établissement de santé: `Dispensaire`, `Centre de Santé`, et `Hôpital`."
@@ -842,7 +842,7 @@ msgid "``Share of Contribution``"
 msgstr "``Part de la contribution``"
 
 msgid "The share of allocated contributions for given insurance product and the period specified for the report Capitation Payment that should be used for calculation of capitation payments for individual health facilities. The amount specified is interpreted as a percentage."
-msgstr "La part de l'allocation de contributions pour les produits d'assurance et de la période spécifiée pour le rapport de la Capitation Paiement qui doit être utilisé pour le calcul de la capitation des paiements individuels des établissements de santé. Le montant indiqué est interprété comme un pourcentage."
+msgstr "La part de l'allocation de contributions pour les paquets de bénéfices et de la période spécifiée pour le rapport de la Capitation Paiement qui doit être utilisé pour le calcul de la capitation des paiements individuels des établissements de santé. Le montant indiqué est interprété comme un pourcentage."
 
 
 msgid "``Weight of Population``"
@@ -865,14 +865,14 @@ msgid "``Weight of Insured Population``"
 msgstr "``Poids de la population assurée``"
 
 msgid "The weight can be entered that is used for the number of insured population by given insurance product and living in catchments areas of individual health facilities. The amount specified is interpreted as a percentage."
-msgstr "Le poids peut être entré qui est utilisé pour le nombre de la population assurée par des produits d'assurance et de vivre dans des bassins individuels des établissements de santé. Le montant indiqué est interprété comme un pourcentage."
+msgstr "Le poids peut être entré qui est utilisé pour le nombre de la population assurée par des paquets de bénéfices et de vivre dans des bassins individuels des établissements de santé. Le montant indiqué est interprété comme un pourcentage."
 
 
 msgid "``Weight of Number of Insured Families``"
 msgstr "``Poids du nombre de familles assurées``"
 
 msgid "The weight can be entered that is used for the number of insured families by given insurance product and living in catchments areas of individual health facilities. The amount specified is interpreted as a percentage."
-msgstr "Le poids peut être entré qui est utilisé pour le nombre d'assurés familles par des produits d'assurance et de vivre dans des bassins individuels des établissements de santé. Le montant indiqué est interprété comme un pourcentage."
+msgstr "Le poids peut être entré qui est utilisé pour le nombre d'assurés familles par des paquets de bénéfices et de vivre dans des bassins individuels des établissements de santé. Le montant indiqué est interprété comme un pourcentage."
 
 
 msgid "``Weight of Number of Visits``"
@@ -886,7 +886,7 @@ msgid "``Weight of Adjusted Amount``"
 msgstr "``Poids du montant ajusté``"
 
 msgid "The weight can be entered that is used for the adjusted amount on claims for insured by given insurance product and living in catchments areas of individual health facilities. The amount specified is interpreted as a percentage."
-msgstr "Le poids peut être entré qui est utilisé pour le montant ajusté sur les réclamations des assurés par l'assurance de produits et de vivre dans des bassins individuels des établissements de santé. Le montant indiqué est interprété comme un pourcentage."
+msgstr "Le poids peut être entré qui est utilisé pour le montant ajusté sur les prestations des assurés par l'assurance de produits et de vivre dans des bassins individuels des établissements de santé. Le montant indiqué est interprété comme un pourcentage."
 
 
 msgid "*Note. The capitation formula is defined as follows:*"
@@ -930,7 +930,7 @@ msgstr "* Nombre de familles assurées vivant dans la zone de chalandise de l'é
 
 
 msgid "*Number of claims (contacts) with the health facility by insured in the catchment area*"
-msgstr "* Nombre de réclamations (contacts) avec l'établissement de santé par assuré dans la zone de chalandise *"
+msgstr "* Nombre de prestations (contacts) avec l'établissement de santé par assuré dans la zone de chalandise *"
 
 
 msgid "*Adjusted amount*\`
@@ -938,7 +938,7 @@ msgstr "*Montant ajusté* \`
 
 
 msgid ":math:`\\text{AllocatedContribution}` *is the amount of contributions for given insurance product for given period*"
-msgstr ": math: ` \\t ext {AllocatedContribution} ` * est le montant des cotisations pour un produit d'assurance donné pour une période donnée *"
+msgstr ": math: ` \\t ext {AllocatedContribution} ` * est le montant des cotisations pour un paquet de bénéfices donné pour une période donnée *"
 
 
 msgid ":math:`\\text{ShareContribution}` *is the formula parameter Share of contribution*"
@@ -1038,4 +1038,4 @@ msgstr "Supprimer un produit"
 
 
 msgid "Because of potential problems with synchronization of data between off-line and on-line version, it is not possible delete insurance products currently."
-msgstr "En raison de problèmes potentiels avec la synchronisation des données entre la version hors ligne et la version en ligne, il n'est pas possible de supprimer les produits d'assurance actuellement."
+msgstr "En raison de problèmes potentiels avec la synchronisation des données entre la version hors ligne et la version en ligne, il n'est pas possible de supprimer les paquets de bénéfices actuellement."

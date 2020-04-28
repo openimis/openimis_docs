@@ -32,7 +32,7 @@ msgstr "La fonctionnalité de saisie des fonds se trouve dans le menu principal 
 
 
 msgid "`Navigation Email Settings`"
-msgstr "`Paramètres de messagerie de navigation`"
+msgstr "`Navigation: Paramètres de messagerie`"
 
 msgid "Clicking on the sub menu ``Email Settigns`` re-directs the current user to the `Email settings Page. <#image-277-email-settings-page>`__"
 msgstr "Un clic sur le sous-menu ``Email Settigns`` redirige l'utilisateur actuel vers la page ``Paramètres de messagerie``. <#image-277-email-settings-page>`__"
@@ -51,7 +51,7 @@ msgstr "`Page des paramètres de messagerie électronique`"
 
 
 msgid "``Email``"
-msgstr "`` Courriel``"
+msgstr "``Courriel``"
 
 
 msgid "SMTP Login to be used on the email server in order to send email"

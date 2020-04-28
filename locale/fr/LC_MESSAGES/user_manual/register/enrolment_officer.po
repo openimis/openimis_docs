@@ -71,7 +71,7 @@ msgstr "Tapez au début de; ou le ``Nom de famille`` complet; pour rechercher de
 
 
 msgid "``Code``"
-msgstr "`` Code``"
+msgstr "``Code``"
 
 
 msgid "Type in the beginning of; or the full ``Code`` to search for officers with a ``Code``, that starts with or matches completely, the typed text."
@@ -155,14 +155,14 @@ msgstr "`Sélecteur de calendrier - Panneau de recherche`"
 
 
 msgid "``Region``"
-msgstr "`` Région``"
+msgstr "``Région``"
 
 msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select enrolment officers acting in a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user.*"
 msgstr "Sélectionnez la `Région`; à partir de la liste des régions en cliquant sur la flèche à droite du sélecteur pour sélectionner l'inscription des agents intervenant dans une région spécifique. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté.*"
 
 
 msgid "``District``"
-msgstr "`` Quartier``"
+msgstr "``Quartier``"
 
 
 msgid "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select enrolment officers acting in a specific district. *Note: The list will be only filled with the districts belonging to the selected region and assigned to the current logged in user.*"
@@ -178,7 +178,7 @@ msgstr "Tapez au début de; ou le ``Numéro de téléphone`` complet pour recher
 
 
 msgid "``Email``"
-msgstr "`` Courriel``"
+msgstr "``Courriel``"
 
 
 msgid "Type in the beginning of; or the full ``Email`` to search for enrolment officers with the ``Email``, which starts with or matches completely, the typed text."
@@ -213,7 +213,7 @@ msgid "`Image 63  - Selected record (blue), hovered records (yellow) - Result Pa
 msgstr "`Image 63 - Enregistrement sélectionné (bleu), enregistrements en survol (jaune) - Panneau de résultats`"
 
 msgid "The result panel displays a list of all officers found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image63`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
-msgstr "Le résultat panneau affiche une liste de tous les agents ont trouvé, correspondant aux Critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image63`). La gauche dossier contient un lien, qui, si vous cliquez dessus, re-dirige l'utilisateur vers le record actuel pour obtenir la visualisation si c'est un record historique ou de la modification si c'est l'enregistrement en cours."
+msgstr "Le résultat panneau affiche une liste de tous les agents ont trouvé, correspondant aux Critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image63`). La colunne de gauche contient un lien qui re-dirige vers la page de visualisation dans le cas d'une ligne historique ou vers la page de modification dans le cas des lignes encore valident."
 
 
 msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image64`)"
@@ -304,7 +304,7 @@ msgid "``Substitution``"
 msgstr "``Remplacement``"
 
 msgid "Select from the list of available enrolment officers the enrolment officer which will substitute the current enrolment officer Substitution means that all prompts to renewals/feedback will be directed to the substituting enrolment officer. *Note: The list contains enrolment officers who already exist in the system and who have at least on location common with the enrolment officer to be substituted.*"
-msgstr "Sélectionnez à partir de la liste des agents d'inscription l'inscription officier qui va remplacer l'actuel inscription officier de Substitution signifie que tous les invites pour les renouvellements/commentaires seront transmis à la substitution d'inscription officier. *Remarque: La liste contient des agents d'inscription qui existent déjà dans le système et qui ont au moins sur l'emplacement de commun avec l'inscription officier pour être remplacé.*"
+msgstr "Sélectionnez à partir de la liste des agents d'inscription l'inscription officier qui va remplacer l'actuel inscription officier de Substitution signifie que tous les invites pour les renouvellements/commentaires seront transmis à la substitution d'inscription officier. *Remarque: La liste contient des agents d'inscription qui existent déjà dans le système et qui ont au moins sur le lieux de commun avec l'inscription officier pour être remplacé.*"
 
 
 msgid "``Works To``"
@@ -320,7 +320,7 @@ msgstr "``Communiquer``"
 
 
 msgid "Check the box ``Communicate`` if the enrolment officer should receive SMS messages alerting him/her about a need of renewing policies of families/groups he/she is assigned to."
-msgstr "Cochez la case ``Communiquer`` si l'agent d'inscription doit recevoir des SMS l'avertissant de la nécessité de renouveler les politiques des familles / groupes auxquels il est affecté."
+msgstr "Cochez la case ``Communiquer`` si l'agent d'inscription doit recevoir des SMS l'avertissant de la nécessité de renouveler les polices des familles / groupes auxquels il est affecté."
 
 
 msgid "``Municipalities``"

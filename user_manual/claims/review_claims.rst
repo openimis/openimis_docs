@@ -64,9 +64,9 @@ Claims Overview Page
 
       Enter the insurance number of the patient. When the field is selected, the search insuree popup(:refnum:'insuree_picker') will be display and will allow the claim administrator to search the insuree based on its insurance number, or/and last name, or/and other(first) name . 
 
-    * ``Claim No.``
+    * ``Claim No``
 
-      Type in the beginning of; or the full ``Claim No.``, to search for claims with claim identification which start with or match completely the typed text.
+      Type in the beginning of; or the full ``Claim No``, to search for claims with claim identification which start with or match completely the typed text.
 
     * ``Review Status``
 

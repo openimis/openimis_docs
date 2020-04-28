@@ -23,7 +23,7 @@ msgid "Pre-conditions"
 msgstr "Conditions préalables"
 
 msgid "A user may only be added or thereafter edited, after the approval of the management of the scheme administration. Deletion of a user normally will occur when a user leaves his/her post within the health insurance scheme and/or the scheme administration. A built in user with the user name Admin and the initial password Admin is created automatically in IMIS with access to all locations of the register of locations (at any time). The Admin user has an implicit role that includes full access rights to the registers of locations, full access to the register of user profiles and an access to downloading/uploading of the register of locations to/from an external file."
-msgstr "Un utilisateur ne peut être ajouté ou par la suite modifié, après l'approbation de la gestion du régime de l'administration. Suppression d'un utilisateur normalement se produire lorsqu'un utilisateur quitte son poste au sein du régime d'assurance maladie et/ou le régime de l'administration. Construit dans de l'utilisateur avec le nom d'utilisateur Admin et le mot de passe d'Administrateur est automatiquement créé dans le SIG avec accès à tous les emplacements du registre des emplacements (à tout moment). L'utilisateur Admin a un rôle implicite qui comprend les droits d'accès aux registres de lieux, d'accès complet pour le registre des profils d'utilisateur et un accès au téléchargement/chargement du registre des emplacements vers/depuis un fichier externe."
+msgstr "Un utilisateur ne peut être ajouté ou par la suite modifié, après l'approbation de la gestion du régime de l'administration. Suppression d'un utilisateur normalement se produire lorsqu'un utilisateur quitte son poste au sein du régime d'assurance maladie et/ou le régime de l'administration. Construit dans de l'utilisateur avec le nom d'utilisateur Admin et le mot de passe d'Administrateur est automatiquement créé dans le SIG avec accès à tous les Lieux du registre des Lieux (à tout moment). L'utilisateur Admin a un rôle implicite qui comprend les droits d'accès aux registres de lieux, d'accès complet pour le registre des profils d'utilisateur et un accès au téléchargement/chargement du registre des Lieux vers/depuis un fichier externe."
 
 
 msgid "Navigation"
@@ -35,7 +35,7 @@ msgstr "Toutes les fonctionnalités à utiliser avec l'administration des utilis
 
 
 msgid "`Navigation Users`"
-msgstr "`Utilisateurs de navigation`"
+msgstr "`Navigation: Utilisateurs`"
 
 msgid "Clicking on the sub menu ``Users`` re-directs the current user to the `User Control Page <#user-control-page>`__\\ ."
 msgstr "Un clic sur le sous-menu ``Utilisateurs`` redirige l'utilisateur actuel vers la `Page de contrôle utilisateur <#user-control-page> page de contrôle <#user-control-page>`__ \\."
@@ -95,7 +95,7 @@ msgstr "Tapez au début de; ou le numéro de téléphone complet, pour recherche
 
 
 msgid "``Email``"
-msgstr "`` Courriel``"
+msgstr "``Courriel``"
 
 
 msgid "Type in the beginning of; or the full Email, to search for users, with an Email which starts with or matches completely, the typed text."
@@ -126,21 +126,21 @@ msgstr "Sélectionnez l'Établissement de Santé; à partir de la liste des éta
 
 
 msgid "``Region``"
-msgstr "`` Région``"
+msgstr "``Région``"
 
 msgid "Select the Region; from the list of regions by clicking on the arrow on the right of the selector to find users with access to a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user.*"
 msgstr "Sélectionnez la Région; à partir de la liste des régions en cliquant sur la flèche à droite du sélecteur de trouver des utilisateurs ayant accès à une région spécifique. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté.*"
 
 
 msgid "``District``"
-msgstr "`` Quartier``"
+msgstr "``Quartier``"
 
 msgid "Select the District; from the list of districts by clicking on the arrow on the right of the selector to find users with access to a specific district. *The list will be only filled with the districts belonging to the selected region.*"
 msgstr "Sélectionnez le District; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur de trouver des utilisateurs ayant accès à un district particulier. *La liste sera remplie uniquement avec les districts appartenant à la région sélectionnée.*"
 
 
 msgid "``Language``"
-msgstr "`` Langue``"
+msgstr "``Langue``"
 
 
 msgid "Select the Language; from the list of languages by clicking on the arrow on the right of the selector, to select users with a specific language."
@@ -174,7 +174,7 @@ msgid "`Selected record (blue), hovered records (yellow) - Result Panel`"
 msgstr "`Enregistrement sélectionné (bleu), enregistrements survolés (jaune) - Panneau de résultats`"
 
 msgid "The result panel displays a list of all users found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image55`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
-msgstr "Le résultat s'affiche sur le panneau une liste de tous les utilisateurs trouvent, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image55`). La gauche dossier contient un lien, qui, si vous cliquez dessus, re-dirige l'utilisateur vers le record actuel pour obtenir la visualisation si c'est un record historique ou de la modification si c'est l'enregistrement en cours."
+msgstr "Le résultat s'affiche sur le panneau une liste de tous les utilisateurs trouvent, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image55`). La colunne de gauche contient un lien qui re-dirige vers la page de visualisation dans le cas d'une ligne historique ou vers la page de modification dans le cas des lignes encore valident."
 
 
 msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image56`)"
@@ -235,7 +235,7 @@ msgid "Enter the e-mail address for the user. 50 characters maximum."
 msgstr "Saisissez l'adresse e-mail de l'utilisateur. 50 caractères maximum."
 
 msgid "Enter the Login name for the user. This is an alias used for logging into the application; a minimum of 6 and a maximum of 25 characters should be used for the login. Each Login Name should be unique. Mandatory."
-msgstr "Entrez le nom de Connexion de l'utilisateur. C'est un alias utilisé pour la connexion à la réclamation, un minimum de 6 et un maximum de 25 caractères doit être utilisé pour la connexion. Chaque Nom de Connexion doit être unique. Obligatoire."
+msgstr "Entrez le nom de Connexion de l'utilisateur. C'est un alias utilisé pour la connexion à la prestation, un minimum de 6 et un maximum de 25 caractères doit être utilisé pour la connexion. Chaque Nom de Connexion doit être unique. Obligatoire."
 
 
 msgid "``Password``"

@@ -19,7 +19,7 @@ msgstr "Utilitaires"
 
 
 msgid "Access to the ``Utilities`` is restricted to the users with the role of openIMIS Administrator."
-msgstr "L'accès à la `Utilitaires` est limité aux utilisateurs avec le rôle de openIMIS Administrateur."
+msgstr "L'accès à la `Utilitaires` est limité aux utilisateurs avec le rôle d'openIMIS Administrateur."
 
 
 msgid "The ``Utilities`` is the place for database administration. By having access to this page, it is possible to backup and restore the openIMIS operational database and also to execute SQL Scripts (patches provided for maintenance or update of the database). At the top of the page, the current “Backend” version is displayed for reference."
@@ -38,7 +38,7 @@ msgstr "Toutes les fonctionnalités à utiliser avec l'administration des utilit
 
 
 msgid "`Navigation Utilities`"
-msgstr "`Utilitaires de navigation`"
+msgstr "`Navigation: Utilitaires`"
 
 
 msgid "Clicking on the sub menu ``Utilities`` re-directs the current user to the `Utilities Page. <#image-6.75-utilities-page>`__"

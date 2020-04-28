@@ -31,17 +31,17 @@ msgstr "`Navigation Health Facilities`"
 msgid "All functionality for use with the administration of health facilities can be found under the main menu ``Administration``, sub menu ``Health Facilities.``"
 msgstr "All functionality for use with the administration of health facilities can be found under the main menu ``Administration``, sub menu ``Health Facilities.``"
 
-msgid "Clicking on the sub menu ``Health Facilities`` re-directs the current user to the `Health Facilities Control Page <#health-facilities-control-page>`__\\."
-msgstr "Clicking on the sub menu ``Health Facilities`` re-directs the current user to the `Health Facilities Control Page <#health-facilities-control-page>`__\\."
+msgid "Clicking on the sub menu ``Health Facilities`` re-directs the current user to the `Health Facilities Control Page <#health-facilities-control-page>`__."
+msgstr "Clicking on the sub menu ``Health Facilities`` re-directs the current user to the `Health Facilities Control Page <#health-facilities-control-page>`__."
 
 msgid "`Health Facilities Control Page`"
 msgstr "`Health Facilities Control Page`"
 
-msgid "Health Facilities Control PAGE"
-msgstr "Health Facilities Control PAGE"
+msgid "Health Facilities Control Page"
+msgstr "Health Facilities Control Page"
 
-msgid "The ``Health Facilities Control Page`` is the central point for all health facilities administration. By having access to this page, it is possible to add, edit, delete and search. The page is divided into four panels (:numref:`image16`)"
-msgstr "The ``Health Facilities Control Page`` is the central point for all health facilities administration. By having access to this page, it is possible to add, edit, delete and search. The page is divided into four panels (:numref:`image16`)"
+msgid "The ``Health Facilities Control Page`` is the central point for all health facilities administration. By having access to this page, it is possible to add, edit, delete and search. The page is divided into four panels (:numref:`hf_page`)"
+msgstr "The ``Health Facilities Control Page`` is the central point for all health facilities administration. By having access to this page, it is possible to add, edit, delete and search. The page is divided into four panels (:numref:`hf_page`)"
 
 msgid "**Search Panel**"
 msgstr "**Search Panel**"
@@ -112,8 +112,8 @@ msgstr "Select the ``Care Type`` from the list of types (In-patient, Out-patient
 msgid "``Historical``"
 msgstr "``Historical``"
 
-msgid "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image17`)"
-msgstr "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image17`)"
+msgid "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`hf_list_historic`)"
+msgstr "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`hf_list_historic`)"
 
 msgid "`Historical Records - Result Panel`"
 msgstr "`Historical Records - Result Panel`"
@@ -127,14 +127,14 @@ msgstr "Once the criteria have been entered, use the search button to filter the
 msgid "**Result Panel**"
 msgstr "**Result Panel**"
 
-msgid "The result panel displays a list of all health facilities found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image18`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
-msgstr "The result panel displays a list of all health facilities found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image18`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
+msgid "The result panel displays a list of all health facilities found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`hf_list_select`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
+msgstr "The result panel displays a list of all health facilities found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light grey(:numref:`hf_list_select`). The rightmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
 
 msgid "`Selected record (blue), hovered records (yellow) - Result Panel`"
 msgstr "`Selected record (blue), hovered records (yellow) - Result Panel`"
 
-msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image19`)"
-msgstr "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image19`)"
+msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`mat_record_per_page`)"
+msgstr "A maximum of 10 records are displayed at one time( can be changed:numref:`mat_page_browser`), further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`mat_record_per_page`)"
 
 msgid "`Page selector- Result Panel`"
 msgstr "`Page selector- Result Panel`"
@@ -259,8 +259,8 @@ msgstr "When the page opens all entry fields are empty. See the `Health Facility
 msgid "Editing a Health Facility"
 msgstr "Editing a Health Facility"
 
-msgid "Click on the ``Edit`` button to re-direct to the `Health Facility Page <#health-facility-page>`__\\ ."
-msgstr "Click on the ``Edit`` button to re-direct to the `Health Facility Page <#health-facility-page>`__\\ ."
+msgid "Double click on the line to be re-directed to the `Health Facility Page <#health-facility-page>`__ ."
+msgstr "Double click on the line to be re-directed to the `Health Facility Page <#health-facility-page>`__ ."
 
 msgid "The page will open with the current information loaded into the data entry fields. See the `Health Facility Page <#health-facility-page>`__ for information on the data entry and mandatory fields"
 msgstr "The page will open with the current information loaded into the data entry fields. See the `Health Facility Page <#health-facility-page>`__ for information on the data entry and mandatory fields"
@@ -271,8 +271,8 @@ msgstr "Deleting a Health Facility"
 msgid "Click on the ``Delete`` button to delete the currently selected record."
 msgstr "Click on the ``Delete`` button to delete the currently selected record."
 
-msgid "Before deleting a confirmation popup (:numref:`image21`) is displayed, which requires the user to confirm if the action should really be carried out?"
-msgstr "Before deleting a confirmation popup (:numref:`image21`) is displayed, which requires the user to confirm if the action should really be carried out?"
+msgid "Before deleting a confirmation popup (:numref:`hf_delete_conf`) is displayed, which requires the user to confirm if the action should really be carried out?"
+msgstr "Before deleting a confirmation popup (:numref:`hf_delete_conf`) is displayed, which requires the user to confirm if the action should really be carried out?"
 
 msgid "`Delete confirmation- Button Panel`"
 msgstr "`Delete confirmation- Button Panel`"

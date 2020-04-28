@@ -15,7 +15,7 @@ msgid "Medical Items Administration"
 msgstr "Administration des produit médicaux"
 
 msgid "The register of Medical Items contains all medical items (drugs, prostheses) that can be included in packages of benefits of insurance products within the health insurance scheme and are remunerated by the scheme administration. Administration of the register of medical items is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Medical Items."
-msgstr "Le registre d'Articles Médicaux, contient tous les produit médicaux (médicaments, prothèses) qui peuvent être inclus dans les packages de prestations de produits d'assurance dans le régime d'assurance santé et sont rémunérés par le régime de l'administration. L'Administration du registre de produit médicaux est limité aux utilisateurs avec le rôle de système de Régime d'Administrateur ou avec un rôle, y compris un accès à l'Administration/des Articles Médicaux."
+msgstr "Le registre d'Produit médicaux, contient tous les produit médicaux (médicaments, prothèses) qui peuvent être inclus dans les packages de prestations de paquets de bénéfices dans le régime d'assurance santé et sont rémunérés par le régime de l'administration. L'Administration du registre de produit médicaux est limité aux utilisateurs avec le rôle de système de Régime d'Administrateur ou avec un rôle, y compris un accès à l'Administration/des Produit médicaux."
 
 
 msgid "Pre-conditions"
@@ -31,15 +31,15 @@ msgstr "La navigation"
 
 
 msgid "All functionality for use with the administration of medical items can be found under the main menu ``Administration``, sub menu ``Medical Items``"
-msgstr "Toutes les fonctionnalités à utiliser avec l'administration des produit médicaux se trouvent dans le menu principal ``Administration``, sous-menu ``Articles médicaux``"
+msgstr "Toutes les fonctionnalités à utiliser avec l'administration des produit médicaux se trouvent dans le menu principal ``Administration``, sous-menu ``Produit médicaux``"
 
 
 msgid "`Navigation Medical Items`"
-msgstr "`Articles médicaux de navigation`"
+msgstr "`Navigation: Produit médicaux`"
 
 
 msgid "Clicking on the sub menu ``Medical Items`` re-directs the current user to the `Medical Items Control Page <#medical-items-control-page>`__\\."
-msgstr "Un clic sur le sous-menu ``Articles médicaux`` redirige l'utilisateur actuel vers la `Page de contrôle des produit médicaux <#medical-items-control-page>`__ \\."
+msgstr "Un clic sur le sous-menu ``Produit médicaux`` redirige l'utilisateur actuel vers la `Page de contrôle des produit médicaux <#medical-items-control-page>`__ \\."
 
 
 msgid "`Medical Items Control Page`"
@@ -62,7 +62,7 @@ msgstr "Le panneau de recherche permet à un utilisateur de sélectionner des cr
 
 
 msgid "``Code``"
-msgstr "`` Code``"
+msgstr "``Code``"
 
 
 msgid "Type in the beginning of; or the full ``Code``; to search for medical items with a ``Code``, which starts with or matches completely, the typed text."
@@ -116,7 +116,7 @@ msgid "**Result Panel**"
 msgstr "**Panneau de résultats**"
 
 msgid "The result panel displays a list of all medical items found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image32`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
-msgstr "Le résultat s'affiche sur le panneau une liste de tous les objets trouvés, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image32`). La gauche dossier contient un lien, qui, si vous cliquez dessus, re-dirige l'utilisateur vers le record actuel pour obtenir la visualisation si c'est un record historique ou de la modification si c'est l'enregistrement en cours."
+msgstr "Le résultat s'affiche sur le panneau une liste de tous les objets trouvés, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en surbrillance avec la lumière bleue, tout en survolant enregistre les changements de la surbrillance jaune (:numref:`image32`). La colunne de gauche contient un lien qui re-dirige vers la page de visualisation dans le cas d'une ligne historique ou vers la page de modification dans le cas des lignes encore valident."
 
 
 msgid "`Selected record (blue), hovered records (yellow) - Result Panel`"
@@ -159,27 +159,27 @@ msgstr "`Page de produit médicaux`"
 
 
 msgid "Enter the code for the medical item. Mandatory, 6 characters."
-msgstr "Entrez le code de l'article médical. Obligatoire, 6 caractères."
+msgstr "Entrez le code du produit médical. Obligatoire, 6 caractères."
 
 
 msgid "Enter the name of the medical item. Mandatory, 100 characters maximum."
-msgstr "Entrez le nom de l'article médical. Obligatoire, 100 caractères maximum."
+msgstr "Entrez le nom du produit médical. Obligatoire, 100 caractères maximum."
 
 
 msgid "Choose one from the options available, the type of the medical item. Mandatory."
-msgstr "Choisissez l'une des options disponibles, le type de l'article médical. Obligatoire."
+msgstr "Choisissez l'une des options disponibles, le type du produit médical. Obligatoire."
 
 
 msgid "Enter the package (Indication of type and volume of package in a suitable coding system) for the medical item. Mandatory, 255 characters maximum."
-msgstr "Saisissez l'emballage (indication du type et du volume de l'emballage dans un système de codage approprié) pour l'article médical. Obligatoire, 255 caractères maximum."
+msgstr "Saisissez l'emballage (indication du type et du volume de l'emballage dans un système de codage approprié) pour le produit médical. Obligatoire, 255 caractères maximum."
 
 
 msgid "``Price``"
-msgstr "`` Prix``"
+msgstr "``Prix``"
 
 
 msgid "Enter the price (a general price that can be overloaded in pricelists). Full general price including potential cost sharing of an insuree) for the medical item. Mandatory."
-msgstr "Entrez le prix (un prix général qui peut être surchargé dans les listes de prix). Prix général complet, y compris le partage éventuel des coûts d'un assuré) pour l'article médical. Obligatoire."
+msgstr "Entrez le prix (un prix général qui peut être surchargé dans les listes de prix). Prix général complet, y compris le partage éventuel des coûts d'un assuré) pour le produit médical. Obligatoire."
 
 
 msgid "``Care Type``"
@@ -187,7 +187,7 @@ msgstr "``Type de soins``"
 
 
 msgid "Choose one from the options available, the limitation of provision of the medical item within the specific type of health care (In-patient, Out-patient or Both). Mandatory."
-msgstr "Choisissez l'une des options disponibles, la limitation de la fourniture de l'article médical dans le type spécifique de soins de santé (hospitalier, ambulatoire ou les deux). Obligatoire."
+msgstr "Choisissez l'une des options disponibles, la limitation de la fourniture du produit médical dans le type spécifique de soins de santé (hospitalier, ambulatoire ou les deux). Obligatoire."
 
 
 msgid "``Frequency``"
@@ -203,7 +203,7 @@ msgstr "``Patient``"
 
 
 msgid "Choose one or a combination of the options available, to specify which patient type the medical item may be provided to. *Note: By default all patients’ options are checked (selected).*"
-msgstr "Choisissez une ou une combinaison des options disponibles pour spécifier à quel type de patient l'article médical peut être fourni. *Remarque: Par défaut, toutes les options des patients sont cochées (sélectionnées).*"
+msgstr "Choisissez une ou une combinaison des options disponibles pour spécifier à quel type de patient le produit médical peut être fourni. *Remarque: Par défaut, toutes les options des patients sont cochées (sélectionnées).*"
 
 
 msgid "**Saving**"
@@ -211,7 +211,7 @@ msgstr "**Sauvegarder**"
 
 
 msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Medical Items Control Page <#medical-items-control-page>`__, with the newly saved record displayed and selected in the Result Panel. A message confirming that the medical item has been saved will appear on the Information Panel."
-msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton ``Sauvegarder`` sauvegardera l'enregistrement. L'utilisateur sera redirigé vers la `Page de contrôle des produit médicaux <#medical-items-control-page>`__, avec l'enregistrement nouvellement enregistré affiché et sélectionné dans le panneau de résultats. Un message confirmant que l'article médical a été enregistré apparaîtra sur le panneau d'information."
+msgstr "Une fois toutes les données obligatoires saisies, cliquer sur le bouton ``Sauvegarder`` sauvegardera l'enregistrement. L'utilisateur sera redirigé vers la `Page de contrôle des produit médicaux <#medical-items-control-page>`__, avec l'enregistrement nouvellement enregistré affiché et sélectionné dans le panneau de résultats. Un message confirmant que le produit médical a été enregistré apparaîtra sur le panneau d'information."
 
 
 msgid "**Mandatory data**"
@@ -271,4 +271,4 @@ msgstr "`Supprimer la confirmation - Panneau de boutons`"
 
 
 msgid "When the medical item is deleted, all records retaining to the deleted medical item will still be available by selecting historical records."
-msgstr "Lorsque l'article médical est supprimé, tous les enregistrements conservant l'article médical supprimé seront toujours disponibles en sélectionnant les enregistrements historiques."
+msgstr "Lorsque le produit médical est supprimé, tous les enregistrements conservant le produit médical supprimé seront toujours disponibles en sélectionnant les enregistrements historiques."
