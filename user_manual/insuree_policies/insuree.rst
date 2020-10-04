@@ -30,77 +30,16 @@ Find Insuree Page
 
 
   .. _image96:
-  .. figure:: /img/user_manual/image76.png
+  .. figure:: /img/user_manual/76_insuree_search.png
     :align: center
 
     `Find Insuree Page`
 
-  The ``Find Insuree Page`` is the first step in the process of finding an insuree and thereafter accessing the family/group overview of insurees, policies and contributions. This initial page can be used to search for specific Insurees or groups of insurees based on specific criteria. The panel is divided into four panels (:numref:`image96`)
+  The ``Find Insuree Page`` is the first step in the process of finding an insuree and thereafter accessing the family/group overview of insurees, policies and contributions. This initial page can be used to search for specific Insurees or groups of insurees based on specific criteria. The panel is divided into three panels (:numref:`image96`)
 
  #. **Search Panel**
 
-    The Search Panel allows a user to select specific criteria to minimise the search results. In the case of insurees the following search options are available, which can be used alone or in combination with each other.
-
-    * ``Last Name``
-
-      Type in the beginning of; or the full ``Last name``; to search for insurees with a ``Last name``, which starts with or matches completely, the typed text.
-
-    * ``Other Names``
-
-      Type in the beginning of; or the full ``Other Names`` to search for insurees with ``Other Names`` which starts with or matches completely, the typed text.
-
-    * ``Insurance Number``
-
-      Type in the beginning of; or the full ``Insurance Number`` to search for insurees with the ``Insurance Number``, which starts with or matches completely, the typed text.
-
-    * ``Marital Status``
-
-      Select the ``Marital Status``; from the list of marital status by clicking on the arrow on the right of the selector, to select insurees of a specific marital status.
-
-    * ``Phone Number``
-
-      Type in the beginning of; or the full ``Phone Number`` to search for insurees with a ``Phone Number``, which starts with or matches completely, the typed number.
-
-    * ``Birth Date From``
-
-      Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for insurees who have the same or later birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
-
-    * ``Birth Date To``
-
-      Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for insurees who have the same or earlier birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
-
-    * ``Date Selector Button``
-
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image97`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
-
-        - At anytime during the use of the pop-up, the user can see the date of **today**.
-        - Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
-        - Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box.
-        - Clicking on the arrow to the left displays the previous month.
-        - Clicking on the arrow on the right will displays the following month.
-        - Clicking on the month will display all the months for the year.
-        - Clicking on the year will display a year selector.
-
-      .. _image97:
-      .. |logo27| image:: /img/user_manual/image6.png
-        :scale: 100%
-        :align: middle
-      .. |logo28| image:: /img/user_manual/image7.png
-        :scale: 100%
-        :align: middle
-      .. |logo29| image:: /img/user_manual/image8.png
-        :scale: 100%
-        :align: middle
-
-      +----------++----------++----------+
-      | |logo27| || |logo28| || |logo29| |
-      +----------++----------++----------+
-
-        `Calendar Selector - Search Panel`
-
-    * ``Gender``
-
-      Select the ``Gender``; from the list of genders by clicking on the arrow on the right of the selector, to select insurees of a specific gender.
+    The Search Panel allows a user to select specific criteria to reduce the search results. In the case of insurees the following search options are available, which can be used alone or in combination with each other.
 
     * ``Region``
 
@@ -112,74 +51,122 @@ Find Insuree Page
 
     * ``Municipality``
 
-      Select the ``Municipality``; from the list of wards by clicking on the arrow on the right of the selector to select insurees from a specific municipality. *Note: The list will only be filled with the wards in the selected district above.*
+      Select the ``Municipality``; from the list of wards either by typing at least two characters or by clicking on the arrow on the right of the selector to select insurees from a specific municipality. *Note: The list will only be filled with the wards in the selected district above.*
 
     * ``Village``
 
-      Select the ``Village``; from the list of villages by clicking on the arrow on the right of the selector to select insurees from a specific village. *Note: The list will only be filled with the villages in the selected municipality above.*
+      Select the ``Village``; from the list of villages either by typing at least two characters or by clicking on the arrow on the right of the selector to select insurees from a specific village. *Note: The list will only be filled with the villages in the selected municipality above.*
 
-    * ``Photo Assigned``
+    * ``Insurance Number``
 
-      Select whether all insurees are searched [**All**] or only insurees with a photo assigned [**Yes**] or only insurees with no photo assigned [**No**].
+      Type in the beginning of; or the full ``Insurance Number`` to search for insurees with the ``Insurance Number``, which starts with or matches completely, the typed text.
 
-    * ``Historical``
+    * ``Last Name``
 
-      Click on Historical to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image98`)
+      Type in the beginning of; or the full ``Last name``; to search for insurees with a ``Last name``, which starts with or matches completely, the typed text.
+
+    * ``Given Names``
+
+      Type in the beginning of; or the full ``Given Names`` to search for insurees with ``Other Names`` which starts with or matches completely, the typed text.
+
+    * ``Gender``
+
+      Select the ``Gender``; from the list of genders by clicking on the arrow on the right of the selector, to select insurees of a specific gender.
+
+    * ``Marital Status``
+
+      Select the ``Marital Status``; from the list of marital status by clicking on the arrow on the right of the selector, to select insurees of a specific marital status.
+
+    * ``Email``
+
+      Type in the beginning of; or the full ``Email`` address to search for insurees with a ``Email``, which contains or matches completely, the typed email.
+
+    * ``Phone Number``
+
+      Type in the beginning of; or the full ``Phone Number`` to search for insurees with a ``Phone Number``, which contains or matches completely, the typed number.
+
+    * ``Birth Date From``
+
+      Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for insurees who have the same or later birth date. *Note. To clear the date entry box; click on the date and use the ``Clear`` button on the bottom left.*
+
+    * ``Birth Date To``
+
+      Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for insurees who have the same or earlier birth date. *Note. To clear the date entry box; click on the date and use the ``Clear`` button on the bottom left.*
+
+    * ``Photo status``
+
+      Select whether all insurees are searched [**Any**] or only insurees [**With**] a photo assigned or only insurees [**Without**] photo assigned.
+
+    * ``Show historical values``
+
+      Click on Show historical values to see historical records matching the selected criteria. Historical records are displayed in the result as grayed out. (:numref:`image98`)
 
       .. _image98:
-      .. figure:: /img/user_manual/image77.png
+      .. figure:: /img/user_manual/77_insuree_historical.png
         :align: center
 
         `Historical records - Result Panel`
 
-    * ``Search Button``
+    * ``Search Buttons``
 
-      Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel.
+      When criteria are defined and potentially after a small delay, the search will be automatically executed. There are however two buttons on the top right:
+
+      .. _image_search_buttons:
+      .. |search_reset_button| image:: /img/user_manual/search_reset_button.png
+        :align: middle
+      .. |search_button| image:: /img/user_manual/search_button.png
+        :align: middle
+
+      +-----------------------+-----------------------+
+      | |search_reset_button| | Reset search criteria |
+      +-----------------------+-----------------------+
+      | |search_button|       | Search (again)        |
+      +-----------------------+-----------------------+
 
  #. **Result Panel**
 
-    The result panel displays a list of all Insurees found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image99`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Family Overview Page <#family-overview-page.>`__ of the insuree’s family, or the `Insuree Page <#insuree-page>`__ if it is a historical record for viewing purposes.
+    The result panel displays a list of all Insurees found, matching the selected criteria in the search panel. The leftmost column contains a search icon which if clicked, opens a dialog with further details and eligibility check. On the right, the family icon directs the user to the `Family Overview Page <#family-overview-page.>`__ of the insuree’s family, and a button to delete the insuree.
 
     .. _image99:
-    .. figure:: /img/user_manual/image78.png
+    .. figure:: /img/user_manual/78_insuree_search_results.png
       :align: center
 
-      `Selected record (blue), hovered records (yellow) - Result Panel`
+      `Highlighted result row`
 
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image100`)
+    The number of rows per page is limited to 10 by default but one can use the "Rows per page" drop-down in the bottom right of the search results. If there are more rows to display, one can use the page navigation. (:numref:`image100`)
 
     .. _image100:
-    .. figure:: /img/user_manual/image11.png
+    .. figure:: /img/user_manual/79_pagination.png
       :align: center
+      :width: 50%
 
       `Page selector- Result Panel`
 
- #. **Button Panel**
-
-    The ``CLAIMS`` button directs to the  Claims Control Pages for the selected insure. The  Claims Control Pages is populated by the insurance number of the selected insuree. The CLAIMS button is available only if the user has a role that includes access to Claims/Claim/Search.
-
-    The ``CLAIMS REVIEWED`` button directs to the Claims Overview Page for the selected insure. The  Claims Overview Page is populated by the insurance number of the selected insuree. The CLAIMS REVIEWED button is available only if the user has a role that includes access to Claims/Claim/Review.
-
-    The ``Cancel`` button re-directs to the ``Home Page``.
-
- #. **Information Panel**
+ #. **Information/Button Panel**
 
     The Information Panel is used to display messages back to the user. Messages will occur once a insuree has been added, updated or deleted or if there was an error at any time during the process of these actions.
+
+    The ``+`` button will create a new insuree.
+
 
 Insuree Page
 """"""""""""
 
- #. **Data Entry**
-
     .. _image126:
-    .. figure:: /img/user_manual/image100.png
+    .. figure:: /img/user_manual/100_insuree_edit.png
       :align: center
 
       `Insuree Page`
 
+ #. **Family Details**
+
+    The first section contains the family information. Refer to the Family section for details about the displayed fields.
+
+ #. **Insuree Data**
+
     * ``Relationship``
 
-      Select from the list of available relationships of the insuree to the head of family/group.
+      Shown in the insuree section header only if the insuree is not the head of the family. Select from the list of available relationships of the insuree to the head of family/group.
 
     * ``Insurance Number``
 
@@ -189,13 +176,13 @@ Insuree Page
 
       Enter the last name (surname) for the insuree. Mandatory, 100 characters maximum.
 
-    * ``Other Names``
+    * ``Given Names``
 
-      Enter other names of the insuree. Mandatory, 100 characters maximum.
+      Enter given names of the insuree. Mandatory, 100 characters maximum.
 
     * ``Birth Date``
 
-      Enter the date of birth for the insuree. *Note: You can also use the button next to the birth date field to select a date to be entered.*
+      Enter the date of birth for the insuree.
 
     * ``Gender``
 
@@ -207,35 +194,29 @@ Insuree Page
 
     * ``Beneficiary Card``
 
-      Select from the list of options whether or not the card was issued to the insure. 
+      Select from the list of options whether or not the card was issued to the insuree.
 
-    * ``Current Region``
+    * ``Photo Date``
 
-      Select from the list of available regions the region, in which the insuree temporarily stays.
+      Select the date at which the picture was taken.
 
-    * ``Current District``
+    * ``Photo``
 
-      Select from the list of available districts the district, in which the insuree temporarily stays. *Note: The list will only be filled with the districts belonging to the selected region*
+      Click on the person icon to upload a photo for the insuree related to his/her insurance number.
 
-    * ``Current Municipality``
+      *Note: There is an automated service in the openIMIS Server which will run on configured time basis repeatedly and assign related photos to insurees without photos if any exist in the openIMIS database. So after a user has input insuree's insurance number and no photo is displayed, there is no need to browse for the photo as that process will be done automatically by the service if the service is configured.*
 
-      Select from the list of available municipalities the municipality, in which the insuree temporarily stays. *Note: The list will only be filled with the municipalities belonging to the selected district.*
+    * ``Officer``
 
-    * ``Current Village``
+      Select the officer handling the insuree. Mandatory.
 
-      Select from the list of available villages the village, in which the insuree temporarily stays. *Note: The list will only be filled with the villages belonging to the selected municipality.*
+    * ``Same Village as Family``
 
-    * ``Current Address Details.``
+      If selected, the village of the family is used for this insuree too. Otherwise, fields will appear with Region, District, Ward and Village selection.
 
-      Enter details of the temporal address of the insuree.
+    * ``Same Address as Family``
 
-    * ``Profession``
-
-      Select from the list of available professions the profession of the insuree.
-
-    * ``Education``
-
-      Select from the list of available educations the education of the insuree.
+      If selected, the address of the family is used for this insuree too. Otherwise, an address field will appear to provide the actual address.
 
     * ``Phone Number``
 
@@ -245,6 +226,14 @@ Insuree Page
 
       Enter the e-mail address of the insuree.
 
+    * ``Profession``
+
+      Select from the list of available professions the profession of the insuree.
+
+    * ``Education``
+
+      Select from the list of available educations the education of the insuree.
+
     * ``Identification Type``
 
       Select the type of the identification document of the insuree.
@@ -253,35 +242,35 @@ Insuree Page
 
       Enter alphanumeric identification of the document of the insuree.
 
-    * ``Region of FSP``
-
-      Select from the list of available regions the region, in which the chosen primary health facility (First Service Point) of the insuree is located.
-
-    * ``District of FSP``
-
-      Select from the list of available districts the district, in which the chosen primary health facility (First Service Point) of the insuree is located. *Note: The list will only be filled with the districts belonging to the selected region.*
-
-    * ``Level of FSP``
-
-      Select the level of the chosen primary health facility (First Service Point) of the insuree.
-
     * ``First Service Point``
 
-      Select from the list of available health facilities the chosen primary health facility (First Service Point) of the insuree. *Note: The list will only be filled with the health facilities belonging to the selected district which are of the selected level.*
+      * ``Region of FSP``
 
-    * ``Browse``
+        Select from the list of available regions the region, in which the chosen primary health facility (First Service Point) of the insuree is located.
 
-      Browse to get the photo for the insuree related to his/her insurance number.
+      * ``District of FSP``
 
-    *Note: There is an automated service in the openIMIS Server which will run on configured time basis repeatedly and assign related photos to insurees without photos if any exist in the openIMIS database. So after a user has input insuree's insurance number and no photo is displayed, there is no need to browse for the photo as that process will be done automatically by the service if the service is configured.*
+        Select from the list of available districts the district, in which the chosen primary health facility (First Service Point) of the insuree is located. *Note: The list will only be filled with the districts belonging to the selected region.*
+
+      * ``Level of FSP``
+
+        Select the level of the chosen primary health facility (First Service Point) of the insuree.
+
+      * ``First Service Point``
+
+        Select from the list of available health facilities the chosen primary health facility (First Service Point) of the insuree. *Note: The list will only be filled with the health facilities belonging to the selected district which are of the selected level.*
+
 
  #. **Saving**
+
+    .. image:: /img/user_manual/save_button.png
+       :width: 69px
 
     Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Family Overview Page <#family-overview-page.>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the insuree has been saved will appear on the Information Panel.
 
  #. **Mandatory data**
 
-    If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk)
+    The ``Save`` button is disabled until all mandatory data fields (with an asterisk) are filled.
 
  #. **Cancel**
 
@@ -297,21 +286,28 @@ Adding an Insuree
 Editing an Insuree
 """"""""""""""""""
 
-  Click on the Yellow Pencil Sign to re-direct to the `Insuree Page <#insuree-page>`__\.
+  Double-click in the insuree search results to edit in the `Insuree Page <#insuree-page>`__\.
 
   The page will open with the current information loaded into the data entry fields. See the Insuree Page for information on the data entry and mandatory fields.
 
 Deleting an Insuree
 """""""""""""""""""
 
-  Click on the Red Cross Sign to delete the currently selected record.
+  Click on trashcan icon on the right of an insuree search result to delete it.
 
-  Before deleting a confirmation popup (:numref:`image127`) is displayed, which requires the user to confirm if the action should really becarried out?
+  .. _image127a:
+  .. figure:: /img/user_manual/delete_insuree_button.png
+     :align: center
+     :width: 250px
 
-  .. _image127:
-  .. figure:: /img/user_manual/image24.png
+     `Delete insuree button`
+
+  Before deleting a confirmation popup (:numref:`image127b`) is displayed, which requires the user to confirm if the action should really be carried out?
+
+  .. _image127b:
+  .. figure:: /img/user_manual/24_insuree_delete_confirmation.png
     :align: center
 
-    `Delete confirmation- Button Panel`
+    `Insuree Delete confirmation`
 
   When an insuree is deleted, all records retaining to the deleted insuree will still be available by selecting historical records.
