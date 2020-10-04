@@ -184,7 +184,7 @@ texinfo_documents = [
 
 # Add custom CSS to resize the tables
 def setup(app):
-    app.add_stylesheet('css/theme_overrides.css')
+    app.add_css_file('css/theme_overrides.css')
 
 #interlink mapping
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
