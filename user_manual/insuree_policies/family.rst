@@ -111,7 +111,7 @@ Navigation
 
  #. **Result Panel**
 
-    The Result Panel displays a list of all families/groups found, matching the selected criteria in the Search Panel (:numref:`image93`).
+    The Result Panel displays a list of all families/groups found, matching the selected criteria in the Search Panel.
     
     Double clicking on a record re-directs the user to the `Family Overview Page <#family-overview>`__ for the Family selected or if it is an historical record then the `Change Family Page <#family-group-page>`__, for detailed viewing.
 
@@ -399,7 +399,7 @@ Moving an Insuree
 
   A Insuree Search dialog (automatically filtering on non-head insuree) allows the user to find the insuree
 
-    .. _image127:
+  .. _image127:
   .. figure:: /img/user_manual/image127.png
     :align: center
 
