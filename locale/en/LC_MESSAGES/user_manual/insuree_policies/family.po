@@ -1,13 +1,13 @@
 msgid ""
-msgstr "" 
-"Project-Id-Version: openIMIS \n" 
-"Report-Msgid-Bugs-To: \n" 
-"POT-Creation-Date: 2019-08-16 15:21+0200\n" 
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n" 
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n" 
-"Language-Team: LANGUAGE <LL@li.org>\n" 
-"MIME-Version: 1.0\n" 
-"Content-Type: text/plain; charset=UTF-8\n" 
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-16 15:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Family/Group"
@@ -19,14 +19,8 @@ msgstr "Find Family"
 msgid "Access to the ``Find Family Page`` is restricted to users with the system roles of Accountant, Clerk and Health Facility Receptionist or with a role including an access to Insurees and Families/Family/Enquiry."
 msgstr "Access to the ``Find Family Page`` is restricted to users with the system roles of Accountant, Clerk and Health Facility Receptionist or with a role including an access to Insurees and Families/Family/Enquiry."
 
-msgid "Pre-conditions"
-msgstr "Pre-conditions"
-
 msgid "Need to enquire on, or edit a family and/or insurees, policies and contributions associated."
 msgstr "Need to enquire on, or edit a family and/or insurees, policies and contributions associated."
-
-msgid "Navigation"
-msgstr "Navigation"
 
 msgid "Find Family can be found under the main menu ``Insurees and Policies`` sub menu ``Families/Groups``"
 msgstr "Find Family can be found under the main menu ``Insurees and Policies`` sub menu ``Families/Groups``"
@@ -40,134 +34,20 @@ msgstr "Clicking on the sub menu ``Families/Groups`` re-directs the current user
 msgid "`Find Families`"
 msgstr "`Find Families`"
 
-msgid "The Find Family Page is the first step in the process of finding of a family and thereafter accessing the `Family Overview Page <#family-overview>`__ of insurees, policies and contributions. This initial page can be used to search for specific families or groups based on specific criteria. The page is divided into four panels (:numref:`image90`):"
-msgstr "The Find Family Page is the first step in the process of finding of a family and thereafter accessing the `Family Overview Page <#family-overview>`__ of insurees, policies and contributions. This initial page can be used to search for specific families or groups based on specific criteria. The page is divided into four panels (:numref:`image90`):"
+msgid "The Find Family Page is the first step in the process of finding of a family and thereafter accessing the `Family Overview Page <#family-overview>`__ of insurees, policies and contributions. This initial page can be used to search for specific families or groups based on specific criteria. The page is divided into two panels (:numref:`image90`):"
+msgstr "The Find Family Page is the first step in the process of finding of a family and thereafter accessing the `Family Overview Page <#family-overview>`__ of insurees, policies and contributions. This initial page can be used to search for specific families or groups based on specific criteria. The page is divided into two panels (:numref:`image90`):"
 
-msgid "**Search Panel**"
-msgstr "**Search Panel**"
+msgid "**Search Criteria Panel**"
+msgstr "**Search Criteria Panel**"
 
 msgid "The search panel allows a user to select specific criteria to minimise the search results. The following search options are available which can be used alone or in combination with each other."
 msgstr "The search panel allows a user to select specific criteria to minimise the search results. The following search options are available which can be used alone or in combination with each other."
 
-msgid "``Last Name``"
-msgstr "``Last Name``"
-
-msgid "Type in the beginning of; or the full ``Last name``; to search for families/groups, who’s family head/group head ``Last name``, starts with or matches completely, the typed text."
-msgstr "Type in the beginning of; or the full ``Last name``; to search for families/groups, who’s family head/group head ``Last name``, starts with or matches completely, the typed text."
-
-msgid "``Other Names``"
-msgstr "``Other Names``"
-
-msgid "Type in the beginning of; or the full ``Other Names`` to search for families/groups, who’s family head/group head ``Other Names`` starts with or matches completely, the typed text."
-msgstr "Type in the beginning of; or the full ``Other Names`` to search for families/groups, who’s family head/group head ``Other Names`` starts with or matches completely, the typed text."
-
-msgid "``Insurance Number``"
-msgstr "``Insurance Number``"
-
-msgid "Type in the beginning of; or the full ``Insurance Number`` to search for families/groups, who’s family head/group head ``Insurance Number``, starts with or matches completely, the typed text."
-msgstr "Type in the beginning of; or the full ``Insurance Number`` to search for families/groups, who’s family head/group head ``Insurance Number``, starts with or matches completely, the typed text."
-
-msgid "``Phone Number``"
-msgstr "``Phone Number``"
-
-msgid "Type in the beginning of; or the full ``Phone Number`` to search for families/groups, who’s family head/group head ``Phone Number``, starts with or matches completely, the typed number."
-msgstr "Type in the beginning of; or the full ``Phone Number`` to search for families/groups, who’s family head/group head ``Phone Number``, starts with or matches completely, the typed number."
-
-msgid "``Birth Date From``"
-msgstr "``Birth Date From``"
-
-msgid "Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for families/groups, who’s family head/group head, has the same or later birth date than ``Birth Date From``. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
-msgstr "Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for families/groups, who’s family head/group head, has the same or later birth date than ``Birth Date From``. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
-
-msgid "``Birth Date To``"
-msgstr "``Birth Date To``"
-
-msgid "Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for families/groups, who’s family head/group head, has the same or earlier birth date than ``Birth Date To``. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
-msgstr "Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for families/groups, who’s family head/group head, has the same or earlier birth date than ``Birth Date To``. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
-
-msgid "``Date Selector Button``"
-msgstr "``Date Selector Button``"
-
-msgid "Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image91`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted."
-msgstr "Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image91`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted."
-
-msgid "At anytime during the use of the pop-up, the user can see the date of **today**."
-msgstr "At anytime during the use of the pop-up, the user can see the date of **today**."
-
-msgid "Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box."
-msgstr "Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box."
-
-msgid "Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box."
-msgstr "Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box."
-
-msgid "Clicking on the arrow to the left displays the previous month."
-msgstr "Clicking on the arrow to the left displays the previous month."
-
-msgid "Clicking on the arrow on the right will displays the following month."
-msgstr "Clicking on the arrow on the right will displays the following month."
-
-msgid "Clicking on the month will display all the months for the year."
-msgstr "Clicking on the month will display all the months for the year."
-
-msgid "Clicking on the year will display a year selector."
-msgstr "Clicking on the year will display a year selector."
-
-msgid "|logo24|"
-msgstr "|logo24|"
-
-msgid "|logo25|"
-msgstr "|logo25|"
-
-msgid "|logo26|"
-msgstr "|logo26|"
-
-msgid "`Calendar Selector - Search Panel`"
-msgstr "`Calendar Selector - Search Panel`"
-
-msgid "``Gender``"
-msgstr "``Gender``"
-
-msgid "Select the ``Gender``; from the list of gender by clicking on the arrow on the right of the selector, to select families/groups, who’s family head/group head is of the specific gender."
-msgstr "Select the ``Gender``; from the list of gender by clicking on the arrow on the right of the selector, to select families/groups, who’s family head/group head is of the specific gender."
-
-msgid "``Poverty Status``"
-msgstr "``Poverty Status``"
-
-msgid "Select the ``Poverty Status``; from the list of has poverty status by clicking on the arrow on the right of the selector, to select families/groups that have a specific poverty status."
-msgstr "Select the ``Poverty Status``; from the list of has poverty status by clicking on the arrow on the right of the selector, to select families/groups that have a specific poverty status."
-
-msgid "``Email``"
-msgstr "``Email``"
-
-msgid "Type in the beginning of; or the full ``Email`` to search for families/groups, who’s family head/group head ``Email`` starts with or matches completely the typed text."
-msgstr "Type in the beginning of; or the full ``Email`` to search for families/groups, who’s family head/group head ``Email`` starts with or matches completely the typed text."
-
-msgid "``Confirmation Type``"
-msgstr "``Confirmation Type``"
-
-msgid "Type in the beginning of; or the full ``Confirmation Type`` to search for families/groups, who’s ``Confirmation Type``. starts with or matches completely the typed text."
-msgstr "Type in the beginning of; or the full ``Confirmation Type`` to search for families/groups, who’s ``Confirmation Type``. starts with or matches completely the typed text."
-
-msgid "``Confirmation No.``"
-msgstr "``Confirmation No.``"
-
-msgid "Type in the beginning of; or the full ``Confirmation No.`` to search for families/groups, who’s ``Confirmation No.`` starts with or matches completely the typed text."
-msgstr "Type in the beginning of; or the full ``Confirmation No.`` to search for families/groups, who’s ``Confirmation No.`` starts with or matches completely the typed text."
-
-msgid "``Region``"
-msgstr "``Region``"
-
 msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select families/groups from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*"
 msgstr "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select families/groups from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*"
 
-msgid "``District``"
-msgstr "``District``"
-
 msgid "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select families/groups from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*"
 msgstr "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select families/groups from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*"
-
-msgid "``Municipality``"
-msgstr "``Municipality``"
 
 msgid "Select the ``Municipality``; from the list of municipalities by clicking on the arrow on the right of the selector to select families/groups from a specific municipality. *Note: The list will only be filled with the municipalities in the selected district above.*"
 msgstr "Select the ``Municipality``; from the list of municipalities by clicking on the arrow on the right of the selector to select families/groups from a specific municipality. *Note: The list will only be filled with the municipalities in the selected district above.*"
@@ -175,47 +55,95 @@ msgstr "Select the ``Municipality``; from the list of municipalities by clicking
 msgid "Select the ``Village``; from the list of villages by clicking on the arrow on the right of the selector to select families/groups from a specific village. *Note: The list will only be filled with the villages in the selected municipality above.*"
 msgstr "Select the ``Village``; from the list of villages by clicking on the arrow on the right of the selector to select families/groups from a specific village. *Note: The list will only be filled with the villages in the selected municipality above.*"
 
+msgid "``Head (/Member) Insuree Insurance Number``"
+msgstr "``Head (/Member) Insuree Insurance Number``"
+
+msgid "Type in the beginning of; or the full ``Insurance Number`` to search for families/groups, who’s family/group head (/member) ``Insurance Number``, starts with or matches completely, the typed text."
+msgstr "Type in the beginning of; or the full ``Insurance Number`` to search for families/groups, who’s family/group head (/member) ``Insurance Number``, starts with or matches completely, the typed text."
+
+msgid "``Head/Member Insuree Last Name``"
+msgstr "``Head/Member Insuree Last Name``"
+
+msgid "Type in the beginning of; or the full ``Last name``; to search for families/groups, who’s family/group head (/member) ``Last name``, starts with or matches completely, the typed text."
+msgstr "Type in the beginning of; or the full ``Last name``; to search for families/groups, who’s family/group head (/member) ``Last name``, starts with or matches completely, the typed text."
+
+msgid "``Head/Member Insuree Other Names``"
+msgstr "``Head/Member Insuree Other Names``"
+
+msgid "Type in the beginning of; or the full ``Other Names`` to search for families/groups, who’s family/group head(/member) ``Other Names`` starts with or matches completely, the typed text."
+msgstr "Type in the beginning of; or the full ``Other Names`` to search for families/groups, who’s family/group head(/member) ``Other Names`` starts with or matches completely, the typed text."
+
+msgid "``Head/Member Insuree Gender``"
+msgstr "``Head/Member Insuree Gender``"
+
+msgid "Select the ``Gender``; from the list of gender by clicking on the arrow on the right of the selector, to select families/groups, who’s family/group head(/member) is of the specific gender."
+msgstr "Select the ``Gender``; from the list of gender by clicking on the arrow on the right of the selector, to select families/groups, who’s family/group head(/member) is of the specific gender."
+
+msgid "``Head/Member Phone Number``"
+msgstr "``Head/Member Phone Number``"
+
+msgid "Type in the beginning of; or the full ``Phone Number`` to search for families/groups, who’s family/group head(/member) ``Phone Number``, starts with or matches completely, the typed number."
+msgstr "Type in the beginning of; or the full ``Phone Number`` to search for families/groups, who’s family/group head(/member) ``Phone Number``, starts with or matches completely, the typed number."
+
+msgid "``Head/Member Email``"
+msgstr "``Head/Member Email``"
+
+msgid "Type in the beginning of; or the full ``Email`` to search for families/groups, who’s family/group head(/member) ``Email``, starts with or matches completely, the typed number."
+msgstr "Type in the beginning of; or the full ``Email`` to search for families/groups, who’s family/group head(/member) ``Email``, starts with or matches completely, the typed number."
+
+msgid "``Head/Member Birth Date From``"
+msgstr "``Head/Member Birth Date From``"
+
+msgid "Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for families/groups, who’s family/group head(/member), has the same or later birth date than ``Birth Date From``. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for families/groups, who’s family/group head(/member), has the same or later birth date than ``Birth Date From``. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+
+msgid "``Head/Member Birth Date To``"
+msgstr "``Head/Member Birth Date To``"
+
+msgid "Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for families/groups, who’s family/group head(/member), has the same or earlier birth date than ``Birth Date To``. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+msgstr "Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for families/groups, who’s family/group head(/member), has the same or earlier birth date than ``Birth Date To``. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+
+msgid "``Poverty Status``"
+msgstr "``Poverty Status``"
+
+msgid "Select the ``Poverty Status``; from the list of has poverty status by clicking on the arrow on the right of the selector, to select families/groups that have a specific poverty status."
+msgstr "Select the ``Poverty Status``; from the list of has poverty status by clicking on the arrow on the right of the selector, to select families/groups that have a specific poverty status."
+
+msgid "``Confirmation No.``"
+msgstr "``Confirmation No.``"
+
+msgid "Type in the beginning of; or the full ``Confirmation No.`` to search for families/groups, who’s ``Confirmation No.`` starts with or matches completely the typed text."
+msgstr "Type in the beginning of; or the full ``Confirmation No.`` to search for families/groups, who’s ``Confirmation No.`` starts with or matches completely the typed text."
+
 msgid "``Historical``"
 msgstr "``Historical``"
 
-msgid "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image92`)."
-msgstr "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image92`)."
+msgid "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are greyed to clearly define them from current records and no delete action is possible (:numref:`image92`)."
+msgstr "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are greyed to clearly define them from current records and no delete action is possible (:numref:`image92`)."
 
-msgid "`Historical records - Result Panel`"
-msgstr "`Historical records - Result Panel`"
+msgid "``Reset Filter Button``"
+msgstr "``Reset Filter Button``"
+
+msgid "To clear the current criteria."
+msgstr "To clear the current criteria."
 
 msgid "``Search Button``"
 msgstr "``Search Button``"
 
-msgid "Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel."
-msgstr "Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel."
+msgid "To launch the search and filter the records, the results will appear in the Result Panel."
+msgstr "To launch the search and filter the records, the results will appear in the Result Panel."
 
-msgid "**Result Panel**"
-msgstr "**Result Panel**"
+msgid "The Result Panel displays a list of all families/groups found, matching the selected criteria in the Search Panel."
+msgstr "The Result Panel displays a list of all families/groups found, matching the selected criteria in the Search Panel."
 
-msgid "`Selected record (blue), hovered records (yellow) - Result Panel`"
-msgstr "`Selected record (blue), hovered records (yellow) - Result Panel`"
+msgid "Double clicking on a record re-directs the user to the `Family Overview Page <#family-overview>`__ for the Family selected or if it is an historical record then the `Change Family Page <#family-group-page>`__, for detailed viewing."
+msgstr "Double clicking on a record re-directs the user to the `Family Overview Page <#family-overview>`__ for the Family selected or if it is an historical record then the `Change Family Page <#family-group-page>`__, for detailed viewing."
 
-msgid "The Result Panel displays a list of all families/groups found, matching the selected criteria in the Search Panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image93`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Family Overview Page <#family-overview>`__ for the Family selected or if it is an historical record then the `Change Family Page <#family-group-page>`__, for detailed viewing."
-msgstr "The Result Panel displays a list of all families/groups found, matching the selected criteria in the Search Panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image93`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Family Overview Page <#family-overview>`__ for the Family selected or if it is an historical record then the `Change Family Page <#family-group-page>`__, for detailed viewing."
+msgid "Clicking on the trash icon allows user to delete a family (see below)."
+msgstr "Clicking on the trash icon allows user to delete a family (see below)."
 
-msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image94`)"
-msgstr "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image94`)"
-
-msgid "`Page selector- Result Panel`"
-msgstr "`Page selector- Result Panel`"
-
-msgid "**Button Panel**"
-msgstr "**Button Panel**"
-
-msgid "The ``Cancel`` button re-directs to the :ref:`Home Page <home_page>`."
-msgstr "The ``Cancel`` button re-directs to the :ref:`Home Page <home_page>`."
-
-msgid "**Information Panel**"
-msgstr "**Information Panel**"
-
-msgid "The Information Panel is used to display messages back to the user. Messages will occur once a family/group has been added, updated or deleted or if there was an error at any time during the process of these actions."
-msgstr "The Information Panel is used to display messages back to the user. Messages will occur once a family/group has been added, updated or deleted or if there was an error at any time during the process of these actions."
+msgid "The result table is paginated, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image94`)"
+msgstr "The result table is paginated, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image94`)"
 
 msgid "Family/Group Overview"
 msgstr "Family/Group Overview"
@@ -235,122 +163,101 @@ msgstr "Family Overview Page"
 msgid "`Image - Family Overview Page`"
 msgstr "`Image - Family Overview Page`"
 
-msgid "The ``Family Overview Page`` is the central point for all operations with regards to the families/groups, Insurees, policies and contributions associated with it. The page is divided into 6 panels (:ref:`Image Family overview <family_overview_page>`)"
-msgstr "The ``Family Overview Page`` is the central point for all operations with regards to the families/groups, Insurees, policies and contributions associated with it. The page is divided into 6 panels (:ref:`Image Family overview <family_overview_page>`)"
+msgid "The ``Family Overview Page`` is the central point for all operations with regards to the families/groups, Insurees, policies and contributions associated with it. The page is divided into 5 panels (:ref:`Image Family overview <family_overview_page>`)"
+msgstr "The ``Family Overview Page`` is the central point for all operations with regards to the families/groups, Insurees, policies and contributions associated with it. The page is divided into 5 panels (:ref:`Image Family overview <family_overview_page>`)"
 
 msgid "**Family**  /Group Panel"
 msgstr "**Family**  /Group Panel"
 
-msgid "The Family/Group Panel provides information about the family including the Insurance Number and the Last Name and Other Names of the head of family and the District, Municipality, Village and Poverty status of the family. In the Family/Group panel action buttons allow to add, edit and delete the family/group."
-msgstr "The Family/Group Panel provides information about the family including the Insurance Number and the Last Name and Other Names of the head of family and the District, Municipality, Village and Poverty status of the family. In the Family/Group panel action buttons allow to add, edit and delete the family/group."
-
-msgid "`Image 114`"
-msgstr "`Image 114`"
-
-msgid "The ``green plus sign`` is for adding a new family/group via the `Family/Groupe Page <#family-group-page>`__."
-msgstr "The ``green plus sign`` is for adding a new family/group via the `Family/Groupe Page <#family-group-page>`__."
-
-msgid "The ``yellow pencil sign`` is for editing a family/group via the `Family/Groupe Page <#family-group-page>`__."
-msgstr "The ``yellow pencil sign`` is for editing a family/group via the `Family/Groupe Page <#family-group-page>`__."
-
-msgid "The ``red cross sign`` is for deleting a family/group."
-msgstr "The ``red cross sign`` is for deleting a family/group."
+msgid "The Family/Group Panel provides information about the family including the District, Municipality, Village, the Insurance Number and the Last Name and Other Names of the head of family and Poverty status of the family."
+msgstr "The Family/Group Panel provides information about the family including the District, Municipality, Village, the Insurance Number and the Last Name and Other Names of the head of family and Poverty status of the family."
 
 msgid "**Insurees Panel**"
 msgstr "**Insurees Panel**"
 
-msgid "The Insurees Panel displays a list of the insurees within the family/group. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image115`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the insuree record for editing or detailed viewing."
-msgstr "The Insurees Panel displays a list of the insurees within the family/group. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image115`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the insuree record for editing or detailed viewing."
+msgid "The Insurees Panel displays a list of the insurees within the family/group. Double clicking on a record re-directs the user to the insuree record for editing or detailed viewing."
+msgstr "The Insurees Panel displays a list of the insurees within the family/group. Double clicking on a record re-directs the user to the insuree record for editing or detailed viewing."
 
-msgid "`Selected record (blue), hovered records (yellow) – Insurees Panel`"
-msgstr "`Selected record (blue), hovered records (yellow) – Insurees Panel`"
+msgid "When selecting an insuree in the list, the Policy Panel, will refresh with the policies covering the selected insuree."
+msgstr "When selecting an insuree in the list, the Policy Panel, will refresh with the policies covering the selected insuree."
 
-msgid "In the Insurees Panel, action buttons allow to add, edit and delete insurees belonging to the family/group."
-msgstr "In the Insurees Panel, action buttons allow to add, edit and delete insurees belonging to the family/group."
+msgid "In the Insurees Panel, action buttons allow to add (new or existing - non head- insuree) On insuree, one can set it as family head, remove ('detach') insuree from the family/group or delete the insuree."
+msgstr "In the Insurees Panel, action buttons allow to add (new or existing - non head- insuree) On insuree, one can set it as family head, remove ('detach') insuree from the family/group or delete the insuree."
 
-msgid "`Image 116`"
-msgstr "`Image 116`"
+msgid "When an insuree is removed from the family or deleted, the confirmation dialog gives two options(:numref:`image115`):"
+msgstr "When an insuree is removed from the family or deleted, the confirmation dialog gives two options(:numref:`image115`):"
 
-msgid "The ``green plus sign`` is for adding a new insuree via the `Insuree Page <#insuree-page>`__."
-msgstr "The ``green plus sign`` is for adding a new insuree via the `Insuree Page <#insuree-page>`__."
+msgid "``Remove/Delete and Cancel Policies``: to remove the insuree from any active policy coverage"
+msgstr "``Remove/Delete and Cancel Policies``: to remove the insuree from any active policy coverage"
 
-msgid "The ``yellow pencil sign`` is for editing an insuree via the `Insuree Page <#insuree-page>`__."
-msgstr "The ``yellow pencil sign`` is for editing an insuree via the `Insuree Page <#insuree-page>`__."
-
-msgid "The ``red cross sign`` is for deleting an insuree ."
-msgstr "The ``red cross sign`` is for deleting an insuree ."
+msgid "``Remove/Delete and Cancel Policies``: to keep any existing policy active for that insuree (untill policy renewal)"
+msgstr "``Remove/Delete and Cancel Policies``: to keep any existing policy active for that insuree (untill policy renewal)"
 
 msgid "**Policies Panel**"
 msgstr "**Policies Panel**"
 
-msgid "The Policies Panel displays a list of the policies held by the family/group. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image117`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the policy for editing or detailed viewing. By default the first policy is selected and therefore in the Contribution Panel, only the contributions paid on that policy will be displayed in the Contribution Panel By selecting another policy in the list, the Contribution Panel, will refresh with the contributions paid on the newly selected policy."
-msgstr "The Policies Panel displays a list of the policies held by the family/group. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image117`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the policy for editing or detailed viewing. By default the first policy is selected and therefore in the Contribution Panel, only the contributions paid on that policy will be displayed in the Contribution Panel By selecting another policy in the list, the Contribution Panel, will refresh with the contributions paid on the newly selected policy."
+msgid "The ``Policies Pane`` displays a list of the policies held by the family/group."
+msgstr "The ``Policies Pane`` displays a list of the policies held by the family/group."
 
-msgid "`Selected record (blue), hovered records (yellow) - Policy Panel`"
-msgstr "`Selected record (blue), hovered records (yellow) - Policy Panel`"
+msgid "By default only the (last)actives policies are shown. Unchecking ``Show only last active or last expired`` displays the previous policies."
+msgstr "By default only the (last)actives policies are shown. Unchecking ``Show only last active or last expired`` displays the previous policies."
 
-msgid "In the fifth **Product** column of Policy data grid, there is a link showing product for the policy on the corresponding row. When the link is clicked; a popup browser window (:ref:image118) will open up showing the details of the product (in read-only mode)."
-msgstr "In the fifth **Product** column of Policy data grid, there is a link showing product for the policy on the corresponding row. When the link is clicked; a popup browser window (:ref:image118) will open up showing the details of the product (in read-only mode)."
+msgid "The ``Add`` action allows to create a new Policy for edited Family."
+msgstr "The ``Add`` action allows to create a new Policy for edited Family."
 
-msgid "`Product Popup – Policies Panel`"
-msgstr "`Product Popup – Policies Panel`"
+msgid "Double clicking on a record re-directs the user to the policy for editing or detailed viewing."
+msgstr "Double clicking on a record re-directs the user to the policy for editing or detailed viewing."
 
-msgid "In the ``Policies Panel``, action buttons allow to add, edit and delete policies."
-msgstr "In the ``Policies Panel``, action buttons allow to add, edit and delete policies."
+msgid "Each row also contains ``Delete`` and ``Renew`` actions."
+msgstr "Each row also contains ``Delete`` and ``Renew`` actions."
 
-msgid "`Image 119`"
-msgstr "`Image 119`"
-
-msgid "The ``green plus sign`` is for adding a new policy via the `Policy Page <#policy-page>`__."
-msgstr "The ``green plus sign`` is for adding a new policy via the `Policy Page <#policy-page>`__."
-
-msgid "The ``yellow pencil sign`` is for editing a policy via the `Policy Page <#policy-page>`__."
-msgstr "The ``yellow pencil sign`` is for editing a policy via the `Policy Page <#policy-page>`__."
-
-msgid "The ``red cross sign`` is for deleting a policy."
-msgstr "The ``red cross sign`` is for deleting a policy."
-
-msgid "The ``blue R sign`` is for renewing a policy via the `Policy Page <#policy-page>`__."
-msgstr "The ``blue R sign`` is for renewing a policy via the `Policy Page <#policy-page>`__."
+msgid "When selecting a policy in the list, the Contribution Panel, will refresh with the contributions linked to the newly selected policy."
+msgstr "When selecting a policy in the list, the Contribution Panel, will refresh with the contributions linked to the newly selected policy."
 
 msgid "**Contributions Panel**"
 msgstr "**Contributions Panel**"
 
-msgid "The ``Contribution Panel`` displays a list of contributions paid on the policy currently selected in the ``Policies Panel``. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image120`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the contribution for editing or detailed viewing."
-msgstr "The ``Contribution Panel`` displays a list of contributions paid on the policy currently selected in the ``Policies Panel``. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image120`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the contribution for editing or detailed viewing."
+msgid "The ``Contribution sPanel`` displays a list of contributions of the policy currently selected in the ``Policies Panel``."
+msgstr "The ``Contribution sPanel`` displays a list of contributions of the policy currently selected in the ``Policies Panel``."
 
-msgid "`Selected record (blue), hovered records (yellow) - Contributions Panel`"
-msgstr "`Selected record (blue), hovered records (yellow) - Contributions Panel`"
+msgid "Double clicking on a record re-directs the user to the contribution for editing or detailed viewing."
+msgstr "Double clicking on a record re-directs the user to the contribution for editing or detailed viewing."
 
-msgid "In the second **Payer** column of Contributions data grid, there is a link showing (institutional) payer of the contribution on the corresponding row. When the link is clicked; a popup browser window (:numref:`image121`) will open up showing the details of the payer in read-only mode."
-msgstr "In the second **Payer** column of Contributions data grid, there is a link showing (institutional) payer of the contribution on the corresponding row. When the link is clicked; a popup browser window (:numref:`image121`) will open up showing the details of the payer in read-only mode."
+msgid "Each row also contains a ``Delete`` action."
+msgstr "Each row also contains a ``Delete`` action."
 
-msgid "`Payer Pop up – Contribution Panel`"
-msgstr "`Payer Pop up – Contribution Panel`"
+msgid "The ``Add`` action allows to create a new Contribution for edited Family."
+msgstr "The ``Add`` action allows to create a new Contribution for edited Family."
 
-msgid "In the ``Contributions Panel``, action buttons allow to add, edit and delete contributions."
-msgstr "In the ``Contributions Panel``, action buttons allow to add, edit and delete contributions."
+msgid "When selecting a contibution in the list, the Payment Panel, will refresh with the payments linked to the newly selected contribution."
+msgstr "When selecting a contibution in the list, the Payment Panel, will refresh with the payments linked to the newly selected contribution."
 
-msgid "`Image 122`"
-msgstr "`Image 122`"
+msgid "**Payments Panel**"
+msgstr "**Payments Panel**"
 
-msgid "The ``green plus sign`` is for adding a new contribution."
-msgstr "The ``green plus sign`` is for adding a new contribution."
+msgid "The ``Payments Panel`` displays a list of payments of the contribution currently selected in the ``Contributions Panel``."
+msgstr "The ``Payments Panel`` displays a list of payments of the contribution currently selected in the ``Contributions Panel``."
 
-msgid "The ``yellow pencil sign`` is for editing a contribution."
-msgstr "The ``yellow pencil sign`` is for editing a contribution."
+msgid "Double clicking on a record re-directs the user to the payment for editing or detailed viewing."
+msgstr "Double clicking on a record re-directs the user to the payment for editing or detailed viewing."
 
-msgid "The ``red cross sign`` is for deleting a contribution."
-msgstr "The ``red cross sign`` is for deleting a contribution."
-
-msgid "The Information Panel is used to display messages back to the user. Messages will occur once an insuree, a policy or a contribution have been added, updated or deleted or if there was an error at any time during the process of these actions."
-msgstr "The Information Panel is used to display messages back to the user. Messages will occur once an insuree, a policy or a contribution have been added, updated or deleted or if there was an error at any time during the process of these actions."
+msgid "The ``Add`` action allows to create a new Payment for edited Family."
+msgstr "The ``Add`` action allows to create a new Payment for edited Family."
 
 msgid "Family/Group Page"
 msgstr "Family/Group Page"
 
+msgid "The Family/Group Page is made of two major section: one for the family/group data itslef, on the the family/group head insuree."
+msgstr "The Family/Group Page is made of two major section: one for the family/group data itslef, on the the family/group head insuree."
+
 msgid "`Family/Group Page`"
 msgstr "`Family/Group Page`"
+
+msgid "**The Family/Group data section**"
+msgstr "**The Family/Group data section**"
+
+msgid "The ``Family/Group`` section is dedicated to show/provide the family/group specific data:"
+msgstr "The ``Family/Group`` section is dedicated to show/provide the family/group specific data:"
 
 msgid "Select from the list of available regions the region, in which the head of family/group permanently stays. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.* Mandatory."
 msgstr "Select from the list of available regions the region, in which the head of family/group permanently stays. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.* Mandatory."
@@ -361,14 +268,11 @@ msgstr "Select from the list of available districts the district, in which the h
 msgid "Select from the list of available municipalities the municipality, in which the head of family/group permanently stays. *Note: The list will only be filled with the municipalities belonging to the selected district.* Mandatory."
 msgstr "Select from the list of available municipalities the municipality, in which the head of family/group permanently stays. *Note: The list will only be filled with the municipalities belonging to the selected district.* Mandatory."
 
-msgid "``Village``"
-msgstr "``Village``"
-
 msgid "Select from the list of available villages the village, in which the head of family/group permanently stays. *Note: The list will only be filled with the villages belonging to the selected municipality.* Mandatory."
 msgstr "Select from the list of available villages the village, in which the head of family/group permanently stays. *Note: The list will only be filled with the villages belonging to the selected municipality.* Mandatory."
 
-msgid "Select whether the family/group has the poverty status."
-msgstr "Select whether the family/group has the poverty status."
+msgid "``Confirmation Type``"
+msgstr "``Confirmation Type``"
 
 msgid "Select the type of a confirmation of the social status of the family/group."
 msgstr "Select the type of a confirmation of the social status of the family/group."
@@ -388,20 +292,29 @@ msgstr "``Address Details.``"
 msgid "Enter details of the permanent address of the family/group."
 msgstr "Enter details of the permanent address of the family/group."
 
+msgid "Select whether the family/group has the poverty status."
+msgstr "Select whether the family/group has the poverty status."
+
+msgid "**The Head Insuree Details section**"
+msgstr "**The Head Insuree Details section**"
+
+msgid "The ``Head Insuree Details`` section is dedicated to show/provide the family/group head data."
+msgstr "The ``Head Insuree Details`` section is dedicated to show/provide the family/group head data."
+
+msgid "The ``select existing`` allows to import (use) an existing (non head) insuree as family/group head."
+msgstr "The ``select existing`` allows to import (use) an existing (non head) insuree as family/group head."
+
 msgid "Enter the insurance number for the head of family/group. Mandatory."
 msgstr "Enter the insurance number for the head of family/group. Mandatory."
-
-msgid "``Last name``"
-msgstr "``Last name``"
 
 msgid "Enter the last name (surname) for the head of family/group. Mandatory."
 msgstr "Enter the last name (surname) for the head of family/group. Mandatory."
 
+msgid "``Other Names``"
+msgstr "``Other Names``"
+
 msgid "Enter other names of the head of family/group. Mandatory."
 msgstr "Enter other names of the head of family/group. Mandatory."
-
-msgid "``Birth Date``"
-msgstr "``Birth Date``"
 
 msgid "Enter the date of birth for the head of family/group. *Note: You can also use the button next to the birth date field to select a date to be entered.*"
 msgstr "Enter the date of birth for the head of family/group. *Note: You can also use the button next to the birth date field to select a date to be entered.*"
@@ -409,59 +322,26 @@ msgstr "Enter the date of birth for the head of family/group. *Note: You can als
 msgid "Select from the list of available genders the gender of the head of family/group. Mandatory."
 msgstr "Select from the list of available genders the gender of the head of family/group. Mandatory."
 
-msgid "``Marital Status``"
-msgstr "``Marital Status``"
-
 msgid "Select from the list of available marital statuses the marital status of the head of family/group."
 msgstr "Select from the list of available marital statuses the marital status of the head of family/group."
-
-msgid "``Beneficiary Card``"
-msgstr "``Beneficiary Card``"
 
 msgid "Select from the list of card whether or not an insurance identification card was issued to the head of family/group."
 msgstr "Select from the list of card whether or not an insurance identification card was issued to the head of family/group."
 
-msgid "``Current Region``"
-msgstr "``Current Region``"
+msgid "``Location (Region, District, Municipality, Village)``"
+msgstr "``Location (Region, District, Municipality, Village)``"
 
-msgid "Select from the list of available regions the region, in which the head of family/group temporarily stays."
-msgstr "Select from the list of available regions the region, in which the head of family/group temporarily stays."
+msgid "The checkbox indicates wherever or not the insuree has the same location as the Family."
+msgstr "The checkbox indicates wherever or not the insuree has the same location as the Family."
 
-msgid "``Current District``"
-msgstr "``Current District``"
-
-msgid "Select from the list of available districts the district, in which the head of family/group temporarily stays. *Note: The list will only be filled with the districts belonging to the selected region*"
-msgstr "Select from the list of available districts the district, in which the head of family/group temporarily stays. *Note: The list will only be filled with the districts belonging to the selected region*"
-
-msgid "``Current Municipality``"
-msgstr "``Current Municipality``"
-
-msgid "Select from the list of available municipalities the municipality, in which the head of family/group temporarily stays. *Note: The list will only be filled with the municipalities belonging to the selected district.*"
-msgstr "Select from the list of available municipalities the municipality, in which the head of family/group temporarily stays. *Note: The list will only be filled with the municipalities belonging to the selected district.*"
-
-msgid "``Current Village``"
-msgstr "``Current Village``"
-
-msgid "Select from the list of available villages the village, in which the head of family/group temporarily stays. *Note: The list will only be filled with the villages belonging to the selected municipality.*"
-msgstr "Select from the list of available villages the village, in which the head of family/group temporarily stays. *Note: The list will only be filled with the villages belonging to the selected municipality.*"
+msgid "When unchecked, user has the ability to provide a distinct Region/District/Municipality/Village for the insuree."
+msgstr "When unchecked, user has the ability to provide a distinct Region/District/Municipality/Village for the insuree."
 
 msgid "``Current Address Details``"
 msgstr "``Current Address Details``"
 
-msgid "Enter details of the temporal address of the head of family/group."
-msgstr "Enter details of the temporal address of the head of family/group."
-
-msgid "``Profession``"
-msgstr "``Profession``"
-
-msgid "Select the profession of the head of family/group."
-msgstr "Select the profession of the head of family/group."
-
-msgid "``Education``"
-msgstr "``Education``"
-
-msgid "Select the education of the head of family/group."
-msgstr "Select the education of the head of family/group."
+msgid "The checkbox indicates wherever or not the insuree has the same address as the Family. When unchecked, user has the ability to provide a distinct Region/District/Municipality/Village for the insuree."
+msgstr "The checkbox indicates wherever or not the insuree has the same address as the Family. When unchecked, user has the ability to provide a distinct Region/District/Municipality/Village for the insuree."
 
 msgid "Enter the phone number for the head of family/group."
 msgstr "Enter the phone number for the head of family/group."
@@ -469,71 +349,50 @@ msgstr "Enter the phone number for the head of family/group."
 msgid "Enter the e-mail address of the head of family/group."
 msgstr "Enter the e-mail address of the head of family/group."
 
-msgid "``Identification Type``"
-msgstr "``Identification Type``"
+msgid "Select the profession of the head of family/group."
+msgstr "Select the profession of the head of family/group."
+
+msgid "Select the education of the head of family/group."
+msgstr "Select the education of the head of family/group."
 
 msgid "Select the type of the identification document of the head of family/group."
 msgstr "Select the type of the identification document of the head of family/group."
 
-msgid "``Identification No.``"
-msgstr "``Identification No.``"
-
 msgid "Enter alphanumeric identification of the document of head of family/group."
 msgstr "Enter alphanumeric identification of the document of head of family/group."
 
-msgid "``Region of FSP``"
-msgstr "``Region of FSP``"
+msgid "``Photo date``"
+msgstr "``Photo date``"
 
-msgid "Select from the list of available regions the region, in which the chosen primary health facility (First Service Point) of the head of family/group is located."
-msgstr "Select from the list of available regions the region, in which the chosen primary health facility (First Service Point) of the head of family/group is located."
+msgid "The date of the photo for the head of family/group related to his/her insurance number."
+msgstr "The date of the photo for the head of family/group related to his/her insurance number."
 
-msgid "``District of FSP``"
-msgstr "``District of FSP``"
+msgid "The officer who provided the photo of the head of family/group related to his/her insurance number."
+msgstr "The officer who provided the photo of the head of family/group related to his/her insurance number."
 
-msgid "Select from the list of available districts the district, in which the chosen primary health facility (First Service Point) of the head of family/group is located. *Note: The list will only be filled with the districts belonging to the selected region.*"
-msgstr "Select from the list of available districts the district, in which the chosen primary health facility (First Service Point) of the head of family/group is located. *Note: The list will only be filled with the districts belonging to the selected region.*"
-
-msgid "``Level of FSP``"
-msgstr "``Level of FSP``"
-
-msgid "Select the level of the chosen primary health facility (First Service Point) of the head of family/group."
-msgstr "Select the level of the chosen primary health facility (First Service Point) of the head of family/group."
-
-msgid "``First Service Point``"
-msgstr "``First Service Point``"
-
-msgid "Select from the list of available health facilities the chosen primary health facility (First Service Point) of the head of family/group. *Note: The list will only be filled with the health facilities belonging to the selected district which are of the selected level.*"
-msgstr "Select from the list of available health facilities the chosen primary health facility (First Service Point) of the head of family/group. *Note: The list will only be filled with the health facilities belonging to the selected district which are of the selected level.*"
-
-msgid "``Browse``"
-msgstr "``Browse``"
+msgid "``Avatar``"
+msgstr "``Avatar``"
 
 msgid "Browse to get the photo for the head of family/group related to his/her insurance number."
 msgstr "Browse to get the photo for the head of family/group related to his/her insurance number."
 
-msgid "**Saving**"
-msgstr "**Saving**"
+msgid "Select from the list of available regions the region, in which the chosen primary health facility (First Service Point) of the head of family/group is located."
+msgstr "Select from the list of available regions the region, in which the chosen primary health facility (First Service Point) of the head of family/group is located."
 
-msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Family Overview Page <#family-overview-page.>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the family member has been saved will appear on the Information Panel."
-msgstr "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Family Overview Page <#family-overview-page.>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the family member has been saved will appear on the Information Panel."
+msgid "Select from the list of available districts the district, in which the chosen primary health facility (First Service Point) of the head of family/group is located. *Note: The list will only be filled with the districts belonging to the selected region.*"
+msgstr "Select from the list of available districts the district, in which the chosen primary health facility (First Service Point) of the head of family/group is located. *Note: The list will only be filled with the districts belonging to the selected region.*"
 
-msgid "**Mandatory data**"
-msgstr "**Mandatory data**"
+msgid "Select the level of the chosen primary health facility (First Service Point) of the head of family/group."
+msgstr "Select the level of the chosen primary health facility (First Service Point) of the head of family/group."
 
-msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk)."
-msgstr "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk)."
-
-msgid "**Cancel**"
-msgstr "**Cancel**"
-
-msgid "By clicking on the ``Cancel`` button, the user will be re-directed to the `Find Family Page <#find-family-page>`__."
-msgstr "By clicking on the ``Cancel`` button, the user will be re-directed to the `Find Family Page <#find-family-page>`__."
+msgid "Select from the list of available health facilities the chosen primary health facility (First Service Point) of the head of family/group. *Note: The list will only be filled with the health facilities belonging to the selected district which are of the selected level.*"
+msgstr "Select from the list of available health facilities the chosen primary health facility (First Service Point) of the head of family/group. *Note: The list will only be filled with the health facilities belonging to the selected district which are of the selected level.*"
 
 msgid "Adding a Family"
 msgstr "Adding a Family"
 
-msgid "Click on the ``Green Plus Sign`` to re-direct to the `Family/Group Page <#familygroup-page>`__.\`
-msgstr "Click on the ``Green Plus Sign`` to re-direct to the `Family/Group Page <#familygroup-page>`__.\`
+msgid "A new family can be added using the ``Add Family/Group`` main menu entry or via the \"+\" fab button in the ``Find Families`` page."
+msgstr "A new family can be added using the ``Add Family/Group`` main menu entry or via the \"+\" fab button in the ``Find Families`` page."
 
 msgid "When the page opens all entry fields are empty. See the `Family/Group Page <#familygroup-page>`__ for information on the data entry and mandatory fields."
 msgstr "When the page opens all entry fields are empty. See the `Family/Group Page <#familygroup-page>`__ for information on the data entry and mandatory fields."
@@ -541,44 +400,56 @@ msgstr "When the page opens all entry fields are empty. See the `Family/Group Pa
 msgid "Editing a Family/Group"
 msgstr "Editing a Family/Group"
 
-msgid "Click on the Yellow Pencil Sign to re-direct to the `Change Family/Group Page <#section-9>`__"
-msgstr "Click on the Yellow Pencil Sign to re-direct to the `Change Family/Group Page <#section-9>`__"
-
-msgid "The page will open with the current information loaded into the data entry fields, plus there are options to change the head of the family/group and move an insuree to the family/group."
-msgstr "The page will open with the current information loaded into the data entry fields, plus there are options to change the head of the family/group and move an insuree to the family/group."
-
-msgid "`Change Family/Group Page`"
-msgstr "`Change Family/Group Page`"
+msgid "To edit a Family/Group, double click on the corresponding ``Find Families`` result table record."
+msgstr "To edit a Family/Group, double click on the corresponding ``Find Families`` result table record."
 
 msgid "Changing a Head of Family/Group"
 msgstr "Changing a Head of Family/Group"
 
-msgid "The head of the Family/Group is the main contact associated with a policy. For various reasons it may be necessary to change the head of a family/group. The new head must be a head of family in another family."
-msgstr "The head of the Family/Group is the main contact associated with a policy. For various reasons it may be necessary to change the head of a family/group. The new head must be a head of family in another family."
+msgid "The head of the Family/Group is the main contact associated with a policy. For various reasons it may be necessary to change the head of a family/group."
+msgstr "The head of the Family/Group is the main contact associated with a policy. For various reasons it may be necessary to change the head of a family/group."
 
-msgid "Enter the insurance number for the new head of family/group, click on check, to confirm that the insurance number is valid and that it really is the person expected. The name will appear to the right of the check button. If all is OK, click on the Change button to complete the change. On a successful change, the user will be re-directed back to the `Family Overview Page <#family-overview-page.>`__\\ ; the new head will be displayed in the Family/Group Information Panel"
-msgstr "Enter the insurance number for the new head of family/group, click on check, to confirm that the insurance number is valid and that it really is the person expected. The name will appear to the right of the check button. If all is OK, click on the Change button to complete the change. On a successful change, the user will be re-directed back to the `Family Overview Page <#family-overview-page.>`__\\ ; the new head will be displayed in the Family/Group Information Panel"
+msgid "You can change the Family/Group head from the `Family Overview Page <#family-overview>`__, in the family insurees section:"
+msgstr "You can change the Family/Group head from the `Family Overview Page <#family-overview>`__, in the family insurees section:"
 
 msgid "Moving an Insuree"
 msgstr "Moving an Insuree"
 
-msgid "Insurees may be moved from one family/group to another. The new insuree must not be a head of family/group in another family/group."
-msgstr "Insurees may be moved from one family/group to another. The new insuree must not be a head of family/group in another family/group."
+msgid "Insurees may be moved from one family/group into the edited family. The new insuree must not be a head of family/group in another family/group."
+msgstr "Insurees may be moved from one family/group into the edited family. The new insuree must not be a head of family/group in another family/group."
 
-msgid "Enter the insurance number for the insuree to move. Click on check, to confirm that the insurance number is valid and that it really is the person expected. The name will appear to the right of the check button. If all is OK, click on the Change button to complete the change. On a successful change, the user will be re-directed back to the `Family Overview Page <#family-overview-page.>`__ the new insuree will be displayed in the insuree Information Panel."
-msgstr "Enter the insurance number for the insuree to move. Click on check, to confirm that the insurance number is valid and that it really is the person expected. The name will appear to the right of the check button. If all is OK, click on the Change button to complete the change. On a successful change, the user will be re-directed back to the `Family Overview Page <#family-overview-page.>`__ the new insuree will be displayed in the insuree Information Panel."
+msgid "Use the ``Add existing`` action in the insurees section of the `Family Overview Page <#family-overview>`__ page to do so."
+msgstr "Use the ``Add existing`` action in the insurees section of the `Family Overview Page <#family-overview>`__ page to do so."
+
+msgid "A Insuree Search dialog (automatically filtering on non-head insuree) allows the user to find the insuree"
+msgstr "A Insuree Search dialog (automatically filtering on non-head insuree) allows the user to find the insuree"
+
+msgid "When selecting an Insuree, the user has two options:"
+msgstr "When selecting an Insuree, the user has two options:"
+
+msgid "``Move and Cancel Policies``, to cancel the insuree's policy in the family it is issued from"
+msgstr "``Move and Cancel Policies``, to cancel the insuree's policy in the family it is issued from"
+
+msgid "``Move and Keep Policies``, to let current policies active (until policy renewal)"
+msgstr "``Move and Keep Policies``, to let current policies active (until policy renewal)"
 
 msgid "Deleting a Family/Group"
 msgstr "Deleting a Family/Group"
 
-msgid "Click on the Red Cross Sign button to delete the currently selected record\\ ."
-msgstr "Click on the Red Cross Sign button to delete the currently selected record\\ ."
+msgid "To delete a Family/Group, click ``Delete`` action in the corresponding ``Find Families`` result table record."
+msgstr "To delete a Family/Group, click ``Delete`` action in the corresponding ``Find Families`` result table record."
 
-msgid "Before deleting a confirmation popup (:numref:`image125`) is displayed, which requires the user to confirm if the action should really be carried out? Deleting of a family requires deleting of all its dependants first."
-msgstr "Before deleting a confirmation popup (:numref:`image125`) is displayed, which requires the user to confirm if the action should really be carried out? Deleting of a family requires deleting of all its dependants first."
+msgid "Before deleting a confirmation popup is displayed, which requires the user to confirm if the action should really be carried out."
+msgstr "Before deleting a confirmation popup is displayed, which requires the user to confirm if the action should really be carried out."
 
-msgid "`Delete confirmation- Button Panel`"
-msgstr "`Delete confirmation- Button Panel`"
+msgid "The confirmation dialog gives two options (:numref:`image74`):"
+msgstr "The confirmation dialog gives two options (:numref:`image74`):"
+
+msgid "``Delete Family and Members``: dedicated to also delete any member from that family"
+msgstr "``Delete Family and Members``: dedicated to also delete any member from that family"
+
+msgid "``Delete Family Only``: family members are 'detached' (and remain without family), but not deleted"
+msgstr "``Delete Family Only``: family members are 'detached' (and remain without family), but not deleted"
 
 msgid "When a family is deleted, all records retaining to the deleted family will still be available by selecting historical records."
 msgstr "When a family is deleted, all records retaining to the deleted family will still be available by selecting historical records."
