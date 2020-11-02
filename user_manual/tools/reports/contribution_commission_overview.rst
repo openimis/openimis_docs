@@ -41,7 +41,7 @@ Overview of Commissions
 
     * Commission Rate – a percentage for calculation of commissions depending on the mode
 
-  #.The title of the report:
+  #. The title of the report:
 
     * Mode
 
@@ -71,7 +71,7 @@ Overview of Commissions
 
       * he last payment of contribution for the policy meets or exceeds the last prescribed contribution and it was matched by the payment module within the specified period ((Month/Year)
 
-  #.Structuring of the report
+  #. Structuring of the report
 
     Overview Scope
 
