@@ -27,155 +27,11 @@ Navigation
 
   The Reports Page is divided into four panels (:ref:`Image 204<image204>`).
 
- #. **Select Criteria**
+  #. **Select Criteria**
 
     The Select Criteria panel or the filter panel allows a user to select specific criteria determining the scope of data included in the report. The criteria (:ref:`Image 205<image205>` – :ref:`Image 222<image222>`) will change depending on the selected type of the report.
 
-      - Primary Operational Indicators - Policies Report.
-
-      .. _image205:
-      .. figure:: /img/user_manual/image174.png
-        :align: center
-
-        `Image 205 - Primary Operational Indicators - Policies Report Criteria`
-
-      - Primary Operational Indicators - Claims Report.
-
-      .. _image206:
-      .. figure:: /img/user_manual/image175.png
-        :align: center
-
-        `Image 206 - Primary Operational Indicators - Claims Report Criteria`
-
-      - Derived Operational Indicators Report.
-
-      .. _image207:
-      .. figure:: /img/user_manual/image176.png
-        :align: center
-
-        `Image 207 - Derived Operational Indicators Report Criteria`
-
-      - Contribution Collection Report.
-
-      .. _image208:
-      .. figure:: /img/user_manual/image177.png
-        :align: center
-
-        `Image 208 - Contribution Collection Report Criteria`
-
-      - Product Sales Report.
-
-      .. _image209:
-      .. figure:: /img/user_manual/image178.png
-        :align: center
-
-        `Image 209 - Product Sales Report Criteria`
-
-      - Contribution Distribution Report.
-
-      .. _image210:
-      .. figure:: /img/user_manual/image179.png
-        :align: center
-
-        `Image 210 - Contribution Distribution Report Criteria`
-
-      - User Activity Report.
-
-      .. _image211:
-      .. figure:: /img/user_manual/image180.png
-        :align: center
-
-        `Image 211 - User Activity Report Criteria`
-
-      - Enrolment Performance Indicator Report.
-
-      .. _image212:
-      .. figure:: /img/user_manual/image181.png
-        :align: center
-
-        `Image 212 - Enrolment Performance Indicators Report Criteria`
-
-      - Status of Registers Report.
-
-      .. _image213:
-      .. figure:: /img/user_manual/image182.png
-        :align: center
-
-        `Image 213 - Status of Registers Report Criteria`
-
-      - Insurees without Photos Report.
-
-      .. _image214:
-      .. figure:: /img/user_manual/image183.png
-        :align: center
-
-        `Image 214 - Insurees without photos Report Criteria`
-
-      - Payment Category Overview Report.
-
-      .. _image215:
-      .. figure:: /img/user_manual/image184.png
-        :align: center
-
-        `Image 215 - Payment Category Overview Report Criteria`
-
-      - Matching Funds Report.
-
-      .. _image216:
-      .. figure:: /img/user_manual/image185.png
-        :align: center
-
-        `Image 216 - Matching funds Report Criteria`
-
-      - Claim Overview Report.
-
-      .. _image217:
-      .. figure:: /img/user_manual/image186.png
-        :align: center
-
-        `Image 217 - Claim Overview Report Criteria`
-
-      - Percentage of Referrals Report.
-
-      .. _image218:
-      .. figure:: /img/user_manual/image187.png
-        :align: center
-
-        `Image 218 - Percentage of Referrals Report Criteria`
-
-      - Families and Insurees Overview Report.
-
-      .. _image219:
-      .. figure:: /img/user_manual/image188.png
-        :align: center
-
-        `Image 219 - Families and Insurees Overview Report Criteria`
-
-      - Pending Insurees Report.
-
-      .. _image220:
-      .. figure:: /img/user_manual/image189.png
-        :align: center
-
-        `Image 220 - Pending Insurees Report Criteria`
-
-      - Renewals Report.
-
-      .. _image221:
-      .. figure:: /img/user_manual/image190.png
-        :align: center
-
-        `Image 221 Renewals Report Criteria`
-
-      - Capitation Payment Report
-
-      .. _image222:
-      .. figure:: /img/user_manual/image191.png
-        :align: center
-
-        `Image 222 Capitation Payment Report Criteria`
-
-  The general meaning of selection criteria for creating of a report is as follows:
+    The general meaning of selection criteria for creating of a report is as follows:
 
     * ``Date From``
 
@@ -259,12 +115,15 @@ Navigation
 
     * ``MODE``
 
-Select the mode (Prescribed Contributions, Actually Paid Contributions) of calculation of commissions. This filter is mandatory. Note: This filter is available only Overview of Commissions.
+      Select the mode (Prescribed Contributions, Actually Paid Contributions) of calculation of commissions. This filter is mandatory. Note: This filter is available only Overview of Commissions.
 
     * ``COMMISSION RATE``
 
-Enter a commission rate as % of an assessment base. This filter is  mandatory. Note: This filter is available only Overview of Commissions
+      Enter a commission rate as % of an assessment base. This filter is  mandatory. Note: This filter is available only Overview of Commissions
 
+    * ``SCOPE``
+
+      Select the details level of the report (Claims and All Details, Claims and Rejection Details, Claims Only)
 
     * ``Date Selector Button``
 
@@ -295,32 +154,36 @@ Enter a commission rate as % of an assessment base. This filter is  mandatory. N
 
         `Image 223 - Calendar Selector - Search Panel`
 
- #. **Report Type Selector**
+  #. **Report Type Selector**
 
     This panel contains a list of available report types. A user can select to create a desired report by clicking on the report type list item (:ref:`Image 224<image224>`) and narrow the report using the criteria being shown on the panel above, and then click the ``preview`` button to create the report. Available report types are:
 
-      - Primary Operational Indicators Report.
-      - Derived Operational Indicators Report.
-      - Contribution Collection Report.
-      - Product Sales Report.
-      - Contribution Distribution.
-      - User Activity Report.
-      - Enrolment Performance Indicators
-      - Status of Registers
-      - Insures without Photos.
-      - Matching Funds.
-      - Claim Overview.
-      - Payment Category Overview.
-      - Families and Insurees Overview.
-      - Pending Insurees.
-      - Percentage of Referrals.
-      - Capitation Payment
-      - Rejected Photos
-      - Contribution Payment
-      - Control Number Assignment
-      - Overview of Commissions
-      - Claim History
+      .. toctree::
+        :maxdepth: 1
 
+        reports/claim_history
+        reports/claim_overview
+        reports/claim_poi
+        reports/claim_referal_ratio
+        reports/contribution_collection
+        reports/contribution_commission_overview
+        reports/contribution_distribution
+        reports/contribution_payment
+        reports/contribution_matching_funds
+        reports/insuree_enrolment_pi
+        reports/insuree_overview
+        reports/insuree_pending
+        reports/insuree_rejected_photo
+        reports/insuree_without_photo
+        reports/payment_cat_overview
+        reports/payment_control_num
+        reports/policy_pi
+        reports/policy_renewal
+        reports/product_capitation_payment
+        reports/product_doi
+        reports/product_sales
+        reports/admin_status_register
+        reports/admin_user_activity
 
     .. _image224:
     .. figure:: /img/user_manual/image192.png
@@ -328,7 +191,7 @@ Enter a commission rate as % of an assessment base. This filter is  mandatory. N
 
       `Image 224 - Report Type Selector`
 
- #. **Button Panel**
+  #. **Button Panel**
 
     * ``Preview button``
 
@@ -338,346 +201,7 @@ Enter a commission rate as % of an assessment base. This filter is  mandatory. N
 
       By clicking on this button, the current user will be re-directed to the `Home Page <#image-2.2-home-page>`__.
 
- #. **Information Panel**
+  #. **Information Panel**
 
     The Information Panel is used to display messages back to the user. Messages will occur if there was an error at any time during the processing of the reports.
 
-Report Preview
-""""""""""""""
-
- The report viewer offers the facility to navigate through the report either by using the arrows or by typing in a page number at the top of the report. Another feature of the report viewer is to export the report in different formats. Currently system supports three formats; Word, Excel and PDF. Select the desired format from the list by clicking on the Export link. Use the ``Go Back to Selector`` link to go back to the previous selection page.
-
- Below are the types of reports as they can be seen in the report page.
-
- #. **primary operational indicators  - policies report**
-
-    The report provides aggregate data relating to policies and insurees according to insurance products. The report can be run by users with the system role Manager or with a role including an access to Tools/Reports/Primary Operational Indicators-policies. The table below will provide an overview on   primary indicators of the report.
-
-    .. list-table:: Table  Overview of Policies indicators
-        :widths: 1 2 3 7
-        :header-rows: 1
-        :stub-columns: 1
-        :class: longtable
-
-        * - **Code**
-          - **Primary indicators**
-          - **Dimension**
-          - **Description**
-
-        * - P1
-          - Number of policies
-          - Time, Insurance product
-          - The number of policies of given insurance product on the last day of a respective period (Status of the policy is Active, the last day of period is within <Effective date, Expiry day>)
-
-        * - P2
-          - Number of new policies
-          - Time, Insurance product
-          - The number of new policies of given insurance product during a respective period (Enrolment date is within the respective period, there is ``no`` preceding policy with the same (or before converted) insurance product forgiven policy)
-
-        * - P3
-          - Number of suspended policies
-          - Time, Insurance product
-          - The number of policies for given insurance product that were suspended during a respective period (Status of the policy is Suspended, suspension took place within the respective period)
-
-        * - P4
-          - Number of expired policies
-          - Time, Insurance product
-          - The number of policies for given insurance product that expired during a respective period (Status of the policy is Expired,expiration took place within the respective period)
-
-        * - P5
-          - Number of renewals
-          - Time, Insurance product
-          - The number of policies that were renewed forgiven insurance product (or a converte done) during a respective period ( Enrolment date is within the respective period, there is a preceding policy with the same (or before converted) product forgiven
-
-        * - P6
-          - Number of insurees
-          - Time, Insurance product
-          - The number of insurees covered by policies of given insurance product on the last day of a respective period (An insuree belongs to a family with an active coverage on the last day of the respective period-see P1 )
-
-        * - P7
-          - Number of newly insured insurees
-          - Time, Insurance product
-          - The number of insurees covered by new policies of given insurance product during a respective period (An insuree belongs to a family with newly acquired policy during the respective period-see P2 )
-
-        * - P8
-          - Newly collected Contributions
-          - Time, Insurance product
-          - Amount of acquired Contributions (for policies of given insurance product) during a respective period ( Date of payment of a Contribution is within the respective period)
-
-        * - P9
-          - Available Contributions
-          - Time, Insurance product
-          - Amount of Contributions that should be allocated for policies of given insurance product for a respective period provided a uniform distribution throughout the insurance period takes place. (If the respective period overlaps with <Effective date, Expiry day> of a policy then a proportional part of corresponding Contributions relating to the respective period is included in available Contributions)
-
-
-    Below is an example of the report:
-
-    .. _image225:
-    .. figure:: /img/user_manual/image193.png
-      :align: center
-
-      `Image 225 - Preview – Primary Operational Indicators - Policies Report`
-
- #. **primary operational indicators  - claims report**
-
-    The report provides aggregate data relating to policies and insurees according to insurance products. The report can be run by users with the system role Manager or with a role including an access to Tools/Reports/Primary Operational Indicators-claims. The table below will provide an overview on   primary indicators of the report.
-
-    .. list-table:: Table Overview of operational indicators
-        :widths: 1 2 3 7
-        :header-rows: 1
-        :stub-columns: 1
-        :class: longtable
-  
-        * - **Code** 
-          - **Primary indicators** 
-          - **Dimension** 
-          - **Description**
-
-        * - P10 
-          - Number of claims 
-          - Time, Health facility, Insurance product 
-          - The number of claims for given insurance product that emerged during a respective period (Start dateof a claim is within the respective period) 
-
-        * - P11 
-          - Amount remunerated
-          - Time, Health facility, Insurance product 
-          - Amount remuneratedfor claims for given insurance product that emerged during a respective period (Start dateof a claim is within the respective period) 
-
-        * - P12 
-          - Number of rejected claims 
-          - Time, Health facility, Insurance product 
-          - The number of claims for given insurance product that emerged during a respective period and were rejected (Start dateof a claim is within the respective period and the Status approval ofthe claim is Rejected)
-
-    Below is an example of the report:
-
-    .. _image226:
-    .. figure:: /img/user_manual/image194.png
-      :align: center
-
-      `Image 226 - Preview – Primary Operational Indicators - Claims Report`
-
- #. **derived operational indicators report**
-
-    The report provides operational indicators derived from primary operational indicators. The report can be run by users with the system role Manager or with a role including an access to Tools/Reports/Derived Operational Indicators. The table below will provide an overview on the actual derived indicators provided by the report.
-
-    .. list-table:: Table Overview of derived operational indicators
-        :widths: 1 2 3 7
-        :header-rows: 1
-        :stub-columns: 1
-        :class: longtable
-
-        * - **Code**
-          - **Derived**
-          - **Dimension**
-          - **Description**
-
-        * - D1
-          - Incurred claims ratio
-          - Time, Insurance product
-          - It is the ratio P11/P9
-
-        * - D2
-          - Renewal ratio
-          - Time, Insurance product
-          - It is the ratio P5/P4
-
-        * - D3
-          - Growth ratio
-          - Time, Insurance product
-          - It is the ratio P2/P1-for immediately preceding period
-
-        * - D4
-          - Promptness of claims settlement
-          - Time, Insurance product
-          - It is the average (date of sending to payment- Date of submission of the claim) for all claims relating to given insurance product and emerging in a respective period Date of sending of payment is not in the structure of Claim, it has to be retrieved from a journal-can be?)
-
-        * - D5
-          - Claims settlement ratio
-          - Time, Health facility, Insurance product
-          - It is the ratio (P10-P12)/P10
-
-        * - D6
-          - Number of claims per insuree
-          - Time, Insurance product
-          - It is the ratio P10/P6
-
-        * - D7
-          - Average cost per claim
-          - Time, Health facility, Insurance product
-          - It is the ratio P11/P10
-
-        * - D8
-          - Satisfaction level
-          - TimeDistrict, Health facility
-          - The average mark from feedbacks received in a respective period
-
-        * - D9
-          - Feedback response ratio
-          - Time, District, Health facility
-          - The ratio of number of feedbacks received (up to time of creation of the report) and number of feedbacks asked for in a respective period
-
-    Below is an example of the report:
-
-    .. _image227:
-    .. figure:: /img/user_manual/image195.png
-      :align: center
-
-      `Image 227 - Preview – Derived Operational Indicators Report`
-
- #. **Contribution collection report**
-
-    The report lists all actual payments of contributions according to insurance products in the defined period. The report can be used as input to an accounting system. The report can be run by users with the the system role Accountant or with a role including an access to Tools/Reports/Contribution Collection. Payments are assigned to the specified period according to the actual date of payment. (:ref:`Image 228<image228>`)
-
-    .. _image228:
-    .. figure:: /img/user_manual/image196.png
-      :align: center
-
-      `Image 228 - Preview – Contribution Collection Report`
-
- #. **product sales report**
-
-    The report provides overview of selling of policies according to insurance products in terms of calculated contributions (not necessarily actually paid). The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Product Sales. Policies are assigned to the specified period according to their effective days. (:ref:`Image 229<image229>`)
-
-    .. _image229:
-    .. figure:: /img/user_manual/image197.png
-      :align: center
-
-      `Image 229 - Preview – Product Sales Report`
-
- #. **Contribution distribution report**
-
-    The report provides proportional amount of actually paid contributions allocated by openIMIS to specific months according to insurance products. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Contribution Distribution. This report shows the information about the **Total collection**, **Allocated amount** and **Not allocated** amount for contributions in the specified period.
-
-    **Allocated** amount is the proportionally calculated amounts of contributions paid covering the month. **Not Allocated** amount is the amount collected for contributions that have a start date in the future (after the month in question). (:ref:`Image 230<image230>`)
-
-    .. _image230:
-    .. figure:: /img/user_manual/image198.png
-      :align: center
-
-      `Image 230 - Preview – Contribution Distribution Report`
-
- #. **user activity report**
-
-    The report shows activities of users according to types of activities and types of entities to which the activities relate. The report can be run by users with system role IMIS Administrator or with a role including an access to Tools/Reports/User Activity.  (:ref:`Image 231<image231>`)
-    
-    .. _image231:
-    .. figure:: /img/user_manual/image199.png
-      :align: center
-
-      `Image 231 - Preview – User Activity Report`
-
- #. **enrolment performance indicator report**
-
-    The report provides overview of activity of enrolment officers. The report can be run by users with the system role Manager or with a role including an access to Tools/Reports/Enrolment Performance Indicator. (:ref:`Image 232<image232>`)
-
-    .. _image232:
-    .. figure:: /img/user_manual/image200.png
-      :align: center
-
-      `Image 232 - Preview – Enrolment Performance Indicator Report`
-
- #. **status of registers report**
-
-    The report provides an overview of the number of items in registers according to districts. The report can be run by users with the system role Scheme Administrator or with a role including an access to Tools/Reports/Status of Registers.(:ref:`Image 233<image233>`)
-
-    .. _image233:
-    .. figure:: /img/user_manual/image201.png
-      :align: center
-
-      `Image 233 - Preview – Status of Registers Report`
-
- #. **insurees without photos**
-
-    The report lists all insurees according to enrolment officers that have not assigned a photo. The report can be run by users with thesystem role Accountant or with a role including an access to Tools/Reports/Insurees without Photos.  (:ref:`Image 234<image234>`)
-
-    .. _image234:
-    .. figure:: /img/user_manual/image202.png
-      :align: center
-
-      `Image 234 - Preview – Insurees without photos`
-
- #. **matching funds**
-
-    The report lists all families/groups according to insurance products and (institutional) payers that paid contributions in the specified period. This report is useful for claiming of subsidies for running of health insurance schemes. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Matching Funds.  (:ref:`Image 235<image235>`)
-
-    .. _image235:
-    .. figure:: /img/user_manual/image203.png
-      :align: center
-
-      `Image 235 - Preview –Matching Funds`
-
- #. **claim overview**
-
-    The report provides detailed data about results of processing of claims in openIMIS according to insurance products and health facilities. The report can be used as a tool for communication between a health insurance scheme and its contractual health facilities. The report can be run by users with the rsystem role Accountant or with a role including an access to Tools/Reports/Claim Overview. Claims are assigned to the specified period according to date of provision of health care (in case of in-patient care according to the date of discharge).  (:ref:`Image 236<image236>`)
-
-    .. _image236:
-    .. figure:: /img/user_manual/image204.png
-      :align: center
-
-      `Image 236 Preview – Claim Overview`
-
- #. **payment category overview**
-
-    The report provides split of total contributions according to their categories. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Payment Category Overview.  Contributions are assigned to the specified period according to actual payment date. (:ref:`Image 237<image237>`)
-
-    .. _image237:
-    .. figure:: /img/user_manual/image205.png
-      :align: center
-
-      `Image 237 - Preview – Payment Category Overview`
-
- #. **Families and Insurees Overview report**
-
-    The report provides an overview of enrolled families/groups and their members in specified location within the specified period. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Families and Insurees Overview.  (:ref:`Image 238<image238>`)
-
-    .. _image238:
-    .. figure:: /img/user_manual/image206.png
-      :align: center
-
-      `Image 238 - Preview – Families and Insurees Overview Report`
-
- #. **Percentage of Referrals report**
-
-    The report lists all primary health care facilities (the category is Dispensary and Health Centre) in the selected district and for each such health facilities provides the following indicators:
-
-      a) The number of visits (claims) of the primary health care facility in the selected period.
-      b) The number of out-patient visits that have Visit Type equal to Referral in all other health facilities (irrespective of the district) for insurees with the First Service Point in the respective primary health care facility.
-      c) The number of in-patient stays that have Visit Type equal to Referral in all health facilities-hospitals (irrespective of the district) for insurees with the First Service Point in the respective primary health care facility.
-
-    The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Percentage of Referrals. (:ref:`Image 239<image239>`)
-
-    .. _image239:
-    .. figure:: /img/user_manual/image207.png
-      :align: center
-
-      `Image 239 - Preview – Percentage of Referrals Overview Report`
-
- #. **Pending Insurees report**
-
-    The report lists all insurees whose photos have been sent to openIMIS but who has no record in openIMIS yet. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Pending Insurees.   (:ref:`Image 240<image240>`)
-
-    .. _image240:
-    .. figure:: /img/user_manual/image208.png
-      :align: center
-
-      `Image 240 - Preview – Pending Insurees Report`
-
- #. **Renewals report**
-
-    The report lists all renewed policies in given period for given insurance product and optionally for given enrolment officer. The families that have at least one payment of contributions in given period of time are included in the report. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Renewals. Below is an example of the report (:ref:`Image 241<image241>`)
-
-    .. _image241:
-    .. figure:: /img/user_manual/image209.png
-      :align: center
-
-      `Image 241 - Preview – Renewals Report`
-
- #. **Capitation Payment Report**
-
-    The report lists capitation payments for all health facilities specified in the `capitation formula <#capitation-payment>`__ for specified month and for given insurance product. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Capitation Payment.  (:ref:`Image 242<image242>`)
-
-    .. _image242:
-    .. figure:: /img/user_manual/image210.png
-      :align: center
-
-      `Image 242 - Preview –Capitation Payment Report`

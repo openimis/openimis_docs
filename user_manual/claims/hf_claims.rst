@@ -372,13 +372,15 @@ Claim Page
 
     Once all mandatory data is entered, clicking on the ``Save`` button will save the claim. The user stay in the `Claim Page <#claim-page>`__; a message confirming that the claim has been saved will appear on the bottom of the `Claim Page <#claim-page>`__.
 
- #. **Mandatory data**
-
     If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk).
 
  #. **Printing of a claim**
 
     By clicking on the ``Print`` button, the user will be shown a printable version of the claim details page. The printable version of the claim is available in the following formats (Word, PDF, Excel)
+
+ #. **Restoring/Duplicating  a  claim**
+
+    By clicking on the ``Restore`` button, the `Claim Page <#claim-page>`__ is cleared filled with a new calim having the same details, at the exeption of the claimID that get a leading "@"
 
  #. **Creating of a new claim**
 

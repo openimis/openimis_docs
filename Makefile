@@ -3,7 +3,7 @@
 
 # You can set these variables from the command line.
 SPHINXOPTS    =
-SPHINXBUILD   = sphinx-build
+SPHINXBUILD   = "C:\Users\delcpa\AppData\Roaming\Python\Python38\Scripts\sphinx-build.exe"
 SPHINXPROJ    = openIMIS
 SOURCEDIR     = .
 BUILDDIR      = _build
