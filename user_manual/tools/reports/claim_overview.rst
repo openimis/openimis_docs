@@ -1,4 +1,4 @@
-claim overview
+Claim overview
 --------------
 
   The report provides detailed data about results of processing of claims in openIMIS according to insurance products and health facilities. The report can be used as a tool for communication between a health insurance scheme and its contractual health facilities. The report can be run by users with the rsystem role Accountant or with a role including an access to Tools/Reports/Claim Overview. Claims are assigned to the specified period according to date of provision of health care (in case of in-patient care according to the date of discharge).  (:ref:`Image 236<image236>`)
