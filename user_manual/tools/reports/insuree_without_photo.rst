@@ -1,4 +1,4 @@
-insurees without photos
+Insurees without photos
 -----------------------
 
   The report lists all insurees according to enrolment officers that have not assigned a photo. The report can be run by users with thesystem role Accountant or with a role including an access to Tools/Reports/Insurees without Photos.  (:ref:`Image 234<image234>`)
