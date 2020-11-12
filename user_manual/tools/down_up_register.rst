@@ -1,5 +1,3 @@
-
-
 Upload / Download selected registers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

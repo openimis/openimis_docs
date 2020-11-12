@@ -2,6 +2,7 @@
 #
 
 # You can set these variables from the command line.
+
 SPHINXOPTS    = -W -E
 SPHINXBUILD   = sphinx-build
 SPHINXPROJ    = openIMIS
