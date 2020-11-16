@@ -41,7 +41,7 @@ Locations Page
 
     It has three buttons, ``Add`` (:numref:`mat_add`), ``Delete`` (:numref:`mat_delete`) and ``Move`` (:numref:`mat_move`) for actions on the locations, double click on a location will open the edit modal box.
 
-      .. _cal_picker:
+      .. _mat_buttons_loc:
       .. list-table:: Material design button
         :widths: 1 1 1
 
