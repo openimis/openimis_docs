@@ -17,7 +17,7 @@ Navigation
   Find Contribution can be found under the main menu ``Insurees and Policies``, sub menu ``Contributions``
 
   .. _image107:
-  .. figure:: /img/user_manual/image83.png
+  .. figure:: /img/user_manual/cont_menu.png
     :align: center
 
     `Navigation Contributions`
@@ -27,7 +27,7 @@ Navigation
 Find Contribution Page
 
   .. _image108:
-  .. figure:: /img/user_manual/image84.png
+  .. figure:: /img/user_manual/cont_search.png
     :align: center
 
     `Image - 108 Find Contribution Page`
@@ -54,35 +54,6 @@ Find Contribution Page
 
       Type in a date; or use the Date Selector Button, to enter the ``Payment Date To`` to search for contributions with a ``Payment Date`` equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    * ``Date Selector Button``
-
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image109`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
-
-        - At anytime during the use of the pop-up, the user can see the date of **today**.
-        - Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
-        - Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box.
-        - Clicking on the arrow to the left displays the previous month.
-        - Clicking on the arrow on the right will displays the following month.
-        - Clicking on the month will display all the months for the year.
-        - Clicking on the year will display a year selector.
-
-      .. _image109:
-      .. |logo33| image:: /img/user_manual/image6.png
-        :scale: 100%
-        :align: middle
-      .. |logo34| image:: /img/user_manual/image7.png
-        :scale: 100%
-        :align: middle
-      .. |logo35| image:: /img/user_manual/image8.png
-        :scale: 100%
-        :align: middle
-
-      +----------++----------++----------+
-      | |logo33| || |logo34| || |logo35| |
-      +----------++----------++----------+
-
-        `Calendar Selector - Search Panel`
-
     * ``Contribution Category``
 
       Select the ``Contribution Category`` that match with the type of contribution paid, by default there is *Contribution and Others* and *photo fee*. this enable to add fees that won't be counted as contribution payment
@@ -104,7 +75,7 @@ Find Contribution Page
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image110`).
 
       .. _image110:
-      .. figure:: /img/user_manual/image85.png
+      .. figure:: /img/user_manual/cont_search_hist.png
         :align: center
 
         `Historical records - Result Panel`
@@ -113,31 +84,6 @@ Find Contribution Page
 
       Once the criteria have been entered, use the ``Search`` button to filter the records, the results will appear in the Result Panel.
 
- #. **Result Panel**
-
-    The result panel displays a list of all contributions found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image111`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
-
-    .. _image111:
-    .. figure:: /img/user_manual/image86.png
-      :align: center
-
-      `Image 111 Selected record (blue), hovered records (yellow) - Result Pane`
-
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image112`).
-
-    .. _image112:
-    .. figure:: /img/user_manual/image11.png
-      :align: center
-
-      `Page selector- Result Panel`
-
- #. **Button Panel**
-
-    The ``Cancel`` button re-directs to the :ref:`Home Page <home_page>`.
-
- #. **Information Panel**
-
-    The Information Panel is used to display messages back to the user. Messages will occur once a contribution has been added, updated or deleted or if there was an error at any time during the process of these actions.
 
 Contribution Page
 """""""""""""""""
@@ -145,7 +91,7 @@ Contribution Page
  #. **Data Entry**
 
     .. _image130:
-    .. figure:: /img/user_manual/image104.png
+    .. figure:: /img/user_manual/cont_form.png
       :align: center
 
       `Contribution Page`
@@ -177,7 +123,7 @@ Contribution Page
       a) If the Contribution paid matches the price of the policy:
 
       .. _image131:
-      .. figure:: /img/user_manual/image105.png
+      .. figure:: /img/user_manual/cont_dialog_matches.png
         :align: center
 
         `Image 131`
@@ -185,7 +131,7 @@ Contribution Page
       b) If the contribution paid is lower than the price of the policy:
 
       .. _image132:
-      .. figure:: /img/user_manual/image106.png
+      .. figure:: /img/user_manual/cont_dialog_lower.png
         :align: center
 
         `Image 132`
@@ -193,7 +139,7 @@ Contribution Page
       Followed by:
 
       .. _image133:
-      .. figure:: /img/user_manual/image107.png
+      .. figure:: /img/user_manual/cont_dialog_enforce.png
         :align: center
 
         `Image 133`
@@ -203,7 +149,7 @@ Contribution Page
       c) If the contribution is higher than the price of the policy:
 
       .. _image134:
-      .. figure:: /img/user_manual/image108.png
+      .. figure:: /img/user_manual/cont_dialog_higher.png
         :align: center
 
         `Image 134`
@@ -238,7 +184,7 @@ Deleting a Contribution
   Before deleting a confirmation popup (:numref:`image135`) is displayed, which requires the user to confirm if the action should really be carried out?
 
   .. _image135:
-  .. figure:: /img/user_manual/image109.png
+  .. figure:: /img/user_manual/cont_dialog_delete.png
     :align: center
 
     `Delete confirmation- Button Panel`
