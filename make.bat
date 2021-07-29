@@ -7,11 +7,12 @@ REM Command file for Sphinx documentation
 if "%SPHINXBUILD%" == "" (
 	set SPHINXBUILD="C:\Users\delcpa\AppData\Roaming\Python\Python38\Scripts\sphinx-build.exe"
 )
-set SOURCEDIR=.
-set BUILDDIR=_build
+set SOURCEDIR=./
+set BUILDDIR=./_build
 set SPHINXPROJ=openIMIS
 
 if "%1" == "" goto help
+
 
 %SPHINXBUILD% >NUL 2>NUL
 if errorlevel 9009 (
@@ -31,6 +32,7 @@ goto end
 
 :help
 %SPHINXBUILD% -M help %SOURCEDIR% %BUILDDIR% %SPHINXOPTS%
+
 
 :end
 popd

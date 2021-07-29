@@ -39,8 +39,7 @@ release = u''
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-]
+extensions = ['docxbuilder']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -153,7 +152,7 @@ latex_documents = [
 #    (master_doc, 'openIMIS.tex', u'openIMIS Documentation',
 #     u'openIMIS team', 'manual'),
 #]
-
+#docx_style = './MyStyle.docx'
 
 # -- Options for manual page output ------------------------------------------
 
@@ -178,4 +177,4 @@ texinfo_documents = [
 
 # Add custom CSS to resize the tables
 def setup(app):
-    app.add_stylesheet('css/theme_overrides.css')
+    app.add_css_file('css/theme_overrides.css')

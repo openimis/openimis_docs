@@ -29,16 +29,6 @@ Welcome to the openIMIS technical documentation repository.
    /user_manual/tools/tools
    /user_manual/offline/offline
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Installation documentation
-
-   /install_manual/minimum_requirements
-   /install_manual/database_sql_server_installation_guide
-   /install_manual/web_app_vb_installation_guide
-   /install_manual/web_service_vb_installation_guide
-   /install_manual/windows_services_installation_guide
-   /install_manual/mobile_applications_configuration
 
    
 
