@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:11+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../user_manual/tools/reports/insuree_pending.rst:2
+msgid "Pending Insurees report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_pending.rst:4
+msgid ""
+"The report lists all insurees whose photos have been sent to openIMIS but"
+" who has no record in openIMIS yet. The report can be run by users with "
+"the system role Accountant or with a role including an access to "
+"Tools/Reports/Pending Insurees.   (:ref:`Image 240<image240>`)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_pending.rst:7
+msgid "Parameters for selection for the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_pending.rst:13
+msgid "`Image 220 - Pending Insurees Report Criteria`"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_pending.rst:15
+msgid "Input parameters of the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_pending.rst:17
+msgid "Date From  - start date of the report **Mandatory**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_pending.rst:19
+msgid "Date To  - stop date of the report **Mandatory**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_pending.rst:21
+msgid "Region – the region of health facilities for which should be included"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_pending.rst:23
+msgid "District – the district  of health facilities for which should be included"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_pending.rst:25
+msgid "Enrolment officer"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_pending.rst:27
+msgid "The title of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_pending.rst:29
+msgid "See Input paramaters"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_pending.rst:31
+msgid "Content of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_pending.rst:33
+msgid "the insuree are sorted by enrolment officer"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_pending.rst:35
+msgid "Insurance Number"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_pending.rst:37
+msgid "Photo date"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_pending.rst:40
+msgid "Example"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_pending.rst:46
+msgid "`Image 240 - Preview – Pending Insurees Report`"
+msgstr ""
+

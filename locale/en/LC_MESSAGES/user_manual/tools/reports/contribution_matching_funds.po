@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../user_manual/tools/reports/contribution_matching_funds.rst:2
+msgid "Matching funds report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_matching_funds.rst:4
+msgid ""
+"The report lists all families/groups according to insurance products and "
+"(institutional) payers that paid contributions in the specified period. "
+"This report is useful for claiming of subsidies for running of health "
+"insurance schemes. The report can be run by users with the system role "
+"Accountant or with a role including an access to Tools/Reports/Matching "
+"Funds.  (:ref:`Image 235<image235>`)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_matching_funds.rst:6
+msgid "Parameters for selection for the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_matching_funds.rst:12
+msgid "`Image 216 - Matching funds Report Criteria`"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_matching_funds.rst:14
+msgid "Input parameters of the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_matching_funds.rst:16
+msgid ""
+"Date From  - first contribution date to be considered in the report "
+"**Mandatory**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_matching_funds.rst:18
+msgid ""
+"Date To  - last contribution date to be considered in the report "
+"**Mandatory**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_matching_funds.rst:20
+msgid "Region – if it was entered"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_matching_funds.rst:22
+msgid "District –if it was entered"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_matching_funds.rst:24
+msgid "Insurance product (the code and the name)-if it was entered"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_matching_funds.rst:26
+msgid "Payer"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_matching_funds.rst:29
+msgid "The title of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_matching_funds.rst:31
+msgid "See Input paramaters"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_matching_funds.rst:33
+msgid "Content of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_matching_funds.rst:37
+msgid "Example"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_matching_funds.rst:43
+msgid "`Image 235 - Preview –Matching Funds`"
+msgstr ""
+

@@ -178,7 +178,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'openIMIS', u'openIMIS Documentation',
-     author, 'openIMIS', 'opneIMIS is a health insurance management solution',
+     author, 'openIMIS', 'openIMIS is a health insurance management solution',
      'Miscellaneous'),
 ]
 

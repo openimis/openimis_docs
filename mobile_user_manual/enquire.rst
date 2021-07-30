@@ -20,7 +20,7 @@ Image 2.2.1 (Claim Enquire function –Login Page)
 Image 1.2.1 (Policy Enquire function –Login Page)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The User Name data field is pre-filled by the enrolment officer/ claim admin code
+The User Name data field is pre-filled by the enrolment officer or claim admin code
 with which the installation has been launched. However, the User Name
 data field can re-written by any valid User Name. This principle is
 valid all other login pages of the IMIS Policies application. If the

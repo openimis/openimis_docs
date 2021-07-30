@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../user_manual/tools/reports/claim_referal_ratio.rst:2
+msgid "Percentage of Referrals report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_referal_ratio.rst:4
+msgid ""
+"The report lists all primary health care facilities (the category is "
+"Dispensary and Health Centre) in the selected district and for each such "
+"health facilities provides the following indicators:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_referal_ratio.rst:6
+msgid ""
+"The number of visits (claims) of the primary health care facility in the "
+"selected period."
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_referal_ratio.rst:7
+msgid ""
+"The number of out-patient visits that have Visit Type equal to Referral "
+"in all other health facilities (irrespective of the district) for "
+"insurees with the First Service Point in the respective primary health "
+"care facility."
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_referal_ratio.rst:8
+msgid ""
+"The number of in-patient stays that have Visit Type equal to Referral in "
+"all health facilities-hospitals (irrespective of the district) for "
+"insurees with the First Service Point in the respective primary health "
+"care facility."
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_referal_ratio.rst:10
+msgid ""
+"The report can be run by users with the system role Accountant or with a "
+"role including an access to Tools/Reports/Percentage of Referrals. "
+"(:ref:`Image 239<image239>`)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_referal_ratio.rst:13
+msgid "Parameters for selection for the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_referal_ratio.rst:19
+msgid "`Image 218 - Percentage of Referrals Report Criteria`"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_referal_ratio.rst:21
+msgid "Input parameters of the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_referal_ratio.rst:23
+msgid "Date From  - first claim date to be considered in the report **Mandatory**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_referal_ratio.rst:25
+msgid "Date To  - last claim date to be considered in the report **Mandatory**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_referal_ratio.rst:27
+msgid "Region – if it was entered"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_referal_ratio.rst:29
+msgid "District –if it was entered"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_referal_ratio.rst:31
+msgid "The title of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_referal_ratio.rst:33
+msgid "See Input paramaters"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_referal_ratio.rst:35
+msgid "Content of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_referal_ratio.rst:37
+msgid "this reports shows claims per health facility"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_referal_ratio.rst:39
+msgid "Number of claims"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_referal_ratio.rst:41
+msgid "number of referal claims out patient"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_referal_ratio.rst:43
+msgid "Number of referal claims in patient"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_referal_ratio.rst:45
+msgid "Example"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_referal_ratio.rst:51
+msgid "`Image 239 - Preview – Percentage of Referrals Overview Report`"
+msgstr ""
+

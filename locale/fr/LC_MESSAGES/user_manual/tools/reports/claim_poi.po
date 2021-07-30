@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../user_manual/tools/reports/claim_poi.rst:2
+msgid "Primary operational indicators  - claims report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:4
+msgid ""
+"The report provides aggregate data relating to policies and insurees "
+"according to insurance products. The report can be run by users with the "
+"system role Manager or with a role including an access to "
+"Tools/Reports/Primary Operational Indicators-claims. The table below will"
+" provide an overview on   primary indicators of the report."
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:6
+msgid "Parameters for selection for the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:12
+msgid "`Image 206 - Primary Operational Indicators - Claims Report Criteria`"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:14
+msgid "Input parameters of the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:16
+msgid "Month– the period  in which a payment takes place"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:18
+msgid "Quarter  - the period  in which a payment takes place"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:20
+msgid "Year  - the period  in which a payment takes place – **mandatory**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:22
+msgid "Region – region of activity of enrolment officers"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:24
+msgid "District - region of activity of enrolment officers"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:26
+msgid ""
+"Insurance Product – the drop down list with available insurance products "
+"for the district according to standard IMIS rules - **mandatory**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:29
+msgid "The title of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:31
+msgid "See Input paramaters"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:33
+msgid "Content of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:35
+msgid "Structuring of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:37
+msgid "Table Overview of operational indicators"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:43
+msgid "**Code**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:44
+msgid "**Primary indicators**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:45
+msgid "**Dimension**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:46
+msgid "**Description**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:48
+msgid "P10"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:49
+msgid "Number of claims"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:50
+#: ../../user_manual/tools/reports/claim_poi.rst:55
+#: ../../user_manual/tools/reports/claim_poi.rst:60
+msgid "Time, Health facility, Insurance product"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:51
+msgid ""
+"The number of claims for given insurance product that emerged during a "
+"respective period (Start dateof a claim is within the respective period)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:53
+msgid "P11"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:54
+msgid "Amount remunerated"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:56
+msgid ""
+"Amount remuneratedfor claims for given insurance product that emerged "
+"during a respective period (Start dateof a claim is within the respective"
+" period)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:58
+msgid "P12"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:59
+msgid "Number of rejected claims"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:61
+msgid ""
+"The number of claims for given insurance product that emerged during a "
+"respective period and were rejected (Start dateof a claim is within the "
+"respective period and the Status approval ofthe claim is Rejected)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:63
+msgid "Example"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_poi.rst:69
+msgid "`Image 226 - Preview – Primary Operational Indicators - Claims Report`"
+msgstr ""
+

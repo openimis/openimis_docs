@@ -8,7 +8,7 @@ Pending Insurees report
 
     .. _image220:
     .. figure:: /img/user_manual/image189.png
-    :align: center
+       :align: center
 
     `Image 220 - Pending Insurees Report Criteria`
   

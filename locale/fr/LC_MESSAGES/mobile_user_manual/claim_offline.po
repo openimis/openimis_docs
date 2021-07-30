@@ -1,0 +1,403 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../mobile_user_manual/claim_offline.rst:2
+msgid "Off-line mode of IMIS Claims"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:4
+msgid ""
+"The following table gives an overview of functions according to their "
+"requirements towards Internet connectivity and possible off-line "
+"substitutions."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:9
+msgid "IMIS Claims"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:11
+msgid "Functionality"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:11
+msgid "connectivity required /autonomous"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:11
+msgid "Off-line substitution"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:14
+msgid "Initial launching"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:14
+#: ../../mobile_user_manual/claim_offline.rst:18
+#: ../../mobile_user_manual/claim_offline.rst:26
+#: ../../mobile_user_manual/claim_offline.rst:32
+msgid "connectivity required"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:14
+#: ../../mobile_user_manual/claim_offline.rst:18
+msgid "yes, by off-line transfer of a phone extract"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:18
+msgid "Enquire"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:22
+msgid "Map Services"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:22
+#: ../../mobile_user_manual/claim_offline.rst:24
+#: ../../mobile_user_manual/claim_offline.rst:28
+#: ../../mobile_user_manual/claim_offline.rst:30
+#: ../../mobile_user_manual/claim_offline.rst:36
+#: ../../mobile_user_manual/claim_offline.rst:38
+msgid "autonomous"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:22
+#: ../../mobile_user_manual/claim_offline.rst:24
+#: ../../mobile_user_manual/claim_offline.rst:28
+#: ../../mobile_user_manual/claim_offline.rst:30
+#: ../../mobile_user_manual/claim_offline.rst:36
+#: ../../mobile_user_manual/claim_offline.rst:38
+msgid "not needed"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:24
+msgid "Map Items"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:26
+msgid "Refresh Mapping"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:26
+msgid "not available"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:28
+msgid "Claim"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:30
+msgid "Reports"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:32
+msgid "Synchronize"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:32
+msgid "yes, off-line synchronization by XML files"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:36
+msgid "Quit"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:38
+msgid "About"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:42
+msgid "Creation and transfer of off-line files to IMIS Claims"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:44
+msgid ""
+"The off-line files for IMIS Claims is created in the web IMIS by "
+"selecting of the **Tools/Extracts** menu item. The form IMISExtracts is "
+"displayed."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:53
+msgid "Image 3.2.1 (IMISExtracts Form)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:55
+msgid ""
+"The Create Phone Extract section is used for creation of the off-line "
+"file for IMIS Claims."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:58
+msgid "Region"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:62
+msgid ""
+"The region in which a health facility is located for which claims should "
+"be created."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:65
+msgid "District"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:69
+msgid ""
+"The district in which the health facility is located for which claims "
+"should be created."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:72
+msgid "With Insurees"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:76
+msgid ""
+"Check if the off-line file should contain data on insures (for the "
+"function `Enquiry <#function-enquire-1>`__)."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:79
+msgid "In background"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:83
+msgid "Check if the off-line file should be created in background."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:85
+msgid "Click on the button:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:87
+msgid "**Create**"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:91
+msgid ""
+"The file IMISData.db3 is generated and it can be downloaded by clicking "
+"on the button **Download** which is dynamically created in the section"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:95
+msgid ""
+"The off-line file IMISData.db3 should be transferred to the device and "
+"stored in the folder IMIS."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:99
+msgid "Creation and transfer of off-line files from IMIS Claims"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:101
+msgid ""
+"Use the function `Synchronize <#image-3.2.1-synchronize-page>`__ and the "
+"following buttons:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:107
+msgid "Image 3.2.1 (Synchronize Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:109
+msgid "**Create Claims XML**"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:113
+msgid ""
+"Creates a file with all claims that haven’t been uploaded or included in "
+"a generated file yet.. The name of the file is Claims_<claim adminstrator"
+" code>_<date of creating>_<time of creating>.rar and it is stored in the "
+"folder IMIS in the device."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:118
+msgid "."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:120
+msgid ""
+"The off-line files should be transferred to a client device of the web "
+"IMIS and uploaded to the web IMIS by means of the `IMISExtracts form "
+"<#image-3.1.1-imisextracts-form>`__ – in the section Upload Claims."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:125
+msgid "Remark"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:127
+msgid ""
+"This version of the user manual relates to the version CHF-IMIS apps that"
+" was derived from the Master Version of IMIS apps having in mind specific"
+" requirements of the CHF health insurance scheme to the terminology and "
+"the data fields to be used in IMIS. The text of the user manual relates "
+"to the Master Version of IMIS. The following table shows the differences "
+"in the terminology between the Master Version of IMIS and the CHF-IMIS. A"
+" user has to have these differences in mind when reading the text of this"
+" user manual."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:136
+msgid ""
+"The following table summarizes the adjustments in terminology for the "
+"CHF-IMIS with respect to the Master Version of IMIS:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:140
+#: ../../mobile_user_manual/claim_offline.rst:152
+msgid "**IMIS Master Version**"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:140
+#: ../../mobile_user_manual/claim_offline.rst:152
+msgid "**CHF-IMIS**"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:142
+msgid "Municipality"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:142
+msgid "Ward"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:144
+msgid "Insurance Number"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:144
+msgid "CHF Number"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:147
+msgid ""
+"Further, the Master Version of IMIS uses some data fields that are not "
+"used in CHF-IMIS. The overview of the data fields in the Master Version "
+"not occurring in the CHF-IMIS is shown in the following table:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:154
+msgid "Education"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:154
+#: ../../mobile_user_manual/claim_offline.rst:156
+#: ../../mobile_user_manual/claim_offline.rst:158
+#: ../../mobile_user_manual/claim_offline.rst:162
+#: ../../mobile_user_manual/claim_offline.rst:164
+#: ../../mobile_user_manual/claim_offline.rst:166
+#: ../../mobile_user_manual/claim_offline.rst:168
+#: ../../mobile_user_manual/claim_offline.rst:170
+#: ../../mobile_user_manual/claim_offline.rst:172
+#: ../../mobile_user_manual/claim_offline.rst:174
+#: ../../mobile_user_manual/claim_offline.rst:176
+#: ../../mobile_user_manual/claim_offline.rst:178
+#: ../../mobile_user_manual/claim_offline.rst:180
+#: ../../mobile_user_manual/claim_offline.rst:182
+#: ../../mobile_user_manual/claim_offline.rst:184
+#: ../../mobile_user_manual/claim_offline.rst:186
+#: ../../mobile_user_manual/claim_offline.rst:188
+#: ../../mobile_user_manual/claim_offline.rst:190
+#: ../../mobile_user_manual/claim_offline.rst:192
+msgid "Not used"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:156
+msgid "Profession"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:158
+msgid "Confirmation"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:160
+msgid "Type"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:162
+msgid "Confirmation No."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:164
+msgid "Current Region"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:166
+msgid "Current District"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:168
+msgid "Current Municipality"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:170
+msgid "Current Village"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:172
+msgid "Current Address Details"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:174
+msgid "Identification Type"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:176
+msgid "Identification No."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:178
+msgid "Region of FSP"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:180
+msgid "District of FSP"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:182
+msgid "Level of FSP"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:184
+msgid "First Service Point"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:186
+msgid "Relationship"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:188
+msgid "Beneficiary Card"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:190
+msgid "Poverty Status"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:192
+msgid "Contribution Category"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:195
+msgid ""
+"Besides, CHF-IMIS uses as the second language for the user interface "
+"Swahili."
+msgstr ""
+

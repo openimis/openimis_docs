@@ -7,7 +7,7 @@ Enrolment performance indicator report
 
     .. _image212:
     .. figure:: /img/user_manual/image181.png
-    :align: center
+       :align: center
 
     `Image 212 - Enrolment Performance Indicators Report Criteria`
 

@@ -1,5 +1,5 @@
 Policies Renewals report
----------------
+------------------------
 
   The report lists all renewed policies in given period for given insurance product and optionally for given enrolment officer. The families that have at least one payment of contributions in given period of time are included in the report. The report can be run by users with the system role Accountant or with a role including an access to Tools/Reports/Renewals. Below is an example of the report (:ref:`Image 241<image241>`)
 
