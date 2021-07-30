@@ -24,13 +24,14 @@ Welcome to the openIMIS technical documentation repository.
 
 
 .. toctree::
-    :caption: OpenIMIS
-    :maxdepth: 2
+   :maxdepth: 2
+   :caption: User webapp documentation
 
-    index_local
-    openIMIS Install documentation <https://openimis.atlassian.net/wiki/spaces/OP/pages/906526894>
-    open a ticket <https://openimis.atlassian.net/servicedesk/customer/portals>
-    openIMIS Wiki <https://openimis.atlassian.net/wiki/spaces/OP/overview>
+   /user_manual/index
+   /mobile_user_manual/index
+   openIMIS Install documentation <https://openimis.atlassian.net/wiki/spaces/OP/pages/906526894>
+   open a ticket <https://openimis.atlassian.net/servicedesk/customer/portals>
+   openIMIS Wiki <https://openimis.atlassian.net/wiki/spaces/OP/overview>
 
 
 
