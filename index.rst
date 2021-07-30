@@ -20,14 +20,10 @@ Welcome to the openIMIS technical documentation repository.
 
 .. toctree::
    :maxdepth: 2
-   :caption: User documentation
+   :caption: User webapp documentation
 
-   /user_manual/user_login/user_login
-   /user_manual/claims/claims
-   /user_manual/register/register
-   /user_manual/insuree_policies/insuree_policies
-   /user_manual/tools/tools
-   /user_manual/offline/offline
+   /user_manual/index
+   /mobile_user_manual/index
 
 
    
