@@ -16,7 +16,7 @@ Navigation
   All functionality for use with the administration of medical items can be found under the main menu ``Administration``, sub menu ``Medical Items``
 
   .. _image29:
-  .. figure:: /img/user_manual/image30.png
+  .. figure:: /img/user_manual/med_item_menu.png
     :align: center
 
     `Navigation Medical Items`
@@ -24,7 +24,7 @@ Navigation
   Clicking on the sub menu ``Medical Items`` re-directs the current user to the `Medical Items Control Page <#medical-items-control-page>`__\.
 
   .. _image30:
-  .. figure:: /img/user_manual/image31.png
+  .. figure:: /img/user_manual/med_item_list.png
     :align: center
 
     `Medical Items Control Page`
@@ -48,7 +48,7 @@ Medical Items Control Page
 
     * ``Type``
 
-      Select the ``Type``; from the list of types (Drugs, Medical Prostheses) by clicking on the arrow on the right of the selector, to select medical items of a specific type.
+      Select the ``Type``; from the list of types (Drugs, Medical consumable) by clicking on the arrow on the right of the selector, to select medical items of a specific type.
 
     * ``Package``
 
@@ -59,7 +59,7 @@ Medical Items Control Page
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image31`).
 
       .. _image31:
-      .. figure:: /img/user_manual/image32.png
+      .. figure:: /img/user_manual/med_item_history.png
         :align: center
 
         `Historical records - Result Panel`
@@ -70,29 +70,17 @@ Medical Items Control Page
 
  #. **Result Panel**
 
-    The result panel displays a list of all medical items found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image32`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+    The result panel displays a list of all medical items found, matching the selected criteria in the search panel.
 
-    .. _image32:
-    .. figure:: /img/user_manual/image33.png
-      :align: center
-
-      `Selected record (blue), hovered records (yellow) - Result Panel`
-
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image33`)
+    The number of rows per page is limited to 10 by default but one can use the "Rows per page" drop-down in the bottom right of the search results. If there are more rows to display, one can use the page navigation. (:numref:`image33`)
 
     .. _image33:
-    .. figure:: /img/user_manual/image11.png
+    .. figure:: /img/user_manual/79_pagination.png
       :align: center
+      :width: 50%
 
       `Page selector- Result Panel`
 
- #. **Button Panel**
-
-    With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
-
- #. **Information Panel**
-
-    The Information Panel is used to display messages back to the user. Messages will occur once a medical item has been added, updated or deleted or if there was an error at any time during the process of these actions.
 
 Medical Item Page
 """""""""""""""""
@@ -100,7 +88,7 @@ Medical Item Page
  #. **Data Entry**
 
     .. _image34:
-    .. figure:: /img/user_manual/image34.png
+    .. figure:: /img/user_manual/med_item_new.png
       :align: center
 
       `Medical Item Page`
@@ -159,7 +147,7 @@ Adding a Medical Item
 Editing a Medical Item
 """"""""""""""""""""""
 
-  Click on the ``Edit`` button to re-direct to the `Medical Item Page <#medical-item-page>`__\ .
+  Double-click on a row to re-direct to the `Medical Item Page <#medical-item-page>`__\ .
 
   The page will open with the current information loaded into the data entry fields. See the `Medical Item Page <#medical-item-page>`__ for information on the data entry and mandatory fields.
 
@@ -171,8 +159,9 @@ Deleting a Medical Item
   Before deleting a confirmation popup (:numref:`image35`) is displayed, which requires the user to confirm if the action should really be carried out?
 
   .. _image35:
-  .. figure:: /img/user_manual/image24.png
+  .. figure:: /img/user_manual/med_item_delete.png
     :align: center
+    :width: 50%
 
     `Delete confirmation- Button Panel`
 
