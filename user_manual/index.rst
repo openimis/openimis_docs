@@ -12,3 +12,5 @@ OpenIMIS Web applications
    /user_manual/insuree_policies/insuree_policies
    /user_manual/tools/tools
    /user_manual/offline/offline
+   /user_manual/process/group_insurance
+   
