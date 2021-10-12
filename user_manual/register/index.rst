@@ -26,8 +26,6 @@ The register of Pricelists that splits into two divisions for Medical Services a
    item_price_list
    user
    user_roles
-   enrolment_officer
-   claim_admin
    payer
    location
    policyholder_users
