@@ -243,8 +243,8 @@ Processed
 Claim Review Page
 ===================
 
- Data Entry
- ----------
+Data Entry
+----------
 
     .. _image159:
     .. figure:: /img/user_manual/claim.review_page.png

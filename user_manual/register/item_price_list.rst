@@ -83,7 +83,7 @@ Price List Medical Item Page
 ============================
 
 Data Entry
------------
+"""""""""""
 
 .. figure:: /img/user_manual/image44.png
   :align: center
@@ -106,7 +106,7 @@ Medical Items
   Select from the list of available medical items the medical items which the price list of medical items should contain by clicking on the ``check box`` to the left of a medical item. The list shows the medical items displaying the code, name, type and price for reference. There is also an extra column, Overrule, which can be used to overrule the pre-set price. By clicking once on the row desired item in the overrule column, a new price can be entered for the individual item. This can occur when price agreed between a health facility or group of health facilities and the health insurance administration differs from the common price in the register of medical items.
 
 Saving
-------
+"""""""
 
 Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Price list Medical Items Control Page <#medical-items-control-page>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the price list of medical items has been saved will appear on the Information Panel.
 

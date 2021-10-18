@@ -317,18 +317,28 @@ Saving
 Once all mandatory data is entered, clicking on the ``Save`` button (:numref:`mat_save`) will save the claim. The user stay in the :ref:`Claim Page  <claim-page>`; a message confirming that the claim has been saved will appear on the right of the :ref:`Claim Page  <claim-page>` (:numref:`save_conf`).
 
 .. _save_conf:
-.. list-table:: claim save confirmation
+.. list-table:: Claim Save Confirmation
 
   * - .. figure:: /img/user_manual/claim.create_conf.png
         :align: center
 
         `Create confirmation`
+    
     - .. figure:: /img/user_manual/claim.save_conf.png
         :align: center
 
         `Update confirmation`
 
-  If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk).
+    - .. figure:: /img/user_manual/mat.back.png
+        :align: center
+
+        `Back`
+    - .. figure:: /img/user_manual/mat.print.png
+        :align: center
+
+        `Print`
+
+If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk).
 
 **Printing of a claim**
 

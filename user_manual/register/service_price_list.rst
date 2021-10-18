@@ -136,12 +136,12 @@ Deleting a Price List of Medical Services
 
 Click on the ``Delete`` button to delete the currently selected record.
 
-Before deleting a confirmation popup (:numref:`pricelists_delete`) is displayed, which requires the user to confirm if the action should really be carried out?
+Before deleting a confirmation popup (:numref:`services_pricelists_delete`) is displayed, which requires the user to confirm if the action should really be carried out?
 
-.. _pricelists_delete:
+.. _services_pricelists_delete:
 .. figure:: /img/user_manual/pricelists_delete.png
   :align: center
 
-  `Delete Confirmation - Button Panel`
+  `Services Price list Delete Confirmation - Button Panel`
 
 When a price list medical service is deleted, all records retaining to the deleted price list medical service will still be available by selecting historical records.

@@ -1,5 +1,5 @@
 Reset Forgotten Password
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 When a password is forgotten, clicking ``Forgot Password?`` on the login screen (`Login <#login>`__) results in the opening of the ``Forgot Password`` page (:ref:`Forgotten password image <forgotten_pass>`).
 

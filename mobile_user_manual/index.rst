@@ -10,7 +10,7 @@ Mobile Applications
 | The Insurance Management Information System (IMIS) is the web based   |
 | software supporting running of health insurance schemes. It includes  |
 | functionality for a setup to requirements of health insurance         |
-| schemes, administration of policies and policyholders and for claim  |
+| schemes, administration of policies and policyholders and for claim   |
 | processing.                                                           |
 |                                                                       |
 | The web forms used in IMIS are not adjusted to small screens of       |
