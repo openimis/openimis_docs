@@ -1,6 +1,8 @@
 Family/Group
 ^^^^^^^^^^^^
 
+.. contents:: Table of Contents
+
 Find Family
 """""""""""
 
@@ -416,9 +418,8 @@ Deleting a Family/Group
 
   Before deleting a confirmation popup is displayed, which requires the user to confirm if the action should really be carried out.
   
-  The confirmation dialog gives two options (:numref:`image74`): 
+  The confirmation dialog gives two options: 
 
-      .. _image74:
       .. figure:: /img/user_manual/image74.png
         :align: center
 

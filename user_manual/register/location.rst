@@ -19,7 +19,7 @@ Navigation
 
     `Navigation Locations`
 
-  Clicking on the sub menu ``Locations`` re-directs the current user to the `Locations Page. <#locations-page>`__
+  Clicking on the sub menu ``Locations`` redirects the current user to the `Locations Page. <#locations-page>`__
 
   .. _location_search:
   .. figure:: /img/user_manual/location.search.png
