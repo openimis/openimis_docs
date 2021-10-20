@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:2
+msgid "Rejected Photos Report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:4
+msgid ""
+"Rejected Photos report lists data on photos that were sent by enrolment "
+"officers but rejected for some reason by IMIS"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:6
+msgid "Parameters for selection for the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:8
+msgid "Input parameters of the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:10
+msgid "Date From  - start date of the report **Mandatory**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:12
+msgid "Date To  - stop date of the report **Mandatory**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:14
+msgid "The title of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:16
+msgid "See Input paramaters"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:18
+msgid "Content of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:20
+msgid "Insurance number"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:22
+msgid "Rejected date"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:29
+msgid "Example"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:29
+msgid "`Rejected Photos Report Report Criteria`"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:31
+msgid "Parameters for selection of rejected  photos for the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:33
+msgid ""
+"Start date – the start date of period, within which rejected photos were "
+"sent-obligatory"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:35
+msgid "End date - the end date of the period -obligatory"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:37
+msgid "The report contains in the title:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:39
+msgid "Rejected photos"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:41
+msgid "Period (Start date, End date) of sending photos"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:43
+msgid "The report contains the list of items with the following structure:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:45
+msgid "Date of sending of the photo"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:47
+msgid "The code of the enrolment officer"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:49
+msgid "The CHF number associated with the photo"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_rejected_photo.rst:51
+msgid ""
+"At the bottom of the report the total number of rejected photos in the "
+"report is included."
+msgstr ""
+

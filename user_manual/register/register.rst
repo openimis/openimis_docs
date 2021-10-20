@@ -23,3 +23,6 @@ The register of Users defines who can login to openIMIS and under what constrain
    claim_admin
    payer
    location
+   policyholder_users
+   contribution_plan
+   contribution_plan_bundle

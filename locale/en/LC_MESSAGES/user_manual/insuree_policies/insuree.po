@@ -1,410 +1,516 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
 msgid ""
-msgstr "" 
-"Project-Id-Version: openIMIS \n" 
-"Report-Msgid-Bugs-To: \n" 
-"POT-Creation-Date: 2019-08-16 15:21+0200\n" 
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n" 
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n" 
-"Language-Team: LANGUAGE <LL@li.org>\n" 
-"MIME-Version: 1.0\n" 
-"Content-Type: text/plain; charset=UTF-8\n" 
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-04 19:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: ../../user_manual/insuree_policies/insuree.rst:4
 msgid "Insuree"
 msgstr "Insuree"
 
+#: ../../user_manual/insuree_policies/insuree.rst:7
 msgid "Find Insuree"
 msgstr "Find Insuree"
 
+#: ../../user_manual/insuree_policies/insuree.rst:9
 msgid "Access to the Find Insuree Page is restricted to users with the system roles of Accountant, Clerk and Health Facility Receptionist or with a role including an access to Insurees and Families/Insuree/Search."
 msgstr "Access to the Find Insuree Page is restricted to users with the system roles of Accountant, Clerk and Health Facility Receptionist or with a role including an access to Insurees and Families/Insuree/Search."
 
+#: ../../user_manual/insuree_policies/insuree.rst:11
 msgid "Pre-conditions"
 msgstr "Pre-conditions"
 
+#: ../../user_manual/insuree_policies/insuree.rst:14
 msgid "Need to enquire on, or edit an insuree, and the family/group, policies and contributions associated."
 msgstr "Need to enquire on, or edit an insuree, and the family/group, policies and contributions associated."
 
+#: ../../user_manual/insuree_policies/insuree.rst:16
 msgid "Navigation"
 msgstr "Navigation"
 
+#: ../../user_manual/insuree_policies/insuree.rst:19
 msgid "All functionality for use with the administration of insurees can be found under the main menu ``Insurees and Policies``, sub menu ``Insurees``."
 msgstr "All functionality for use with the administration of insurees can be found under the main menu ``Insurees and Policies``, sub menu ``Insurees``."
 
+#: ../../user_manual/insuree_policies/insuree.rst:25
 msgid "`Navigation Insurees`"
 msgstr "`Navigation Insurees`"
 
+#: ../../user_manual/insuree_policies/insuree.rst:27
 msgid "Clicking on the sub menu ``Insurees`` re-directs the current user to the Find Insuree Page."
 msgstr "Clicking on the sub menu ``Insurees`` re-directs the current user to the Find Insuree Page."
 
+#: ../../user_manual/insuree_policies/insuree.rst:29
 msgid "Find Insuree Page"
 msgstr "Find Insuree Page"
 
+#: ../../user_manual/insuree_policies/insuree.rst:36
 msgid "`Find Insuree Page`"
 msgstr "`Find Insuree Page`"
 
-msgid "The ``Find Insuree Page`` is the first step in the process of finding an insuree and thereafter accessing the family/group overview of insurees, policies and contributions. This initial page can be used to search for specific Insurees or groups of insurees based on specific criteria. The panel is divided into four panels (:numref:`image96`)"
-msgstr "The ``Find Insuree Page`` is the first step in the process of finding an insuree and thereafter accessing the family/group overview of insurees, policies and contributions. This initial page can be used to search for specific Insurees or groups of insurees based on specific criteria. The panel is divided into four panels (:numref:`image96`)"
+#: ../../user_manual/insuree_policies/insuree.rst:38
+msgid "The ``Find Insuree Page`` is the first step in the process of finding an insuree and thereafter accessing the family/group overview of insurees, policies and contributions. This initial page can be used to search for specific Insurees or groups of insurees based on specific criteria. The panel is divided into three panels (:numref:`image96`)"
+msgstr "The ``Find Insuree Page`` is the first step in the process of finding an insuree and thereafter accessing the family/group overview of insurees, policies and contributions. This initial page can be used to search for specific Insurees or groups of insurees based on specific criteria. The panel is divided into three panels (:numref:`image96`)"
 
+#: ../../user_manual/insuree_policies/insuree.rst:40
 msgid "**Search Panel**"
 msgstr "**Search Panel**"
 
-msgid "The Search Panel allows a user to select specific criteria to minimise the search results. In the case of insurees the following search options are available, which can be used alone or in combination with each other."
-msgstr "The Search Panel allows a user to select specific criteria to minimise the search results. In the case of insurees the following search options are available, which can be used alone or in combination with each other."
+#: ../../user_manual/insuree_policies/insuree.rst:42
+msgid "The Search Panel allows a user to select specific criteria to reduce the search results. In the case of insurees the following search options are available, which can be used alone or in combination with each other."
+msgstr "The Search Panel allows a user to select specific criteria to reduce the search results. In the case of insurees the following search options are available, which can be used alone or in combination with each other."
 
-msgid "``Last Name``"
-msgstr "``Last Name``"
-
-msgid "Type in the beginning of; or the full ``Last name``; to search for insurees with a ``Last name``, which starts with or matches completely, the typed text."
-msgstr "Type in the beginning of; or the full ``Last name``; to search for insurees with a ``Last name``, which starts with or matches completely, the typed text."
-
-msgid "``Other Names``"
-msgstr "``Other Names``"
-
-msgid "Type in the beginning of; or the full ``Other Names`` to search for insurees with ``Other Names`` which starts with or matches completely, the typed text."
-msgstr "Type in the beginning of; or the full ``Other Names`` to search for insurees with ``Other Names`` which starts with or matches completely, the typed text."
-
-msgid "``Insurance Number``"
-msgstr "``Insurance Number``"
-
-msgid "Type in the beginning of; or the full ``Insurance Number`` to search for insurees with the ``Insurance Number``, which starts with or matches completely, the typed text."
-msgstr "Type in the beginning of; or the full ``Insurance Number`` to search for insurees with the ``Insurance Number``, which starts with or matches completely, the typed text."
-
-msgid "``Marital Status``"
-msgstr "``Marital Status``"
-
-msgid "Select the ``Marital Status``; from the list of marital status by clicking on the arrow on the right of the selector, to select insurees of a specific marital status."
-msgstr "Select the ``Marital Status``; from the list of marital status by clicking on the arrow on the right of the selector, to select insurees of a specific marital status."
-
-msgid "``Phone Number``"
-msgstr "``Phone Number``"
-
-msgid "Type in the beginning of; or the full ``Phone Number`` to search for insurees with a ``Phone Number``, which starts with or matches completely, the typed number."
-msgstr "Type in the beginning of; or the full ``Phone Number`` to search for insurees with a ``Phone Number``, which starts with or matches completely, the typed number."
-
-msgid "``Birth Date From``"
-msgstr "``Birth Date From``"
-
-msgid "Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for insurees who have the same or later birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
-msgstr "Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for insurees who have the same or later birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
-
-msgid "``Birth Date To``"
-msgstr "``Birth Date To``"
-
-msgid "Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for insurees who have the same or earlier birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
-msgstr "Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for insurees who have the same or earlier birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
-
-msgid "``Date Selector Button``"
-msgstr "``Date Selector Button``"
-
-msgid "Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image97`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted."
-msgstr "Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image97`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted."
-
-msgid "At anytime during the use of the pop-up, the user can see the date of **today**."
-msgstr "At anytime during the use of the pop-up, the user can see the date of **today**."
-
-msgid "Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box."
-msgstr "Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box."
-
-msgid "Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box."
-msgstr "Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box."
-
-msgid "Clicking on the arrow to the left displays the previous month."
-msgstr "Clicking on the arrow to the left displays the previous month."
-
-msgid "Clicking on the arrow on the right will displays the following month."
-msgstr "Clicking on the arrow on the right will displays the following month."
-
-msgid "Clicking on the month will display all the months for the year."
-msgstr "Clicking on the month will display all the months for the year."
-
-msgid "Clicking on the year will display a year selector."
-msgstr "Clicking on the year will display a year selector."
-
-msgid "|logo27|"
-msgstr "|logo27|"
-
-msgid "|logo28|"
-msgstr "|logo28|"
-
-msgid "|logo29|"
-msgstr "|logo29|"
-
-msgid "`Calendar Selector - Search Panel`"
-msgstr "`Calendar Selector - Search Panel`"
-
-msgid "``Gender``"
-msgstr "``Gender``"
-
-msgid "Select the ``Gender``; from the list of genders by clicking on the arrow on the right of the selector, to select insurees of a specific gender."
-msgstr "Select the ``Gender``; from the list of genders by clicking on the arrow on the right of the selector, to select insurees of a specific gender."
-
+#: ../../user_manual/insuree_policies/insuree.rst:44
 msgid "``Region``"
 msgstr "``Region``"
 
+#: ../../user_manual/insuree_policies/insuree.rst:46
 msgid "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select insurees from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*"
 msgstr "Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select insurees from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*"
 
+#: ../../user_manual/insuree_policies/insuree.rst:48
 msgid "``District``"
 msgstr "``District``"
 
+#: ../../user_manual/insuree_policies/insuree.rst:50
 msgid "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select insurees from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*"
 msgstr "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select insurees from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*"
 
+#: ../../user_manual/insuree_policies/insuree.rst:52
 msgid "``Municipality``"
 msgstr "``Municipality``"
 
-msgid "Select the ``Municipality``; from the list of wards by clicking on the arrow on the right of the selector to select insurees from a specific municipality. *Note: The list will only be filled with the wards in the selected district above.*"
-msgstr "Select the ``Municipality``; from the list of wards by clicking on the arrow on the right of the selector to select insurees from a specific municipality. *Note: The list will only be filled with the wards in the selected district above.*"
+#: ../../user_manual/insuree_policies/insuree.rst:54
+msgid "Select the ``Municipality``; from the list of wards either by typing at least two characters or by clicking on the arrow on the right of the selector to select insurees from a specific municipality. *Note: The list will only be filled with the wards in the selected district above.*"
+msgstr "Select the ``Municipality``; from the list of wards either by typing at least two characters or by clicking on the arrow on the right of the selector to select insurees from a specific municipality. *Note: The list will only be filled with the wards in the selected district above.*"
 
+#: ../../user_manual/insuree_policies/insuree.rst:56
 msgid "``Village``"
 msgstr "``Village``"
 
-msgid "Select the ``Village``; from the list of villages by clicking on the arrow on the right of the selector to select insurees from a specific village. *Note: The list will only be filled with the villages in the selected municipality above.*"
-msgstr "Select the ``Village``; from the list of villages by clicking on the arrow on the right of the selector to select insurees from a specific village. *Note: The list will only be filled with the villages in the selected municipality above.*"
+#: ../../user_manual/insuree_policies/insuree.rst:58
+msgid "Select the ``Village``; from the list of villages either by typing at least two characters or by clicking on the arrow on the right of the selector to select insurees from a specific village. *Note: The list will only be filled with the villages in the selected municipality above.*"
+msgstr "Select the ``Village``; from the list of villages either by typing at least two characters or by clicking on the arrow on the right of the selector to select insurees from a specific village. *Note: The list will only be filled with the villages in the selected municipality above.*"
 
-msgid "``Photo Assigned``"
-msgstr "``Photo Assigned``"
+#: ../../user_manual/insuree_policies/insuree.rst:60
+#: ../../user_manual/insuree_policies/insuree.rst:171
+msgid "``Insurance Number``"
+msgstr "``Insurance Number``"
 
-msgid "Select whether all insurees are searched [**All**] or only insurees with a photo assigned [**Yes**] or only insurees with no photo assigned [**No**]."
-msgstr "Select whether all insurees are searched [**All**] or only insurees with a photo assigned [**Yes**] or only insurees with no photo assigned [**No**]."
+#: ../../user_manual/insuree_policies/insuree.rst:62
+msgid "Type in the beginning of; or the full ``Insurance Number`` to search for insurees with the ``Insurance Number``, which starts with or matches completely, the typed text."
+msgstr "Type in the beginning of; or the full ``Insurance Number`` to search for insurees with the ``Insurance Number``, which starts with or matches completely, the typed text."
 
-msgid "``Historical``"
-msgstr "``Historical``"
+#: ../../user_manual/insuree_policies/insuree.rst:64
+msgid "``Last Name``"
+msgstr "``Last Name``"
 
-msgid "Click on Historical to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image98`)"
-msgstr "Click on Historical to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image98`)"
+#: ../../user_manual/insuree_policies/insuree.rst:66
+msgid "Type in the beginning of; or the full ``Last name``; to search for insurees with a ``Last name``, which starts with or matches completely, the typed text."
+msgstr "Type in the beginning of; or the full ``Last name``; to search for insurees with a ``Last name``, which starts with or matches completely, the typed text."
 
-msgid "`Historical records - Result Panel`"
-msgstr "`Historical records - Result Panel`"
+#: ../../user_manual/insuree_policies/insuree.rst:68
+#: ../../user_manual/insuree_policies/insuree.rst:179
+msgid "``Given Names``"
+msgstr "``Given Names``"
 
-msgid "``Search Button``"
-msgstr "``Search Button``"
+#: ../../user_manual/insuree_policies/insuree.rst:70
+msgid "Type in the beginning of; or the full ``Given Names`` to search for insurees with ``Other Names`` which starts with or matches completely, the typed text."
+msgstr "Type in the beginning of; or the full ``Given Names`` to search for insurees with ``Other Names`` which starts with or matches completely, the typed text."
 
-msgid "Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel."
-msgstr "Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel."
+#: ../../user_manual/insuree_policies/insuree.rst:72
+#: ../../user_manual/insuree_policies/insuree.rst:187
+msgid "``Gender``"
+msgstr "``Gender``"
 
-msgid "**Result Panel**"
-msgstr "**Result Panel**"
+#: ../../user_manual/insuree_policies/insuree.rst:74
+msgid "Select the ``Gender``; from the list of genders by clicking on the arrow on the right of the selector, to select insurees of a specific gender."
+msgstr "Select the ``Gender``; from the list of genders by clicking on the arrow on the right of the selector, to select insurees of a specific gender."
 
-msgid "The result panel displays a list of all Insurees found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image99`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Family Overview Page <#family-overview-page.>`__ of the insuree’s family, or the `Insuree Page <#insuree-page>`__ if it is a historical record for viewing purposes."
-msgstr "The result panel displays a list of all Insurees found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image99`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Family Overview Page <#family-overview-page.>`__ of the insuree’s family, or the `Insuree Page <#insuree-page>`__ if it is a historical record for viewing purposes."
+#: ../../user_manual/insuree_policies/insuree.rst:76
+#: ../../user_manual/insuree_policies/insuree.rst:191
+msgid "``Marital Status``"
+msgstr "``Marital Status``"
 
-msgid "`Selected record (blue), hovered records (yellow) - Result Panel`"
-msgstr "`Selected record (blue), hovered records (yellow) - Result Panel`"
+#: ../../user_manual/insuree_policies/insuree.rst:78
+msgid "Select the ``Marital Status``; from the list of marital status by clicking on the arrow on the right of the selector, to select insurees of a specific marital status."
+msgstr "Select the ``Marital Status``; from the list of marital status by clicking on the arrow on the right of the selector, to select insurees of a specific marital status."
 
-msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image100`)"
-msgstr "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image100`)"
-
-msgid "`Page selector- Result Panel`"
-msgstr "`Page selector- Result Panel`"
-
-msgid "**Button Panel**"
-msgstr "**Button Panel**"
-
-msgid "The ``CLAIMS`` button directs to the  Claims Control Pages for the selected insure. The  Claims Control Pages is populated by the insurance number of the selected insuree. The CLAIMS button is available only if the user has a role that includes access to Claims/Claim/Search."
-msgstr "The ``CLAIMS`` button directs to the  Claims Control Pages for the selected insure. The  Claims Control Pages is populated by the insurance number of the selected insuree. The CLAIMS button is available only if the user has a role that includes access to Claims/Claim/Search."
-
-msgid "The ``CLAIMS REVIEWED`` button directs to the Claims Overview Page for the selected insure. The  Claims Overview Page is populated by the insurance number of the selected insuree. The CLAIMS REVIEWED button is available only if the user has a role that includes access to Claims/Claim/Review."
-msgstr "The ``CLAIMS REVIEWED`` button directs to the Claims Overview Page for the selected insure. The  Claims Overview Page is populated by the insurance number of the selected insuree. The CLAIMS REVIEWED button is available only if the user has a role that includes access to Claims/Claim/Review."
-
-msgid "The ``Cancel`` button re-directs to the ``Home Page``."
-msgstr "The ``Cancel`` button re-directs to the ``Home Page``."
-
-msgid "**Information Panel**"
-msgstr "**Information Panel**"
-
-msgid "The Information Panel is used to display messages back to the user. Messages will occur once a insuree has been added, updated or deleted or if there was an error at any time during the process of these actions."
-msgstr "The Information Panel is used to display messages back to the user. Messages will occur once a insuree has been added, updated or deleted or if there was an error at any time during the process of these actions."
-
-msgid "Insuree Page"
-msgstr "Insuree Page"
-
-msgid "**Data Entry**"
-msgstr "**Data Entry**"
-
-msgid "`Insuree Page`"
-msgstr "`Insuree Page`"
-
-msgid "``Relationship``"
-msgstr "``Relationship``"
-
-msgid "Select from the list of available relationships of the insuree to the head of family/group."
-msgstr "Select from the list of available relationships of the insuree to the head of family/group."
-
-msgid "Enter the insurance number for the insuree. Mandatory."
-msgstr "Enter the insurance number for the insuree. Mandatory."
-
-msgid "``Last name``"
-msgstr "``Last name``"
-
-msgid "Enter the last name (surname) for the insuree. Mandatory, 100 characters maximum."
-msgstr "Enter the last name (surname) for the insuree. Mandatory, 100 characters maximum."
-
-msgid "Enter other names of the insuree. Mandatory, 100 characters maximum."
-msgstr "Enter other names of the insuree. Mandatory, 100 characters maximum."
-
-msgid "``Birth Date``"
-msgstr "``Birth Date``"
-
-msgid "Enter the date of birth for the insuree. *Note: You can also use the button next to the birth date field to select a date to be entered.*"
-msgstr "Enter the date of birth for the insuree. *Note: You can also use the button next to the birth date field to select a date to be entered.*"
-
-msgid "Select from the list of available genders the gender of the insuree. Mandatory."
-msgstr "Select from the list of available genders the gender of the insuree. Mandatory."
-
-msgid "Select from the list of available options for the marital status of the insuree."
-msgstr "Select from the list of available options for the marital status of the insuree."
-
-msgid "``Beneficiary Card``"
-msgstr "``Beneficiary Card``"
-
-msgid "Select from the list of options whether or not the card was issued to the insure."
-msgstr "Select from the list of options whether or not the card was issued to the insure."
-
-msgid "``Current Region``"
-msgstr "``Current Region``"
-
-msgid "Select from the list of available regions the region, in which the insuree temporarily stays."
-msgstr "Select from the list of available regions the region, in which the insuree temporarily stays."
-
-msgid "``Current District``"
-msgstr "``Current District``"
-
-msgid "Select from the list of available districts the district, in which the insuree temporarily stays. *Note: The list will only be filled with the districts belonging to the selected region*"
-msgstr "Select from the list of available districts the district, in which the insuree temporarily stays. *Note: The list will only be filled with the districts belonging to the selected region*"
-
-msgid "``Current Municipality``"
-msgstr "``Current Municipality``"
-
-msgid "Select from the list of available municipalities the municipality, in which the insuree temporarily stays. *Note: The list will only be filled with the municipalities belonging to the selected district.*"
-msgstr "Select from the list of available municipalities the municipality, in which the insuree temporarily stays. *Note: The list will only be filled with the municipalities belonging to the selected district.*"
-
-msgid "``Current Village``"
-msgstr "``Current Village``"
-
-msgid "Select from the list of available villages the village, in which the insuree temporarily stays. *Note: The list will only be filled with the villages belonging to the selected municipality.*"
-msgstr "Select from the list of available villages the village, in which the insuree temporarily stays. *Note: The list will only be filled with the villages belonging to the selected municipality.*"
-
-msgid "``Current Address Details.``"
-msgstr "``Current Address Details.``"
-
-msgid "Enter details of the temporal address of the insuree."
-msgstr "Enter details of the temporal address of the insuree."
-
-msgid "``Profession``"
-msgstr "``Profession``"
-
-msgid "Select from the list of available professions the profession of the insuree."
-msgstr "Select from the list of available professions the profession of the insuree."
-
-msgid "``Education``"
-msgstr "``Education``"
-
-msgid "Select from the list of available educations the education of the insuree."
-msgstr "Select from the list of available educations the education of the insuree."
-
-msgid "Enter the phone number for the insuree."
-msgstr "Enter the phone number for the insuree."
-
+#: ../../user_manual/insuree_policies/insuree.rst:80
+#: ../../user_manual/insuree_policies/insuree.rst:225
 msgid "``Email``"
 msgstr "``Email``"
 
-msgid "Enter the e-mail address of the insuree."
-msgstr "Enter the e-mail address of the insuree."
+#: ../../user_manual/insuree_policies/insuree.rst:82
+msgid "Type in the beginning of; or the full ``Email`` address to search for insurees with a ``Email``, which contains or matches completely, the typed email."
+msgstr "Type in the beginning of; or the full ``Email`` address to search for insurees with a ``Email``, which contains or matches completely, the typed email."
 
-msgid "``Identification Type``"
-msgstr "``Identification Type``"
+#: ../../user_manual/insuree_policies/insuree.rst:84
+#: ../../user_manual/insuree_policies/insuree.rst:221
+msgid "``Phone Number``"
+msgstr "``Phone Number``"
 
-msgid "Select the type of the identification document of the insuree."
-msgstr "Select the type of the identification document of the insuree."
+#: ../../user_manual/insuree_policies/insuree.rst:86
+msgid "Type in the beginning of; or the full ``Phone Number`` to search for insurees with a ``Phone Number``, which contains or matches completely, the typed number."
+msgstr "Type in the beginning of; or the full ``Phone Number`` to search for insurees with a ``Phone Number``, which contains or matches completely, the typed number."
 
-msgid "``Identification No.``"
-msgstr "``Identification No.``"
+#: ../../user_manual/insuree_policies/insuree.rst:88
+msgid "``Birth Date From``"
+msgstr "``Birth Date From``"
 
-msgid "Enter alphanumeric identification of the document of the insuree."
-msgstr "Enter alphanumeric identification of the document of the insuree."
+#: ../../user_manual/insuree_policies/insuree.rst:90
+msgid "Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for insurees who have the same or later birth date. *Note. To clear the date entry box; click on the date and use the ``Clear`` button on the bottom left.*"
+msgstr "Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for insurees who have the same or later birth date. *Note. To clear the date entry box; click on the date and use the ``Clear`` button on the bottom left.*"
 
-msgid "``Region of FSP``"
-msgstr "``Region of FSP``"
+#: ../../user_manual/insuree_policies/insuree.rst:92
+msgid "``Birth Date To``"
+msgstr "``Birth Date To``"
 
-msgid "Select from the list of available regions the region, in which the chosen primary health facility (First Service Point) of the insuree is located."
-msgstr "Select from the list of available regions the region, in which the chosen primary health facility (First Service Point) of the insuree is located."
+#: ../../user_manual/insuree_policies/insuree.rst:94
+msgid "Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for insurees who have the same or earlier birth date. *Note. To clear the date entry box; click on the date and use the ``Clear`` button on the bottom left.*"
+msgstr "Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for insurees who have the same or earlier birth date. *Note. To clear the date entry box; click on the date and use the ``Clear`` button on the bottom left.*"
 
-msgid "``District of FSP``"
-msgstr "``District of FSP``"
+#: ../../user_manual/insuree_policies/insuree.rst:96
+msgid "``Photo status``"
+msgstr "``Photo status``"
 
-msgid "Select from the list of available districts the district, in which the chosen primary health facility (First Service Point) of the insuree is located. *Note: The list will only be filled with the districts belonging to the selected region.*"
-msgstr "Select from the list of available districts the district, in which the chosen primary health facility (First Service Point) of the insuree is located. *Note: The list will only be filled with the districts belonging to the selected region.*"
+#: ../../user_manual/insuree_policies/insuree.rst:98
+msgid "Select whether all insurees are searched [**Any**] or only insurees [**With**] a photo assigned or only insurees [**Without**] photo assigned."
+msgstr "Select whether all insurees are searched [**Any**] or only insurees [**With**] a photo assigned or only insurees [**Without**] photo assigned."
 
-msgid "``Level of FSP``"
-msgstr "``Level of FSP``"
+#: ../../user_manual/insuree_policies/insuree.rst:100
+msgid "``Show historical values``"
+msgstr "``Show historical values``"
 
-msgid "Select the level of the chosen primary health facility (First Service Point) of the insuree."
-msgstr "Select the level of the chosen primary health facility (First Service Point) of the insuree."
+#: ../../user_manual/insuree_policies/insuree.rst:102
+msgid "Click on Show historical values to see historical records matching the selected criteria. Historical records are displayed in the result as grayed out. (:numref:`image98`)"
+msgstr "Click on Show historical values to see historical records matching the selected criteria. Historical records are displayed in the result as grayed out. (:numref:`image98`)"
 
-msgid "``First Service Point``"
-msgstr "``First Service Point``"
+#: ../../user_manual/insuree_policies/insuree.rst:108
+msgid "`Historical records - Result Panel`"
+msgstr "`Historical records - Result Panel`"
 
-msgid "Select from the list of available health facilities the chosen primary health facility (First Service Point) of the insuree. *Note: The list will only be filled with the health facilities belonging to the selected district which are of the selected level.*"
-msgstr "Select from the list of available health facilities the chosen primary health facility (First Service Point) of the insuree. *Note: The list will only be filled with the health facilities belonging to the selected district which are of the selected level.*"
+#: ../../user_manual/insuree_policies/insuree.rst:110
+msgid "``Search Buttons``"
+msgstr "``Search Buttons``"
 
-msgid "``Browse``"
-msgstr "``Browse``"
+#: ../../user_manual/insuree_policies/insuree.rst:112
+msgid "When criteria are defined and potentially after a small delay, the search will be automatically executed. There are however two buttons on the top right:"
+msgstr "When criteria are defined and potentially after a small delay, the search will be automatically executed. There are however two buttons on the top right:"
 
-msgid "Browse to get the photo for the insuree related to his/her insurance number."
-msgstr "Browse to get the photo for the insuree related to his/her insurance number."
+#: ../../user_manual/insuree_policies/insuree.rst:121
+msgid "|search_reset_button|"
+msgstr "|search_reset_button|"
 
+#: ../../user_manual/insuree_policies/insuree.rst:121
+msgid "Reset search criteria"
+msgstr "Reset search criteria"
+
+#: ../../user_manual/insuree_policies/insuree.rst:123
+msgid "|search_button|"
+msgstr "|search_button|"
+
+#: ../../user_manual/insuree_policies/insuree.rst:123
+msgid "Search (again)"
+msgstr "Search (again)"
+
+#: ../../user_manual/insuree_policies/insuree.rst:126
+msgid "**Result Panel**"
+msgstr "**Result Panel**"
+
+#: ../../user_manual/insuree_policies/insuree.rst:128
+msgid "The result panel displays a list of all Insurees found, matching the selected criteria in the search panel. The leftmost column contains a search icon which if clicked, opens a dialog with further details and eligibility check. On the right, the family icon directs the user to the `Family Overview Page <#family-overview-page.>`__ of the insuree’s family, and a button to delete the insuree."
+msgstr "The result panel displays a list of all Insurees found, matching the selected criteria in the search panel. The leftmost column contains a search icon which if clicked, opens a dialog with further details and eligibility check. On the right, the family icon directs the user to the `Family Overview Page <#family-overview-page.>`__ of the insuree’s family, and a button to delete the insuree."
+
+#: ../../user_manual/insuree_policies/insuree.rst:134
+msgid "`Highlighted result row`"
+msgstr "`Highlighted result row`"
+
+#: ../../user_manual/insuree_policies/insuree.rst:136
+msgid "The number of rows per page is limited to 10 by default but one can use the \"Rows per page\" drop-down in the bottom right of the search results. If there are more rows to display, one can use the page navigation. (:numref:`image100`)"
+msgstr "The number of rows per page is limited to 10 by default but one can use the \"Rows per page\" drop-down in the bottom right of the search results. If there are more rows to display, one can use the page navigation. (:numref:`image100`)"
+
+#: ../../user_manual/insuree_policies/insuree.rst:143
+msgid "`Page selector- Result Panel`"
+msgstr "`Page selector- Result Panel`"
+
+#: ../../user_manual/insuree_policies/insuree.rst:145
+msgid "**Information/Button Panel**"
+msgstr "**Information/Button Panel**"
+
+#: ../../user_manual/insuree_policies/insuree.rst:147
+msgid "The Information Panel is used to display messages back to the user. Messages will occur once a insuree has been added, updated or deleted or if there was an error at any time during the process of these actions."
+msgstr "The Information Panel is used to display messages back to the user. Messages will occur once a insuree has been added, updated or deleted or if there was an error at any time during the process of these actions."
+
+#: ../../user_manual/insuree_policies/insuree.rst:149
+msgid "The ``+`` button will create a new insuree."
+msgstr "The ``+`` button will create a new insuree."
+
+#: ../../user_manual/insuree_policies/insuree.rst:153
+msgid "Insuree Page"
+msgstr "Insuree Page"
+
+#: ../../user_manual/insuree_policies/insuree.rst:159
+msgid "`Insuree Page`"
+msgstr "`Insuree Page`"
+
+#: ../../user_manual/insuree_policies/insuree.rst:161
+msgid "**Family Details**"
+msgstr "**Family Details**"
+
+#: ../../user_manual/insuree_policies/insuree.rst:163
+msgid "The first section contains the family information. Refer to the Family section for details about the displayed fields."
+msgstr "The first section contains the family information. Refer to the Family section for details about the displayed fields."
+
+#: ../../user_manual/insuree_policies/insuree.rst:165
+msgid "**Insuree Data**"
+msgstr "**Insuree Data**"
+
+#: ../../user_manual/insuree_policies/insuree.rst:167
+msgid "``Relationship``"
+msgstr "``Relationship``"
+
+#: ../../user_manual/insuree_policies/insuree.rst:169
+msgid "Shown in the insuree section header only if the insuree is not the head of the family. Select from the list of available relationships of the insuree to the head of family/group."
+msgstr "Shown in the insuree section header only if the insuree is not the head of the family. Select from the list of available relationships of the insuree to the head of family/group."
+
+#: ../../user_manual/insuree_policies/insuree.rst:173
+msgid "Enter the insurance number for the insuree. Mandatory."
+msgstr "Enter the insurance number for the insuree. Mandatory."
+
+#: ../../user_manual/insuree_policies/insuree.rst:175
+msgid "``Last name``"
+msgstr "``Last name``"
+
+#: ../../user_manual/insuree_policies/insuree.rst:177
+msgid "Enter the last name (surname) for the insuree. Mandatory, 100 characters maximum."
+msgstr "Enter the last name (surname) for the insuree. Mandatory, 100 characters maximum."
+
+#: ../../user_manual/insuree_policies/insuree.rst:181
+msgid "Enter given names of the insuree. Mandatory, 100 characters maximum."
+msgstr "Enter given names of the insuree. Mandatory, 100 characters maximum."
+
+#: ../../user_manual/insuree_policies/insuree.rst:183
+msgid "``Birth Date``"
+msgstr "``Birth Date``"
+
+#: ../../user_manual/insuree_policies/insuree.rst:185
+msgid "Enter the date of birth for the insuree."
+msgstr "Enter the date of birth for the insuree."
+
+#: ../../user_manual/insuree_policies/insuree.rst:189
+msgid "Select from the list of available genders the gender of the insuree. Mandatory."
+msgstr "Select from the list of available genders the gender of the insuree. Mandatory."
+
+#: ../../user_manual/insuree_policies/insuree.rst:193
+msgid "Select from the list of available options for the marital status of the insuree."
+msgstr "Select from the list of available options for the marital status of the insuree."
+
+#: ../../user_manual/insuree_policies/insuree.rst:195
+msgid "``Beneficiary Card``"
+msgstr "``Beneficiary Card``"
+
+#: ../../user_manual/insuree_policies/insuree.rst:197
+msgid "Select from the list of options whether or not the card was issued to the insuree."
+msgstr "Select from the list of options whether or not the card was issued to the insuree."
+
+#: ../../user_manual/insuree_policies/insuree.rst:199
+msgid "``Photo Date``"
+msgstr "``Photo Date``"
+
+#: ../../user_manual/insuree_policies/insuree.rst:201
+msgid "Select the date at which the picture was taken."
+msgstr "Select the date at which the picture was taken."
+
+#: ../../user_manual/insuree_policies/insuree.rst:203
+msgid "``Photo``"
+msgstr "``Photo``"
+
+#: ../../user_manual/insuree_policies/insuree.rst:205
+msgid "Click on the person icon to upload a photo for the insuree related to his/her insurance number."
+msgstr "Click on the person icon to upload a photo for the insuree related to his/her insurance number."
+
+#: ../../user_manual/insuree_policies/insuree.rst:207
 msgid "*Note: There is an automated service in the openIMIS Server which will run on configured time basis repeatedly and assign related photos to insurees without photos if any exist in the openIMIS database. So after a user has input insuree's insurance number and no photo is displayed, there is no need to browse for the photo as that process will be done automatically by the service if the service is configured.*"
 msgstr "*Note: There is an automated service in the openIMIS Server which will run on configured time basis repeatedly and assign related photos to insurees without photos if any exist in the openIMIS database. So after a user has input insuree's insurance number and no photo is displayed, there is no need to browse for the photo as that process will be done automatically by the service if the service is configured.*"
 
+#: ../../user_manual/insuree_policies/insuree.rst:209
+msgid "``Officer``"
+msgstr "``Officer``"
+
+#: ../../user_manual/insuree_policies/insuree.rst:211
+msgid "Select the officer handling the insuree. Mandatory."
+msgstr "Select the officer handling the insuree. Mandatory."
+
+#: ../../user_manual/insuree_policies/insuree.rst:213
+msgid "``Same Village as Family``"
+msgstr "``Same Village as Family``"
+
+#: ../../user_manual/insuree_policies/insuree.rst:215
+msgid "If selected, the village of the family is used for this insuree too. Otherwise, fields will appear with Region, District, Ward and Village selection."
+msgstr "If selected, the village of the family is used for this insuree too. Otherwise, fields will appear with Region, District, Ward and Village selection."
+
+#: ../../user_manual/insuree_policies/insuree.rst:217
+msgid "``Same Address as Family``"
+msgstr "``Same Address as Family``"
+
+#: ../../user_manual/insuree_policies/insuree.rst:219
+msgid "If selected, the address of the family is used for this insuree too. Otherwise, an address field will appear to provide the actual address."
+msgstr "If selected, the address of the family is used for this insuree too. Otherwise, an address field will appear to provide the actual address."
+
+#: ../../user_manual/insuree_policies/insuree.rst:223
+msgid "Enter the phone number for the insuree."
+msgstr "Enter the phone number for the insuree."
+
+#: ../../user_manual/insuree_policies/insuree.rst:227
+msgid "Enter the e-mail address of the insuree."
+msgstr "Enter the e-mail address of the insuree."
+
+#: ../../user_manual/insuree_policies/insuree.rst:229
+msgid "``Profession``"
+msgstr "``Profession``"
+
+#: ../../user_manual/insuree_policies/insuree.rst:231
+msgid "Select from the list of available professions the profession of the insuree."
+msgstr "Select from the list of available professions the profession of the insuree."
+
+#: ../../user_manual/insuree_policies/insuree.rst:233
+msgid "``Education``"
+msgstr "``Education``"
+
+#: ../../user_manual/insuree_policies/insuree.rst:235
+msgid "Select from the list of available educations the education of the insuree."
+msgstr "Select from the list of available educations the education of the insuree."
+
+#: ../../user_manual/insuree_policies/insuree.rst:237
+msgid "``Identification Type``"
+msgstr "``Identification Type``"
+
+#: ../../user_manual/insuree_policies/insuree.rst:239
+msgid "Select the type of the identification document of the insuree."
+msgstr "Select the type of the identification document of the insuree."
+
+#: ../../user_manual/insuree_policies/insuree.rst:241
+msgid "``Identification No.``"
+msgstr "``Identification No.``"
+
+#: ../../user_manual/insuree_policies/insuree.rst:243
+msgid "Enter alphanumeric identification of the document of the insuree."
+msgstr "Enter alphanumeric identification of the document of the insuree."
+
+#: ../../user_manual/insuree_policies/insuree.rst:245
+#: ../../user_manual/insuree_policies/insuree.rst:259
+msgid "``First Service Point``"
+msgstr "``First Service Point``"
+
+#: ../../user_manual/insuree_policies/insuree.rst:247
+msgid "``Region of FSP``"
+msgstr "``Region of FSP``"
+
+#: ../../user_manual/insuree_policies/insuree.rst:249
+msgid "Select from the list of available regions the region, in which the chosen primary health facility (First Service Point) of the insuree is located."
+msgstr "Select from the list of available regions the region, in which the chosen primary health facility (First Service Point) of the insuree is located."
+
+#: ../../user_manual/insuree_policies/insuree.rst:251
+msgid "``District of FSP``"
+msgstr "``District of FSP``"
+
+#: ../../user_manual/insuree_policies/insuree.rst:253
+msgid "Select from the list of available districts the district, in which the chosen primary health facility (First Service Point) of the insuree is located. *Note: The list will only be filled with the districts belonging to the selected region.*"
+msgstr "Select from the list of available districts the district, in which the chosen primary health facility (First Service Point) of the insuree is located. *Note: The list will only be filled with the districts belonging to the selected region.*"
+
+#: ../../user_manual/insuree_policies/insuree.rst:255
+msgid "``Level of FSP``"
+msgstr "``Level of FSP``"
+
+#: ../../user_manual/insuree_policies/insuree.rst:257
+msgid "Select the level of the chosen primary health facility (First Service Point) of the insuree."
+msgstr "Select the level of the chosen primary health facility (First Service Point) of the insuree."
+
+#: ../../user_manual/insuree_policies/insuree.rst:261
+msgid "Select from the list of available health facilities the chosen primary health facility (First Service Point) of the insuree. *Note: The list will only be filled with the health facilities belonging to the selected district which are of the selected level.*"
+msgstr "Select from the list of available health facilities the chosen primary health facility (First Service Point) of the insuree. *Note: The list will only be filled with the health facilities belonging to the selected district which are of the selected level.*"
+
+#: ../../user_manual/insuree_policies/insuree.rst:264
 msgid "**Saving**"
 msgstr "**Saving**"
 
+#: ../../user_manual/insuree_policies/insuree.rst:269
 msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Family Overview Page <#family-overview-page.>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the insuree has been saved will appear on the Information Panel."
 msgstr "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Family Overview Page <#family-overview-page.>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the insuree has been saved will appear on the Information Panel."
 
+#: ../../user_manual/insuree_policies/insuree.rst:271
 msgid "**Mandatory data**"
 msgstr "**Mandatory data**"
 
-msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk)"
-msgstr "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk)"
+#: ../../user_manual/insuree_policies/insuree.rst:273
+msgid "The ``Save`` button is disabled until all mandatory data fields (with an asterisk) are filled."
+msgstr "The ``Save`` button is disabled until all mandatory data fields (with an asterisk) are filled."
 
+#: ../../user_manual/insuree_policies/insuree.rst:275
 msgid "**Cancel**"
 msgstr "**Cancel**"
 
+#: ../../user_manual/insuree_policies/insuree.rst:277
 msgid "By clicking on the ``Cancel`` button, the user will be re-directed to the `Family Overview Page <#family-overview-page.>`__."
 msgstr "By clicking on the ``Cancel`` button, the user will be re-directed to the `Family Overview Page <#family-overview-page.>`__."
 
+#: ../../user_manual/insuree_policies/insuree.rst:280
 msgid "Adding an Insuree"
 msgstr "Adding an Insuree"
 
+#: ../../user_manual/insuree_policies/insuree.rst:282
 msgid "Click on the Green Plus Sign to re-direct to the `Insuree Page <#insuree-page>`__\\."
 msgstr "Click on the Green Plus Sign to re-direct to the `Insuree Page <#insuree-page>`__\\."
 
+#: ../../user_manual/insuree_policies/insuree.rst:284
 msgid "When the page opens all entry fields are empty. See the `Insuree Page <#insuree-page>`__ for information on the data entry and mandatory fields."
 msgstr "When the page opens all entry fields are empty. See the `Insuree Page <#insuree-page>`__ for information on the data entry and mandatory fields."
 
+#: ../../user_manual/insuree_policies/insuree.rst:287
 msgid "Editing an Insuree"
 msgstr "Editing an Insuree"
 
-msgid "Click on the Yellow Pencil Sign to re-direct to the `Insuree Page <#insuree-page>`__\\."
-msgstr "Click on the Yellow Pencil Sign to re-direct to the `Insuree Page <#insuree-page>`__\\."
+#: ../../user_manual/insuree_policies/insuree.rst:289
+msgid "Double-click in the insuree search results to edit in the `Insuree Page <#insuree-page>`__\\."
+msgstr "Double-click in the insuree search results to edit in the `Insuree Page <#insuree-page>`__\\."
 
+#: ../../user_manual/insuree_policies/insuree.rst:291
 msgid "The page will open with the current information loaded into the data entry fields. See the Insuree Page for information on the data entry and mandatory fields."
 msgstr "The page will open with the current information loaded into the data entry fields. See the Insuree Page for information on the data entry and mandatory fields."
 
+#: ../../user_manual/insuree_policies/insuree.rst:294
 msgid "Deleting an Insuree"
 msgstr "Deleting an Insuree"
 
-msgid "Click on the Red Cross Sign to delete the currently selected record."
-msgstr "Click on the Red Cross Sign to delete the currently selected record."
+#: ../../user_manual/insuree_policies/insuree.rst:296
+msgid "Click on trashcan icon on the right of an insuree search result to delete it."
+msgstr "Click on trashcan icon on the right of an insuree search result to delete it."
 
-msgid "Before deleting a confirmation popup (:numref:`image127`) is displayed, which requires the user to confirm if the action should really becarried out?"
-msgstr "Before deleting a confirmation popup (:numref:`image127`) is displayed, which requires the user to confirm if the action should really becarried out?"
+#: ../../user_manual/insuree_policies/insuree.rst:303
+msgid "`Delete insuree button`"
+msgstr "`Delete insuree button`"
 
-msgid "`Delete confirmation- Button Panel`"
-msgstr "`Delete confirmation- Button Panel`"
+#: ../../user_manual/insuree_policies/insuree.rst:305
+msgid "Before deleting a confirmation popup (:numref:`image127b`) is displayed, which requires the user to confirm if the action should really be carried out?"
+msgstr "Before deleting a confirmation popup (:numref:`image127b`) is displayed, which requires the user to confirm if the action should really be carried out?"
 
+#: ../../user_manual/insuree_policies/insuree.rst:311
+msgid "`Insuree Delete confirmation`"
+msgstr "`Insuree Delete confirmation`"
+
+#: ../../user_manual/insuree_policies/insuree.rst:313
 msgid "When an insuree is deleted, all records retaining to the deleted insuree will still be available by selecting historical records."
 msgstr "When an insuree is deleted, all records retaining to the deleted insuree will still be available by selecting historical records."

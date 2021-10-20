@@ -1,0 +1,272 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../mobile_user_manual/policy_offline.rst:2
+msgid "Off-line mode of IMIS Policies"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:4
+msgid ""
+"The following table gives an overview of functions according to their "
+"requirements towards Internet connectivity and possible off-line "
+"substitutions."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:9
+msgid "IMIS Policies"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:11
+msgid "Functionality"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:11
+msgid "connectivity required /autonomous"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:11
+msgid "Off-line substitution"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:14
+msgid "Initial launching"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:14
+#: ../../mobile_user_manual/policy_offline.rst:18
+#: ../../mobile_user_manual/policy_offline.rst:24
+#: ../../mobile_user_manual/policy_offline.rst:26
+#: ../../mobile_user_manual/policy_offline.rst:28
+#: ../../mobile_user_manual/policy_offline.rst:32
+#: ../../mobile_user_manual/policy_offline.rst:36
+#: ../../mobile_user_manual/policy_offline.rst:38
+msgid "connectivity required"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:14
+msgid "yes, by off-line transfer of the Master Data"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:18
+msgid "Enquire"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:18
+#: ../../mobile_user_manual/policy_offline.rst:24
+#: ../../mobile_user_manual/policy_offline.rst:26
+#: ../../mobile_user_manual/policy_offline.rst:36
+msgid "not available"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:20
+msgid "Acquire"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:20
+#: ../../mobile_user_manual/policy_offline.rst:22
+#: ../../mobile_user_manual/policy_offline.rst:42
+#: ../../mobile_user_manual/policy_offline.rst:44
+msgid "autonomous"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:20
+#: ../../mobile_user_manual/policy_offline.rst:22
+#: ../../mobile_user_manual/policy_offline.rst:42
+#: ../../mobile_user_manual/policy_offline.rst:44
+msgid "not needed"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:22
+msgid "Enrol"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:24
+msgid "Modify"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:26
+msgid "Control Numbers"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:28
+msgid "Renew"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:28
+msgid "yes, by off-line transfer of the Renewal Data"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:32
+msgid "Feedback"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:32
+msgid "yes, by off-line transfer of the Feedback Data"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:36
+msgid "Reports"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:38
+msgid "Synchronize"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:38
+msgid "yes, off-line synchronization by XML files"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:42
+msgid "Quit"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:44
+msgid "About"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:48
+msgid "Creation and transfer of off-line files to IMIS Policies"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:50
+msgid ""
+"The off-line files for IMIS Policies is created in the web IMIS by "
+"selecting of the **Tools/Extracts** menu item. The form IMISExtracts is "
+"displayed."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:59
+msgid "Image 3.1.1 (IMISExtracts Form)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:61
+msgid ""
+"The Download Master Section is used for creation of the off-line files "
+"for IMIS Policies."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:64
+msgid "Enrolment Officer Code"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:68
+msgid ""
+"The code of an enrolment officer for whom the off-line files should be "
+"generated."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:71
+msgid "Click on the button:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:73
+msgid "**Download Master Data**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:77
+msgid "The file MasterData.rar is generated."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:79
+msgid "**Download Renewals**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:83
+msgid ""
+"The file Renewals_<enrolment officer code>.RAR is generated. It contains "
+"renewal prompts associated with the enrolment officer at the time."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:87
+msgid "**Download Feedbacks**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:91
+msgid ""
+"The file Feedbacks_<enrolment officer code>.RAR is generated. It contains"
+" feedback prompts associated with the enrolment officer at the time."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:95
+msgid ""
+"The off-line files should be transferred to the device and stored in any "
+"folder (Renewals_<code>, Feedbacks_<code>) and in the folder "
+"IMIS/Database (MasterData). The off-line files Renewals_<code> and "
+"Feedbacks_<code> are selected by the user after swapping in the Renewals "
+"Page and `Feedbacks Page <#image-1.8.1-feedbacks-page>`__ ."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:102
+msgid "Creation and transfer of off-line files from IMIS Policies"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:104
+msgid ""
+"Use the function `Synchronize <#image-3.1.2-synchronize-page>`__ and the "
+"following buttons:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:110
+msgid "Image 3.1.2 (Synchronize Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:112
+msgid "**Create Enrolments XML**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:116
+msgid ""
+"Creates a file with all enrolments including policies/contributions that "
+"haven’t been uploaded or included in a generated file yet. It is required"
+" that each insuree has to have a photo associated with him/her. The name "
+"of the file is Enrolment_<enrolment officer code>_<date of "
+"creating>_<time of creating>.rar and it is stored in the folder "
+"IMIS/Enrolment."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:123
+msgid "**Create Renewals XML**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:127
+msgid ""
+"Creates a file with all renewals that haven’t been uploaded or included "
+"in a generated file yet. The name of the file is MasterRenewal.rar and it"
+" is stored in the folder IMIS."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:131
+msgid "**Create Feedbacks XML**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:135
+msgid ""
+"Creates a file with all feedbacks that haven’t been uploaded or included "
+"in a generated file yet. The name of the file is MasterFeedback.rar and "
+"it is stored in the folder IMIS."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:139
+msgid ""
+"The off-line files should be transferred to a client device of the web "
+"IMIS and uploaded to the web IMIS by means of the `IMISExtracts form "
+"<#image-3.1.1-imisextracts-form>`__ – in the sections Upload Enrolment, "
+"Upload Renewal, Upload Feedback."
+msgstr ""
+

@@ -1,0 +1,259 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../user_manual/tools/reports/product_doi.rst:2
+msgid "Derived operational indicators report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:4
+msgid ""
+"The report provides operational indicators derived from primary "
+"operational indicators. The report can be run by users with the system "
+"role Manager or with a role including an access to Tools/Reports/Derived "
+"Operational Indicators. The table below will provide an overview on the "
+"actual derived indicators provided by the report."
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:6
+msgid "Parameters for selection for the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:12
+msgid "`Image 207 - Derived Operational Indicators Report Criteria`"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:14
+msgid "Input parameters of the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:16
+msgid "Month– the period  in which a payment takes place"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:18
+msgid "Year  - the period  in which a payment takes place – **mandatory**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:20
+msgid "Region – region of activity of enrolment officers"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:22
+msgid "District - District of activity of enrolment officers"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:24
+msgid ""
+"Insurance Product – the drop down list with available insurance products "
+"for the district according to standard IMIS rules - **mandatory**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:26
+msgid ""
+"HF code - the drop down list with available HF products for the District "
+"according to standard IMIS rules"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:29
+msgid "The title of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:31
+msgid "Region"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:33
+msgid "District - District if one selected"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:35
+msgid "Insurance Product"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:37
+msgid "HF code"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:40
+msgid "Content of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:42
+msgid "Table Overview of derived operational indicators"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:48
+msgid "**Code**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:49
+msgid "**Derived**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:50
+msgid "**Dimension**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:51
+msgid "**Description**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:53
+msgid "D1"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:54
+msgid "Incurred claims ratio"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:55
+#: ../../user_manual/tools/reports/product_doi.rst:60
+#: ../../user_manual/tools/reports/product_doi.rst:65
+#: ../../user_manual/tools/reports/product_doi.rst:70
+#: ../../user_manual/tools/reports/product_doi.rst:80
+msgid "Time, Insurance product"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:56
+msgid "It is the ratio P11/P9"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:58
+msgid "D2"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:59
+msgid "Renewal ratio"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:61
+msgid "It is the ratio P5/P4"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:63
+msgid "D3"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:64
+msgid "Growth ratio"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:66
+msgid "It is the ratio P2/P1-for immediately preceding period"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:68
+msgid "D4"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:69
+msgid "Promptness of claims settlement"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:71
+msgid ""
+"It is the average (date of sending to payment- Date of submission of the "
+"claim) for all claims relating to given insurance product and emerging in"
+" a respective period Date of sending of payment is not in the structure "
+"of Claim, it has to be retrieved from a journal-can be?)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:73
+msgid "D5"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:74
+msgid "Claims settlement ratio"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:75
+#: ../../user_manual/tools/reports/product_doi.rst:85
+msgid "Time, Health facility, Insurance product"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:76
+msgid "It is the ratio (P10-P12)/P10"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:78
+msgid "D6"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:79
+msgid "Number of claims per insuree"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:81
+msgid "It is the ratio P10/P6"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:83
+msgid "D7"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:84
+msgid "Average cost per claim"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:86
+msgid "It is the ratio P11/P10"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:88
+msgid "D8"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:89
+msgid "Satisfaction level"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:90
+msgid "TimeDistrict, Health facility"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:91
+msgid "The average mark from feedbacks received in a respective period"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:93
+msgid "D9"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:94
+msgid "Feedback response ratio"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:95
+msgid "Time, District, Health facility"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:96
+msgid ""
+"The ratio of number of feedbacks received (up to time of creation of the "
+"report) and number of feedbacks asked for in a respective period"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:98
+msgid "Example"
+msgstr ""
+
+#: ../../user_manual/tools/reports/product_doi.rst:104
+msgid "`Image 227 - Preview – Derived Operational Indicators Report`"
+msgstr ""
+

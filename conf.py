@@ -65,8 +65,8 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-#language = 'en'
-language = 'fr'
+language = 'en'
+# language = 'fr'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path .
@@ -178,13 +178,13 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'openIMIS', u'openIMIS Documentation',
-     author, 'openIMIS', 'opneIMIS is a health insurance management solution',
+     author, 'openIMIS', 'openIMIS is a health insurance management solution',
      'Miscellaneous'),
 ]
 
 # Add custom CSS to resize the tables
 def setup(app):
-    app.add_stylesheet('css/theme_overrides.css')
+    app.add_css_file('css/theme_overrides.css')
 
 #interlink mapping
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org

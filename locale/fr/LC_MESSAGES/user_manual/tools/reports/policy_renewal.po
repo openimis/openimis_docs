@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:2
+msgid "Policies Renewals report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:4
+msgid ""
+"The report lists all renewed policies in given period for given insurance"
+" product and optionally for given enrolment officer. The families that "
+"have at least one payment of contributions in given period of time are "
+"included in the report. The report can be run by users with the system "
+"role Accountant or with a role including an access to "
+"Tools/Reports/Renewals. Below is an example of the report (:ref:`Image "
+"241<image241>`)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:6
+msgid "Parameters for selection for the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:12
+msgid "`Image 221 Renewals Report Criteria`"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:14
+msgid "Input parameters of the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:16
+msgid "Date From  - start date of the report **Mandatory**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:18
+msgid "Date To  - stop date of the report **Mandatory**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:20
+msgid "Region – the region of health facilities for which should be included"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:22
+msgid "District – the district  of health facilities for which should be included"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:24
+msgid "Insurance Product -"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:26
+msgid "Enrolment Office -"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:28
+msgid "Sorting - how the result are sorted"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:30
+msgid "The title of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:32
+msgid "See Input paramaters"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:34
+msgid "Content of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:36
+msgid "Enrolment Officers Code"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:38
+msgid "Enrolment Officer"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:40
+msgid "Municipality"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:42
+msgid "Village"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:44
+msgid "Insurance Number"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:46
+msgid "Insuree"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:48
+msgid "Renewal Date"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:50
+msgid "Receipt No."
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:52
+msgid "Payers"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:54
+msgid "Example"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_renewal.rst:60
+msgid "`Image 241 - Preview – Renewals Report`"
+msgstr ""
+

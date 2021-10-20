@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../mobile_user_manual/policy_synchronize.rst:2
+msgid "Function Synchronize"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:4
+msgid ""
+"The function Synchronize is navigated to by clicking on the menu item "
+"**Synchronize** in the main menu. The function Synchronize uploads posted"
+" enrolments/renewals/feedbacks to the web IMIS. For on-line uploading a "
+"user must have a valid User Name and Password provided by an "
+"administrator of the web IMIS with an assigned role incorporating an "
+"access to the functionality **Insurees and Familiies/Family "
+"+Insuree+Policy+Contribution/Add+Edit** as an access to the functionality"
+" Synchronize is guarded by the `Login Page <#image-1.2.1-enquire-"
+"function-login-page>`__ for on-line uploads."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:14
+msgid ""
+"The `Synchronize Page <#image-2.3.1-map-services-page>`__ appears "
+"immediately:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:20
+msgid "Image 1.10.1 (Synchronize Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:22
+msgid ""
+"Clicking on any of the buttons **Upload Enrolments, Upload Renewals, "
+"Upload Feedbacks** the `Login Page <#image-1.6.5-request-control-number-"
+"login-page>`__ appears."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:29
+msgid "Image 1.10.2 (Synchronize Page – Login Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:31
+msgid ""
+"If the application successfully logs in the `Synchronize Page "
+"<#image-1.10.1-synchronize-page>`__ appears again with the following "
+"buttons:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:35
+msgid "**Upload Enrolments**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:39
+msgid ""
+"Uploads all enrolments including policies/contributions that haven’t been"
+" uploaded yet. It is required that each uploaded insuree has to have a "
+"foto associated with him/her."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:43
+msgid "**Upload Renewals**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:47
+msgid "Uploads all renewals that haven’t been uploaded yet."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:49
+msgid "**Upload Feedbacks**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:53
+msgid "Uploads all feedbacks that haven’t been uploaded yet."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:55
+msgid "**Download Master**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:59
+msgid ""
+"Updates the master data in the device from the web IMIS. This update "
+"doesn’t require a login; nevertheless after the update entering of the "
+"enrolment officer code is required."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:63
+msgid ""
+"Another buttons in the `Synchronize Page <#image-1.10.1-synchronize-"
+"page>`__ relate to the off-line mode of the application and they are "
+"described `elsewhere <#off-line-mode-of-imis-policies>`__."
+msgstr ""
+

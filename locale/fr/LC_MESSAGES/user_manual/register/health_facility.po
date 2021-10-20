@@ -1,359 +1,730 @@
+
 msgid ""
-msgstr "" 
-"MIME-Version: 1.0\n" 
-"Content-Type: text/plain; charset=UTF-8\n" 
-"Content-Transfer-Encoding: 8bit\n" 
-"X-Generator: lokalise.com\n" 
-"Project-Id-Version: openIMIS docs\n" 
-"PO-Revision-Date: 2020-01-09 10:45\n" 
-"Last-Translator: lokalise.com\n" 
-"Language-Team: lokalise.com\n\n" 
-"Language: fr\n"
+msgstr ""
+"Project-Id-Version: openIMIS docs\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-07-30 17:05+0200\n"
+"PO-Revision-Date: 2020-01-09 10:45+0000\n"
+"Last-Translator: lokalise.com\n"
+"Language-Team: lokalise.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
 
-
+#: ../../user_manual/register/health_facility.rst:2
 msgid "Health Facilities Administration"
 msgstr "Administration des établissements de santé"
 
+#: ../../user_manual/register/health_facility.rst:4
+msgid ""
+"The register of health facilities contains all health facilities "
+"contracted and/or eligible for submitting of claims by/to the health "
+"insurance scheme. Health Facility administration is restricted to users "
+"with the system role of Scheme Administrator or with a role including an "
+"access to Administration/Health Facilities."
+msgstr ""
+"Le registre des établissements de santé contient tous les établissements "
+"de santé sous contrat et/ou éligibles pour soumettre des prestations. "
+"L'administration des établissements de santé est réservée aux "
+"utilisateurs ayant le rôle d'administrateur de système ou un rôle "
+"comprenant un accès à l'administration des établissements de santé."
 
-msgid "The register of health facilities contains all health facilities contracted and/or eligible for submitting of claims by/to the health insurance scheme. Health Facility administration is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Health Facilities."
-msgstr "Le registre des établissements de santé contient tous les établissements de santé sous contrat et/ou éligibles pour soumettre des prestations. L'administration des établissements de santé est réservée aux utilisateurs ayant le rôle d'administrateur de système ou un rôle comprenant un accès à l'administration des établissements de santé."
-
-
+#: ../../user_manual/register/health_facility.rst:7
 msgid "Pre-conditions"
 msgstr "Conditions préalables"
 
-msgid "A health facility may only be added if the management of the scheme administration contracts it or if eligibility of submitting of claims can be derived from the legislation. It may thereafter be edited; however, approval of the management of the scheme administration is required for a change of the pricelists associated with the health facility. Deletion of a health facility normally will occur when a Health Facility stops its activity or the contract with the health facility with the scheme administration is cancelled."
-msgstr "Un établissement de santé ne doit être ajouté que si les conditions d'admissibilité de la soumission de prestations sont réunis. Il peut par la suite être modifié; toutefois, l'approbation de l'administrateur des paquets de bénéfices est requise pour une modification des listes de prix associés à l'établissement de santé. La suppression d'un établissement de santé peut arriver dans  lorsqu'un Établissement de Santé qui cesse son activité ou d'un contrat avec l'établissement de santé est fini ou annulée."
+#: ../../user_manual/register/health_facility.rst:9
+msgid ""
+"A health facility may only be added if the management of the scheme "
+"administration contracts it or if eligibility of submitting of claims can"
+" be derived from the legislation. It may thereafter be edited; however, "
+"approval of the management of the scheme administration is required for a"
+" change of the pricelists associated with the health facility. Deletion "
+"of a health facility normally will occur when a Health Facility stops its"
+" activity or the contract with the health facility with the scheme "
+"administration is cancelled."
+msgstr ""
+"Un établissement de santé ne doit être ajouté que si les conditions "
+"d'admissibilité de la soumission de prestations sont réunis. Il peut par "
+"la suite être modifié; toutefois, l'approbation de l'administrateur des "
+"paquets de bénéfices est requise pour une modification des listes de prix"
+" associés à l'établissement de santé. La suppression d'un établissement "
+"de santé peut arriver dans  lorsqu'un Établissement de Santé qui cesse "
+"son activité ou d'un contrat avec l'établissement de santé est fini ou "
+"annulée."
 
-
+#: ../../user_manual/register/health_facility.rst:12
 msgid "Navigation"
 msgstr "La navigation"
 
-
+#: ../../user_manual/register/health_facility.rst:18
 msgid "`Navigation Health Facilities`"
 msgstr "`Navigation: Installations sanitaires`"
 
+#: ../../user_manual/register/health_facility.rst:20
+msgid ""
+"All functionality for use with the administration of health facilities "
+"can be found under the main menu ``Administration``, sub menu ``Health "
+"Facilities.``"
+msgstr ""
+"Toutes les fonctionnalités à utiliser avec l'administration des "
+"établissements de santé se trouvent dans le menu principal "
+"``Administration``, sous-menu ``Établissements de santé``."
 
-msgid "All functionality for use with the administration of health facilities can be found under the main menu ``Administration``, sub menu ``Health Facilities.``"
-msgstr "Toutes les fonctionnalités à utiliser avec l'administration des établissements de santé se trouvent dans le menu principal ``Administration``, sous-menu ``Établissements de santé``."
+#: ../../user_manual/register/health_facility.rst:22
+msgid ""
+"Clicking on the sub menu ``Health Facilities`` re-directs the current "
+"user to the `Health Facilities Control Page <#health-facilities-control-"
+"page>`__."
+msgstr ""
+"Cliquer sur le sous-menu ``Établissements de santé`` redirige "
+"l'utilisateur actuel vers la `Page de contrôle des établissements de "
+"santé <#health-facilities-control-page> page <#health-facilities-control-"
+"page>`__."
 
-
-msgid "Clicking on the sub menu ``Health Facilities`` re-directs the current user to the `Health Facilities Control Page <#health-facilities-control-page>`__."
-msgstr "Cliquer sur le sous-menu ``Établissements de santé`` redirige l'utilisateur actuel vers la `Page de contrôle des établissements de santé <#health-facilities-control-page> page <#health-facilities-control-page>`__."
-
-
+#: ../../user_manual/register/health_facility.rst:28
 msgid "`Health Facilities Control Page`"
 msgstr "`Page de contrôle des établissements de santé`"
 
-
+#: ../../user_manual/register/health_facility.rst:31
 msgid "Health Facilities Control Page"
 msgstr "Page Contrôle des établissements de santé"
 
+#: ../../user_manual/register/health_facility.rst:33
+msgid ""
+"The ``Health Facilities Control Page`` is the central point for all "
+"health facilities administration. By having access to this page, it is "
+"possible to add, edit, delete and search. The page is divided into four "
+"panels (:numref:`hf_page`)"
+msgstr ""
+"La ``page de contrôle des établissements de santé`` est le point central "
+"de toute administration des établissements de santé. En ayant accès à "
+"cette page, il est possible d'ajouter, de modifier, de supprimer et de "
+"rechercher. La page est divisée en quatre panneaux (:numref:`hf_page`)"
 
-msgid "The ``Health Facilities Control Page`` is the central point for all health facilities administration. By having access to this page, it is possible to add, edit, delete and search. The page is divided into four panels (:numref:`hf_page`)"
-msgstr "La ``page de contrôle des établissements de santé`` est le point central de toute administration des établissements de santé. En ayant accès à cette page, il est possible d'ajouter, de modifier, de supprimer et de rechercher. La page est divisée en quatre panneaux (:numref:`hf_page`)"
-
-
+#: ../../user_manual/register/health_facility.rst:35
 msgid "**Search Panel**"
 msgstr "**Panneau de recherche**"
 
+#: ../../user_manual/register/health_facility.rst:37
+msgid ""
+"The Search Panel allows a user to select specific criteria to minimise "
+"the search results. In the case of health facilities the following search"
+" options are available which can be used alone or in combination with "
+"each other."
+msgstr ""
+"Le panneau de recherche permet à un utilisateur de sélectionner des "
+"critères spécifiques pour minimiser les résultats de la recherche. Dans "
+"le cas des établissements de santé, les options de recherche suivantes "
+"sont disponibles et peuvent être utilisées seules ou en combinaison les "
+"unes avec les autres."
 
-msgid "The Search Panel allows a user to select specific criteria to minimise the search results. In the case of health facilities the following search options are available which can be used alone or in combination with each other."
-msgstr "Le panneau de recherche permet à un utilisateur de sélectionner des critères spécifiques pour minimiser les résultats de la recherche. Dans le cas des établissements de santé, les options de recherche suivantes sont disponibles et peuvent être utilisées seules ou en combinaison les unes avec les autres."
-
-
+#: ../../user_manual/register/health_facility.rst:39
+#: ../../user_manual/register/health_facility.rst:125
 msgid "``Code``"
 msgstr "``Code``"
 
+#: ../../user_manual/register/health_facility.rst:41
+msgid ""
+"Type in the beginning of; or the full ``Code``; to search for health "
+"facilities with a ``Code``, which starts with or matches completely, the "
+"typed text."
+msgstr ""
+"Tapez au début de; ou le ``Code`` complet; pour rechercher des "
+"établissements de santé avec un ``Code``, qui commence ou correspond "
+"complètement au texte tapé."
 
-msgid "Type in the beginning of; or the full ``Code``; to search for health facilities with a ``Code``, which starts with or matches completely, the typed text."
-msgstr "Tapez au début de; ou le ``Code`` complet; pour rechercher des établissements de santé avec un ``Code``, qui commence ou correspond complètement au texte tapé."
-
-
+#: ../../user_manual/register/health_facility.rst:43
 msgid "``Name``"
 msgstr "``Nom``"
 
+#: ../../user_manual/register/health_facility.rst:45
+msgid ""
+"Type in the beginning of; or the full ``Name``; to search for health "
+"facilities with a ``Name``, which starts with or matches completely, the "
+"typed text."
+msgstr ""
+"Tapez au début de; ou le ``Nom`` complet; pour rechercher des "
+"établissements de santé avec un ``nom``, qui commence ou correspond "
+"complètement au texte tapé."
 
-msgid "Type in the beginning of; or the full ``Name``; to search for health facilities with a ``Name``, which starts with or matches completely, the typed text."
-msgstr "Tapez au début de; ou le ``Nom`` complet; pour rechercher des établissements de santé avec un ``nom``, qui commence ou correspond complètement au texte tapé."
-
-
+#: ../../user_manual/register/health_facility.rst:47
+#: ../../user_manual/register/health_facility.rst:161
 msgid "``Fax``"
 msgstr "``Fax``"
 
+#: ../../user_manual/register/health_facility.rst:49
+msgid ""
+"Type in the beginning of; or the full ``Fax`` to search for health "
+"facilities with a ``Fax``, which starts with or matches completely, the "
+"typed number."
+msgstr ""
+"Tapez au début de; ou le ``Fax`` complet pour rechercher les "
+"établissements de santé avec un ``Fax``, qui commence par ou correspond "
+"complètement au numéro tapé."
 
-msgid "Type in the beginning of; or the full ``Fax`` to search for health facilities with a ``Fax``, which starts with or matches completely, the typed number."
-msgstr "Tapez au début de; ou le ``Fax`` complet pour rechercher les établissements de santé avec un ``Fax``, qui commence par ou correspond complètement au numéro tapé."
-
-
+#: ../../user_manual/register/health_facility.rst:51
+#: ../../user_manual/register/health_facility.rst:137
 msgid "``Level``"
 msgstr "``Niveau``"
 
+#: ../../user_manual/register/health_facility.rst:53
+msgid ""
+"Select the ``Level``; from the list of levels of health facilities "
+"(Dispensary, Health Centre, Hospital) by clicking on the arrow on the "
+"right of the selector, to select health facilities of a specific level of"
+" service."
+msgstr ""
+"Sélectionnez le ``Niveau`` à partir de la liste des niveaux des "
+"formations sanitaires (Dispensaire, Centre de Santé, Hôpital) en cliquant"
+" sur la flèche à droite du sélecteur, pour sélectionner les formations "
+"sanitaires d'un niveau de soin spécifique."
 
-msgid "Select the ``Level``; from the list of levels of health facilities (Dispensary, Health Centre, Hospital) by clicking on the arrow on the right of the selector, to select health facilities of a specific level of service."
-msgstr "Sélectionnez le ``Niveau`` à partir de la liste des niveaux des formations sanitaires (Dispensaire, Centre de Santé, Hôpital) en cliquant sur la flèche à droite du sélecteur, pour sélectionner les formations sanitaires d'un niveau de soin spécifique."
-
-
+#: ../../user_manual/register/health_facility.rst:55
+#: ../../user_manual/register/health_facility.rst:157
 msgid "``Phone Number``"
 msgstr "``Numéro de téléphone``"
 
+#: ../../user_manual/register/health_facility.rst:57
+msgid ""
+"Type in the beginning of; or the full ``Phone Number`` to search for "
+"health facilities with a ``Phone Number``, which starts with or matches "
+"completely, the typed number."
+msgstr ""
+"Tapez au début de, ou le ``Numéro de téléphone`` complet pour rechercher "
+"des établissements de santé avec un ``Numéro de téléphone``, qui commence"
+" ou correspond complètement au numéro tapé."
 
-msgid "Type in the beginning of; or the full ``Phone Number`` to search for health facilities with a ``Phone Number``, which starts with or matches completely, the typed number."
-msgstr "Tapez au début de, ou le ``Numéro de téléphone`` complet pour rechercher des établissements de santé avec un ``Numéro de téléphone``, qui commence ou correspond complètement au numéro tapé."
-
-
+#: ../../user_manual/register/health_facility.rst:59
+#: ../../user_manual/register/health_facility.rst:165
 msgid "``Email``"
 msgstr "``Courriel``"
 
+#: ../../user_manual/register/health_facility.rst:61
+msgid ""
+"Type in the beginning of; or the full ``Email`` to search for health "
+"facilities with an ``Email`` which starts with or matches completely, the"
+" typed text."
+msgstr ""
+"Tapez au début de; ou le ``Email`` complet pour rechercher des "
+"établissements de santé avec un ``Email`` qui commence ou correspond "
+"complètement au texte tapé."
 
-msgid "Type in the beginning of; or the full ``Email`` to search for health facilities with an ``Email`` which starts with or matches completely, the typed text."
-msgstr "Tapez au début de; ou le ``Email`` complet pour rechercher des établissements de santé avec un ``Email`` qui commence ou correspond complètement au texte tapé."
-
-
+#: ../../user_manual/register/health_facility.rst:63
+#: ../../user_manual/register/health_facility.rst:133
 msgid "``Legal Form``"
 msgstr "``Forme juridique``"
 
-msgid "Select the ``Legal Form``; from the list of legal forms (Government, District organization, Private Organisation, Charity) by clicking on the arrow on the right of the selector, to select health facilities of a specific legal form."
-msgstr "Sélectionnez la `Forme Juridique`; à partir de la liste des formes juridiques (le Gouvernement, l'organisation de District, Organisation Privée, de la Charité) en cliquant sur la flèche à droite de la sélection, pour sélectionner les établissements de santé d'une forme juridique spécifique."
+#: ../../user_manual/register/health_facility.rst:65
+msgid ""
+"Select the ``Legal Form``; from the list of legal forms (Government, "
+"District organization, Private Organisation, Charity) by clicking on the "
+"arrow on the right of the selector, to select health facilities of a "
+"specific legal form."
+msgstr ""
+"Sélectionnez la `Forme Juridique`; à partir de la liste des formes "
+"juridiques (le Gouvernement, l'organisation de District, Organisation "
+"Privée, de la Charité) en cliquant sur la flèche à droite de la "
+"sélection, pour sélectionner les établissements de santé d'une forme "
+"juridique spécifique."
 
-
+#: ../../user_manual/register/health_facility.rst:67
+#: ../../user_manual/register/health_facility.rst:149
 msgid "``Region``"
 msgstr "``Région``"
 
-msgid "Select the ``Region``; from the list of districts by clicking on the arrow on the right of the selector to select health facilities from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then this region will be automatically selected.*"
-msgstr "Sélectionnez la `Région`; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur pour sélectionner les établissements de santé d'une région spécifique. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté. Si ce n'est qu'un, alors cette région sera automatiquement sélectionné.*"
+#: ../../user_manual/register/health_facility.rst:69
+msgid ""
+"Select the ``Region``; from the list of districts by clicking on the "
+"arrow on the right of the selector to select health facilities from a "
+"specific region. *Note: The list will only be filled with the regions "
+"assigned to the current logged in user. If this is only one then this "
+"region will be automatically selected.*"
+msgstr ""
+"Sélectionnez la `Région`; à partir de la liste des districts, en cliquant"
+" sur la flèche à droite du sélecteur pour sélectionner les établissements"
+" de santé d'une région spécifique. *Remarque: La liste ne sera rempli "
+"avec les régions assigné à l'utilisateur connecté. Si ce n'est qu'un, "
+"alors cette région sera automatiquement sélectionné.*"
 
-
+#: ../../user_manual/register/health_facility.rst:71
+#: ../../user_manual/register/health_facility.rst:153
 msgid "``District``"
 msgstr "``Quartier``"
 
-msgid "Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select health facilities from a specific district. *Note: The list will only be filled with the districts that belong to the selected region and that are assigned to the current logged in user. If this is only one then the district will be automatically selected.*"
-msgstr "Sélectionnez le `Quartier`; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur pour sélectionner les établissements de santé d'un district particulier. *Remarque: La liste ne sera rempli avec les districts qui appartiennent à la région et qui sont assigné à l'utilisateur connecté. Si ce n'est qu'un, le quartier sera automatiquement sélectionné.*"
+#: ../../user_manual/register/health_facility.rst:73
+msgid ""
+"Select the ``District``; from the list of districts by clicking on the "
+"arrow on the right of the selector to select health facilities from a "
+"specific district. *Note: The list will only be filled with the districts"
+" that belong to the selected region and that are assigned to the current "
+"logged in user. If this is only one then the district will be "
+"automatically selected.*"
+msgstr ""
+"Sélectionnez le `Quartier`; à partir de la liste des districts, en "
+"cliquant sur la flèche à droite du sélecteur pour sélectionner les "
+"établissements de santé d'un district particulier. *Remarque: La liste ne"
+" sera rempli avec les districts qui appartiennent à la région et qui sont"
+" assigné à l'utilisateur connecté. Si ce n'est qu'un, le quartier sera "
+"automatiquement sélectionné.*"
 
-
+#: ../../user_manual/register/health_facility.rst:75
+#: ../../user_manual/register/health_facility.rst:169
 msgid "``Care Type``"
 msgstr "``Type de soins``"
 
+#: ../../user_manual/register/health_facility.rst:77
+msgid ""
+"Select the ``Care Type`` from the list of types (In-patient, Out-patient,"
+" Both) of provided health care by clicking on the arrow on the right of "
+"the selector, to select health facilities with a specific type."
+msgstr ""
+"Sélectionnez le ``Type de soins`` dans la liste des types (hospitalisés, "
+"ambulatoires, les deux) des soins de santé fournis en cliquant sur la "
+"flèche à droite du sélecteur, pour sélectionner les établissements de "
+"santé avec un type spécifique."
 
-msgid "Select the ``Care Type`` from the list of types (In-patient, Out-patient, Both) of provided health care by clicking on the arrow on the right of the selector, to select health facilities with a specific type."
-msgstr "Sélectionnez le ``Type de soins`` dans la liste des types (hospitalisés, ambulatoires, les deux) des soins de santé fournis en cliquant sur la flèche à droite du sélecteur, pour sélectionner les établissements de santé avec un type spécifique."
-
-
+#: ../../user_manual/register/health_facility.rst:79
 msgid "``Historical``"
 msgstr "``Historique``"
 
-msgid "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`hf_list_historic`)"
-msgstr "Cliquez sur `Historique` pour voir l'historique des enregistrements correspondant aux critères sélectionnés. Les documents historiques sont affichés dans le résultat avec une ligne au milieu du texte (barré) de définir clairement de dossiers en cours (:numref:`hf_list_historic`)"
+#: ../../user_manual/register/health_facility.rst:81
+msgid ""
+"Click on ``Historical`` to see historical records matching the selected "
+"criteria. Historical records are displayed in the result with a line "
+"through the middle of the text (strikethrough) to clearly define them "
+"from current records (:numref:`hf_list_historic`)"
+msgstr ""
+"Cliquez sur `Historique` pour voir l'historique des enregistrements "
+"correspondant aux critères sélectionnés. Les documents historiques sont "
+"affichés dans le résultat avec une ligne au milieu du texte (barré) de "
+"définir clairement de dossiers en cours (:numref:`hf_list_historic`)"
 
-
+#: ../../user_manual/register/health_facility.rst:87
 msgid "`Historical Records - Result Panel`"
 msgstr "`Dossiers historiques - Panneau de résultats`"
 
-
+#: ../../user_manual/register/health_facility.rst:89
 msgid "``Search button``"
 msgstr "``Bouton de recherche``"
 
+#: ../../user_manual/register/health_facility.rst:91
+msgid ""
+"Once the criteria have been entered, use the search button to filter the "
+"records, the results will appear in the Result Panel."
+msgstr ""
+"Une fois les critères saisis, utilisez le bouton de recherche pour "
+"filtrer les enregistrements, les résultats apparaîtront dans le panneau "
+"de résultats."
 
-msgid "Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel."
-msgstr "Une fois les critères saisis, utilisez le bouton de recherche pour filtrer les enregistrements, les résultats apparaîtront dans le panneau de résultats."
-
-
+#: ../../user_manual/register/health_facility.rst:93
 msgid "**Result Panel**"
 msgstr "**Panneau de résultats**"
 
-msgid "The result panel displays a list of all health facilities found, matching the selected Criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`hf_list_select`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
-msgstr "Le résultat s'affiche sur le panneau une liste de tous les établissements de santé constaté, correspondant aux critères sélectionnés dans le panneau de recherche. L'enregistrement actuellement sélectionné est mis en évidence (gris), (:numref:`hf_list_select`). La colunne de gauche contient un lien qui re-dirige vers la page de visualisation dans le cas d'une ligne historique ou vers la page de modification dans le cas des lignes encore valident."
+#: ../../user_manual/register/health_facility.rst:95
+msgid ""
+"The result panel displays a list of all health facilities found, matching"
+" the selected Criteria in the search panel. The currently selected record"
+" is highlighted with light blue, while hovering over records changes the "
+"highlight to yellow (:numref:`hf_list_select`). The leftmost record "
+"contains a hyperlink which if clicked, re-directs the user to the actual "
+"record for detailed viewing if it is a historical record or editing if it"
+" is the current record."
+msgstr ""
+"Le résultat s'affiche sur le panneau une liste de tous les établissements"
+" de santé constaté, correspondant aux critères sélectionnés dans le "
+"panneau de recherche. L'enregistrement actuellement sélectionné est mis "
+"en évidence (gris), (:numref:`hf_list_select`). La colunne de gauche "
+"contient un lien qui re-dirige vers la page de visualisation dans le cas "
+"d'une ligne historique ou vers la page de modification dans le cas des "
+"lignes encore valident."
 
-
+#: ../../user_manual/register/health_facility.rst:101
 msgid "`Selected record (blue), hovered records (yellow) - Result Panel`"
 msgstr "`Enregistrement sélectionné (gris) - Panneau de résultats`"
 
+#: ../../user_manual/register/health_facility.rst:103
+msgid ""
+"A maximum of 15 records are displayed at one time, further records can be"
+" viewed by navigating through the pages using the page selector at the "
+"bottom of the result Panel (:numref:`mat_record_per_page`)"
+msgstr ""
+"Un maximum de 10 lignes sont affichés en même temps ( peut être "
+"modifier:numref:`mat_record_per_page`), d'autres enregistrements peuvent "
+"être consultés en parcourant les pages à l'aide du sélecteur de page en "
+"bas du panneau de résultat (:numref:`mat_page_browser`)"
 
-msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`mat_record_per_page`)"
-msgstr "Un maximum de 10 lignes sont affichés en même temps ( peut être modifier:numref:`mat_record_per_page`), d'autres enregistrements peuvent être consultés en parcourant les pages à l'aide du sélecteur de page en bas du panneau de résultat (:numref:`mat_page_browser`)"
-
-
-msgid "`Page selector- Result Panel`"
-msgstr "`Sélecteur de page - Panneau de résultats`"
-
-
+#: ../../user_manual/register/health_facility.rst:106
 msgid "**Button Panel**"
 msgstr "**Panneau de boutons**"
 
-msgid "With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, and the ``Add`` button which re-directs to the health facility page, the button panel (the buttons ``Edit`` and ``Delete)`` is used in conjunction with the current selected record (highlighted with blue). The user should select first a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button."
-msgstr "À l'exception du bouton ``Annuler``, qui redirige vers la :ref:`Page d'accueil <home_page>`, et le bouton ``Ajouter`` qui redirige vers la page de l'établissement de santé, le panneau de boutons ( les boutons ``Modifier`` et ``Supprimer)`` sont utilisés conjointement avec l'enregistrement actuellement sélectionné (surligné en bleu). L'utilisateur doit d'abord sélectionner un enregistrement en cliquant sur n'importe quelle position de l'enregistrement à l'exception du lien hypertexte le plus à gauche, puis cliquez sur le bouton."
+#: ../../user_manual/register/health_facility.rst:108
+msgid ""
+"With exception of the ``Cancel`` button, which re-directs to the "
+":ref:`Home Page <home_page>`, and the ``Add`` button which re-directs to "
+"the health facility page, the button panel (the buttons ``Edit`` and "
+"``Delete)`` is used in conjunction with the current selected record "
+"(highlighted with blue). The user should select first a record by "
+"clicking on any position of the record except the leftmost hyperlink, and"
+" then click on the button."
+msgstr ""
+"À l'exception du bouton ``Annuler``, qui redirige vers la :ref:`Page "
+"d'accueil <home_page>`, et le bouton ``Ajouter`` qui redirige vers la "
+"page de l'établissement de santé, le panneau de boutons ( les boutons "
+"``Modifier`` et ``Supprimer)`` sont utilisés conjointement avec "
+"l'enregistrement actuellement sélectionné (surligné en bleu). "
+"L'utilisateur doit d'abord sélectionner un enregistrement en cliquant sur"
+" n'importe quelle position de l'enregistrement à l'exception du lien "
+"hypertexte le plus à gauche, puis cliquez sur le bouton."
 
-
+#: ../../user_manual/register/health_facility.rst:110
 msgid "**Information Panel**"
 msgstr "**Panneau d'information**"
 
+#: ../../user_manual/register/health_facility.rst:112
+msgid ""
+"The Information Panel is used to display messages back to the user. "
+"Messages will occur once a health facility has been added, updated or "
+"deleted or if there was an error at any time during the process of these "
+"actions."
+msgstr ""
+"Le panneau d'informations est utilisé pour afficher les messages à "
+"l'utilisateur. Des messages s'afficheront une fois qu'un établissement de"
+" santé aura été ajouté, mis à jour ou supprimé ou s'il y a eu une erreur "
+"à tout moment au cours du processus de ces actions."
 
-msgid "The Information Panel is used to display messages back to the user. Messages will occur once a health facility has been added, updated or deleted or if there was an error at any time during the process of these actions."
-msgstr "Le panneau d'informations est utilisé pour afficher les messages à l'utilisateur. Des messages s'afficheront une fois qu'un établissement de santé aura été ajouté, mis à jour ou supprimé ou s'il y a eu une erreur à tout moment au cours du processus de ces actions."
-
-
+#: ../../user_manual/register/health_facility.rst:115
 msgid "Health Facility Page"
 msgstr "Page de l'établissement de santé"
 
-
+#: ../../user_manual/register/health_facility.rst:117
 msgid "**Data Entry**"
 msgstr "**La saisie des données**"
 
-
+#: ../../user_manual/register/health_facility.rst:123
 msgid "`Health Facility Page`"
 msgstr "`Page de l'établissement de santé`"
 
-
+#: ../../user_manual/register/health_facility.rst:127
 msgid "Enter the code for the health facility. Mandatory, 8 characters."
 msgstr "Entrez le code de l'établissement de santé. Obligatoire, 8 caractères."
 
-
+#: ../../user_manual/register/health_facility.rst:129
 msgid "``name``"
 msgstr "``nom``"
 
-
+#: ../../user_manual/register/health_facility.rst:131
 msgid "Enter the name for the health facility. Mandatory, 100 characters maximum."
 msgstr "Saisissez le nom du centre de santé. Obligatoire, 100 caractères maximum."
 
+#: ../../user_manual/register/health_facility.rst:135
+msgid ""
+"Select the legal form of the health facility from the list (Government, "
+"District organization, Private Organisation, Charity), by clicking on the"
+" arrow on the right hand side of the lookup.  Mandatory."
+msgstr ""
+"Sélectionnez la forme juridique de l'établissement de santé dans la liste"
+" (gouvernement, organisation de district, organisation privée, organisme "
+"de bienfaisance), en cliquant sur la flèche à droite de la recherche. "
+"Obligatoire."
 
-msgid "Select the legal form of the health facility from the list (Government, District organization, Private Organisation, Charity), by clicking on the arrow on the right hand side of the lookup.  Mandatory."
-msgstr "Sélectionnez la forme juridique de l'établissement de santé dans la liste (gouvernement, organisation de district, organisation privée, organisme de bienfaisance), en cliquant sur la flèche à droite de la recherche. Obligatoire."
+#: ../../user_manual/register/health_facility.rst:139
+msgid ""
+"Select a level from the list levels (Dispensary, Health Centre, "
+"Hospital), by clicking on the arrow on the right hand side of the lookup."
+" Mandatory."
+msgstr ""
+"Sélectionnez un niveau dans la liste des niveaux (Dispensaire, Centre de "
+"santé, Hôpital), en cliquant sur la flèche à droite de la recherche. "
+"Obligatoire."
 
-
-msgid "Select a level from the list levels (Dispensary, Health Centre, Hospital), by clicking on the arrow on the right hand side of the lookup. Mandatory."
-msgstr "Sélectionnez un niveau dans la liste des niveaux (Dispensaire, Centre de santé, Hôpital), en cliquant sur la flèche à droite de la recherche. Obligatoire."
-
-
+#: ../../user_manual/register/health_facility.rst:141
 msgid "``Sub Level``"
 msgstr "``Sous-niveau``"
 
+#: ../../user_manual/register/health_facility.rst:143
+msgid ""
+"Select a sub-level from the list sub-levels (No Sublevel, Integrated, "
+"Reference), by clicking on the arrow on the right hand side of the "
+"lookup. Mandatory."
+msgstr ""
+"Sélectionnez un sous-niveau dans la liste des sous-niveaux (No Sublevel, "
+"Integrated, Reference), en cliquant sur la flèche à droite de la "
+"recherche. Obligatoire."
 
-msgid "Select a sub-level from the list sub-levels (No Sublevel, Integrated, Reference), by clicking on the arrow on the right hand side of the lookup. Mandatory."
-msgstr "Sélectionnez un sous-niveau dans la liste des sous-niveaux (No Sublevel, Integrated, Reference), en cliquant sur la flèche à droite de la recherche. Obligatoire."
-
-
+#: ../../user_manual/register/health_facility.rst:145
 msgid "``Address``"
 msgstr "``Adresse``"
 
-
-msgid "Enter the address of the health facility. Mandatory, 100 characters maximum."
+#: ../../user_manual/register/health_facility.rst:147
+msgid ""
+"Enter the address of the health facility. Mandatory, 100 characters "
+"maximum."
 msgstr "Entrez l'adresse du centre de santé. Obligatoire, 100 caractères maximum."
 
-msgid "Select the ``Region``; from the list of regions by clicking on the arrow  on the right of the selector to enter the region in which the health facility is located. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then this region will be automatically selected.* Mandatory."
-msgstr "Sélectionnez la `Région`; à partir de la liste des régions en cliquant sur la flèche à droite du sélecteur d'entrée de la région dans laquelle l'établissement de santé est situé. *Remarque: La liste ne sera rempli avec les régions assigné à l'utilisateur connecté. Si ce n'est qu'un, alors cette région sera automatiquement sélectionné.* Obligatoire."
+#: ../../user_manual/register/health_facility.rst:151
+msgid ""
+"Select the ``Region``; from the list of regions by clicking on the arrow"
+"  on the right of the selector to enter the region in which the health "
+"facility is located. *Note: The list will only be filled with the regions"
+" assigned to the current logged in user. If this is only one then this "
+"region will be automatically selected.* Mandatory."
+msgstr ""
+"Sélectionnez la `Région`; à partir de la liste des régions en cliquant "
+"sur la flèche à droite du sélecteur d'entrée de la région dans laquelle "
+"l'établissement de santé est situé. *Remarque: La liste ne sera rempli "
+"avec les régions assigné à l'utilisateur connecté. Si ce n'est qu'un, "
+"alors cette région sera automatiquement sélectionné.* Obligatoire."
 
-msgid "Select the ``district``; from the list of districts by clicking on the arrow on the right of the selector to enter the district in which the health facility is located. *Note: The list will only be filled with the districts assigned to the selected region and to districts assigned to the currently logged in user. If this is only one then the district will be automatically selected.* Mandatory."
-msgstr "Sélectionnez le `quartier`; à partir de la liste des districts, en cliquant sur la flèche à droite du sélecteur entrez dans le quartier dans lequel l'établissement de santé est situé. *Remarque: La liste ne sera rempli avec les districts affectés à la région et aux districts affectés à l'utilisateur actuellement connecté. Si ce n'est qu'un, le quartier sera automatiquement sélectionné.* Obligatoire."
+#: ../../user_manual/register/health_facility.rst:155
+msgid ""
+"Select the ``district``; from the list of districts by clicking on the "
+"arrow on the right of the selector to enter the district in which the "
+"health facility is located. *Note: The list will only be filled with the "
+"districts assigned to the selected region and to districts assigned to "
+"the currently logged in user. If this is only one then the district will "
+"be automatically selected.* Mandatory."
+msgstr ""
+"Sélectionnez le `quartier`; à partir de la liste des districts, en "
+"cliquant sur la flèche à droite du sélecteur entrez dans le quartier dans"
+" lequel l'établissement de santé est situé. *Remarque: La liste ne sera "
+"rempli avec les districts affectés à la région et aux districts affectés "
+"à l'utilisateur actuellement connecté. Si ce n'est qu'un, le quartier "
+"sera automatiquement sélectionné.* Obligatoire."
 
-
+#: ../../user_manual/register/health_facility.rst:159
 msgid "Enter the phone number for the health facility. 50 characters maximum."
-msgstr "Entrez le numéro de téléphone de l'établissement de santé. 50 caractères maximum."
+msgstr ""
+"Entrez le numéro de téléphone de l'établissement de santé. 50 caractères "
+"maximum."
 
-
+#: ../../user_manual/register/health_facility.rst:163
 msgid "Enter the fax number for the health facility. 50 characters maximum."
 msgstr "Entrez le numéro de fax du centre de santé. 50 caractères maximum."
 
-
+#: ../../user_manual/register/health_facility.rst:167
 msgid "Enter the email for the health facility. 50 characters maximum."
 msgstr "Saisissez l'e-mail du centre de santé. 50 caractères maximum."
 
+#: ../../user_manual/register/health_facility.rst:171
+msgid ""
+"Select the type of health care provided by the health facility from the "
+"list (In-patient, Out-patient, Both), by clicking on the arrow on the "
+"right hand side of the lookup. Mandatory."
+msgstr ""
+"Sélectionnez le type de soins de santé dispensés par l'établissement de "
+"santé dans la liste (Hospitalisé, Ambulatoire, Les deux), en cliquant sur"
+" la flèche à droite de la recherche. Obligatoire."
 
-msgid "Select the type of health care provided by the health facility from the list (In-patient, Out-patient, Both), by clicking on the arrow on the right hand side of the lookup. Mandatory."
-msgstr "Sélectionnez le type de soins de santé dispensés par l'établissement de santé dans la liste (Hospitalisé, Ambulatoire, Les deux), en cliquant sur la flèche à droite de la recherche. Obligatoire."
-
-
+#: ../../user_manual/register/health_facility.rst:173
 msgid "``Price Lists (Medical Services)``"
 msgstr "``Listes de prix (services médicaux)``"
 
-msgid "Select the health facilities price lists (for medical services) from the list by clicking on the arrow on the right hand side of the lookup. The pricelist contains the list of medical services and their prices agreed between the health facility (or corresponding group of health facilities) and the scheme administration which can be invoiced by the health facility and remunerated by the scheme administration. *Note: The list will only be filled with the pricelists associated with the previously selected district, regional and nationwide pricelists assigned to the current logged in user.*"
-msgstr "Sélectionnez les établissements de santé des listes de prix (pour les services médicaux de la liste en cliquant sur la flèche sur le côté droit de la recherche. La liste contient la liste des soins  et de leur prix convenu entre l'établissement de santé (ou groupe d'établissements de santé) et le schéma d'administration qui peuvent être facturés par l'établissement de santé et rémunérées par le régime d'administration. *Remarque: La liste ne sera rempli avec les listes de prix associées à celles déjà sélectionnées pour le quartier, régionale et nationale les listes de prix assigné à l'utilisateur connecté.*"
+#: ../../user_manual/register/health_facility.rst:175
+msgid ""
+"Select the health facilities price lists (for medical services) from the "
+"list by clicking on the arrow on the right hand side of the lookup. The "
+"pricelist contains the list of medical services and their prices agreed "
+"between the health facility (or corresponding group of health facilities)"
+" and the scheme administration which can be invoiced by the health "
+"facility and remunerated by the scheme administration. *Note: The list "
+"will only be filled with the pricelists associated with the previously "
+"selected district, regional and nationwide pricelists assigned to the "
+"current logged in user.*"
+msgstr ""
+"Sélectionnez les établissements de santé des listes de prix (pour les "
+"services médicaux de la liste en cliquant sur la flèche sur le côté droit"
+" de la recherche. La liste contient la liste des soins  et de leur prix "
+"convenu entre l'établissement de santé (ou groupe d'établissements de "
+"santé) et le schéma d'administration qui peuvent être facturés par "
+"l'établissement de santé et rémunérées par le régime d'administration. "
+"*Remarque: La liste ne sera rempli avec les listes de prix associées à "
+"celles déjà sélectionnées pour le quartier, régionale et nationale les "
+"listes de prix assigné à l'utilisateur connecté.*"
 
-
+#: ../../user_manual/register/health_facility.rst:177
 msgid "``Price Lists (Medical Items)``"
 msgstr "``Listes de prix (produit médicaux)``"
 
-msgid "Select the health facilities price lists (medical items) from the list by clicking on the arrow on the right hand side of the lookup. The pricelist contains the list of medical items and their prices agreed between the health facility (or corresponding group of health facilities) and the scheme administration which can be invoiced by the health facility and remunerated by the scheme administration. *Note: The list will only be filled with the pricelists associated with the previously selected district, regional and nationwide pricelists assigned to the current logged in user.*"
-msgstr "Sélectionnez les établissements de santé des listes de prix (produit médicaux) à partir de la liste en cliquant sur la flèche sur le côté droit de la recherche. La liste contient la liste des produit médicaux et leurs prix convenu entre l'établissement de santé (ou groupe d'établissements de santé) et le schéma d'administration qui peuvent être facturés par l'établissement de santé et rémunérées par le régime d'administration. *Remarque: La liste ne sera rempli avec les listes de prix associées à celles déjà sélectionnées pour le quartier, régionale et nationale les listes de prix assigné à l'utilisateur connecté.*"
+#: ../../user_manual/register/health_facility.rst:179
+msgid ""
+"Select the health facilities price lists (medical items) from the list by"
+" clicking on the arrow on the right hand side of the lookup. The "
+"pricelist contains the list of medical items and their prices agreed "
+"between the health facility (or corresponding group of health facilities)"
+" and the scheme administration which can be invoiced by the health "
+"facility and remunerated by the scheme administration. *Note: The list "
+"will only be filled with the pricelists associated with the previously "
+"selected district, regional and nationwide pricelists assigned to the "
+"current logged in user.*"
+msgstr ""
+"Sélectionnez les établissements de santé des listes de prix (produit "
+"médicaux) à partir de la liste en cliquant sur la flèche sur le côté "
+"droit de la recherche. La liste contient la liste des produit médicaux et"
+" leurs prix convenu entre l'établissement de santé (ou groupe "
+"d'établissements de santé) et le schéma d'administration qui peuvent être"
+" facturés par l'établissement de santé et rémunérées par le régime "
+"d'administration. *Remarque: La liste ne sera rempli avec les listes de "
+"prix associées à celles déjà sélectionnées pour le quartier, régionale et"
+" nationale les listes de prix assigné à l'utilisateur connecté.*"
 
-
+#: ../../user_manual/register/health_facility.rst:181
 msgid "``Account Code``"
 msgstr "``Code de compte``"
 
+#: ../../user_manual/register/health_facility.rst:183
+msgid ""
+"Enter the account code (Identification for the accounting software), "
+"which will be used in reports on remuneration to be received by the "
+"health facility. 25 characters maximum."
+msgstr ""
+"Entrez le code de compte (Identification pour le logiciel de "
+"comptabilité), qui sera utilisé dans les rapports sur la rémunération à "
+"recevoir par l'établissement de santé. 25 caractères maximum."
 
-msgid "Enter the account code (Identification for the accounting software), which will be used in reports on remuneration to be received by the health facility. 25 characters maximum."
-msgstr "Entrez le code de compte (Identification pour le logiciel de comptabilité), qui sera utilisé dans les rapports sur la rémunération à recevoir par l'établissement de santé. 25 caractères maximum."
-
-
+#: ../../user_manual/register/health_facility.rst:185
 msgid "``Region, District, Municipality, Village, Catchment grid``"
 msgstr "``Région, district, municipalité, village, grille de captage``"
 
+#: ../../user_manual/register/health_facility.rst:187
+msgid ""
+"Check the locations that define the catchment area of the health "
+"facility. Specify the percentage of the population of a village that "
+"belong to the catchment area in the catchment column. Default is 100%."
+msgstr ""
+"Vérifiez les Lieux qui définissent la zone de chalandise de "
+"l'établissement de santé. Spécifiez le pourcentage de la population d'un "
+"village appartenant à la zone de chalandise dans la colonne de "
+"chalandise. La valeur par défaut est 100%."
 
-msgid "Check the locations that define the catchment area of the health facility. Specify the percentage of the population of a village that belong to the catchment area in the catchment column. Default is 100%."
-msgstr "Vérifiez les Lieux qui définissent la zone de chalandise de l'établissement de santé. Spécifiez le pourcentage de la population d'un village appartenant à la zone de chalandise dans la colonne de chalandise. La valeur par défaut est 100%."
-
-
+#: ../../user_manual/register/health_facility.rst:189
 msgid "**Saving**"
 msgstr "**Sauvegarder**"
 
-msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the ``Health Facility Control Page``, with the newly saved record displayed and selected in the result panel. A message confirming that the health facility has been saved will appear on the Information Panel."
-msgstr "Une fois que toutes les données sont saisies, en cliquant sur le bouton `exporter` pour enregistrer l'enregistrement. L'utilisateur sera redirigé vers le `centre de Santé de Contrôle de la Page`, avec le nouvel enregistrement enregistré affichés et sélectionnés dans le résultat du panneau. Un message de confirmation de l'établissement de santé a été enregistré apparaît sur le Panneau d'Information."
+#: ../../user_manual/register/health_facility.rst:191
+msgid ""
+"Once all mandatory data is entered, clicking on the ``Save`` button will "
+"save the record. The user will be re-directed back to the ``Health "
+"Facility Control Page``, with the newly saved record displayed and "
+"selected in the result panel. A message confirming that the health "
+"facility has been saved will appear on the Information Panel."
+msgstr ""
+"Une fois que toutes les données sont saisies, en cliquant sur le bouton "
+"`exporter` pour enregistrer l'enregistrement. L'utilisateur sera redirigé"
+" vers le `centre de Santé de Contrôle de la Page`, avec le nouvel "
+"enregistrement enregistré affichés et sélectionnés dans le résultat du "
+"panneau. Un message de confirmation de l'établissement de santé a été "
+"enregistré apparaît sur le Panneau d'Information."
 
-
+#: ../../user_manual/register/health_facility.rst:193
 msgid "**Mandatory data**"
 msgstr "**Données obligatoires**"
 
+#: ../../user_manual/register/health_facility.rst:195
+msgid ""
+"If mandatory data is not entered at the time the user clicks the ``Save``"
+" button, a message will appear in the Information Panel, and the data "
+"field will take the focus (by an asterisk on the right of the "
+"corresponding data field)."
+msgstr ""
+"Si les données obligatoires ne sont pas saisies au moment où "
+"l'utilisateur clique sur le bouton ``Enregistrer``, un message apparaîtra"
+" dans le panneau d'informations et le champ de données prendra le focus "
+"(par un astérisque à droite du champ de données correspondant) ."
 
-msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk on the right of the corresponding data field)."
-msgstr "Si les données obligatoires ne sont pas saisies au moment où l'utilisateur clique sur le bouton ``Enregistrer``, un message apparaîtra dans le panneau d'informations et le champ de données prendra le focus (par un astérisque à droite du champ de données correspondant) ."
-
-
+#: ../../user_manual/register/health_facility.rst:197
 msgid "**Cancel**"
 msgstr "**Annuler**"
 
+#: ../../user_manual/register/health_facility.rst:199
+msgid ""
+"By clicking on the ``Cancel`` button, the user will be re-directed to the"
+" `Health Facilities Control Page <#health-facilities-control-page>`__."
+msgstr ""
+"En cliquant sur le bouton ``Annuler``, l'utilisateur sera redirigé vers "
+"la `Page de contrôle des établissements de santé <#health-facilities-"
+"control-page> page de contrôle des établissements de santé <#health-"
+"facilities-control-page>`__."
 
-msgid "By clicking on the ``Cancel`` button, the user will be re-directed to the `Health Facilities Control Page <#health-facilities-control-page>`__."
-msgstr "En cliquant sur le bouton ``Annuler``, l'utilisateur sera redirigé vers la `Page de contrôle des établissements de santé <#health-facilities-control-page> page de contrôle des établissements de santé <#health-facilities-control-page>`__."
-
-
+#: ../../user_manual/register/health_facility.rst:202
 msgid "Adding a Health Facility"
 msgstr "Ajouter un établissement de santé"
 
+#: ../../user_manual/register/health_facility.rst:204
+msgid ""
+"Click on the ``Add`` button to re-direct to the `Health Facility Page "
+"<#health-facility-page>`__"
+msgstr ""
+"Cliquez sur le bouton ``Ajouter`` pour rediriger vers la `Page de "
+"l'établissement de santé <#health-facility-page>`__"
 
-msgid "Click on the ``Add`` button to re-direct to the `Health Facility Page <#health-facility-page>`__"
-msgstr "Cliquez sur le bouton ``Ajouter`` pour rediriger vers la `Page de l'établissement de santé <#health-facility-page>`__"
+#: ../../user_manual/register/health_facility.rst:206
+msgid ""
+"When the page opens all entry fields are empty. See the `Health Facility "
+"Page <#health-facility-page>`__ for information on the data entry and "
+"mandatory fields."
+msgstr ""
+"Lorsque la page s'ouvre, tous les champs de saisie sont vides. Voir la "
+"`Page de l'établissement de santé <#health-facility-page>`__ pour plus "
+"d'informations sur la saisie des données et les champs obligatoires."
 
-
-msgid "When the page opens all entry fields are empty. See the `Health Facility Page <#health-facility-page>`__ for information on the data entry and mandatory fields."
-msgstr "Lorsque la page s'ouvre, tous les champs de saisie sont vides. Voir la `Page de l'établissement de santé <#health-facility-page>`__ pour plus d'informations sur la saisie des données et les champs obligatoires."
-
-
+#: ../../user_manual/register/health_facility.rst:209
 msgid "Editing a Health Facility"
 msgstr "Modification d'un établissement de santé"
 
+#: ../../user_manual/register/health_facility.rst:211
+msgid ""
+"Double click on the line to be re-directed to the `Health Facility Page "
+"<#health-facility-page>`__ ."
+msgstr ""
+"Double Cliquez sur la ligne pour être rediriger vers la `Page de "
+"l'établissement de santé <#health-facility-page>`__."
 
-msgid "Double click on the line to be re-directed to the `Health Facility Page <#health-facility-page>`__ ."
-msgstr "Double Cliquez sur la ligne pour être rediriger vers la `Page de l'établissement de santé <#health-facility-page>`__."
+#: ../../user_manual/register/health_facility.rst:213
+msgid ""
+"The page will open with the current information loaded into the data "
+"entry fields. See the `Health Facility Page <#health-facility-page>`__ "
+"for information on the data entry and mandatory fields"
+msgstr ""
+"La page s'ouvrira avec les informations actuelles chargées dans les "
+"champs de saisie de données. Voir la `Page de l'établissement de santé "
+"<#health-facility-page>`__ pour plus d'informations sur la saisie des "
+"données et les champs obligatoires"
 
-
-msgid "The page will open with the current information loaded into the data entry fields. See the `Health Facility Page <#health-facility-page>`__ for information on the data entry and mandatory fields"
-msgstr "La page s'ouvrira avec les informations actuelles chargées dans les champs de saisie de données. Voir la `Page de l'établissement de santé <#health-facility-page>`__ pour plus d'informations sur la saisie des données et les champs obligatoires"
-
-
+#: ../../user_manual/register/health_facility.rst:216
 msgid "Deleting a Health Facility"
 msgstr "Suppression d'un établissement de santé"
 
-
+#: ../../user_manual/register/health_facility.rst:218
 msgid "Click on the ``Delete`` button to delete the currently selected record."
-msgstr "Cliquez sur le bouton ``Supprimer`` pour supprimer l'enregistrement actuellement sélectionné."
+msgstr ""
+"Cliquez sur le bouton ``Supprimer`` pour supprimer l'enregistrement "
+"actuellement sélectionné."
 
+#: ../../user_manual/register/health_facility.rst:220
+msgid ""
+"Before deleting a confirmation popup (:numref:`hf_delete_conf`) is "
+"displayed, which requires the user to confirm if the action should really"
+" be carried out?"
+msgstr ""
+"Avant de supprimer une fenêtre de confirmation (:numref:`hf_delete_conf`)"
+" s'affiche, ce qui oblige l'utilisateur à confirmer si l'action doit "
+"vraiment être effectuée?"
 
-msgid "Before deleting a confirmation popup (:numref:`hf_delete_conf`) is displayed, which requires the user to confirm if the action should really be carried out?"
-msgstr "Avant de supprimer une fenêtre de confirmation (:numref:`hf_delete_conf`) s'affiche, ce qui oblige l'utilisateur à confirmer si l'action doit vraiment être effectuée?"
-
-
+#: ../../user_manual/register/health_facility.rst:226
 msgid "`Delete confirmation- Button Panel`"
 msgstr "`Supprimer la confirmation - Panneau de boutons`"
 
+#: ../../user_manual/register/health_facility.rst:228
+msgid ""
+"When a health facility is deleted, all records retaining to the deleted "
+"health facility will still be available by selecting historical records."
+msgstr ""
+"Lorsqu'un établissement de santé est supprimé, tous les enregistrements "
+"conservés dans l'établissement de santé supprimé seront toujours "
+"disponibles en sélectionnant les enregistrements historiques."
 
-msgid "When a health facility is deleted, all records retaining to the deleted health facility will still be available by selecting historical records."
-msgstr "Lorsqu'un établissement de santé est supprimé, tous les enregistrements conservés dans l'établissement de santé supprimé seront toujours disponibles en sélectionnant les enregistrements historiques."
+#~ msgid "`Page selector- Result Panel`"
+#~ msgstr "`Sélecteur de page - Panneau de résultats`"
+

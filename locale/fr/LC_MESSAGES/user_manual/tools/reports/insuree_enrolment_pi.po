@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:11+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:2
+msgid "Enrolment performance indicator report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:4
+msgid ""
+"The report provides overview of activity of enrolment officers. The "
+"report can be run by users with the system role Manager or with a role "
+"including an access to Tools/Reports/Enrolment Performance Indicator. "
+"(:ref:`Image 232<image232>`)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:6
+msgid "Parameters for selection for the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:12
+msgid "`Image 212 - Enrolment Performance Indicators Report Criteria`"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:14
+msgid "Input parameters of the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:16
+msgid "Month– the period  in which a payment takes place"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:18
+msgid "Quarter  - the period  in which a payment takes place"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:20
+msgid "Year  - the period  in which a payment takes place – **mandatory**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:22
+msgid "Region – region of activity of enrolment officers"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:24
+msgid "District - region of activity of enrolment officers"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:26
+msgid ""
+"Insurance Product – the drop down list with available insurance products "
+"for the district according to standard IMIS rules - **mandatory**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:29
+msgid "The title of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:31
+msgid "See Input paramaters"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:33
+msgid "Content of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:35
+msgid "Enrolment per insurance product"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:37
+msgid "Insurance product code"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:39
+msgid "Insurance product name"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:41
+msgid "Policy: Number of policy with an active policy per gender of the head"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:43
+msgid "New Policy: Number of policy started per gender of the head"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:45
+msgid "Insuree: Number of person with an active policy per gender of the head"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:47
+msgid "New Insuree: Number of people enrolled per gender of the head"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:49
+msgid "Contribution Collected: Amount Collected"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:51
+msgid "Available Contribution: Amount availaible"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:53
+msgid "Example"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_enrolment_pi.rst:59
+msgid "`Image 232 - Preview – Enrolment Performance Indicator Report`"
+msgstr ""
+

@@ -1,5 +1,3 @@
-
-
 Family/Group
 ^^^^^^^^^^^^
 
@@ -30,84 +28,11 @@ Navigation
 
     `Find Families`
 
-  The Find Family Page is the first step in the process of finding of a family and thereafter accessing the `Family Overview Page <#family-overview>`__ of insurees, policies and contributions. This initial page can be used to search for specific families or groups based on specific criteria. The page is divided into four panels (:numref:`image90`):
+  The Find Family Page is the first step in the process of finding of a family and thereafter accessing the `Family Overview Page <#family-overview>`__ of insurees, policies and contributions. This initial page can be used to search for specific families or groups based on specific criteria. The page is divided into two panels (:numref:`image90`):
 
- #. **Search Panel**
+ #. **Search Criteria Panel**
 
     The search panel allows a user to select specific criteria to minimise the search results. The following search options are available which can be used alone or in combination with each other.
-
-    * ``Last Name``
-
-      Type in the beginning of; or the full ``Last name``; to search for families/groups, who’s family head/group head ``Last name``, starts with or matches completely, the typed text.
-
-    * ``Other Names``
-
-      Type in the beginning of; or the full ``Other Names`` to search for families/groups, who’s family head/group head ``Other Names`` starts with or matches completely, the typed text.
-
-    * ``Insurance Number``
-
-      Type in the beginning of; or the full ``Insurance Number`` to search for families/groups, who’s family head/group head ``Insurance Number``, starts with or matches completely, the typed text.
-
-    * ``Phone Number``
-
-      Type in the beginning of; or the full ``Phone Number`` to search for families/groups, who’s family head/group head ``Phone Number``, starts with or matches completely, the typed number.
-
-    * ``Birth Date From``
-
-      Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for families/groups, who’s family head/group head, has the same or later birth date than ``Birth Date From``. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
-
-    * ``Birth Date To``
-
-      Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for families/groups, who’s family head/group head, has the same or earlier birth date than ``Birth Date To``. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
-
-    * ``Date Selector Button``
-
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image91`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
-
-        - At anytime during the use of the pop-up, the user can see the date of **today**.
-        - Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
-        - Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box.
-        - Clicking on the arrow to the left displays the previous month.
-        - Clicking on the arrow on the right will displays the following month.
-        - Clicking on the month will display all the months for the year.
-        - Clicking on the year will display a year selector.
-
-      .. _image91:
-      .. |logo24| image:: /img/user_manual/image6.png
-        :scale: 100%
-        :align: middle
-      .. |logo25| image:: /img/user_manual/image7.png
-        :scale: 100%
-        :align: middle
-      .. |logo26| image:: /img/user_manual/image8.png
-        :scale: 100%
-        :align: middle
-
-      +----------++----------++----------+
-      | |logo24| || |logo25| || |logo26| |
-      +----------++----------++----------+
-
-        `Calendar Selector - Search Panel`
-
-    * ``Gender``
-
-      Select the ``Gender``; from the list of gender by clicking on the arrow on the right of the selector, to select families/groups, who’s family head/group head is of the specific gender.
-
-    * ``Poverty Status``
-
-      Select the ``Poverty Status``; from the list of has poverty status by clicking on the arrow on the right of the selector, to select families/groups that have a specific poverty status.
-
-    * ``Email``
-
-      Type in the beginning of; or the full ``Email`` to search for families/groups, who’s family head/group head ``Email`` starts with or matches completely the typed text.
-
-    * ``Confirmation Type``
-
-      Type in the beginning of; or the full ``Confirmation Type`` to search for families/groups, who’s ``Confirmation Type``. starts with or matches completely the typed text.
-
-    * ``Confirmation No.``
-
-      Type in the beginning of; or the full ``Confirmation No.`` to search for families/groups, who’s ``Confirmation No.`` starts with or matches completely the typed text.
 
     * ``Region``
 
@@ -123,10 +48,50 @@ Navigation
 
 
       Select the ``Village``; from the list of villages by clicking on the arrow on the right of the selector to select families/groups from a specific village. *Note: The list will only be filled with the villages in the selected municipality above.*
+    
+    * ``Head (/Member) Insuree Insurance Number``
+
+      Type in the beginning of; or the full ``Insurance Number`` to search for families/groups, who’s family/group head (/member) ``Insurance Number``, starts with or matches completely, the typed text.
+
+    * ``Head/Member Insuree Last Name``
+
+      Type in the beginning of; or the full ``Last name``; to search for families/groups, who’s family/group head (/member) ``Last name``, starts with or matches completely, the typed text.
+
+    * ``Head/Member Insuree Other Names``
+
+      Type in the beginning of; or the full ``Other Names`` to search for families/groups, who’s family/group head(/member) ``Other Names`` starts with or matches completely, the typed text.
+
+    * ``Head/Member Insuree Gender``
+
+      Select the ``Gender``; from the list of gender by clicking on the arrow on the right of the selector, to select families/groups, who’s family/group head(/member) is of the specific gender.
+
+    * ``Head/Member Phone Number``
+
+      Type in the beginning of; or the full ``Phone Number`` to search for families/groups, who’s family/group head(/member) ``Phone Number``, starts with or matches completely, the typed number.
+
+    * ``Head/Member Email``
+
+      Type in the beginning of; or the full ``Email`` to search for families/groups, who’s family/group head(/member) ``Email``, starts with or matches completely, the typed number.
+
+    * ``Head/Member Birth Date From``
+
+      Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for families/groups, who’s family/group head(/member), has the same or later birth date than ``Birth Date From``. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
+
+    * ``Head/Member Birth Date To``
+
+      Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for families/groups, who’s family/group head(/member), has the same or earlier birth date than ``Birth Date To``. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
+
+    * ``Poverty Status``
+
+      Select the ``Poverty Status``; from the list of has poverty status by clicking on the arrow on the right of the selector, to select families/groups that have a specific poverty status.
+
+    * ``Confirmation No.``
+
+      Type in the beginning of; or the full ``Confirmation No.`` to search for families/groups, who’s ``Confirmation No.`` starts with or matches completely the typed text.
 
     * ``Historical``
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image92`).
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are greyed to clearly define them from current records and no delete action is possible (:numref:`image92`).
 
       .. _image92:
       .. figure:: /img/user_manual/image73.png
@@ -134,35 +99,29 @@ Navigation
 
         `Historical records - Result Panel`
 
+    * ``Reset Filter Button``
+
+      To clear the current criteria.
+
     * ``Search Button``
 
-      Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel.
+      To launch the search and filter the records, the results will appear in the Result Panel.
 
  #. **Result Panel**
 
-    .. _image93:
-    .. figure:: /img/user_manual/image74.png
-      :align: center
+    The Result Panel displays a list of all families/groups found, matching the selected criteria in the Search Panel.
+    
+    Double clicking on a record re-directs the user to the `Family Overview Page <#family-overview>`__ for the Family selected or if it is an historical record then the `Change Family Page <#family-group-page>`__, for detailed viewing.
 
-      `Selected record (blue), hovered records (yellow) - Result Panel`
-
-    The Result Panel displays a list of all families/groups found, matching the selected criteria in the Search Panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image93`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the `Family Overview Page <#family-overview>`__ for the Family selected or if it is an historical record then the `Change Family Page <#family-group-page>`__, for detailed viewing.
-
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image94`)
+    Clicking on the trash icon allows user to delete a family (see below).
+  
+    The result table is paginated, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image94`)
 
     .. _image94:
     .. figure:: /img/user_manual/image11.png
       :align: center
 
       `Page selector- Result Panel`
-
- #. **Button Panel**
-
-    The ``Cancel`` button re-directs to the :ref:`Home Page <home_page>`.
-
- #. **Information Panel**
-
-    The Information Panel is used to display messages back to the user. Messages will occur once a family/group has been added, updated or deleted or if there was an error at any time during the process of these actions.
 
 Family/Group Overview
 """""""""""""""""""""
@@ -186,141 +145,82 @@ Family Overview Page
 
     `Image - Family Overview Page`
 
-  The ``Family Overview Page`` is the central point for all operations with regards to the families/groups, Insurees, policies and contributions associated with it. The page is divided into 6 panels (:ref:`Image Family overview <family_overview_page>`)
+  The ``Family Overview Page`` is the central point for all operations with regards to the families/groups, Insurees, policies and contributions associated with it. The page is divided into 5 panels (:ref:`Image Family overview <family_overview_page>`)
 
  #. **Family**  /Group Panel
 
-    The Family/Group Panel provides information about the family including the Insurance Number and the Last Name and Other Names of the head of family and the District, Municipality, Village and Poverty status of the family. In the Family/Group panel action buttons allow to add, edit and delete the family/group.
-
-    .. _image114:
-    .. figure:: /img/user_manual/image88.png
-      :align: center
-
-      `Image 114`
-
-      The ``green plus sign`` is for adding a new family/group via the `Family/Groupe Page <#family-group-page>`__.
-
-      The ``yellow pencil sign`` is for editing a family/group via the `Family/Groupe Page <#family-group-page>`__.
-
-      The ``red cross sign`` is for deleting a family/group.
-
-
+    The Family/Group Panel provides information about the family including the District, Municipality, Village, the Insurance Number and the Last Name and Other Names of the head of family and Poverty status of the family.
 
  #. **Insurees Panel**
 
     The Insurees Panel displays a list of the insurees within the family/group.
-    The currently selected record is highlighted with light blue, while hovering
-    over records changes the highlight to yellow (:numref:`image115`). The leftmost
-    record contains a hyperlink which if clicked, re-directs the user to the
-    insuree record for editing or detailed viewing.
+    Double clicking on a record re-directs the user to the insuree record for editing or detailed viewing.
+
+    When selecting an insuree in the list, the Policy Panel, will refresh with the policies covering the selected insuree.
+
+    In the Insurees Panel, action buttons allow to add (new or existing - non head- insuree)
+    On insuree, one can set it as family head, remove ('detach') insuree from the family/group or delete the insuree.
+
+    When an insuree is removed from the family or deleted, the confirmation dialog gives two options(:numref:`image115`):
+
+    * ``Remove/Delete and Cancel Policies``: to remove the insuree from any active policy coverage
+
+    * ``Remove/Delete and Cancel Policies``: to keep any existing policy active for that insuree (untill policy renewal)
 
     .. _image115:
-    .. figure:: /img/user_manual/image89.png
-      :align: center
-
-      `Selected record (blue), hovered records (yellow) – Insurees Panel`
-
-    In the Insurees Panel, action buttons allow to add, edit and delete insurees belonging to the family/group.
-
-    .. _image116:
     .. figure:: /img/user_manual/image90.png
       :align: center
 
-      `Image 116`
-
-      The ``green plus sign`` is for adding a new insuree via the `Insuree Page <#insuree-page>`__.
-
-      The ``yellow pencil sign`` is for editing an insuree via the `Insuree Page <#insuree-page>`__.
-
-      The ``red cross sign`` is for deleting an insuree .
-
-   
-
-
  #. **Policies Panel**
 
-    The Policies Panel displays a list of the policies held by the family/group. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image117`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the policy for editing or detailed viewing. By default the first policy is selected and therefore in the Contribution Panel, only the contributions paid on that policy will be displayed in the Contribution Panel By selecting another policy in the list, the Contribution Panel, will refresh with the contributions paid on the newly selected policy.
+    The ``Policies Pane`` displays a list of the policies held by the family/group.
 
-    .. _image117:
-    .. figure:: /img/user_manual/image91.png
-      :align: center
+    By default only the (last)actives policies are shown. Unchecking ``Show only last active or last expired`` displays the previous policies.
 
-      `Selected record (blue), hovered records (yellow) - Policy Panel`
+    The ``Add`` action allows to create a new Policy for edited Family.
+    
+    Double clicking on a record re-directs the user to the policy for editing or detailed viewing.
 
-    In the fifth **Product** column of Policy data grid, there is a link showing product for the policy on the corresponding row. When the link is clicked; a popup browser window (:ref:image118) will open up showing the details of the product (in read-only mode).
+    Each row also contains ``Delete`` and ``Renew`` actions.
 
-    .. _image118:
-    .. figure:: /img/user_manual/image92.png
-      :align: center
-
-      `Product Popup – Policies Panel`
-
-    In the ``Policies Panel``, action buttons allow to add, edit and delete policies.
-
-    .. _image119:
-    .. figure:: /img/user_manual/image93.png
-      :align: center
-
-      `Image 119`
-
-      The ``green plus sign`` is for adding a new policy via the `Policy Page <#policy-page>`__.
-
-      The ``yellow pencil sign`` is for editing a policy via the `Policy Page <#policy-page>`__.
-
-      The ``red cross sign`` is for deleting a policy.
-
-      The ``blue R sign`` is for renewing a policy via the `Policy Page <#policy-page>`__.
-
-
+    When selecting a policy in the list, the Contribution Panel, will refresh with the contributions linked to the newly selected policy.
 
  #. **Contributions Panel**
 
-    The ``Contribution Panel`` displays a list of contributions paid on the policy currently selected in the ``Policies Panel``. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image120`) The leftmost record contains a hyperlink which if clicked, re-directs the user to the contribution for editing or detailed viewing.
+    The ``Contribution sPanel`` displays a list of contributions of the policy currently selected in the ``Policies Panel``.
+    
+    Double clicking on a record re-directs the user to the contribution for editing or detailed viewing.
 
-    .. _image120:
-    .. figure:: /img/user_manual/image94.png
-      :align: center
+    Each row also contains a ``Delete`` action.
 
-      `Selected record (blue), hovered records (yellow) - Contributions Panel`
+    The ``Add`` action allows to create a new Contribution for edited Family.
 
-    In the second **Payer** column of Contributions data grid, there is a link showing (institutional) payer of the contribution on the corresponding row. When the link is clicked; a popup browser window (:numref:`image121`) will open up showing the details of the payer in read-only mode.
+    When selecting a contibution in the list, the Payment Panel, will refresh with the payments linked to the newly selected contribution.
 
-    .. _image121:
-    .. figure:: /img/user_manual/image95.png
-      :align: center
+ #. **Payments Panel**
 
-      `Payer Pop up – Contribution Panel`
+    The ``Payments Panel`` displays a list of payments of the contribution currently selected in the ``Contributions Panel``.
+    
+    Double clicking on a record re-directs the user to the payment for editing or detailed viewing.
 
-    In the ``Contributions Panel``, action buttons allow to add, edit and delete contributions.
+    Each row also contains a ``Delete`` action.
 
-    .. _image122:
-    .. figure:: /img/user_manual/image96.png
-      :align: center
-
-      `Image 122`
-
-      The ``green plus sign`` is for adding a new contribution.
-
-      The ``yellow pencil sign`` is for editing a contribution.
-
-      The ``red cross sign`` is for deleting a contribution.
-
- #. **Button Panel**
-
-    The ``Cancel`` button re-directs to the :ref:`Home Page <home_page>`.
-
- #. **Information Panel**
-
-    The Information Panel is used to display messages back to the user. Messages will occur once an insuree, a policy or a contribution have been added, updated or deleted or if there was an error at any time during the process of these actions.
+    The ``Add`` action allows to create a new Payment for edited Family.
 
 Family/Group Page
 """""""""""""""""
+
+    The Family/Group Page is made of two major section: one for the family/group data itslef, on the the family/group head insuree.
 
     .. _image123:
     .. figure:: /img/user_manual/image97.png
       :align: center
 
       `Family/Group Page`
+
+ #. **The Family/Group data section**
+
+    The ``Family/Group`` section is dedicated to show/provide the family/group specific data:
 
     * ``Region``
 
@@ -338,10 +238,6 @@ Family/Group Page
 
       Select from the list of available villages the village, in which the head of family/group permanently stays. *Note: The list will only be filled with the villages belonging to the selected municipality.* Mandatory.
 
-    * ``Poverty Status``
-
-      Select whether the family/group has the poverty status.
-
     * ``Confirmation Type``
 
       Select the type of a confirmation of the social status of the family/group.
@@ -358,6 +254,17 @@ Family/Group Page
     * ``Address Details.``
 
       Enter details of the permanent address of the family/group.
+
+    * ``Poverty Status``
+
+      Select whether the family/group has the poverty status.
+
+
+ #. **The Head Insuree Details section**
+
+    The ``Head Insuree Details`` section is dedicated to show/provide the family/group head data.
+
+    The ``select existing`` allows to import (use) an existing (non head) insuree as family/group head.
 
     * ``Insurance Number``
 
@@ -387,25 +294,28 @@ Family/Group Page
 
       Select from the list of card whether or not an insurance identification card was issued to the head of family/group.
 
-    * ``Current Region``
+    * ``Location (Region, District, Municipality, Village)``
 
-      Select from the list of available regions the region, in which the head of family/group temporarily stays.
+      The checkbox indicates wherever or not the insuree has the same location as the Family.
 
-    * ``Current District``
+      When unchecked, user has the ability to provide a distinct Region/District/Municipality/Village for the insuree.
 
-      Select from the list of available districts the district, in which the head of family/group temporarily stays. *Note: The list will only be filled with the districts belonging to the selected region*
-
-    * ``Current Municipality``
-
-      Select from the list of available municipalities the municipality, in which the head of family/group temporarily stays. *Note: The list will only be filled with the municipalities belonging to the selected district.*
-
-    * ``Current Village``
-
-      Select from the list of available villages the village, in which the head of family/group temporarily stays. *Note: The list will only be filled with the villages belonging to the selected municipality.*
+    .. _image124:
+    .. figure:: /img/user_manual/image124.png
+      :align: center
 
     * ``Current Address Details``
 
-      Enter details of the temporal address of the head of family/group.
+      The checkbox indicates wherever or not the insuree has the same address as the Family.
+      When unchecked, user has the ability to provide a distinct Region/District/Municipality/Village for the insuree.
+
+    * ``Phone Number``
+
+      Enter the phone number for the head of family/group.
+
+    * ``Email``
+
+      Enter the e-mail address of the head of family/group.      
 
     * ``Profession``
 
@@ -415,14 +325,6 @@ Family/Group Page
 
       Select the education of the head of family/group.
 
-    * ``Phone Number``
-
-      Enter the phone number for the head of family/group.
-
-    * ``Email``
-
-      Enter the e-mail address of the head of family/group.
-
     * ``Identification Type``
 
       Select the type of the identification document of the head of family/group.
@@ -430,6 +332,18 @@ Family/Group Page
     * ``Identification No.``
 
       Enter alphanumeric identification of the document of head of family/group.
+      
+    * ``Photo date``
+
+      The date of the photo for the head of family/group related to his/her insurance number.
+
+    * ``Officer``
+
+      The officer who provided the photo of the head of family/group related to his/her insurance number.
+
+    * ``Avatar``
+
+      Browse to get the photo for the head of family/group related to his/her insurance number.
 
     * ``Region of FSP``
 
@@ -447,67 +361,67 @@ Family/Group Page
 
       Select from the list of available health facilities the chosen primary health facility (First Service Point) of the head of family/group. *Note: The list will only be filled with the health facilities belonging to the selected district which are of the selected level.*
 
-    * ``Browse``
-
-      Browse to get the photo for the head of family/group related to his/her insurance number.
-
- #. **Saving**
-
-    Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Family Overview Page <#family-overview-page.>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the family member has been saved will appear on the Information Panel.
-
- #. **Mandatory data**
-
-    If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk).
-
- #. **Cancel**
-
-    By clicking on the ``Cancel`` button, the user will be re-directed to the `Find Family Page <#find-family-page>`__.
-
 Adding a Family
 """""""""""""""
 
-  Click on the ``Green Plus Sign`` to re-direct to the `Family/Group Page <#familygroup-page>`__.\
+  A new family can be added using the ``Add Family/Group`` main menu entry or via the "+" fab button in the ``Find Families`` page.
 
   When the page opens all entry fields are empty. See the `Family/Group Page <#familygroup-page>`__ for information on the data entry and mandatory fields.
 
 Editing a Family/Group
 """"""""""""""""""""""
 
-  Click on the Yellow Pencil Sign to re-direct to the `Change Family/Group Page <#section-9>`__
-
-  The page will open with the current information loaded into the data entry fields, plus there are options to change the head of the family/group and move an insuree to the family/group.
-
-  .. _image124:
-  .. figure:: /img/user_manual/image98.png
-    :align: center
-
-    `Change Family/Group Page`
+  To edit a Family/Group, double click on the corresponding ``Find Families`` result table record.
 
 Changing a Head of Family/Group
 """""""""""""""""""""""""""""""
 
-  The head of the Family/Group is the main contact associated with a policy. For various reasons it may be necessary to change the head of a family/group. The new head must be a head of family in another family.
+  The head of the Family/Group is the main contact associated with a policy. For various reasons it may be necessary to change the head of a family/group.
 
-  Enter the insurance number for the new head of family/group, click on check, to confirm that the insurance number is valid and that it really is the person expected. The name will appear to the right of the check button. If all is OK, click on the Change button to complete the change. On a successful change, the user will be re-directed back to the `Family Overview Page <#family-overview-page.>`__\ ; the new head will be displayed in the Family/Group Information Panel
+  You can change the Family/Group head from the `Family Overview Page <#family-overview>`__, in the family insurees section:
+
+  .. _image125:
+  .. figure:: /img/user_manual/image125.png
+    :align: center
 
 Moving an Insuree
 """""""""""""""""
 
-  Insurees may be moved from one family/group to another. The new insuree must not be a head of family/group in another family/group.
+  Insurees may be moved from one family/group into the edited family. The new insuree must not be a head of family/group in another family/group.
 
-  Enter the insurance number for the insuree to move. Click on check, to confirm that the insurance number is valid and that it really is the person expected. The name will appear to the right of the check button. If all is OK, click on the Change button to complete the change. On a successful change, the user will be re-directed back to the `Family Overview Page <#family-overview-page.>`__ the new insuree will be displayed in the insuree Information Panel.
+  Use the ``Add existing`` action in the insurees section of the `Family Overview Page <#family-overview>`__ page to do so.
+
+  .. _image126:
+  .. figure:: /img/user_manual/image126.png
+    :align: center
+
+  A Insuree Search dialog (automatically filtering on non-head insuree) allows the user to find the insuree
+
+  .. _image127:
+  .. figure:: /img/user_manual/image127.png
+    :align: center
+
+  When selecting an Insuree, the user has two options:
+
+  * ``Move and Cancel Policies``, to cancel the insuree's policy in the family it is issued from
+
+  * ``Move and Keep Policies``, to let current policies active (until policy renewal)
 
 Deleting a Family/Group
 """""""""""""""""""""""
 
-  Click on the Red Cross Sign button to delete the currently selected record\ .
+   To delete a Family/Group, click ``Delete`` action in the corresponding ``Find Families`` result table record.
 
-  Before deleting a confirmation popup (:numref:`image125`) is displayed, which requires the user to confirm if the action should really be carried out? Deleting of a family requires deleting of all its dependants first.
+  Before deleting a confirmation popup is displayed, which requires the user to confirm if the action should really be carried out.
+  
+  The confirmation dialog gives two options (:numref:`image74`): 
 
-  .. _image125:
-  .. figure:: /img/user_manual/image24.png
-    :align: center
+      .. _image74:
+      .. figure:: /img/user_manual/image74.png
+        :align: center
 
-    `Delete confirmation- Button Panel`
-
+    * ``Delete Family and Members``: dedicated to also delete any member from that family
+    
+    * ``Delete Family Only``: family members are 'detached' (and remain without family), but not deleted
+    
   When a family is deleted, all records retaining to the deleted family will still be available by selecting historical records.

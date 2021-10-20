@@ -1,0 +1,433 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../mobile_user_manual/policy_modify.rst:2
+msgid "**Function Modify**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:4
+msgid ""
+"The function Modify is navigated to by clicking on the menu item "
+"**Modify** in the main menu. The function Modify allows to download data "
+"on families/insurees from the web IMIS for their further editing or using"
+" for association with policies. A user must have a valid User Name and "
+"Password provided by an administrator of the web IMIS with an assigned "
+"role incorporating an access to the functionality **Insurees and "
+"Families/Family +Insurees/Edit** as an access to the functionality Modify"
+" is guarded by the `Login Page <#image-1.5.1-modify-function-login-"
+"page>`__"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:17
+msgid "Image 1.5.1 (Modify function-Login Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:19
+msgid ""
+"If login is successful the `Search Page <#image-1.5.2-search-page>`__ "
+"appears:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:25
+msgid "Image 1.5.2 (Search Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:27
+msgid ""
+"Enter the insurance number of any member of a family/group having a "
+"residence in the district where the enrolment officer is acting and click"
+" on the button **Search**. If the family/group with a member having the "
+"entered insurance number is found in the web IMIS, the `Family Page "
+"<#image-1.5.3-family-page-with-the-retrieved-family>`__ appears with the "
+"retrieved family."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:37
+msgid "Image 1.5.3 (Family Page with the retrieved family)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:39
+msgid ""
+"From now on, any operations like editing of members and deleting members "
+"of the family/group, associating new policies and contributions can be "
+"accomplished in the same way as for newly entered families as described "
+"with the function `Enrol <#function-enrol>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:45
+msgid "**Function Control Numbers**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:47
+msgid ""
+"The function Control Numbers is navigated to by clicking on the menu item"
+" **Control Numbers** in the main menu. The function Control Number allows"
+" sending requests for assigning of control numbers for intended payments "
+"of contributions and getting assigned control numbers. A user must have a"
+" valid User Name and Password provided by an administrator of the web "
+"IMIS with an assigned role incorporating an access to the functionality "
+"**Insurees and Families/Payment/Add** as an access to the functionality "
+"Control Numbers is guarded by the by the `Login Page <#image-1.2.1"
+"-enquire-function-login-page>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:57
+msgid ""
+"The `Overviews Page <#image-1.6.1-overviews-page>`__ appears after "
+"selecting **Contrl Numbers** in the main menu:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:63
+msgid "Image 1.6.1 (Overviews Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:65
+msgid ""
+"Click on the button **Overview Policies** to move to the `Search Policies"
+" Page <#image-1.6.2-search-policies-page>`__ with search criteria for "
+"policies in the memory of the device:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:72
+msgid "Image 1.6.2 (Search Policies Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:74
+msgid ""
+"The application keeps track of all policies that were created within the "
+"application and/or uploaded unless the track of a policy is explicitly "
+"deleted by a user (see below). This feature allows to send requests for "
+"assigning control numbers for one or several policies simultaneously to "
+"the web IMIS before or after the policies are uploaded (after uploading "
+"is a preferred option)."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:81
+msgid "The following search criteria are at disposal:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:83
+#: ../../mobile_user_manual/policy_modify.rst:153
+#: ../../mobile_user_manual/policy_modify.rst:271
+msgid "Insurance No."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:87
+#: ../../mobile_user_manual/policy_modify.rst:275
+msgid ""
+"Enter an insurance number (or a subset of) of the head of family/group "
+"holding searched policies."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:90
+#: ../../mobile_user_manual/policy_modify.rst:278
+msgid "Other Names"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:94
+#: ../../mobile_user_manual/policy_modify.rst:282
+msgid ""
+"Enter another name (or a subset of) of the head of family/group holding "
+"searched policies."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:97
+#: ../../mobile_user_manual/policy_modify.rst:285
+msgid "Last Names"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:101
+#: ../../mobile_user_manual/policy_modify.rst:289
+msgid ""
+"Enter a last name (or a subset of) of the head of family/group holding "
+"searched policies."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:104
+#: ../../mobile_user_manual/policy_modify.rst:292
+msgid "Insurance Product"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:108
+msgid "Select from the list of available insurance products of searched policies."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:111
+#: ../../mobile_user_manual/policy_modify.rst:299
+msgid "Uploaded From"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:115
+#: ../../mobile_user_manual/policy_modify.rst:303
+msgid ""
+"Select from the date selector the lowest date of uploading to the web "
+"IMIS of searched policies."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:118
+#: ../../mobile_user_manual/policy_modify.rst:306
+msgid "Uploaded To"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:122
+#: ../../mobile_user_manual/policy_modify.rst:310
+msgid ""
+"Select from the date selector the highest date of uploading to the web "
+"IMIS of searched policies."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:125
+#: ../../mobile_user_manual/policy_modify.rst:313
+msgid "Renewal Y/N"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:129
+#: ../../mobile_user_manual/policy_modify.rst:317
+msgid "Select whether only renewed or only new policies are search for. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:132
+msgid "Requested Y/N"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:136
+msgid ""
+"Select whether only policies for which a control number has been "
+"requested or only policies for which a control number hasn’t been "
+"requested yet. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:140
+#: ../../mobile_user_manual/policy_modify.rst:327
+msgid "Click on the button **Clear** to clear all search criteria entered."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:142
+msgid ""
+"Click on the button **Search** to get a list of policies satisfying the "
+"search criteria. The `Policies Page <#image-1.6.3-policies-page>`__ with "
+"the list of policies satisfying the search criteria appears:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:149
+msgid "Image 1.6.3 (Policies Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:151
+msgid "The following data are included with each policy:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:157
+msgid ""
+"Read-only data field. The insurance number of the head of a family/group "
+"holding a policy."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:160
+msgid "Renewal"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:164
+msgid ""
+"Read-only data field. An indication whether it is a new policy (N) or a "
+"renewal (Y)."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:167
+msgid "Names"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:171
+msgid ""
+"Read-only data field. The full name (the other and the full name) of the "
+"head of the family/group holding the policy."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:174
+msgid "Product Code"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:178
+msgid "Read-only data field. The code of the insurance product of the policy."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:181
+msgid "Product Name"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:185
+msgid "Read-only data field. The name of the insurance product of the policy."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:188
+msgid "Uploaded Date"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:192
+msgid ""
+"Read-only data field. The date of uploading of the policy if it has been "
+"uploaded."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:195
+msgid "Requested Date"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:199
+msgid ""
+"Read-only data field. The date of requesting a control number for the "
+"policy if it has been requested."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:202
+msgid "Checkbox"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:206
+msgid ""
+"Check the box if the policy should be included in a subsequent operation "
+"(**Delete, Request**)."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:209
+msgid ""
+"Click on the button **Delete** if the selected policies should be deleted"
+" from the list of policies."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:212
+msgid ""
+"Click on the button **Request** if assignment of a control number for the"
+" selected policies should be performed. The `Request Control Number Page "
+"<#image-1.6.4-request-control-number-page>`__ appears."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:219
+msgid "Image 1.6.4 (Request Control Number Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:221
+msgid "The following data items are included:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:223
+msgid "Total Amount"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:227
+msgid ""
+"The total amount of contributions associated with the selected policies "
+"for the request."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:230
+msgid "Phone Number"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:234
+msgid ""
+"The phone number of the requester/user where a SMS with the assigned "
+"control number should be sent."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:237
+msgid "Type of Payment"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:241
+msgid ""
+"Select one of the two relevant types of payment (**Mobile Phone, Bank "
+"Transfer**)."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:244
+msgid ""
+"Click on button **Get Control Number**. The `Login Page <#image-1.6.5"
+"-request-control-number-login-page>`__ appears:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:250
+msgid "Image 1.6.5 (Request Control Number – Login Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:252
+msgid ""
+"If the application successfully logs in the `Policies Page <#image-1.6.3"
+"-policies-page>`__ appears again."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:255
+msgid ""
+"Click on the icon **<-** in the upper part of the `Policies Page "
+"<#image-1.6.3-policies-page>`__ to return to the `Search Policies Page "
+"<#image-1.6.2-search-policies-page>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:259
+msgid ""
+"Click on the button **Overview Control Numbers** to move to the `Search "
+"Control Numbers Page <#image-1.6.2-search-policies-page>`__ with search "
+"criteria for assigned control numbers:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:266
+msgid "Image 1.6.4 (Search Control Numbers Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:268
+msgid ""
+"Searching is done based on policies to which control numbers are "
+"assigned. The following search criteria are at disposal:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:296
+msgid ""
+"Select from the list of available insurance products of policies of which"
+" control numbers are searched for."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:320
+msgid "Payment Type"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:324
+msgid ""
+"Select one of possible type of payment (Bank Transfer, **Mobile Phone**)."
+" Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:329
+msgid ""
+"Click on the button **Search** to get a list of policies satisfying the "
+"search criteria and assigned control numbers. The `Control Numbers Page "
+"<#image-1.6.5-control-numbers-page>`__ with the list of policies "
+"satisfying the search criteria and assigned control numbers appears:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:337
+msgid "Image 1.6.5 (Control Numbers Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:339
+msgid ""
+"Click on the icon **<-** in the upper part of the `Control Numbers Page "
+"<#image-1.6.5-control-numbers-page>`__ to return to the `Search Control "
+"Numbers Page <#image-1.6.4-search-control-numbers-page>`__ ."
+msgstr ""
+
