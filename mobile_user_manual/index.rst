@@ -1,4 +1,4 @@
-OpenIMIS mobile applications
+Mobile Applications
 ++++++++++++++++++++++++++++
 
 +-----------------------------------------------------------------------+
@@ -10,7 +10,7 @@ OpenIMIS mobile applications
 | The Insurance Management Information System (IMIS) is the web based   |
 | software supporting running of health insurance schemes. It includes  |
 | functionality for a setup to requirements of health insurance         |
-| schemes, administration of policies and policy holders and for claim  |
+| schemes, administration of policies and policyholders and for claim  |
 | processing.                                                           |
 |                                                                       |
 | The web forms used in IMIS are not adjusted to small screens of       |
@@ -59,7 +59,7 @@ OpenIMIS mobile applications
 
 .. toctree::
    :maxdepth: 2
-   :caption: User mobile documentation
+   :caption: User Mobile Documentation
    
    /mobile_user_manual/claim_app
    /mobile_user_manual/policy_app 

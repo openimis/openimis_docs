@@ -1,7 +1,7 @@
 
 
-Medical Item Price Lists Administration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Medical Item Price Lists
+^^^^^^^^^^^^^^^^^^^^^^^^
 
   Pricelists of medical items are tools for specification which medical items and at which prices can be invoiced by contractual health facilities to the scheme administration. Administration of pricelists of medical items is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Pricelists-Medical Items.
 
@@ -38,16 +38,13 @@ Price List Medical Items Control Page
 
     The search panel allows a user to select specific criteria to minimise the search results. In the case of price lists for medical items the following search options are available which can be used alone or in combination with each other.
 
-    * ``Name``
-
+    Name
       Type in the beginning of; or the full ``Name``; to search for price lists medical items with a Name, which starts with or matches completely, the typed text.
 
-    * ``Date``
-
+    Date
       Type in the full ``Date`` to search for price lists of medical items with a creation Date which matches completely, the typed date. *Note: You can also use the button next to the date field to select a date.*
 
-    * ``Date Selector Button``
-
+    Date Selector Button
       Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image45`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
       - At anytime during the use of the pop-up, the user can see the date of today.
@@ -71,16 +68,13 @@ Price List Medical Items Control Page
 
         `Calendar Selector - Search Panel`
 
-    * ``Region``
-
+    Region
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select price lists of medical items from a specific region. The option **National** means that the price list is common for all regions. *Note: The list will only be filled with the regions assigned to the current logged in user and with the option National. All nationwide pricelists and all regional pricelists relating to the selected region will be found. If no district is selected the also all district pricelists for districts belonging to the selected region will be found.*
 
-    * ``District``
-
+    District
       Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select price lists medical items from a specific district. *Note: The list will be only filled with the districts belonging to the selected region and assigned to the currently logged in user. All nationwide pricelists, all regional pricelists relating to the selected region and all district pricelists for the selected district will be found.*
 
-    * ``Historical``
-
+    Historical
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image47`).
 
       .. _image47:
@@ -89,8 +83,7 @@ Price List Medical Items Control Page
 
         `Historical records - Result Panel`
 
-    * ``Search button``
-
+    Search button
       Once the criteria have been entered, use the search button to filter the records, the results will appear in the result panel.
 
  #. **Result Panel**
@@ -130,24 +123,19 @@ Price List Medical Item Page
 
       `Price List Medical Item Page`
 
-    * ``Name``
-
+    Name
       Enter the name for the price list of medical items. Mandatory, 100 characters maximum.
 
-    * ``Date``
-
+    Date
       Enter the creation date for the price list of medical items. *Note: You can also use the button next to the date field to select a date to be entered.*
 
-    * ``Region``
-
+    Region
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to enter the region in which the price list of medical items is to be used. The district **National** means that the price list is common for all regions. *Note: The list will only be filled with the regions assigned to the current logged in user and with the option National.* Mandatory.
 
-    * ``District``
-
+    District
       Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to enter the district in which the price list of medical items is to be used. *Note: The list will be only filled with the districts belonging to the selected region and currently logged in user.* It is not mandatory to enter a district, not selecting a district will mean the price list of medical items is used in all districts of the region or nationwide if the region National is selected .
 
-    * ``Medical Items``
-
+    Medical Items
         Select from the list of available medical items the medical items which the price list medical item contains, by either clicking on the ``check all box`` at the top of the list of medical items, or by selectively clicking on the ``check box`` to the left of the medical item. The list shows the medical items displaying the code, name, type and price for reference. There is also an extra column, Overrule, which can be used to overrule the pre-set price. By clicking once on the row desired item in the overrule column, a new price can be entered for the individual item. This occurs when price agreed between a health facility or group of health facilities and the health insurance administration differs from the common price in the register of medical items.
 
  #. **Saving**

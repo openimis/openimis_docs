@@ -1,7 +1,5 @@
-
-
 Group/family, Insurees and Policies
------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In openIMIS the policies are assigned to group only, if a policy need to be assigned to an individual then a group of one must be created.
 

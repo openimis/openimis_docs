@@ -728,7 +728,7 @@ msgstr ""
 
 #: ../../user_manual/claims/review_claims.rst:270
 msgid "Claim Review Page"
-msgstr "Claim Review Pag"
+msgstr "Claim Review Page"
 
 #: ../../user_manual/claims/review_claims.rst:272
 #: ../../user_manual/claims/review_claims.rst:489

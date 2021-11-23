@@ -5,3 +5,4 @@ __pycache__/
 img_old
 *.mo
 venv
+.venv

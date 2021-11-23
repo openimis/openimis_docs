@@ -1,5 +1,5 @@
-Enrolment Officers Administration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Enrolment Officers
+^^^^^^^^^^^^^^^^^^
 
   Enrolment Officers administration is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Enrolment Officers.
 
@@ -36,28 +36,22 @@ Enrolment Officers Control Page
 
     The search panel allows a user to select specific criteria to minimise the search results. In the case of officers the following search options are available which can be used alone or in combination with each other.
 
-    * ``Last Name``
-
+    Last Name
       Type in the beginning of; or the full ``Last name``; to search for officers with a ``Last name``, that starts with or matches completely, the typed text.
 
-    * ``Code``
-
+    Code
       Type in the beginning of; or the full ``Code`` to search for officers with a ``Code``, that starts with or matches completely, the typed text.
 
-    * ``Other Names``
-
+    Other Names
       Type in the beginning of; or the full ``Other Names`` to search for officers with ``other names``, that starts with or matches completely, the typed text.
 
-    * ``Birth Date From``
-
+    Birth Date From
       Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for officers having the same or later birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    * ``Birth Date To``
-
+    Birth Date To
       Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for officers having the same or earlier birth date. *Note: To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    * ``Date Selector button``
-
+    Date Selector button
       Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image61`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
       - At anytime during the use of the pop-up, the user can see the date of *today*.
@@ -91,24 +85,19 @@ Enrolment Officers Control Page
 
         `Calendar Selector - Search Panel`
 
-    * ``Region``
-
+    Region
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select enrolment officers acting in a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user.*
 
-    * ``District``
-
+    District
       Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select enrolment officers acting in a specific district. *Note: The list will be only filled with the districts belonging to the selected region and assigned to the current logged in user.*
 
-    * ``Phone Number``
-
+    Phone Number
       Type in the beginning of; or the full ``Phone Number`` to search for enrolment officers with a Phone Number, that starts with or matches completely, the typed number.
 
-    * ``Email``
-
+    Email
       Type in the beginning of; or the full ``Email`` to search for enrolment officers with the ``Email``, which starts with or matches completely, the typed text.
 
-    * ``Historical``
-
+    Historical
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image62`).
 
     .. _image62:
@@ -117,8 +106,7 @@ Enrolment Officers Control Page
 
       `Historical records - Result Panel`
 
-    * ``Search Button``
-
+    Search Button
       Once the criteria have been entered, use the ``search button`` to filter the records, the results will appear in the result panel.
 
  #. **Result Panel**
@@ -160,90 +148,68 @@ Enrolment Officer Page
 
     ``Enrolment Officers Details``
 
-    * ``Code``
-
+    Code
       Enter the code for the enrolment officer. Mandatory, 8 characters maximum.
 
-    * ``Last Name``
-
+    Last Name
       Enter the last name (surname) for the enrolment officer. Mandatory, 100 characters maximum.
 
-    * ``Other Names``
-
+    Other Names
       Enter other names of the enrolment officer. Mandatory, 100 characters maximum.
 
-    * ``Date of Birth``
-
+    Date of Birth
       Enter the date of birth for the enrolment officer. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    * ``Phone Number``
-
+    Phone Number
       Enter the phone number for the enrolment officer. 50 characters maximum.
 
-    * ``Email``
-
+    Email
       Enter the e-mail address for the enrolment officer. 50 characters maximum.
 
-    * ``Permanent Address Details``
-
+    Permanent Address Details
       Enter details of the place of living of the enrolment officer.
 
-    * ``Region``
-
+    Region
       Select from the list of available regions the region to a district in which the enrolment officer will act. Mandatory
 
-    * ``District``
-
+    District
       Select from the list of available districts the district in which the enrolment officer will act. *Note: The list will be only filled with the districts belonging to the selected region.* Mandatory .
 
-    * ``Substitution``
-
+    Substitution
       Select from the list of available enrolment officers the enrolment officer which will substitute the current enrolment officer Substitution means that all prompts to renewals/feedback will be directed to the substituting enrolment officer. *Note: The list contains enrolment officers who already exist in the system and who have at least on location common with the enrolment officer to be substituted.*
 
-    * ``Works To``
-
+    Works To
       Enter the date which the substituted enrolment officer will work up to. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    * ``Communicate``
-
+    Communicate
       Check the box ``Communicate`` if the enrolment officer should receive SMS messages alerting him/her about a need of renewing policies of families/groups he/she is assigned to.
 
-    * ``Municipalities``
-
+    Municipalities
       Select from the list of available municipalities the municipality(s) which the enrolment officer is acting in, by either clicking on the ``Check All`` box at the top of the list of municipalities, or by selectively clicking on the ``Check box`` to the left of the municipality. Mandatory (at least one municipality must be selected.
 
-    * ``Villages``
-
+    Villages
       Select from the list of available villages the village(s) which the enrolment officer is acting in, by either clicking on the ``Check All`` box at the top of the list of villages, or by selectively clicking on the ``Check box`` to the left of the village. Villages are pre-selected based on the selected municipality. The pre-selection can be modified. Mandatory (at least one village must be selected.
 
-    * ``village Officer Details``
-
-    * ``Code``
-
+    village Officer Details
+    Code
       Enter the code for the Village Executive officer. 25 characters maximum.
 
-    * ``Last name``
-
+    Last name
       Enter the last name (surname) for the Village Executive officer. 100 characters maximum.
 
-    * ``Other Names``
-
+    Other Names
       Enter other names of the Village Executive officer. 100 characters maximum.
 
-    * ``Phone Number``
-
+    Phone Number
       Enter the phone number for the Village Executive officer. 25 characters maximum.
 
-    * ``Email``
-
+    Email
       Enter the e-mail address for the Village Executive officer. 50 characters maximum.
 
-    * ``Date of Birth``
-
+    Date of Birth
       Enter the date of birth for the Village Executive officer. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    * ``Include Login``
-
+    Include Login
       Enable the enrolment officer to use openIMIS web by creating web credentials (enrolment officers primary interface is the enrolment application running on android device that doesn't require openIMIS user), the change must be saved to be taken into account.
 
         .. _enrolment_officer_page_login:

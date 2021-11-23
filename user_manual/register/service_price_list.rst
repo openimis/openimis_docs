@@ -1,7 +1,7 @@
 
 
-Medical Service Price Lists Administration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Medical Service Price Lists
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
   Price lists of medical services are tools for specification which medical services and at which prices can be invoiced by contractual health facilities to the scheme administration. Administration of price lists of medical services is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Pricelists-Medical Services.
 
@@ -38,16 +38,13 @@ Price List Medical Services Control Page
 
     The search panel allows a user to select specific criteria to minimise the search results. In the case of price lists for medical services the following search options are available which can be used alone or in combination with each other.
 
-    * ``Name``
-
+    Name
       Type in the beginning of; or the full ``Name``; to search for price lists medical services with a ``Name``, which starts with or matches completely, the typed text.
 
-    * ``Date``
-
+    Date
       Type in the full ``Date`` to search for price lists of medical services with a creation ``Date`` which matches completely, the typed date. *Note: You can also use the button next to the date field to select a date.*
 
-    * ``Date Selector Button``
-
+    Date Selector Button
       Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image38`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
       - Anytime during the use of the pop-up, the user can see the date of today.
@@ -75,16 +72,13 @@ Price List Medical Services Control Page
 
         `Calendar Selector - Search Panel`
 
-    * ``Region``
-
+    Region
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select price lists of medical services from a specific region. The option **National** means that the price list is common for all regions. *Note: The list will only be filled with the regions assigned to the current logged in user and with the option National. All nationwide pricelists and all regional pricelists relating to the selected region will be found. If no district is selected then also all district pricelists for districts belonging to the selected region and assigned to the currently logged in user will be found.*
 
-    * ``District``
-
+    District
       Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select price lists of medical services from a specific district. *Note: The list will be only filled with the districts belonging to the selected region. All nationwide pricelists, all regional pricelists relating to the selected region and all district pricelists for the selected district will be found.*
 
-    * ``Historical``
-
+    Historical
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image39`)
 
       .. _image39:
@@ -93,8 +87,7 @@ Price List Medical Services Control Page
 
         `Historical records - Result Panel`
 
-    * ``Search button``
-
+    Search button
       Once the criteria have been entered, use the search button to filter  the records, the results will appear in the Result Panel.
 
  #. **Result Panel**
@@ -134,24 +127,19 @@ Price List Medical Services Page
 
         `Price List Medical Service Page`
 
-    * ``Name``
-
+    Name
       Enter the name for the price list of medical services. Mandatory, 100 characters maximum.
 
-    * ``Date``
-
+    Date
       Enter the creation date for the price list of medical services. *Note: You can also use the button next to the date field to select a date to be entered.*
 
-    * ``Region``
-
+    Region
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to enter the region in which the price list of medical services is to be used. The region **National** means that the price list is common for all regions. *The list will only be filled with the regions assigned to the current logged in user and with the option National.* Mandatory.
 
-    * ``District``
-
+    District
       Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to enter the district in which the price list of medical services is to be used. *Note: The list will be only filled with the districts belonging to the selected region and currently logged in user.* It is not mandatory to enter a district, not selecting a district will mean the price list of medical services is used in all districts of the region or nationwide if the region National is selected.
 
-    * ``Medical Services``
-
+    Medical Services
         Select from the list of available medical services the medical services which the price list of medical service should contain, by either clicking on the ``check all`` box at the top of the list of medical services, or by selectively clicking on the ``check box`` to the left of a medical service. The list shows the medical services displaying the code, name, type and price for reference. There is also an extra column, Overrule, which can be used to overrule the pre-set price. By clicking once on the row desired item in the overrule column, a new price can be entered for the individual service. This occurs when price agreed between a health facility or group of health facilities and the health insurance administration differs from the common price in the register of medical services.
 
  #. **Saving**
