@@ -200,3 +200,8 @@ intersphinx_mapping = {
 
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
+
+## Gen menu
+import gensidebar
+
+gensidebar.generate_sidebar(globals(), "openIMIS")
