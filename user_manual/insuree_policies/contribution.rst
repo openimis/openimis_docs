@@ -38,40 +38,31 @@ Find Contribution Page
 
     The Search Panel allows a user to select specific criteria to minimise the search results. In the case of contributions the following search options are available which can be used alone or in combination with each other.
 
-    * ``Payer``
-
+    Payer
       Select the ``Payer``; from the list of payers by clicking on the arrow on the right of the selector, to select contributions related to a specific payer.
 
-    * ``Payment Type``
-
+    Payment Type
       Select the ``Payment Type``; from the list of types by clicking on the arrow on the right of the selector, to select contributions related to a specific payment type.
 
-    * ``Payment Date From``
-
+    Payment Date From
       Type in a date; or use the Date Selector Button, to enter the ``Payment Date From`` to search for contributions with a ``Payment Date`` equal or later than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    * ``Payment Date To``
-
+    Payment Date To
       Type in a date; or use the Date Selector Button, to enter the ``Payment Date To`` to search for contributions with a ``Payment Date`` equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    * ``Contribution Category``
-
+    Contribution Category
       Select the ``Contribution Category`` that match with the type of contribution paid, by default there is *Contribution and Others* and *photo fee*. this enable to add fees that won't be counted as contribution payment
 
-    * ``Contribution Paid``
-
+    Contribution Paid
       Type in the ``Contribution Paid`` to search for contributions with the paid amount, greater or equal to the typed amount.
 
-    * ``Region``
-
+    Region
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select contributions for policies from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*
 
-    * ``District``
-
+    District
       Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select contributions paid for policies from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*
 
-    * ``Historical``
-
+    Historical
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image110`).
 
       .. _image110:
@@ -80,8 +71,7 @@ Find Contribution Page
 
         `Historical records - Result Panel`
 
-    * ``Search Button``
-
+    Search Button
       Once the criteria have been entered, use the ``Search`` button to filter the records, the results will appear in the Result Panel.
 
 
@@ -96,24 +86,19 @@ Contribution Page
 
       `Contribution Page`
 
-    * ``Payer``
-
+    Payer
       Select from the list of available (institutional) payers the payer of the contribution (if the contribution is not paid by the family/group itself).
 
-    * ``Contribution Paid``
-
+    Contribution Paid
       Enter the paid amount for the contribution. Mandatory.
 
-    * ``Receipt No.``
-
+    Receipt No.
       Enter the receipt identification for the contribution. Receipt identification has to be unique within all policies of the insurance product. Mandatory.
 
-    * ``Payment Date``
-
+    Payment Date
       Enter the date of payment for the contribution. Mandatory. *Note: You can also use the button next to the date of payment field to select a date to be entered.*
 
-    * ``Payment Type``
-
+    Payment Type
       Select from the list of available types of payment the payment type of the contribution. Mandatory.
 
  #. **Saving**

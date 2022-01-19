@@ -1,7 +1,7 @@
 
 
-Medical Services Administration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Medical Services
+^^^^^^^^^^^^^^^^
 
   The register of Medical Services contains all medical services that can be included in packages of benefits of insurance products administered and remunerated by the health insurance scheme. Administration of the register of medical services is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Medical Services.
 
@@ -38,20 +38,16 @@ Medical Services Control Page
 
     The Search Panel allows a user to select specific criteria to minimise the search results. In the case of medical services the following search options are available which can be used alone or in combination with each other.
 
-    * ``Code``
-
+    Code
       Type in the beginning of; or the full ``Code``; to search for medical services with a ``Code``, which starts with or matches completely, the typed text.
 
-    * ``Name``
-
+    Name
       Type in the beginning of; or the full ``Name`` to search for medical services with a ``Name``, which starts with or matches completely, the typed text.
 
-    * ``Type``
-
+    Type
       Select the ``Type``; from the list of types (Preventive, Curative) by clicking on the arrow on the right of the selector, to select medical services of a specific type.
 
-    * ``Show Historical Values``
-
+    Show Historical Values
       Click on ``Show Historical Values`` to see historical records matching the selected criteria. Historical records are displayed in the result greyed out to distinguish them from current records (:numref:`image24`)
 
       .. _image24:
@@ -60,8 +56,7 @@ Medical Services Control Page
 
         `Historical records - Result Panel`
 
-    * ``Search Button``
-
+    Search Button
       Once the criteria have been entered, use the search button to filter the records, the results will appear in the result panel.
 
  #. **Result Panel**
@@ -88,40 +83,31 @@ Medical Service Page
 
       `Medical Service Page`
 
-    * ``Code``
-
+    Code
       Enter the code for the medical service. Mandatory, 6 characters.
 
-    * ``Name``
-
+    Name
       Enter the name of the medical service. Mandatory, 100 characters maximum.
 
-    * ``Category``
-
+    Category
       Choose the category (Surgery, Consultation, Delivery, Antenatal, Other) which the medical service belongs to.
 
-    * ``Type``
-
+    Type
       Choose one from the options available (Preventive, Curative), the type of the medical service. Mandatory.
 
-    * ``Level``
-
+    Level
       Select from the list (Simple Service, Visit, Day of Stay, Hospital Case), the level for the medical service. Mandatory.
 
-    * ``Price``
-
+    Price
       Enter the price a general price that can be overloaded in pricelists. Full general price (including potential cost sharing of an insuree) for the medical service. Mandatory.
 
-    * ``Care Type``
-
+    Care Type
       Choose one from the options available (Out-patient, In-patient, Both), the limitation of provision of the medical service to the specific type of health care. Mandatory.
 
-    * ``Frequency``
-
+    Frequency
       Enter the limitation of frequency of provision in a number of days within which a medical service can be provided to a patient not more than once. If the frequency is zero, there is no limitation. *Note: By default the frequency is 0.*
 
-    * ``Patient``
-
+    Patient
       Choose one or a combination of the options available, to specify which patient type the medical service is applicable to. *Note: By default all patient options are checked (selected).*
 
  #. **Saving**

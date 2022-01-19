@@ -13,3 +13,4 @@ Tools
    utilities
    funding
    email
+   date_picker

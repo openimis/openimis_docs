@@ -1,4 +1,4 @@
-Contribution plan
+Contribution Plan
 ^^^^^^^^^^^^^^^^^
 
   The contribution plan enable different pricing and enrollment logic for a given product.
@@ -59,7 +59,7 @@ Search Page
 
          doubleclick on the line or clicking on the edit button will open the edit page
 
-        .. _contribution_plan_edit
+        .. _contribution_plan_edit:
         .. figure:: /img/user_manual/contribution_plan.edit.png
             :align: center
 
