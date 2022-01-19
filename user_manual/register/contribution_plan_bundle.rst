@@ -1,4 +1,4 @@
-Contribution plan bundle
+Contribution Plan Bundle
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
   The Contribution plan bundle is linked to Contribution plans

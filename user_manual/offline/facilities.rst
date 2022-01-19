@@ -43,8 +43,7 @@ Offline Facilities
 
     User with roles HF Administrator and Offline Scheme Administrator can access only ``Users``, ``IMIS Extracts`` and ``Utilities`` menus, while all other users with different roles can access menus just as they would do in the online openIMIS version.
 
-    * ``Extracts``
-
+    Extracts
       Extracts Menu leads an offline user to Extracts control panel. Using this panel, an offline user with rights to this panel can import data from online openIMIS to the local offline IMIS, and can also download claims and enrolments prior to upload them to the online IMIS. This panel is divided into five sections (:numref:`image255`), (:numref:`image256`) If an offline user is HF Administrator, section C will contain facility to ``Download Claims``. If an offline user is Offline Scheme Administrator, section C will contain facility to ``Download Enrolments``
 
       .. _image255:
@@ -59,8 +58,7 @@ Offline Facilities
 
         `Extracts Control Page, Offline Scheme Administrator, openIMIS offline`
 
-    * ``section a - import extract``
-
+    section a - import extract
       This section has a facility to enable synchronization of online openIMIS data with that offline openIMIS data. When online data in a zipped file is obtained (downloaded extraction) from online openIMIS to user local computer, user will use this section to put that data into offline IMIS.
 
       User has to select a file from a local computer by clicking the 'select file' button on the left side of the section, and in the popup window which appears (:numref:`image256`) user can navigate to the required file and select the file.
@@ -93,8 +91,7 @@ Offline Facilities
 
         `Popup Window, Wrong sequence of an extract file, openIMIS offline`
 
-    * ``section b - import photos``
-
+    section b - import photos
       Just as the section name implies, this is a section with facility to enable a user synchronize insurees’ photos in online IMIS, with insurees’ photos in offline IMIS. When online insurees’ photos in a zipped file is obtained from online openIMIS to user local computer, user will use this section to put those photos into offline IMIS.
 
       User has to select a file from a local computer by clicking the 'select file' button on the left side of the section, and in the popup window which appears (:numref:`image261`), user can navigate to the required file and select the file.
@@ -115,12 +112,10 @@ Offline Facilities
 
       If importation of photo is not done due to some reason, the above popup message will not be shown, instead system will issue proper popup message to notify a user what went wrong and what is to be done.
 
-    * ``section c - download claim xmls``
-
+    section c - download claim xmls
       This section has facility to enable offline HF Administrator download to a zipped file all offline claims. By clicking the download button on the right hand side, the user initiate download process and all offline claims will be downloaded to a default downloads folder in user's local computer or a prompt of 'where to save file' will be displayed by browser'. User can navigate through folder in his/her local computer to find the file downloaded. If no new claims found, a message will be displayed.
 
-    * ``download enrolment xmls``
-
+    download enrolment xmls
       This section has facility to enable Offline Scheme Administrator download to a zipped file all offline enrollments of families, insurees, policies and contributions. By clicking the download button on the right hand side, the user initiate download process. If no enrolment found, a popup message box (:numref:`image262`) will appear, notifying the user. Otherwise enrollments will be downloaded in a zipped file and a confirmation popup message (:numref:`image264`) will appear
 
       .. _image263:
@@ -135,12 +130,10 @@ Offline Facilities
 
         `Popup Window, Download Enrolments, openIMIS offline`
 
-    * ``section d - buttons``
-
+    section d - buttons
       This section has a cancel button, which when clicked will take the current user to the Home page.
 
-    * ``section e - information bar``
-
+    section e - information bar
       Information bar at the bottom will show different notification messages in blue color depending on the actions of the user. Such actions and messages may be:
 
       a) No Previous Extract Found

@@ -11,3 +11,9 @@
       overflow: visible !important;
    }
 }
+
+@media screen {
+   figure figcaption {
+      margin-top: 8px;
+   }
+}

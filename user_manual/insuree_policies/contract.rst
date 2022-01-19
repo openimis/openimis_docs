@@ -34,7 +34,7 @@ Search Page
 
     * Code: code of the policyholder, often given during the registration process
 
-    * Policyholder: contract for a given policy holder
+    * Policyholder: contract for a given policyholder
 
     * Amount from/to: serach contract by amount
 
@@ -86,7 +86,7 @@ Card
     
     * Code: code of the contract
 
-    * Policyholder: contract for the given policy holder
+    * Policyholder: contract for the given policyholder
 
     * amounts
 
@@ -142,7 +142,7 @@ Card
 
       Reset and aply search button are using the same icon as the PH
 
-      "Create new Policy Holder Insuree" button will open a creation pop up
+      "Create new policyholder Insuree" button will open a creation pop up
 
     Results
 

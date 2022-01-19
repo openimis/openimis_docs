@@ -1,35 +1,36 @@
 Policyholder User
 ^^^^^^^^^^^^^^^^^
 
-  The policyholder user enable to link user to policy holders, in addition to the policyholder portal right that enable to have user having access to only some policyholder
+The policyholder user is used to link user to policyholders, in addition to the access right `policyholder portal`  that allows the user to have access to only some policyholder.
 
 Pre-conditions
+==============
 
-  User and Policyholder must be created before
+User and Policyholder must be created before
 
 Navigation
+===========
 
-  All functionality for use with the administration of policyholder users can be found under the main menu ``Administration``, sub menu ``Policyholder Users``.
+All functionality for use with the administration of policyholder users can be found under the main menu ``Administration``, sub menu ``Policyholder Users``.
 
-  .. _ph_user_menu:
-  .. figure:: /img/user_manual/ph_user.menu.png
-    :align: center
+.. _ph_user_menu:
+.. figure:: /img/user_manual/ph_user.menu.png
+  :align: center
 
-    `Navigation Policyholder User`
+  `Navigation Policyholder User`
 
-  Clicking on the sub menu ``Policyholder Users`` re-directs the current user to the Find contract Page.
+Clicking on the sub menu ``Policyholder Users`` re-directs the current user to the Find contract Page.
 
 
-  .. _ph_user_search:
-  .. figure:: /img/user_manual/ph_user.search.png
-    :align: center
+.. _ph_user_search:
+.. figure:: /img/user_manual/ph_user.search.png
+  :align: center
 
-    `Search Policyholder User`
+  `Search Policyholder User`
 
 
 Search Page
-+++++++++++
-
+===========
 
 #. Search criteria
 
@@ -42,11 +43,11 @@ Search Page
     * Show deleted
 
 
-#. results
+#. Results
 
-    the columns name definiction matches with the search criteria definitions
+    The columns name definiction matches with the search criteria definitions
 
-    the rows are the search results
+    The rows are the search results
 
     
     * Edit policyholder
@@ -62,14 +63,14 @@ Search Page
         
     * Delete policyhodler
 
-        Confirmation pop up is displayed
+        Confirmation pop up is displayed.
 
     * duplicate
 
-        a creation popup will be displayed
+        A creation popup will be displayed.
 
 
 
-#. create policyholder user button
+#. Create policyholder user button
 
-    a creation popup will be displayed
+    A creation popup will be displayed

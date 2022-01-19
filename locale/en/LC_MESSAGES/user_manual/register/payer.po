@@ -13,8 +13,8 @@ msgstr ""
 msgid "Payers Administration"
 msgstr "Payers Administration"
 
-msgid "The register of payers contains all institutional payers that can pay contributions on behalf of policy holders (e.g. private organizations, local authorities, cooperatives etc.). Payer administration is restricted to users with the role of Scheme Administrator."
-msgstr "The register of payers contains all institutional payers that can pay contributions on behalf of policy holders (e.g. private organizations, local authorities, cooperatives etc.). Payer administration is restricted to users with the role of Scheme Administrator."
+msgid "The register of payers contains all institutional payers that can pay contributions on behalf of policyholders (e.g. private organizations, local authorities, cooperatives etc.). Payer administration is restricted to users with the role of Scheme Administrator."
+msgstr "The register of payers contains all institutional payers that can pay contributions on behalf of policyholders (e.g. private organizations, local authorities, cooperatives etc.). Payer administration is restricted to users with the role of Scheme Administrator."
 
 msgid "Pre-conditions"
 msgstr "Pre-conditions"
