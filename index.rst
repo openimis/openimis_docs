@@ -8,7 +8,7 @@
 openIMIS Documentation
 ======================
 
-**latest**
+  **v1.6.0**
 
 Welcome to the openIMIS technical documentation repository.
 
