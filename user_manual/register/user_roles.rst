@@ -1,8 +1,8 @@
 
 
 
-User roles/profiles administration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+User roles/profiles
+^^^^^^^^^^^^^^^^^^^
 
   IMIS uses the concept of user profiles (roles) that can be associated with users. Some roles are predefined and they are designated as system roles. Their purpose is guarantee compatibility with the previous versions of IMIS.
   
@@ -47,25 +47,20 @@ Administration of users’ profile s(roles) is not included in any system role. 
 
     The search panel allows a user to select specific criteria to minimise the search results. The following search options are available which can be used alone or in combination with each other.
 
-    * ``Role Name``
-
+    Role Name
       When set the search will display the roles with a name that start with the content of the filter , `%` can be used as a wildcard meaning a search with `%er` will display all the result containing `er` in the name 
 
-    * ``System``
-
+    System
       The system user profiles match the previous roles for compatibility reasons.
       When set to `TRUE` the search will display the default roles, 
       when set to `FALSE` the search will display only the custom roles
-       
 
-    * ``Blocked``
-
+    Blocked
       The blocked user profiles are temporarily not acting in the sense that their access rights are not available to users to whom blocked user profiles were assigned.
       When set to `TRUE` the search will display the roles that were blocked, 
       when set to `FALSE` the search will display only the unblocked roles
 
-    * ``Historical``
-
+    Historical
       Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records 
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`User roles results <user_roles_result>`).
 
@@ -112,26 +107,21 @@ User role/profile Page
  #. **Data Entry - Role details**
 
 
-    * ``Role Name``
-
+    Role Name
       Enter the name of the role/profile, this name will be used as reference in the `User roles/profiels control page <#user-roles-profiles-control-page>`__ and `Users page <#user-page>`__
 
-    * ``Alternative language``
-
+    Alternative language
       Translation of the role name for the second language of openIMIS
 
-    * ``System``
-
+    System
       Read-only checkbox indicating whether the user profile is a system one or not.
 
-    * ``Blocked``
-
+    Blocked
       If checked the user profile is blocked
 
  #. **Data Entry - Rights details**
 
-    * ``Insurees and Policies``
-
+    Insurees and Policies
       list of the right available for the `Insurees and Policies` module:
 
         * CRUD rights (Create, read/search, update/edit and Delete):
@@ -150,8 +140,7 @@ User role/profile Page
 
           - Enquire insuree
 
-    * ``Claims``
-
+    Claims
       list of the right available for the `Claims` module:
 
         * CRUD rights (Create, read/search, update/edit and Delete):
@@ -183,8 +172,7 @@ User role/profile Page
             - Preview
 
 
-    * ``Administration``
-
+    Administration
       list of the right available for the `Administration` module:
 
         * CRUD rights (Create, read/search, update/edit and Delete):
@@ -225,8 +213,7 @@ User role/profile Page
 
           - Move Locations
 
-    * ``Tools``
-
+    Tools
       list of the business rights available for the `Tools` module
 
         * Register
@@ -309,12 +296,10 @@ User role/profile Page
 
  #. **Buttons**
 
-    * ``Save``
-
+    Save
       Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `User Control Page <#user-control-page>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the user has been saved will appear on the Information Panel.
 
-    * ``Cancel``
-
+    Cancel
       By clicking on the ``Cancel`` button, the user will be re-directed to the `User roles/profiles control page. <#user-roles-profiles-control-page>`__
 
     **Mandatory data**

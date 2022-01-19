@@ -1,168 +1,189 @@
-Policy Holder
+Policyholder
 ^^^^^^^^^^^^^
 
-  Policy holer are responsible to contraction policies for others, it can be used by campanies for their employee, Union for there member or NGO that want to pay for policies for group of people
+Policyholder are responsible to contraction policies for others, it can be used by campanies for their employee, Union for there member or NGO that want to pay for policies for group of people.
 
+.. contents:: Table of Contents
+  
 Pre-conditions
+==============
 
-  Before configuring the policyholder, and the to-be-covered insuree; the insurees must be known in openIMIS and at least a product, a contribution plan and a contribution plan bundle must be configured, 
+Before configuring the policyholder, and the to-be-covered insuree; the insurees must be known in openIMIS and at least a product, a contribution plan and a contribution plan bundle must be configured.
 
 Navigation
+==========
 
-  All functionality for use with the administration of Policyholder can be found under the main menu ``Insurees and Policies``, sub menu ``Policy Holder``.
+All functionality for use with the administration of Policyholder can be found under the main menu ``Insurees and Policies``, sub menu ``Policyholder``.
 
-  .. _policyholer_menu:
-  .. figure:: /img/user_manual/policyholder.menu.png
-    :align: center
+.. _policyholer_menu:
+.. figure:: /img/user_manual/policyholder.menu.png
+  :align: center
 
-    `Navigation Policy holders`
+  `Navigation Policyholders`
 
-  Clicking on the sub menu ``Policy holder`` re-directs the current user to the Find Policy holder Page.
+Clicking on the sub menu ``Policyholder`` re-directs the current user to the Find Policyholder Page.
 
 
-  .. _policyholer_search:
-  .. figure:: /img/user_manual/policyholder.search.png
-    :align: center
+.. _policyholer_search:
+.. figure:: /img/user_manual/policyholder.search.png
+  :align: center
 
-    `Search Policy holders`
-
+  `Search Policyholders`
 
 Search Page
-+++++++++++
+===========
 
-  1. Search criteria
+1. Search criteria
 
-    * code: code of the policyholder, often given during the registration process
+  Code
+    Code of the policyholder, often given during the registration process
 
-    * Trade name: Name of the policyholder
+  Trade name
+    Name of the policyholder
 
-    * Region/District/Municipality/Village: Location of the policyholder
+  Region/District/Municipality/Village
+    Location of the policyholder
 
-    * LegalForm: legal form of the policy holder
+  Legal Form
+    Legal form of the policyholder
 
-    * activity code: code of the policyholder activity
+  Activity code
+    Code of the policyholder activity
 
-    * Date Valid from/to: Period on which the policyholder is considered as valid for the scheme (eg. creation date / liquidation date)
+  Date Valid from/to
+    Period on which the policyholder is considered as valid for the scheme (eg. creation date / liquidation date)
 
-    * show deleted: show deleted policyhodler
+  Show deleted
+    Show deleted policyhodler
 
-  2. reset search criteria
+2. Reset search criteria
 
-  3. apply the search criteria
+3. Apply the search criteria
 
-  4. Result pane
+4. Result pane
 
-    the columns name definiction matches with the search criteria definitions
+The columns name definitions match with the search criteria definitions.
+The rows are the serach results.
 
-    the rows are the serach results
+5. Delete policyholder
 
-  5. Delete policyhodler
+Confirmation pop up is displayed
 
-    Confirmation pop up is displayed
+6. Edit policyholder
 
-  6. Edit policyholder
+As doubleclick on the line, clicking on that button will open the policyholder Page
 
-    as doubleclick on the line, clicking on that button will open the policyholder Page
+7. standard notification panel for async message (deletion / creation / updates ... )
 
-  7. standard notification panel for async message (deletion / creation / updates ... )
+Form
+----
 
-Card
-++++
+General Information
+""""""""""""""""""""
 
-  General inforamation
+  Code
+    Code of the policyholder, often given during the registration process
 
-    
-    * code: code of the policyholder, often given during the registration process
+  Trade name
+    Name of the policyholder
 
-    * Trade name: Name of the policyholder
+  Region/District/Municipality/Village
+    Location of the policyholder
 
-    * Region/District/Municipality/Village: Location of the policyholder
+  Legal Form
+    Legal form of the policyholder
 
-    * LegalForm: legal form of the policy holder
+  Activity code
+    Code of the policyholder activity
 
-    * activity code: code of the policyholder activity
+  Validity date from/to
+    Period on which the policyholder is considered as valid for the scheme (eg. creation date / liquidation date)
 
-    * DateValid from/to: Period on which the policyholder is considered as valid for the scheme (eg. creation date / liquidation date)
+  Address
+    Address of the policyholder
 
-    * Address
+  Phone
+    Phone of the policyholder
 
-    * Phone
+  Fax
+    Fax of the policyholder
 
-    * Fax
+  Email
+    Email of the policyholder
 
-    * Email
+  Contact Name
+    Name of the contact
 
-    * Contact Name
+  **Accountancy code**
 
-    * Accountancy code
+  **Bank Account**
 
-    * bank Account
+  **Payment reference**
 
-    * Payment reference
+Policyholder insuree tab
+""""""""""""""""""""""""
 
-  Policyholder insuree tab
+.. _image95:
+.. figure:: /img/user_manual/policyholer.insuree.png
+  :align: center
 
-    .. _image95:
-    .. figure:: /img/user_manual/policyholer.insuree.png
-      :align: center
+  `Navigation Policyholders Insuree`
 
-      `Navigation Policy holders Insuree`
+This tab shows the insuree linked to the policyholder
 
-    This tab shows the insuree linked to the policyholder
+**Search**
 
-    Search
+  * Insuree number
 
-      * Insuree number
+  * Contribution bundle plan
 
-      * Contribution bundle plan
+  * Date Valid from/to: Period on which the insuree is attached to the policyholder
 
-      * Date Valid from/to: Period on which the insuree is attached to the policyholder
+  * Show deleted: show deleted link between policyholder and insuree
 
-      *  show deleted: show deleted link between PH and insuree
+  Reset and aply search button are using the same icon as the policyholder.
 
-      Reset and aply search button are using the same icon as the PH
+  "Create new policyholder Insuree" button will open a creation pop up.
 
-      "Create new Policy Holder Insuree" button will open a creation pop up
+**Results**
 
-    Results
+  See search part of the columns descriptions.
 
-      see search part of the columns descriptions
+  In addition to the standard column, the calcualtion column shows default parameters that are pulled from the calcuation rules, in the picture the income is display in that column. Once a contract is created, the data is duplicated on  the contract details and might be modified for a specific contract.
 
-      in addition to the standard column, the calcualtion column shows default parameters that are pulled from the calcuation rules, in the picture the income is display in that column. Once a contract is created, the data is duplicated on  the contract details and might be modified for a specific contract.
+  Edit button will open a edit popup
 
-      edit button will open a edit popup
+  Delete button will open a confirmation popup
 
-      delete button will open a confirmation popup
+  Duplicate will open a creation popup
 
-      duplicate will open a creation popup
 
+Contribution plan tab
+""""""""""""""""""""""
 
+This tab is used to link Contribution plan to policyholder in order to reduce the possible Contribution plan choice for the policyholders.
 
+See contribution plan page for more details on contribution plan.
 
+Payement tab
+""""""""""""
 
+This tab shows the payments linked to policyholder contract.
 
-  Contribution plan tab
+See payment page for more details on payment.
 
-    this tab is used to link Contribution plan to policyholder in order to reduce the possible Contribution plan choice for the policyholders
-    
-    See contribution plan page for more details on contribution plan
+Policyholder user
+""""""""""""""""""
 
-  payement tab
+This tab is used to see User that that dedicated rights for this policyholder (that user might not be able to see other policyholder).
 
-    This tab shows the payments linked to policyholder contract
+See policyholder page.
 
-    See payment page for more details on payment
+Contract
+""""""""
 
-  Policyholder user
+This tabs show the policyholder contract.
 
-    This tab is used to see User that that dedicated rights for this policyholder (that user might not be able to see other PH)
-
-    see policyholder page
-
-  contract
-
-    This tabs show the policy holder contract
-
-    See contract page for more details on contract
+See contract page for more details on contract.
 
 

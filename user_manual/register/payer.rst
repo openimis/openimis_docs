@@ -1,9 +1,9 @@
 
 
-Payers Administration
-^^^^^^^^^^^^^^^^^^^^^
+Payers
+^^^^^^
 
-  The register of payers contains all institutional payers that can pay contributions on behalf of policy holders (e.g. private organizations, local authorities, cooperatives etc.). Payer administration is restricted to users with the role of Scheme Administrator.
+  The register of payers contains all institutional payers that can pay contributions on behalf of policyholders (e.g. private organizations, local authorities, cooperatives etc.). Payer administration is restricted to users with the role of Scheme Administrator.
 
 Pre-conditions
 """"""""""""""
@@ -38,32 +38,25 @@ Payer Control Page
 
     The search panel allows a user to select specific criteria to minimise the search results. In the case of payers the following search options are available which can be used alone or in combination with each other.
 
-    * ``Name``
-
+    Name
       Type in the beginning of; or the full ``name``; to search for payers with a ``name``, that starts with or matches completely, the typed text.
 
-    * ``Email``
-
+    Email
       Type in the beginning of; or the full ``Email`` to search for payers with an ``Email``, that starts with or matches completely, the typed text.
 
-    * ``Region``
-
+    Region
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select payers from a specific region. The option **National** means that the payer is common for all regions. *Note: The list will only be filled with the regions assigned to the current logged in user and with the option National. All nationwide payers and all regional payers relating to the selected region will be found. If no district is selected then also all district payers for districts belonging to the selected region will be found.*
 
-    * ``District``
-
+    District
       Select the ``district``; from the list of districts by clicking on the arrow on the right of the selector to select payers from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the currently logged in user. If this is only one then the district will be automatically selected*
 
-    * ``Phone Number``
-
+    Phone Number
       Type in the beginning of; or the full ``Phone Number`` to search for payers with a ``Phone Number``, that starts with or matches completely, the typed number.
 
-    * ``Type``
-
+    Type
       Select the ``Type``; from the list of types of payers by clicking on the arrow on the right of the selector to select payers of specific type.
 
-    * ``Historical``
-
+    Historical
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image77`).
 
     .. _image77:
@@ -72,8 +65,7 @@ Payer Control Page
 
       `Historical records - Result Panel`
 
-    * ``Search Button``
-
+    Search Button
       Once the criteria have been entered, use the search button to filter the records, the results will appear in the result panel.
 
  #. **Result Panel**
@@ -113,36 +105,28 @@ Payer Page
 
       `Payer Page`
 
-    * ``Type``
-
+    Type
       Select the type of the payer from the list by clicking on the arrow on the right hand side of the lookup. Mandatory.
 
-    * ``Name``
-
+    Name
       Enter the name for the payer. Mandatory, 100 characters maximum.
 
-    * ``Address``
-
+    Address
       Enter address of the payer. Mandatory, 100 characters maximum.
 
-    * ``Phone Number``
-
+    Phone Number
       Enter the phone number for the payer. 50 characters maximum.
 
-    * ``Fax``
-
+    Fax
       Enter the fax number for the payer. 50 characters maximum.
 
-    * ``Email``
-
+    Email
       Enter the email for the payer. 50 characters maximum.
 
-    * ``Region``
-
+    Region
       Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to enter the region to which the payer belongs. The region **National** means that the payer is common for all regions. *Note: The list will only be filled with the regions assigned to the current logged in user and with the option National.* Mandatory.
 
-    * ``District``
-
+    District
       Select the ``district`` to which the payer belongs, from the list by clicking on the arrow on the right hand side of the lookup. *Note: The list will only be filled with the districts assigned to the selected region and currently logged in user. If this is only one then the district will be automatically selected.* It is not mandatory to enter a district. Not selecting a district will mean the payer operates in all districts of the region or nationwide if the region National is selected.
 
  #. **Saving**

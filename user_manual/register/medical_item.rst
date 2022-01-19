@@ -1,7 +1,7 @@
 
 
-Medical Items Administration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Medical Items
+^^^^^^^^^^^^^
 
   The register of Medical Items contains all medical items (drugs, prostheses) that can be included in packages of benefits of insurance products within the health insurance scheme and are remunerated by the scheme administration. Administration of the register of medical items is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Medical Items.
 
@@ -38,24 +38,19 @@ Medical Items Control Page
 
     The search panel allows a user to select specific criteria to minimise the search results. In the case of medical items the following search options are available which can be used alone or in combination with each other.
 
-    * ``Code``
-
+    Code
       Type in the beginning of; or the full ``Code``; to search for medical items with a ``Code``, which starts with or matches completely, the typed text.
 
-    * ``Name``
-
+    Name
       Type in the beginning of; or the full ``Name`` to search for medical items with a ``Name``, which starts with or matches completely, the typed text.
 
-    * ``Type``
-
+    Type
       Select the ``Type``; from the list of types (Drugs, Medical consumable) by clicking on the arrow on the right of the selector, to select medical items of a specific type.
 
-    * ``Package``
-
+    Package
       Type in the beginning of; or the full ``Package``; to search for medical items with a ``Package``, which starts with or matches completely, the typed text.
 
-    * ``Historical``
-
+    Historical
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image31`).
 
       .. _image31:
@@ -64,8 +59,7 @@ Medical Items Control Page
 
         `Historical records - Result Panel`
 
-    * ``Search button``
-
+    Search button
       Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel.
 
  #. **Result Panel**
@@ -93,36 +87,28 @@ Medical Item Page
 
       `Medical Item Page`
 
-    * ``Code``
-
+    Code
       Enter the code for the medical item. Mandatory, 6 characters.
 
-    * ``Name``
-
+    Name
       Enter the name of the medical item. Mandatory, 100 characters maximum.
 
-    * ``Type``
-
+    Type
       Choose one from the options available, the type of the medical item. Mandatory.
 
-    * ``Package``
-
+    Package
       Enter the package (Indication of type and volume of package in a suitable coding system) for the medical item. Mandatory, 255 characters maximum.
 
-    * ``Price``
-
+    Price
       Enter the price (a general price that can be overloaded in pricelists). Full general price including potential cost sharing of an insuree) for the medical item. Mandatory.
 
-    * ``Care Type``
-
+    Care Type
       Choose one from the options available, the limitation of provision of the medical item within the specific type of health care (In-patient, Out-patient or Both). Mandatory.
 
-    * ``Frequency``
-
+    Frequency
       Enter the limitation of frequency of provision in a number of days within which a medical item cannot be provided to a patient not more than once. If the frequency is zero, there is no limitation. *Note: By default the frequency is 0.*
 
-    * ``Patient``
-
+    Patient
         Choose one or a combination of the options available, to specify which patient type the medical item may be provided to. *Note: By default all patients’ options are checked (selected).*
 
  #. **Saving**

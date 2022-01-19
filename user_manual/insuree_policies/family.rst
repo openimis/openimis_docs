@@ -1,6 +1,8 @@
 Family/Group
 ^^^^^^^^^^^^
 
+.. contents:: Table of Contents
+
 Find Family
 """""""""""
 
@@ -161,15 +163,17 @@ Family Overview Page
     In the Insurees Panel, action buttons allow to add (new or existing - non head- insuree)
     On insuree, one can set it as family head, remove ('detach') insuree from the family/group or delete the insuree.
 
-    When an insuree is removed from the family or deleted, the confirmation dialog gives two options(:numref:`image115`):
+    When an insuree is removed from the family or deleted, the confirmation dialog gives two options(:ref:`family_image90`):
 
     * ``Remove/Delete and Cancel Policies``: to remove the insuree from any active policy coverage
 
     * ``Remove/Delete and Cancel Policies``: to keep any existing policy active for that insuree (untill policy renewal)
 
-    .. _image115:
+    .. _family_image90:
     .. figure:: /img/user_manual/image90.png
       :align: center
+
+      Remove insuree dialog
 
  #. **Policies Panel**
 
@@ -414,9 +418,8 @@ Deleting a Family/Group
 
   Before deleting a confirmation popup is displayed, which requires the user to confirm if the action should really be carried out.
   
-  The confirmation dialog gives two options (:numref:`image74`): 
+  The confirmation dialog gives two options: 
 
-      .. _image74:
       .. figure:: /img/user_manual/image74.png
         :align: center
 

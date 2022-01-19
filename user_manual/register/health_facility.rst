@@ -1,5 +1,5 @@
-Health Facilities Administration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Health Facilities
+^^^^^^^^^^^^^^^^^
 
   The register of health facilities contains all health facilities contracted and/or eligible for submitting of claims by/to the health insurance scheme. Health Facility administration is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Health Facilities.
 
@@ -36,48 +36,37 @@ Health Facilities Control Page
 
     The Search Panel allows a user to select specific criteria to minimise the search results. In the case of health facilities the following search options are available which can be used alone or in combination with each other.
 
-    * ``Code``
-
+    Code
       Type in the beginning of; or the full ``Code``; to search for health facilities with a ``Code``, which starts with or matches completely, the typed text.
 
-    * ``Name``
-
+    Name
       Type in the beginning of; or the full ``Name``; to search for health facilities with a ``Name``, which starts with or matches completely, the typed text.
 
-    * ``Fax``
-
+    Fax
       Type in the beginning of; or the full ``Fax`` to search for health facilities with a ``Fax``, which starts with or matches completely, the typed number.
 
-    * ``Level``
-
+    Level
       Select the ``Level``; from the list of levels of health facilities (Dispensary, Health Centre, Hospital) by clicking on the arrow on the right of the selector, to select health facilities of a specific level of service.
 
-    * ``Phone Number``
-
+    Phone Number
       Type in the beginning of; or the full ``Phone Number`` to search for health facilities with a ``Phone Number``, which starts with or matches completely, the typed number.
 
-    * ``Email``
-
+    Email
       Type in the beginning of; or the full ``Email`` to search for health facilities with an ``Email`` which starts with or matches completely, the typed text.
 
-    * ``Legal Form``
-
+    Legal Form
       Select the ``Legal Form``; from the list of legal forms (Government, District organization, Private Organisation, Charity) by clicking on the arrow on the right of the selector, to select health facilities of a specific legal form.
 
-    * ``Region``
-
+    Region
       Select the ``Region``; from the list of districts by clicking on the arrow on the right of the selector to select health facilities from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then this region will be automatically selected.*
 
-    * ``District``
-
+    District
       Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select health facilities from a specific district. *Note: The list will only be filled with the districts that belong to the selected region and that are assigned to the current logged in user. If this is only one then the district will be automatically selected.*
 
-    * ``Care Type``
-
+    Care Type
       Select the ``Care Type`` from the list of types (In-patient, Out-patient, Both) of provided health care by clicking on the arrow on the right of the selector, to select health facilities with a specific type.
 
-    * ``Historical``
-
+    Historical
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`hf_list_historic`)
 
       .. _hf_list_historic:
@@ -86,8 +75,7 @@ Health Facilities Control Page
 
         `Historical Records - Result Panel`
 
-    * ``Search button``
-
+    Search button
       Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel.
 
  #. **Result Panel**
@@ -122,52 +110,40 @@ Health Facility Page
 
       `Health Facility Page`
 
-    * ``Code``
-
+    Code
       Enter the code for the health facility. Mandatory, 8 characters.
 
-    * ``name``
-
+    name
       Enter the name for the health facility. Mandatory, 100 characters maximum.
 
-    * ``Legal Form``
-
+    Legal Form
       Select the legal form of the health facility from the list (Government, District organization, Private Organisation, Charity), by clicking on the arrow on the right hand side of the lookup.  Mandatory.
 
-    * ``Level``
-
+    Level
       Select a level from the list levels (Dispensary, Health Centre, Hospital), by clicking on the arrow on the right hand side of the lookup. Mandatory.
 
-    * ``Sub Level``
-
+    Sub Level
       Select a sub-level from the list sub-levels (No Sublevel, Integrated, Reference), by clicking on the arrow on the right hand side of the lookup. Mandatory.
 
-    * ``Address``
-
+    Address
       Enter the address of the health facility. Mandatory, 100 characters maximum.
 
-    * ``Region``
-
+    Region
       Select the ``Region``; from the list of regions by clicking on the arrow  on the right of the selector to enter the region in which the health facility is located. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then this region will be automatically selected.* Mandatory.
 
-    * ``District``
-
+    District
       Select the ``district``; from the list of districts by clicking on the arrow on the right of the selector to enter the district in which the health facility is located. *Note: The list will only be filled with the districts assigned to the selected region and to districts assigned to the currently logged in user. If this is only one then the district will be automatically selected.* Mandatory.
 
-    * ``Phone Number``
-
+    Phone Number
       Enter the phone number for the health facility. 50 characters maximum.
 
-    * ``Fax``
-
+    Fax
       Enter the fax number for the health facility. 50 characters maximum.
 
-    * ``Email``
-
+    Email
       Enter the email for the health facility. 50 characters maximum.
 
-    * ``Care Type``
-
+    Care Type
       Select the type of health care provided by the health facility from the list (In-patient, Out-patient, Both), by clicking on the arrow on the right hand side of the lookup. Mandatory.
 
     * ``Price Lists (Medical Services)``
@@ -178,8 +154,7 @@ Health Facility Page
 
       Select the health facilities price lists (medical items) from the list by clicking on the arrow on the right hand side of the lookup. The pricelist contains the list of medical items and their prices agreed between the health facility (or corresponding group of health facilities) and the scheme administration which can be invoiced by the health facility and remunerated by the scheme administration. *Note: The list will only be filled with the pricelists associated with the previously selected district, regional and nationwide pricelists assigned to the current logged in user.*
 
-    * ``Account Code``
-
+    Account Code
       Enter the account code (Identification for the accounting software), which will be used in reports on remuneration to be received by the health facility. 25 characters maximum.
 
     * ``Region, District, Municipality, Village, Catchment grid``

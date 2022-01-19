@@ -17,31 +17,34 @@ to contribute to this existing documentation.
 
 The ReadTheDocs documentation will be generated upon commit to the master branch.
 
-## build locally
+## Build locally
 
-install Sphinx
+```
+sphinx-autobuild . _build/html --port 5000
+```
+
+### Install Sphinx
 
 ```
 pip install -U sphinx
 pip install -U sphinx-rtd-theme
 ```
 
-PDF and HTML code can be generated locally by running those commands
+### Generate a PDF
 
-* for PDF
+First generate the LATEX file(s)
 
-first generate the LATEX file(s)
 ```
 sphinx-build -b latex .\ .\_build\latex\
 ```
 
-then use your favourite latex tool to generate the PDF
+Then use your favourite latex tool to generate the PDF
 or
 ```
 pdflatex.exe .\_build\latex\openIMIS.tex
 ```
 
-* for HTML
+### Generate HTML pages
 
 ```
 sphinx-build -b html .\ .\_build\html\
