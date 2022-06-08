@@ -15,16 +15,16 @@ Navigation
 
   All functionality for use with the administration of Medical Services can be found under the main menu ``Administration``, sub menu ``Medical Services.``
 
-  .. _image22:
-  .. figure:: /img/user_manual/med_service_menu.png
+  .. _medical_service.menu:
+  .. figure:: /img/user_manual/medical_service.menu.png
     :align: center
 
     `Navigation Medical Services`
 
   Clicking on the sub menu ``Medical Services`` re-directs the current user to the `Medical Services Control Page <#medical-services-control-page>`__\.
 
-  .. _image23:
-  .. figure:: /img/user_manual/med_service_list.png
+  .. _medical_service.search:
+  .. figure:: /img/user_manual/medical_service.search.png
     :align: center
 
     `Medical Services Control Page`
@@ -32,7 +32,7 @@ Navigation
 Medical Services Control Page
 """""""""""""""""""""""""""""
 
-  The ``Medical Services Control Page`` is the central point for all medical service administration. By having Access to this panel, it is possible to add, edit, delete and search. The panel is divided into four panels (:numref:`image23`)
+  The ``Medical Services Control Page`` is the central point for all medical service administration. By having Access to this panel, it is possible to add, edit, delete and search. The panel is divided into four panels (:numref:`medical_service.search`)
 
  #. **Search Panel**
 
@@ -47,11 +47,12 @@ Medical Services Control Page
     Type
       Select the ``Type``; from the list of types (Preventive, Curative) by clicking on the arrow on the right of the selector, to select medical services of a specific type.
 
-    Show Historical Values
-      Click on ``Show Historical Values`` to see historical records matching the selected criteria. Historical records are displayed in the result greyed out to distinguish them from current records (:numref:`image24`)
+    * ``Historical``
 
-      .. _image24:
-      .. figure:: /img/user_manual/med_service_history.png
+      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in grey and with a Valid date to clearly define them from current records (:numref:`medical_service.history`)
+
+      .. _medical_service.history:
+      .. figure:: /img/user_manual/medical_service.history.png
         :align: center
 
         `Historical records - Result Panel`
@@ -61,14 +62,24 @@ Medical Services Control Page
 
  #. **Result Panel**
 
-    The Result Panel displays a list of all medical services found, matching the selected Criteria in the search panel.
+    The Result Panel displays a list of all medical services found, matching the selected Criteria in the search panel. Double click re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
-    The number of rows per page is limited to 10 by default but one can use the "Rows per page" drop-down in the bottom right of the search results. If there are more rows to display, one can use the page navigation. (:numref:`image100`)
 
-    .. _image100:
-    .. figure:: /img/user_manual/79_pagination.png
-      :align: center
-      :width: 50%
+   A maximum of 10 records are displayed at one time( can be changed :numref:`mat_page_browser`), further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`mat_record_per_page`)
+
+
+ #. **Button Panel**
+
+    * Material UI  add button can be used to add medical items
+
+    * Double click on a line open the service
+
+    * Delete button at the end of the line delete the service
+
+    * "Open in new tab" button enable the user to open the service in a new tab.
+
+
+ #. **Information Panel**
 
       `Page selector- Result Panel`
 
@@ -77,8 +88,8 @@ Medical Service Page
 
  #. **Data Entry**
 
-    .. _image27:
-    .. figure:: /img/user_manual/med_service_new.png
+    .. _medical_service.edit:
+    .. figure:: /img/user_manual/medical_service.edit.png
       :align: center
 
       `Medical Service Page`
@@ -95,7 +106,8 @@ Medical Service Page
     Type
       Choose one from the options available (Preventive, Curative), the type of the medical service. Mandatory.
 
-    Level
+    * ``Service Level``
+
       Select from the list (Simple Service, Visit, Day of Stay, Hospital Case), the level for the medical service. Mandatory.
 
     Price
@@ -116,11 +128,8 @@ Medical Service Page
 
  #. **Mandatory data**
 
-    If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk on the right of the corresponding data field).
+    If mandatory data is not entered the ``Save`` button won't be active
 
- #. **Cancel**
-
-    By clicking on the ``Cancel`` button, the user will be re-directed to the `Medical Services Control Page <#medical-services-control-page>`__.
 
 Adding a Medical Service
 """"""""""""""""""""""""
@@ -132,14 +141,14 @@ Adding a Medical Service
 Editing a Medical Service
 """""""""""""""""""""""""
 
-  Double-click on a row to re-direct to the `Medical Service Page <\l>`__\ .
+  Double click on the service line to re-direct to the `Medical Service Page <\l>`__\ .
 
   The page will open with the current information loaded into the data entry fields. See the `Medical Service Page <#medical-service-page>`__ for information on the data entry and mandatory fields.
 
 Deleting a Medical Service
 """"""""""""""""""""""""""
 
-  Click on the ``Cancel`` button to delete the currently selected record; the user is re-directed the `Medical Services Control Page <#medical-services-control-page>`__\.
+  Click on the ``<`` button to delete the currently selected record; the user is re-directed the `Medical Services Control Page <#medical-services-control-page>`__\.
 
   Before deleting a confirmation popup (:numref:`image28`) is displayed, which requires the user to confirm if the action should really be carried out?
 
