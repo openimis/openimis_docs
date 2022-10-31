@@ -15,3 +15,5 @@ Because of this approach, the `Family Overview Page <#family-overview-page>`__ i
    contribution
    policyholder
    contract
+   bills
+   invoices

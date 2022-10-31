@@ -13,3 +13,4 @@ Web Application
    /user_manual/tools/index
    /user_manual/offline/index
    /user_manual/process/group_insurance
+   
