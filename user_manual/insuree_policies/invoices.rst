@@ -1,6 +1,8 @@
 Invoices
 ^^^^^^^^^^^^
 
+.. contents:: Table of Contents
+
 Pre-conditions
 ==============
 In order to create an invoice a family must be enrolled. Navigate to the ``Families/Groups`` under ``Insurees and Policies`` menu and find the family you wish to create an invoice for.
