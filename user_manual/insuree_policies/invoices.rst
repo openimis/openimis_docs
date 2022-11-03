@@ -16,7 +16,7 @@ Ones the policy is created navigate to the ``Invoices`` under ``Legal and Financ
     :align: center
 
 
-Newly created invoice can be found here. 
+Newly created invoices can be found here. 
 
 .. _invoice_list:
 .. figure:: /img/user_manual/invoices.list.png
@@ -25,6 +25,15 @@ Newly created invoice can be found here.
 
 
 The ``Invoices`` is the first step in the process of finding an invoice and thereafter accessing an invoice. This initial page nca be used to search for specific invoices based on specific criteria. The panel is divided into two main panels. 
+
+An invoice can be deleted by clicking on the trash icon from the right side of the list. Ones the user click on the trash icon, they will be prompted with a confirmation dialog. The payment will be either deleted or the operation will be cancelled depending on the action selected from the confirmation dialog.
+
+.. _invoice_delete:
+.. figure:: /img/user_manual/invoice.delete.png
+    :align: center
+
+    `Confirmation dialog to delete an invoice`
+
 
 Search Panel
 """"""""""""""""
@@ -253,7 +262,9 @@ Ones all the details are filled out, click on the ``CREATE`` button to create a 
 
     `Payment List`
 
-Ones a new payment is created successfully, it can be found under the ``Payments`` tab. The payment can be deleted by clicking on the trash icon from the right side of the list. Ones the user click on the trash icon, they will be prompted by a confirmation dialog. The payment will be either deleted or the operation will be cancelled depending on the action selected from the confirmation dialog.
+Ones a new payment is created successfully, it can be found under the ``Payments`` tab. 
+
+The payment can be deleted by clicking on the trash icon from the right side of the list. Ones the user click on the trash icon, they will be prompted by a confirmation dialog. The payment will be either deleted or the operation will be cancelled depending on the action selected from the confirmation dialog.
 
 .. _invoice_delete_payment:
 .. figure:: /img/user_manual/invoice.delete_payment.png
@@ -262,5 +273,62 @@ Ones a new payment is created successfully, it can be found under the ``Payments
     `Confirmation dialog to delete the payment`
 
 
+Events
+------
+
+.. _invoice_events:
+.. figure:: /img/user_manual/invoice.events.png
+    :align: center
+
+    `Messages/Comments for the payment`
 
 
+Events tab conitans all the events happened during the payment process. The entry in this tab can come in two different ways. First is generated automatically by the backend and second is manually added by a user. 
+
+
+Search criteria
+""""""""""""""""
+List of the events for the selected invoice can be filtered by search criteria panel. Here are the possible search parameters. The result of the search can be seen in the panel below.
+
+Type
+    Select the Type of the event. Following are the possible Types of the events
+
+        - **Message** (Indicates the information message generated either manually or by the backend)
+        - **Status** (Indicates the status change in payment by the backend)
+        - **Warning** (Indicates any warning during the payment processing)
+        - **Payment** (Indicates the payment has been processed)
+        - **Payment Error** (Indicates the error during processing the payment)
+
+Message
+    Enter the keyword in message to filter the event list. 
+
+
+Create new Comment
+==================
+
+To enter a new message for the selected invoice. Click on the Add (+) icon
+
+.. _invoice_payment_new:
+.. figure:: /img/user_manual/mat.add.png
+    :align: center
+
+
+This will open up the following form to enter a new comment/message
+
+.. invoice_new_comment:
+.. figure:: /img/user_manual/invoice.new_comment.png
+    :align: center
+
+
+Message
+    Enter the message. Mandatory
+
+Ones the message is entered click on the ``CREATE`` button to create a new comment for the selected invoice. User can click on the ``CANCEL`` button to cancel the operation.
+
+.. _invoice_comment_list:
+.. figure:: /img/user_manual/invoice.comment_list.png
+    :align: center
+
+    `Comment list`
+
+Ones a new comment is added successfully, it can be found under the ``EVENTS`` tab. 
