@@ -17,3 +17,4 @@ Because of this approach, the `Family Overview Page <#family-overview-page>`__ i
    contract
    bills
    invoices
+   payment_plans

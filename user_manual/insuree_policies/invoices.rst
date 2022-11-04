@@ -26,7 +26,7 @@ Newly created invoices can be found here.
 
 
 
-The ``Invoices`` is the first step in the process of finding an invoice and thereafter accessing an invoice. This initial page nca be used to search for specific invoices based on specific criteria. The panel is divided into two main panels. 
+The ``Invoices`` is the first step in the process of finding an invoice and thereafter accessing an invoice. This initial page can be used to search for specific invoices based on specific criteria. The panel is divided into two main panels. 
 
 An invoice can be deleted by clicking on the trash icon from the right side of the list. Ones the user click on the trash icon, they will be prompted with a confirmation dialog. The payment will be either deleted or the operation will be cancelled depending on the action selected from the confirmation dialog.
 
