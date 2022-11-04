@@ -207,7 +207,7 @@ Additional parameters
 
         :math:`\text{CapitationPayment}_{i} = \sum_{a}^{\ }{(\ \text{Indicator}_{i}^{a}} \times \frac{AllocatedContribution \times ShareContribution \times \text{Share}^{a}}{\sum_{i}^{\ }{\text{In}\text{dicator}}_{i}^{a}})`
 
-        Where
+        **Where**
 
         :math:`\text{CapitationPayment}_{i}` *is the amount of capitation payment for i-th health facility*
 
@@ -300,7 +300,7 @@ Here is the list of payment plans with 3 different actions.
         .. figure:: /img/user_manual/payment_plan.new_version_menu.png
             :align: center
 
-        Click on the new version menu icon on the payment plan you want to create a new version. This will open the selected payment plan in an edit mode. Make the necessary changes and click on the save button. This will create a new record in the system with the changes applied. A user will be redirected to the previous page and a new version of the payment plan will be displayed in the result panel. 
+        Click on the new version menu icon on the payment plan you want to create a new version. This will open the selected payment plan in an edit mode. Make the necessary changes and click on the save button. This will create a new record in the system with the changes applied. A user will be redirected to the previous page and a new version of the payment plan will be displayed in the result panel. This will also inactive the previous record.
 
     - **Edit**
 
