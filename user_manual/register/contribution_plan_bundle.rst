@@ -1,6 +1,10 @@
 Contribution Plan Bundle
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
+  The goal of the contribution plans bundle (CPB) is the group several contribution plan to build a standard offering for a bundle of product
+
+  the goal is to ease enrollement of conplex offerings where it would be easy otherwise for the user to mkae a misstake 
+
   The Contribution plan bundle is linked to Contribution plans
 
 Pre-conditions

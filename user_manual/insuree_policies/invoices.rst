@@ -1,5 +1,5 @@
 Invoices
-^^^^^^^^^^^^
+^^^^^^^^
 
 .. contents:: Table of Contents
 
@@ -38,7 +38,7 @@ An invoice can be deleted by clicking on the trash icon from the right side of t
 
 
 Search Panel
-""""""""""""""""
+""""""""""""
 The Search Panel allows a user to select specific criteria to minimise the search result. In the case of invoices the following search options are available which can be used alone or in combination with eath other. 
 
 Subject
@@ -76,7 +76,7 @@ Amount Total
     Type in a positive ``Invoice Amount`` to search for invoices with a total amount equal or greater than the typed amount. For example if 1000 is entered, then only invoices with an amount equal or greater than 1,000 will be displayed.
 
 Result Panel
-"""""""""""""
+""""""""""""
 
 The result panel displays a list of all invoices found matching the selected criteria in the search panel. The current selected record is highlighted. On the right side of the row you can find all the actions available. You can also double click on an invoice to view the invoice deatils.
 
@@ -88,7 +88,7 @@ The result panel displays a list of all invoices found matching the selected cri
     `Edit invoice, Delete invoice`
 
 Invoice Page
-"""""""""""""
+""""""""""""
 .. _invoice_page:
 .. figure:: /img/user_manual/invoice.page.png
     :align: center
@@ -108,7 +108,7 @@ Line Items
     `Items in the invoice`
 
 Search criteria
-""""""""""""""""
+---------------
 List of the items in an invoice can be filtered by search criteria panel. Here are the possible search parameters. The result of the search can be seen in the panel below.
 
 Code
@@ -140,7 +140,7 @@ Amount next
 
 
 Payments
--------------
+""""""""
 
 .. _invoice_payment:
 .. figure:: /img/user_manual/invoice.payments.png
@@ -149,7 +149,8 @@ Payments
     `Payments for the selected invoice`
 
 Search criteria
-""""""""""""""""
+---------------
+
 List of the payments for the selected invoice can be filtered by search criteria panel. Here are the possible search parameters. The result of the search can be seen in the panel below.
 
 Reconciliation Status
@@ -197,11 +198,11 @@ Payer Reference
 
 
 Create new Payment
-==================
+------------------
 
 To enter a new payment for the selected invoice. Click on the Add (+) icon
 
-.. _invoice_payment_new:
+.. _invoice_payment_add:
 .. figure:: /img/user_manual/mat.add.png
     :align: center
 
@@ -216,7 +217,7 @@ This will open up the following form to enter the payment detail
 
 Reconciliation Status
     Select the reconciliation status of the payment. Mandatory.
-    Different types of statuses can be found :ref:`here <invoice_recon_filter>`
+    Different types of statuses can be found :numref:`invoice_recon_filter`
 
 Status:
     Select the status of the payment. Mandatory. Following are the possible status of the payment
@@ -276,7 +277,7 @@ The payment can be deleted by clicking on the trash icon from the right side of 
 
 
 Events
-------
+""""""
 
 .. _invoice_events:
 .. figure:: /img/user_manual/invoice.events.png
@@ -289,7 +290,7 @@ Events tab conitans all the events happened during the payment process. The entr
 
 
 Search criteria
-""""""""""""""""
+---------------
 List of the events for the selected invoice can be filtered by search criteria panel. Here are the possible search parameters. The result of the search can be seen in the panel below.
 
 Type
@@ -306,11 +307,11 @@ Message
 
 
 Create new Comment
-==================
+------------------
 
 To enter a new message for the selected invoice. Click on the Add (+) icon
 
-.. _invoice_payment_new:
+.. _invoice_comment_add:
 .. figure:: /img/user_manual/mat.add.png
     :align: center
 

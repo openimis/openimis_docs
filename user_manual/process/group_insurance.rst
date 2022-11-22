@@ -49,13 +49,19 @@ this features don't covers the registration of the insuree, insuree must be regi
 
     At creation the contrat will pull the valid PH-Insuree, once created (draft), the contract will have to go through severals steps : submitted (negociable) , approved (executable) , payed (Effective) then the coverage are active for the contract dates (can be modulated by the contribution plans)
 
+#. Generating payment to third parites
+
+    Once a claim is approved a payment is likely to be due, if order to generate the appropriate payment, payment plans need to be used
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Group insurance configuration
 
-   ./contribution_plans
-   ./contribution_plan_bundles
-   ./policy_holders
-   ./policy_holderinsurees
-   ./contract
+   ../register/contribution_plan.rst
+   ../register/contribution_plan_bundle.rst
+   ../insuree_policies/policyholder.rst
+   ../register/policyholder_users.rst
+   ../insuree_policies/contract.rst
+   ../insuree_policies/payment_plans.rst
 

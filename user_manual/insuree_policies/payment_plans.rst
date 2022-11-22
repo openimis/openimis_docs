@@ -1,5 +1,5 @@
 Payment Plans
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^
 
 Payment plans is responsible for generating bills. 
 
@@ -29,7 +29,7 @@ All the existing payment plans can be found here.
 
 
 Search Panel
-""""""""""""""
+""""""""""""
 
 Code
     Enter a code to filter the payment plans
@@ -64,11 +64,11 @@ Show Deleted
 
 
 Create new Payment Plan
-==================
+=======================
 
 To create a new payment plan click on the Add (+) icon in the bottom right of the page.
 
-.. _invoice_payment_new:
+.. _payment_plan_add:
 .. figure:: /img/user_manual/mat.add.png
     :align: center
 
@@ -120,30 +120,38 @@ Additional parameters
         `Additional parameters for the Calculation rule Payment: Fee for Service`
     
     Claim Type
+
         Here you can select for which claims this payment plan is valid. The options are All, Hospital/In-patient and None-hospital/Out-patient
     
     Level 1
+
         Here a user can define the first level. Options are Hospital, Dispensary and Health center.
 
     Sublevel 1
+
         Here a user can define the first sublevel. Options are District and Region
 
     Level 2
+
         Here a user can define the second level. Options are Hospital, Dispensary and Health center.
 
     Sublevel 2
+
         Here a user can define the second sublevel. Options are District and Region
 
     Level 3
         Here a user can define the third level. Options are Hospital, Dispensary and Health center.
 
     Sublevel 3
+
         Here a user can define the third sublevel. Options are District and Region
 
     Level 4
+
         Here a user can define the fourth level. Options are Hospital, Dispensary and Health center.
 
     Sublevel 4
+
         Here a user can define the fourth sublevel. Options are District and Region
 
     - **Payment: Capitation**
@@ -155,51 +163,56 @@ Additional parameters
         `Additional parameters for the Calculation rule Payment: Capitation`
 
     Claim Type
+
         Here you can select for which claims this payment plan is valid. The options are All, Hospital/In-patient and None-hospital/Out-patient
     
     Level 1
+    
         Here a user can define the first level. Options are Hospital, Dispensary and Health center.
 
     Sublevel 1
+
         Here a user can define the first sublevel. Options are District and Region
 
     Level 2
+
         Here a user can define the second level. Options are Hospital, Dispensary and Health center.
 
     Sublevel 2
-        Here a user can define the second sublevel. Options are District and Region
+
+        Here a user can define the second sublevel. Options are payment_newDistrict and Region
 
     Level 3
+
         Here a user can define the third level. Options are Hospital, Dispensary and Health center.
 
     Sublevel 3
+
         Here a user can define the third sublevel. Options are District and Region
 
     Level 4
+
         Here a user can define the fourth level. Options are Hospital, Dispensary and Health center.
 
     Sublevel 4
+
         Here a user can define the fourth sublevel. Options are District and Region
 
     Share Contribution
+
         Enter the valid integer from 0 to 100 to define the percentage (%) of the share of allocated contribution for given insurance product and the period specified. 
-
-    Weight Population
-        Enter the valid integer from 0 to 100 to define the percentage (%) of the number of population living in catchment area of the individual health facility.
-    
-    Weight number families
-        Enter the valid integer from 0 to 100 to define the percentage (%) of the numebr of families living in the catchment area of the individual health facility. 
-
-    Weight number insure population
-        Enter the valid integer from 0 to 100 to define the percentage (%) of the numner of insured population by given insurance product and living in the catchment area of the individual health facility.
+        payment_newentage (%) of the numner of insured population by given insurance product and living in the catchment area of the individual health facility.
 
     Weight number insured families
+
         Enter the valid integer from 0 to 100 to define the percentage (%) of the numner of insured families by given insurance product and living in the catchment area of the individual health facility.
 
     Weight number visits
+
         Enter the valid integer from 0 to 100 to define the percentage (%) of the number of contacts of insured by given insurace product and living in the catchment area of the individual health facility. 
 
     Weight amount adjusted
+
         Enter the valid integer from 0 to 100 to define the percentage (%) of the adjusted amount on claims for insured by given insurance product and living in the catchment area of the individual health facility. 
 
     .. Note::
@@ -215,11 +228,11 @@ Additional parameters
 
         *may be:*
 
-            - *Population living in catchments area of the health facility*
+            - *Population living in catchments area of the health payment_newfacility*
             - *Number of families living in catchments area of the health facility*
             - *Insured population living in catchments area of the health facility*
             - *Insured number of families living in catchments area of the health facility*
-            - *Number of claims (contacts) with the health facility by insured in the catchment area*
+            - *Numbpayment_new of claims (contacts) with the health facility by insured in the catchment area*
             - *Adjusted amount*\
 
         :math:`\text{AllocatedContribution}` *is the amount of contributions for given insurance product for given period*
@@ -284,17 +297,13 @@ Additional parameters
 
 
 Result Panel
-"""""""""""""
-.. _payment_panel_result
+""""""""""""
+.. _payment_panel_result:
 .. figure:: /img/user_manual/payment_plans.result_panel.png
     :align: center
 
     `List of all the payment plans created in the system`
 
-
-Here is the list of payment plans with 3 different actions. 
-
-    - **Add new version**
 
         .. _payment_plan_new_version:
         .. figure:: /img/user_manual/payment_plan.new_version_menu.png

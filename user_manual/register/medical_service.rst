@@ -16,7 +16,7 @@ Navigation
   All functionality for use with the administration of Medical Services can be found under the main menu ``Administration``, sub menu ``Medical Services.``
 
   .. _medical_service.menu:
-  .. figure:: /img/user_manual/medical_service.menu.png
+  .. figure:: /img/user_manual/med_service.menu.png
     :align: center
 
     `Navigation Medical Services`
@@ -24,7 +24,7 @@ Navigation
   Clicking on the sub menu ``Medical Services`` re-directs the current user to the `Medical Services Control Page <#medical-services-control-page>`__\.
 
   .. _medical_service.search:
-  .. figure:: /img/user_manual/medical_service.search.png
+  .. figure:: /img/user_manual/med_service.list.png
     :align: center
 
     `Medical Services Control Page`
@@ -52,7 +52,7 @@ Medical Services Control Page
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in grey and with a Valid date to clearly define them from current records (:numref:`medical_service.history`)
 
       .. _medical_service.history:
-      .. figure:: /img/user_manual/medical_service.history.png
+      .. figure:: /img/user_manual/med_service.history.png
         :align: center
 
         `Historical records - Result Panel`
@@ -89,7 +89,7 @@ Medical Service Page
  #. **Data Entry**
 
     .. _medical_service.edit:
-    .. figure:: /img/user_manual/medical_service.edit.png
+    .. figure:: /img/user_manual/med_service.new.png
       :align: center
 
       `Medical Service Page`
@@ -153,7 +153,7 @@ Deleting a Medical Service
   Before deleting a confirmation popup (:numref:`image28`) is displayed, which requires the user to confirm if the action should really be carried out?
 
   .. _image28:
-  .. figure:: /img/user_manual/med_service_delete.png
+  .. figure:: /img/user_manual/med_service.delete.png
     :align: center
     :width: 50%
 
