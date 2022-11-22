@@ -121,7 +121,7 @@ The result panel displays a list of all Insurees found, matching the selected cr
 
   `Highlighted result row`
 
-The number of rows per page is limited to 10 by default but one can use the "Rows per page" drop-down in the bottom right of the search results. If there are more rows to display, one can use the page navigation. (:numref:`image100`)
+The number of rows per page is limited to 10 by default but one can use the "Rows per page" drop-down in the bottom right of the search results. If there are more rows to display, one can use the page navigation. (:numref:`image_100_insuree_edit`)
 
 .. _image_79_pagination:
 .. figure:: /img/user_manual/79_pagination.png

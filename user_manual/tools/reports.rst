@@ -130,32 +130,22 @@ Navigation
 
     * ``Date Selector Button``
 
-      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image223`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
+      Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`cal_picker`) by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted.
 
         - At anytime during the use of the pop-up, the user can see the date of **today**.
+
         - Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box.
+
         - Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box.
+
         - Clicking on the arrow to the left displays the previous month.
+
         - Clicking on the arrow on the right will displays the following month.
+
         - Clicking on the month will display all the months for the year.
+
         - Clicking on the year will display a year selector.
 
-      .. _image223:
-      .. |logo48| image:: /img/user_manual/image6.png
-        :scale: 100%
-        :align: middle
-      .. |logo49| image:: /img/user_manual/image7.png
-        :scale: 100%
-        :align: middle
-      .. |logo50| image:: /img/user_manual/image8.png
-        :scale: 100%
-        :align: middle
-
-      +----------++----------++----------+
-      | |logo48| || |logo49| || |logo50| |
-      +----------++----------++----------+
-
-        `Calendar Selector - Search Panel`
 
   #. **Report Type Selector**
 

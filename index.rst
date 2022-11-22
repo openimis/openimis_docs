@@ -8,7 +8,7 @@
 openIMIS Documentation
 ======================
 
-  **v1.6.0**
+<**October 2022 Release**>
 
 Welcome to the openIMIS technical documentation repository.
 
@@ -32,8 +32,6 @@ This manual is a guide on the use and functionality of the software rather than 
    Install Documentation <https://openimis.atlassian.net/wiki/spaces/OP/pages/906526894> 
    Open a Ticket <https://openimis.atlassian.net/servicedesk/customer/portals>
    OpenIMIS Wiki <https://openimis.atlassian.net/wiki/spaces/OP/overview>
-
-
 
 .. Contents
    ==================

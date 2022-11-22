@@ -344,10 +344,7 @@ msgid ""
 " viewed by navigating through the pages using the page selector at the "
 "bottom of the result Panel (:numref:`mat_record_per_page`)"
 msgstr ""
-"A maximum of 10 records are displayed at one time( can be "
-"changed:numref:`mat_page_browser`), further records can be viewed by "
-"navigating through the pages using the page selector at the bottom of the"
-" result Panel (:numref:`mat_record_per_page`)"
+"A maximum of 10 records are displayed at one time( can be changed :numref:`mat_page_browser`), further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`mat_record_per_page`)"
 
 #: ../../user_manual/register/health_facility.rst:106
 msgid "**Button Panel**"
