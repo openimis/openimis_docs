@@ -2,12 +2,7 @@
 
 # openIMIS Documentation
 
-This repository contains all documentation of openIMIS:
-
-* installation guides
-* user documentation
-* functional specification
-* import tools templates
+This repository contains the user documentation of openIMIS, please refer to the [openIMIS Wiki](https://openimis.org/wiki) for further documentation like installation guides, functional specification and import tools templates.
 
 ## Contribution
 

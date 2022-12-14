@@ -12,7 +12,7 @@ openIMIS Documentation
 
 Welcome to the openIMIS technical documentation repository.
 
-The open Insurance Management Information System ( openIMIS ) is a web based software to manage health insurance schemes. It includes functionality for setup of the software to requirements of health insurance schemes, administration of policies and policyholders and for claim processing.
+openIMIS is a versatile open source software which supports the administration of health financing and social protection schemes. It is specially designed to manage the complex, high-volume data flows which are required to operate such schemes by seamlessly integrating beneficiary, provider and payer data in a single platform.
 
 This manual is a guide on the use and functionality of the software rather than in-depth technical reference. The Contents section, provide a reference to the page of each major chapter and the sub chapters within. By clicking on the content title (online version), the reader is re-directed to the position of the content title.
 
@@ -29,7 +29,7 @@ This manual is a guide on the use and functionality of the software rather than 
    
    /user_manual/index
    /mobile_user_manual/index
-   Installation Guide <https://openimis.atlassian.net/wiki/spaces/OP/pages/906526894> 
+   Installation Guide <https://openimis.atlassian.net/wiki/spaces/OP/pages/786104344> 
    Open a Ticket <https://openimis.atlassian.net/servicedesk/customer/portals>
    openIMIS Wiki <https://openimis.atlassian.net/wiki/spaces/OP/overview>
 
