@@ -29,7 +29,9 @@ This manual is a guide on the use and functionality of the software rather than 
    
    /user_manual/index
    /mobile_user_manual/index
+
    Installation Guide <https://openimis.atlassian.net/wiki/spaces/OP/pages/786104344> 
+
    Open a Ticket <https://openimis.atlassian.net/servicedesk/customer/portals>
    openIMIS Wiki <https://openimis.atlassian.net/wiki/spaces/OP/overview>
 
