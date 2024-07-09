@@ -190,7 +190,171 @@ Delete selected
 Information Panel
 """"""""""""""""""
 
-The Information Panel is used to display messages back to the user. Messages will occur once a claim has been added, updated or deleted or if there was an error at any time during the process of these actions.
+      Select the ``district``; where claiming or searched for health facility is located from the list of districts by clicking on the arrow on the right of the selector to select claims from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*
+
+    * ``HF Code``
+
+      Select the ``HF Code`` (Health Facility Code) from the list of codes of health facilities by clicking on the arrow on the right of the selector, to select claims from a specific health facility. *Note: The list will only be filled with the health facilities belonging to the selected district and assigned to the current logged in user.*
+
+    * ``HF Name``
+
+      Type in the beginning of; or the full ``HF Name`` (Health Facility Name) to search for claims belonging to the health facility whose name start with or match completely the typed text.
+
+    * ``Claim Administrator``
+
+      Select the ``Claim Administrator`` from the list of claim administrators by clicking on the arrow on the right of the selector, to select claims submitted by a specific claim administrator. *Note: The list will only be filled with the claim administrators belonging to the health facility selected.*
+
+    * ``Visit Type``
+
+      Select the ``Visit Type`` from the list of visit types (or hospital stays) by clicking on the arrow on the right of the selector, to select claims with specified visit type.
+
+    * ``Insurance Number``
+
+      Type in the beginning of; or the full ``Insurance Number``, to search for claims, on behalf of insurees with the insurance number which starts with or match completely the typed text.
+
+    * ``Claim No.``
+
+      Type in the beginning of; or the full ``Claim No.``, to search for claims with the specific claim identification which starts with or match completely the typed text.
+
+    * ``Review Status``
+
+      Select the ``Review Status`` from the list of options for review status by clicking on the arrow on the right of the selector, to select claims with specific review status.
+
+    * ``Feedback Status``
+
+      Select the ``Feedback Status`` from the list of options for feedback status by clicking on the arrow on the right of the selector, to select claims with specific feedback status.
+
+    * ``Claim Status``
+
+      Select the ``Claim Status`` from the list of options for claim status by clicking on the arrow on the right of the selector, to select claims with specific claim status.
+
+    * ``Main Dg.``
+
+      Select the ``Main Dg.`` from the list of diagnoses status by typing text, all diagnoses containing the typed text will appear and be selectable underneath the box, to select claims with main diagnosis.
+
+    * ``Batch Run``
+
+      Select the ``batch run`` from the list of batch runs by clicking on the arrow on the right of the selector, to select claims from specific batch run
+
+    * ``Visit Date From``
+
+      Type in a date; or use the Date Selector (:ref:`cal_picker`), to search for claims with a ``Visit Date From`` date which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup*. ``Visit Date From`` should be the day of admission for in-patient care or the visit date in case of out-patient care.
+
+    * ``Visit Date To``
+
+      Type in a date; or use the Date Selector (:ref:`cal_picker`), to search for claims with a ``Visit Date From`` date which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup*. ``Visit Date To`` should be the day of discharge for in-patient care or the visit date in case of out-patient care.
+
+    * ``Claim Date From``
+
+      Type in a date; or use the Date Selector (:ref:`cal_picker`), to search for claims with a ``Claim Date`` date which is on or is greater than the date typed/selected. *Note. To clear the date entry box; use the ``Clear`` button on the date picker popup**
+
+    * ``Claim Date To``
+
+      Type in a date; or use the Date Selector (:ref:`cal_picker`), to search for claims with a ``Claim Date`` date which is on or is less than the date typed/selected. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key*.
+
+
+      .. include:: ../date_picker.rst
+
+
+    * ``Search Button``
+
+      Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel.
+
+ #. **Result Panel**
+
+    The Result Panel displays a list of all claims found, matching the selected criteria in the search panel. The currently selected record is highlighted with light grey. (:numref:`image139`). Double click on the line re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+
+    .. _image139:
+    .. figure:: /img/user_manual/claim.search_result.png
+      :align: center
+
+      `Selected record (grey) - Result Panel`
+
+    A maximum of 10 records can be displayed per default but it can be changed by configuration (`gitHub <https://github.com/openimis/openimis-fe-claim_js>`_), in a scroll panel. Further records can be viewed by either changing the page or deleting/submitting the current loaded claims and search claims again.
+
+ #. **Actions**
+
+    Modular openIMIS comes with `Material UI <https://material-ui.com/>`_ this means that there is a single button (:numref:`actions_btn`) which fonction will change depending on the context (Icon change), for less used functions a tree dots menu is available (:numref:`image_3d_claim_hf`) only when claim(s) are selected. By double-clicking on the claim line, the user is directed to the :ref:`Claim Page  <claim-page>`, where the current selected claim can be edited (provided it in the state **Entered**), this page will open with the current information loaded into the data entry fields. See the :ref:`Claim Page  <claim-page>` for information on the data entry and mandatory fields.
+
+
+    .. _actions_btn:
+    .. list-table:: Materal icons
+
+      * - .. _mat_add:
+          .. figure:: /img/user_manual/mat.add.png
+            :align: center
+
+            `Add`
+        - .. _mat_save:
+          .. figure:: /img/user_manual/mat.save.png
+            :align: center
+
+            `Save`
+
+        - .. _mat_back:
+          .. figure:: /img/user_manual/mat.back.png
+            :align: center
+
+            `Back`
+        - .. _mat_print:
+          .. figure:: /img/user_manual/mat.print.png
+
+            `Print`
+
+    .. _image_3d_claim_hf:
+    .. list-table:: claims actions
+
+      * - .. _mat_select_all:
+          .. figure:: /img/user_manual/mat.select_all.png
+            :align: center
+
+            `select all`
+        - .. _mat_3d:
+          .. figure:: /img/user_manual/mat.3d.png
+            :align: center
+
+            `tree dots`
+        - .. _mat_hf_claim_menu:
+          .. figure:: /img/user_manual/claim.hf_3d.png
+            :align: center
+
+            `tree dots menu`
+
+
+    * ``add``
+
+      By clicking on the add button (:numref:`mat_add`), the user is directed to the `Claim Page, <#claim-page>`__ where new entries for new claim can be added. When the page opens all entry fields are empty. See the :ref:`Claim Page  <claim-page>` for information on the data entry and mandatory fields.
+
+
+    * ``Submit selected``
+
+      By clicking on the submit selected manu (:numref:`mat_hf_claim_menu`), claim status of all selected claims with the status **Entered** will be submitted.
+
+      Once the process is done, a popup window ( :numref:`image141` ) with the result of the process will be shown.
+
+      .. _image141:
+      .. figure:: /img/user_manual/claim.submit_details.png
+        :align: center
+
+        `Submitted Claims details – Claims Control Page`
+
+    * ``delete selected``
+
+      By clicking on the delete selected menu, the current selected claim will be deleted.
+
+
+      Before deleting a confirmation popup ( :numref:`image142` ) is displayed, which requires the user to confirm if the action should really be carried out?
+
+      .. _image142:
+      .. figure:: /img/user_manual/claim.delete_conf.png
+        :align: center
+
+        `Delete confirmation – Claims Control Page`
+
+
+ #. **Information Panel**
+
+    The Information Panel is used to display messages back to the user. Messages will occur once a claim has been added, updated or deleted or if there was an error at any time during the process of these actions.
 
 .. _claim-page:
 

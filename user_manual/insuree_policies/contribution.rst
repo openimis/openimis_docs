@@ -50,7 +50,8 @@ Find Contribution Page
     Payment Date To
       Type in a date; or use the Date Selector Button, to enter the ``Payment Date To`` to search for contributions with a ``Payment Date`` equal or earlier than the specified date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*
 
-    Contribution Category
+    * ``Contribution Category``
+
       Select the ``Contribution Category`` that match with the type of contribution paid, by default there is *Contribution and Others* and *photo fee*. this enable to add fees that won't be counted as contribution payment
 
     Contribution Paid

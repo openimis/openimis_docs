@@ -58,8 +58,9 @@ Navigation
     * ``Head/Member Insuree Last Name``
 
       Type in the beginning of; or the full ``Last name``; to search for families/groups, who’s family/group head (/member) ``Last name``, starts with or matches completely, the typed text.
-
-    * ``Head/Member Insuree Other Names``
+```
+sphinx-build -b latex .\ .\_build\latex\
+```
 
       Type in the beginning of; or the full ``Other Names`` to search for families/groups, who’s family/group head(/member) ``Other Names`` starts with or matches completely, the typed text.
 
@@ -163,17 +164,15 @@ Family Overview Page
     In the Insurees Panel, action buttons allow to add (new or existing - non head- insuree)
     On insuree, one can set it as family head, remove ('detach') insuree from the family/group or delete the insuree.
 
-    When an insuree is removed from the family or deleted, the confirmation dialog gives two options(:ref:`family_image90`):
+    When an insuree is removed from the family or deleted, the confirmation dialog gives two options(:numref:`image115`):
 
     * ``Remove/Delete and Cancel Policies``: to remove the insuree from any active policy coverage
 
     * ``Remove/Delete and Cancel Policies``: to keep any existing policy active for that insuree (untill policy renewal)
 
-    .. _family_image90:
+    .. _image115:
     .. figure:: /img/user_manual/image90.png
       :align: center
-
-      Remove insuree dialog
 
  #. **Policies Panel**
 
@@ -418,8 +417,9 @@ Deleting a Family/Group
 
   Before deleting a confirmation popup is displayed, which requires the user to confirm if the action should really be carried out.
   
-  The confirmation dialog gives two options: 
+  The confirmation dialog gives two options (:numref:`image74`): 
 
+      .. _image74:
       .. figure:: /img/user_manual/image74.png
         :align: center
 
