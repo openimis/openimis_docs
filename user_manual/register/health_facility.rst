@@ -88,12 +88,11 @@ Health Facilities Control Page
 
         `Selected record (blue), hovered records (yellow) - Result Panel`
 
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`mat_record_per_page`)
-
+    A maximum of 10 records are displayed at one time( can be changed :numref:`mat_page_browser`), further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`mat_record_per_page`)
 
  #. **Button Panel**
 
-    With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, and the ``Add`` button which re-directs to the health facility page, the button panel (the buttons ``Edit`` and ``Delete)`` is used in conjunction with the current selected record (highlighted with blue). The user should select first a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
+    With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, and the ``Add`` button which re-directs to the health facility page, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should select first a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
 
  #. **Information Panel**
 

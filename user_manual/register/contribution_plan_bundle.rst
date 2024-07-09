@@ -54,7 +54,7 @@ Search Page
 
 #. results
 
-    the columns name definiction matches with the search criteria definitions:
+    the columns name definition matches with the search criteria definitions:
 
 
     the rows are the search results
@@ -62,7 +62,7 @@ Search Page
     
     * Edit Contribution plan bundle
 
-        Doubleclick on the line or clicking on the edit button will open the edit page
+        double click on the line or clicking on the edit button will open the edit page
 
         .. _contribution_plan_bundle_edit:
         .. figure:: /img/user_manual/contribution_plan_bundle.edit.png

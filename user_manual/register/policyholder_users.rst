@@ -45,14 +45,14 @@ Search Page
 
 #. Results
 
-    The columns name definiction matches with the search criteria definitions
+    The columns name definition matches with the search criteria definitions
 
     The rows are the search results
 
     
     * Edit policyholder
 
-        as doubleclick on the line, clicking on that button will open the edit popup
+        as double click on the line, clicking on that button will open the edit popup
 
         .. _ph_user_edit:
         .. figure:: /img/user_manual/ph_user.edit.png

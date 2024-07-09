@@ -1,6 +1,9 @@
 Payment Plans
 ^^^^^^^^^^^^^
 
+.. _payment-plans:
+
+
 Payment plans is responsible for generating bills. 
 
 .. contents:: Table of Contents

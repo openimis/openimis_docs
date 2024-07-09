@@ -41,7 +41,7 @@ this features don't covers the registration of the insuree, insuree must be regi
 
     Insuree can be added via the "policyholder insuree" tab, the clerk will have to find the insuree using the insuree number, then the policyholder contribution bundle plan (PH-CBP) need to be attached to the insuree
 
-    Once PH-CBP is selected, the calucation params will be pulled (eg. invoice) and new inputs fields might apprears
+    Once PH-CBP is selected, the calculation params will be pulled (eg. invoice) and new inputs fields might apprears
 
 #. Generating coverage
 
