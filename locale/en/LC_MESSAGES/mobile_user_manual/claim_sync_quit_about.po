@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:5
+msgid "Function Synchronize"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:7
+msgid ""
+"The function Synchronize is navigated to by clicking on the menu item "
+"**Synchronize** in the main menu. The function Synchronize uploads posted"
+" claims to the web IMIS. For on-line uploading a user must have a valid "
+"User Name and Password provided by an administrator of the web IMIS with "
+"an assigned role incorporating an access to the functionality "
+"**Claims/Claim/Add** as an access to the functionality Synchronize is "
+"guarded by the `Login Page <#image-1.2.1-enquire-function-login-page>`__ "
+"for on-line uploads."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:16
+msgid ""
+"The `Synchronize Page <#image-2.3.1-map-services-page>`__ appears "
+"immediately:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:22
+msgid "Image 2.8.1 (Synchronize Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:24
+msgid "There are two buttons:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:26
+msgid "**Upload Claims** for on-line uploading of saved claims to the web IMIS."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:28
+msgid ""
+"**Create Claims XML** for generation of a file (in the XML format) for "
+"off-line uploading of saved claims to the web IMIS-see `the off-line mode"
+" of IMIS Claims <#off-line-mode-of-imis-claims>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:32
+msgid "On-line uploading of claims is guarded by the Login Page:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:37
+msgid "Image 2.8.2 (Synchronize Page-Login Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:39
+msgid ""
+"If the login process is successful then click on the **Upload Claims** "
+"button to upload claims to the web IMIS. Claims that are successfully "
+"uploaded are saved in the folder IMIS/Accepted Claims. Unseccussfully "
+"uploaded claimes are saved in the folder IMIS/Rejected Claims."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:47
+msgid "Function Quit"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:49
+msgid ""
+"The function Quit is navigated to by clicking on the menu item **Quit** "
+"in the main menu. . The function Quit quits the application after `Quit "
+"Confirmation <#image-1.11.1-quit-confirmation-prompt>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:56
+msgid "Image 2.9.1 (Quit Confirmation)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:61
+msgid "Function About"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:63
+msgid ""
+"The function About is navigated to by clicking on the menu item **About**"
+" in the main menu. The function About provides information about the "
+"application itself. The `About Page <#image-2.10.1-about-page>`__ appears"
+" immediately:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:74
+msgid "Image 2.10.1 (About Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:76
+msgid ""
+"Click on the icon **<-** in the upper part of the `About Page "
+"<#image-2.10.1-about-page>`__ to return to the `Home Page. <#image-2.1.2"
+"-home-page>`__"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:81
+msgid "Off-line mode of the applications"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:83
+msgid ""
+"The applications IMIS Policies and IMIS Claims require for certain "
+"functions Internet connectivity for communication with the web IMIS. "
+"Other functions of both applications can be used autonomously without "
+"availability of Internet connectivity. There is a possibility to move to "
+"a place where Internet connectivity is ensured only for time when "
+"functions requiring Internet connectivity are used (e.g. initialization "
+"of an application, synchronization etc.) and use autonomous functions in "
+"settings without Internet connectivity. However, this may not be "
+"practical or even possible in all situations. Therefore, there is a "
+"possibility to substitute on-line connection for some functions by off-"
+"line transfer of files from/to the web IMIS. Thus, utilization of the "
+"application in an environment without Internet connectivity is "
+"guaranteed."
+msgstr ""
+

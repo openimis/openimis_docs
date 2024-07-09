@@ -1,0 +1,278 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../user_manual/tools/reports/policy_pi.rst:2
+msgid "Primary operational indicators  - policies report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:4
+msgid ""
+"The report provides aggregate data relating to policies and insurees "
+"according to insurance products. The report can be run by users with the "
+"system role Manager or with a role including an access to "
+"Tools/Reports/Primary Operational Indicators-policies. The table below "
+"will provide an overview on   primary indicators of the report."
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:6
+msgid "Parameters for selection for the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:12
+msgid "`Image 205 - Primary Operational Indicators - Policies Report Criteria`"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:14
+msgid "Input parameters of the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:16
+msgid "Month– the period  in which a payment takes place"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:18
+msgid "Quarter  - the period  in which a payment takes place"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:20
+msgid "Year  - the period  in which a payment takes place – **mandatory**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:22
+msgid "Region – region of activity of enrolment officers"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:24
+msgid "District - region of activity of enrolment officers"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:26
+msgid ""
+"Insurance Product – the drop down list with available insurance products "
+"for the district according to standard IMIS rules - **mandatory**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:28
+msgid ""
+"HF code - the drop down list with available HF products for the District "
+"according to standard IMIS rules"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:30
+msgid "The title of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:32
+msgid "Period (Month/Quarter Year)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:34
+msgid "Region and District"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:36
+msgid ""
+"Insurance Product ( the code and the name of an insurance product) if "
+"specified in the input parameters"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:38
+msgid "Content of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:40
+msgid "Table  Overview of Policies indicators"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:46
+msgid "**Code**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:47
+msgid "**Primary indicators**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:48
+msgid "**Dimension**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:49
+msgid "**Description**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:51
+msgid "P1"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:52
+msgid "Number of policies"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:53
+#: ../../user_manual/tools/reports/policy_pi.rst:58
+#: ../../user_manual/tools/reports/policy_pi.rst:63
+#: ../../user_manual/tools/reports/policy_pi.rst:68
+#: ../../user_manual/tools/reports/policy_pi.rst:73
+#: ../../user_manual/tools/reports/policy_pi.rst:78
+#: ../../user_manual/tools/reports/policy_pi.rst:83
+#: ../../user_manual/tools/reports/policy_pi.rst:88
+#: ../../user_manual/tools/reports/policy_pi.rst:93
+msgid "Time, Insurance product"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:54
+msgid ""
+"The number of policies of given insurance product on the last day of a "
+"respective period (Status of the policy is Active, the last day of period"
+" is within <Effective date, Expiry day>)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:56
+msgid "P2"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:57
+msgid "Number of new policies"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:59
+msgid ""
+"The number of new policies of given insurance product during a respective"
+" period (Enrolment date is within the respective period, there is ``no`` "
+"preceding policy with the same (or before converted) insurance product "
+"forgiven policy)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:61
+msgid "P3"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:62
+msgid "Number of suspended policies"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:64
+msgid ""
+"The number of policies for given insurance product that were suspended "
+"during a respective period (Status of the policy is Suspended, suspension"
+" took place within the respective period)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:66
+msgid "P4"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:67
+msgid "Number of expired policies"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:69
+msgid ""
+"The number of policies for given insurance product that expired during a "
+"respective period (Status of the policy is Expired,expiration took place "
+"within the respective period)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:71
+msgid "P5"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:72
+msgid "Number of renewals"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:74
+msgid ""
+"The number of policies that were renewed forgiven insurance product (or a"
+" converte done) during a respective period ( Enrolment date is within the"
+" respective period, there is a preceding policy with the same (or before "
+"converted) product forgiven"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:76
+msgid "P6"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:77
+msgid "Number of insurees"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:79
+msgid ""
+"The number of insurees covered by policies of given insurance product on "
+"the last day of a respective period (An insuree belongs to a family with "
+"an active coverage on the last day of the respective period-see P1 )"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:81
+msgid "P7"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:82
+msgid "Number of newly insured insurees"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:84
+msgid ""
+"The number of insurees covered by new policies of given insurance product"
+" during a respective period (An insuree belongs to a family with newly "
+"acquired policy during the respective period-see P2 )"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:86
+msgid "P8"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:87
+msgid "Newly collected Contributions"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:89
+msgid ""
+"Amount of acquired Contributions (for policies of given insurance "
+"product) during a respective period ( Date of payment of a Contribution "
+"is within the respective period)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:91
+msgid "P9"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:92
+msgid "Available Contributions"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:94
+msgid ""
+"Amount of Contributions that should be allocated for policies of given "
+"insurance product for a respective period provided a uniform distribution"
+" throughout the insurance period takes place. (If the respective period "
+"overlaps with <Effective date, Expiry day> of a policy then a "
+"proportional part of corresponding Contributions relating to the "
+"respective period is included in available Contributions)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:97
+msgid "Example"
+msgstr ""
+
+#: ../../user_manual/tools/reports/policy_pi.rst:103
+msgid "`Image 225 - Preview – Primary Operational Indicators - Policies Report`"
+msgstr ""
+

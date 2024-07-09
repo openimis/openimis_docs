@@ -1,5 +1,5 @@
-Locations Administration
-^^^^^^^^^^^^^^^^^^^^^^^^
+Locations
+^^^^^^^^^
 
   Administration of locations is restricted to users with the the system role of IMIS Administrator or with a role including an access to Administration/Locations. The user can see only locations he/she has access to.
 
@@ -19,7 +19,7 @@ Navigation
 
     `Navigation Locations`
 
-  Clicking on the sub menu ``Locations`` re-directs the current user to the `Locations Page. <#locations-page>`__
+  Clicking on the sub menu ``Locations`` redirects the current user to the `Locations Page. <#locations-page>`__
 
   .. _location_search:
   .. figure:: /img/user_manual/location.search.png

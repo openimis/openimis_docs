@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../mobile_user_manual/enquire.rst:2
+msgid "**Function Enquire**"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:4
+msgid ""
+"The function Enquire is navigated to by clicking on the menu item "
+"**Enquire** in the main menu. The function Enquire provides a photo and "
+"information of insurance coverage of a specified insuree. A user must "
+"have a valid User Name and Password provided by an administrator of the "
+"web IMIS with an assigned role incorporating an access to the "
+"functionality **Insurees and Familiies/Insurees/Enquire** as an access to"
+" the functionality Enquire is guarded by the `Login Page <#image-2.2.1"
+"-enquire-function-login-page>`__ ."
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:16
+msgid "Image 2.2.1 (Claim Enquire function –Login Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:21
+msgid "Image 1.2.1 (Policy Enquire function –Login Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:23
+msgid ""
+"The User Name data field is pre-filled by the enrolment officer or claim "
+"admin code with which the installation has been launched. However, the "
+"User Name data field can re-written by any valid User Name. This "
+"principle is valid all other login pages of the IMIS Policies "
+"application. If the application successfully logs in the `Enquire"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:29
+msgid ""
+"If the application successfully logs in successfully the `Enquire Page "
+"<#image-2.2.2-enquire-page>`__ appears:"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:35
+msgid "Image 2.2.2 (Claim Enquire Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:40
+msgid "Image 1.2.2 (Policy Enquire Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:42
+#: ../../mobile_user_manual/enquire.rst:70
+msgid "Insurance Number"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:46
+msgid ""
+"Either type in the insurance number of the insuree for whom "
+"identification and coverage data are to be retrieved or obtain the "
+"insurance number by scanning of a QR code by clicking on the **QR** "
+"button."
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:51
+msgid ""
+"Click on the button **GO!** for retrieving the identification and "
+"coverage data."
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:54
+msgid ""
+"If the insuree with the insurance number has been already entered in the "
+"web IMIS the following data appear on the `Enquiry Page <#image-2.2.3"
+"-enquiry-page-provided-data-on-an-insuree>`__ :"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:61
+msgid "Image 2.2.3 (Claim Enquiry Page-provided data on an insuree)"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:66
+msgid "Image 1.2.3 (Policy Enquiry Page-provided data on an insuree)"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:68
+msgid "Photo of the insuree if the photo has been stored in the web IMIS"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:72
+msgid "Insuree Name"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:74
+msgid "Gender"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:76
+msgid "Birth Date"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:80
+msgid ""
+"For each policy by which the insuree is covered the following data are "
+"shown:"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:83
+msgid "Insurance Product Code"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:85
+msgid "Insurance Product Name"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:87
+msgid "Expiry Date of the Policy"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:89
+msgid "Status of the Policy"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:93
+msgid ""
+"Click on the icon **<-** in the upper part of the `Enquire Page "
+"<#image-2.2.2-enquire-page>`__ to return to the `Home Page <#image-2.1.2"
+"-home-page>`__ ."
+msgstr ""
+

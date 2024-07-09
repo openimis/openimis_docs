@@ -1,0 +1,1049 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../mobile_user_manual/enroll.rst:2
+msgid "**Function Enrol**"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:4
+msgid ""
+"The function Enrol is navigated to by clicking on the menu item **Enrol**"
+" in the main menu. The function Enrol allows to enter data on new "
+"families/insurees/policies/contributions and/or modify data on "
+"families/insurees downloaded from the web IMIS. The `Families Page "
+"<#image-1.3.1-acquire-page>`__ appears immediately:"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:13
+msgid "Image 1.4.1 (Families Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:15
+msgid ""
+"To add a new family click on the icon **+**. The `Add new family Page "
+"<#image-1.4.2-add-new-family-page>`__ appears."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:21
+msgid "Image 1.4.2 (Add new family Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:23
+#: ../../mobile_user_manual/enroll.rst:108
+#: ../../mobile_user_manual/enroll.rst:358
+#: ../../mobile_user_manual/enroll.rst:582
+msgid "The following data fields appear:"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:25
+msgid "Region"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:29
+msgid ""
+"The region of residence of a new family/group. The data field is "
+"initialized by the region of activity of the enrolment officer in "
+"accordance with the register of enrolment officers in the web IMIS. "
+"Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:34
+msgid "District"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:38
+msgid ""
+"The district of the residence of the new family/group. The data field is "
+"initialized by the district of activity of the enrolment officer in "
+"accordance with the register of enrolment officers in the web IMIS. "
+"Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:43
+msgid "Municipality"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:47
+msgid ""
+"The municipality of the residence of the new family/group. The data field"
+" is initialized by the municipality of activity of the enrolment officer "
+"in accordance with the register of enrolment officers in the web IMIS. If"
+" the enrolment officer is active in more municipalities of the district "
+"then the drop down list associated with the data field is modified "
+"accordingly. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:54
+msgid "Village"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:58
+msgid ""
+"The village of residence of the new family/group. The data field is "
+"initialized by the village of activity of the enrolment officer in "
+"accordance with the register of enrolment officers in the web IMIS. If "
+"the enrolment officer is active in more villages of the municipality then"
+" the drop down list associated with the data field is modified "
+"accordingly. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:65
+msgid "Poverty Status"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:69
+msgid ""
+"Select one of the offered options from the drop down list associated with"
+" the data field. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:72
+msgid "Confirmation Type"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:76
+msgid ""
+"Select one of the offered options for the type of confirmation document "
+"from the drop down list associated with the data field. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:80
+msgid "Confirmation No."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:84
+msgid "Enter an identification of a confirmation document. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:86
+msgid "Group Type."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:90
+msgid ""
+"Select one of the offered options for the type of the group from the drop"
+" down list associated with the data field. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:93
+msgid "Permanent Address Details."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:97
+msgid ""
+"Enter further details to the address of residence of the family/group. "
+"Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:100
+msgid ""
+"Click on the button **Next** to navigate to the `Add/Edit Insuree Page "
+"<#image-1.4.3-addedit-insuree-page>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:106
+msgid "Image 1.4.3 (Add/Edit Insuree Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:110
+#: ../../mobile_user_manual/enroll.rst:367
+msgid "Insurance Number"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:114
+msgid ""
+"Either enter the insurance number of the head of the family/group or "
+"obtain the insurance number by scanning of a QR code by clicking on the "
+"**QR** button. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:118
+#: ../../mobile_user_manual/enroll.rst:375
+msgid "Other Names"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:122
+msgid "Enter other names of the head of the family/group. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:124
+#: ../../mobile_user_manual/enroll.rst:381
+msgid "Last Name"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:128
+msgid "Enter a last name of the head of the family/group. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:130
+#: ../../mobile_user_manual/enroll.rst:387
+msgid "Photo area"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:134
+msgid ""
+"Either previously acquired photo of the head of the family/group is "
+"inserted automatically based on the equality of the Insurance Number here"
+" and of the Insurance Number from the `Acquire Page <#image-1.3.1"
+"-acquire-page>`__ or tap in the photo area and choose a photo from your "
+"folder in the device. A photo must be assigned otherwise the family/group"
+" cannot be uploaded to the web IMIS. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:142
+#: ../../mobile_user_manual/enroll.rst:399
+msgid "Birth Date"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:146
+msgid ""
+"Tap on the data field and select a birth date of the head of the "
+"family/group in the date selector. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:149
+#: ../../mobile_user_manual/enroll.rst:406
+msgid "Gender"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:153
+msgid ""
+"Select the gender of the head of the family/group from the drop down "
+"list. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:156
+#: ../../mobile_user_manual/enroll.rst:413
+msgid "Marital Status"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:160
+msgid ""
+"Select the marital status of the head of the family/group from the drop "
+"down list. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:163
+#: ../../mobile_user_manual/enroll.rst:420
+msgid "Beneficiary Card"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:167
+msgid ""
+"Select from the drop down list whether a beneficiary card was given to "
+"the head of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:170
+#: ../../mobile_user_manual/enroll.rst:427
+msgid "Current Region"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:174
+msgid ""
+"Region of a current residence of the head of the family/group if it "
+"differs from the permanent residence. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:177
+#: ../../mobile_user_manual/enroll.rst:435
+msgid "Current District"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:181
+msgid ""
+"District of a current residence of the head of the family/group if it "
+"differs from the permanent residence. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:184
+#: ../../mobile_user_manual/enroll.rst:443
+msgid "Current Municipality"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:188
+msgid ""
+"Municipality of a current residence of the head of the family/group if it"
+" differs from the permanent residence. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:191
+#: ../../mobile_user_manual/enroll.rst:451
+msgid "Current Village"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:195
+msgid ""
+"Village of a current residence of the head of the family/group if it "
+"differs from the permanent residence. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:198
+#: ../../mobile_user_manual/enroll.rst:459
+msgid "Current Address Details"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:202
+msgid ""
+"Address details of a current residence of the head of the family/group if"
+" it differs from the permanent residence. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:205
+#: ../../mobile_user_manual/enroll.rst:467
+msgid "Profession"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:209
+msgid ""
+"Select one of the offered options for profession of the head of the "
+"family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:212
+#: ../../mobile_user_manual/enroll.rst:474
+msgid "Education"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:216
+msgid ""
+"Select one of the offered options for education of the head of the "
+"family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:219
+#: ../../mobile_user_manual/enroll.rst:481
+msgid "Phone Number"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:223
+msgid "Enter a phone number of the head of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:225
+#: ../../mobile_user_manual/enroll.rst:487
+msgid "Email"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:229
+msgid "Enter an email of the head of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:231
+#: ../../mobile_user_manual/enroll.rst:493
+msgid "Identification Type"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:235
+msgid ""
+"Select one of the offered options for the type of an identity document of"
+" the head of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:238
+#: ../../mobile_user_manual/enroll.rst:500
+msgid "Identification Number"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:242
+msgid ""
+"Enter an identification of identity document of the head of the "
+"family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:245
+#: ../../mobile_user_manual/enroll.rst:507
+msgid "Region of FSP"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:249
+msgid "Region of a First Service Point of the head of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:252
+#: ../../mobile_user_manual/enroll.rst:514
+msgid "District of FSP"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:256
+msgid ""
+"District of the First Service Point of the head of the family/group. "
+"Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:259
+#: ../../mobile_user_manual/enroll.rst:521
+msgid "Level of FSP"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:263
+msgid ""
+"Select the level of a health facility that serves as the First Service "
+"Point of the head of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:266
+#: ../../mobile_user_manual/enroll.rst:528
+msgid "First Service Point"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:270
+msgid ""
+"Select the health facility that serves as the First Service Point of the "
+"head of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:273
+msgid ""
+"Click on the button **Save** to save the data of the head of the "
+"family/group in the memory of the device. The `Family and Insurees Page "
+"<#image-1.4.4-family-and-insurees-page>`__ is displayed after a "
+"successful saving:"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:281
+msgid "Image 1.4.4 (Family and Insurees Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:283
+msgid "There are four options now:"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:285
+msgid "Editing or deleting of the head of family/group."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:287
+#: ../../mobile_user_manual/enroll.rst:328
+msgid "Adding a new family/group"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:289
+msgid "Adding a new member to the family/group."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:291
+msgid "Assigning of a new policy to the family/group."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:294
+msgid "Editing or deleting of a family/group"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:296
+msgid ""
+"By clicking on the icon **<three vertical dots>** with the head of the "
+"family/group in the `Family and Insurees Page <#image-1.4.5-family-and-"
+"insurees-page-the-menu-associated-with-the-head>`__ a menu appears with "
+"options of editing of the data of the head of the family or of deleting "
+"of the head of the family/group."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:305
+msgid "Image 1.4.5 (Family and Insurees Page-the menu associated with the head)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:307
+msgid ""
+"Selecting the item **Delete** an alert box appears saying that the head "
+"of a family/group cannot be deleted in this situation. This possible only"
+" in the context of the `Families Page <#image-1.4.1-families-page>`__ "
+"where it is considered as deleting of the whole family/group."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:313
+msgid ""
+"Selecting the item **Edit** the `Add/Edit Insuree Page <#image-1.4.6"
+"-addedit-insuree-page>`__ appears with the data of the head of a "
+"family/group that should be edited."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:320
+msgid "Image 1.4.6 (Add/Edit Insuree Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:322
+msgid ""
+"Click on the button **Save** to save the edited data of the head of the "
+"family/group in the memory of the local device. The `Family and Insurees "
+"Page <#image-1.4.4-family-and-insurees-page>`__ is displayed after a "
+"successful saving."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:330
+msgid ""
+"Clicking on the <three bars horizontally> icon (the upper left corner of "
+"the `Family and Insurees Page <#image-1.4.4-family-and-insurees-page>`__ "
+") the main menu of the application appears. Select **Enrol** to navigate "
+"to the `Families Page <#image-1.4.7-families-page>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:338
+msgid "Image 1.4.7 (Families Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:340
+msgid ""
+"By clicking on the icon **+** in the `Families Page <#image-1.4.4-family-"
+"and-insurees-page>`__ the `Add new family Page <#image-1.4.2-add-new-"
+"family-page>`__ appears and a new head of a family/group can be added."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:346
+msgid "Adding a new member of a family/group"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:348
+msgid ""
+"By clicking on the icon **+** in the `Family and Insurees Page "
+"<#image-1.4.4-family-and-insurees-page>`__ the `Add/Edit Insuree Page "
+"<#image-1.4.8-addedit-insuree-page>`__ appears and a new member of the "
+"family/group can be added."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:356
+msgid "Image 1.4.8 (Add/Edit Insuree Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:360
+msgid "Relationship"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:364
+msgid ""
+"Select one of the offered relationships of the member to the head of the "
+"family/group. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:371
+msgid ""
+"Either enter the insurance number of the member of the family/group or "
+"obtain the insurance number by scanning of a QR code by clicking on the "
+"**QR** button. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:379
+msgid "Enter other names of the member of the family/group. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:385
+msgid "Enter the last name of the member of the family/group. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:391
+msgid ""
+"Either previously acquired photo of the member of the family/group is "
+"inserted automatically based on the equality of the Insurance Number here"
+" and of the Insurance Number from the `Acquire Page <#image-1.3.1"
+"-acquire-page>`__ or tap in the photo area and choose a photo from your "
+"folder in the device. A photo must be assigned otherwise the family/group"
+" cannot be uploaded to the web IMIS. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:403
+msgid ""
+"Tap on the data field and select a birth date of the member of the "
+"family/group in the date selector. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:410
+msgid ""
+"Select a gender of the member of the family/group from the drop down "
+"list. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:417
+msgid ""
+"Select the marital status of the member of the family/group from the drop"
+" down list. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:424
+msgid ""
+"Select from the drop down list whether a beneficiary card was given to "
+"the member of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:431
+msgid ""
+"Region of a current residence of the member of the family/group if it "
+"differs from the permanent residence of the member of the family/group. "
+"Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:439
+msgid ""
+"District of a current residence of the member of the family/group if it "
+"differs from the permanent residence of the member of the family/group. "
+"Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:447
+msgid ""
+"Municipality of a current residence of the member of the family/group if "
+"it differs from the permanent residence of the member of the "
+"family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:455
+msgid ""
+"Village of a current residence of the member of the family/group if it "
+"differs from the permanent residence of the member of the family/group. "
+"Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:463
+msgid ""
+"Address details of a current residence of the member of the family/group "
+"if it differs from the permanent residence of the member of the "
+"family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:471
+msgid ""
+"Select one of the offered options for profession of the member of the "
+"family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:478
+msgid ""
+"Select one of the offered options for education of the member of the "
+"family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:485
+msgid "Enter a phone number of the member of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:491
+msgid "Enter an email of the member of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:497
+msgid ""
+"Select one of the offered options for the type of an identity document of"
+" the member of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:504
+msgid ""
+"Enter an identification of identity document of the member of the "
+"family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:511
+msgid ""
+"Region of a First Service Point of the member of the family/group. "
+"Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:518
+msgid ""
+"District of the First Service Point of the member of the family/group. "
+"Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:525
+msgid ""
+"Select the level of a health facility that serves as the First Service "
+"Point of the member of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:532
+msgid ""
+"Select the health facility that serves as the First Service Point of the "
+"member of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:535
+msgid ""
+"Click on the button **Save** to save the data on the member of the "
+"family/group in the memory of the device. The `Family and Insurees Page "
+"<#image-1.4.4-family-and-insurees-page>`__ is displayed after a "
+"successful saving:"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:546
+msgid "Image 1.4.9 (Family and Insurees Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:548
+#: ../../mobile_user_manual/enroll.rst:663
+#: ../../mobile_user_manual/enroll.rst:811
+msgid "There are three options now:"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:550
+msgid ""
+"a) Adding again a new member the family/group (just click on the icon "
+"**+** in the `Family and Insurees Page) <#image-1.4.9-family-and-"
+"insurees-page>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:554
+msgid ""
+"b) Editing or deleting of a member (just click on the icon **<three "
+"vertical dots>** with a member in the `Family and Insurees Page "
+"<#image-1.4.9-family-and-insurees-page>`__ a menu appears with options of"
+" editing of the data of the member or of deleting of a member of the "
+"family/group."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:560
+msgid "Assigning a new policy to the family/group."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:563
+msgid "Assigning of a policy"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:565
+msgid ""
+"By clicking on the button **Policy** the `Family and Policies Page "
+"<#image-1.4.10-family-and-policies-page>`__ appears and a new policy can "
+"by assigned to the family/group."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:572
+msgid "Image 1.4.10 (Family and Policies Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:574
+msgid ""
+"Click on the icon **+** to navigate to the `Add/Edit Policies Page "
+"<#image-1.4.11-addedit-policies-page>`__:"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:580
+msgid "Image 1.4.11 (Add/Edit Policies Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:584
+msgid "Enrolment Date"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:588
+msgid ""
+"Tap on the data field and select an enrolment date for the policy in the "
+"date selector. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:591
+msgid "Product"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:595
+msgid "Select one of the offered insurance products for the policy. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:598
+msgid "Effective date"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:602
+msgid ""
+"Read-only calculated data field. Contains the date of effective starting "
+"of the policy taking into account all features of the selected insurance "
+"products and the date of payment of a contribution."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:607
+msgid "Start Date"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:611
+msgid ""
+"Assumed starting date of the policy without taking into account the date "
+"of payment of the contribution. Calculated data field based on the "
+"enrolment date and the selected insurance product that can be modified. "
+"Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:616
+msgid "Expiry Date"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:620
+msgid ""
+"Assumed expiry date of the policy without taking into account the date of"
+" payment of the contribution. Calculated data field based on the starting"
+" date and the selected insurance product that can be modified. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:625
+#: ../../mobile_user_manual/enroll.rst:775
+msgid "Policy Status"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:629
+msgid ""
+"Read-only data field. Assigned policy status on the device. Actual policy"
+" status can change in the web IMIS after uploading."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:632
+#: ../../mobile_user_manual/enroll.rst:782
+msgid "Policy Value"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:636
+#: ../../mobile_user_manual/enroll.rst:786
+msgid ""
+"Read-only data field. Calculated policy value that should be covered by "
+"contributions."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:639
+#: ../../mobile_user_manual/enroll.rst:789
+msgid "Contribution"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:643
+#: ../../mobile_user_manual/enroll.rst:793
+msgid "Read-only data field. Calculated value of already assigned contributions."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:646
+#: ../../mobile_user_manual/enroll.rst:796
+msgid "Balance"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:650
+msgid ""
+"Read-only data field. Calculated value of the balance Policy Value - "
+"Contribution"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:653
+msgid ""
+"Click on the button **Save** to save the data on the policy in the memory"
+" of the device. The `Family and Policies Page <#image-1.4.12-family-and-"
+"policies-page>`__ is displayed after a successful saving."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:661
+msgid "Image 1.4.12 (Family and Policies Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:665
+msgid ""
+"a) Assigning a new policy to the family/group (just by clicking on the "
+"icon **+** in the `Family and Policies Page <#image-1.4.12-family-and-"
+"policies-page>`__ the `Add/Edit Policy Page <#image-1.4.11-addedit-"
+"policies-page>`__ appears and the new policy can be assigned)."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:671
+msgid "Editing or deleting of the policy."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:673
+msgid "Assigning a new contribution to the policy."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:676
+msgid "Editing or deleting of a policy"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:678
+msgid ""
+"By clicking on the icon **<three vertical dots>** with the policy in the "
+"`Family and Policies Page <#image-1.4.13-families-and-policies-page-the-"
+"menu-associated-with-the-policy>`__ a menu appears with options of "
+"editing of the data of the policy or of deleting of the policy."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:687
+msgid ""
+"Image 1.4.13 (Families and Policies Page-the menu associated with the "
+"policy)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:689
+msgid ""
+"By selecting **Edit** the `Add/Edit Policy Page <#image-1.4.13-families-"
+"and-policies-page-the-menu-associated-with-the-policy>`__ appears and the"
+" data of the policy can be edited. By selecting **Delete** the "
+"`Confirmation Box <#image-1.4.14-families-and-policies-page-confirmation-"
+"of-deleting>`__ appears that asks for a confirmation of the deleting. "
+"Deleting a policy means also deleting of all contributions associated "
+"with the policy."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:700
+msgid "Image 1.4.14 (Families and Policies Page-confirmation of deleting)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:702
+msgid ""
+"The `Family and Policies Page <#image-1.4.10-family-and-policies-page>`__"
+" is displayed after a successful deleting."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:707
+msgid "Assigning of a new contribution to the policy"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:709
+msgid ""
+"By clicking on the icon **<three vertical dots>** with the policy in the "
+"`Family and Policies Page <#image-1.4.13-families-and-policies-page-the-"
+"menu-associated-with-the-policy>`__ a menu appears with options of "
+"editing of the data of the policy, of deleting of the policy and "
+"assigning a contribution (**Payment**). Select **Payment**. The "
+"`Contribution Page <#image-1.4.13-families-and-policies-page-the-menu-"
+"associated-with-the-policy>`__ appears:"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:721
+msgid "Image 1.4.15 (Contribution Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:723
+msgid ""
+"Click on the **+** icon to add a new contribution. The `Add/Edit "
+"Contribution Page <#image-1.4.16-addedit-contribution-page>`__ appears "
+"with the following data fields:"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:730
+msgid "Image 1.4.16 (Add/Edit Contribution Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:732
+msgid "Payer"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:736
+msgid ""
+"Either leave it blank or select one of the offered payers of the "
+"contribution. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:739
+msgid "Contribution Category"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:743
+msgid "Select one of the offered categories for the contribution. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:745
+msgid "Contribution Paid"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:749
+msgid ""
+"The amount of the contribution. If the Contribution and Others is "
+"selected in the data field Contribution Category then the data field "
+"Contribution Paid is prefilled by the amount still to be paid to reach "
+"the policy value. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:754
+msgid "Receipt No"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:758
+msgid ""
+"An identification of the receipt issued for the paid contribution. "
+"Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:761
+msgid "Payment Date"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:765
+msgid ""
+"Tap on the data field and select a payment date of the contribution in "
+"the date selector. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:768
+msgid "Payment Type"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:772
+msgid "Select one of the offered types of payment of the contribution. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:779
+msgid ""
+"Read-only data field. Assigned policy status in the device. Actual policy"
+" status can change in the web IMIS after uploading."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:798
+msgid ""
+"Read-only data field. Calculated value of the balance Policy Value – "
+"Contribution"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:801
+msgid ""
+"Click on the button **Save** to save the data on the contribution in the "
+"memory of the device. The `Contribution Page <#image-1.4.17-contribution-"
+"page>`__ is displayed after a successful saving:"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:809
+msgid "Image 1.4.17 (Contribution Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:813
+msgid ""
+"a) Assigning a new contribution to the same policy (just by clicking on "
+"the icon + the `Add/Edit Contribution Page <#image-1.4.16-addedit-"
+"contribution-page>`__ appears and a new contribution can be added)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:818
+msgid "Editing or deleting of the contribution."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:820
+msgid "Adding of a new family or editing existing ones."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:823
+msgid "Editing or deleting of the contribution"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:825
+msgid ""
+"By clicking on the icon **<three vertical dots>** with the contribution "
+"in the `Contribution Page <#image-1.4.18-contribution-page-the-menu-"
+"associated-with-the-contribution>`__ a menu appears with options of "
+"editing of the data of the contribution and of deleting of the "
+"contribution."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:834
+msgid "Image 1.4.18 (Contribution Page-the menu associated with the contribution)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:836
+msgid ""
+"By selecting **Edit** the `Add/Edit Contribution Page <#image-1.4.16"
+"-addedit-contribution-page>`__ appears and the data of the contribution "
+"can be edited. By selecting **Delete** the contribution is deleted "
+"without a confirmation prompt."
+msgstr ""
+

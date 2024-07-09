@@ -1,0 +1,200 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../user_manual/tools/reports/claim_history.rst:2
+msgid "Claim History Report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:6
+msgid ""
+"The Claim Overview report is an essential tool for communication between "
+"an insurer and health facilities. This report assumes that a health "
+"facility is given and all claims according to other specific criteria are"
+" included in the report."
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:8
+msgid ""
+"The required Claim History report is very similar to the Claim Overview "
+"report but it is centred around a given insuree. All claims belonging to "
+"an insuree according to other specific criteria are included in the Claim"
+" History report. The way of displaying of claims is similar to the Claim "
+"Overview report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:10
+msgid "Parameters for selection for the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:16
+#: ../../user_manual/tools/reports/claim_history.rst:89
+msgid "`Claim History Report`"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:18
+msgid "Input parameters of the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:20
+msgid ""
+"Date From -the start date of period, in which a visit was accomplished or"
+" a discharge took place-obligatory"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:22
+msgid "Date To- the end date of the period –obligatory"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:24
+msgid ""
+"Region – the region of health facilities for which the claim history "
+"should be included"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:26
+msgid ""
+"District– the district  of health facilities for which the claim history "
+"should be included"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:28
+msgid ""
+"Insurance Product – the insurance product for which the claim history "
+"should be included"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:30
+msgid ""
+"Health Facility-the health facility for which the claim history should be"
+" included"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:32
+msgid ""
+"Insurance Number- the insurance number of an insure(patient) for whom the"
+" claim history should be included - obligatory"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:34
+msgid ""
+"Claim Status –the status of claims that should be included in the report "
+"(from a drop down list of possible states of a claim)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:36
+msgid ""
+"Scope-the level of details that are included with a claim in the report "
+"(Claims Only, Claims and Rejection Details, Claims and All Details – see "
+"RfC 95)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:39
+msgid "The title of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:41
+msgid "See Input paramaters"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:43
+msgid "Date From  - first claim date to be considered in the report **Mandatory**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:45
+msgid "Date To  - last claim date to be considered in the report **Mandatory**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:47
+msgid "Region – if it was entered"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:49
+msgid "District –if it was entered"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:51
+msgid "Health Facility (the code and the name)- if it was entered"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:53
+msgid "Insurance product (the code and the name)-if it was entered"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:55
+msgid "Scope  (claim only, Claims and rejection details, Claimn and all details)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:57
+msgid "Claim Status (Entered, Checked, Processed, Valuated, Rejected)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:59
+msgid ""
+"Insurance number, the name of the insuree (Other Name, Last Name) and "
+"his/her birth date **Mandatory**"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:61
+msgid "Content of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:63
+msgid "The report contains the list of items with the following structure:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:65
+msgid ""
+"If a region, a district or specific health facility are not entered in "
+"the corresponding input parameter then claims displayed are broken down "
+"according to these attributes in sections:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:67
+msgid "Region"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:69
+#: ../../user_manual/tools/reports/claim_history.rst:76
+msgid "District"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:71
+#: ../../user_manual/tools/reports/claim_history.rst:78
+msgid "Health facility (the code and the name)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:73
+msgid ""
+"If an attribute given above is entered the corresponding section is "
+"missing ( and the parameter is moved into the title of the whole report)."
+" Example: If only a region is given the claim history relates only to "
+"health facilities in the region. The region is in the title of the report"
+" and the body of the report is split into sections:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:80
+msgid ""
+"At the bottom of the report the total number of rejected photos in the "
+"report is included."
+msgstr ""
+
+#: ../../user_manual/tools/reports/claim_history.rst:82
+msgid "Example"
+msgstr ""
+

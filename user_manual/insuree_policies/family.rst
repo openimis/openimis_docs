@@ -1,7 +1,7 @@
-
-
 Family/Group
 ^^^^^^^^^^^^
+
+.. contents:: Table of Contents
 
 Find Family
 """""""""""
@@ -58,8 +58,9 @@ Navigation
     * ``Head/Member Insuree Last Name``
 
       Type in the beginning of; or the full ``Last name``; to search for families/groups, who’s family/group head (/member) ``Last name``, starts with or matches completely, the typed text.
-
-    * ``Head/Member Insuree Other Names``
+```
+sphinx-build -b latex .\ .\_build\latex\
+```
 
       Type in the beginning of; or the full ``Other Names`` to search for families/groups, who’s family/group head(/member) ``Other Names`` starts with or matches completely, the typed text.
 

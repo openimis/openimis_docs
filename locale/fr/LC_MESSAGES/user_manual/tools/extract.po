@@ -83,7 +83,7 @@ msgstr "Invites pour l'acquisition de commentaires**(Télécharger les commentai
 
 
 msgid "**Enrolment Officers Code**: Enter the code of an enrolment officer for whom the master data and prompts should be generated."
-msgstr "**Code d'agent d'inscription **: Entrez le code d'un agent d'inscription pour lequel les données de base et les invites doivent être générées."
+msgstr "**Code d'agent d'inscription**: Entrez le code d'un agent d'inscription pour lequel les données de base et les invites doivent être générées."
 
 
 msgid "**B - Create Phone Extract section**"

@@ -14,8 +14,6 @@
 #
 import os
 import sys
-#import sphinx_numfig
-# sys.path.insert(0, os.path.abspath('.'))
 
 from os.path import abspath, join, dirname
 
@@ -66,11 +64,10 @@ master_doc = 'index'
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
 language = 'en'
-# language = 'fr'
+
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path .
-
 exclude_patterns = [u'_build', u'ar_manual', 'Thumbs.db', '.DS_Store']
 
 # The name of the Pygments (syntax highlighting) style to use.
@@ -81,7 +78,7 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#
+
 import sphinx_rtd_theme
 html_theme = 'sphinx_rtd_theme'
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
@@ -178,7 +175,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'openIMIS', u'openIMIS Documentation',
-     author, 'openIMIS', 'opneIMIS is a health insurance management solution',
+     author, 'openIMIS', 'openIMIS is a health insurance management solution',
      'Miscellaneous'),
 ]
 
@@ -203,7 +200,6 @@ intersphinx_mapping = {
 
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
-
 
 ## Gen menu
 import gensidebar

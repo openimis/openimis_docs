@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../user_manual/tools/reports/insuree_without_photo.rst:2
+msgid "Insurees without photos"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_without_photo.rst:4
+msgid ""
+"The report lists all insurees according to enrolment officers that have "
+"not assigned a photo. The report can be run by users with thesystem role "
+"Accountant or with a role including an access to Tools/Reports/Insurees "
+"without Photos.  (:ref:`Image 234<image234>`)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_without_photo.rst:6
+msgid "Parameters for selection for the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_without_photo.rst:12
+msgid "`Image 214 - Insurees without photos Report Criteria`"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_without_photo.rst:14
+msgid "Input parameters of the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_without_photo.rst:16
+msgid "Region – the region that should be included"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_without_photo.rst:18
+msgid "District – the district that should be included"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_without_photo.rst:20
+msgid "Enrolment officer"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_without_photo.rst:22
+msgid "The title of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_without_photo.rst:24
+msgid "See Input paramaters"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_without_photo.rst:26
+msgid "Content of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_without_photo.rst:28
+msgid ""
+"This report is sorted by District / Enrolment office / Municipality / "
+"Village"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_without_photo.rst:30
+msgid "Insurance number"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_without_photo.rst:32
+msgid "Last name of the insuree"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_without_photo.rst:34
+msgid "Other names of the Insuree"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_without_photo.rst:36
+msgid "Gender"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_without_photo.rst:38
+msgid "is head of the family"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_without_photo.rst:41
+msgid "Example"
+msgstr ""
+
+#: ../../user_manual/tools/reports/insuree_without_photo.rst:47
+msgid "`Image 234 - Preview – Insurees without photos`"
+msgstr ""
+

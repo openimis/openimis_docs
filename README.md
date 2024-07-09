@@ -2,12 +2,7 @@
 
 # openIMIS Documentation
 
-This repository contains all documentation of openIMIS:
-
-* installation guides
-* user documentation
-* functional specification
-* import tools templates
+This repository contains the user documentation of openIMIS, please refer to the [openIMIS Wiki](https://openimis.org/wiki) for further documentation like installation guides, functional specification and import tools templates.
 
 ## Contribution
 
@@ -17,9 +12,11 @@ to contribute to this existing documentation.
 
 The ReadTheDocs documentation will be generated upon commit to the master branch.
 
-## build locally
+## Build locally
 
-install Sphinx
+```
+sphinx-autobuild . _build/html --port 5000
+```
 
 ```
 pip install -U sphinx
@@ -35,13 +32,16 @@ first generate the LATEX file(s)
 sphinx-build -b latex .\ .\_build\latex\
 ```
 
-then use your favourite latex tool to generate the PDF
+
+Then use your favorite latex tool to generate the PDF
+
 or
+
 ```
 pdflatex.exe .\_build\latex\openIMIS.tex
 ```
 
-* for HTML
+### Generate HTML pages
 
 ```
 sphinx-build -b html .\ .\_build\html\

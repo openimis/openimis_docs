@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:2
+msgid "Function Map Services"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:4
+msgid ""
+"The function Map Services is navigated to by clicking on the menu item "
+"**Map Services** in the main menu. The function Map Services allows "
+"customization of the list of medical services that will be used for "
+"entering of claims within the application. It could be regarded as manual"
+" creation of a payment list of medical services for purpose of the set-up"
+" of the application. The `Map Services Page <#image-2.3.1-map-services-"
+"page>`__ appears immediately:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:15
+msgid "Image 2.3.1 (Map Services Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:17
+msgid ""
+"The `Map Services Page <#image-1.3.1-acquire-page>`__ lists all medical "
+"services from the register of medical services in the web IMIS with "
+"adjacent checking boxes. The displayed list can be constraint to only "
+"services containing a substring in their title and/or code in the box "
+"Search Services."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:23
+msgid "A customized list of services can be created either"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:25
+msgid "checking of check boxes adjacent to selected medical services"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:27
+#: ../../mobile_user_manual/claim_map_services_items.rst:67
+msgid "or"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:29
+msgid ""
+"b) reducing the total list of medical services by entering a substring "
+"into the box Search Services and checking the check box Check/Uncheck "
+"All."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:33
+msgid ""
+"Saving of the customized list of medical services is done by clicking on "
+"the <three dots vertically> icon in the upper right corner and clicking "
+"on the menu item **Save.** A confirmation box appears."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:37
+msgid ""
+"Click on the icon **<-** in the upper part of the `Map Services Page "
+"<\\l>`__ to return to the `Home Page <#image-2.1.2-home-page>`__\\ **.**"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:42
+msgid "Function Map Items"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:44
+msgid ""
+"The function Map Items is navigated to by clicking on the menu item **Map"
+" Items** in the main menu. The function Map Items allows customization of"
+" the list of medical items that will be used for entering of claims "
+"within the application. It could be regarded as manual creation of a "
+"payment list of medical items for purpose of the set-up of the "
+"application. The `Map Items Page <#image-2.4.1-map-items-page>`__ appears"
+" immediately:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:55
+msgid "Image 2.4.1 (Map Items Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:57
+msgid ""
+"The `Map Items Page <#image-2.4.1-map-items-page>`__ lists all medical "
+"items from the register of medical items in the web IMIS with adjacent "
+"checking boxes. The displayed list can be constraint to only items "
+"containing a substring in their title and/or code in the box Search "
+"Items."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:63
+msgid "A customized list of items can be created either"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:65
+msgid "checking of check boxes adjacent to selected medical items"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:69
+msgid ""
+"b) reducing the total list of medical items by entering a substring into "
+"the box Search Items and checking the check box Check/Uncheck All."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:72
+msgid ""
+"Saving of the customized list of medical items is done by clicking on the"
+" <three dots vertically> icon in the upper right corner and clicking on "
+"the menu item **Save.** A confirmation box appears."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:76
+msgid ""
+"Click on the icon **<-** in the upper part of the `Map Items Page "
+"<#image-2.4.1-map-items-page>`__ to return to the `Home Page "
+"<#image-2.1.2-home-page>`__\\ **.**"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:81
+msgid "Function Refresh Mapping"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:83
+msgid ""
+"The function Refresh Mapping is navigated to by clicking on the menu item"
+" **Refresh Mapping** in the main menu. The function Refresh Mapping "
+"reflects valid payment lists of medical services/items from the web IMIS "
+"belonging to the health facility for which the claim administrator is "
+"acting to the lists of medical services/items used for entering of claims"
+" within the application. Subsequently, these lists can be further "
+"adjusted by the functions `Map Services <#function-map-services>`__ and "
+"`Map Items <#function-map-items>`__. The confirmation prompt appears "
+"immediately:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:96
+msgid "Image 2.5.1 (Confirmation Prompt-refreshing mapping)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:98
+msgid ""
+"Confirmation or refusing of refreshing of the mapping appears at the "
+"bottom of `Home Page <#image-2.1.2-home-page>`__ which is subsequently "
+"displayed."
+msgstr ""
+

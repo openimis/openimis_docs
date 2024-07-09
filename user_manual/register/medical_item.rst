@@ -1,7 +1,7 @@
 
 
-Medical Items Administration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Medical Items
+^^^^^^^^^^^^^
 
   The register of Medical Items contains all medical items (drugs, prostheses) that can be included in packages of benefits of insurance products within the health insurance scheme and are remunerated by the scheme administration. Administration of the register of medical items is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Medical Items.
 
@@ -16,7 +16,7 @@ Navigation
   All functionality for use with the administration of medical items can be found under the main menu ``Administration``, sub menu ``Medical Items``
 
   .. _image29:
-  .. figure:: /img/user_manual/image30.png
+  .. figure:: /img/user_manual/med_item_menu.png
     :align: center
 
     `Navigation Medical Items`
@@ -24,7 +24,7 @@ Navigation
   Clicking on the sub menu ``Medical Items`` re-directs the current user to the `Medical Items Control Page <#medical-items-control-page>`__\.
 
   .. _image30:
-  .. figure:: /img/user_manual/image31.png
+  .. figure:: /img/user_manual/med_item_list.png
     :align: center
 
     `Medical Items Control Page`
@@ -38,61 +38,43 @@ Medical Items Control Page
 
     The search panel allows a user to select specific criteria to minimise the search results. In the case of medical items the following search options are available which can be used alone or in combination with each other.
 
-    * ``Code``
-
+    Code
       Type in the beginning of; or the full ``Code``; to search for medical items with a ``Code``, which starts with or matches completely, the typed text.
 
-    * ``Name``
-
+    Name
       Type in the beginning of; or the full ``Name`` to search for medical items with a ``Name``, which starts with or matches completely, the typed text.
 
-    * ``Type``
+    Type
+      Select the ``Type``; from the list of types (Drugs, Medical consumable) by clicking on the arrow on the right of the selector, to select medical items of a specific type.
 
-      Select the ``Type``; from the list of types (Drugs, Medical Prostheses) by clicking on the arrow on the right of the selector, to select medical items of a specific type.
-
-    * ``Package``
-
+    Package
       Type in the beginning of; or the full ``Package``; to search for medical items with a ``Package``, which starts with or matches completely, the typed text.
 
-    * ``Historical``
-
+    Historical
       Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image31`).
 
       .. _image31:
-      .. figure:: /img/user_manual/image32.png
+      .. figure:: /img/user_manual/med_item_history.png
         :align: center
 
         `Historical records - Result Panel`
 
-    * ``Search button``
-
+    Search button
       Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel.
 
  #. **Result Panel**
 
-    The result panel displays a list of all medical items found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image32`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
+    The result panel displays a list of all medical items found, matching the selected criteria in the search panel.
 
-    .. _image32:
-    .. figure:: /img/user_manual/image33.png
-      :align: center
-
-      `Selected record (blue), hovered records (yellow) - Result Panel`
-
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image33`)
+    The number of rows per page is limited to 10 by default but one can use the "Rows per page" drop-down in the bottom right of the search results. If there are more rows to display, one can use the page navigation. (:numref:`image33`)
 
     .. _image33:
-    .. figure:: /img/user_manual/image11.png
+    .. figure:: /img/user_manual/79_pagination.png
       :align: center
+      :width: 50%
 
       `Page selector- Result Panel`
 
- #. **Button Panel**
-
-    With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
-
- #. **Information Panel**
-
-    The Information Panel is used to display messages back to the user. Messages will occur once a medical item has been added, updated or deleted or if there was an error at any time during the process of these actions.
 
 Medical Item Page
 """""""""""""""""
@@ -100,41 +82,33 @@ Medical Item Page
  #. **Data Entry**
 
     .. _image34:
-    .. figure:: /img/user_manual/image34.png
+    .. figure:: /img/user_manual/med_item_new.png
       :align: center
 
       `Medical Item Page`
 
-    * ``Code``
-
+    Code
       Enter the code for the medical item. Mandatory, 6 characters.
 
-    * ``Name``
-
+    Name
       Enter the name of the medical item. Mandatory, 100 characters maximum.
 
-    * ``Type``
-
+    Type
       Choose one from the options available, the type of the medical item. Mandatory.
 
-    * ``Package``
-
+    Package
       Enter the package (Indication of type and volume of package in a suitable coding system) for the medical item. Mandatory, 255 characters maximum.
 
-    * ``Price``
-
+    Price
       Enter the price (a general price that can be overloaded in pricelists). Full general price including potential cost sharing of an insuree) for the medical item. Mandatory.
 
-    * ``Care Type``
-
+    Care Type
       Choose one from the options available, the limitation of provision of the medical item within the specific type of health care (In-patient, Out-patient or Both). Mandatory.
 
-    * ``Frequency``
-
+    Frequency
       Enter the limitation of frequency of provision in a number of days within which a medical item cannot be provided to a patient not more than once. If the frequency is zero, there is no limitation. *Note: By default the frequency is 0.*
 
-    * ``Patient``
-
+    Patient
         Choose one or a combination of the options available, to specify which patient type the medical item may be provided to. *Note: By default all patients’ options are checked (selected).*
 
  #. **Saving**
@@ -159,7 +133,7 @@ Adding a Medical Item
 Editing a Medical Item
 """"""""""""""""""""""
 
-  Click on the ``Edit`` button to re-direct to the `Medical Item Page <#medical-item-page>`__\ .
+  Double-click on a row to re-direct to the `Medical Item Page <#medical-item-page>`__\ .
 
   The page will open with the current information loaded into the data entry fields. See the `Medical Item Page <#medical-item-page>`__ for information on the data entry and mandatory fields.
 
@@ -171,8 +145,9 @@ Deleting a Medical Item
   Before deleting a confirmation popup (:numref:`image35`) is displayed, which requires the user to confirm if the action should really be carried out?
 
   .. _image35:
-  .. figure:: /img/user_manual/image24.png
+  .. figure:: /img/user_manual/med_item_delete.png
     :align: center
+    :width: 50%
 
     `Delete confirmation- Button Panel`
 

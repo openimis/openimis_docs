@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../mobile_user_manual/feedback.rst:2
+msgid "**Function Feedback**"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:4
+msgid ""
+"The function Feedback is navigated to by clicking on the menu item "
+"**Feedback** in the main menu. The function Feedback allows getting of "
+"prompts for feedbacks on claims from the web IMIS and saving (posting) of"
+" feedbacks. A user must have a valid User Name and Password provided by "
+"an administrator of the web IMIS with an assigned role incorporating an "
+"access to the functionality **Claims/Claim/Feedback** as an access to the"
+" functionality Renew is guarded by the `Login Page <#image-1.2.1-enquire-"
+"function-login-page>`__ ."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:13
+msgid ""
+"The `Feedbacks Page <#image-1.8.1-feedbacks-page>`__ appears after "
+"selecting **Feedbacks** in the main menu."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:19
+msgid "Image 1.8.1 (Feedbacks Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:21
+msgid ""
+"Swapping around the `Feedbacks Page <#image-1.8.1-feedbacks-page>`__ "
+"leads to the `Login Page <#image-1.7.2-renewals-page-login-page>`__ and "
+"after a successful login shows feedback prompts transferred from the web "
+"IMIS."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:29
+msgid "Image 1.8.2 (Feedbacks Page-Login Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:31
+msgid ""
+"The `Feedbacks Page <#image-1.8.3-feedbacks-page-with-displayed-"
+"prompts>`__ with prompts for acquiring feedbacks appears after the swap "
+"and the successful login."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:39
+msgid "Image 1.8.3 (Feedbacks Page with displayed prompts)"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:41
+msgid ""
+"The list of prompts can be temporarily reduced by entering a string in "
+"the **Search** field. Each feedback prompt contains the following data "
+"items:"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:45
+#: ../../mobile_user_manual/feedback.rst:101
+msgid "Insurance Number"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:49
+msgid "The insurance number of a patient."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:51
+msgid "Name and Other Names"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:55
+msgid "The full name of the patient."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:57
+msgid "Code and Name of Health Facility"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:61
+msgid ""
+"The identification of a health facility that provided health care for "
+"which the feedback is asked."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:64
+#: ../../mobile_user_manual/feedback.rst:94
+msgid "Code of Claim"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:68
+msgid "The identification of a claim for which the feedback is asked."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:70
+msgid "Period"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:74
+msgid "The period in which health care was provided."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:76
+msgid ""
+"Clicking on a selected prompt results in displaying of the `Feedback Page"
+" <#image-1.7.4-renew-page---a-specific-prompt>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:82
+msgid "Image 1.8.4 (Feedback Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:84
+msgid "The following data fields are displayed:"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:86
+msgid "Enrolment Officer Code"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:90
+msgid ""
+"The read-only data field. The code of the enrolment officer giving the "
+"feedback. The data field is populated by the code of the enrolment "
+"officer that launched the application."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:98
+msgid ""
+"The read-only data field. The identification of a claim for which the "
+"feedback is asked."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:105
+msgid ""
+"The read-only data field. The insurance number of the patient of a claim "
+"from whom the feedback is asked for."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:108
+msgid "Feedback Questions"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:110
+msgid "Have you been teated at the health facility on the said date?"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:112
+msgid "Have you been asked for a payment to the health facility or staff?"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:114
+msgid "Have been drugs prescribed to you?"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:116
+msgid "Did you get drugs from the health facility?"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:118
+msgid "Check the box either **Yes** or **No**."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:120
+msgid "Overall Satisfaction Scale"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:124
+msgid "Rate by clicking on an appropriate asterisk."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:126
+msgid ""
+"Click on the button **Save** to save (post) the feedback data for the "
+"claim into the memory of the device. Subsequently it can be uploaded to "
+"the web IMIS by the function `Synchronize <#function-synchronize-1>`__. "
+"The `Feedbacks Page <#image-1.8.3-feedbacks-page-with-displayed-"
+"prompts>`__ is displayed after saving with the prompt just saved being "
+"removed."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:133
+msgid ""
+"Click on the icon **<-** in the upper part of the `Feedbacks Page "
+"<#image-1.8.3-feedbacks-page-with-displayed-prompts>`__ to return to the "
+"`Home Page <#image-1.1.2-home-page>`__ ."
+msgstr ""
+

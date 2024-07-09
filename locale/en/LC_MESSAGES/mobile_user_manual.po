@@ -1,0 +1,3766 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:14+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../mobile_user_manual/acquire.rst:2
+msgid "**Function Acquire**"
+msgstr ""
+
+#: ../../mobile_user_manual/acquire.rst:4
+msgid ""
+"The function Acquire is navigated to by clicking on the menu item "
+"**Acquire** in the main menu. The function Acquire allows to take a photo"
+" of an insuree and to save the photo for subsequent assignment to the "
+"data on the insuree. The `Acquire Page <#image-1.3.1-acquire-page>`__ "
+"appears immediately:"
+msgstr ""
+
+#: ../../mobile_user_manual/acquire.rst:13
+msgid "Image 1.3.1 (Acquire Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/acquire.rst:15
+#: ../../mobile_user_manual/claim.rst:46
+#: ../../mobile_user_manual/claim_offline.rst:144
+#: ../../mobile_user_manual/enquire.rst:42
+#: ../../mobile_user_manual/enquire.rst:70
+#: ../../mobile_user_manual/enroll.rst:110
+#: ../../mobile_user_manual/enroll.rst:367
+#: ../../mobile_user_manual/feedback.rst:45
+#: ../../mobile_user_manual/feedback.rst:101
+#: ../../mobile_user_manual/policy_renew.rst:57
+#: ../../mobile_user_manual/policy_renew.rst:108
+msgid "Insurance Number"
+msgstr ""
+
+#: ../../mobile_user_manual/acquire.rst:19
+msgid ""
+"Either type in the insurance number of the insuree for whom a photo "
+"should be taken or obtain the insurance number by scanning of a QR code "
+"by clicking on the **QR** button."
+msgstr ""
+
+#: ../../mobile_user_manual/acquire.rst:23
+msgid ""
+"Click on the icon **Photo** for taking a photo in left bottom corner of "
+"the page. The `Photo Page <#image-1.3.2-photo-page>`__ appears."
+msgstr ""
+
+#: ../../mobile_user_manual/acquire.rst:29
+msgid "Image 1.3.2 (Photo Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/acquire.rst:31
+msgid ""
+"Subsequently click on the button **Photo** for taking and the icon Ch\\ "
+"eck\\ for accepting of the taken photo. Finally click on button "
+"**Submit** on to the `Acquire Page <#image-1.3.1-acquire-page>`__ save "
+"the acquired photo for further processing in the application."
+msgstr ""
+
+#: ../../mobile_user_manual/acquire.rst:36
+msgid ""
+"Click on the icon **<-** in the upper part of the `Acquire Page "
+"<#image-1.3.1-acquire-page>`__ to return to the `Home Page <#image-1.1.2"
+"-home-page>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:2
+msgid "Function Claim"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:4
+msgid ""
+"The function Claim is navigated to by clicking on the menu item **Claim**"
+" in the main menu. The function Claim allows creating of claims and "
+"posting them in the memory before uploading them to the web IMIS. The "
+"`Claim Page <#image-2.3.1-map-services-page>`__ appears immediately:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:12
+msgid "Image 2.6.1 (Claim Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:14
+msgid ""
+"The following data fields appear in the `Claim Page <#image-2.6.1-claim-"
+"page>`__:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:17
+msgid "Health Facility Code"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:21
+msgid ""
+"The code of the health facility for which the claim is created. The data "
+"field is prefilled by the code of the health facility for which the claim"
+" administrator is acting. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:25
+msgid "Claim Admin"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:29
+msgid ""
+"The code of the claim administrator that is responsible for creation of "
+"the claim. The data field is prefilled by the code of the claim "
+"administrator with which the application is launched. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:33
+msgid "Claim Code"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:37
+msgid "The code of the claim that is created. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:39
+msgid "Guarantee No"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:43
+msgid ""
+"The identification of an guarantee document associated with the claim. "
+"Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:50
+msgid ""
+"Either type in the insurance number of the insuree for whom the claim is "
+"created or obtain the insurance number by scanning of a QR code by "
+"clicking on the **QR** button. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:54
+#: ../../mobile_user_manual/enroll.rst:607
+msgid "Start Date"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:58
+msgid ""
+"Tap on the data field and select a starting date of a contact of the "
+"insuree with the health facility for which the claim is created in the "
+"date selector. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:62
+msgid "End Date"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:66
+msgid ""
+"Tap on the data field and select an ending date of a contact of the "
+"insuree with the health facility for which the claim is created in the "
+"date selector. By default it is pre-filled with the starting date. "
+"Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:71
+msgid "Diagnosis"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:75
+msgid ""
+"Select a main diagnosis from the drop down list of available diagnoses. "
+"Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:78
+msgid "Diagnosis 1-4"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:82
+msgid ""
+"Select a secondary diagnosis (up to four ones) from the drop down list of"
+" available diagnoses. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:85
+msgid "Visit Type"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:89
+msgid ""
+"Select just one of the options: **Emergency**, **Referral** , **Other**. "
+"Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:92
+msgid ""
+"Clicking on the <three dots vertically> icon in the upper right corner of"
+" the `Claim Page <#image-2.6.2-claim-page-the-menu-for-selection-of-the-"
+"list-of-medical-servicesitems>`__ the menu for selection of whether "
+"medical services/items should be entered."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:101
+msgid ""
+"Image 2.6.2 (Claim Page – the menu for selection of the list of medical "
+"services/items)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:103
+msgid ""
+"Clicking on the menu item **Add Services** the `Add Services Page "
+"<#image-2.6.3-add-services-page>`__ and the following data fields appear."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:110
+msgid "Image 2.6.3 (Add Services Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:112
+msgid "Select Service"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:116
+msgid ""
+"Click on the data field and write a letter that is present in the code or"
+" the name of a medical service that should be included. A list of "
+"available services (that is prepared within the function `Map Services "
+"<#function-map-services>`__ or `Refresh Mapping <#function-refresh-"
+"mapping>`__) appears. Select an appropriate medical service from the "
+"list. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:123
+#: ../../mobile_user_manual/claim.rst:168
+msgid "Quantity"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:127
+msgid ""
+"Enter the number of the medical service that should be included in the "
+"claim. The default is 1. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:130
+#: ../../mobile_user_manual/claim.rst:175
+msgid "Amount"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:134
+msgid ""
+"Enter the price of the medical service that should be included in the "
+"claim. The price should be entered only if the medical service is "
+"designated in the corresponding definition of an insurance product in the"
+" web IMIS as a medical service with a price given by a health facility. "
+"Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:140
+msgid ""
+"Click on the button **ADD+** to the medical service to the claim. Click "
+"on the icon **<-** in the upper part of the `Add Services Page "
+"<#image-2.6.3-add-services-page>`__ to return to the `Claim Page. "
+"<#image-2.6.1-claim-page>`__"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:145
+msgid ""
+"Clicking on the menu item **Add Items** the `Add Items Page <#image-2.6.4"
+"-add-items-page>`__ and the following data fields appear."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:155
+msgid "Image 2.6.4 (Add Items Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:157
+msgid "Select Item"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:161
+msgid ""
+"Click on the data field and write a letter that is present in the code or"
+" the name of a medical item that should be included. A list of available "
+"items (that is prepared within the function `Map Items <#function-map-"
+"items>`__ or `Refresh Mapping <#function-refresh-mapping>`__) appears. "
+"Select an appropriate medical item from the list. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:172
+msgid ""
+"Enter the number of the medical item that should be included in the "
+"claim. The default is 1. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:179
+msgid ""
+"Enter the price of the medical item that should be included in the claim."
+" The price should be entered only if the medical item is designated in "
+"the corresponding definition of an insurance product in the web IMIS as a"
+" medical item with a price given by a health facility. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:185
+msgid "Click on the button **ADD+** to add the medical item to the claim."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:187
+msgid ""
+"Click on the icon **<-** in the upper part of the `Add Items Page "
+"<#image-2.6.4-add-items-page>`__ to return to the `Claim Page. "
+"<#image-2.6.5-claim-page>`__"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:194
+msgid "Image 2.6.5 (Claim Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:196
+msgid ""
+"Click on the button **Post Claim** to save just created claim in the "
+"memory of the device."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:199
+msgid ""
+"Click on the button **New Claim** to clear the data fields (with "
+"exception Health Facility Code and Claim Admin) and to prepare the `Claim"
+" Page <#image-2.6.5-claim-page>`__ to an entry of another claim."
+msgstr ""
+
+#: ../../mobile_user_manual/claim.rst:203
+msgid ""
+"Click on the icon **<-** in the upper part of the `Claim Page "
+"<#image-2.6.5-claim-page>`__ to return to the `Home Page <#image-2.1.2"
+"-home-page>`__ ."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_app.rst:4
+msgid "The application IMIS Claims"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_app.rst:2
+msgid "The mobile application IMIS Claims"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:2
+msgid "Function Map Services"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:4
+msgid ""
+"The function Map Services is navigated to by clicking on the menu item "
+"**Map Services** in the main menu. The function Map Services allows "
+"customization of the list of medical services that will be used for "
+"entering of claims within the application. It could be regarded as manual"
+" creation of a payment list of medical services for purpose of the set-up"
+" of the application. The `Map Services Page <#image-2.3.1-map-services-"
+"page>`__ appears immediately:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:15
+msgid "Image 2.3.1 (Map Services Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:17
+msgid ""
+"The `Map Services Page <#image-1.3.1-acquire-page>`__ lists all medical "
+"services from the register of medical services in the web IMIS with "
+"adjacent checking boxes. The displayed list can be constraint to only "
+"services containing a substring in their title and/or code in the box "
+"Search Services."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:23
+msgid "A customized list of services can be created either"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:25
+msgid "checking of check boxes adjacent to selected medical services"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:27
+#: ../../mobile_user_manual/claim_map_services_items.rst:67
+msgid "or"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:29
+msgid ""
+"b) reducing the total list of medical services by entering a substring "
+"into the box Search Services and checking the check box Check/Uncheck "
+"All."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:33
+msgid ""
+"Saving of the customized list of medical services is done by clicking on "
+"the <three dots vertically> icon in the upper right corner and clicking "
+"on the menu item **Save.** A confirmation box appears."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:37
+msgid ""
+"Click on the icon **<-** in the upper part of the `Map Services Page "
+"<\\l>`__ to return to the `Home Page <#image-2.1.2-home-page>`__\\ **.**"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:42
+msgid "Function Map Items"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:44
+msgid ""
+"The function Map Items is navigated to by clicking on the menu item **Map"
+" Items** in the main menu. The function Map Items allows customization of"
+" the list of medical items that will be used for entering of claims "
+"within the application. It could be regarded as manual creation of a "
+"payment list of medical items for purpose of the set-up of the "
+"application. The `Map Items Page <#image-2.4.1-map-items-page>`__ appears"
+" immediately:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:55
+msgid "Image 2.4.1 (Map Items Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:57
+msgid ""
+"The `Map Items Page <#image-2.4.1-map-items-page>`__ lists all medical "
+"items from the register of medical items in the web IMIS with adjacent "
+"checking boxes. The displayed list can be constraint to only items "
+"containing a substring in their title and/or code in the box Search "
+"Items."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:63
+msgid "A customized list of items can be created either"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:65
+msgid "checking of check boxes adjacent to selected medical items"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:69
+msgid ""
+"b) reducing the total list of medical items by entering a substring into "
+"the box Search Items and checking the check box Check/Uncheck All."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:72
+msgid ""
+"Saving of the customized list of medical items is done by clicking on the"
+" <three dots vertically> icon in the upper right corner and clicking on "
+"the menu item **Save.** A confirmation box appears."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:76
+msgid ""
+"Click on the icon **<-** in the upper part of the `Map Items Page "
+"<#image-2.4.1-map-items-page>`__ to return to the `Home Page "
+"<#image-2.1.2-home-page>`__\\ **.**"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:81
+msgid "Function Refresh Mapping"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:83
+msgid ""
+"The function Refresh Mapping is navigated to by clicking on the menu item"
+" **Refresh Mapping** in the main menu. The function Refresh Mapping "
+"reflects valid payment lists of medical services/items from the web IMIS "
+"belonging to the health facility for which the claim administrator is "
+"acting to the lists of medical services/items used for entering of claims"
+" within the application. Subsequently, these lists can be further "
+"adjusted by the functions `Map Services <#function-map-services>`__ and "
+"`Map Items <#function-map-items>`__. The confirmation prompt appears "
+"immediately:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:96
+msgid "Image 2.5.1 (Confirmation Prompt-refreshing mapping)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_map_services_items.rst:98
+msgid ""
+"Confirmation or refusing of refreshing of the mapping appears at the "
+"bottom of `Home Page <#image-2.1.2-home-page>`__ which is subsequently "
+"displayed."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:2
+msgid "Off-line mode of IMIS Claims"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:4
+#: ../../mobile_user_manual/policy_offline.rst:4
+msgid ""
+"The following table gives an overview of functions according to their "
+"requirements towards Internet connectivity and possible off-line "
+"substitutions."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:9
+msgid "IMIS Claims"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:11
+#: ../../mobile_user_manual/policy_offline.rst:11
+msgid "Functionality"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:11
+#: ../../mobile_user_manual/policy_offline.rst:11
+msgid "connectivity required /autonomous"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:11
+#: ../../mobile_user_manual/policy_offline.rst:11
+msgid "Off-line substitution"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:14
+#: ../../mobile_user_manual/policy_offline.rst:14
+msgid "Initial launching"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:14
+#: ../../mobile_user_manual/claim_offline.rst:18
+#: ../../mobile_user_manual/claim_offline.rst:26
+#: ../../mobile_user_manual/claim_offline.rst:32
+#: ../../mobile_user_manual/policy_offline.rst:14
+#: ../../mobile_user_manual/policy_offline.rst:18
+#: ../../mobile_user_manual/policy_offline.rst:24
+#: ../../mobile_user_manual/policy_offline.rst:26
+#: ../../mobile_user_manual/policy_offline.rst:28
+#: ../../mobile_user_manual/policy_offline.rst:32
+#: ../../mobile_user_manual/policy_offline.rst:36
+#: ../../mobile_user_manual/policy_offline.rst:38
+msgid "connectivity required"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:14
+#: ../../mobile_user_manual/claim_offline.rst:18
+msgid "yes, by off-line transfer of a phone extract"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:18
+#: ../../mobile_user_manual/policy_offline.rst:18
+msgid "Enquire"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:22
+msgid "Map Services"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:22
+#: ../../mobile_user_manual/claim_offline.rst:24
+#: ../../mobile_user_manual/claim_offline.rst:28
+#: ../../mobile_user_manual/claim_offline.rst:30
+#: ../../mobile_user_manual/claim_offline.rst:36
+#: ../../mobile_user_manual/claim_offline.rst:38
+#: ../../mobile_user_manual/policy_offline.rst:20
+#: ../../mobile_user_manual/policy_offline.rst:22
+#: ../../mobile_user_manual/policy_offline.rst:42
+#: ../../mobile_user_manual/policy_offline.rst:44
+msgid "autonomous"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:22
+#: ../../mobile_user_manual/claim_offline.rst:24
+#: ../../mobile_user_manual/claim_offline.rst:28
+#: ../../mobile_user_manual/claim_offline.rst:30
+#: ../../mobile_user_manual/claim_offline.rst:36
+#: ../../mobile_user_manual/claim_offline.rst:38
+#: ../../mobile_user_manual/policy_offline.rst:20
+#: ../../mobile_user_manual/policy_offline.rst:22
+#: ../../mobile_user_manual/policy_offline.rst:42
+#: ../../mobile_user_manual/policy_offline.rst:44
+msgid "not needed"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:24
+msgid "Map Items"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:26
+msgid "Refresh Mapping"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:26
+#: ../../mobile_user_manual/policy_offline.rst:18
+#: ../../mobile_user_manual/policy_offline.rst:24
+#: ../../mobile_user_manual/policy_offline.rst:26
+#: ../../mobile_user_manual/policy_offline.rst:36
+msgid "not available"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:28
+msgid "Claim"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:30
+#: ../../mobile_user_manual/policy_offline.rst:36
+msgid "Reports"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:32
+#: ../../mobile_user_manual/policy_offline.rst:38
+msgid "Synchronize"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:32
+#: ../../mobile_user_manual/policy_offline.rst:38
+msgid "yes, off-line synchronization by XML files"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:36
+#: ../../mobile_user_manual/policy_offline.rst:42
+msgid "Quit"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:38
+#: ../../mobile_user_manual/policy_offline.rst:44
+msgid "About"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:42
+msgid "Creation and transfer of off-line files to IMIS Claims"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:44
+msgid ""
+"The off-line files for IMIS Claims is created in the web IMIS by "
+"selecting of the **Tools/Extracts** menu item. The form IMISExtracts is "
+"displayed."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:53
+msgid "Image 3.2.1 (IMISExtracts Form)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:55
+msgid ""
+"The Create Phone Extract section is used for creation of the off-line "
+"file for IMIS Claims."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:58
+#: ../../mobile_user_manual/enroll.rst:25
+msgid "Region"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:62
+msgid ""
+"The region in which a health facility is located for which claims should "
+"be created."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:65
+#: ../../mobile_user_manual/enroll.rst:34
+msgid "District"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:69
+msgid ""
+"The district in which the health facility is located for which claims "
+"should be created."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:72
+msgid "With Insurees"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:76
+msgid ""
+"Check if the off-line file should contain data on insures (for the "
+"function `Enquiry <#function-enquire-1>`__)."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:79
+msgid "In background"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:83
+msgid "Check if the off-line file should be created in background."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:85
+#: ../../mobile_user_manual/policy_offline.rst:71
+msgid "Click on the button:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:87
+msgid "**Create**"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:91
+msgid ""
+"The file IMISData.db3 is generated and it can be downloaded by clicking "
+"on the button **Download** which is dynamically created in the section"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:95
+msgid ""
+"The off-line file IMISData.db3 should be transferred to the device and "
+"stored in the folder IMIS."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:99
+msgid "Creation and transfer of off-line files from IMIS Claims"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:101
+msgid ""
+"Use the function `Synchronize <#image-3.2.1-synchronize-page>`__ and the "
+"following buttons:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:107
+msgid "Image 3.2.1 (Synchronize Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:109
+msgid "**Create Claims XML**"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:113
+msgid ""
+"Creates a file with all claims that haven’t been uploaded or included in "
+"a generated file yet.. The name of the file is Claims_<claim adminstrator"
+" code>_<date of creating>_<time of creating>.rar and it is stored in the "
+"folder IMIS in the device."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:118
+msgid "."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:120
+msgid ""
+"The off-line files should be transferred to a client device of the web "
+"IMIS and uploaded to the web IMIS by means of the `IMISExtracts form "
+"<#image-3.1.1-imisextracts-form>`__ – in the section Upload Claims."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:125
+msgid "Remark"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:127
+msgid ""
+"This version of the user manual relates to the version CHF-IMIS apps that"
+" was derived from the Master Version of IMIS apps having in mind specific"
+" requirements of the CHF health insurance scheme to the terminology and "
+"the data fields to be used in IMIS. The text of the user manual relates "
+"to the Master Version of IMIS. The following table shows the differences "
+"in the terminology between the Master Version of IMIS and the CHF-IMIS. A"
+" user has to have these differences in mind when reading the text of this"
+" user manual."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:136
+msgid ""
+"The following table summarizes the adjustments in terminology for the "
+"CHF-IMIS with respect to the Master Version of IMIS:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:140
+#: ../../mobile_user_manual/claim_offline.rst:152
+msgid "**IMIS Master Version**"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:140
+#: ../../mobile_user_manual/claim_offline.rst:152
+msgid "**CHF-IMIS**"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:142
+#: ../../mobile_user_manual/enroll.rst:43
+msgid "Municipality"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:142
+msgid "Ward"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:144
+msgid "CHF Number"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:147
+msgid ""
+"Further, the Master Version of IMIS uses some data fields that are not "
+"used in CHF-IMIS. The overview of the data fields in the Master Version "
+"not occurring in the CHF-IMIS is shown in the following table:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:154
+#: ../../mobile_user_manual/enroll.rst:212
+#: ../../mobile_user_manual/enroll.rst:474
+msgid "Education"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:154
+#: ../../mobile_user_manual/claim_offline.rst:156
+#: ../../mobile_user_manual/claim_offline.rst:158
+#: ../../mobile_user_manual/claim_offline.rst:162
+#: ../../mobile_user_manual/claim_offline.rst:164
+#: ../../mobile_user_manual/claim_offline.rst:166
+#: ../../mobile_user_manual/claim_offline.rst:168
+#: ../../mobile_user_manual/claim_offline.rst:170
+#: ../../mobile_user_manual/claim_offline.rst:172
+#: ../../mobile_user_manual/claim_offline.rst:174
+#: ../../mobile_user_manual/claim_offline.rst:176
+#: ../../mobile_user_manual/claim_offline.rst:178
+#: ../../mobile_user_manual/claim_offline.rst:180
+#: ../../mobile_user_manual/claim_offline.rst:182
+#: ../../mobile_user_manual/claim_offline.rst:184
+#: ../../mobile_user_manual/claim_offline.rst:186
+#: ../../mobile_user_manual/claim_offline.rst:188
+#: ../../mobile_user_manual/claim_offline.rst:190
+#: ../../mobile_user_manual/claim_offline.rst:192
+msgid "Not used"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:156
+#: ../../mobile_user_manual/enroll.rst:205
+#: ../../mobile_user_manual/enroll.rst:467
+msgid "Profession"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:158
+msgid "Confirmation"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:160
+msgid "Type"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:162
+#: ../../mobile_user_manual/enroll.rst:80
+msgid "Confirmation No."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:164
+#: ../../mobile_user_manual/enroll.rst:170
+#: ../../mobile_user_manual/enroll.rst:427
+msgid "Current Region"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:166
+#: ../../mobile_user_manual/enroll.rst:177
+#: ../../mobile_user_manual/enroll.rst:435
+msgid "Current District"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:168
+#: ../../mobile_user_manual/enroll.rst:184
+#: ../../mobile_user_manual/enroll.rst:443
+msgid "Current Municipality"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:170
+#: ../../mobile_user_manual/enroll.rst:191
+#: ../../mobile_user_manual/enroll.rst:451
+msgid "Current Village"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:172
+#: ../../mobile_user_manual/enroll.rst:198
+#: ../../mobile_user_manual/enroll.rst:459
+msgid "Current Address Details"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:174
+#: ../../mobile_user_manual/enroll.rst:231
+#: ../../mobile_user_manual/enroll.rst:493
+msgid "Identification Type"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:176
+msgid "Identification No."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:178
+#: ../../mobile_user_manual/enroll.rst:245
+#: ../../mobile_user_manual/enroll.rst:507
+msgid "Region of FSP"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:180
+#: ../../mobile_user_manual/enroll.rst:252
+#: ../../mobile_user_manual/enroll.rst:514
+msgid "District of FSP"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:182
+#: ../../mobile_user_manual/enroll.rst:259
+#: ../../mobile_user_manual/enroll.rst:521
+msgid "Level of FSP"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:184
+#: ../../mobile_user_manual/enroll.rst:266
+#: ../../mobile_user_manual/enroll.rst:528
+msgid "First Service Point"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:186
+#: ../../mobile_user_manual/enroll.rst:360
+msgid "Relationship"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:188
+#: ../../mobile_user_manual/enroll.rst:163
+#: ../../mobile_user_manual/enroll.rst:420
+msgid "Beneficiary Card"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:190
+#: ../../mobile_user_manual/enroll.rst:65
+msgid "Poverty Status"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:192
+#: ../../mobile_user_manual/enroll.rst:739
+msgid "Contribution Category"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_offline.rst:195
+msgid ""
+"Besides, CHF-IMIS uses as the second language for the user interface "
+"Swahili."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_report.rst:2
+#: ../../mobile_user_manual/policy_report.rst:2
+msgid "Function Reports"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_report.rst:4
+msgid ""
+"The function Reports is navigated to by clicking on the menu item "
+"**Reports** in the main menu. The function Reports provides basic "
+"statistics on the numbers of accepted, rejected and not yet uploaded "
+"(pending) claims in the memory of the device (without respect to a claim "
+"administrator). The `Report Page <#image-2.3.1-map-services-page>`__ "
+"appears immediately:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_report.rst:14
+msgid "Image 2.7.1 (Report Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_start.rst:2
+msgid "Launching of IMIS Claims"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_start.rst:4
+msgid ""
+"To launch the application IMIS Claims just click on the icon of the "
+"application. Users must have a valid code of a claim administrator "
+"(entered in the register of claim administrators in the web IMIS) and for"
+" selected functionalities must have a valid User Name and Password "
+"provided by an administrator of the web IMIS. The User Name data field in"
+" login pages is pre-filled with claim administrator code entered while "
+"launching the application. The reason is that the web IMIS can create "
+"automatically a user record simultaneously with an entry of a new claim "
+"administrator into the register of claim administrators. Such "
+"automatically created user has its User Name equal to the claim "
+"administrator code. However, this pre-filled User Name can re-written by "
+"any valid User Name."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_start.rst:17
+msgid "The `Initial Page <#image-2.1.1-initial-page>`__ appears:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_start.rst:22
+msgid "Image 2.1.1 (Initial Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_start.rst:24
+msgid ""
+"Enter a valid claim administrator code and click on the button "
+"**Continue**. If a valid claim administrator code is entered, the "
+"application will re-direct to the `Home Page <#image-2.1.2-home-page>`__"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_start.rst:31
+msgid "Image 2.1.2 (Home Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_start.rst:33
+msgid ""
+"The statistics on the number of claims appears on the Home Page. The "
+"statistics is split into the number of claims that were uploaded and "
+"accepted by the web IMIS (Accepted), the number of claims uploaded but "
+"rejected (Rejected) and the number of claims saved (posted) but not "
+"uploaded yet (Pending) Quitting of the applications resets the "
+"statistics."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_start.rst:40
+#: ../../mobile_user_manual/policy_start.rst:41
+msgid ""
+"Clicking on the <three dots vertically> icon in the upper right corner "
+"the menu for selection of language of the user interface appears."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_start.rst:43
+msgid ""
+"Clicking on the <three bars horizontally> icon in the upper left corner "
+"the main menu of the application appears:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_start.rst:49
+msgid "Image 2.1.3 (Main menu of the application)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_start.rst:51
+#: ../../mobile_user_manual/policy_start.rst:58
+msgid "The menu items stand for the following functionalities:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_start.rst:53
+msgid "`Home <#image-2.1.2-home-page>`__ – return to the Home Page"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_start.rst:55
+msgid ""
+"`Enquire <#function-enquire-1>`__ – getting a photo and information on "
+"the coverage of an insure"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_start.rst:58
+msgid ""
+"`Map Services <#function-map-services>`__ – creation of a selected list "
+"of medical services guiding entry of services in claims"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_start.rst:61
+msgid ""
+"`Map Items <#function-map-items>`__ – creation of a selected list of "
+"medical items guiding entry of items in claims"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_start.rst:64
+msgid ""
+"`Refresh Mapping <#function-refresh-mapping>`__ – automatic creation of "
+"selected lists of medical services/items according to pricelists valid "
+"for the health facility for which the claim administrator is acting"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_start.rst:68
+msgid "`Claim <#function-claim>`__ – entering and posting of claims"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_start.rst:70
+msgid ""
+"`Reports <#function-reports-1>`__ – creation of reports relating to "
+"activities of the claim administrator"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_start.rst:73
+msgid "`Synchronize <#function-synchronize-1>`__ – uploading data to the web IMIS"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_start.rst:76
+msgid "`Quit <#function-quit-1>`__ –quitting of the application"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_start.rst:78
+msgid ""
+"`About <#function-about-1>`__ – info on the version of the installed "
+"application"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:5
+#: ../../mobile_user_manual/policy_synchronize.rst:2
+msgid "Function Synchronize"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:7
+msgid ""
+"The function Synchronize is navigated to by clicking on the menu item "
+"**Synchronize** in the main menu. The function Synchronize uploads posted"
+" claims to the web IMIS. For on-line uploading a user must have a valid "
+"User Name and Password provided by an administrator of the web IMIS with "
+"an assigned role incorporating an access to the functionality "
+"**Claims/Claim/Add** as an access to the functionality Synchronize is "
+"guarded by the `Login Page <#image-1.2.1-enquire-function-login-page>`__ "
+"for on-line uploads."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:16
+#: ../../mobile_user_manual/policy_synchronize.rst:14
+msgid ""
+"The `Synchronize Page <#image-2.3.1-map-services-page>`__ appears "
+"immediately:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:22
+msgid "Image 2.8.1 (Synchronize Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:24
+msgid "There are two buttons:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:26
+msgid "**Upload Claims** for on-line uploading of saved claims to the web IMIS."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:28
+msgid ""
+"**Create Claims XML** for generation of a file (in the XML format) for "
+"off-line uploading of saved claims to the web IMIS-see `the off-line mode"
+" of IMIS Claims <#off-line-mode-of-imis-claims>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:32
+msgid "On-line uploading of claims is guarded by the Login Page:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:37
+msgid "Image 2.8.2 (Synchronize Page-Login Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:39
+msgid ""
+"If the login process is successful then click on the **Upload Claims** "
+"button to upload claims to the web IMIS. Claims that are successfully "
+"uploaded are saved in the folder IMIS/Accepted Claims. Unseccussfully "
+"uploaded claimes are saved in the folder IMIS/Rejected Claims."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:47
+#: ../../mobile_user_manual/policy_quit_about.rst:2
+msgid "Function Quit"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:49
+msgid ""
+"The function Quit is navigated to by clicking on the menu item **Quit** "
+"in the main menu. . The function Quit quits the application after `Quit "
+"Confirmation <#image-1.11.1-quit-confirmation-prompt>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:56
+msgid "Image 2.9.1 (Quit Confirmation)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:61
+#: ../../mobile_user_manual/policy_quit_about.rst:14
+msgid "Function About"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:63
+msgid ""
+"The function About is navigated to by clicking on the menu item **About**"
+" in the main menu. The function About provides information about the "
+"application itself. The `About Page <#image-2.10.1-about-page>`__ appears"
+" immediately:"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:74
+msgid "Image 2.10.1 (About Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:76
+#: ../../mobile_user_manual/policy_quit_about.rst:26
+msgid ""
+"Click on the icon **<-** in the upper part of the `About Page "
+"<#image-2.10.1-about-page>`__ to return to the `Home Page. <#image-2.1.2"
+"-home-page>`__"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:81
+msgid "Off-line mode of the applications"
+msgstr ""
+
+#: ../../mobile_user_manual/claim_sync_quit_about.rst:83
+msgid ""
+"The applications IMIS Policies and IMIS Claims require for certain "
+"functions Internet connectivity for communication with the web IMIS. "
+"Other functions of both applications can be used autonomously without "
+"availability of Internet connectivity. There is a possibility to move to "
+"a place where Internet connectivity is ensured only for time when "
+"functions requiring Internet connectivity are used (e.g. initialization "
+"of an application, synchronization etc.) and use autonomous functions in "
+"settings without Internet connectivity. However, this may not be "
+"practical or even possible in all situations. Therefore, there is a "
+"possibility to substitute on-line connection for some functions by off-"
+"line transfer of files from/to the web IMIS. Thus, utilization of the "
+"application in an environment without Internet connectivity is "
+"guaranteed."
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:2
+msgid "**Function Enquire**"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:4
+msgid ""
+"The function Enquire is navigated to by clicking on the menu item "
+"**Enquire** in the main menu. The function Enquire provides a photo and "
+"information of insurance coverage of a specified insuree. A user must "
+"have a valid User Name and Password provided by an administrator of the "
+"web IMIS with an assigned role incorporating an access to the "
+"functionality **Insurees and Familiies/Insurees/Enquire** as an access to"
+" the functionality Enquire is guarded by the `Login Page <#image-2.2.1"
+"-enquire-function-login-page>`__ ."
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:16
+msgid "Image 2.2.1 (Claim Enquire function –Login Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:21
+msgid "Image 1.2.1 (Policy Enquire function –Login Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:23
+msgid ""
+"The User Name data field is pre-filled by the enrolment officer or claim "
+"admin code with which the installation has been launched. However, the "
+"User Name data field can re-written by any valid User Name. This "
+"principle is valid all other login pages of the IMIS Policies "
+"application. If the application successfully logs in the `Enquire"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:29
+msgid ""
+"If the application successfully logs in successfully the `Enquire Page "
+"<#image-2.2.2-enquire-page>`__ appears:"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:35
+msgid "Image 2.2.2 (Claim Enquire Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:40
+msgid "Image 1.2.2 (Policy Enquire Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:46
+msgid ""
+"Either type in the insurance number of the insuree for whom "
+"identification and coverage data are to be retrieved or obtain the "
+"insurance number by scanning of a QR code by clicking on the **QR** "
+"button."
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:51
+msgid ""
+"Click on the button **GO!** for retrieving the identification and "
+"coverage data."
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:54
+msgid ""
+"If the insuree with the insurance number has been already entered in the "
+"web IMIS the following data appear on the `Enquiry Page <#image-2.2.3"
+"-enquiry-page-provided-data-on-an-insuree>`__ :"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:61
+msgid "Image 2.2.3 (Claim Enquiry Page-provided data on an insuree)"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:66
+msgid "Image 1.2.3 (Policy Enquiry Page-provided data on an insuree)"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:68
+msgid "Photo of the insuree if the photo has been stored in the web IMIS"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:72
+msgid "Insuree Name"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:74
+#: ../../mobile_user_manual/enroll.rst:149
+#: ../../mobile_user_manual/enroll.rst:406
+msgid "Gender"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:76
+#: ../../mobile_user_manual/enroll.rst:142
+#: ../../mobile_user_manual/enroll.rst:399
+msgid "Birth Date"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:80
+msgid ""
+"For each policy by which the insuree is covered the following data are "
+"shown:"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:83
+msgid "Insurance Product Code"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:85
+msgid "Insurance Product Name"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:87
+msgid "Expiry Date of the Policy"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:89
+msgid "Status of the Policy"
+msgstr ""
+
+#: ../../mobile_user_manual/enquire.rst:93
+msgid ""
+"Click on the icon **<-** in the upper part of the `Enquire Page "
+"<#image-2.2.2-enquire-page>`__ to return to the `Home Page <#image-2.1.2"
+"-home-page>`__ ."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:2
+msgid "**Function Enrol**"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:4
+msgid ""
+"The function Enrol is navigated to by clicking on the menu item **Enrol**"
+" in the main menu. The function Enrol allows to enter data on new "
+"families/insurees/policies/contributions and/or modify data on "
+"families/insurees downloaded from the web IMIS. The `Families Page "
+"<#image-1.3.1-acquire-page>`__ appears immediately:"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:13
+msgid "Image 1.4.1 (Families Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:15
+msgid ""
+"To add a new family click on the icon **+**. The `Add new family Page "
+"<#image-1.4.2-add-new-family-page>`__ appears."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:21
+msgid "Image 1.4.2 (Add new family Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:23
+#: ../../mobile_user_manual/enroll.rst:108
+#: ../../mobile_user_manual/enroll.rst:358
+#: ../../mobile_user_manual/enroll.rst:582
+msgid "The following data fields appear:"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:29
+msgid ""
+"The region of residence of a new family/group. The data field is "
+"initialized by the region of activity of the enrolment officer in "
+"accordance with the register of enrolment officers in the web IMIS. "
+"Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:38
+msgid ""
+"The district of the residence of the new family/group. The data field is "
+"initialized by the district of activity of the enrolment officer in "
+"accordance with the register of enrolment officers in the web IMIS. "
+"Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:47
+msgid ""
+"The municipality of the residence of the new family/group. The data field"
+" is initialized by the municipality of activity of the enrolment officer "
+"in accordance with the register of enrolment officers in the web IMIS. If"
+" the enrolment officer is active in more municipalities of the district "
+"then the drop down list associated with the data field is modified "
+"accordingly. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:54
+#: ../../mobile_user_manual/policy_renew.rst:77
+msgid "Village"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:58
+msgid ""
+"The village of residence of the new family/group. The data field is "
+"initialized by the village of activity of the enrolment officer in "
+"accordance with the register of enrolment officers in the web IMIS. If "
+"the enrolment officer is active in more villages of the municipality then"
+" the drop down list associated with the data field is modified "
+"accordingly. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:69
+msgid ""
+"Select one of the offered options from the drop down list associated with"
+" the data field. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:72
+msgid "Confirmation Type"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:76
+msgid ""
+"Select one of the offered options for the type of confirmation document "
+"from the drop down list associated with the data field. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:84
+msgid "Enter an identification of a confirmation document. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:86
+msgid "Group Type."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:90
+msgid ""
+"Select one of the offered options for the type of the group from the drop"
+" down list associated with the data field. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:93
+msgid "Permanent Address Details."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:97
+msgid ""
+"Enter further details to the address of residence of the family/group. "
+"Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:100
+msgid ""
+"Click on the button **Next** to navigate to the `Add/Edit Insuree Page "
+"<#image-1.4.3-addedit-insuree-page>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:106
+msgid "Image 1.4.3 (Add/Edit Insuree Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:114
+msgid ""
+"Either enter the insurance number of the head of the family/group or "
+"obtain the insurance number by scanning of a QR code by clicking on the "
+"**QR** button. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:118
+#: ../../mobile_user_manual/enroll.rst:375
+#: ../../mobile_user_manual/policy_modify.rst:90
+#: ../../mobile_user_manual/policy_modify.rst:278
+msgid "Other Names"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:122
+msgid "Enter other names of the head of the family/group. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:124
+#: ../../mobile_user_manual/enroll.rst:381
+msgid "Last Name"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:128
+msgid "Enter a last name of the head of the family/group. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:130
+#: ../../mobile_user_manual/enroll.rst:387
+msgid "Photo area"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:134
+msgid ""
+"Either previously acquired photo of the head of the family/group is "
+"inserted automatically based on the equality of the Insurance Number here"
+" and of the Insurance Number from the `Acquire Page <#image-1.3.1"
+"-acquire-page>`__ or tap in the photo area and choose a photo from your "
+"folder in the device. A photo must be assigned otherwise the family/group"
+" cannot be uploaded to the web IMIS. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:146
+msgid ""
+"Tap on the data field and select a birth date of the head of the "
+"family/group in the date selector. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:153
+msgid ""
+"Select the gender of the head of the family/group from the drop down "
+"list. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:156
+#: ../../mobile_user_manual/enroll.rst:413
+msgid "Marital Status"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:160
+msgid ""
+"Select the marital status of the head of the family/group from the drop "
+"down list. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:167
+msgid ""
+"Select from the drop down list whether a beneficiary card was given to "
+"the head of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:174
+msgid ""
+"Region of a current residence of the head of the family/group if it "
+"differs from the permanent residence. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:181
+msgid ""
+"District of a current residence of the head of the family/group if it "
+"differs from the permanent residence. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:188
+msgid ""
+"Municipality of a current residence of the head of the family/group if it"
+" differs from the permanent residence. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:195
+msgid ""
+"Village of a current residence of the head of the family/group if it "
+"differs from the permanent residence. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:202
+msgid ""
+"Address details of a current residence of the head of the family/group if"
+" it differs from the permanent residence. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:209
+msgid ""
+"Select one of the offered options for profession of the head of the "
+"family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:216
+msgid ""
+"Select one of the offered options for education of the head of the "
+"family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:219
+#: ../../mobile_user_manual/enroll.rst:481
+#: ../../mobile_user_manual/policy_modify.rst:230
+msgid "Phone Number"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:223
+msgid "Enter a phone number of the head of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:225
+#: ../../mobile_user_manual/enroll.rst:487
+msgid "Email"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:229
+msgid "Enter an email of the head of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:235
+msgid ""
+"Select one of the offered options for the type of an identity document of"
+" the head of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:238
+#: ../../mobile_user_manual/enroll.rst:500
+msgid "Identification Number"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:242
+msgid ""
+"Enter an identification of identity document of the head of the "
+"family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:249
+msgid "Region of a First Service Point of the head of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:256
+msgid ""
+"District of the First Service Point of the head of the family/group. "
+"Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:263
+msgid ""
+"Select the level of a health facility that serves as the First Service "
+"Point of the head of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:270
+msgid ""
+"Select the health facility that serves as the First Service Point of the "
+"head of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:273
+msgid ""
+"Click on the button **Save** to save the data of the head of the "
+"family/group in the memory of the device. The `Family and Insurees Page "
+"<#image-1.4.4-family-and-insurees-page>`__ is displayed after a "
+"successful saving:"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:281
+msgid "Image 1.4.4 (Family and Insurees Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:283
+msgid "There are four options now:"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:285
+msgid "Editing or deleting of the head of family/group."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:287
+#: ../../mobile_user_manual/enroll.rst:328
+msgid "Adding a new family/group"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:289
+msgid "Adding a new member to the family/group."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:291
+msgid "Assigning of a new policy to the family/group."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:294
+msgid "Editing or deleting of a family/group"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:296
+msgid ""
+"By clicking on the icon **<three vertical dots>** with the head of the "
+"family/group in the `Family and Insurees Page <#image-1.4.5-family-and-"
+"insurees-page-the-menu-associated-with-the-head>`__ a menu appears with "
+"options of editing of the data of the head of the family or of deleting "
+"of the head of the family/group."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:305
+msgid "Image 1.4.5 (Family and Insurees Page-the menu associated with the head)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:307
+msgid ""
+"Selecting the item **Delete** an alert box appears saying that the head "
+"of a family/group cannot be deleted in this situation. This possible only"
+" in the context of the `Families Page <#image-1.4.1-families-page>`__ "
+"where it is considered as deleting of the whole family/group."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:313
+msgid ""
+"Selecting the item **Edit** the `Add/Edit Insuree Page <#image-1.4.6"
+"-addedit-insuree-page>`__ appears with the data of the head of a "
+"family/group that should be edited."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:320
+msgid "Image 1.4.6 (Add/Edit Insuree Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:322
+msgid ""
+"Click on the button **Save** to save the edited data of the head of the "
+"family/group in the memory of the local device. The `Family and Insurees "
+"Page <#image-1.4.4-family-and-insurees-page>`__ is displayed after a "
+"successful saving."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:330
+msgid ""
+"Clicking on the <three bars horizontally> icon (the upper left corner of "
+"the `Family and Insurees Page <#image-1.4.4-family-and-insurees-page>`__ "
+") the main menu of the application appears. Select **Enrol** to navigate "
+"to the `Families Page <#image-1.4.7-families-page>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:338
+msgid "Image 1.4.7 (Families Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:340
+msgid ""
+"By clicking on the icon **+** in the `Families Page <#image-1.4.4-family-"
+"and-insurees-page>`__ the `Add new family Page <#image-1.4.2-add-new-"
+"family-page>`__ appears and a new head of a family/group can be added."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:346
+msgid "Adding a new member of a family/group"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:348
+msgid ""
+"By clicking on the icon **+** in the `Family and Insurees Page "
+"<#image-1.4.4-family-and-insurees-page>`__ the `Add/Edit Insuree Page "
+"<#image-1.4.8-addedit-insuree-page>`__ appears and a new member of the "
+"family/group can be added."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:356
+msgid "Image 1.4.8 (Add/Edit Insuree Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:364
+msgid ""
+"Select one of the offered relationships of the member to the head of the "
+"family/group. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:371
+msgid ""
+"Either enter the insurance number of the member of the family/group or "
+"obtain the insurance number by scanning of a QR code by clicking on the "
+"**QR** button. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:379
+msgid "Enter other names of the member of the family/group. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:385
+msgid "Enter the last name of the member of the family/group. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:391
+msgid ""
+"Either previously acquired photo of the member of the family/group is "
+"inserted automatically based on the equality of the Insurance Number here"
+" and of the Insurance Number from the `Acquire Page <#image-1.3.1"
+"-acquire-page>`__ or tap in the photo area and choose a photo from your "
+"folder in the device. A photo must be assigned otherwise the family/group"
+" cannot be uploaded to the web IMIS. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:403
+msgid ""
+"Tap on the data field and select a birth date of the member of the "
+"family/group in the date selector. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:410
+msgid ""
+"Select a gender of the member of the family/group from the drop down "
+"list. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:417
+msgid ""
+"Select the marital status of the member of the family/group from the drop"
+" down list. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:424
+msgid ""
+"Select from the drop down list whether a beneficiary card was given to "
+"the member of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:431
+msgid ""
+"Region of a current residence of the member of the family/group if it "
+"differs from the permanent residence of the member of the family/group. "
+"Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:439
+msgid ""
+"District of a current residence of the member of the family/group if it "
+"differs from the permanent residence of the member of the family/group. "
+"Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:447
+msgid ""
+"Municipality of a current residence of the member of the family/group if "
+"it differs from the permanent residence of the member of the "
+"family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:455
+msgid ""
+"Village of a current residence of the member of the family/group if it "
+"differs from the permanent residence of the member of the family/group. "
+"Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:463
+msgid ""
+"Address details of a current residence of the member of the family/group "
+"if it differs from the permanent residence of the member of the "
+"family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:471
+msgid ""
+"Select one of the offered options for profession of the member of the "
+"family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:478
+msgid ""
+"Select one of the offered options for education of the member of the "
+"family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:485
+msgid "Enter a phone number of the member of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:491
+msgid "Enter an email of the member of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:497
+msgid ""
+"Select one of the offered options for the type of an identity document of"
+" the member of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:504
+msgid ""
+"Enter an identification of identity document of the member of the "
+"family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:511
+msgid ""
+"Region of a First Service Point of the member of the family/group. "
+"Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:518
+msgid ""
+"District of the First Service Point of the member of the family/group. "
+"Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:525
+msgid ""
+"Select the level of a health facility that serves as the First Service "
+"Point of the member of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:532
+msgid ""
+"Select the health facility that serves as the First Service Point of the "
+"member of the family/group. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:535
+msgid ""
+"Click on the button **Save** to save the data on the member of the "
+"family/group in the memory of the device. The `Family and Insurees Page "
+"<#image-1.4.4-family-and-insurees-page>`__ is displayed after a "
+"successful saving:"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:546
+msgid "Image 1.4.9 (Family and Insurees Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:548
+#: ../../mobile_user_manual/enroll.rst:663
+#: ../../mobile_user_manual/enroll.rst:811
+msgid "There are three options now:"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:550
+msgid ""
+"a) Adding again a new member the family/group (just click on the icon "
+"**+** in the `Family and Insurees Page) <#image-1.4.9-family-and-"
+"insurees-page>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:554
+msgid ""
+"b) Editing or deleting of a member (just click on the icon **<three "
+"vertical dots>** with a member in the `Family and Insurees Page "
+"<#image-1.4.9-family-and-insurees-page>`__ a menu appears with options of"
+" editing of the data of the member or of deleting of a member of the "
+"family/group."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:560
+msgid "Assigning a new policy to the family/group."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:563
+msgid "Assigning of a policy"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:565
+msgid ""
+"By clicking on the button **Policy** the `Family and Policies Page "
+"<#image-1.4.10-family-and-policies-page>`__ appears and a new policy can "
+"by assigned to the family/group."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:572
+msgid "Image 1.4.10 (Family and Policies Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:574
+msgid ""
+"Click on the icon **+** to navigate to the `Add/Edit Policies Page "
+"<#image-1.4.11-addedit-policies-page>`__:"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:580
+msgid "Image 1.4.11 (Add/Edit Policies Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:584
+msgid "Enrolment Date"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:588
+msgid ""
+"Tap on the data field and select an enrolment date for the policy in the "
+"date selector. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:591
+msgid "Product"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:595
+msgid "Select one of the offered insurance products for the policy. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:598
+msgid "Effective date"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:602
+msgid ""
+"Read-only calculated data field. Contains the date of effective starting "
+"of the policy taking into account all features of the selected insurance "
+"products and the date of payment of a contribution."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:611
+msgid ""
+"Assumed starting date of the policy without taking into account the date "
+"of payment of the contribution. Calculated data field based on the "
+"enrolment date and the selected insurance product that can be modified. "
+"Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:616
+msgid "Expiry Date"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:620
+msgid ""
+"Assumed expiry date of the policy without taking into account the date of"
+" payment of the contribution. Calculated data field based on the starting"
+" date and the selected insurance product that can be modified. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:625
+#: ../../mobile_user_manual/enroll.rst:775
+msgid "Policy Status"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:629
+msgid ""
+"Read-only data field. Assigned policy status on the device. Actual policy"
+" status can change in the web IMIS after uploading."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:632
+#: ../../mobile_user_manual/enroll.rst:782
+msgid "Policy Value"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:636
+#: ../../mobile_user_manual/enroll.rst:786
+msgid ""
+"Read-only data field. Calculated policy value that should be covered by "
+"contributions."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:639
+#: ../../mobile_user_manual/enroll.rst:789
+msgid "Contribution"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:643
+#: ../../mobile_user_manual/enroll.rst:793
+msgid "Read-only data field. Calculated value of already assigned contributions."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:646
+#: ../../mobile_user_manual/enroll.rst:796
+msgid "Balance"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:650
+msgid ""
+"Read-only data field. Calculated value of the balance Policy Value - "
+"Contribution"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:653
+msgid ""
+"Click on the button **Save** to save the data on the policy in the memory"
+" of the device. The `Family and Policies Page <#image-1.4.12-family-and-"
+"policies-page>`__ is displayed after a successful saving."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:661
+msgid "Image 1.4.12 (Family and Policies Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:665
+msgid ""
+"a) Assigning a new policy to the family/group (just by clicking on the "
+"icon **+** in the `Family and Policies Page <#image-1.4.12-family-and-"
+"policies-page>`__ the `Add/Edit Policy Page <#image-1.4.11-addedit-"
+"policies-page>`__ appears and the new policy can be assigned)."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:671
+msgid "Editing or deleting of the policy."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:673
+msgid "Assigning a new contribution to the policy."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:676
+msgid "Editing or deleting of a policy"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:678
+msgid ""
+"By clicking on the icon **<three vertical dots>** with the policy in the "
+"`Family and Policies Page <#image-1.4.13-families-and-policies-page-the-"
+"menu-associated-with-the-policy>`__ a menu appears with options of "
+"editing of the data of the policy or of deleting of the policy."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:687
+msgid ""
+"Image 1.4.13 (Families and Policies Page-the menu associated with the "
+"policy)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:689
+msgid ""
+"By selecting **Edit** the `Add/Edit Policy Page <#image-1.4.13-families-"
+"and-policies-page-the-menu-associated-with-the-policy>`__ appears and the"
+" data of the policy can be edited. By selecting **Delete** the "
+"`Confirmation Box <#image-1.4.14-families-and-policies-page-confirmation-"
+"of-deleting>`__ appears that asks for a confirmation of the deleting. "
+"Deleting a policy means also deleting of all contributions associated "
+"with the policy."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:700
+msgid "Image 1.4.14 (Families and Policies Page-confirmation of deleting)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:702
+msgid ""
+"The `Family and Policies Page <#image-1.4.10-family-and-policies-page>`__"
+" is displayed after a successful deleting."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:707
+msgid "Assigning of a new contribution to the policy"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:709
+msgid ""
+"By clicking on the icon **<three vertical dots>** with the policy in the "
+"`Family and Policies Page <#image-1.4.13-families-and-policies-page-the-"
+"menu-associated-with-the-policy>`__ a menu appears with options of "
+"editing of the data of the policy, of deleting of the policy and "
+"assigning a contribution (**Payment**). Select **Payment**. The "
+"`Contribution Page <#image-1.4.13-families-and-policies-page-the-menu-"
+"associated-with-the-policy>`__ appears:"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:721
+msgid "Image 1.4.15 (Contribution Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:723
+msgid ""
+"Click on the **+** icon to add a new contribution. The `Add/Edit "
+"Contribution Page <#image-1.4.16-addedit-contribution-page>`__ appears "
+"with the following data fields:"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:730
+msgid "Image 1.4.16 (Add/Edit Contribution Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:732
+msgid "Payer"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:736
+msgid ""
+"Either leave it blank or select one of the offered payers of the "
+"contribution. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:743
+msgid "Select one of the offered categories for the contribution. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:745
+msgid "Contribution Paid"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:749
+msgid ""
+"The amount of the contribution. If the Contribution and Others is "
+"selected in the data field Contribution Category then the data field "
+"Contribution Paid is prefilled by the amount still to be paid to reach "
+"the policy value. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:754
+msgid "Receipt No"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:758
+msgid ""
+"An identification of the receipt issued for the paid contribution. "
+"Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:761
+msgid "Payment Date"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:765
+msgid ""
+"Tap on the data field and select a payment date of the contribution in "
+"the date selector. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:768
+#: ../../mobile_user_manual/policy_modify.rst:320
+msgid "Payment Type"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:772
+msgid "Select one of the offered types of payment of the contribution. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:779
+msgid ""
+"Read-only data field. Assigned policy status in the device. Actual policy"
+" status can change in the web IMIS after uploading."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:798
+msgid ""
+"Read-only data field. Calculated value of the balance Policy Value – "
+"Contribution"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:801
+msgid ""
+"Click on the button **Save** to save the data on the contribution in the "
+"memory of the device. The `Contribution Page <#image-1.4.17-contribution-"
+"page>`__ is displayed after a successful saving:"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:809
+msgid "Image 1.4.17 (Contribution Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:813
+msgid ""
+"a) Assigning a new contribution to the same policy (just by clicking on "
+"the icon + the `Add/Edit Contribution Page <#image-1.4.16-addedit-"
+"contribution-page>`__ appears and a new contribution can be added)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:818
+msgid "Editing or deleting of the contribution."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:820
+msgid "Adding of a new family or editing existing ones."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:823
+msgid "Editing or deleting of the contribution"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:825
+msgid ""
+"By clicking on the icon **<three vertical dots>** with the contribution "
+"in the `Contribution Page <#image-1.4.18-contribution-page-the-menu-"
+"associated-with-the-contribution>`__ a menu appears with options of "
+"editing of the data of the contribution and of deleting of the "
+"contribution."
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:834
+msgid "Image 1.4.18 (Contribution Page-the menu associated with the contribution)"
+msgstr ""
+
+#: ../../mobile_user_manual/enroll.rst:836
+msgid ""
+"By selecting **Edit** the `Add/Edit Contribution Page <#image-1.4.16"
+"-addedit-contribution-page>`__ appears and the data of the contribution "
+"can be edited. By selecting **Delete** the contribution is deleted "
+"without a confirmation prompt."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:2
+msgid "**Function Feedback**"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:4
+msgid ""
+"The function Feedback is navigated to by clicking on the menu item "
+"**Feedback** in the main menu. The function Feedback allows getting of "
+"prompts for feedbacks on claims from the web IMIS and saving (posting) of"
+" feedbacks. A user must have a valid User Name and Password provided by "
+"an administrator of the web IMIS with an assigned role incorporating an "
+"access to the functionality **Claims/Claim/Feedback** as an access to the"
+" functionality Renew is guarded by the `Login Page <#image-1.2.1-enquire-"
+"function-login-page>`__ ."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:13
+msgid ""
+"The `Feedbacks Page <#image-1.8.1-feedbacks-page>`__ appears after "
+"selecting **Feedbacks** in the main menu."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:19
+msgid "Image 1.8.1 (Feedbacks Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:21
+msgid ""
+"Swapping around the `Feedbacks Page <#image-1.8.1-feedbacks-page>`__ "
+"leads to the `Login Page <#image-1.7.2-renewals-page-login-page>`__ and "
+"after a successful login shows feedback prompts transferred from the web "
+"IMIS."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:29
+msgid "Image 1.8.2 (Feedbacks Page-Login Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:31
+msgid ""
+"The `Feedbacks Page <#image-1.8.3-feedbacks-page-with-displayed-"
+"prompts>`__ with prompts for acquiring feedbacks appears after the swap "
+"and the successful login."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:39
+msgid "Image 1.8.3 (Feedbacks Page with displayed prompts)"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:41
+msgid ""
+"The list of prompts can be temporarily reduced by entering a string in "
+"the **Search** field. Each feedback prompt contains the following data "
+"items:"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:49
+msgid "The insurance number of a patient."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:51
+#: ../../mobile_user_manual/policy_renew.rst:64
+msgid "Name and Other Names"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:55
+msgid "The full name of the patient."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:57
+msgid "Code and Name of Health Facility"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:61
+msgid ""
+"The identification of a health facility that provided health care for "
+"which the feedback is asked."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:64
+#: ../../mobile_user_manual/feedback.rst:94
+msgid "Code of Claim"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:68
+msgid "The identification of a claim for which the feedback is asked."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:70
+#: ../../mobile_user_manual/policy_renew.rst:83
+msgid "Period"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:74
+#: ../../mobile_user_manual/policy_renew.rst:87
+msgid "The period in which health care was provided."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:76
+msgid ""
+"Clicking on a selected prompt results in displaying of the `Feedback Page"
+" <#image-1.7.4-renew-page---a-specific-prompt>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:82
+msgid "Image 1.8.4 (Feedback Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:84
+#: ../../mobile_user_manual/policy_renew.rst:99
+msgid "The following data fields are displayed:"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:86
+#: ../../mobile_user_manual/policy_offline.rst:64
+#: ../../mobile_user_manual/policy_renew.rst:101
+msgid "Enrolment Officer Code"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:90
+msgid ""
+"The read-only data field. The code of the enrolment officer giving the "
+"feedback. The data field is populated by the code of the enrolment "
+"officer that launched the application."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:98
+msgid ""
+"The read-only data field. The identification of a claim for which the "
+"feedback is asked."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:105
+msgid ""
+"The read-only data field. The insurance number of the patient of a claim "
+"from whom the feedback is asked for."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:108
+msgid "Feedback Questions"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:110
+msgid "Have you been teated at the health facility on the said date?"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:112
+msgid "Have you been asked for a payment to the health facility or staff?"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:114
+msgid "Have been drugs prescribed to you?"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:116
+msgid "Did you get drugs from the health facility?"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:118
+msgid "Check the box either **Yes** or **No**."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:120
+msgid "Overall Satisfaction Scale"
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:124
+msgid "Rate by clicking on an appropriate asterisk."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:126
+msgid ""
+"Click on the button **Save** to save (post) the feedback data for the "
+"claim into the memory of the device. Subsequently it can be uploaded to "
+"the web IMIS by the function `Synchronize <#function-synchronize-1>`__. "
+"The `Feedbacks Page <#image-1.8.3-feedbacks-page-with-displayed-"
+"prompts>`__ is displayed after saving with the prompt just saved being "
+"removed."
+msgstr ""
+
+#: ../../mobile_user_manual/feedback.rst:133
+msgid ""
+"Click on the icon **<-** in the upper part of the `Feedbacks Page "
+"<#image-1.8.3-feedbacks-page-with-displayed-prompts>`__ to return to the "
+"`Home Page <#image-1.1.2-home-page>`__ ."
+msgstr ""
+
+#: ../../mobile_user_manual/index.rst:60
+msgid "User mobile documentation"
+msgstr ""
+
+#: ../../mobile_user_manual/index.rst:2
+msgid "OpenIMIS mobile applications"
+msgstr ""
+
+#: ../../mobile_user_manual/index.rst:5
+msgid ""
+"User Manual – CHF-IMIS apps, relates to the versions 1.3.0 and newer (see"
+" the `Remark <\\l>`__)"
+msgstr ""
+
+#: ../../mobile_user_manual/index.rst:8
+msgid "**Introduction**"
+msgstr ""
+
+#: ../../mobile_user_manual/index.rst:10
+msgid ""
+"The Insurance Management Information System (IMIS) is the web based "
+"software supporting running of health insurance schemes. It includes "
+"functionality for a setup to requirements of health insurance schemes, "
+"administration of policies and policyholders and for claim processing."
+msgstr ""
+
+#: ../../mobile_user_manual/index.rst:16
+msgid ""
+"The web forms used in IMIS are not adjusted to small screens of mobile "
+"phones and this is one of reasons why IMIS provides applications on the "
+"Android platform that can be used effectively in the field for "
+"preparation and retrieving of data for/from the web IMIS. There are two "
+"applications available that provide essential functionality for enrolment"
+" officers (IMIS Policies) and for claim administrators (IMIS Claims)."
+msgstr ""
+
+#: ../../mobile_user_manual/index.rst:24
+msgid ""
+"Both applications allow autonomous preparation of data (enrolment and "
+"policy data by IMIS Policies and claim data by IMIS Claims) and their on-"
+"line or off-line transfer to/from web IMIS. Principally both applications"
+" can be used also in the environment with no or just occasional access to"
+" Internet."
+msgstr ""
+
+#: ../../mobile_user_manual/index.rst:30
+msgid ""
+"This manual is a guide on the use and functionality of the software "
+"rather than in-depth technical reference. The Contents section, provide a"
+" reference to the page of each major chapter and the sub chapters within."
+" By clicking on the content title (online version), the reader is re-"
+"directed to the position of the content title."
+msgstr ""
+
+#: ../../mobile_user_manual/index.rst:36
+msgid "The following conventions are used:"
+msgstr ""
+
+#: ../../mobile_user_manual/index.rst:38
+msgid ""
+"`Hyperlink <#_Login_Access>`__ enable a quick link (using the online "
+"version) to the subject relating to the functionality,"
+msgstr ""
+
+#: ../../mobile_user_manual/index.rst:41
+msgid "**Item** means an item in a drop down list\\ **,**"
+msgstr ""
+
+#: ../../mobile_user_manual/index.rst:43
+msgid "**Label** means a data field or a button,"
+msgstr ""
+
+#: ../../mobile_user_manual/index.rst:45
+msgid ""
+"Name of Page means a name of page or a data field in a text without "
+"hyperlink."
+msgstr ""
+
+#: ../../mobile_user_manual/index.rst:48
+msgid ""
+"At any time while using the online version, the following shortcuts are "
+"available:"
+msgstr ""
+
+#: ../../mobile_user_manual/index.rst:51
+msgid "**Ctrl Home : Move to the top of the document**"
+msgstr ""
+
+#: ../../mobile_user_manual/index.rst:53
+msgid "**Ctrl End: move to the end of the document.**"
+msgstr ""
+
+#: ../../mobile_user_manual/index.rst:55
+msgid "**Page Up : Move Page Up**"
+msgstr ""
+
+#: ../../mobile_user_manual/index.rst:57
+msgid "**Page Down: Move Page Down**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_app.rst:4
+msgid "The application IMIS Policies"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_app.rst:2
+msgid "The mobile application IMIS Policies"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:2
+msgid "**Function Modify**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:4
+msgid ""
+"The function Modify is navigated to by clicking on the menu item "
+"**Modify** in the main menu. The function Modify allows to download data "
+"on families/insurees from the web IMIS for their further editing or using"
+" for association with policies. A user must have a valid User Name and "
+"Password provided by an administrator of the web IMIS with an assigned "
+"role incorporating an access to the functionality **Insurees and "
+"Families/Family +Insurees/Edit** as an access to the functionality Modify"
+" is guarded by the `Login Page <#image-1.5.1-modify-function-login-"
+"page>`__"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:17
+msgid "Image 1.5.1 (Modify function-Login Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:19
+msgid ""
+"If login is successful the `Search Page <#image-1.5.2-search-page>`__ "
+"appears:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:25
+msgid "Image 1.5.2 (Search Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:27
+msgid ""
+"Enter the insurance number of any member of a family/group having a "
+"residence in the district where the enrolment officer is acting and click"
+" on the button **Search**. If the family/group with a member having the "
+"entered insurance number is found in the web IMIS, the `Family Page "
+"<#image-1.5.3-family-page-with-the-retrieved-family>`__ appears with the "
+"retrieved family."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:37
+msgid "Image 1.5.3 (Family Page with the retrieved family)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:39
+msgid ""
+"From now on, any operations like editing of members and deleting members "
+"of the family/group, associating new policies and contributions can be "
+"accomplished in the same way as for newly entered families as described "
+"with the function `Enrol <#function-enrol>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:45
+msgid "**Function Control Numbers**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:47
+msgid ""
+"The function Control Numbers is navigated to by clicking on the menu item"
+" **Control Numbers** in the main menu. The function Control Number allows"
+" sending requests for assigning of control numbers for intended payments "
+"of contributions and getting assigned control numbers. A user must have a"
+" valid User Name and Password provided by an administrator of the web "
+"IMIS with an assigned role incorporating an access to the functionality "
+"**Insurees and Families/Payment/Add** as an access to the functionality "
+"Control Numbers is guarded by the by the `Login Page <#image-1.2.1"
+"-enquire-function-login-page>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:57
+msgid ""
+"The `Overviews Page <#image-1.6.1-overviews-page>`__ appears after "
+"selecting **Contrl Numbers** in the main menu:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:63
+msgid "Image 1.6.1 (Overviews Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:65
+msgid ""
+"Click on the button **Overview Policies** to move to the `Search Policies"
+" Page <#image-1.6.2-search-policies-page>`__ with search criteria for "
+"policies in the memory of the device:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:72
+msgid "Image 1.6.2 (Search Policies Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:74
+msgid ""
+"The application keeps track of all policies that were created within the "
+"application and/or uploaded unless the track of a policy is explicitly "
+"deleted by a user (see below). This feature allows to send requests for "
+"assigning control numbers for one or several policies simultaneously to "
+"the web IMIS before or after the policies are uploaded (after uploading "
+"is a preferred option)."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:81
+msgid "The following search criteria are at disposal:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:83
+#: ../../mobile_user_manual/policy_modify.rst:153
+#: ../../mobile_user_manual/policy_modify.rst:271
+msgid "Insurance No."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:87
+#: ../../mobile_user_manual/policy_modify.rst:275
+msgid ""
+"Enter an insurance number (or a subset of) of the head of family/group "
+"holding searched policies."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:94
+#: ../../mobile_user_manual/policy_modify.rst:282
+msgid ""
+"Enter another name (or a subset of) of the head of family/group holding "
+"searched policies."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:97
+#: ../../mobile_user_manual/policy_modify.rst:285
+msgid "Last Names"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:101
+#: ../../mobile_user_manual/policy_modify.rst:289
+msgid ""
+"Enter a last name (or a subset of) of the head of family/group holding "
+"searched policies."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:104
+#: ../../mobile_user_manual/policy_modify.rst:292
+#: ../../mobile_user_manual/policy_renew.rst:70
+msgid "Insurance Product"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:108
+msgid "Select from the list of available insurance products of searched policies."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:111
+#: ../../mobile_user_manual/policy_modify.rst:299
+msgid "Uploaded From"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:115
+#: ../../mobile_user_manual/policy_modify.rst:303
+msgid ""
+"Select from the date selector the lowest date of uploading to the web "
+"IMIS of searched policies."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:118
+#: ../../mobile_user_manual/policy_modify.rst:306
+msgid "Uploaded To"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:122
+#: ../../mobile_user_manual/policy_modify.rst:310
+msgid ""
+"Select from the date selector the highest date of uploading to the web "
+"IMIS of searched policies."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:125
+#: ../../mobile_user_manual/policy_modify.rst:313
+msgid "Renewal Y/N"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:129
+#: ../../mobile_user_manual/policy_modify.rst:317
+msgid "Select whether only renewed or only new policies are search for. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:132
+msgid "Requested Y/N"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:136
+msgid ""
+"Select whether only policies for which a control number has been "
+"requested or only policies for which a control number hasn’t been "
+"requested yet. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:140
+#: ../../mobile_user_manual/policy_modify.rst:327
+msgid "Click on the button **Clear** to clear all search criteria entered."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:142
+msgid ""
+"Click on the button **Search** to get a list of policies satisfying the "
+"search criteria. The `Policies Page <#image-1.6.3-policies-page>`__ with "
+"the list of policies satisfying the search criteria appears:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:149
+msgid "Image 1.6.3 (Policies Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:151
+msgid "The following data are included with each policy:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:157
+msgid ""
+"Read-only data field. The insurance number of the head of a family/group "
+"holding a policy."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:160
+msgid "Renewal"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:164
+msgid ""
+"Read-only data field. An indication whether it is a new policy (N) or a "
+"renewal (Y)."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:167
+msgid "Names"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:171
+msgid ""
+"Read-only data field. The full name (the other and the full name) of the "
+"head of the family/group holding the policy."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:174
+msgid "Product Code"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:178
+msgid "Read-only data field. The code of the insurance product of the policy."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:181
+msgid "Product Name"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:185
+msgid "Read-only data field. The name of the insurance product of the policy."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:188
+msgid "Uploaded Date"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:192
+msgid ""
+"Read-only data field. The date of uploading of the policy if it has been "
+"uploaded."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:195
+msgid "Requested Date"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:199
+msgid ""
+"Read-only data field. The date of requesting a control number for the "
+"policy if it has been requested."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:202
+msgid "Checkbox"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:206
+msgid ""
+"Check the box if the policy should be included in a subsequent operation "
+"(**Delete, Request**)."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:209
+msgid ""
+"Click on the button **Delete** if the selected policies should be deleted"
+" from the list of policies."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:212
+msgid ""
+"Click on the button **Request** if assignment of a control number for the"
+" selected policies should be performed. The `Request Control Number Page "
+"<#image-1.6.4-request-control-number-page>`__ appears."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:219
+msgid "Image 1.6.4 (Request Control Number Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:221
+msgid "The following data items are included:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:223
+msgid "Total Amount"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:227
+msgid ""
+"The total amount of contributions associated with the selected policies "
+"for the request."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:234
+msgid ""
+"The phone number of the requester/user where a SMS with the assigned "
+"control number should be sent."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:237
+msgid "Type of Payment"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:241
+msgid ""
+"Select one of the two relevant types of payment (**Mobile Phone, Bank "
+"Transfer**)."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:244
+msgid ""
+"Click on button **Get Control Number**. The `Login Page <#image-1.6.5"
+"-request-control-number-login-page>`__ appears:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:250
+msgid "Image 1.6.5 (Request Control Number – Login Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:252
+msgid ""
+"If the application successfully logs in the `Policies Page <#image-1.6.3"
+"-policies-page>`__ appears again."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:255
+msgid ""
+"Click on the icon **<-** in the upper part of the `Policies Page "
+"<#image-1.6.3-policies-page>`__ to return to the `Search Policies Page "
+"<#image-1.6.2-search-policies-page>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:259
+msgid ""
+"Click on the button **Overview Control Numbers** to move to the `Search "
+"Control Numbers Page <#image-1.6.2-search-policies-page>`__ with search "
+"criteria for assigned control numbers:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:266
+msgid "Image 1.6.4 (Search Control Numbers Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:268
+msgid ""
+"Searching is done based on policies to which control numbers are "
+"assigned. The following search criteria are at disposal:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:296
+msgid ""
+"Select from the list of available insurance products of policies of which"
+" control numbers are searched for."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:324
+msgid ""
+"Select one of possible type of payment (Bank Transfer, **Mobile Phone**)."
+" Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:329
+msgid ""
+"Click on the button **Search** to get a list of policies satisfying the "
+"search criteria and assigned control numbers. The `Control Numbers Page "
+"<#image-1.6.5-control-numbers-page>`__ with the list of policies "
+"satisfying the search criteria and assigned control numbers appears:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:337
+msgid "Image 1.6.5 (Control Numbers Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_modify.rst:339
+msgid ""
+"Click on the icon **<-** in the upper part of the `Control Numbers Page "
+"<#image-1.6.5-control-numbers-page>`__ to return to the `Search Control "
+"Numbers Page <#image-1.6.4-search-control-numbers-page>`__ ."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:2
+msgid "Off-line mode of IMIS Policies"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:9
+msgid "IMIS Policies"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:14
+msgid "yes, by off-line transfer of the Master Data"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:20
+msgid "Acquire"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:22
+msgid "Enrol"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:24
+msgid "Modify"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:26
+msgid "Control Numbers"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:28
+msgid "Renew"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:28
+msgid "yes, by off-line transfer of the Renewal Data"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:32
+msgid "Feedback"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:32
+msgid "yes, by off-line transfer of the Feedback Data"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:48
+msgid "Creation and transfer of off-line files to IMIS Policies"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:50
+msgid ""
+"The off-line files for IMIS Policies is created in the web IMIS by "
+"selecting of the **Tools/Extracts** menu item. The form IMISExtracts is "
+"displayed."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:59
+msgid "Image 3.1.1 (IMISExtracts Form)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:61
+msgid ""
+"The Download Master Section is used for creation of the off-line files "
+"for IMIS Policies."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:68
+msgid ""
+"The code of an enrolment officer for whom the off-line files should be "
+"generated."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:73
+msgid "**Download Master Data**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:77
+msgid "The file MasterData.rar is generated."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:79
+msgid "**Download Renewals**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:83
+msgid ""
+"The file Renewals_<enrolment officer code>.RAR is generated. It contains "
+"renewal prompts associated with the enrolment officer at the time."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:87
+msgid "**Download Feedbacks**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:91
+msgid ""
+"The file Feedbacks_<enrolment officer code>.RAR is generated. It contains"
+" feedback prompts associated with the enrolment officer at the time."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:95
+msgid ""
+"The off-line files should be transferred to the device and stored in any "
+"folder (Renewals_<code>, Feedbacks_<code>) and in the folder "
+"IMIS/Database (MasterData). The off-line files Renewals_<code> and "
+"Feedbacks_<code> are selected by the user after swapping in the Renewals "
+"Page and `Feedbacks Page <#image-1.8.1-feedbacks-page>`__ ."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:102
+msgid "Creation and transfer of off-line files from IMIS Policies"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:104
+msgid ""
+"Use the function `Synchronize <#image-3.1.2-synchronize-page>`__ and the "
+"following buttons:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:110
+msgid "Image 3.1.2 (Synchronize Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:112
+msgid "**Create Enrolments XML**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:116
+msgid ""
+"Creates a file with all enrolments including policies/contributions that "
+"haven’t been uploaded or included in a generated file yet. It is required"
+" that each insuree has to have a photo associated with him/her. The name "
+"of the file is Enrolment_<enrolment officer code>_<date of "
+"creating>_<time of creating>.rar and it is stored in the folder "
+"IMIS/Enrolment."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:123
+msgid "**Create Renewals XML**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:127
+msgid ""
+"Creates a file with all renewals that haven’t been uploaded or included "
+"in a generated file yet. The name of the file is MasterRenewal.rar and it"
+" is stored in the folder IMIS."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:131
+msgid "**Create Feedbacks XML**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:135
+msgid ""
+"Creates a file with all feedbacks that haven’t been uploaded or included "
+"in a generated file yet. The name of the file is MasterFeedback.rar and "
+"it is stored in the folder IMIS."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_offline.rst:139
+msgid ""
+"The off-line files should be transferred to a client device of the web "
+"IMIS and uploaded to the web IMIS by means of the `IMISExtracts form "
+"<#image-3.1.1-imisextracts-form>`__ – in the sections Upload Enrolment, "
+"Upload Renewal, Upload Feedback."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_quit_about.rst:4
+msgid ""
+"The function Quit is navigated to by clicking on the menu item **Quit** "
+"in the main menu. The function Quit quits the application after `Quit "
+"Confirmation <#image-1.11.1-quit-confirmation-prompt>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_quit_about.rst:11
+msgid "Image 1.11.1 (Quit confirmation prompt)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_quit_about.rst:16
+msgid ""
+"The function About is navigated to by clicking on the menu item **About**"
+" in the main menu. The function About provides information about the "
+"application itself. The `About Page <#image-1.12.1-about-page>`__ appears"
+" immediately:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_quit_about.rst:24
+msgid "Image 1.12.1 (About Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:2
+msgid "**Function Renew**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:4
+msgid ""
+"The function Renew is navigated to by clicking on the menu item **Renew**"
+" in the main menu. The function Renew allows getting of prompts for "
+"renewing of policies from the web IMIS and posting of renewals for "
+"selected policies. A user must have a valid User Name and Password "
+"provided by an administrator of the web IMIS with an assigned role "
+"incorporating an access to the functionality **Insurees and "
+"Familiies/Policy/Renew** as an access to the functionality Renew is "
+"guarded by the `Login Page <#image-1.2.1-enquire-function-login-page>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:14
+msgid ""
+"The `Renewals Page <#image-1.7.1-renewals-page>`__ with the generic "
+"prompt (Unlisted Renewal Policies) appears after selecting **Renew** in "
+"the main menu. The generic prompt allows to the user to renew any policy,"
+" not only policies offered by prompts transferred from the web IMIS."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:23
+msgid "Image 1.7.1 (Renewals Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:25
+msgid ""
+"Swapping around the `Renewals Page <#image-1.7.1-renewals-page>`__ leads "
+"to the `Login Page <#image-1.7.2-renewals-page-login-page>`__ and after a"
+" successful login shows renewal prompts transferred from the web IMIS."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:32
+msgid "Image 1.7.2 (Renewals Page-Login Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:34
+msgid ""
+"The following rules apply for selecting of policies for which renewal "
+"prompts are displayed:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:37
+msgid ""
+"A policy is maintained by the enrolment officer with the enrolment "
+"officer code entered while launching the application."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:40
+msgid ""
+"The expiry date of a policy is in the past or within the fortnight from "
+"the current day"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:43
+msgid ""
+"There is no policy for the same family/group and for the same insurance "
+"product active after the expiry date of the policy to be prompted."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:47
+msgid ""
+"The `Renewal Page <#image-1.7.3-renewals-page-with-displayed-prompts>`__ "
+"with prompts appears after the swap and the successful login."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:53
+msgid "Image 1.7.3 (Renewals Page with displayed prompts)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:55
+msgid "Each renewal prompt contains the following data items:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:61
+msgid ""
+"The insurance number of the head of a family/group who holds the policy "
+"to be renewed."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:68
+msgid "The full name of the head of the family/group."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:74
+msgid ""
+"The code and the name of an insurance product with which the policy "
+"should be renewed."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:81
+msgid "The village of residence of the family/group."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:89
+msgid ""
+"The list of prompts can be temporarily reduced by entering a string in "
+"the **Search** field. Clicking on a selected prompt results in displaying"
+" of the `Renew Page <#image-1.7.4-renew-page---a-specific-prompt>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:97
+msgid "Image 1.7.4 (Renew Page - a specific prompt)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:105
+msgid ""
+"Read-only data field. Pre-filled by the code of an enrolment officer with"
+" which the application is launched."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:112
+msgid ""
+"Read-only data field for a specific prompt. Pre-filled by the insurance "
+"number from the prompt. For the generic prompt, enter the insurance "
+"number for the policy to be renewed. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:116
+msgid "Select Insurance Product"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:120
+msgid ""
+"Read-only data field for a specific prompt. Pre-filled by the insurance "
+"product from the prompt. For the generic prompt, select from the drop "
+"down list the insurance product with which the policy renewed. Mandatory."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:125
+msgid "Value of Renewed policy"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:129
+#: ../../mobile_user_manual/policy_renew.rst:137
+msgid ""
+"Read-only data field for a specific prompt. Pre-filled by the value of "
+"the renewed policy that should be covered by a contribution. This data "
+"field is not given for the generic prompt."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:133
+msgid "Receipt No."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:141
+msgid "Contribution Paid."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:145
+msgid "The amount of contribution actually paid for the renewal. Mandatory.."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:147
+msgid "Select Payer"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:151
+msgid "Select a payer of the contribution from the drop down list. Optional."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:153
+msgid "Discontinue This Policy"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:157
+msgid ""
+"Check the box if the policy should be not be renewed and it should be "
+"excluded from the list of renewal prompts. If checked the `Renewals Page "
+"<#image-1.7.3-renewals-page-with-displayed-prompts>`__ is displayed again"
+" and the corresponding prompt is removed from the list. This check box is"
+" not at disposal for the generic prompt."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:163
+msgid ""
+"Click on the button **Save** to save (post) the renewal data for this "
+"policy into the memory of the device. Subsequently it can be uploaded to "
+"the web IMIS by the function `Synchronize <#function-synchronize-1>`__. "
+"The `Renewals Page <#image-1.7.3-renewals-page-with-displayed-prompts>`__"
+" is displayed after saving with the prompt just saved being removed."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_renew.rst:170
+msgid ""
+"Click on the icon **<-** in the upper part of the `Renewals Page "
+"<#image-1.7.3-renewals-page-with-displayed-prompts>`__ to return to the "
+"`Home Page <#image-1.1.2-home-page>`__ ."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:4
+msgid ""
+"The function Reports is navigated to by clicking on the menu item "
+"**Reports** in the main menu. The function Reports provides basic "
+"statistics on the numbers families/insurees/policies associated with the "
+"enrolment officer. The `Report Page <#image-2.3.1-map-services-page>`__ "
+"appears immediately:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:13
+msgid "Image 1.9.1 (Reports Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:15
+msgid ""
+"Click on the button Snapshot Indicators to get data from the web IMIS on "
+"the date of reporting. The `Snapshot Indicators Page <#image-1.9.2"
+"-snapshot-indicators-page>`__ appears:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:25
+msgid "Image 1.9.2 (Snapshot Indicators Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:27
+msgid "Pick Date"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:31
+msgid "Enter the date for which the snapshot statistics are required."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:33
+msgid ""
+"Click on the button **Get** to display the statistics in the `Snapshot "
+"Indicators Page <#image-1.9.3-snapshot-indicators-page-with-"
+"statistics>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:40
+msgid "Image 1.9.3 (Snapshot Indicators Page with statistics)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:42
+msgid ""
+"The following indicators are provided on the date of creating of the "
+"report:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:45
+msgid "Number of Families with Active Policies"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:49
+msgid ""
+"The number of families/groups having at least one active policy managed "
+"by the enrolment officer for which the expiry date is after or on the "
+"date of creating of the report."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:53
+msgid "Number of Families with Expired Policies"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:57
+msgid ""
+"The number of families/groups having at least one expired policy managed "
+"by the enrolment officer for which there is no active follow-up policy of"
+" the same insurance product or its converted product entered into the web"
+" IMIS by the date of creating of the report."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:63
+msgid "Number of Families with Idle Policies"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:67
+msgid ""
+"The number of families/groups having at least one idle policy managed by "
+"the enrolment officer for which the date of expiry is after or on date of"
+" creating of the report and there is no active follow-up policy of the "
+"same insurance product or its converted product entered into the web IMIS"
+" by the date of creating of the report."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:73
+msgid "Number of Families with Suspended Policies"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:77
+msgid ""
+"The number of families/groups having at least one suspended policy "
+"managed by the enrolment officer for which the date of expiry is after or"
+" on date of creating of the report and there is no active follow-up "
+"policy of the same insurance product or its converted product entered "
+"into the web IMIS by the date of creating of the report."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:84
+msgid ""
+"Click on the icon **<-** in the upper part of the `Snapshot Indicators "
+"Page <#image-1.9.2-snapshot-indicators-page>`__ to return to the `Reports"
+" Page <#image-1.9.1-reports-page>`__"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:88
+msgid ""
+"Click on the button Cumulative Indicators to get data from the web IMIS "
+"on the date of reporting. The `Cumulative Indicators Page <#image-1.9.2"
+"-snapshot-indicators-page>`__ appears:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:98
+msgid "Image 1.9.4 (Cumulative Indicators Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:100
+msgid "Date From"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:104
+msgid "Enter the starting date for which the cumulative statistics are required."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:107
+msgid "Date To"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:111
+msgid "Enter the last date for which the cumulative statistics are required."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:113
+msgid ""
+"Click on the button **Get** to display the statistics in the `Cumulative "
+"Indicators Page <#image-1.9.5-cumulative-indicators-page-with-"
+"statistics>`__."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:120
+msgid "Image 1.9.5 (Cumulative Indicators Page with statistics)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:122
+msgid "The following cumulative indicators are provided for the specified period:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:125
+msgid "Number of New Policies"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:127
+msgid ""
+"The number of policies managed by the enrolment officer that were "
+"enrolled within the specified period irrespective of their status."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:130
+msgid "Number of Renewed Policies"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:132
+msgid ""
+"The number of policies managed by the enrolment officer that were renewed"
+" by the renewal functionality within the specified period irrespective of"
+" their status."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:136
+msgid "Number of Expired Policies"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:138
+msgid ""
+"The number of policies managed by the enrolment officer that expired "
+"within the specified period and they have no active follow-up policy of "
+"the same insurance product or its converted product entered into IMIS by "
+"the date of creating of the report."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:143
+msgid "Number of Suspended Policies"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:147
+msgid ""
+"The number of policies managed by the enrolment officer that were "
+"suspended within the specified period."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:150
+msgid "Amount of Collected Contributions"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:154
+msgid ""
+"The amount of contributions collected within the specified period for all"
+" policies managed by the enrolment officer."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:157
+msgid ""
+"**Remark 1:** All statistics are taken from the web IMIS irrespective "
+"whether policies originated in the application or were entered via the "
+"web IMIS."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:161
+msgid ""
+"**Remark 2:** The enrolment officer means the officer with the enrolment "
+"officer code that was entered while launching the application and all of "
+"its predecessors that he/she substituted directly or indirectly."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_report.rst:165
+msgid ""
+"Click on the icon **<-** in the upper part of the `Cumulative Indictors "
+"Page <#image-1.9.4-cumulative-indicators-page>`__ to return to the "
+"`Reports Page <#image-1.9.1-reports-page>`__"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_start.rst:2
+msgid "Launching of IMIS Policies"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_start.rst:4
+msgid ""
+"To launch the application IMIS Policies just click on the icon of the "
+"application. Users must have a valid code of an enrolment officer "
+"(present in the register of enrolment officers in the web IMIS) and they "
+"must have a valid User Name and Password provided by an administrator of "
+"the web IMIS for selected functionalities. The User Name data field in "
+"login pages is prefilled with enrolment officer code entered while "
+"launching the application. The reason is that the web IMIS can create "
+"automatically a user record simultaneously with an entry of a new "
+"enrolment officer into the register of enrolment officers. Such "
+"automatically created user has its User Name equal to the enrolment "
+"officer code. However, this prefilled User Name can re-written by any "
+"valid User Name in the application IMIS Policies."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_start.rst:17
+msgid "The `Initial Page <#image-1.1.1-initial-page>`__ will appear:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_start.rst:22
+msgid "Image 1.1.1 (Initial Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_start.rst:24
+msgid ""
+"Enter a valid enrolment officer code and click on the button **OK.** If a"
+" valid enrolment officer code is entered, the application will re-direct "
+"to the `Home Page <#image-1.1.2-home-page>`__\\ **.**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_start.rst:31
+msgid "Image 1.1.2 (Home Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_start.rst:33
+msgid ""
+"The statistics on the number of families/insurees/policies/contributions "
+"and on the amount of contributions appears that are currently managed by "
+"the application before their uploading to the web IMIS. The statistics is"
+" split into two sections in the part for families and insurees: the total"
+" numbers including both newly entered families/groups and insurees and "
+"downloaded (from the web IMIS) families/groups and only families/groups "
+"and insurees downloaded for editing."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_start.rst:47
+msgid "Image 1.1.3 (Menu for selection of a language)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_start.rst:49
+msgid ""
+"Clicking on the <three bars horizontally> icon (the upper left corner of "
+"the `Home Page <#image-1.1.2-home-page>`__) the main menu of the "
+"application appears."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_start.rst:56
+msgid "Image 1.1.4 (Main menu of the application)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_start.rst:60
+msgid "`Home <#launching-of-imis-policies>`__ – return to the Home Page"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_start.rst:62
+msgid ""
+"`Enquire <#function-enquire>`__ – getting a photo and information on the "
+"coverage of an insuree"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_start.rst:65
+msgid "`Acquire <#function-acquire>`__ – taking a photo of an insure"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_start.rst:67
+msgid ""
+"`Enrol <#image-1.4.13-families-and-policies-page-the-menu-associated-"
+"with-the-policy>`__ – entering or editing data on families/insurees and "
+"entering data on new policies and contributions"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_start.rst:71
+msgid ""
+"`Modify <#function-modify>`__ – downloading data of families/insurees "
+"from the web IMIS"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_start.rst:74
+msgid ""
+"`Control Numbers <#function-control-numbers>`__ – acquiring of control "
+"numbers for electronic payments of contributions"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_start.rst:77
+msgid "`Renew <#function-renew>`__ – renewing of policies"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_start.rst:79
+msgid ""
+"`Feedback <#function-feedback>`__ –providing a feedback on provided "
+"health care"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_start.rst:82
+msgid ""
+"`Reports <#_Function_Reports_1>`__ – providing reports relevant to "
+"activities of an enrolment officer"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_start.rst:85
+msgid "`Synchronize <#function-synchronize>`__ – uploading data to the web IMIS"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_start.rst:87
+msgid "`Quit <#function-quit>`__ –quitting of the application"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_start.rst:89
+msgid ""
+"`About <#image-1.11.1-quit-confirmation-prompt>`__ – info on the version "
+"of the installed application"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:4
+msgid ""
+"The function Synchronize is navigated to by clicking on the menu item "
+"**Synchronize** in the main menu. The function Synchronize uploads posted"
+" enrolments/renewals/feedbacks to the web IMIS. For on-line uploading a "
+"user must have a valid User Name and Password provided by an "
+"administrator of the web IMIS with an assigned role incorporating an "
+"access to the functionality **Insurees and Familiies/Family "
+"+Insuree+Policy+Contribution/Add+Edit** as an access to the functionality"
+" Synchronize is guarded by the `Login Page <#image-1.2.1-enquire-"
+"function-login-page>`__ for on-line uploads."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:20
+msgid "Image 1.10.1 (Synchronize Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:22
+msgid ""
+"Clicking on any of the buttons **Upload Enrolments, Upload Renewals, "
+"Upload Feedbacks** the `Login Page <#image-1.6.5-request-control-number-"
+"login-page>`__ appears."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:29
+msgid "Image 1.10.2 (Synchronize Page – Login Page)"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:31
+msgid ""
+"If the application successfully logs in the `Synchronize Page "
+"<#image-1.10.1-synchronize-page>`__ appears again with the following "
+"buttons:"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:35
+msgid "**Upload Enrolments**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:39
+msgid ""
+"Uploads all enrolments including policies/contributions that haven’t been"
+" uploaded yet. It is required that each uploaded insuree has to have a "
+"foto associated with him/her."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:43
+msgid "**Upload Renewals**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:47
+msgid "Uploads all renewals that haven’t been uploaded yet."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:49
+msgid "**Upload Feedbacks**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:53
+msgid "Uploads all feedbacks that haven’t been uploaded yet."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:55
+msgid "**Download Master**"
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:59
+msgid ""
+"Updates the master data in the device from the web IMIS. This update "
+"doesn’t require a login; nevertheless after the update entering of the "
+"enrolment officer code is required."
+msgstr ""
+
+#: ../../mobile_user_manual/policy_synchronize.rst:63
+msgid ""
+"Another buttons in the `Synchronize Page <#image-1.10.1-synchronize-"
+"page>`__ relate to the off-line mode of the application and they are "
+"described `elsewhere <#off-line-mode-of-imis-policies>`__."
+msgstr ""
+

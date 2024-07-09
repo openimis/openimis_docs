@@ -1,0 +1,364 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, openIMIS team
+# This file is distributed under the same license as the openIMIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:2
+msgid "Overview of Commissions"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:4
+msgid ""
+"The report Overview of Commissions summarizes prescribed/actually paid "
+"contributions for newly enrolled/renewed policies for families/groups."
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:6
+msgid "Parameters for selection for the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:12
+msgid "`Overview of Capitation Report Criteria`"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:14
+msgid "Input parameters of the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:16
+msgid "Month– the period  in which a payment takes place-obligatory"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:18
+msgid "Year  - the period  in which a payment takes place –obligatory"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:20
+msgid "Region – region of activity of enrolment officers -obligatory"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:22
+msgid "District - region of activity of enrolment officers -obligatory"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:24
+msgid ""
+"Insurance Product – the drop down list with available insurance products "
+"for the district according to standard IMIS rules-optional"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:26
+msgid ""
+"Enrolment Officer - the drop down list with acting enrolment officers in "
+"the district  - optional"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:28
+msgid ""
+"Payer-a drop down list with available payers according to standard IMIS "
+"rules  -optional"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:30
+msgid "Mode – a drop down list with the following modes:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:32
+msgid "Prescribed Contributions"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:34
+msgid "Actually Paid Contributions"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:36
+msgid "Scope-a drop down list with the following scopes:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:38
+msgid "Overview"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:40
+msgid "All details"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:42
+msgid ""
+"Commission Rate – a percentage for calculation of commissions depending "
+"on the mode"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:44
+msgid "The title of the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:46
+msgid "Mode"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:48
+msgid "Commission Rate"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:50
+msgid "Period (Month/Year)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:52
+msgid "Region and District"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:54
+msgid ""
+"Insurance Product ( the code and the name of an insurance product) if "
+"specified in the input parameters"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:56
+msgid ""
+"Enrolment Officer ( the code and the name of an enrolment officer)  if "
+"specified in the input parameters"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:58
+msgid "Content of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:60
+msgid ""
+"The report takes into account policies satisfying the following "
+"conditions:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:62
+msgid "mode Prescribed Contributions:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:64
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:70
+msgid "The policy is activated (it is active now or it will be active in future)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:66
+msgid ""
+"The last contribution for the policy was prescribed within the specified "
+"period ((Month/Year)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:68
+msgid "mode Actually Paid Contributions:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:72
+msgid ""
+"he last payment of contribution for the policy meets or exceeds the last "
+"prescribed contribution and it was matched by the payment module within "
+"the specified period ((Month/Year)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:74
+msgid "Structuring of the report"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:76
+msgid "Overview Scope"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:78
+msgid ""
+"The report is structured in rows dedicated to an enrolment officer and an"
+" insurance product. Each row contains the following data items:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:80
+msgid "Enrolment officer code"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:82
+msgid "Enrolment officer name ( Other names +Last name)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:84
+msgid ""
+"Phone Number (for the enrolment officer taken  from the register of "
+"enrolment officers)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:86
+msgid "Insurance product code"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:88
+msgid "Insurance product name"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:90
+msgid "Number of policies"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:92
+msgid "Amount of contributions"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:94
+msgid "Commissions"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:96
+msgid ""
+"Remark 1: if an enrolment officer provides policies of different "
+"insurance products then there are several consecutive rows devoted to the"
+" enrolment officer according to individual insurance products"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:98
+msgid ""
+"Remark 2: Amount of contributions is the amount of prescribed "
+"contribution for the mode Prescribed Contributions and the amount of "
+"actually paid (matched) contributions for the mode Actually Paid "
+"Contributions."
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:100
+msgid "The report ends with the following totals:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:102
+msgid "Total number of policies"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:104
+msgid "Total amount of contributions"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:106
+msgid "Total amount of commissions"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:109
+msgid "All details scope"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:111
+msgid "The policies are structured in the following way:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:113
+msgid ""
+"If a specific enrolment officer is not specified in the corresponding "
+"input parameter the policies are structured in sections  (with the sub-"
+"tile the code and the name of an enrolment officer)  according to "
+"enrolment officers"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:115
+msgid ""
+"If a specific insurance product is not specified in the corresponding "
+"input parameter the policies are structured in sections  (with the sub-"
+"tile the code and the name of an insurance product) according to "
+"insurance products"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:117
+msgid ""
+"If neither  a specific insurance product  nor a specific enrolment "
+"officer is not specified in the corresponding input parameter the "
+"policies are structured first  in sections   (with the sub-tile the code "
+"and the name of an enrolment officer)  according to enrolment officers "
+"and within them in sub-sections (with the sub-tile the code and the name "
+"of an insurance product) according to insurance products"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:119
+msgid "Each section/sub section provides the following totals at its end:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:121
+msgid "The total number of  the listed policies in the section/sub-section"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:123
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:153
+msgid "The total of all prescribed contributions of the listed policies"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:125
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:155
+msgid "The total of all actual payments of contributions of the listed policies"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:127
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:157
+msgid ""
+"The calculated commission as a product of the Commission Rate and the "
+"total of all prescribed contributions"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:129
+msgid "For each policy the following data items are included in the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:132
+msgid "Insurance number of the head of the  family"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:134
+msgid "Full name of the head of the family"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:136
+msgid "Date of enrolment/renewal of the policy"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:138
+msgid "Date of prescribed contribution"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:140
+msgid "Receipt code of the prescribed contribution"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:142
+msgid "Amount of contribution"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:144
+msgid ""
+"List of all matched actual payments of the prescribed contribution "
+"(transaction number of payment, date of receiving of the payment, actual "
+"amount of payment)"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:147
+msgid ""
+"Remark: If a family/group has several policies satisfying the criteria of"
+" inclusion in the report or such policies are included separately."
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:149
+msgid "The following totals are provided at the end of the report:"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:151
+msgid "The total number of  the listed policies"
+msgstr ""
+
+#: ../../user_manual/tools/reports/contribution_commission_overview.rst:159
+msgid "Example"
+msgstr ""
+

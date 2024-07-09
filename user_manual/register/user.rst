@@ -1,226 +1,245 @@
-
-
-Users administration
+Users Administration
 ^^^^^^^^^^^^^^^^^^^^
 
-  User administration is restricted to users with the system role of IMIS Administrator or with a role including an access to Administration/Users.
+User administration is restricted to users with the system role of IMIS Administrator or with a role including an access to Administration/Users.
+
+Enrolment officers and Claim administrators are now considered as a user with specific roles.
+
+.. contents:: Table of Contents
+
 
 Pre-conditions
-""""""""""""""
+==============
 
-  A user may only be added or thereafter edited, after the approval of the management of the scheme administration. Deletion of a user normally will occur when a user leaves his/her post within the health insurance scheme and/or the scheme administration. A built in user with the user name Admin and the initial password Admin is created automatically in IMIS with access to all locations of the register of locations (at any time). The Admin user has an implicit role that includes full access rights to the registers of locations, full access to the register of user profiles and an access to downloading/uploading of the register of locations to/from an external file.
+A user may only be added or edited after the approval of the management of the scheme administration. Deletion of a user normally will occur when a user leaves his/her post within the health insurance scheme and/or the scheme administration. A built in user with the user name Admin and the initial password Admin is created automatically in openIMIS with access to all locations of the register of locations (at any time). The Admin user has an implicit role that includes full access rights to the registers of locations, full access to the register of user profiles and an access to downloading/uploading of the register of locations to/from an external file.
 
 Navigation
-""""""""""
+==========
 
-  All functionality for use with the administration of users can be found under the main menu ``Administration``, sub menu ``Users``.
+All functionalities related to users administration can be found under the main menu ``Administration``, sub menu ``Users``.
 
-  .. _image52:
-  .. figure:: /img/user_manual/image45.png
-    :align: center
+.. figure:: /img/user_manual/users_navigation.png
+  :align: center
 
-    `Navigation Users`
+  `Navigation to users page`
 
-  Clicking on the sub menu ``Users`` re-directs the current user to the `User Control Page <#user-control-page>`__\ .
+Clicking on the sub menu ``Users`` redirects the current user to the `Users List Page <#users-list-page>`__\ .
 
-  .. _image53:
-  .. figure:: /img/user_manual/image46.png
-    :align: center
+.. figure:: /img/user_manual/users_list.png
+  :align: center
 
-    `User Control Page`
+  `User List Page`
 
-User Control Page
-"""""""""""""""""
+Users List Page
+================
 
-  The ``User Control Page`` is the central point for all user administration. By having access to this page, it is possible to add, edit, delete and search users. The page is divided into four panels (:numref:`image52`).
+It is the central point for the users administration. By having access to this page, it is possible to add, edit, delete and search users. The page is divided into four panels.
 
-  The following rules apply to the list of found users besides conformance with all search criteria:
+The following rules apply to the list of found users besides conformance with all search criteria:
 
-    #.  The user Admin is not included in any searching for users with exception of  searching done by an Admin user itself.
+  #. The user Admin is not included in any search for users with exception of searches done by an Admin user itself.
 
-    #.  A user having access rights Users/Search (see User Profiles) can get as a result of a searching only users that have access to same set of locations or to a subset of locations of the searching user only.
+  #. A user having the access right *Users/Search* (see :ref:`User Profiles <user_roles_control_page>`) will only be able to see users that have access to them same set of locations or to a subset of locations of the user making the search only.
 
 
- #. **Search Panel**
+Search Panel
+""""""""""""
 
-    The search panel allows a user to select specific criteria to minimise the search results. In the case of users the following search options are available which can be used alone or in combination with each other.
+The search panel allows a user to filter on specific criteria.
 
-    * ``Last Name``
+Last Name
+  Filter on users who have the typed text in their last name. 
 
-      Type in the beginning of; or the full Last name; to search for users with a Last name, which starts with or matches completely, the typed text.
+Login Name
+  Filter on users who have the typed text in their login. 
 
-    * ``Login Name``
+Phone Number
+  Filter on users who have the typed text in their phone number. 
 
-      Type in the beginning of; or the full Login name, to search for users with a Login name, which starts with or matches completely, the typed text.
+Email
+  Filter on users who have the typed text in their email. 
 
-    * ``Phone Number``
+Other Names
+  Filter on users who have the typed text in their other names. 
 
-      Type in the beginning of; or the full Phone Number, to search for users, with a Phone Number which starts with or matches completely, the typed text.
+Role
+  Filter users with the selected role
 
-    * ``Email``
+Health Facilities
+  Select the Health Facility; from the list of health facilities by clicking on the arrow on the right of the selector, to select users from a specific health facility. 
+  
+  .. note::
+    The list will only contain the health facilities belonging to the districts assigned to the currently logged in user.
 
-      Type in the beginning of; or the full Email, to search for users, with an Email which starts with or matches completely, the typed text.
+Region
+  Select the Region from the list of regions by clicking on the arrow on the right of the selector to find users with access to a specific region.
+  
+  .. note::
+    The list will only contain the health facilities belonging to the regions assigned to the currently logged in user.
 
-    * ``Other Names``
 
-      Type in the beginning of; or the full Other Names, to search for users, with Other names which start with or match completely the typed text.
+District
+  Select the District from the list of districts by clicking on the arrow on the right of the selector to find users with access to a specific district.
 
-    * ``Role``
+  .. note::
+    The list will only contain the health facilities belonging to the districts assigned to the currently logged in user.
 
-      Select the Role; from the list of roles by clicking on the arrow on the right of the selector, to select users of a specific role.
+Language
+  Select the Language from the list of languages by clicking on the arrow on the right of the selector, to select users with a specific language.
 
-    * ``Health Facilities``
+Search Button
+  Once the criteria have been entered, use the search button to filter the records, the results will appear in the result panel.
 
-      Select the Health Facility; from the list of health facilities by clicking on the arrow on the right of the selector, to select users from a specific health facility. *Note: The list will only be filled with the health facilities belonging to the districts assigned to the currently logged in user.*
+Results Panel
+"""""""""""""""
 
-    * ``Region``
+.. _users_results:
+.. figure:: /img/user_manual/users_results.png
+  :align: center
 
-      Select the Region; from the list of regions by clicking on the arrow on the right of the selector to find users with access to a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user.*
+  `Selected record (blue), hovered records (yellow) - Results Panel`
 
-    * ``District``
+The result panel displays a list of all users found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`users_results`). The leftmost record contains a hyperlink which if clicked, redirects the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
 
-      Select the District; from the list of districts by clicking on the arrow on the right of the selector to find users with access to a specific district. *The list will be only filled with the districts belonging to the selected region.*
+A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`users_pagination`)
 
-    * ``Language``
+.. _users_pagination:
+.. figure:: /img/user_manual/users_pagination.png
+  :align: center
 
-      Select the Language; from the list of languages by clicking on the arrow on the right of the selector, to select users with a specific language.
+  `Page selector- Results Panel`
 
-    * ``Historical``
+Buttons Panel
+""""""""""""""
 
-      Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:numref:`image54`).
+With exception of the ``Cancel`` button, which redirects to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
 
-    .. _image54:
-    .. figure:: /img/user_manual/image47.png
-      :align: center
+Information Panel
+""""""""""""""""""
 
-      `Historical records - Result Panel`
-
-    * ``Search Button``
-
-      Once the criteria have been entered, use the search button to filter the records, the results will appear in the result panel.
-
- #. **Result Panel**
-
-    .. _image55:
-    .. figure:: /img/user_manual/image48.png
-      :align: center
-
-      `Selected record (blue), hovered records (yellow) - Result Panel`
-
-    The result panel displays a list of all users found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image55`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record.
-
-    A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image56`)
-
-    .. _image56:
-    .. figure:: /img/user_manual/image11.png
-      :align: center
-
-      `Page selector- Result Panel`
-
- #. **Button Panel**
-
-    With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button.
-
- #. **Information Panel**
-
-    The Information Panel is used to display messages back to the user. Messages will occur once a user has been added, updated or deleted or if there was an error at any time during the process of these actions.
+The Information Panel is used to display messages back to the user. Messages will occur once a user has been added, updated or deleted or if there was an error at any time during the process of these actions.
 
 ­User Page
-""""""""""
+==========
 
- #. **Data Entry**
+.. _users_form:
+.. figure:: /img/user_manual/users_form.png
+  :align: center
 
-    .. _image57:
-    .. figure:: /img/user_manual/image49.png
-      :align: center
+  `User Page`
 
-      `User Page`
+Fields
+""""""""
 
-    * ``Language``
+Generic Fields
+--------------
 
-      Select the user’s preferred language from the list by clicking on the arrow on the right hand side of the lookup. Mandatory.
+User name
+  Enter the Login name for the user. This is an alias used for logging into the application; a minimum of 6 and a maximum of 25 characters should be used for the login. Each Login Name should be unique. Mandatory.
 
-    * ``Last name``
+Given Names
+  Enter other names of the user. Mandatory, 100 characters maximum.
 
-      Enter the last name (surname) for the user. Mandatory, 100 characters maximum.
+Last name
+  Enter the last name (surname) for the user. Mandatory, 100 characters maximum.
 
-    * ``Other Names``
+Email
+  Enter the e-mail address for the user. 50 characters maximum.
 
-      Enter other names of the user. Mandatory, 100 characters maximum.
+Phone Number
+  Enter the phone number for the user. 50 characters maximum.
 
-    * ``Phone Number``
+Health Facility
+  Select the health facility that the user belongs to, if applicable, from the list of health Facilities from the list by clicking on the arrow on the right hand side of the lookup.
+  
+  .. :note::
+    The list will only be filled with the Health Facilities belonging to the districts assigned to the currently logged in user.
 
-      Enter the phone number for the user. 50 characters maximum.
+Roles
+  Select from the list of available roles the Roles which the user carries out. Mandatory (at least one role must be selected). The list of roles contains all roles (user profiles) that are not blocked.
 
-    * ``Email``
+Districts
+  Select from the list of available districts the district(s) which the user will have access to. Mandatory (at least one district must be selected). 
+  
+  .. :note::
+    The box contains only regions accessible to the user or regions that have been added by the user.
 
-      Enter the e-mail address for the user. 50 characters maximum.
+Login Fields
+--------------
 
-    * ``Login Name``
+Language
+  Select the user’s preferred language from the list by clicking on the arrow on the right hand side of the lookup. Mandatory.
 
-      Enter the Login name for the user. This is an alias used for logging into the application; a minimum of 6 and a maximum of 25 characters should be used for the login. Each Login Name should be unique. Mandatory.
+Password
+  Enter the password for the user. This is used at login to grant access to the application; a minimum of 8 and a maximum of 25 characters should be used for the password. The password should have at least one digit. Mandatory.
 
-    * ``Password``
+Confirm Password
+  Re-enter the password. The password must be entered twice, to ensure that there was no mistyping in the first entry. Mandatory.
 
-      Enter the password for the user. This is used at login to grant access to the application; a minimum of 8 and a maximum of 25 characters should be used for the password. The password should have at least one digit. Mandatory.
+Enrolment Officer Fields
+------------------------
 
-    * ``Confirm Password``
+Birth date
+  Birth date of the enrolment officer.
 
-      Re-enter the password. The password must be entered twice, to ensure that there was no mistyping in the first entry. Mandatory.
+Works to
+  End date at which the enrolment officer is replaced by the substitution officer.
 
-    * ``Health Facility``
+Substitution Officer
+  Replacement of the user after the `Works to` date.
 
-      Select the health facility that the user belongs to, if applicable, from the list of health Facilities from the list by clicking on the arrow on the right hand side of the lookup. *Note: The list will only be filled with the Health Facilities belonging to the districts assigned to the currently logged in user.*
+Address
+  Address of the living place of the enrolment officer.
 
-    * ``Roles``
+Region & District
+  Select the region & district where the enrolment officer will work. It will be used to select villages managed by the enrolment officer.
 
-      Select from the list of available roles the Roles which the user carries out, by either clicking on the ``Check All`` box at the top of the list of Roles, or by selectively clicking on the ``Check box`` to the left of the role. Mandatory (at least one role must be selected). The list of roles contains all roles (user profiles) that are not blocked. Mandatory (at least one role must be selected)
+Villages
+  List of all villages where enrolment officer will work. To add villages, you first need to add a row and select the municipality.
 
-    * ``Regions``
+  .. figure:: /img/user_manual/users_enrolment_officer_villages.png
+    :align: center
 
-      Select from the list of available regions the region(s) which the user will have access to, by either clicking on the ``Check All`` box at the top of the list of regions, or by selectively clicking on the ``Check box`` to the left of a region. Mandatory (at least one region must be selected). The selection can be done indirectly by selecting a district or some districts. The box contains only regions accessible to the user or regions that have been added by the user. Mandatory (at least one region must be selected). The selection can be done indirectly by selecting a district or some districts.
+    `Enrolment Officer - Manage villages`
 
-    * ``Districts``
+Claim Administrator Fields
+---------------------------
 
-      Select from the list of available districts the district(s) which the user will have access to, by either clicking on the ``Check All`` box at the top of the list of districts, or by selectively clicking on the ``Check box`` to the left of the district. Districts are pre-selected based on the selected region(s). The pre-selection can be modified. Mandatory (at least one district must be selected). The selection can be done indirectly by just selecting a region or some regions. The box contains only regions accessible to the user or regions that have been added by the user. Mandatory (at least one region must be selected). The selection can be done indirectly by selecting a district or some districts.
+Birth date
+  Birth date of the enrolment officer.
 
- #. **Saving**
 
-    Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `User Control Page <#user-control-page>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the user has been saved will appear on the Information Panel.
 
- #. **Mandatory data**
+Saving
+""""""
 
-    If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data fields will take the focus (by an asterisk on the right of the corresponding data field).
+Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be redirected back to the `User List Page <#user-list-page>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the user has been saved will appear on the Information Panel.
 
- #. **Cancel**
+**Mandatory fields**
 
-    By clicking on the ``Cancel`` button, the user will be re-directed to the `User Control Page. <#user-control-page>`__
+  If mandatory fields are not filled when the user clicks on the ``Save`` button, a message will appear in the Information Panel, and the data fields will take the focus (by an asterisk on the right of the corresponding data field).
+
+**Cancel**
+
+  By clicking on the ``Cancel`` button, the user will be redirected to the `Users List Page. <#user-list-page>`__
 
 Adding a User
 """""""""""""
 
-  Click on the Add button to re-direct to the `User Page <#user-page>`__.
+Click on the Add button to redirect to the `User Page <#user-page>`__.
 
-  When the page opens all entry fields are empty. See the `User Page <#user-page>`__ for information on the data entry and mandatory fields.
+When the page opens all entry fields are empty. See the `User Page <#user-page>`__ for information on the data entry and mandatory fields.
 
 Editing a User
 """"""""""""""
 
-  Click on the Edit button to re-direct to the `User Page <#user-page>`__
+Click on the Edit button to redirect to the `User Page <#user-page>`__
 
-  The page will open with the current information loaded into the data entry fields. See the `User Page <#user-page>`__ for information on the data entry and mandatory fields
+The page will open with the current information loaded into the data entry fields. See the `User Page <#user-page>`__ for information on the data entry and mandatory fields
 
 Deleting a User
 """""""""""""""
 
-  Click on the Delete button to delete the currently selected record
+Click on the Delete button to delete the currently selected record
 
-  Before deleting a confirmation popup (:numref:`image58`) is displayed, this requires the user to confirm if the action should really be carried out.
-
-  .. _image58:
-  .. figure:: /img/user_manual/image24.png
-    :align: center
-
-    `Delete confirmation- Button Panel`
-
-  When a user is deleted, all records retaining to the deleted user will still be available by selecting historical records.
+Before deleting a confirmation popup is displayed, this requires the user to confirm if the action should really be carried out.

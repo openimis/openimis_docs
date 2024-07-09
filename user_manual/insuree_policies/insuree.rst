@@ -3,41 +3,122 @@
 Insuree
 ^^^^^^^
 
-Find Insuree
-""""""""""""
+.. contents:: Table of Contents
 
-  Access to the Find Insuree Page is restricted to users with the system roles of Accountant, Clerk and Health Facility Receptionist or with a role including an access to Insurees and Families/Insuree/Search.
+Find Insuree
+============
+
+Access to the Find Insuree Page is restricted to users with the system roles of Accountant, Clerk and Health Facility Receptionist or with a role including an access to Insurees and Families/Insuree/Search.
 
 Pre-conditions
+--------------
 
-
-  Need to enquire on, or edit an insuree, and the family/group, policies and contributions associated.
+Need to enquire on, or edit an insuree, and the family/group, policies and contributions associated.
 
 Navigation
+-----------
 
+All functionality for use with the administration of insurees can be found under the main menu ``Insurees and Policies``, sub menu ``Insurees``.
 
-  All functionality for use with the administration of insurees can be found under the main menu ``Insurees and Policies``, sub menu ``Insurees``.
+.. _image75_insuree:
+.. figure:: /img/user_manual/image75.png
+  :align: center
 
-  .. _image95:
-  .. figure:: /img/user_manual/image75.png
+  `Navigation Insurees`
+
+Clicking on the sub menu ``Insurees`` re-directs the current user to the Find Insuree Page.
+
+Page
+----
+
+.. _image96_insuree_search:
+.. figure:: /img/user_manual/76_insuree_search.png
+  :align: center
+
+  `Find Insuree Page`
+
+The ``Find Insuree Page`` is the first step in the process of finding an insuree and thereafter accessing the family/group overview of insurees, policies and contributions. This initial page can be used to search for specific Insurees or groups of insurees based on specific criteria. The panel is divided into three panels (:numref:`image96_insuree_search`)
+
+A. Search Panel
+""""""""""""""""
+
+The Search Panel allows a user to select specific criteria to reduce the search results. In the case of insurees the following search options are available, which can be used alone or in combination with each other.
+
+Region
+  Select the ``Region``; from the list of regions by clicking on the arrow on the right of the selector to select insurees from a specific region. *Note: The list will only be filled with the regions assigned to the current logged in user. If this is only one then the region will be automatically selected.*
+
+District
+  Select the ``District``; from the list of districts by clicking on the arrow on the right of the selector to select insurees from a specific district. *Note: The list will only be filled with the districts belonging to the selected region and assigned to the current logged in user. If this is only one then the district will be automatically selected.*
+
+Municipality
+  Select the ``Municipality``; from the list of wards either by typing at least two characters or by clicking on the arrow on the right of the selector to select insurees from a specific municipality. *Note: The list will only be filled with the wards in the selected district above.*
+
+Village
+  Select the ``Village``; from the list of villages either by typing at least two characters or by clicking on the arrow on the right of the selector to select insurees from a specific village. *Note: The list will only be filled with the villages in the selected municipality above.*
+
+Insurance Number
+  Type in the beginning of; or the full ``Insurance Number`` to search for insurees with the ``Insurance Number``, which starts with or matches completely, the typed text.
+
+Last Name
+  Type in the beginning of; or the full ``Last name``; to search for insurees with a ``Last name``, which starts with or matches completely, the typed text.
+
+Given Names
+  Type in the beginning of; or the full ``Given Names`` to search for insurees with ``Other Names`` which starts with or matches completely, the typed text.
+
+Gender
+  Select the ``Gender``; from the list of genders by clicking on the arrow on the right of the selector, to select insurees of a specific gender.
+
+Marital Status
+  Select the ``Marital Status``; from the list of marital status by clicking on the arrow on the right of the selector, to select insurees of a specific marital status.
+
+Email
+  Type in the beginning of; or the full ``Email`` address to search for insurees with a ``Email``, which contains or matches completely, the typed email.
+
+Phone Number
+  Type in the beginning of; or the full ``Phone Number`` to search for insurees with a ``Phone Number``, which contains or matches completely, the typed number.
+
+Birth Date From
+  Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for insurees who have the same or later birth date. *Note. To clear the date entry box; click on the date and use the ``Clear`` button on the bottom left.*
+
+Birth Date To
+  Type in a date; or use the Date Selector Button, to enter the ``Birth Date To`` to search for insurees who have the same or earlier birth date. *Note. To clear the date entry box; click on the date and use the ``Clear`` button on the bottom left.*
+
+Photo status
+  Select whether all insurees are searched [**Any**] or only insurees [**With**] a photo assigned or only insurees [**Without**] photo assigned.
+
+Show historical values
+  Click on Show historical values to see historical records matching the selected criteria. Historical records are displayed in the result as grayed out. (:numref:`image98`)
+
+  .. _image98:
+  .. figure:: /img/user_manual/77_insuree_historical.png
     :align: center
 
-    `Navigation Insurees`
+    `Historical records - Result Panel`
 
-  Clicking on the sub menu ``Insurees`` re-directs the current user to the Find Insuree Page.
+Search Buttons
+  When criteria are defined and potentially after a small delay, the search will be automatically executed. There are however two buttons on the top right:
 
-Find Insuree Page
+  .. _image_search_buttons:
+  .. |search_reset_button| image:: /img/user_manual/search_reset_button.png
+    :align: middle
+  .. |search_button| image:: /img/user_manual/search_button.png
+    :align: middle
 
+  +-----------------------+-----------------------+
+  | |search_reset_button| | Reset search criteria |
+  +-----------------------+-----------------------+
+  | |search_button|       | Search (again)        |
+  +-----------------------+-----------------------+
 
   .. _image96:
   .. figure:: /img/user_manual/76_insuree_search.png
     :align: center
 
-    `Find Insuree Page`
+The result panel displays a list of all Insurees found, matching the selected criteria in the search panel. The leftmost column contains a search icon which if clicked, opens a dialog with further details and eligibility check. On the right, the family icon directs the user to the `Family Overview Page <#family-overview-page.>`__ of the insuree’s family, and a button to delete the insuree.
 
   The ``Find Insuree Page`` is the first step in the process of finding an insuree and thereafter accessing the family/group overview of insurees, policies and contributions. This initial page can be used to search for specific Insurees or groups of insurees based on specific criteria. The panel is divided into three panels (:numref:`image96`)
 
- #. **Search Panel**
+  `Highlighted result row`
 
     The Search Panel allows a user to select specific criteria to reduce the search results. In the case of insurees the following search options are available, which can be used alone or in combination with each other.
 
@@ -150,13 +231,13 @@ Find Insuree Page
 
 
 Insuree Page
-""""""""""""
+============
 
     .. _image126:
     .. figure:: /img/user_manual/100_insuree_edit.png
       :align: center
 
-      `Insuree Page`
+#. **Family Details**
 
  #. **Family Details**
 
@@ -168,12 +249,13 @@ Insuree Page
 
       Shown in the insuree section header only if the insuree is not the head of the family. Select from the list of available relationships of the insuree to the head of family/group.
 
-    * ``Insurance Number``
+    Relationship
+      Shown in the insuree section header only if the insuree is not the head of the family. Select from the list of available relationships of the insuree to the head of family/group.
 
+    Insurance Number
       Enter the insurance number for the insuree. Mandatory.
 
-    * ``Last name``
-
+    Last name
       Enter the last name (surname) for the insuree. Mandatory, 100 characters maximum.
 
     * ``Given Names``
@@ -186,13 +268,14 @@ Insuree Page
 
     * ``Gender``
 
+    Gender
       Select from the list of available genders the gender of the insuree. Mandatory.
 
-    * ``Marital Status``
-
+    Marital Status
       Select from the list of available options for the marital status of the insuree.
 
-    * ``Beneficiary Card``
+    Beneficiary Card
+      Select from the list of options whether or not the card was issued to the insuree.
 
       Select from the list of options whether or not the card was issued to the insuree.
 
@@ -220,10 +303,10 @@ Insuree Page
 
     * ``Phone Number``
 
+    Phone Number
       Enter the phone number for the insuree.
 
-    * ``Email``
-
+    Email
       Enter the e-mail address of the insuree.
 
     * ``Profession``
@@ -236,10 +319,13 @@ Insuree Page
 
     * ``Identification Type``
 
+    Education
+      Select from the list of available educations the education of the insuree.
+
+    Identification Type
       Select the type of the identification document of the insuree.
 
-    * ``Identification No.``
-
+    Identification No.
       Enter alphanumeric identification of the document of the insuree.
 
     * ``First Service Point``
@@ -268,7 +354,7 @@ Insuree Page
 
     Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Family Overview Page <#family-overview-page.>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the insuree has been saved will appear on the Information Panel.
 
- #. **Mandatory data**
+    **Mandatory data**
 
     The ``Save`` button is disabled until all mandatory data fields (with an asterisk) are filled.
 
@@ -277,21 +363,21 @@ Insuree Page
     By clicking on the ``Cancel`` button, the user will be re-directed to the `Family Overview Page <#family-overview-page.>`__.
 
 Adding an Insuree
-"""""""""""""""""
+=================
 
   Click on the Green Plus Sign to re-direct to the `Insuree Page <#insuree-page>`__\.
 
   When the page opens all entry fields are empty. See the `Insuree Page <#insuree-page>`__ for information on the data entry and mandatory fields.
 
 Editing an Insuree
-""""""""""""""""""
+==================
 
   Double-click in the insuree search results to edit in the `Insuree Page <#insuree-page>`__\.
 
   The page will open with the current information loaded into the data entry fields. See the Insuree Page for information on the data entry and mandatory fields.
 
 Deleting an Insuree
-"""""""""""""""""""
+===================
 
   Click on trashcan icon on the right of an insuree search result to delete it.
 

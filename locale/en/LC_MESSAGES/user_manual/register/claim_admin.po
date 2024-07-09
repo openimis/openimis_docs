@@ -1,281 +1,656 @@
-msgid ""
-msgstr "" 
-"Project-Id-Version: openIMIS \n" 
-"Report-Msgid-Bugs-To: \n" 
-"POT-Creation-Date: 2019-08-16 15:21+0200\n" 
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n" 
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n" 
-"Language-Team: LANGUAGE <LL@li.org>\n" 
-"MIME-Version: 1.0\n" 
-"Content-Type: text/plain; charset=UTF-8\n" 
-"Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+msgstr ""
+"Project-Id-Version: openIMIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 17:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../user_manual/register/claim_admin.rst:2
 msgid "Claim Administrators Administration"
 msgstr "Claim Administrators Administration"
 
-msgid "The register contains employees of contractual health facilities responsible for preparation and/or submission of claims. Administration of the register of claim administrators is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Claim Administrators."
-msgstr "The register contains employees of contractual health facilities responsible for preparation and/or submission of claims. Administration of the register of claim administrators is restricted to users with the system role of Scheme Administrator or with a role including an access to Administration/Claim Administrators."
+#: ../../user_manual/register/claim_admin.rst:4
+msgid ""
+"The register contains employees of contractual health facilities "
+"responsible for preparation and/or submission of claims. Administration "
+"of the register of claim administrators is restricted to users with the "
+"system role of Scheme Administrator or with a role including an access to"
+" Administration/Claim Administrators."
+msgstr ""
+"The register contains employees of contractual health facilities "
+"responsible for preparation and/or submission of claims. Administration "
+"of the register of claim administrators is restricted to users with the "
+"system role of Scheme Administrator or with a role including an access to"
+" Administration/Claim Administrators."
 
+#: ../../user_manual/register/claim_admin.rst:7
 msgid "Pre-conditions"
 msgstr "Pre-conditions"
 
-msgid "A claim administrator may be added after the agreement of a contractual health facility and the management of the scheme administration. Entry of a claim administrator in the register of claim administrators doesn’t mean that the claim administrator can login to IMIS. He/she has to be entered also in the register of users. It is facilitated by the ability to create the entry of a claim administrator into the register of claim administrators and the register of users simultaneously."
-msgstr "A claim administrator may be added after the agreement of a contractual health facility and the management of the scheme administration. Entry of a claim administrator in the register of claim administrators doesn’t mean that the claim administrator can login to IMIS. He/she has to be entered also in the register of users. It is facilitated by the ability to create the entry of a claim administrator into the register of claim administrators and the register of users simultaneously."
+#: ../../user_manual/register/claim_admin.rst:9
+msgid ""
+"A claim administrator may be added after the agreement of a contractual "
+"health facility and the management of the scheme administration. Entry of"
+" a claim administrator in the register of claim administrators doesn’t "
+"mean that the claim administrator can login to IMIS. He/she has to be "
+"entered also in the register of users. It is facilitated by the ability "
+"to create the entry of a claim administrator into the register of claim "
+"administrators and the register of users simultaneously."
+msgstr ""
+"A claim administrator may be added after the agreement of a contractual "
+"health facility and the management of the scheme administration. Entry of"
+" a claim administrator in the register of claim administrators doesn’t "
+"mean that the claim administrator can login to IMIS. He/she has to be "
+"entered also in the register of users. It is facilitated by the ability "
+"to create the entry of a claim administrator into the register of claim "
+"administrators and the register of users simultaneously."
 
+#: ../../user_manual/register/claim_admin.rst:12
 msgid "Navigation"
 msgstr "Navigation"
 
-msgid "All functionality for use with the administration of claim administrators can be found under the main menu ``Administration``, submenu ``Claim Administrators``."
-msgstr "All functionality for use with the administration of claim administrators can be found under the main menu ``Administration``, submenu ``Claim Administrators``."
+#: ../../user_manual/register/claim_admin.rst:14
+msgid ""
+"All functionality for use with the administration of claim administrators"
+" can be found under the main menu ``Administration``, submenu ``Claim "
+"Administrators``."
+msgstr ""
+"All functionality for use with the administration of claim administrators"
+" can be found under the main menu ``Administration``, submenu ``Claim "
+"Administrators``."
 
+#: ../../user_manual/register/claim_admin.rst:20
 msgid "`Navigation Claim Administrators`"
 msgstr "`Navigation Claim Administrators`"
 
-msgid "Clicking on the sub menu ``Claim Administrators`` re-directs the current user to the `Claim Administrators Control Page. <#claim-administrators-control-page>`__"
-msgstr "Clicking on the sub menu ``Claim Administrators`` re-directs the current user to the `Claim Administrators Control Page. <#claim-administrators-control-page>`__"
+#: ../../user_manual/register/claim_admin.rst:22
+msgid ""
+"Clicking on the sub menu ``Claim Administrators`` re-directs the current "
+"user to the `Claim Administrators Control Page. <#claim-administrators-"
+"control-page>`__"
+msgstr ""
+"Clicking on the sub menu ``Claim Administrators`` re-directs the current "
+"user to the `Claim Administrators Control Page. <#claim-administrators-"
+"control-page>`__"
 
+#: ../../user_manual/register/claim_admin.rst:28
 msgid "`Claim Administrators Control Page`"
 msgstr "`Claim Administrators Control Page`"
 
+#: ../../user_manual/register/claim_admin.rst:31
 msgid "Claim Administrators Control Page"
 msgstr "Claim Administrators Control Page"
 
-msgid "The ``Claim Administrators Control Page`` is the central point for the administration of all claim administrators. By having access to this panel, it is possible to add, edit, delete and search claim administrators. The panel is divided into four panels (:numref:`image68`)."
-msgstr "The ``Claim Administrators Control Page`` is the central point for the administration of all claim administrators. By having access to this panel, it is possible to add, edit, delete and search claim administrators. The panel is divided into four panels (:numref:`image68`)."
+#: ../../user_manual/register/claim_admin.rst:33
+msgid ""
+"The ``Claim Administrators Control Page`` is the central point for the "
+"administration of all claim administrators. By having access to this "
+"panel, it is possible to add, edit, delete and search claim "
+"administrators. The panel is divided into four panels "
+"(:numref:`image68`)."
+msgstr ""
+"The ``Claim Administrators Control Page`` is the central point for the "
+"administration of all claim administrators. By having access to this "
+"panel, it is possible to add, edit, delete and search claim "
+"administrators. The panel is divided into four panels "
+"(:numref:`image68`)."
 
+#: ../../user_manual/register/claim_admin.rst:35
 msgid "**Search Panel**"
 msgstr "**Search Panel**"
 
-msgid "The search panel allows a user to select specific criteria to minimise the search results. In the case of claim administrators the following search options are available which can be used alone or in combination with each other."
-msgstr "The search panel allows a user to select specific criteria to minimise the search results. In the case of claim administrators the following search options are available which can be used alone or in combination with each other."
+#: ../../user_manual/register/claim_admin.rst:37
+msgid ""
+"The search panel allows a user to select specific criteria to minimise "
+"the search results. In the case of claim administrators the following "
+"search options are available which can be used alone or in combination "
+"with each other."
+msgstr ""
+"The search panel allows a user to select specific criteria to minimise "
+"the search results. In the case of claim administrators the following "
+"search options are available which can be used alone or in combination "
+"with each other."
 
+#: ../../user_manual/register/claim_admin.rst:39
 msgid "``Last Name``"
 msgstr "``Last Name``"
 
-msgid "Type in the beginning of; or the full ``Last name``; to search for claim administrator with a ``Last name``, which starts with or matches completely, the typed text."
-msgstr "Type in the beginning of; or the full ``Last name``; to search for claim administrator with a ``Last name``, which starts with or matches completely, the typed text."
+#: ../../user_manual/register/claim_admin.rst:41
+msgid ""
+"Type in the beginning of; or the full ``Last name``; to search for claim "
+"administrator with a ``Last name``, which starts with or matches "
+"completely, the typed text."
+msgstr ""
+"Type in the beginning of; or the full ``Last name``; to search for claim "
+"administrator with a ``Last name``, which starts with or matches "
+"completely, the typed text."
 
+#: ../../user_manual/register/claim_admin.rst:43
+#: ../../user_manual/register/claim_admin.rst:153
 msgid "``Code``"
 msgstr "``Code``"
 
-msgid "Type in the beginning of; or the full ``Code`` to search for claim administrator with a ``Code``, which starts with or matches completely, the typed text."
-msgstr "Type in the beginning of; or the full ``Code`` to search for claim administrator with a ``Code``, which starts with or matches completely, the typed text."
+#: ../../user_manual/register/claim_admin.rst:45
+msgid ""
+"Type in the beginning of; or the full ``Code`` to search for claim "
+"administrator with a ``Code``, which starts with or matches completely, "
+"the typed text."
+msgstr ""
+"Type in the beginning of; or the full ``Code`` to search for claim "
+"administrator with a ``Code``, which starts with or matches completely, "
+"the typed text."
 
+#: ../../user_manual/register/claim_admin.rst:47
+#: ../../user_manual/register/claim_admin.rst:161
 msgid "``Other Names``"
 msgstr "``Other Names``"
 
-msgid "Type in the beginning of; or the full ``Other Names`` to search for claim administrator with ``Other Names`` which starts with or matches completely, the typed text."
-msgstr "Type in the beginning of; or the full ``Other Names`` to search for claim administrator with ``Other Names`` which starts with or matches completely, the typed text."
+#: ../../user_manual/register/claim_admin.rst:49
+msgid ""
+"Type in the beginning of; or the full ``Other Names`` to search for claim"
+" administrator with ``Other Names`` which starts with or matches "
+"completely, the typed text."
+msgstr ""
+"Type in the beginning of; or the full ``Other Names`` to search for claim"
+" administrator with ``Other Names`` which starts with or matches "
+"completely, the typed text."
 
+#: ../../user_manual/register/claim_admin.rst:51
 msgid "``Birth Date From``"
 msgstr "``Birth Date From``"
 
-msgid "Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for claim administrators having the same or later birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
-msgstr "Type in a date; or use the Date Selector Button, to enter the ``Birth Date From`` to search for claim administrators having the same or later birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+#: ../../user_manual/register/claim_admin.rst:53
+msgid ""
+"Type in a date; or use the Date Selector Button, to enter the ``Birth "
+"Date From`` to search for claim administrators having the same or later "
+"birth date. *Note. To clear the date entry box; use the mouse to "
+"highlight the full date and then press the space key.*"
+msgstr ""
+"Type in a date; or use the Date Selector Button, to enter the ``Birth "
+"Date From`` to search for claim administrators having the same or later "
+"birth date. *Note. To clear the date entry box; use the mouse to "
+"highlight the full date and then press the space key.*"
 
+#: ../../user_manual/register/claim_admin.rst:55
 msgid "``Birth Date To``"
 msgstr "``Birth Date To``"
 
-msgid "Type in a date; or use the Date Selector Button, to enter the Birth Date To to search for claim administrators having the same or earlier birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
-msgstr "Type in a date; or use the Date Selector Button, to enter the Birth Date To to search for claim administrators having the same or earlier birth date. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+#: ../../user_manual/register/claim_admin.rst:57
+msgid ""
+"Type in a date; or use the Date Selector Button, to enter the Birth Date "
+"To to search for claim administrators having the same or earlier birth "
+"date. *Note. To clear the date entry box; use the mouse to highlight the "
+"full date and then press the space key.*"
+msgstr ""
+"Type in a date; or use the Date Selector Button, to enter the Birth Date "
+"To to search for claim administrators having the same or earlier birth "
+"date. *Note. To clear the date entry box; use the mouse to highlight the "
+"full date and then press the space key.*"
 
+#: ../../user_manual/register/claim_admin.rst:59
 msgid "``Date Selector Button``"
 msgstr "``Date Selector Button``"
 
-msgid "Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image69`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted."
-msgstr "Clicking on the ``Date Selector Button`` will pop-up an easy to use, calendar selector (:numref:`image69`); by default the calendar will show the current month, or the month of the currently selected date, with the current day highlighted."
+#: ../../user_manual/register/claim_admin.rst:61
+msgid ""
+"Clicking on the ``Date Selector Button`` will pop-up an easy to use, "
+"calendar selector (:numref:`image69`); by default the calendar will show "
+"the current month, or the month of the currently selected date, with the "
+"current day highlighted."
+msgstr ""
+"Clicking on the ``Date Selector Button`` will pop-up an easy to use, "
+"calendar selector (:numref:`image69`); by default the calendar will show "
+"the current month, or the month of the currently selected date, with the "
+"current day highlighted."
 
-msgid "At any time during the use of the pop-up, the user can see the date of *today*."
-msgstr "At any time during the use of the pop-up, the user can see the date of *today*."
+#: ../../user_manual/register/claim_admin.rst:63
+#, fuzzy
+msgid ""
+"At any time during the use of the pop-up, the user can see the date of "
+"*today* ."
+msgstr ""
+"At any time during the use of the pop-up, the user can see the date of "
+"*today*."
 
-msgid "Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box."
-msgstr "Clicking on *today* will close the pop-up and display the today’s date in the corresponding date entry box."
+#: ../../user_manual/register/claim_admin.rst:64
+msgid ""
+"Clicking on *today* will close the pop-up and display the today’s date in"
+" the corresponding date entry box."
+msgstr ""
+"Clicking on *today* will close the pop-up and display the today’s date in"
+" the corresponding date entry box."
 
-msgid "Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box."
-msgstr "Clicking on any day of the month will close the pop-up and display the date selected in the corresponding date entry box."
+#: ../../user_manual/register/claim_admin.rst:65
+msgid ""
+"Clicking on any day of the month will close the pop-up and display the "
+"date selected in the corresponding date entry box."
+msgstr ""
+"Clicking on any day of the month will close the pop-up and display the "
+"date selected in the corresponding date entry box."
 
+#: ../../user_manual/register/claim_admin.rst:66
 msgid "Clicking on the arrow to the left displays the previous month."
 msgstr "Clicking on the arrow to the left displays the previous month."
 
+#: ../../user_manual/register/claim_admin.rst:67
 msgid "Clicking on the arrow on the right will displays the following month."
 msgstr "Clicking on the arrow on the right will displays the following month."
 
+#: ../../user_manual/register/claim_admin.rst:68
 msgid "Clicking on the month will display all the months for the year."
 msgstr "Clicking on the month will display all the months for the year."
 
+#: ../../user_manual/register/claim_admin.rst:69
 msgid "Clicking on the year will display a year selector."
 msgstr "Clicking on the year will display a year selector."
 
+#: ../../user_manual/register/claim_admin.rst:83
 msgid "|logo21|"
 msgstr "|logo21|"
 
+#: ../../user_manual/register/claim_admin.rst:83
 msgid "|logo22|"
 msgstr "|logo22|"
 
+#: ../../user_manual/register/claim_admin.rst:83
 msgid "|logo23|"
 msgstr "|logo23|"
 
+#: ../../user_manual/register/claim_admin.rst:86
 msgid "`Calendar Selector - Search Panel`"
 msgstr "`Calendar Selector - Search Panel`"
 
+#: ../../user_manual/register/claim_admin.rst:88
+#: ../../user_manual/register/claim_admin.rst:177
 msgid "``HF Code``"
 msgstr "``HF Code``"
 
-msgid "Select ``HF Code`` (a health facility code); from the list of health facility codes by clicking on the arrow on the right of the selector to select claim administrators from a specific health facility. *Note: The list will only be filled with the health facilities from districts which are assigned to the current logged in user.*"
-msgstr "Select ``HF Code`` (a health facility code); from the list of health facility codes by clicking on the arrow on the right of the selector to select claim administrators from a specific health facility. *Note: The list will only be filled with the health facilities from districts which are assigned to the current logged in user.*"
+#: ../../user_manual/register/claim_admin.rst:90
+msgid ""
+"Select ``HF Code`` (a health facility code); from the list of health "
+"facility codes by clicking on the arrow on the right of the selector to "
+"select claim administrators from a specific health facility. *Note: The "
+"list will only be filled with the health facilities from districts which "
+"are assigned to the current logged in user.*"
+msgstr ""
+"Select ``HF Code`` (a health facility code); from the list of health "
+"facility codes by clicking on the arrow on the right of the selector to "
+"select claim administrators from a specific health facility. *Note: The "
+"list will only be filled with the health facilities from districts which "
+"are assigned to the current logged in user.*"
 
+#: ../../user_manual/register/claim_admin.rst:92
+#: ../../user_manual/register/claim_admin.rst:169
 msgid "``Phone Number``"
 msgstr "``Phone Number``"
 
-msgid "Type in the beginning of; or the full ``Phone Number`` to search for claim administrators with a ``Phone Number``, which starts with or matches completely, the typed number."
-msgstr "Type in the beginning of; or the full ``Phone Number`` to search for claim administrators with a ``Phone Number``, which starts with or matches completely, the typed number."
+#: ../../user_manual/register/claim_admin.rst:94
+msgid ""
+"Type in the beginning of; or the full ``Phone Number`` to search for "
+"claim administrators with a ``Phone Number``, which starts with or "
+"matches completely, the typed number."
+msgstr ""
+"Type in the beginning of; or the full ``Phone Number`` to search for "
+"claim administrators with a ``Phone Number``, which starts with or "
+"matches completely, the typed number."
 
+#: ../../user_manual/register/claim_admin.rst:96
+#: ../../user_manual/register/claim_admin.rst:173
 msgid "``Email``"
 msgstr "``Email``"
 
-msgid "Type in the beginning of; or the full ``email`` to search for claim administrators with an e-mail\\ , which starts with or matches completely, the typed text."
-msgstr "Type in the beginning of; or the full ``email`` to search for claim administrators with an e-mail\\ , which starts with or matches completely, the typed text."
+#: ../../user_manual/register/claim_admin.rst:98
+msgid ""
+"Type in the beginning of; or the full ``email`` to search for claim "
+"administrators with an e-mail\\ , which starts with or matches "
+"completely, the typed text."
+msgstr ""
+"Type in the beginning of; or the full ``email`` to search for claim "
+"administrators with an e-mail\\ , which starts with or matches "
+"completely, the typed text."
 
+#: ../../user_manual/register/claim_admin.rst:100
 msgid "``Historical``"
 msgstr "``Historical``"
 
-msgid "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image Insuree Enquiry Results <insuree_card_img>`)."
-msgstr "Click on ``Historical`` to see historical records matching the selected criteria. Historical records are displayed in the result with a line through the middle of the text (strikethrough) to clearly define them from current records (:ref:`Image Insuree Enquiry Results <insuree_card_img>`)."
+#: ../../user_manual/register/claim_admin.rst:102
+msgid ""
+"Click on ``Historical`` to see historical records matching the selected "
+"criteria. Historical records are displayed in the result with a line "
+"through the middle of the text (strikethrough) to clearly define them "
+"from current records (:ref:`Image Insuree Enquiry Results "
+"<insuree_card_img>`)."
+msgstr ""
+"Click on ``Historical`` to see historical records matching the selected "
+"criteria. Historical records are displayed in the result with a line "
+"through the middle of the text (strikethrough) to clearly define them "
+"from current records (:ref:`Image Insuree Enquiry Results "
+"<insuree_card_img>`)."
 
+#: ../../user_manual/register/claim_admin.rst:108
 msgid "`Historical records - Result Panel`"
 msgstr "`Historical records - Result Panel`"
 
+#: ../../user_manual/register/claim_admin.rst:110
 msgid "``Search Button``"
 msgstr "``Search Button``"
 
-msgid "Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel."
-msgstr "Once the criteria have been entered, use the search button to filter the records, the results will appear in the Result Panel."
+#: ../../user_manual/register/claim_admin.rst:112
+msgid ""
+"Once the criteria have been entered, use the search button to filter the "
+"records, the results will appear in the Result Panel."
+msgstr ""
+"Once the criteria have been entered, use the search button to filter the "
+"records, the results will appear in the Result Panel."
 
+#: ../../user_manual/register/claim_admin.rst:114
 msgid "**Result Panel**"
 msgstr "**Result Panel**"
 
-msgid "The Result Panel displays a list of all claim administrators found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image71`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
-msgstr "The Result Panel displays a list of all claim administrators found, matching the selected criteria in the search panel. The currently selected record is highlighted with light blue, while hovering over records changes the highlight to yellow (:numref:`image71`). The leftmost record contains a hyperlink which if clicked, re-directs the user to the actual record for detailed viewing if it is a historical record or editing if it is the current record."
+#: ../../user_manual/register/claim_admin.rst:116
+msgid ""
+"The Result Panel displays a list of all claim administrators found, "
+"matching the selected criteria in the search panel. The currently "
+"selected record is highlighted with light blue, while hovering over "
+"records changes the highlight to yellow (:numref:`image71`). The leftmost"
+" record contains a hyperlink which if clicked, re-directs the user to the"
+" actual record for detailed viewing if it is a historical record or "
+"editing if it is the current record."
+msgstr ""
+"The Result Panel displays a list of all claim administrators found, "
+"matching the selected criteria in the search panel. The currently "
+"selected record is highlighted with light blue, while hovering over "
+"records changes the highlight to yellow (:numref:`image71`). The leftmost"
+" record contains a hyperlink which if clicked, re-directs the user to the"
+" actual record for detailed viewing if it is a historical record or "
+"editing if it is the current record."
 
+#: ../../user_manual/register/claim_admin.rst:122
 msgid "`Selected record (blue), hovered records (yellow) - Result Panel`"
 msgstr "`Selected record (blue), hovered records (yellow) - Result Panel`"
 
-msgid "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image72`)"
-msgstr "A maximum of 15 records are displayed at one time, further records can be viewed by navigating through the pages using the page selector at the bottom of the result Panel (:numref:`image72`)"
+#: ../../user_manual/register/claim_admin.rst:124
+msgid ""
+"A maximum of 15 records are displayed at one time, further records can be"
+" viewed by navigating through the pages using the page selector at the "
+"bottom of the result Panel (:numref:`image72`)"
+msgstr ""
+"A maximum of 15 records are displayed at one time, further records can be"
+" viewed by navigating through the pages using the page selector at the "
+"bottom of the result Panel (:numref:`image72`)"
 
+#: ../../user_manual/register/claim_admin.rst:130
 msgid "`Page selector- Result Panel`"
 msgstr "`Page selector- Result Panel`"
 
+#: ../../user_manual/register/claim_admin.rst:132
 msgid "**Button Panel**"
 msgstr "**Button Panel**"
 
-msgid "With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button."
-msgstr "With exception of the ``Cancel`` button, which re-directs to the :ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and ``Delete``) is used in conjunction with the current selected record (highlighted with blue). The user should first select a record by clicking on any position of the record except the leftmost hyperlink, and then click on the button."
+#: ../../user_manual/register/claim_admin.rst:134
+msgid ""
+"With exception of the ``Cancel`` button, which re-directs to the "
+":ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and "
+"``Delete``) is used in conjunction with the current selected record "
+"(highlighted with blue). The user should first select a record by "
+"clicking on any position of the record except the leftmost hyperlink, and"
+" then click on the button."
+msgstr ""
+"With exception of the ``Cancel`` button, which re-directs to the "
+":ref:`Home Page <home_page>`, the button panel (the buttons ``Edit`` and "
+"``Delete``) is used in conjunction with the current selected record "
+"(highlighted with blue). The user should first select a record by "
+"clicking on any position of the record except the leftmost hyperlink, and"
+" then click on the button."
 
+#: ../../user_manual/register/claim_admin.rst:136
 msgid "**Information Panel**"
 msgstr "**Information Panel**"
 
-msgid "The Information Panel is used to display messages back to the user. Messages will occur once an officer has been added, updated or deleted or if there was an error at any time during the process of these actions."
-msgstr "The Information Panel is used to display messages back to the user. Messages will occur once an officer has been added, updated or deleted or if there was an error at any time during the process of these actions."
+#: ../../user_manual/register/claim_admin.rst:138
+msgid ""
+"The Information Panel is used to display messages back to the user. "
+"Messages will occur once an officer has been added, updated or deleted or"
+" if there was an error at any time during the process of these actions."
+msgstr ""
+"The Information Panel is used to display messages back to the user. "
+"Messages will occur once an officer has been added, updated or deleted or"
+" if there was an error at any time during the process of these actions."
 
+#: ../../user_manual/register/claim_admin.rst:141
 msgid "Claim Administrator Page"
 msgstr "Claim Administrator Page"
 
+#: ../../user_manual/register/claim_admin.rst:143
 msgid "**Data Entry**"
 msgstr "**Data Entry**"
 
+#: ../../user_manual/register/claim_admin.rst:149
 msgid "`Claim Administrator Page`"
 msgstr "`Claim Administrator Page`"
 
+#: ../../user_manual/register/claim_admin.rst:151
 msgid "``claim administrator details``"
 msgstr "``claim administrator details``"
 
-msgid "Enter the code for the claim administrator. Mandatory, 8 characters maximum."
-msgstr "Enter the code for the claim administrator. Mandatory, 8 characters maximum."
+#: ../../user_manual/register/claim_admin.rst:155
+msgid ""
+"Enter the code for the claim administrator. Mandatory, 8 characters "
+"maximum."
+msgstr ""
+"Enter the code for the claim administrator. Mandatory, 8 characters "
+"maximum."
 
+#: ../../user_manual/register/claim_admin.rst:157
 msgid "``Last name``"
 msgstr "``Last name``"
 
-msgid "Enter the last name (surname) for the claim administrator. Mandatory, 100 characters maximum."
-msgstr "Enter the last name (surname) for the claim administrator. Mandatory, 100 characters maximum."
+#: ../../user_manual/register/claim_admin.rst:159
+msgid ""
+"Enter the last name (surname) for the claim administrator. Mandatory, 100"
+" characters maximum."
+msgstr ""
+"Enter the last name (surname) for the claim administrator. Mandatory, 100"
+" characters maximum."
 
-msgid "Enter other names of the claim administrator. Mandatory, 100 characters maximum."
-msgstr "Enter other names of the claim administrator. Mandatory, 100 characters maximum."
+#: ../../user_manual/register/claim_admin.rst:163
+msgid ""
+"Enter other names of the claim administrator. Mandatory, 100 characters "
+"maximum."
+msgstr ""
+"Enter other names of the claim administrator. Mandatory, 100 characters "
+"maximum."
 
+#: ../../user_manual/register/claim_admin.rst:165
 msgid "``Date of Birth``"
 msgstr "``Date of Birth``"
 
-msgid "Enter the date of birth for the claim administrator. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
-msgstr "Enter the date of birth for the claim administrator. *Note. To clear the date entry box; use the mouse to highlight the full date and then press the space key.*"
+#: ../../user_manual/register/claim_admin.rst:167
+msgid ""
+"Enter the date of birth for the claim administrator. *Note. To clear the "
+"date entry box; use the mouse to highlight the full date and then press "
+"the space key.*"
+msgstr ""
+"Enter the date of birth for the claim administrator. *Note. To clear the "
+"date entry box; use the mouse to highlight the full date and then press "
+"the space key.*"
 
+#: ../../user_manual/register/claim_admin.rst:171
 msgid "Enter the phone number for the claim administrator. 50 characters maximum."
 msgstr "Enter the phone number for the claim administrator. 50 characters maximum."
 
+#: ../../user_manual/register/claim_admin.rst:175
 msgid "Enter the e-mail for the claim administrator. 50 characters maximum."
 msgstr "Enter the e-mail for the claim administrator. 50 characters maximum."
 
-msgid "Select from the list of available health facilities the health facility which the claim administrator will have access to and will act for. Mandatory."
-msgstr "Select from the list of available health facilities the health facility which the claim administrator will have access to and will act for. Mandatory."
+#: ../../user_manual/register/claim_admin.rst:179
+msgid ""
+"Select from the list of available health facilities the health facility "
+"which the claim administrator will have access to and will act for. "
+"Mandatory."
+msgstr ""
+"Select from the list of available health facilities the health facility "
+"which the claim administrator will have access to and will act for. "
+"Mandatory."
 
+#: ../../user_manual/register/claim_admin.rst:181
 msgid "``Include Login``"
 msgstr "``Include Login``"
 
-msgid "Enable the claim administrator to use openIMIS web by creating web credentials (claim administrators primary interface is the claim application running on android device that doesn't require openIMIS user), the change must be saved to be taken into account."
-msgstr "Enable the claim administrator to use openIMIS web by creating web credentials (claim administrators primary interface is the claim application running on android device that doesn't require openIMIS user), the change must be saved to be taken into account."
+#: ../../user_manual/register/claim_admin.rst:183
+msgid ""
+"Enable the claim administrator to use openIMIS web by creating web "
+"credentials (claim administrators primary interface is the claim "
+"application running on android device that doesn't require openIMIS "
+"user), the change must be saved to be taken into account."
+msgstr ""
+"Enable the claim administrator to use openIMIS web by creating web "
+"credentials (claim administrators primary interface is the claim "
+"application running on android device that doesn't require openIMIS "
+"user), the change must be saved to be taken into account."
 
+#: ../../user_manual/register/claim_admin.rst:189
 msgid "`Image - Claim Administrator Login`"
 msgstr "`Image - Claim Administrator Login`"
 
-msgid "Once the login is created, it will be visible in the `User Control Page <#user-control-page>`__"
-msgstr "Once the login is created, it will be visible in the `User Control Page <#user-control-page>`__"
+#: ../../user_manual/register/claim_admin.rst:191
+msgid ""
+"Once the login is created, it will be visible in the `User Control Page "
+"<#user-control-page>`__"
+msgstr ""
+"Once the login is created, it will be visible in the `User Control Page "
+"<#user-control-page>`__"
 
+#: ../../user_manual/register/claim_admin.rst:193
 msgid "**Saving**"
 msgstr "**Saving**"
 
-msgid "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Claim Administrators Control Page <#claim-administrators-control-page>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the claim administrator has been saved will appear on the Information Panel."
-msgstr "Once all mandatory data is entered, clicking on the ``Save`` button will save the record. The user will be re-directed back to the `Claim Administrators Control Page <#claim-administrators-control-page>`__, with the newly saved record displayed and selected in the result panel. A message confirming that the claim administrator has been saved will appear on the Information Panel."
+#: ../../user_manual/register/claim_admin.rst:195
+msgid ""
+"Once all mandatory data is entered, clicking on the ``Save`` button will "
+"save the record. The user will be re-directed back to the `Claim "
+"Administrators Control Page <#claim-administrators-control-page>`__, with"
+" the newly saved record displayed and selected in the result panel. A "
+"message confirming that the claim administrator has been saved will "
+"appear on the Information Panel."
+msgstr ""
+"Once all mandatory data is entered, clicking on the ``Save`` button will "
+"save the record. The user will be re-directed back to the `Claim "
+"Administrators Control Page <#claim-administrators-control-page>`__, with"
+" the newly saved record displayed and selected in the result panel. A "
+"message confirming that the claim administrator has been saved will "
+"appear on the Information Panel."
 
+#: ../../user_manual/register/claim_admin.rst:197
 msgid "**Mandatory data**"
 msgstr "**Mandatory data**"
 
-msgid "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk on the right side of the corresponding field)."
-msgstr "If mandatory data is not entered at the time the user clicks the ``Save`` button, a message will appear in the Information Panel, and the data field will take the focus (by an asterisk on the right side of the corresponding field)."
+#: ../../user_manual/register/claim_admin.rst:199
+msgid ""
+"If mandatory data is not entered at the time the user clicks the ``Save``"
+" button, a message will appear in the Information Panel, and the data "
+"field will take the focus (by an asterisk on the right side of the "
+"corresponding field)."
+msgstr ""
+"If mandatory data is not entered at the time the user clicks the ``Save``"
+" button, a message will appear in the Information Panel, and the data "
+"field will take the focus (by an asterisk on the right side of the "
+"corresponding field)."
 
+#: ../../user_manual/register/claim_admin.rst:201
 msgid "**Cancel**"
 msgstr "**Cancel**"
 
-msgid "By clicking on the Cancel button, the user will be re-directed to the `Claim Administrators Control Page <#claim-administrators-control-page>`__."
-msgstr "By clicking on the Cancel button, the user will be re-directed to the `Claim Administrators Control Page <#claim-administrators-control-page>`__."
+#: ../../user_manual/register/claim_admin.rst:203
+msgid ""
+"By clicking on the Cancel button, the user will be re-directed to the "
+"`Claim Administrators Control Page <#claim-administrators-control-"
+"page>`__."
+msgstr ""
+"By clicking on the Cancel button, the user will be re-directed to the "
+"`Claim Administrators Control Page <#claim-administrators-control-"
+"page>`__."
 
+#: ../../user_manual/register/claim_admin.rst:206
 msgid "Adding a Claim Administrator"
 msgstr "Adding a Claim Administrator"
 
-msgid "Click on the ``Add`` button to re-direct to the `Claim Administrator Page <#claim-administrator-page>`__\\ ."
-msgstr "Click on the ``Add`` button to re-direct to the `Claim Administrator Page <#claim-administrator-page>`__\\ ."
+#: ../../user_manual/register/claim_admin.rst:208
+msgid ""
+"Click on the ``Add`` button to re-direct to the `Claim Administrator Page"
+" <#claim-administrator-page>`__\\ ."
+msgstr ""
+"Click on the ``Add`` button to re-direct to the `Claim Administrator Page"
+" <#claim-administrator-page>`__\\ ."
 
-msgid "When the page opens all entry fields are empty. See the `Claim Administrator Page <#claim-administrator-page>`__ for information on the data entry and mandatory fields"
-msgstr "When the page opens all entry fields are empty. See the `Claim Administrator Page <#claim-administrator-page>`__ for information on the data entry and mandatory fields"
+#: ../../user_manual/register/claim_admin.rst:210
+msgid ""
+"When the page opens all entry fields are empty. See the `Claim "
+"Administrator Page <#claim-administrator-page>`__ for information on the "
+"data entry and mandatory fields"
+msgstr ""
+"When the page opens all entry fields are empty. See the `Claim "
+"Administrator Page <#claim-administrator-page>`__ for information on the "
+"data entry and mandatory fields"
 
+#: ../../user_manual/register/claim_admin.rst:213
 msgid "Editing a Claim Administrator"
 msgstr "Editing a Claim Administrator"
 
-msgid "Click on the ``Edit`` button to re-direct to the `Claim Administrator Page <#claim-administrator-page>`__\\ .."
-msgstr "Click on the ``Edit`` button to re-direct to the `Claim Administrator Page <#claim-administrator-page>`__\\ .."
+#: ../../user_manual/register/claim_admin.rst:215
+msgid ""
+"Click on the ``Edit`` button to re-direct to the `Claim Administrator "
+"Page <#claim-administrator-page>`__\\ .."
+msgstr ""
+"Click on the ``Edit`` button to re-direct to the `Claim Administrator "
+"Page <#claim-administrator-page>`__\\ .."
 
-msgid "The page will open with the current information loaded into the data entry fields. See the `Claim Administrator Page <#claim-administrator-page>`__ for information on the data entry and mandatory fields"
-msgstr "The page will open with the current information loaded into the data entry fields. See the `Claim Administrator Page <#claim-administrator-page>`__ for information on the data entry and mandatory fields"
+#: ../../user_manual/register/claim_admin.rst:217
+msgid ""
+"The page will open with the current information loaded into the data "
+"entry fields. See the `Claim Administrator Page <#claim-administrator-"
+"page>`__ for information on the data entry and mandatory fields"
+msgstr ""
+"The page will open with the current information loaded into the data "
+"entry fields. See the `Claim Administrator Page <#claim-administrator-"
+"page>`__ for information on the data entry and mandatory fields"
 
+#: ../../user_manual/register/claim_admin.rst:220
 msgid "Deleting a Claim Administrator"
 msgstr "Deleting a Claim Administrator"
 
+#: ../../user_manual/register/claim_admin.rst:222
 msgid "Click on the ``Delete`` button to delete the currently selected record"
 msgstr "Click on the ``Delete`` button to delete the currently selected record"
 
-msgid "Before deleting a confirmation popup (:numref:`image74`) is displayed, which requires the user to confirm if the action should really be carried out."
-msgstr "Before deleting a confirmation popup (:numref:`image74`) is displayed, which requires the user to confirm if the action should really be carried out."
+#: ../../user_manual/register/claim_admin.rst:224
+msgid ""
+"Before deleting a confirmation popup (:numref:`image74`) is displayed, "
+"which requires the user to confirm if the action should really be carried"
+" out."
+msgstr ""
+"Before deleting a confirmation popup (:numref:`image74`) is displayed, "
+"which requires the user to confirm if the action should really be carried"
+" out."
 
+#: ../../user_manual/register/claim_admin.rst:230
 msgid "`Delete confirmation- Button Panel`"
 msgstr "`Delete confirmation- Button Panel`"
 
-msgid "When a claim administrator is deleted, all records retaining to the deleted claim administrator will still be available by selecting historical records."
-msgstr "When a claim administrator is deleted, all records retaining to the deleted claim administrator will still be available by selecting historical records."
+#: ../../user_manual/register/claim_admin.rst:232
+msgid ""
+"When a claim administrator is deleted, all records retaining to the "
+"deleted claim administrator will still be available by selecting "
+"historical records."
+msgstr ""
+"When a claim administrator is deleted, all records retaining to the "
+"deleted claim administrator will still be available by selecting "
+"historical records."
+
