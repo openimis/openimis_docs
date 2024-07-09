@@ -56,14 +56,14 @@ Search Page
 
   4. Result pane
 
-    the columns name definiction matches with the search criteria definitions
+    the columns name definition matches with the search criteria definitions
 
     the rows are the search results
 
 
   5. Edit policyholder
 
-    as doubleclick on the line, clicking on that button will open the policyholder Page
+    as double click on the line, clicking on that button will open the policyholder Page
     
   6. Delete policyhodler
 

@@ -71,7 +71,7 @@ Confirmation pop up is displayed
 
 6. Edit policyholder
 
-As doubleclick on the line, clicking on that button will open the policyholder Page
+As double click on the line, clicking on that button will open the policyholder Page
 
 7. standard notification panel for async message (deletion / creation / updates ... )
 

@@ -54,7 +54,7 @@ The Batch Run Control Page is the central point for batch processing administrat
   Month
     Select the ``Month`` from the list of months by clicking on the arrow on the right of the selector.
 
-    The Month at the end of the quarter process the claim for insuree having a product with Quaterly distribution (:ref:`Product Page <product_distribution>`):
+    The Month at the end of the quarter process the claim for insuree having a product with Quaterly distribution (:ref:`Payment Plan <payment-plans>`):
 
       * March     --> Process the claim for first quatrer
 
@@ -64,7 +64,7 @@ The Batch Run Control Page is the central point for batch processing administrat
 
       * December  --> Process the claim for Fourth quatrer
 
-    December process the claim for insuree having a product with Yearly distribution (:ref:`Product Page <product_distribution>`)
+    December process the claim for insuree having a product with Yearly distribution (:ref:`Payment Plan <Payment-Plans>`)
 
 
   Process
